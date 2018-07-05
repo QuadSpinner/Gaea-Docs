@@ -1,3 +1,6 @@
-|Setting|Values|Description|
-|-------|------|-----------|
-|Direction|Horizontal, Vertical, Both||
+| Setting | Values | Description |
+| :--- | :--- | :--- |
+| **Direction** |||
+| | *Horizontal* ||
+| | *Vertical* ||
+| | *Both* ||

@@ -1,3 +1,3 @@
-|Setting|Values|Description|
-|-------|------|-----------|
-|Amount|0-0.15||
+| Setting | Values | Description |
+| :--- | :--- | :--- |
+| **Amount** | 0-0.15 ||

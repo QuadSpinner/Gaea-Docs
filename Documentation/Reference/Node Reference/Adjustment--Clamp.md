@@ -1,5 +1,8 @@
-|Setting|Values|Description|
-|-------|------|-----------|
-|Min|0-1||
-|Max|0-1||
-|Operation|Clamp, Clip, Extend||
+| Setting | Values | Description |
+| :--- | :--- | :--- |
+| **Min** | 0-1 ||
+| **Max** | 0-1 ||
+| **Operation** |||
+| | *Clamp* ||
+| | *Clip* ||
+| | *Extend* ||

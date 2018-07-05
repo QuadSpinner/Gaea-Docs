@@ -1,3 +1,3 @@
-|Setting|Values|Description|
-|-------|------|-----------|
-|Level|0-1||
+| Setting | Values | Description |
+| :--- | :--- | :--- |
+| **Level** | 0-1 ||

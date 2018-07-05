@@ -1,3 +1,3 @@
-|Setting|Values|Description|
-|-------|------|-----------|
-|Height|0-1||
+| Setting | Values | Description |
+| :--- | :--- | :--- |
+| **Height** | 0-1 ||
