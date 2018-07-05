@@ -1,32 +1,32 @@
-| Setting | Values | Description |
-| :--- | :--- | :--- |
-| **Y Scale** | 0-1 ||
-| **Influence** | 0-1 ||
-| **Sea Level** | 0-1 ||
-| **Highlands** | 0-1 ||
-| **Midlands** | 0-1 ||
-| **Lowlands** | 0-1 ||
-| **Jitter** | *True or False* ||
-| **Water Bodies** | *True or False* ||
-| **Seed** | 0-128000 ||
-| **Ocean** | Color ||
-| **Coast** | Color ||
-| **Lake Shore** | Color ||
-| **Lake** | Color ||
-| **River** | Color ||
-| **Marsh** | Color ||
-| **Ice** | Color ||
-| **Beach** | Color ||
-| **Snow** | Color ||
-| **Tundra** | Color ||
-| **Bare** | Color ||
-| **Scorched** | Color ||
-| **Taiga** | Color ||
-| **Shrubland** | Color ||
-| **Temperate Desert** | Color ||
-| **Temperate Rainforest** | Color ||
-| **Temperate Deciduous Forest** | Color ||
-| **Grassland** | Color ||
-| **Subtropical Desert** | Color ||
-| **Tropical Rainforest** | Color ||
-| **Tropical Seasonal Forest** | Color ||
+| Setting                        | Values          | Description |
+| :----------------------------- | :-------------- | :---------- |
+| **Y Scale**                    | 0.00 - 1.00     | Lorem ipsum |
+| **Influence**                  | 0.00 - 1.00     | Lorem ipsum |
+| **Sea Level**                  | 0.00 - 1.00     | Lorem ipsum |
+| **Highlands**                  | 0.00 - 1.00     | Lorem ipsum |
+| **Midlands**                   | 0.00 - 1.00     | Lorem ipsum |
+| **Lowlands**                   | 0.00 - 1.00     | Lorem ipsum |
+| **Jitter**                     | *True or False* | Lorem ipsum |
+| **Water Bodies**               | *True or False* | Lorem ipsum |
+| **Seed**                       | 0 - 128000      | Lorem ipsum |
+| **Ocean**                      | Color           | Lorem ipsum |
+| **Coast**                      | Color           | Lorem ipsum |
+| **Lake Shore**                 | Color           | Lorem ipsum |
+| **Lake**                       | Color           | Lorem ipsum |
+| **River**                      | Color           | Lorem ipsum |
+| **Marsh**                      | Color           | Lorem ipsum |
+| **Ice**                        | Color           | Lorem ipsum |
+| **Beach**                      | Color           | Lorem ipsum |
+| **Snow**                       | Color           | Lorem ipsum |
+| **Tundra**                     | Color           | Lorem ipsum |
+| **Bare**                       | Color           | Lorem ipsum |
+| **Scorched**                   | Color           | Lorem ipsum |
+| **Taiga**                      | Color           | Lorem ipsum |
+| **Shrubland**                  | Color           | Lorem ipsum |
+| **Temperate Desert**           | Color           | Lorem ipsum |
+| **Temperate Rainforest**       | Color           | Lorem ipsum |
+| **Temperate Deciduous Forest** | Color           | Lorem ipsum |
+| **Grassland**                  | Color           | Lorem ipsum |
+| **Subtropical Desert**         | Color           | Lorem ipsum |
+| **Tropical Rainforest**        | Color           | Lorem ipsum |
+| **Tropical Seasonal Forest**   | Color           | Lorem ipsum |

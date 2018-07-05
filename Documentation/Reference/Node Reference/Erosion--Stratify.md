@@ -1,5 +1,5 @@
-| Setting | Values | Description |
-| :--- | :--- | :--- |
-| **Strength** | 0-0.3 ||
-| **Substrata** | 0-1 ||
-| **Filtered** | *True or False* ||
+| Setting       | Values          | Description |
+| :------------ | :-------------- | :---------- |
+| **Strength**  | 0.00 - 0.30     | Lorem ipsum |
+| **Substrata** | 0.00 - 1.00     | Lorem ipsum |
+| **Filtered**  | *True or False* | Lorem ipsum |

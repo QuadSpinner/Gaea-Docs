@@ -1,5 +1,5 @@
-| Setting | Values | Description |
-| :--- | :--- | :--- |
-| **Margin** | 0-100 ||
-| **Falloff** | 0-100 ||
-| **Auto** | *True or False* ||
+| Setting     | Values          | Description |
+| :---------- | :-------------- | :---------- |
+| **Margin**  | 0 - 100         | Lorem ipsum |
+| **Falloff** | 0 - 100         | Lorem ipsum |
+| **Auto**    | *True or False* | Lorem ipsum |

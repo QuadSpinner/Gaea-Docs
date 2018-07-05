@@ -1,7 +1,7 @@
-| Setting | Values | Description |
-| :--- | :--- | :--- |
-| **Power** | 1-50 ||
-| **Amount** | 0-1 ||
-| **Drift** | *True or False* ||
-| **Strength** | 0-1 ||
-| **Seed** | 0-128000 ||
+| Setting      | Values          | Description |
+| :----------- | :-------------- | :---------- |
+| **Power**    | 1 - 50          | Lorem ipsum |
+| **Amount**   | 0.00 - 1.00     | Lorem ipsum |
+| **Drift**    | *True or False* | Lorem ipsum |
+| **Strength** | 0.00 - 1.00     | Lorem ipsum |
+| **Seed**     | 0 - 128000      | Lorem ipsum |

@@ -1,9 +1,9 @@
-| Setting | Values | Description |
-| :--- | :--- | :--- |
-| **Steepness** | 0-0.3 ||
-| **Strength** | 0-1 ||
-| **Cutoff** | 0-0.02 ||
-| **Iterations** | 1-100 ||
-| **Invert** | *True or False* ||
-| **Add** | *True or False* ||
-| **Remove** | *True or False* ||
+| Setting        | Values          | Description |
+| :------------- | :-------------- | :---------- |
+| **Steepness**  | 0.00 - 0.30     | Lorem ipsum |
+| **Strength**   | 0.00 - 1.00     | Lorem ipsum |
+| **Cutoff**     | 0.00 - 0.02     | Lorem ipsum |
+| **Iterations** | 1 - 100         | Lorem ipsum |
+| **Invert**     | *True or False* | Lorem ipsum |
+| **Add**        | *True or False* | Lorem ipsum |
+| **Remove**     | *True or False* | Lorem ipsum |

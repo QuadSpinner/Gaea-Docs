@@ -1,5 +1,5 @@
-| Setting | Values | Description |
-| :--- | :--- | :--- |
-| **File** | Filename ||
-| **Full Range** | *True or False* ||
-| **Color Output** | *True or False* ||
+| Setting          | Values          | Description |
+| :--------------- | :-------------- | :---------- |
+| **File**         | Filename        | Lorem ipsum |
+| **Full Range**   | *True or False* | Lorem ipsum |
+| **Color Output** | *True or False* | Lorem ipsum |

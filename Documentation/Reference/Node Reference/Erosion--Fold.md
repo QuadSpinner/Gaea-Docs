@@ -1,10 +1,10 @@
-| Setting | Values | Description |
-| :--- | :--- | :--- |
-| **Scale** | 0.4-1 ||
-| **Rift** | 0-1 ||
-| **Folding** | 0.05-0.5 ||
-| **Midpoint** | -1-1 ||
-| **Range** | 0-1 ||
-| **Angle** | 0-360 ||
-| **Elevate** | *True or False* ||
-| **Seed** | 0-128000 ||
+| Setting      | Values          | Description |
+| :----------- | :-------------- | :---------- |
+| **Scale**    | 0.40 - 1.00     | Lorem ipsum |
+| **Rift**     | 0.00 - 1.00     | Lorem ipsum |
+| **Folding**  | 0.05 - 0.50     | Lorem ipsum |
+| **Midpoint** | -1.00 - 1.00    | Lorem ipsum |
+| **Range**    | 0.00 - 1.00     | Lorem ipsum |
+| **Angle**    | 0 - 360         | Lorem ipsum |
+| **Elevate**  | *True or False* | Lorem ipsum |
+| **Seed**     | 0 - 128000      | Lorem ipsum |

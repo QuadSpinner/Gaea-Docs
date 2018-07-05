@@ -1,25 +1,25 @@
-| Setting | Values | Description |
-| :--- | :--- | :--- |
-| **Scale** | 0-1 ||
-| **Seed** | 0-128000 ||
-| **Dual** | *True or False* ||
-| **Perturb** |||
-| | *None* ||
-| | *Simple* ||
-| | *Complex* ||
-| **Warp Frequency** | 0-1 ||
-| **Warp Amplitude** | 0-1 ||
-| **Warp Octaves** | 1-14 ||
-| **Function** |||
-| | *E* ||
-| | *M* ||
-| | *N* ||
-| **Form** |||
-| | *C* ||
-| | *N* ||
-| | *R* ||
-| | *P* ||
-| | *A* ||
-| | *S* ||
-| | *M* ||
-| | *D* ||
+| Setting            | Values          | Description |
+| :----------------- | :-------------- | :---------- |
+| **Scale**          | 0.00 - 1.00     | Lorem ipsum |
+| **Seed**           | 0 - 128000      | Lorem ipsum |
+| **Dual**           | *True or False* | Lorem ipsum |
+| **Perturb**        | Lorem ipsum     |
+|                    | *None*          | Lorem ipsum |
+|                    | *Simple*        | Lorem ipsum |
+|                    | *Complex*       | Lorem ipsum |
+| **Warp Frequency** | 0.00 - 1.00     | Lorem ipsum |
+| **Warp Amplitude** | 0.00 - 1.00     | Lorem ipsum |
+| **Warp Octaves**   | 1 - 14          | Lorem ipsum |
+| **Function**       | Lorem ipsum     |
+|                    | *E*             | Lorem ipsum |
+|                    | *M*             | Lorem ipsum |
+|                    | *N*             | Lorem ipsum |
+| **Form**           | Lorem ipsum     |
+|                    | *C*             | Lorem ipsum |
+|                    | *N*             | Lorem ipsum |
+|                    | *R*             | Lorem ipsum |
+|                    | *P*             | Lorem ipsum |
+|                    | *A*             | Lorem ipsum |
+|                    | *S*             | Lorem ipsum |
+|                    | *M*             | Lorem ipsum |
+|                    | *D*             | Lorem ipsum |

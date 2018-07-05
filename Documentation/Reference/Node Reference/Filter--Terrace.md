@@ -1,9 +1,9 @@
-| Setting | Values | Description |
-| :--- | :--- | :--- |
-| **Terraces** | 3-256 ||
-| **Uniformity** | 0-1 ||
-| **Steepness** | 0-1 ||
-| **Intensity** | 0-1 ||
-| **Soft Falloff** | *True or False* ||
-| **Reprocess** | *True or False* ||
-| **Seed** | 0-128000 ||
+| Setting          | Values          | Description |
+| :--------------- | :-------------- | :---------- |
+| **Terraces**     | 3 - 256         | Lorem ipsum |
+| **Uniformity**   | 0.00 - 1.00     | Lorem ipsum |
+| **Steepness**    | 0.00 - 1.00     | Lorem ipsum |
+| **Intensity**    | 0.00 - 1.00     | Lorem ipsum |
+| **Soft Falloff** | *True or False* | Lorem ipsum |
+| **Reprocess**    | *True or False* | Lorem ipsum |
+| **Seed**         | 0 - 128000      | Lorem ipsum |

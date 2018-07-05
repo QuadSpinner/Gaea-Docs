@@ -1,6 +1,6 @@
-| Setting | Values | Description |
-| :--- | :--- | :--- |
-| **X** | 0-1 ||
-| **Y** | 0-1 ||
-| **Scale** | 0-1 ||
-| **Angle** | 0-360 ||
+| Setting   | Values      | Description |
+| :-------- | :---------- | :---------- |
+| **X**     | 0.00 - 1.00 | Lorem ipsum |
+| **Y**     | 0.00 - 1.00 | Lorem ipsum |
+| **Scale** | 0.00 - 1.00 | Lorem ipsum |
+| **Angle** | 0 - 360     | Lorem ipsum |

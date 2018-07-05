@@ -1,15 +1,15 @@
-| Setting | Values | Description |
-| :--- | :--- | :--- |
-| **Method** |||
-| | *Standard* ||
-| | *Vertical* ||
-| | *Rugged* ||
-| | *Custom* ||
-| **Strength** | 0-1 ||
-| **Strength Vertical** | 0-1 ||
-| **Uniform** | *True or False* ||
-| **Scale** | 0-1 ||
-| **Complexity** | 1-12 ||
-| **X** | 0-1 ||
-| **Y** | 0-1 ||
-| **Seed** | 0-128000 ||
+| Setting               | Values          | Description |
+| :-------------------- | :-------------- | :---------- |
+| **Method**            | Lorem ipsum     |
+|                       | *Standard*      | Lorem ipsum |
+|                       | *Vertical*      | Lorem ipsum |
+|                       | *Rugged*        | Lorem ipsum |
+|                       | *Custom*        | Lorem ipsum |
+| **Strength**          | 0.00 - 1.00     | Lorem ipsum |
+| **Strength Vertical** | 0.00 - 1.00     | Lorem ipsum |
+| **Uniform**           | *True or False* | Lorem ipsum |
+| **Scale**             | 0.00 - 1.00     | Lorem ipsum |
+| **Complexity**        | 1 - 12          | Lorem ipsum |
+| **X**                 | 0.00 - 1.00     | Lorem ipsum |
+| **Y**                 | 0.00 - 1.00     | Lorem ipsum |
+| **Seed**              | 0 - 128000      | Lorem ipsum |

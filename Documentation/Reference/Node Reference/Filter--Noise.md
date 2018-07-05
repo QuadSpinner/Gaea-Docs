@@ -1,16 +1,16 @@
-| Setting | Values | Description |
-| :--- | :--- | :--- |
-| **Strength** | 0-1 ||
-| **Iterations** | 1-50 ||
-| **Method** |||
-| | *Random* ||
-| | *Gaussian* ||
-| | *Poisson* ||
-| | *Impulse* ||
-| | *Laplacian* ||
-| **Level** |||
-| | *None* ||
-| | *Level* ||
-| | *Equalize* ||
-| | *Gamma* ||
-| **Seed** | 0-128000 ||
+| Setting        | Values      | Description |
+| :------------- | :---------- | :---------- |
+| **Strength**   | 0.00 - 1.00 | Lorem ipsum |
+| **Iterations** | 1 - 50      | Lorem ipsum |
+| **Method**     | Lorem ipsum |
+|                | *Random*    | Lorem ipsum |
+|                | *Gaussian*  | Lorem ipsum |
+|                | *Poisson*   | Lorem ipsum |
+|                | *Impulse*   | Lorem ipsum |
+|                | *Laplacian* | Lorem ipsum |
+| **Level**      | Lorem ipsum |
+|                | *None*      | Lorem ipsum |
+|                | *Level*     | Lorem ipsum |
+|                | *Equalize*  | Lorem ipsum |
+|                | *Gamma*     | Lorem ipsum |
+| **Seed**       | 0 - 128000  | Lorem ipsum |
