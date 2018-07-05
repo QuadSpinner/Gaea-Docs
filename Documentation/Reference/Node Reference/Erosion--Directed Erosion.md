@@ -9,4 +9,4 @@
 |                         | *64K (65536)*   | Lorem ipsum |
 |                         | *128K (131072)* | Lorem ipsum |
 |                         | *256K (262144)* | Lorem ipsum |
-| **Preserve HD Session** | *True or False* | Lorem ipsum |
+| **Preserve HD Session** | On / Off | Lorem ipsum |

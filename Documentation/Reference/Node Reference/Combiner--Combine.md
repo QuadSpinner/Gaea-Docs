@@ -1,7 +1,7 @@
 | Setting         | Values          | Description |
 | :-------------- | :-------------- | :---------- |
 | **Source**      | *Node or Layer* | Lorem ipsum |
-| **Swap Inputs** | *True or False* | Lorem ipsum |
+| **Swap Inputs** | On / Off | Lorem ipsum |
 | **Method**      | Lorem ipsum     |
 |                 | *Blend*         | Lorem ipsum |
 |                 | *Add*           | Lorem ipsum |

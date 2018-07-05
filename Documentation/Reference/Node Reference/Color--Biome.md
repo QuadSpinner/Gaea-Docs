@@ -6,8 +6,8 @@
 | **Highlands**                  | 0.00 - 1.00     | Lorem ipsum |
 | **Midlands**                   | 0.00 - 1.00     | Lorem ipsum |
 | **Lowlands**                   | 0.00 - 1.00     | Lorem ipsum |
-| **Jitter**                     | *True or False* | Lorem ipsum |
-| **Water Bodies**               | *True or False* | Lorem ipsum |
+| **Jitter**                     | On / Off | Lorem ipsum |
+| **Water Bodies**               | On / Off | Lorem ipsum |
 | **Seed**                       | 0 - 128000      | Lorem ipsum |
 | **Ocean**                      | Color           | Lorem ipsum |
 | **Coast**                      | Color           | Lorem ipsum |

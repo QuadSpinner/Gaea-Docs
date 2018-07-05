@@ -4,6 +4,6 @@
 | **Strength**   | 0.00 - 1.00     | Lorem ipsum |
 | **Cutoff**     | 0.00 - 0.02     | Lorem ipsum |
 | **Iterations** | 1 - 100         | Lorem ipsum |
-| **Invert**     | *True or False* | Lorem ipsum |
-| **Add**        | *True or False* | Lorem ipsum |
-| **Remove**     | *True or False* | Lorem ipsum |
+| **Invert**     | On / Off | Lorem ipsum |
+| **Add**        | On / Off | Lorem ipsum |
+| **Remove**     | On / Off | Lorem ipsum |

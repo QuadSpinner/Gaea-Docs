@@ -6,7 +6,7 @@
 |                   | *Helix*         | Lorem ipsum |
 |                   | *Square*        | Lorem ipsum |
 | **Scale**         | 0.00 - 1.00     | Lorem ipsum |
-| **Sawtooth**      | *True or False* | Lorem ipsum |
+| **Sawtooth**      | On / Off | Lorem ipsum |
 | **Direction**     | 0 - 360         | Lorem ipsum |
 | **Edge Behavior** | Lorem ipsum     |
 |                   | *None*          | Lorem ipsum |

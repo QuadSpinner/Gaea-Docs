@@ -12,5 +12,5 @@
 |                | *Corner*        | Lorem ipsum |
 |                | *Ring*          | Lorem ipsum |
 |                | *Sobel*         | Lorem ipsum |
-| **Random**     | *True or False* | Lorem ipsum |
+| **Random**     | On / Off | Lorem ipsum |
 | **Seed**       | 0 - 128000      | Lorem ipsum |

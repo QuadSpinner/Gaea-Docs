@@ -1,8 +1,8 @@
 | Setting      | Values          | Description |
 | :----------- | :-------------- | :---------- |
 | **File**     | Filename        | Lorem ipsum |
-| **Adaptive** | *True or False* | Lorem ipsum |
-| **Invert**   | *True or False* | Lorem ipsum |
+| **Adaptive** | On / Off | Lorem ipsum |
+| **Invert**   | On / Off | Lorem ipsum |
 | **X**        | 0.00 - 1.00     | Lorem ipsum |
 | **Y**        | 0.00 - 1.00     | Lorem ipsum |
 | **Scale**    | 0.00 - 1.00     | Lorem ipsum |

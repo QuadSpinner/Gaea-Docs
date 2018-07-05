@@ -2,7 +2,7 @@
 | :----------------- | :-------------- | :---------- |
 | **Scale**          | 0.00 - 1.00     | Lorem ipsum |
 | **Seed**           | 0 - 128000      | Lorem ipsum |
-| **Dual**           | *True or False* | Lorem ipsum |
+| **Dual**           | On / Off | Lorem ipsum |
 | **Perturb**        | Lorem ipsum     |
 |                    | *None*          | Lorem ipsum |
 |                    | *Simple*        | Lorem ipsum |

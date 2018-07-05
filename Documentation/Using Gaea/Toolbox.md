@@ -1,5 +1,5 @@
-##Recent
-##Search
-##Using the Toolbox
-##Favorites
-##Voice Commands
+## Recent
+## Search
+## Using the Toolbox
+## Favorites
+## Voice Commands
