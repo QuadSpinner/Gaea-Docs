@@ -1,17 +1,17 @@
 | Setting         | Values          | Description |
 | :-------------- | :-------------- | :---------- |
-| **Source**      | *Node or Layer* | Lorem ipsum |
-| **Swap Inputs** | On / Off | Lorem ipsum |
-| **Method**      | Lorem ipsum     |
-|                 | *Blend*         | Lorem ipsum |
-|                 | *Add*           | Lorem ipsum |
-|                 | *Screen*        | Lorem ipsum |
-|                 | *Subtract*      | Lorem ipsum |
-|                 | *Multiply*      | Lorem ipsum |
-|                 | *Divide*        | Lorem ipsum |
-|                 | *Max*           | Lorem ipsum |
-|                 | *Min*           | Lorem ipsum |
-|                 | *SqRt*          | Lorem ipsum |
-|                 | *Power*         | Lorem ipsum |
-|                 | *Difference*    | Lorem ipsum |
-| **Ratio**       | 0.00 - 1.00     | Lorem ipsum |
+| **Source**      | *Node or Layer* | Lorem |
+| **Swap Inputs** | On / Off | Lorem |
+| **Method**      | Lorem     |
+|                 | *Blend*         | Lorem |
+|                 | *Add*           | Lorem |
+|                 | *Screen*        | Lorem |
+|                 | *Subtract*      | Lorem |
+|                 | *Multiply*      | Lorem |
+|                 | *Divide*        | Lorem |
+|                 | *Max*           | Lorem |
+|                 | *Min*           | Lorem |
+|                 | *SqRt*          | Lorem |
+|                 | *Power*         | Lorem |
+|                 | *Difference*    | Lorem |
+| **Ratio**       | 0.00 - 1.00     | Lorem |

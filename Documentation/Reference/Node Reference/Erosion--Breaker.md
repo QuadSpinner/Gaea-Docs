@@ -6,4 +6,4 @@
 | **Mode**          |            |
 |                   | *Fast*     | Processes faster, but may not always result in the same pattern of cracks. |
 |                   | *Accurate* | Processes a bit slower, but ensures the pattern remains the same. |
-| **Seed**          | 0 - 128000 | Lorem ipsum |
+| **Seed**          | 0 - 128000 | Lorem |

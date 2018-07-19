@@ -1,32 +1,32 @@
 | Setting                        | Values          | Description |
 | :----------------------------- | :-------------- | :---------- |
-| **Y Scale**                    | 0.00 - 1.00     | Lorem ipsum |
-| **Influence**                  | 0.00 - 1.00     | Lorem ipsum |
-| **Sea Level**                  | 0.00 - 1.00     | Lorem ipsum |
-| **Highlands**                  | 0.00 - 1.00     | Lorem ipsum |
-| **Midlands**                   | 0.00 - 1.00     | Lorem ipsum |
-| **Lowlands**                   | 0.00 - 1.00     | Lorem ipsum |
-| **Jitter**                     | On / Off | Lorem ipsum |
-| **Water Bodies**               | On / Off | Lorem ipsum |
+| **Y Scale**                    | 0.00 - 1.00     | Lorem |
+| **Influence**                  | 0.00 - 1.00     | Lorem |
+| **Sea Level**                  | 0.00 - 1.00     | Lorem |
+| **Highlands**                  | 0.00 - 1.00     | Lorem |
+| **Midlands**                   | 0.00 - 1.00     | Lorem |
+| **Lowlands**                   | 0.00 - 1.00     | Lorem |
+| **Jitter**                     | On / Off | Lorem |
+| **Water Bodies**               | On / Off | Lorem |
 | **Seed**                       | 0 - 128000      | The randomization pattern or seed for the node's process. |
-| **Ocean**                      | Color           | Lorem ipsum |
-| **Coast**                      | Color           | Lorem ipsum |
-| **Lake Shore**                 | Color           | Lorem ipsum |
-| **Lake**                       | Color           | Lorem ipsum |
-| **River**                      | Color           | Lorem ipsum |
-| **Marsh**                      | Color           | Lorem ipsum |
-| **Ice**                        | Color           | Lorem ipsum |
-| **Beach**                      | Color           | Lorem ipsum |
-| **Snow**                       | Color           | Lorem ipsum |
-| **Tundra**                     | Color           | Lorem ipsum |
-| **Bare**                       | Color           | Lorem ipsum |
-| **Scorched**                   | Color           | Lorem ipsum |
-| **Taiga**                      | Color           | Lorem ipsum |
-| **Shrubland**                  | Color           | Lorem ipsum |
-| **Temperate Desert**           | Color           | Lorem ipsum |
-| **Temperate Rainforest**       | Color           | Lorem ipsum |
-| **Temperate Deciduous Forest** | Color           | Lorem ipsum |
-| **Grassland**                  | Color           | Lorem ipsum |
-| **Subtropical Desert**         | Color           | Lorem ipsum |
-| **Tropical Rainforest**        | Color           | Lorem ipsum |
-| **Tropical Seasonal Forest**   | Color           | Lorem ipsum |
+| **Ocean**                      | Color           | Lorem |
+| **Coast**                      | Color           | Lorem |
+| **Lake Shore**                 | Color           | Lorem |
+| **Lake**                       | Color           | Lorem |
+| **River**                      | Color           | Lorem |
+| **Marsh**                      | Color           | Lorem |
+| **Ice**                        | Color           | Lorem |
+| **Beach**                      | Color           | Lorem |
+| **Snow**                       | Color           | Lorem |
+| **Tundra**                     | Color           | Lorem |
+| **Bare**                       | Color           | Lorem |
+| **Scorched**                   | Color           | Lorem |
+| **Taiga**                      | Color           | Lorem |
+| **Shrubland**                  | Color           | Lorem |
+| **Temperate Desert**           | Color           | Lorem |
+| **Temperate Rainforest**       | Color           | Lorem |
+| **Temperate Deciduous Forest** | Color           | Lorem |
+| **Grassland**                  | Color           | Lorem |
+| **Subtropical Desert**         | Color           | Lorem |
+| **Tropical Rainforest**        | Color           | Lorem |
+| **Tropical Seasonal Forest**   | Color           | Lorem |

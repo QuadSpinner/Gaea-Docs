@@ -1,7 +1,7 @@
 | Setting      | Values          | Description |
 | :----------- | :-------------- | :---------- |
-| **Power**    | 1 - 50          | Lorem ipsum |
-| **Amount**   | 0.00 - 1.00     | Lorem ipsum |
-| **Drift**    | On / Off | Lorem ipsum |
-| **Strength** | 0.00 - 1.00     | Lorem ipsum |
+| **Power**    | 1 - 50          | Lorem |
+| **Amount**   | 0.00 - 1.00     | Lorem |
+| **Drift**    | On / Off | Lorem |
+| **Strength** | 0.00 - 1.00     | Lorem |
 | **Seed**     | 0 - 128000      | The randomization pattern or seed for the node's process. |

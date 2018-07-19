@@ -1,11 +1,11 @@
 | Setting      | Values          | Description |
 | :----------- | :-------------- | :---------- |
-| **File**     | Filename        | Lorem ipsum |
-| **Adaptive** | On / Off | Lorem ipsum |
-| **Invert**   | On / Off | Lorem ipsum |
-| **X**        | 0.00 - 1.00     | Lorem ipsum |
-| **Y**        | 0.00 - 1.00     | Lorem ipsum |
-| **Scale**    | 0.00 - 1.00     | Lorem ipsum |
-| **Angle**    | 0 - 360         | Lorem ipsum |
-| **Height**   | 0.00 - 10.00    | Lorem ipsum |
-| **Raise**    | 0.00 - 1.00     | Lorem ipsum |
+| **File**     | Filename        | Lorem |
+| **Adaptive** | On / Off | Lorem |
+| **Invert**   | On / Off | Lorem |
+| **X**        | 0.00 - 1.00     | Lorem |
+| **Y**        | 0.00 - 1.00     | Lorem |
+| **Scale**    | 0.00 - 1.00     | Lorem |
+| **Angle**    | 0 - 360         | Lorem |
+| **Height**   | 0.00 - 10.00    | Lorem |
+| **Raise**    | 0.00 - 1.00     | Lorem |

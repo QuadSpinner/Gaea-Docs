@@ -5,10 +5,10 @@ The delicate terracing can be very useful as a base for the Erosion node. As you
 
 | Setting        | Values      | Description |
 | :------------- | :---------- | :---------- |
-| **Steepness**  | 0.00 - 0.30 | Lorem ipsum |
-| **Strength**   | 0.00 - 1.00 | Lorem ipsum |
-| **Cutoff**     | 0.00 - 0.02 | Lorem ipsum |
-| **Iterations** | 1 - 100     | Lorem ipsum |
-| **Invert**     | On / Off    | Lorem ipsum |
-| **Add**        | On / Off    | Lorem ipsum |
-| **Remove**     | On / Off    | Lorem ipsum |
+| **Steepness**  | 0.00 - 0.30 | Lorem |
+| **Strength**   | 0.00 - 1.00 | Lorem |
+| **Cutoff**     | 0.00 - 0.02 | Lorem |
+| **Iterations** | 1 - 100     | Lorem |
+| **Invert**     | On / Off    | Lorem |
+| **Add**        | On / Off    | Lorem |
+| **Remove**     | On / Off    | Lorem |

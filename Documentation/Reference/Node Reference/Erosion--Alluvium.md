@@ -1,9 +1,9 @@
 | Setting        | Values      | Description |
 | :------------- | :---------- | :---------- |
-| **Iterations** | 1 - 10      | Lorem ipsum |
-| **Hardness**   | 0.01 - 1.00 | Lorem ipsum |
-| **Power**      | 0.01 - 1.00 | Lorem ipsum |
-| **Sediments**  | 0.01 - 1.00 | Lorem ipsum |
-| **Flow**       | 1 - 5       | Lorem ipsum |
-| **Chaos**      | 0.00 - 0.30 | Lorem ipsum |
+| **Iterations** | 1 - 10      | Lorem |
+| **Hardness**   | 0.01 - 1.00 | Lorem |
+| **Power**      | 0.01 - 1.00 | Lorem |
+| **Sediments**  | 0.01 - 1.00 | Lorem |
+| **Flow**       | 1 - 5       | Lorem |
+| **Chaos**      | 0.00 - 0.30 | Lorem |
 | **Seed**       | 0 - 128000  | The randomization pattern or seed for the node's process. |
