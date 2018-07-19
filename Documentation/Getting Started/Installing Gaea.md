@@ -3,7 +3,7 @@
 - Microsoft Visual C++ Runtime 14.xx.xx.xx (included)
 
 ## Normal Installation
-Installing Gaea is a simple process.
+Installing Gaea is a simple process. Depending on your installation location, you may need administrative privileges.
 
 1. Download the [latest version](http://quadspinner.com/gaea/download).
 2. Run the downloaded .exe file.
@@ -21,7 +21,7 @@ The Gaea installer is flexibly built for administrative and unattended installat
 
 1. Download the [latest administrative install package](http://quadspinner.com/gaea/download).
 2. Unzip the package and deploy remotely as per your preferences.
-3. Ensure the prequisites (.NET and VC Runtime) are installed on the end-machine. They have their own unattended install options.
+3. Ensure the prerequisites (.NET and VC Runtime) are installed on the end-machine. They have their own unattended install options.
 
 ### Authorization Options
 1. Run the command line `Gaea.exe -install "C:\license.qkey"` pointing to the local or network location of the license key. This will authorize the installation.
