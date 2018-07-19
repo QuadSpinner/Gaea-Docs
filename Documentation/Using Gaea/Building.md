@@ -9,7 +9,7 @@
 
 ## Building Terrains
 
-The output from your Graph must be saved to a file in order to use it elswhere. To do this, you must build the output. When you build the output, Gaea will create it at your target resolution. This may take a while to build depending on the complexity of your graph, and the effects used.
+The output from your Graph must be saved to a file in order to use it elsewhere. To do this, you must build the output. When you build the output, Gaea will create it at your target resolution. This may take a while to build depending on the complexity of your graph, and the effects used.
 
 ![Mark for save](../../Media/Build-Progress.png)
 
