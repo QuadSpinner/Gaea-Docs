@@ -1,4 +1,4 @@
-| Setting               | Values          | Description |
-| :-------------------- | :-------------- | :---------- |
-| **Rain Cycles**       | 1 - 200         | Lorem ipsum |
-| **Constant Rainfall** | On / Off | Lorem ipsum |
+| Setting               | Values   | Description                                                                                                                                                                    |
+| :-------------------- | :------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Rain Cycles**       | 1 - 200  | The number of rain cycles to calculate. Smaller values create small, detailed flows, while larger values create stronger, wider flows.                                         |
+| **Constant Rainfall** | On / Off | When enabled, keeps simulating rainfall beyond the rain cycles to create consistent rainfall values. When disabled, the rainfall tapers off as it nears the end of the cycles. |

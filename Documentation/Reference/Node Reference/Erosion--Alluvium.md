@@ -6,4 +6,4 @@
 | **Sediments**  | 0.01 - 1.00 | Lorem ipsum |
 | **Flow**       | 1 - 5       | Lorem ipsum |
 | **Chaos**      | 0.00 - 0.30 | Lorem ipsum |
-| **Seed**       | 0 - 128000  | Lorem ipsum |
+| **Seed**       | 0 - 128000  | The randomization pattern or seed for the node's process. |

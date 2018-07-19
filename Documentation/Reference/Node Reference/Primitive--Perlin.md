@@ -13,4 +13,4 @@
 | **Warp Frequency** | 0.00 - 1.00 | Lorem ipsum |
 | **Warp Amplitude** | 0.00 - 1.00 | Lorem ipsum |
 | **Warp Octaves**   | 1 - 14      | Lorem ipsum |
-| **Seed**           | 0 - 128000  | Lorem ipsum |
+| **Seed**           | 0 - 128000  | The randomization pattern or seed for the node's process. |

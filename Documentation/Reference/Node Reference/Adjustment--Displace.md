@@ -12,4 +12,4 @@
 | **Complexity**        | 1 - 12      | Lorem ipsum                            |
 | **X**                 | 0.00 - 1.00 | Lorem ipsum                            |
 | **Y**                 | 0.00 - 1.00 | Lorem ipsum                            |
-| **Seed**              | 0 - 128000  | Lorem ipsum                            |
+| **Seed**              | 0 - 128000  | The randomization pattern or seed for the node's process.                            |

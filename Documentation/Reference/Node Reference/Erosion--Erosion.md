@@ -9,7 +9,7 @@
 | **Base Level**    | 0.00 - 1.00            | Lorem ipsum |
 | **Volume**        | 0.00 - 1.00            | Lorem ipsum |
 | **Debris**        | 0.00 - 1.00            | Lorem ipsum |
-| **Seed**          | 0 - 128000             | Lorem ipsum |
+| **Seed**          | 0 - 128000             | The randomization pattern or seed for the node's process. |
 | **Mask**          | Lorem ipsum            |
 |                   | *Erosion Strength*     | Lorem ipsum |
 |                   | *Rock Softness*        | Lorem ipsum |

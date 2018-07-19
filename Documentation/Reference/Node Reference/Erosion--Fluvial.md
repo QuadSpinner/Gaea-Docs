@@ -6,4 +6,4 @@
 | **BasLen**      | 1 - 60         | Lorem ipsum |
 | **Radius**      | 1 - 100        | Lorem ipsum |
 | **Random**      | 0 - 1000       | Lorem ipsum |
-| **Seed**        | 0 - 128000     | Lorem ipsum |
+| **Seed**        | 0 - 128000     | The randomization pattern or seed for the node's process. |

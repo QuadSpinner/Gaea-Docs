@@ -2,7 +2,7 @@
 | :--------- | :---------- | :---------- |
 | **Scale**  | 0.00 - 1.00 | Lorem ipsum |
 | **Edge**   | 0.00 - 0.50 | Lorem ipsum |
-| **Seed**   | 0 - 128000  | Lorem ipsum |
+| **Seed**   | 0 - 128000  | The randomization pattern or seed for the node's process. |
 | **Type**   | Lorem ipsum |
 |            | *A*         | Lorem ipsum |
 |            | *B*         | Lorem ipsum |

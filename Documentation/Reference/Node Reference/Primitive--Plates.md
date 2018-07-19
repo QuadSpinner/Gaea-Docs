@@ -5,4 +5,4 @@
 | **Collision** | 0.01 - 0.25     | Lorem ipsum |
 | **Slant**     | On / Off | Lorem ipsum |
 | **Inverse**   | On / Off | Lorem ipsum |
-| **Seed**      | 0 - 128000      | Lorem ipsum |
+| **Seed**      | 0 - 128000      | The randomization pattern or seed for the node's process. |

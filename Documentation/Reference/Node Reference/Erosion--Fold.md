@@ -7,4 +7,4 @@
 | **Range**    | 0.00 - 1.00     | Lorem ipsum |
 | **Angle**    | 0 - 360         | Lorem ipsum |
 | **Elevate**  | On / Off | Lorem ipsum |
-| **Seed**     | 0 - 128000      | Lorem ipsum |
+| **Seed**     | 0 - 128000      | The randomization pattern or seed for the node's process. |

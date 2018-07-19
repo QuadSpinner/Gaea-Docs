@@ -8,7 +8,7 @@
 | **Lowlands**                   | 0.00 - 1.00     | Lorem ipsum |
 | **Jitter**                     | On / Off | Lorem ipsum |
 | **Water Bodies**               | On / Off | Lorem ipsum |
-| **Seed**                       | 0 - 128000      | Lorem ipsum |
+| **Seed**                       | 0 - 128000      | The randomization pattern or seed for the node's process. |
 | **Ocean**                      | Color           | Lorem ipsum |
 | **Coast**                      | Color           | Lorem ipsum |
 | **Lake Shore**                 | Color           | Lorem ipsum |
