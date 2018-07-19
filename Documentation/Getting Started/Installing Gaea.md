@@ -1,3 +1,9 @@
+- [Requirements](#requirements)
+- [Normal Installation](#normal-installation)
+- [Administrative Install](#administrative-install)
+    - [Authorization Options](#authorization-options)
+    - [Floating Server](#floating-server)
+
 ## Requirements
 - Microsoft [.NET Framework 4.7](https://support.microsoft.com/en-us/help/3186497/the-net-framework-4-7-offline-installer-for-windows) or later.
 - Microsoft Visual C++ Runtime 14.xx.xx.xx (included)
