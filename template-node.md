@@ -10,7 +10,6 @@ Additional information, usage guidelines, and the like should go into the second
     - *Option B*: Description.
 
 ---
-
-[!TIP]
+<TIP>
 This is optional.
-[TIP!]
+</TIP>
