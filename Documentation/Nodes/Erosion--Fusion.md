@@ -11,5 +11,4 @@ Fusion is a hybrid of slope erosion, vertical terracing, and thermal erosion. It
 
 ### Additional Info
 
-
 Fusion further adds slanted terracing to convey terrain folding and collapsed plates.

@@ -17,4 +17,4 @@ The Mountain is one of the most versatile primitives in Gaea. It uses a modulate
 
 ### Additional Info
 
- For simple results, such as distance mountains that don't require too much detail, you can create a mountain primitive with a scale of your choice and add the Erosion node. This is the easiest way to create lot of simple assets.
+For simple results, such as distance mountains that don't require too much detail, you can create a mountain primitive with a scale of your choice and add the Erosion node. This is the easiest way to create lot of simple assets.
