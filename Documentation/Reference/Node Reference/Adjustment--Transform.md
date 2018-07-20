@@ -1,4 +1,4 @@
-Placer allows you to move, rotate, and scale any terrain.
+Transform allows you to move, rotate, and scale any terrain.
 
 | Setting       | Values      | Description                           |
 | :------------ | :---------- | :------------------------------------ |
