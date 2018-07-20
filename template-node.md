@@ -11,6 +11,5 @@ Additional information, usage guidelines, and the like should go into the second
 
 ---
 
-[!TIP]
 This is optional.
-[TIP!]
+
