@@ -7,3 +7,6 @@
 | **Velocity Low**  | 0 - 100  | Lorem |
 | **Velocity High** | 0 - 2000 | Lorem |
 | **Angle**         | 0 - 180  | Lorem |
+
+### Additional Info
+

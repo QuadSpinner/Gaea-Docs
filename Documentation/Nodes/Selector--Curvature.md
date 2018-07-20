@@ -7,3 +7,6 @@
 |                    | *Horizontal* | Lorem |
 |                    | *Vertical*   | Lorem |
 |                    | *Average*    | Lorem |
+
+### Additional Info
+

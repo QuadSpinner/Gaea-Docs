@@ -6,3 +6,6 @@
 |               | *Clamp*     | Lorem |
 |               | *Clip*      | Lorem |
 |               | *Extend*    | Lorem |
+
+### Additional Info
+

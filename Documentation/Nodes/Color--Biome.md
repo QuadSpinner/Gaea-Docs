@@ -30,3 +30,6 @@
 | **Subtropical Desert**         | Color       | Lorem                                                     |
 | **Tropical Rainforest**        | Color       | Lorem                                                     |
 | **Tropical Seasonal Forest**   | Color       | Lorem                                                     |
+
+### Additional Info
+

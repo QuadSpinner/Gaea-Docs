@@ -11,3 +11,6 @@ Surfacer provides several types of texturing primitives. It should not be used b
 |              | *Trace*        | Lorem |
 |              | *Wind Streaks* | Lorem |
 | **Strength** | 0.00 - 1.00    | Lorem |
+
+### Additional Info
+

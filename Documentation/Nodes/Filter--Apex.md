@@ -9,3 +9,6 @@ Apex uses Euclidean distancing (the same function used to create the Voronoi pat
 | **A**         | 0.00 - 1.00 | Lorem |
 | **B**         | 0.00 - 1.00 | Lorem |
 | **Angle**     | 0 - 360     | Lorem |
+
+### Additional Info
+

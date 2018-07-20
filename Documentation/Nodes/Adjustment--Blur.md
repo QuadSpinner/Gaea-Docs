@@ -9,3 +9,6 @@
 |               | *Radial*     | Lorem |
 |               | *Motion*     | Lorem |
 |               | *Smooth*     | Lorem |
+
+### Additional Info
+

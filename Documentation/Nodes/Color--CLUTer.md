@@ -7,5 +7,6 @@
 | **Input Auto Level**  | On / Off | Lorem |
 | **Output Clarity**    | On / Off | Lorem |
 | **Output Auto Level** | On / Off | Lorem |
-| **Data**              | Filename        | Lorem |
-| **Magick**            | Filename        | Lorem |
+
+### Additional Info
+

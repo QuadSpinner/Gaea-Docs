@@ -6,3 +6,6 @@
 | **Slant**     | On / Off | Lorem |
 | **Inverse**   | On / Off | Lorem |
 | **Seed**      | 0 - 128000      | The randomization pattern or seed for the node's process. |
+
+### Additional Info
+

@@ -8,3 +8,6 @@ Recurve is a curvature based expander node. It can inflate and/or deflate the te
 | **Degrees**           | 0 - 360         | Lorem |
 | **Inflate**           | On / Off | Lorem |
 | **Preserve Fidelity** | On / Off | Lorem |
+
+### Additional Info
+

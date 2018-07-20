@@ -23,3 +23,6 @@
 |                    | *S*             | Lorem |
 |                    | *M*             | Lorem |
 |                    | *D*             | Lorem |
+
+### Additional Info
+

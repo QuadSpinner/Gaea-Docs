@@ -12,3 +12,6 @@
 |            | *Natural*   | Lorem |
 |            | *Enhanced*  | Lorem |
 |            | *Equalized* | Lorem |
+
+### Additional Info
+

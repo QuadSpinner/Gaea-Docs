@@ -4,3 +4,6 @@
 |               | *Horizontal* | Lorem |
 |               | *Vertical*   | Lorem |
 |               | *Both*       | Lorem |
+
+### Additional Info
+

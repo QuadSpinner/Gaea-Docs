@@ -11,3 +11,6 @@ This node quantizes the heightfield into discrete cells as defined by the Distan
 |              | *Manhattan*  | Manhattan creates slightly unnatural multi-angled shapes, which can be quite useful when processed further.                                                    |
 |              | *Shepards*   | Shepards provides stark peaks and sinkholes.                                                                                                                   |
 |              | *Hybrid*     | Euclidean-Manhattan hybrid creates merges both distancing functions equally.                                                                                   |
+
+### Additional Info
+

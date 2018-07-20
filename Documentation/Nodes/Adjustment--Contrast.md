@@ -4,3 +4,6 @@
 | **Type**     | Lorem |
 |              | *Local*     | Lorem |
 |              | *Sigmoid*   | Lorem |
+
+### Additional Info
+

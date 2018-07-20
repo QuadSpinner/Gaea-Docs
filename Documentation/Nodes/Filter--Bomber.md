@@ -17,4 +17,7 @@
 | **Maximum Rotation** | 0 - 360     | The maximum randomized rotation angle.                                                |
 | **Seed**             | 0 - 128000  | The randomization pattern or seed for the node's process.                             |
 
+### Additional Info
+
+
 If your terrain has a hard edge, try using the `Zero Borders` node before applying the Bomber node.

@@ -15,3 +15,6 @@
 |                   | *Rock Softness*        | Lorem |
 |                   | *Precipitation Amount* | Lorem |
 |                   | *None*                 | Lorem |
+
+### Additional Info
+

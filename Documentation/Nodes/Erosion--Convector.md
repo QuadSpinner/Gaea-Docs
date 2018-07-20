@@ -12,3 +12,6 @@ The delicate terracing can be very useful as a base for the Erosion node. As you
 | **Invert**     | On / Off    | Lorem |
 | **Add**        | On / Off    | Lorem |
 | **Remove**     | On / Off    | Lorem |
+
+### Additional Info
+
