@@ -1,4 +1,4 @@
-Recurve is a curvature based expander device. It can inflate and/or deflate the terrain to create stronger slopes and larger, softer formations from a given noise or terrain.
+Recurve is a curvature based expander node. It can inflate and/or deflate the terrain to create stronger slopes and larger, softer formations from a given noise or terrain.
 
 | Setting               | Values          | Description |
 | :-------------------- | :-------------- | :---------- |
