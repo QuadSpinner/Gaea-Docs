@@ -18,11 +18,11 @@ Over the course of a complex project, saving and managing the appropriate output
 The Build Manager simplifies how builds are saved, organized, and managed for future use.
 
 ## Mark for Save
-Instead of creating a dedicated “Output” node and then specifying the file to save, you can mark a node for automatic output. Just right-click any node and select “Save”.
+Instead of creating a dedicated "Output" node and then specifying the file to save, you can mark a node for automatic output. Just right-click any node and select "Save".
 
 ![Mark for save](../../Media/Build-Mark.png)
 
-Instead of creating a dedicated “Output” node and then specifying the file to save, you can mark a node for automatic output. Just right-click any node and select “Save”.
+Instead of creating a dedicated "Output" node and then specifying the file to save, you can mark a node for automatic output. Just right-click any node and select "Save".
 
 ## The Build Manager
 Now when you click Build, instead of firing off a build directly, you will see the Build Manager. The Build Manager gives you easy access to crucial output preferences.
@@ -33,7 +33,7 @@ The node grid shows you all the nodes marked for output. You can temporarily tog
 
 When a node has multiple outputs, such as the Erosion or Breaker nodes in this example, you can individually toggle which ports should be saved as files.
 
-You can choose the file format to use for all outputs, modify a node's output name by clicking on the node's label, choose unclamped (formerly called “Full Range”), and +1 output(where 512 x 512 becomes 513 x 513 — necessary for some game engines).
+You can choose the file format to use for all outputs, modify a node's output name by clicking on the node's label, choose unclamped (formerly called "Full Range"), and +1 output(where 512 x 512 becomes 513 x 513 — necessary for some game engines).
 
 You can also use the Build Manager for version control and file organization.
 
@@ -77,6 +77,6 @@ or something more specific such as:
 ### Version Controlling Terrains
 Gaea's Build Manager and Build Stack give you low level version control without additional overhead.
 
-The “Save copy of .TOR” option is useful when you want to manage different versions of your actual project file. When turned on, every time your build finishes, a copy of the .tor file in the exact state of that particular build is stored alongside the build output. You can easily go back to any older build state for your file, save it as new file.
+The "Save copy of .TOR" option is useful when you want to manage different versions of your actual project file. When turned on, every time your build finishes, a copy of the .tor file in the exact state of that particular build is stored alongside the build output. You can easily go back to any older build state for your file, save it as new file.
 
 You can also map the folder to almost any modern version control system (Git, Mercurial, Visual Studio Team Services, etc.), or share on a network folder with your team.

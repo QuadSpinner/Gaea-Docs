@@ -66,7 +66,9 @@ Drop a node on a connection to have it interject itself between two nodes. Drop 
 Alternatively, you can drag an unconnected node that already exists on to a connection, and it will interject itself.
 
 ### Auto Layout
-Even the most complicated graphs can be automatically organized. Just press F4 in the graph.
+Even the most complicated graphs can be automatically organized. Just press `F4` in the graph.
+
+Pressing `F4` once will layout the graph in a linear pattern. Pressing `F4` again lays out the graph in a waterfall pattern. In the waterfall pattern, Gaea will intelligently try and figure out the junctions in the graph and stagger the subsequence nodes accordingly.
 
 ### Quick Create Node
 Rather than setting up a node and then connecting it, you can drag a connection into empty space and use the quick create menu.
