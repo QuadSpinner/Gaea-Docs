@@ -1,6 +1,6 @@
 | Setting   | Values      | Description |
 | :-------- | :---------- | :---------- |
-| **Level** | 0.00 - 1.00 | Lorem |
+| **Level** | 0.00 - 1.00 | Lorem       |
 
 ### Additional Info
 
