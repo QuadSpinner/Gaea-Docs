@@ -1,18 +1,3 @@
-- [Understanding the Advanced Graph](#understanding-the-advanced-graph)
-- [Masking](#masking)
-    - [Fluent Masking](#fluent-masking)
-- [Managing Nodes](#managing-nodes)
-    - [Bypass](#bypass)
-    - [Pinned Preview](#pinned-preview)
-    - [Fixed Visual](#fixed-visual)
-    - [Mark for Save](#mark-for-save)
-- [Using Convenience Tools](#using-convenience-tools)
-    - [Drop Behavior](#drop-behavior)
-    - [Auto Layout](#auto-layout)
-    - [Quick Create Node](#quick-create-node)
-    - [Connect to Connection](#connect-to-connection)
-    - [MultiMix](#multimix)
-
 ## Understanding the Advanced Graph
 The graph may look complicated, but follows a simple pattern. Each node represents a specific function, and has two types of "ports", namely Input ports and Output ports. These ports are used to connect one node to another to create a sequence of functions, which result in a terrain.
 

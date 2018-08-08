@@ -1,0 +1,144 @@
+ Volume in drive Z has no label.
+ Volume Serial Number is F21F-89A8
+
+ Directory of Z:\WORKSPACES\Experimental\Docs\docfx_project\articles
+
+08/08/2018  09:29 AM    <DIR>          .
+08/08/2018  09:29 AM    <DIR>          ..
+08/08/2018  09:30 AM                 0 files.txt
+08/08/2018  09:25 AM    <DIR>          Getting Started
+08/08/2018  09:21 AM                32 intro.md
+08/08/2018  09:25 AM    <DIR>          Modes
+08/08/2018  09:25 AM    <DIR>          Nodes
+08/08/2018  09:25 AM    <DIR>          Other Topics
+08/08/2018  09:25 AM    <DIR>          Sculpt Tools
+08/08/2018  09:21 AM                40 toc.yml
+08/08/2018  09:25 AM    <DIR>          Using Gaea
+               3 File(s)             72 bytes
+
+ Directory of Z:\WORKSPACES\Experimental\Docs\docfx_project\articles\Getting Started
+
+08/08/2018  09:25 AM    <DIR>          .
+08/08/2018  09:25 AM    <DIR>          ..
+07/21/2018  11:16 PM                 0 Basics of Terrain Design.md
+07/21/2018  11:16 PM                 0 Getting around.md
+07/21/2018  11:16 PM             2,114 Installing Gaea.md
+               3 File(s)          2,114 bytes
+
+ Directory of Z:\WORKSPACES\Experimental\Docs\docfx_project\articles\Modes
+
+08/08/2018  09:25 AM    <DIR>          .
+08/08/2018  09:25 AM    <DIR>          ..
+07/21/2018  11:16 PM             5,804 Directed Erosion.md
+07/21/2018  11:16 PM             4,857 Graph Mode.md
+07/21/2018  11:16 PM               117 Layer Mode.md
+               3 File(s)         10,778 bytes
+
+ Directory of Z:\WORKSPACES\Experimental\Docs\docfx_project\articles\Nodes
+
+08/08/2018  09:25 AM    <DIR>          .
+08/08/2018  09:25 AM    <DIR>          ..
+07/21/2018  11:16 PM             1,120 Adjustment--AutoLevel.md
+07/21/2018  11:16 PM               205 Adjustment--BiasGain.md
+07/21/2018  11:16 PM               485 Adjustment--Blur.md
+07/21/2018  11:16 PM               554 Adjustment--Clamp.md
+07/21/2018  11:16 PM               263 Adjustment--Contrast.md
+07/21/2018  11:16 PM             1,249 Adjustment--Denoise.md
+07/21/2018  11:16 PM             1,480 Adjustment--Displace.md
+07/21/2018  11:16 PM               275 Adjustment--Flip.md
+07/21/2018  11:16 PM               503 Adjustment--Gamma.md
+07/21/2018  11:16 PM               859 Adjustment--Heal.md
+07/21/2018  11:16 PM               390 Adjustment--Sharpen.md
+07/21/2018  11:16 PM               151 Adjustment--Sine.md
+07/21/2018  11:16 PM               185 Adjustment--Threshold.md
+07/21/2018  11:16 PM               655 Adjustment--Transform.md
+07/21/2018  11:16 PM               217 Adjustment--Zero Borders.md
+07/21/2018  11:16 PM             3,959 Color--Biome.md
+07/21/2018  11:16 PM               479 Color--CLUTer.md
+07/21/2018  11:16 PM             1,049 Color--Mixer.md
+07/21/2018  11:16 PM               722 Color--SatMaps.md
+07/21/2018  11:16 PM               815 Combiner--Combine.md
+07/21/2018  11:16 PM             1,299 DataMap--FlowMap.md
+07/21/2018  11:16 PM             1,359 DataMap--Soil Map.md
+07/21/2018  11:16 PM               730 DataMap--Surfacer.md
+07/21/2018  11:16 PM               415 DataMap--Velocity.md
+07/21/2018  11:16 PM               871 Erosion--Alluvium.md
+07/21/2018  11:16 PM               799 Erosion--Breaker.md
+07/21/2018  11:16 PM               726 Erosion--Buildup.md
+07/21/2018  11:16 PM               609 Erosion--Coast.md
+07/21/2018  11:16 PM               867 Erosion--Convector.md
+07/21/2018  11:16 PM               683 Erosion--Deposits.md
+07/21/2018  11:16 PM               683 Erosion--Directed Erosion.md
+07/21/2018  11:16 PM             1,780 Erosion--Erosion.md
+07/21/2018  11:16 PM               503 Erosion--Fluvial.md
+07/21/2018  11:16 PM               522 Erosion--Fold.md
+07/21/2018  11:16 PM             1,119 Erosion--Fusion.md
+07/21/2018  11:16 PM             1,177 Erosion--Hydro.md
+07/21/2018  11:16 PM               474 Erosion--Landform.md
+07/21/2018  11:16 PM               205 Erosion--MicroErosion.md
+07/21/2018  11:16 PM               846 Erosion--Sediment.md
+07/21/2018  11:16 PM             1,388 Erosion--Stratify.md
+07/21/2018  11:16 PM             2,713 Filter--Aperture.md
+07/21/2018  11:16 PM               645 Filter--Apex.md
+07/21/2018  11:16 PM             2,052 Filter--Bomber.md
+07/21/2018  11:16 PM             2,129 Filter--Cells.md
+07/21/2018  11:16 PM               490 Filter--Distribution.md
+07/21/2018  11:16 PM               733 Filter--Noise.md
+07/21/2018  11:16 PM               750 Filter--Origami.md
+07/21/2018  11:16 PM               822 Filter--Polar.md
+07/21/2018  11:16 PM               907 Filter--Recurve.md
+07/21/2018  11:16 PM               271 Filter--Repulse.md
+07/21/2018  11:16 PM               151 Filter--Rocks.md
+07/21/2018  11:16 PM               205 Filter--Subterrace.md
+07/21/2018  11:16 PM               969 Filter--Swirl.md
+07/21/2018  11:16 PM               976 Filter--Terrace.md
+07/21/2018  11:16 PM               944 Filter--Whorl.md
+07/21/2018  11:16 PM               263 Output--Output.md
+07/21/2018  11:16 PM               451 Primitive--Constant.md
+07/21/2018  11:16 PM             1,822 Primitive--File.md
+07/21/2018  11:16 PM             1,230 Primitive--Gradient.md
+07/21/2018  11:16 PM               900 Primitive--LineNoise.md
+07/21/2018  11:16 PM             1,590 Primitive--Mountain.md
+07/21/2018  11:16 PM               797 Primitive--Perlin.md
+07/21/2018  11:16 PM             1,006 Primitive--Plates.md
+07/21/2018  11:16 PM               936 Primitive--SlopeNoise.md
+07/21/2018  11:16 PM             1,290 Primitive--Voronoi.md
+07/21/2018  11:16 PM               271 Selector--Angle.md
+07/21/2018  11:16 PM               446 Selector--Curvature.md
+07/21/2018  11:16 PM               232 Selector--Height.md
+07/21/2018  11:16 PM               250 Selector--Slope.md
+              69 File(s)         58,911 bytes
+
+ Directory of Z:\WORKSPACES\Experimental\Docs\docfx_project\articles\Other Topics
+
+08/08/2018  09:25 AM    <DIR>          .
+08/08/2018  09:25 AM    <DIR>          ..
+07/21/2018  11:16 PM                 0 Common Issues.md
+07/21/2018  11:16 PM                 0 Getting help.md
+07/21/2018  11:16 PM               175 Importing in other packages.md
+               3 File(s)            175 bytes
+
+ Directory of Z:\WORKSPACES\Experimental\Docs\docfx_project\articles\Sculpt Tools
+
+08/08/2018  09:25 AM    <DIR>          .
+08/08/2018  09:25 AM    <DIR>          ..
+07/21/2018  11:16 PM                 0 LandBreaker.md
+               1 File(s)              0 bytes
+
+ Directory of Z:\WORKSPACES\Experimental\Docs\docfx_project\articles\Using Gaea
+
+08/08/2018  09:25 AM    <DIR>          .
+08/08/2018  09:25 AM    <DIR>          ..
+07/21/2018  11:16 PM             5,268 Building.md
+07/21/2018  11:16 PM             1,275 Color Production.md
+07/21/2018  11:16 PM               835 Heavy Nodes.md
+07/21/2018  11:16 PM               845 Post Processing.md
+07/21/2018  11:16 PM                 0 Preferences.md
+07/21/2018  11:16 PM             2,328 Terrain Scale.md
+07/21/2018  11:16 PM               304 Toolbox.md
+07/21/2018  11:16 PM                72 Viewport.md
+               8 File(s)         10,927 bytes
+
+     Total Files Listed:
+              90 File(s)         82,977 bytes
+              20 Dir(s)  134,890,754,048 bytes free

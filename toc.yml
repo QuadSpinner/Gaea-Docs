@@ -1,0 +1,9 @@
+- name: Documentation
+  href: documentation/
+  home: documentation/index.md
+- name: Quickstarts
+  href: Quickstarts/
+  homepage: Quickstarts/index.md
+- name: API
+  href: api/
+  homepage: api/index.md
