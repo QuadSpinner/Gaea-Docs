@@ -70,7 +70,7 @@ span.languagekeyword {
   font-weight: bold;
 }
 
-.svg{
+.svg {
   padding-top: 5px;
   width: 42px;
   height: 42px;
@@ -334,7 +334,6 @@ article section {
 .search-results-container {
   padding-bottom: 1em;
   border-top: 1px solid #111;
-  
 }
 
 .search-results-container .search-results-group {
@@ -488,7 +487,7 @@ body .toc {
   overflow-x: hidden;
 }
 
-.toc{
+.toc {
   overflow-y: hidden;
 }
 
@@ -563,7 +562,7 @@ body .toc {
 .toc .nav>li>.expand-stub::before, .toc .nav>li.active>.expand-stub::before {
   font-family: "Overpass";
   font-weight: 300;
-  content: "+";  
+  content: "+";
 }
 
 .toc .nav>li.filtered>ul, .toc .nav>li.in>ul {
@@ -598,6 +597,7 @@ body .toc {
   display: inline;
   left: -10px;
 } */
+
 /* .toc .level3 li {
   padding: 5px 0;
 } */
@@ -1081,20 +1081,29 @@ div.embeddedvideo iframe {
 
 /********************* FORMATS ******************/
 
-.level1 a{
+.level1 a {
   font-weight: 400 !important;
 }
 
-h3{
+.level3 li {
+  padding: 3px 12px;
+  padding-right: 0px;
+}
+
+.level3 li a {
+  font-weight: 600 !important;
+}
+
+h3 {
   font-weight: 400 !important;
 }
 
-p{
+p {
   font-family: "Assistant";
   font-size: 14px;
 }
 
-code{
+code {
   border-color: #928771;
   background-color: #222;
   color: #fff;
@@ -1104,7 +1113,7 @@ code{
   font-family: "Overpass Mono";
 }
 
-.title{
+.title {
   font-weight: 400 !important;
 }
 

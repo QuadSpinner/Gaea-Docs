@@ -36,6 +36,14 @@
       },
       {
         "files": [
+          "reference/**.md",
+          "reference/**/toc.yml",
+          "toc.yml",
+          "*.md"
+        ]
+      },
+      {
+        "files": [
           "quickstarts/**.md",
           "quickstarts/**/toc.yml",
           "toc.yml",

@@ -1,6 +1,9 @@
 - name: Documentation
   href: documentation/
   home: documentation/index.md
+- name: Node Reference
+  href: Reference/
+  homepage: Reference/index.md
 - name: Quickstarts
   href: Quickstarts/
   homepage: Quickstarts/index.md
