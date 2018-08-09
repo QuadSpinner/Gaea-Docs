@@ -5,3 +5,6 @@
 | **Strength** | 0.02 - 0.80 | Lorem ipsum |
 | **Density** | 0.02 - 0.50 | Lorem ipsum |
 | **Seed** | 0 - 128000 | Lorem ipsum |
+
+
+You can also use @"voronoi.md"

@@ -1100,7 +1100,6 @@ h3 {
 
 p {
   font-family: "Assistant";
-  font-size: 14px;
 }
 
 code {
@@ -1117,6 +1116,21 @@ code {
   font-weight: 400 !important;
 }
 
-/* b, strong{
-font-weight: 400;
-} */
+.table-qs, .table-qs tr, .table-qs td{
+  border: 0 !important;
+}
+
+
+tr td:nth-child(1) {
+  width: 150px;
+}
+
+tr td:nth-child(2) {
+  width: 180px;
+  font-family: "Overpass Mono";
+  color: #928771 !important;
+}
+
+tr td:nth-child(2) em {
+  font-family: "Assistant" !important;
+}
