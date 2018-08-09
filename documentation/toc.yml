@@ -17,6 +17,8 @@
         href: Heavy Nodes.md
       - name: Preferences
         href: Preferences.md
+      - name: Keyboard Shortcuts
+        href: Keyboard.md
 - name: Workflows
   items:
   - name: Graph Mode
