@@ -7,19 +7,19 @@ title: Installing Gaea
 - Microsoft [.NET Framework 4.7](https://support.microsoft.com/en-us/help/3186497/the-net-framework-4-7-offline-installer-for-windows) or later.
 - Microsoft Visual C++ Runtime 14.13.26020.0 (included)
 
-## Normal Installation
+## Normal Install
 Installing Gaea is a simple process. Depending on your installation location, you may need administrative privileges.
 
 1. Download the [latest version](http://quadspinner.com/gaea/download).
 2. Run the downloaded .exe file.
-3. By default, Gaea installs to `C:\Program Files\QuadSpinner\Gaea` but can be directed to any other folder. For security purposes, we recommend the Program Files folder.
+3. By default, Gaea installs to `C:\Program Files\QuadSpinner\Gaea` but can be directed to any other folder. For security purposes, we recommend the `C:\Program Files` folder.
 4. Once setup is complete, Gaea will launch.
 5. Follow the on-screen questions to set up your default preferences.
 6. The Gaea central project repository and build stacks are placed in `Documents\Gaea\` by default, however you can change this folder to any other location through introduction dialog, or at any later time via the Preferences.
 
 ---
 
-## Administrative Install
+## Admin Install
 **Enterprise Edition only**
 
 The Gaea installer is flexibly built for administrative and unattended installations.

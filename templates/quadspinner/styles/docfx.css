@@ -7,8 +7,9 @@ html, body {
 }
 
 button, a {
-  color: #928771;
+  color: #1A2844;
   cursor: pointer;
+  font-weight: 600;
 }
 
 button:hover, button:focus, a:hover, a:focus {
@@ -1081,19 +1082,21 @@ div.embeddedvideo iframe {
 
 /********************* FORMATS ******************/
 
-toc .level1 a {
+.toc .level1 a {
+  font-weight: 600 !important;
+}
+
+.toc .level2 a{
+  font-size: 16px !important;
   font-weight: 400 !important;
 }
 
-toc .level2 a{
-  font-size: 16px !important;
-}
-
-toc .level3 a{
+.toc .level3 a{
   font-size: 15px !important;
+  font-weight: 400 !important;
 }
 
-toc .level3 li {
+.toc .level3 li {
   padding: 3px 12px;
   padding-right: 0px;
 }
@@ -1105,6 +1108,10 @@ toc .level2 a.active, .level3 a.active{
   color: #fff;
   border-radius: 2px;
   padding: 3px 12px !important;
+}
+
+h1, h2{
+  letter-spacing: -1px;
 }
 
 h3 {
@@ -1122,7 +1129,9 @@ code {
   border-radius: 2px;
   padding: 3px 6px;
   padding-top: 6px;
+  font-size: 13px;
   font-family: "Overpass Mono";
+  letter-spacing: -1px;
 }
 
 .title {
@@ -1131,6 +1140,7 @@ code {
 
 .table-qs, .table-qs tr, .table-qs td{
   border: 0 !important;
+  font-size: 14px;
 }
 
 
@@ -1140,12 +1150,24 @@ tr td:nth-child(1) {
 
 tr td:nth-child(2) {
   width: 180px;
-  font-family: "Overpass Mono";
+  font-family: "Overpass";
   color: #928771 !important;
+  font-size: 12px !important;
 }
 
 tr td:nth-child(2) em {
   font-family: "Assistant" !important;
+
 }
 
 .contribution-link{display: none !important;}
+
+
+.TIP{
+  background: #fefefe !important;
+}
+
+#affix a{
+  overflow-wrap: break-word;
+word-wrap: break-word !important;
+}

@@ -1,40 +1,49 @@
 - name: Getting Started
   items:
-  - name: Basics of Terrain Design
-    href: Getting Started/Basics of Terrain Design.md
-  - name: Getting around
-    href: Getting Started/Getting around.md
   - name: Installing Gaea
-    href: Getting Started/Installing Gaea.md
+    href: Installing Gaea.md
+  - name: Basics of Terrain Design
+    href: Basics of Terrain Design.md
+  - name: Getting around
+    href: Getting around.md
+    items:
+      - name: Node Properties
+        href: Properties.md
+      - name: Toolbox
+        href: Toolbox.md
+      - name: Viewport
+        href: Viewport.md
+      - name: Heavy Nodes
+        href: Heavy Nodes.md
+      - name: Preferences
+        href: Preferences.md
 - name: Workflows
   items:
   - name: Graph Mode
-    href: Modes/Graph Mode.md
+    href: Graph Mode.md
   - name: Layer Mode
-    href: Modes/Layer Mode.md
+    href: Layer Mode.md
   - name: Directed Erosion
-    href: Modes/Directed Erosion.md
+    href: Directed Erosion.md
 - name: Using Gaea
   items:
-    - name: Building
-      href: Using Gaea/Building.md
-    - name: Color Production
-      href: Using Gaea/Color Production.md
-    - name: Heavy Nodes
-      href: Using Gaea/Heavy Nodes.md
-    - name: Post Processing
-      href: Using Gaea/Post Processing.md
-    - name: Preferences
-      href: Using Gaea/Preferences.md
+    - name: Importing Data
+      href: Importing Data.md
     - name: Terrain Scale
-      href: Using Gaea/Terrain Scale.md
-    - name: Toolbox
-      href: Using Gaea/Toolbox.md
-    - name: Viewport
-      href: Using Gaea/Viewport.md
+      href: Terrain Scale.md
+    - name: Using Data Maps
+      href: Data Maps.md
+    - name: Color Production
+      href: Color Production.md
+    - name: Building
+      href: Building.md
+    - name: Exporting Data
+      href: Exporting.md
+    - name: Creating LODs and Variations
+      href: Creating Variations.md
 - name: Misc
   items:
   - name: Common Issues
-    href: Other Topics/Common Issues.md
+    href: Common Issues.md
   - name: Getting help
-    href: Other Topics/Getting help.md
+    href: Getting help.md

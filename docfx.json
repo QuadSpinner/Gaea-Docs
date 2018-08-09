@@ -1,18 +1,4 @@
 {
-  "metadata": [
-    {
-      "src": [
-        {
-          "files": [
-            "src/**.csproj"
-          ]
-        }
-      ],
-      "dest": "api",
-      "disableGitFeatures": false,
-      "disableDefaultFilter": false
-    }
-  ],
   "build": {
     "template": [
       "default",
@@ -80,39 +66,5 @@
     "keepFileLink": false,
     "cleanupCacheHistory": false,
     "disableGitFeatures": false
-  },
-  "xxxpdf": {
-    "content": [
-      {
-        "files": [
-	  "api/**.md",
-          "api/**.yml",
-          "api-vb/**.yml"
-        ],
-        "exclude": [
-          "**/toc.yml",
-          "**/toc.md"
-        ]
-      },
-      {
-        "files": [
-          "documentation/**.md",
-          "documentation/**/toc.yml",
-          "toc.yml",
-          "*.md",
-          "pdf/*"
-        ],
-        "exclude": [
-          "**/bin/**",
-          "**/obj/**",
-          "_site_pdf/**",
-          "**/toc.yml",
-          "**/toc.md"
-        ]
-      },
-      {
-        "files": "pdf/toc.yml"
-      }
-    ]
   }
 }
