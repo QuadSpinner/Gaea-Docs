@@ -1,1 +1,1 @@
-docfx serve _site
+docfx serve docs

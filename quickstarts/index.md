@@ -1,6 +1,6 @@
 ---
 uid: quickstarts
-title: quickstarts
+title: Quickstarts
 ---
 
 # Gaea Quickstarts
