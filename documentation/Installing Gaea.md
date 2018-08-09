@@ -3,9 +3,11 @@ uid: Installing-Gaea
 title: Installing Gaea
 ---
 
-## Requirements
+## Software Requirements
 - Microsoft [.NET Framework 4.7](https://support.microsoft.com/en-us/help/3186497/the-net-framework-4-7-offline-installer-for-windows) or later.
-- Microsoft Visual C++ Runtime 14.13.26020.0 (included)
+- Microsoft [Visual C++ 2017 Runtime](https://aka.ms/vs/15/release/vc_redist.x64.exe).
+
+If either is not detected, the installer will try to download them automatically.
 
 ## Normal Install
 Installing Gaea is a simple process. Depending on your installation location, you may need administrative privileges.
