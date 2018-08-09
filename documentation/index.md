@@ -1,5 +1,15 @@
 # Documentation
 
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin turpis. Etiam ante tortor, ultrices vitae, fringilla sollicitudin, sagittis a, ante. Quisque luctus, magna vitae elementum mattis, dui massa ultricies ligula, eget posuere orci est vitae neque. Nam interdum molestie tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin euismod euismod nunc. Praesent pretium sem in dolor. Maecenas velit ante, varius eu, volutpat ut, consequat ut, orci. Cras laoreet. Sed turpis. Mauris laoreet orci non diam. Pellentesque consectetuer imperdiet neque. Aliquam sed nibh eget libero sodales imperdiet. Proin placerat faucibus enim. Nullam ante. Praesent venenatis. 
+The documentation is organized to help you get started with Gaea quickly and easily regardless of your skill level.
 
-Aliquam nunc. Fusce at lacus in turpis tincidunt congue. Nam tempor sagittis massa. Cras luctus vehicula ligula. Donec pretium egestas lacus. Proin ac velit ac erat condimentum dictum. Donec massa elit, laoreet a, varius quis, dapibus a, lectus. Proin pellentesque nibh tristique odio. Sed odio magna, euismod ac, sodales eu, suscipit eget, lectus. Aliquam libero. Cras leo. Donec ac libero vel nibh nonummy mollis. Vivamus a orci. In interdum mattis nunc. Donec condimentum ultricies nisi. Cras sit amet quam. Sed non quam at est venenatis ultricies. In nec neque. Proin ut nunc. Mauris dictum sollicitudin nibh. 
+---
+
+@Installing-Gaea contains instructions on installing Gaea.
+
+If you are completely new to terrain design software, we recommend starting with the @Basics-of-Terrain-Design and familiarizing yourself with the Gaea Interface in @Getting-Around.
+
+The **Workflows** section explains the different workflows you can use to create terrains in Gaea.
+
+The **Using Gaea** section explains various concepts in detail such as the @Build-Manager, @Color-Production, @Importing-Data, and more.
+
+Refer to the @node-reference to learn about individual nodes, their functions, and usage advice 

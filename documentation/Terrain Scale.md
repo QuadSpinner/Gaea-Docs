@@ -3,7 +3,7 @@ uid: Terrain-Scale
 title: Terrain Scale
 ---
 
-nGaea supports setting an arbitrary scale for your terrains through the new Terrain Definition panel. If you're a casual terrain artist, this won't affect your workflow too much — the defaults will be sufficient. But if you're creating precisely scaled terrains, the Terrain Definition is your best friend.
+Gaea supports setting an arbitrary scale for your terrains through the new Terrain Definition panel. If you're a casual terrain artist, this won't affect your workflow too much — the defaults will be sufficient. But if you're creating precisely scaled terrains, the Terrain Definition is your best friend.
 
 ## Terrain Definition
 The Terrain Definition popup is found in the main toolbar.
