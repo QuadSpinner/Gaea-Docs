@@ -6,14 +6,14 @@
     href: Getting Started/Getting around.md
   - name: Installing Gaea
     href: Getting Started/Installing Gaea.md
-  - name: Directed Erosion
-    href: Getting Started/Directed Erosion.md
 - name: Workflows
   items:
   - name: Graph Mode
     href: Modes/Graph Mode.md
   - name: Layer Mode
     href: Modes/Layer Mode.md
+  - name: Directed Erosion
+    href: Modes/Directed Erosion.md
 - name: Using Gaea
   items:
     - name: Building

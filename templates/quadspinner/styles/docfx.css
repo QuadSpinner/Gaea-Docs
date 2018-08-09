@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Assistant:200,300,400,600,700|Overpass:100,300,400');
+@import url('https://fonts.googleapis.com/css?family=Assistant:200,300,400,600,700|Overpass:100,300,400|Overpass+Mono');
 /* Copyright (c) Microsoft Corporation. All Rights Reserved. Licensed under the MIT License. See License.txt in the project root for license information. */
 
 html, body {
@@ -1092,6 +1092,20 @@ h3{
 p{
   font-family: "Assistant";
   font-size: 14px;
+}
+
+code{
+  border-color: #928771;
+  background-color: #222;
+  color: #fff;
+  border-radius: 2px;
+  padding: 3px 6px;
+  padding-top: 6px;
+  font-family: "Overpass Mono";
+}
+
+.title{
+  font-weight: 400 !important;
 }
 
 /* b, strong{
