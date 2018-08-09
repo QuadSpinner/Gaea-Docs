@@ -1,5 +1,5 @@
 ---
-uid: Directed-Erosion
+uid: Directed-Erosion-Node
 title: Directed Erosion
 ---
 

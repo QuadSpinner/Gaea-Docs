@@ -1,5 +1,5 @@
 ---
-uid: Igneous
+uid: Igneous-Quickstart
 title: Igneous
 ---
 

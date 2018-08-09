@@ -25,7 +25,7 @@
     href: Graph Mode.md
   - name: Layer Mode
     href: Layer Mode.md
-  - name: Directed Erosion
+  - name: Sculpting
     href: Directed Erosion.md
 - name: Using Gaea
   items:
@@ -37,7 +37,7 @@
       href: Data Maps.md
     - name: Color Production
       href: Color Production.md
-    - name: Building
+    - name: Build Manager
       href: Building.md
     - name: Exporting Data
       href: Exporting.md
