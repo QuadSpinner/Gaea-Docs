@@ -75,6 +75,7 @@
     "content": [
       {
         "files": [
+	  "api/**.md",
           "api/**.yml",
           "api-vb/**.yml"
         ],
