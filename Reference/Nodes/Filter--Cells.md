@@ -1,4 +1,9 @@
-This node quantizes the heightfield into discrete cells as defined by the Distance function. The default Euclidian function creates basalt pillar-like shapes.
+---
+uid: Filter--Cells
+title: Cells
+---
+
+nThis node quantizes the heightfield into discrete cells as defined by the Distance function. The default Euclidian function creates basalt pillar-like shapes.
 
 
 | Setting      | Values       | Description                                                                                                                                                    |

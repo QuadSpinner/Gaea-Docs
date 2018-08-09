@@ -1,3 +1,8 @@
+---
+uid: Primitive--Dunes
+title: Dunes
+---
+
 | Setting | Values | Description |
 | :--- | :--- | :--- |
 | **Scale** | 0.00 - 1.00 | Lorem ipsum |

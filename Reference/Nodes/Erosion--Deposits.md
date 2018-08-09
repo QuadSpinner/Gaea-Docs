@@ -1,3 +1,8 @@
+---
+uid: Erosion--Deposits
+title: Deposits
+---
+
 | Setting        | Values      | Description                                               |
 | :------------- | :---------- | :-------------------------------------------------------- |
 | **Iterations** | 1 - 10      | Lorem                                                     |

@@ -1,3 +1,8 @@
+---
+uid: Primitive--Gradient
+title: Gradient
+---
+
 | Setting              | Values      | Description                      |
 | :------------------- | :---------- | :------------------------------- |
 | **Type**             |             |

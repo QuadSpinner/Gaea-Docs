@@ -1,4 +1,9 @@
-The Coast node creates a coastal region on the terrain. The coast can be either a smooth transition (beaches) or a strong transition (cliffs).
+---
+uid: Erosion--Coast
+title: Coast
+---
+
+nThe Coast node creates a coastal region on the terrain. The coast can be either a smooth transition (beaches) or a strong transition (cliffs).
 
 | Setting         | Values      | Description |
 | :-------------- | :---------- | :---------- |

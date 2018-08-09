@@ -1,3 +1,8 @@
+---
+uid: Ridge
+title: Ridge
+---
+
 ![](../Images/Viewport/Ridge.jpg)
 ![](../Images/Graph/Ridge.png)
 

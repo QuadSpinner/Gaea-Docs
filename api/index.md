@@ -1,3 +1,8 @@
+---
+uid: index
+title: index
+---
+
 # Gaea Extensibility Framework
 
 The Gaea Extensibility Framework (GaeaFx) let you extend Gaea and even add your own convenience features.

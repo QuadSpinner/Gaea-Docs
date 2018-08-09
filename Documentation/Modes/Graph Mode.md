@@ -1,3 +1,8 @@
+---
+uid: Graph-Mode
+title: Graph Mode
+---
+
 ## Understanding the Advanced Graph
 The graph may look complicated, but follows a simple pattern. Each node represents a specific function, and has two types of "ports", namely Input ports and Output ports. These ports are used to connect one node to another to create a sequence of functions, which result in a terrain.
 

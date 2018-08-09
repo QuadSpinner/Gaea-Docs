@@ -1,3 +1,8 @@
+---
+uid: Primitive--Fault
+title: Fault
+---
+
 | Setting | Values | Description |
 | :--- | :--- | :--- |
 | **Width** | 0.00 - 0.40 | Lorem ipsum |

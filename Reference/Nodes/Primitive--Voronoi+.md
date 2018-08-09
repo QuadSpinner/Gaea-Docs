@@ -1,3 +1,8 @@
+---
+uid: Primitive--Voronoi+
+title: Voronoi+
+---
+
 | Setting | Values | Description |
 | :--- | :--- | :--- |
 | **Iterations** | 1 - 30 | Lorem ipsum |

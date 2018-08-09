@@ -1,3 +1,8 @@
+---
+uid: Erosion--Breaker
+title: Breaker
+---
+
 | Setting           | Values     | Description |
 | :---------------- | :--------- | :---------- |
 | **Duration**      | 1 - 5000   | The number of breakage iterations to perform on the terrain. The default value should work in most situations. |

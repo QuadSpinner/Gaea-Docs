@@ -1,3 +1,8 @@
+---
+uid: Color--Synth
+title: Synth
+---
+
 | Setting               | Values          | Description |
 | :-------------------- | :-------------- | :---------- |
 | **Reverse**           | On / Off | Lorem ipsum |

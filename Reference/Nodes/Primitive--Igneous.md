@@ -1,3 +1,8 @@
+---
+uid: Primitive--Igneous
+title: Igneous
+---
+
 | Setting | Values | Description |
 | :--- | :--- | :--- |
 | **Scale** | 0.00 - 1.00 | Lorem ipsum |

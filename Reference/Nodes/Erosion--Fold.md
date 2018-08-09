@@ -1,3 +1,8 @@
+---
+uid: Erosion--Fold
+title: Fold
+---
+
 | Setting      | Values          | Description |
 | :----------- | :-------------- | :---------- |
 | **Scale**    | 0.40 - 1.00     | Lorem |

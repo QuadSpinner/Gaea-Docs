@@ -1,3 +1,8 @@
+---
+uid: DataMap--Velocity
+title: Velocity
+---
+
 | Setting           | Values   | Description |
 | :---------------- | :------- | :---------- |
 | **Duration**      | 0 - 700  | Lorem |

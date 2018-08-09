@@ -1,3 +1,8 @@
+---
+uid: Primitive--Perlin
+title: Perlin
+---
+
 | Setting            | Values      | Description |
 | :----------------- | :---------- | :---------- |
 | **Scale**          | 0.00 - 1.00 | Lorem |

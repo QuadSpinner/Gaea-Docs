@@ -22,7 +22,7 @@
   - name: Igneous 
     href: Igneous.md 
   - name: Large Desert
-    href: Large-Desert-Layers.md 
+    href: Large-Desert.md 
   - name: Mountain Slope 
     href: Mountain-Slope.md
   - name: Ocean Cliffs 
@@ -51,8 +51,8 @@
     href: Technique-Sand-Deposits.md 
   - name: Technique Simple Biome
     href: Technique-Simple-Biome.md
-  - name: Technique Slanted Rocks_Graph
-    href: Technique-Slanted-Rocks_Graph.md 
+  - name: Technique Slanted Rocks
+    href: Technique-Slanted-Rocks.md 
   - name: Technique Threshold
     href: Technique-Threshold.md 
   - name: Thousand Mesas

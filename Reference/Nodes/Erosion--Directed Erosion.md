@@ -1,3 +1,8 @@
+---
+uid: Erosion--Directed-Erosion
+title: Directed Erosion
+---
+
 | Setting                 | Values          | Description |
 | :---------------------- | :-------------- | :---------- |
 | **Target Resolution**   | Lorem     |

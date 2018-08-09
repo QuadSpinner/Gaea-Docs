@@ -1,4 +1,9 @@
+---
+uid: Filter--Bomber
+title: Bomber
+---
 
+n
 
 
 | Setting              | Values      | Description                                                                           |

@@ -1,3 +1,8 @@
+---
+uid: Selector--Angle
+title: Angle
+---
+
 | Setting     | Values      | Description |
 | :---------- | :---------- | :---------- |
 | **Azimuth** | 0 - 360     | Lorem |

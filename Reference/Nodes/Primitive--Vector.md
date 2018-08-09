@@ -1,3 +1,8 @@
+---
+uid: Primitive--Vector
+title: Vector
+---
+
 | Setting | Values | Description |
 | :--- | :--- | :--- |
 | **Vector** | Filename | Lorem ipsum |

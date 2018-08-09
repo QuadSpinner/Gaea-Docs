@@ -1,3 +1,8 @@
+---
+uid: Filter--Repulse
+title: Repulse
+---
+
 | Setting    | Values       | Description |
 | :--------- | :----------- | :---------- |
 | **Amount** | -1.00 - 1.00 | Lorem |

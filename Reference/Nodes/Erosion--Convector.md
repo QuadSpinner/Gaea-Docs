@@ -1,4 +1,9 @@
-Convector is an exaggerated form of thermal erosion with a bit of tweaks thrown in for stylized output. It creates strong slopes and terraces at the same time, giving you a unique flavor of erosion.
+---
+uid: Erosion--Convector
+title: Convector
+---
+
+nConvector is an exaggerated form of thermal erosion with a bit of tweaks thrown in for stylized output. It creates strong slopes and terraces at the same time, giving you a unique flavor of erosion.
 
 
 | Setting        | Values      | Description |

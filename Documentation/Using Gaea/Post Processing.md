@@ -1,3 +1,8 @@
+---
+uid: Post-Processing
+title: Post Processing
+---
+
 # Intrinsic Post Processing
 The Post Process tab sits right next to the Properties tab, and provides quick access to common functions. In this release, we have added a limit set of common functions, but more will be added later once certain under-the-hood changes are complete.
 

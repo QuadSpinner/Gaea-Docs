@@ -1,3 +1,8 @@
+---
+uid: Heavy-Nodes
+title: Heavy Nodes
+---
+
 ## Heavy Nodes
 We have classified some nodes, such as Erosion, Fluvial, etc. as "Heavy" nodes — meaning, they can take a long time to process, and sometimes cannot be cancelled mid-process. Updating multiple settings on such a node can slow down or even freeze up the application.
 

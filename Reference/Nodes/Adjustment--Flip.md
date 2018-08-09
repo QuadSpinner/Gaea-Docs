@@ -1,3 +1,8 @@
+---
+uid: Adjustment--Flip
+title: Flip
+---
+
 | Setting       | Values       | Description |
 | :------------ | :----------- | :---------- |
 | **Direction** | Lorem  |

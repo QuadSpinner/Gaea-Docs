@@ -1,3 +1,8 @@
+---
+uid: DataMap--FlowMap
+title: FlowMap
+---
+
 | Setting               | Values   | Description                                                                                                                                                                                                                   |
 | :-------------------- | :------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Rain Cycles**       | 1 - 200  | The number of rain cycles to calculate. Smaller values create small, detailed flows, while larger values create stronger, wider flows.                                                                                        |

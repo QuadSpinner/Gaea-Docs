@@ -1,3 +1,8 @@
+---
+uid: Adjustment--Displace
+title: Displace
+---
+
 | Setting               | Values      | Description                                               |
 | :-------------------- | :---------- | :-------------------------------------------------------- |
 | **Method**            | Lorem       |

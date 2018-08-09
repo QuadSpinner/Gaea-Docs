@@ -1,3 +1,8 @@
+---
+uid: Adjustment--Blur
+title: Blur
+---
+
 | Setting       | Values       | Description |
 | :------------ | :----------- | :---------- |
 | **Power**     | 0.10 - 10.00 | Lorem |

@@ -1,3 +1,8 @@
+---
+uid: Filter--Noise
+title: Noise
+---
+
 | Setting        | Values      | Description |
 | :------------- | :---------- | :---------- |
 | **Strength**   | 0.00 - 1.00 | Lorem |

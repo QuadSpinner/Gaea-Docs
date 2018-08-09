@@ -1,3 +1,8 @@
+---
+uid: Primitive--Draw
+title: Draw
+---
+
 | Setting | Values | Description |
 | :--- | :--- | :--- |
 | **Strokes** | Filename | Lorem ipsum |

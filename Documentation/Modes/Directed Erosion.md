@@ -1,3 +1,8 @@
+---
+uid: Directed-Erosion
+title: Directed Erosion
+---
+
 ## Understanding Directed Erosion
 Directed Erosion works in its own "Sculpt mode". In this example, we have a simple setup at 512 x 512 preview resolution. When you add the Directed Erosion node, you will notice it has its own independent resolution. In most cases, this should be the final output resolution. See the Strategies section later in this article for more details.
 

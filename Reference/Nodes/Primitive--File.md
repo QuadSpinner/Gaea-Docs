@@ -1,4 +1,9 @@
-The File node loads any supported image or data file as a terrain. It supports all major file formats such as ???. You can also transform the input.
+---
+uid: Primitive--File
+title: File
+---
+
+nThe File node loads any supported image or data file as a terrain. It supports all major file formats such as ???. You can also transform the input.
 
 
 | Setting       | Values       | Description                                                                                                                     |

@@ -1,3 +1,8 @@
+---
+uid: api
+title: api
+---
+
 # Gaea Extensibility API
 
 The Gaea API provides a lightweight framework for users and vendors to extend Gaea with new nodes, custom functionality, and automation.

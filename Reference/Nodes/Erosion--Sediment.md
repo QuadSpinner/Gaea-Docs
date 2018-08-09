@@ -1,3 +1,8 @@
+---
+uid: Erosion--Sediment
+title: Sediment
+---
+
 | Setting      | Values      | Description                                               |
 | :----------- | :---------- | :-------------------------------------------------------- |
 | **Power**    | 1 - 50      | Lorem                                                     |

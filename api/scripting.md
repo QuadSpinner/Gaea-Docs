@@ -1,3 +1,8 @@
+---
+uid: scripting
+title: scripting
+---
+
 # GaeaFx Scripting
 
 GaeaFx Scripting is an extremely easy way to create complex solutions right within Gaea.

@@ -1,3 +1,8 @@
+---
+uid: Volcano
+title: Volcano
+---
+
 ![](../Images/Viewport/Volcano.jpg)
 ![](../Images/Graph/Volcano.png)
 

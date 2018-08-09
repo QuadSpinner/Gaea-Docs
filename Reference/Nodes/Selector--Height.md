@@ -1,3 +1,8 @@
+---
+uid: Selector--Height
+title: Height
+---
+
 | Setting     | Values      | Description |
 | :---------- | :---------- | :---------- |
 | **Min**     | 0.00 - 1.00 | Lorem |

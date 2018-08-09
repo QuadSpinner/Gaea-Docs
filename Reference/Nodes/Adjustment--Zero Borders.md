@@ -1,3 +1,8 @@
+---
+uid: Adjustment--Zero-Borders
+title: Zero Borders
+---
+
 | Setting     | Values          | Description |
 | :---------- | :-------------- | :---------- |
 | **Mode**    | Lorem ipsum     |

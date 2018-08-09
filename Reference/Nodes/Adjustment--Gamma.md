@@ -1,4 +1,9 @@
-The Gamma node applies Gamma adjustment to the heightfield. It works exactly as Gamma works in an image processing program.
+---
+uid: Adjustment--Gamma
+title: Gamma
+---
+
+nThe Gamma node applies Gamma adjustment to the heightfield. It works exactly as Gamma works in an image processing program.
 
 | Setting   | Values      | Description                                                                           |
 | :-------- | :---------- | :------------------------------------------------------------------------------------ |

@@ -1,4 +1,9 @@
-The Aperture node expands or compacts every single feature on the terrain, similar to bokeh in a camera.
+---
+uid: Filter--Aperture
+title: Aperture
+---
+
+nThe Aperture node expands or compacts every single feature on the terrain, similar to bokeh in a camera.
 
 | Setting        | Values     | Description                                                                                                                    |
 | :------------- | :--------- | :----------------------------------------------------------------------------------------------------------------------------- |

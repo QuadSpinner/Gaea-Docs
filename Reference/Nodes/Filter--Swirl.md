@@ -1,4 +1,9 @@
-Swirl creates a vortex warp on the terrain. It can be very useful for adding a bit of fluidity to the terrain.
+---
+uid: Filter--Swirl
+title: Swirl
+---
+
+nSwirl creates a vortex warp on the terrain. It can be very useful for adding a bit of fluidity to the terrain.
 
 | Setting       | Values       | Description                                                                                                                       |
 | :------------ | :----------- | :-------------------------------------------------------------------------------------------------------------------------------- |

@@ -1,4 +1,9 @@
-Constant is perhaps the simplest node in Gaea. It creates a uniform, blank terrain of the height specified.
+---
+uid: Primitive--Constant
+title: Constant
+---
+
+nConstant is perhaps the simplest node in Gaea. It creates a uniform, blank terrain of the height specified.
 
 | Setting    | Values      | Description                      |
 | :--------- | :---------- | :------------------------------- |

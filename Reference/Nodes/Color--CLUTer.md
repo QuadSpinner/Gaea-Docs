@@ -1,3 +1,8 @@
+---
+uid: Color--CLUTer
+title: CLUTer
+---
+
 | Setting               | Values          | Description |
 | :-------------------- | :-------------- | :---------- |
 | **Reverse**           | On / Off | Lorem |

@@ -1,3 +1,8 @@
+---
+uid: Importing-in-other-packages
+title: Importing in other packages
+---
+
 ## 3dsmax
 
 ### 

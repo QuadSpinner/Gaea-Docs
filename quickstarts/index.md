@@ -1,4 +1,7 @@
-![Gaea Quickstarts](icon.png)
+---
+uid: quickstarts
+title: quickstarts
+---
 
 # Gaea Quickstarts
 This repository contains all Gaea Quickstart files to help you get started.

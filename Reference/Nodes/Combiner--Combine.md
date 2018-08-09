@@ -1,3 +1,8 @@
+---
+uid: Combiner--Combine
+title: Combine
+---
+
 | Setting         | Values          | Description |
 | :-------------- | :-------------- | :---------- |
 | **Source**      | *Node or Layer* | Lorem |
