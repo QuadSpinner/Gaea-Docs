@@ -1,5 +1,5 @@
 ---
-uid: Selector--Height
+uid: Height
 title: Height
 ---
 

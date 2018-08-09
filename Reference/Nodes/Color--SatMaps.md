@@ -1,5 +1,5 @@
 ---
-uid: Color--SatMaps
+uid: SatMaps
 title: SatMaps
 ---
 

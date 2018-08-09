@@ -1,6 +1,6 @@
 ---
-uid: Building
-title: Building
+uid: Build-Manager
+title: Build Manager
 ---
 
 ## Building Terrains

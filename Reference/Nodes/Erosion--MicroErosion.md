@@ -1,5 +1,5 @@
 ---
-uid: Erosion--MicroErosion
+uid: MicroErosion
 title: MicroErosion
 ---
 

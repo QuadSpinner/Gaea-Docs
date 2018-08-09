@@ -1,5 +1,5 @@
 ---
-uid: Primitive--File
+uid: File
 title: File
 ---
 

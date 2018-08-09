@@ -1,5 +1,5 @@
 ---
-uid: Filter--Swirl
+uid: Swirl
 title: Swirl
 ---
 

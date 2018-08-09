@@ -1,5 +1,5 @@
 ---
-uid: Adjustment--BiasGain
+uid: BiasGain
 title: BiasGain
 ---
 

@@ -1,5 +1,5 @@
 ---
-uid: Erosion--Directed-Erosion
+uid: Directed-Erosion
 title: Directed Erosion
 ---
 

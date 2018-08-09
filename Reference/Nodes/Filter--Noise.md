@@ -1,5 +1,5 @@
 ---
-uid: Filter--Noise
+uid: Noise
 title: Noise
 ---
 

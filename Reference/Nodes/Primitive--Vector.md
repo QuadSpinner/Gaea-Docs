@@ -1,5 +1,5 @@
 ---
-uid: Primitive--Vector
+uid: Vector
 title: Vector
 ---
 

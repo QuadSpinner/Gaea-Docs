@@ -6,7 +6,7 @@ html, body {
   height: 100%;
 }
 
-button, a {
+button, a, .xref {
   color: #1A2844;
   cursor: pointer;
   font-weight: 600;
@@ -23,7 +23,7 @@ a.disable, a.disable:hover {
   color: #000000;
 }
 
-h1, h2, h3, h4, h5, h6, .text-break {
+h1, h2, h3, h4, h5, h6 {
   font-family: "Overpass";
   font-weight: 100 !important;
   word-wrap: break-word;

@@ -1,5 +1,5 @@
 ---
-uid: Primitive--Plates
+uid: Plates
 title: Plates
 ---
 

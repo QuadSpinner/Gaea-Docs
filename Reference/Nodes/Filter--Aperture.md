@@ -1,5 +1,5 @@
 ---
-uid: Filter--Aperture
+uid: Aperture
 title: Aperture
 ---
 

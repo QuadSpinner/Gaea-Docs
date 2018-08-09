@@ -1,5 +1,5 @@
 ---
-uid: Color--CLUTer
+uid: CLUTer
 title: CLUTer
 ---
 

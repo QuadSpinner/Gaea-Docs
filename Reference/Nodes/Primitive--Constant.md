@@ -1,5 +1,5 @@
 ---
-uid: Primitive--Constant
+uid: Constant
 title: Constant
 ---
 

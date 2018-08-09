@@ -1,5 +1,5 @@
 ---
-uid: Filter--Terrace
+uid: Terrace
 title: Terrace
 ---
 

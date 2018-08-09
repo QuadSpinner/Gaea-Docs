@@ -1,5 +1,5 @@
 ---
-uid: Color--BrightnessContrast
+uid: BrightnessContrast
 title: BrightnessContrast
 ---
 

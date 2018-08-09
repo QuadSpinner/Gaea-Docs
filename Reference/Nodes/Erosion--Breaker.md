@@ -1,5 +1,5 @@
 ---
-uid: Erosion--Breaker
+uid: Breaker
 title: Breaker
 ---
 

@@ -1,5 +1,5 @@
 ---
-uid: Adjustment--Gamma
+uid: Gamma
 title: Gamma
 ---
 

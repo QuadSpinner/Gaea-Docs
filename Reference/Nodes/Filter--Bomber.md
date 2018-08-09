@@ -1,5 +1,5 @@
 ---
-uid: Filter--Bomber
+uid: Bomber
 title: Bomber
 ---
 

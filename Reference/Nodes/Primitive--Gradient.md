@@ -1,5 +1,5 @@
 ---
-uid: Primitive--Gradient
+uid: Gradient
 title: Gradient
 ---
 

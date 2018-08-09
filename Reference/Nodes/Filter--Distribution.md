@@ -1,5 +1,5 @@
 ---
-uid: Filter--Distribution
+uid: Distribution
 title: Distribution
 ---
 

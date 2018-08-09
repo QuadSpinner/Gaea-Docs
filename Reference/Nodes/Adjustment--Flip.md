@@ -1,5 +1,5 @@
 ---
-uid: Adjustment--Flip
+uid: Flip
 title: Flip
 ---
 

@@ -1,5 +1,5 @@
 ---
-uid: Selector--Curvature
+uid: Curvature
 title: Curvature
 ---
 

@@ -1,5 +1,5 @@
 ---
-uid: Primitive--Draw
+uid: Draw
 title: Draw
 ---
 

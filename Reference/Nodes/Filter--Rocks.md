@@ -1,5 +1,5 @@
 ---
-uid: Filter--Rocks
+uid: Rocks
 title: Rocks
 ---
 

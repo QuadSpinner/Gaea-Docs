@@ -1,5 +1,5 @@
 ---
-uid: Primitive--SlopeNoise
+uid: SlopeNoise
 title: SlopeNoise
 ---
 

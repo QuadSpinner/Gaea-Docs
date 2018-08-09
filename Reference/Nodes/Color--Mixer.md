@@ -1,5 +1,5 @@
 ---
-uid: Color--Mixer
+uid: Mixer
 title: Mixer
 ---
 

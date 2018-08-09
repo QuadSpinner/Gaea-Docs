@@ -1,5 +1,5 @@
 ---
-uid: Erosion--Stratify
+uid: Stratify
 title: Stratify
 ---
 

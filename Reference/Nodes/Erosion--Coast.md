@@ -1,5 +1,5 @@
 ---
-uid: Erosion--Coast
+uid: Coast
 title: Coast
 ---
 

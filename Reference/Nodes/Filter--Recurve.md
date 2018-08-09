@@ -1,5 +1,5 @@
 ---
-uid: Filter--Recurve
+uid: Recurve
 title: Recurve
 ---
 

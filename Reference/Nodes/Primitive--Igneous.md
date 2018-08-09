@@ -1,5 +1,5 @@
 ---
-uid: Primitive--Igneous
+uid: Igneous
 title: Igneous
 ---
 

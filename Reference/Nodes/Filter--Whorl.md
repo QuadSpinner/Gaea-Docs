@@ -1,5 +1,5 @@
 ---
-uid: Filter--Whorl
+uid: Whorl
 title: Whorl
 ---
 

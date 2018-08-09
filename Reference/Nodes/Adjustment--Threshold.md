@@ -1,5 +1,5 @@
 ---
-uid: Adjustment--Threshold
+uid: Threshold
 title: Threshold
 ---
 

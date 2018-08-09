@@ -1,5 +1,5 @@
 ---
-uid: DataMap--Velocity
+uid: Velocity
 title: Velocity
 ---
 

@@ -1,5 +1,5 @@
 ---
-uid: Adjustment--Displace
+uid: Displace
 title: Displace
 ---
 

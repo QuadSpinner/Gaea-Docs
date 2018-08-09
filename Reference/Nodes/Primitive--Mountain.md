@@ -1,5 +1,5 @@
 ---
-uid: Primitive--Mountain
+uid: Mountain
 title: Mountain
 ---
 

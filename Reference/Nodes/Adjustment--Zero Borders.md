@@ -1,5 +1,5 @@
 ---
-uid: Adjustment--Zero-Borders
+uid: Zero-Borders
 title: Zero Borders
 ---
 

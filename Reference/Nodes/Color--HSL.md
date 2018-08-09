@@ -1,5 +1,5 @@
 ---
-uid: Color--HSL
+uid: HSL
 title: HSL
 ---
 

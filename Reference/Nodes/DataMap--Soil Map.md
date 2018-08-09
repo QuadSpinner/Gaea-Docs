@@ -1,5 +1,5 @@
 ---
-uid: DataMap--Soil-Map
+uid: Soil-Map
 title: Soil Map
 ---
 

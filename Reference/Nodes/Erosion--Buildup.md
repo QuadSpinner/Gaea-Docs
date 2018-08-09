@@ -1,5 +1,5 @@
 ---
-uid: Erosion--Buildup
+uid: Buildup
 title: Buildup
 ---
 

@@ -1,5 +1,5 @@
 ---
-uid: Adjustment--Sharpen
+uid: Sharpen
 title: Sharpen
 ---
 

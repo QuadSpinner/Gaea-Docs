@@ -1,5 +1,5 @@
 ---
-uid: Erosion--Alluvium
+uid: Alluvium
 title: Alluvium
 ---
 

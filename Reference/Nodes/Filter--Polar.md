@@ -1,5 +1,5 @@
 ---
-uid: Filter--Polar
+uid: Polar
 title: Polar
 ---
 

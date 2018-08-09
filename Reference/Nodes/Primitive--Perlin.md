@@ -1,5 +1,5 @@
 ---
-uid: Primitive--Perlin
+uid: Perlin
 title: Perlin
 ---
 

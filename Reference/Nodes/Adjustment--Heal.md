@@ -1,5 +1,5 @@
 ---
-uid: Adjustment--Heal
+uid: Heal
 title: Heal
 ---
 

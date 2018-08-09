@@ -1,5 +1,5 @@
 ---
-uid: Erosion--Erosion
+uid: Erosion
 title: Erosion
 ---
 

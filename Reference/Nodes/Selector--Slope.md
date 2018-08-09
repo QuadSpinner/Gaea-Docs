@@ -1,5 +1,5 @@
 ---
-uid: Selector--Slope
+uid: Slope
 title: Slope
 ---
 

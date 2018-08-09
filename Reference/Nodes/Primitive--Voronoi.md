@@ -1,5 +1,5 @@
 ---
-uid: Primitive--Voronoi
+uid: Voronoi
 title: Voronoi
 ---
 

@@ -1,5 +1,5 @@
 ---
-uid: Filter--Repulse
+uid: Repulse
 title: Repulse
 ---
 

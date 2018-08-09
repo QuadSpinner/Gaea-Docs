@@ -1,5 +1,5 @@
 ---
-uid: Primitive--Fault
+uid: Fault
 title: Fault
 ---
 

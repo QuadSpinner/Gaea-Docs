@@ -1,5 +1,5 @@
 ---
-uid: Erosion--Deposits
+uid: Deposits
 title: Deposits
 ---
 

@@ -1,5 +1,5 @@
 ---
-uid: Adjustment--Clamp
+uid: Clamp
 title: Clamp
 ---
 

@@ -1,5 +1,5 @@
 ---
-uid: Primitive--Dunes
+uid: Dunes
 title: Dunes
 ---
 

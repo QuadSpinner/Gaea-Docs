@@ -1,5 +1,5 @@
 ---
-uid: DataMap--FlowMap
+uid: FlowMap
 title: FlowMap
 ---
 

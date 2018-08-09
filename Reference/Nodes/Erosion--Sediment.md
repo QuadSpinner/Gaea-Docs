@@ -1,5 +1,5 @@
 ---
-uid: Erosion--Sediment
+uid: Sediment
 title: Sediment
 ---
 

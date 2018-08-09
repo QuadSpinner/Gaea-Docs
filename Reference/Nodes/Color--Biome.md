@@ -1,5 +1,5 @@
 ---
-uid: Color--Biome
+uid: Biome
 title: Biome
 ---
 

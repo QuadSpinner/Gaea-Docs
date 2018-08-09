@@ -1,5 +1,5 @@
 ---
-uid: Adjustment--AutoLevel
+uid: AutoLevel
 title: AutoLevel
 ---
 

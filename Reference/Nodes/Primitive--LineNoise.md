@@ -1,5 +1,5 @@
 ---
-uid: Primitive--LineNoise
+uid: LineNoise
 title: LineNoise
 ---
 

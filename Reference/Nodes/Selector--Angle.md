@@ -1,5 +1,5 @@
 ---
-uid: Selector--Angle
+uid: Angle
 title: Angle
 ---
 

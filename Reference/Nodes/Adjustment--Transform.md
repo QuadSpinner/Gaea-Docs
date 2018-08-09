@@ -1,5 +1,5 @@
 ---
-uid: Adjustment--Transform
+uid: Transform
 title: Transform
 ---
 

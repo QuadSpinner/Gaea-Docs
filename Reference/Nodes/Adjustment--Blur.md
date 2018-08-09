@@ -1,5 +1,5 @@
 ---
-uid: Adjustment--Blur
+uid: Blur
 title: Blur
 ---
 

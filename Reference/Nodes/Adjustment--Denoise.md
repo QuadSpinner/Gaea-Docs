@@ -1,5 +1,5 @@
 ---
-uid: Adjustment--Denoise
+uid: Denoise
 title: Denoise
 ---
 

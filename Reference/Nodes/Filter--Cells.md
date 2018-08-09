@@ -1,5 +1,5 @@
 ---
-uid: Filter--Cells
+uid: Cells
 title: Cells
 ---
 

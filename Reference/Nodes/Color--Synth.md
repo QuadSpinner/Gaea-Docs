@@ -1,5 +1,5 @@
 ---
-uid: Color--Synth
+uid: Synth
 title: Synth
 ---
 

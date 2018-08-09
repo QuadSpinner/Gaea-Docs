@@ -1,5 +1,5 @@
 ---
-uid: Filter--Origami
+uid: Origami
 title: Origami
 ---
 

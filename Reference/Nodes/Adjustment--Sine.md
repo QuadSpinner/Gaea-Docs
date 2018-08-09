@@ -1,5 +1,5 @@
 ---
-uid: Adjustment--Sine
+uid: Sine
 title: Sine
 ---
 
