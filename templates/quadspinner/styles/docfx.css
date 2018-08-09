@@ -1081,17 +1081,30 @@ div.embeddedvideo iframe {
 
 /********************* FORMATS ******************/
 
-.level1 a {
+toc .level1 a {
   font-weight: 400 !important;
 }
 
-.level3 li {
+toc .level2 a{
+  font-size: 16px !important;
+}
+
+toc .level3 a{
+  font-size: 15px !important;
+}
+
+toc .level3 li {
   padding: 3px 12px;
   padding-right: 0px;
 }
 
-.level3 li a {
-  font-weight: 600 !important;
+
+toc .level2 a.active, .level3 a.active{
+  border-color: #928771;
+  background-color: #eee;
+  color: #fff;
+  border-radius: 2px;
+  padding: 3px 12px !important;
 }
 
 h3 {
@@ -1104,8 +1117,8 @@ p {
 
 code {
   border-color: #928771;
-  background-color: #222;
-  color: #fff;
+  background-color: #eedeab;
+  color: #222;
   border-radius: 2px;
   padding: 3px 6px;
   padding-top: 6px;
