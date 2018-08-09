@@ -3,10 +3,10 @@
   home: documentation/index.md
 - name: Node Reference
   href: Reference/
-  homepage: Reference/index.md
+  homepage: reference/index.md
 - name: Quickstarts
   href: Quickstarts/
-  homepage: Quickstarts/index.md
+  homepage: quickstarts/index.md
 - name: API
   href: api/
   homepage: api/index.md
