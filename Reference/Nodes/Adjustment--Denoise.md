@@ -14,5 +14,5 @@ A single iteration is appropriate in most cases. For extremely noisy terrains th
 |              | *Denoise*   | Denoise systematically cleans up random noise, spikes, and extremely sharp edges.                                                                    |
 |              | *Despeckle* | Despeckle cleans areas in which noise is noticeable while leaving complex areas untouched. The noise is reduced without severely affecting contours. |
 
-### Additional Info
+
 

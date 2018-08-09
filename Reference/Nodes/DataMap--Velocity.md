@@ -13,5 +13,5 @@ title: Velocity
 | **Velocity High** | 0 - 2000 | Lorem |
 | **Angle**         | 0 - 180  | Lorem |
 
-### Additional Info
+
 

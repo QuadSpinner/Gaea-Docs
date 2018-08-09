@@ -10,5 +10,5 @@ title: Repulse
 | **X**      | 0.00 - 1.00  | Lorem |
 | **Y**      | 0.00 - 1.00  | Lorem |
 
-### Additional Info
+
 

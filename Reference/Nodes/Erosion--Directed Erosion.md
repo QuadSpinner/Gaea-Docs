@@ -16,5 +16,5 @@ title: Directed Erosion
 |                         | *256K (262144)* | Lorem |
 | **Preserve HD Session** | On / Off        | Lorem |
 
-### Additional Info
+
 

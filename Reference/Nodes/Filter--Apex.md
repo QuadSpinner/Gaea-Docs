@@ -15,5 +15,5 @@ nApex uses Euclidean distancing (the same function used to create the Voronoi pa
 | **B**         | 0.00 - 1.00 | Lorem |
 | **Angle**     | 0 - 360     | Lorem |
 
-### Additional Info
+
 

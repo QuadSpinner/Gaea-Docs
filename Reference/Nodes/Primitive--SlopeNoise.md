@@ -12,6 +12,6 @@ nSlopeNoise is a unique primitive that is specifically for creating expansive sl
 | **Direction**    | 0 - 360     | Lorem                                                     |
 | **Seed**         | 0 - 128000  | The randomization pattern or seed for the node's process. |
 
-### Additional Info
+
 
 SlopeNoise is fantastic for medium range or close-up scenes, where you want to dramatically show the scale and height of the slope.

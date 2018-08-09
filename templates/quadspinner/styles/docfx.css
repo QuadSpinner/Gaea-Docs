@@ -1147,3 +1147,5 @@ tr td:nth-child(2) {
 tr td:nth-child(2) em {
   font-family: "Assistant" !important;
 }
+
+.contribution-link{display: none !important;}

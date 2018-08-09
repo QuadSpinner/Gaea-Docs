@@ -16,5 +16,5 @@ RiverErosion further enhances your river creation by providing a different metho
 |                | *Lateral*   | Lorem       |
 |                | *Ventral*   | Lorem       |
 
-### Additional Info
+
 

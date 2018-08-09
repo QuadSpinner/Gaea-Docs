@@ -3,13 +3,13 @@ uid: Filter--Aperture
 title: Aperture
 ---
 
-nThe Aperture node expands or compacts every single feature on the terrain, similar to bokeh in a camera.
+The Aperture node expands or compacts every single feature on the terrain, similar to bokeh in a camera.
 
 | Setting        | Values     | Description                                                                                                                    |
 | :------------- | :--------- | :----------------------------------------------------------------------------------------------------------------------------- |
 | **Method**     |            | Choose whether to expand or compact the visuals on the terrain.                                                                |
-|                | *Expand*   | Lorem                                                                                                                    |
-|                | *Contract* | Lorem                                                                                                                    |
+|                | *Expand*   | Lorem                                                                                                                          |
+|                | *Contract* | Lorem                                                                                                                          |
 | **Iterations** | 0 - 20     | Number of aperture passes to perform on the terrain. Higher number of passes create pronounced effect at the expense of speed. |
 | **Kernel**     |            | The Kernel is the shape of the aperture. Changing the kernel can change how the features on the terrain are modified.          |
 |                | *Disk*     | Large, circular formation.                                                                                                     |
@@ -22,5 +22,5 @@ nThe Aperture node expands or compacts every single feature on the terrain, simi
 | **Random**     | On / Off   | When on, each iteration uses a randomly selected kernel.                                                                       |
 | **Seed**       | 0 - 128000 | The randomization pattern or seed for the node's process.                                                                      |
 
-### Additional Info
+
 

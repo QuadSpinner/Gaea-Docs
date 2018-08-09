@@ -14,6 +14,6 @@ nRecurve is a curvature based expander node. It can inflate and/or deflate the t
 | **Inflate**           | On / Off    | Lorem       |
 | **Preserve Fidelity** | On / Off    | Lorem       |
 
-### Additional Info
+
 
 Recurve's output may not look like it, but it is a very sensitive to subtle changes in the source heightfield. For example, if prior to Recurve, you apply Microerosion or Breaker, then Recurve will create a very specific flow patterning on those grooves and valleys.

@@ -38,5 +38,5 @@ nBiome uses a water map (like FlowMap or the Erosion node’s Flow output) and u
 | **Tropical Rainforest**        |      | Lorem                                                     |
 | **Tropical Seasonal Forest**   |      | Lorem                                                     |
 
-### Additional Info
+
 

@@ -12,5 +12,5 @@ title: Zero Borders
 | **Falloff** | 0 - 100         | Lorem ipsum |
 | **Auto**    | On / Off | Lorem ipsum |
 
-### Additional Info
+
 

@@ -17,5 +17,5 @@ nThis node quantizes the heightfield into discrete cells as defined by the Dista
 |              | *Shepards*   | Shepards provides stark peaks and sinkholes.                                                                                                                   |
 |              | *Hybrid*     | Euclidean-Manhattan hybrid creates merges both distancing functions equally.                                                                                   |
 
-### Additional Info
+
 

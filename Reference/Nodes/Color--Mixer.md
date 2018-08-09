@@ -3,7 +3,7 @@ uid: Color--Mixer
 title: Mixer
 ---
 
-nThe Mixer node is just like the Combine node, but for mixing colors rather than heightfields or masks. It is color coded to help differentiate it from the Combine node.
+The Mixer node is just like the Combine node, but for mixing colors rather than heightfields or masks. It is color coded to help differentiate it from the Combine node.
 
 | Setting         | Values          | Description |
 | :-------------- | :-------------- | :---------- |
@@ -23,6 +23,6 @@ nThe Mixer node is just like the Combine node, but for mixing colors rather than
 |                 | *Difference*    | Lorem |
 | **Ratio**       | 0.00 - 1.00     | Lorem |
 
-### Additional Info
+
 
 To quickly mix nodes, you can select the nodes and press `F8`.

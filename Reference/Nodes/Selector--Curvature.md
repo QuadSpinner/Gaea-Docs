@@ -13,5 +13,5 @@ title: Curvature
 |                    | *Vertical*   | Lorem |
 |                    | *Average*    | Lorem |
 
-### Additional Info
+
 

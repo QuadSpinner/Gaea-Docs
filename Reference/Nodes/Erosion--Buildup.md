@@ -13,5 +13,5 @@ All erosion features found in terrain design software focus almost exclusively o
 | **Dispersion** | 0.00 - 1.00 | Lorem |
 | **Inversion**  | On / Off    | Lorem |
 
-### Additional Info
+
 

@@ -13,5 +13,5 @@ There are advantages to both options. Average rainfall can be used to highlight 
 
 
 
-### Additional Info
+
 

@@ -12,6 +12,7 @@ nTransform allows you to move, rotate, and scale any terrain. The Transform node
 | **Angle**        | 0 - 360         | The angle of rotation of the terrain. |
 | **Mirror Edges** | On / Off | Lorem ipsum                           |
 
-### Additional Info
 
-If your terrain has a hard edge, try using the `Zero Borders` node before applying the Transform node.
+
+> [!TIP]
+> If your terrain has a hard edge, try using the `Zero Borders` node before applying the Transform node.

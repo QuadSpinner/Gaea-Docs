@@ -35,5 +35,5 @@ nVoronoi is a staple of procedural design. It creates sharp, geometric patterns.
 |                    | *M*          | Lorem                                                     |
 |                    | *D*          | Lorem                                                     |
 
-### Additional Info
+
 

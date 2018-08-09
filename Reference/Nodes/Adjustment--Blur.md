@@ -15,5 +15,5 @@ title: Blur
 |               | *Motion*     | Lorem |
 |               | *Smooth*     | Lorem |
 
-### Additional Info
+
 

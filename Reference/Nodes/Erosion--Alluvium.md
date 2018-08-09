@@ -13,5 +13,5 @@ title: Alluvium
 | **Chaos**      | 0.00 - 0.30 | Lorem                                                     |
 | **Seed**       | 0 - 128000  | The randomization pattern or seed for the node's process. |
 
-### Additional Info
+
 

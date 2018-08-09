@@ -14,5 +14,5 @@ nWhorl applies multiple vortex-like distortions across the terrain to create lar
 |            | *Stretch*   | Lorem                                                     |
 | **Seed**   | 0 - 128000  | The randomization pattern or seed for the node's process. |
 
-### Additional Info
+
 

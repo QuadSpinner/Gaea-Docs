@@ -14,6 +14,6 @@ nFusion is a hybrid of slope erosion, vertical terracing, and thermal erosion. I
 | **Seed**       | 0 - 128000 | The randomization pattern or seed for the node's process.                                        |
 
 
-### Additional Info
+
 
 Fusion further adds slanted terracing to convey terrain folding and collapsed plates.

@@ -11,6 +11,6 @@ title: AutoLevel
 |              | *Gamma*     | Applies a Gamma-style height adjustment to the terrain.                                                                  |
 | **Strength** | 0.00 - 1.00 | The strength of the applied levels method.                                                                               |
 
-### Additional Info
+
 
 Level is recommended in most situations over Equalize, as the latter may make terrains look too bulky and remove delicate features in some cases.

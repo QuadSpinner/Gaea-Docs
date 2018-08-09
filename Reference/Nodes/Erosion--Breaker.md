@@ -13,5 +13,5 @@ title: Breaker
 |                   | *Accurate* | Processes a bit slower, but ensures the pattern remains the same. |
 | **Seed**          | 0 - 128000 | Lorem |
 
-### Additional Info
+
 

@@ -21,5 +21,5 @@ title: Gradient
 | **X** / **Y**        | 0.00 - 1.00 | The center point on the terrain. |
 | **Start** /  **End** | 0 - 360     | Lorem                            |
 
-### Additional Info
+
 

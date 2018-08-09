@@ -10,5 +10,5 @@ title: Flip
 |               | *Vertical*   | Lorem |
 |               | *Both*       | Lorem |
 
-### Additional Info
+
 

@@ -13,5 +13,5 @@ title: CLUTer
 | **Output Clarity**    | On / Off | Lorem |
 | **Output Auto Level** | On / Off | Lorem |
 
-### Additional Info
+
 

@@ -15,5 +15,5 @@ nLineNoise is a geometry generator that creates sets of lines that can be distor
 |          | *Uniform*  | Lorem                                                     |
 | **Seed** | 0 - 128000 | The randomization pattern or seed for the node's process. |
 
-### Additional Info
+
 

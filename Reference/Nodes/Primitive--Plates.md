@@ -15,5 +15,5 @@ nPlates is a new primitive based on a Perlin core with flat plate-like formation
 | **Inverse**   | On / Off    | Lorem                                                     |
 | **Seed**      | 0 - 128000  | The randomization pattern or seed for the node's process. |
 
-### Additional Info
+
 
