@@ -6,7 +6,7 @@ The documentation is organized to help you get started with Gaea quickly and eas
 
 @Installing-Gaea contains instructions on installing Gaea.
 
-If you are completely new to terrain design software, we recommend starting with the @Basics-of-Terrain-Design and familiarizing yourself with the Gaea Interface in @Getting-Around.
+If you are completely new to terrain design software, we recommend starting with the @Basics-of-Terrain-Design and familiarizing yourself with the Gaea Interface in @Getting-around.
 
 The **Workflows** section explains the different workflows you can use to create terrains in Gaea.
 
