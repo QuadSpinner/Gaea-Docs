@@ -1173,16 +1173,25 @@ tr td:nth-child(2) em {
 }
 
 .TIP, .WARNING, .NOTE {
-  background: #fefefe !important;
+  background: rgba(255,255,255,0.44) !important;
   font-size: 13px;
   font-weight: 600;
   border-radius: 0;
+  padding: 12px;
 }
 
 .TIP h5, .WARNING h5, .NOTE h5 {
   font-family: "Assistant";
   font-weight: 400 !important;
   font-size: 16px;
+}
+
+.TIP p, .WARNING p, .NOTE p {
+  padding-left: 30px;
+}
+.NOTE{
+  border-color: #eedeab;
+  color: #7e7e7e;
 }
 
 .TIP h5::before, .WARNING h5::before, .NOTE h5::before {
