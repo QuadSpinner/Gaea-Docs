@@ -240,7 +240,7 @@
           "hash": "TIngP/mitSwDFkZIE8wIeg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -264,7 +264,7 @@
           "hash": "bPomWGTaTZcatby6fa5ZVw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -297,10 +297,10 @@
       "output": {
         ".html": {
           "relative_path": "documentation/Workflow--Graph.html",
-          "hash": "Of8ALM+v1B0WBl2JNEGLrw=="
+          "hash": "SGDyE73yAIyESgZj2JOLsA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -336,7 +336,7 @@
           "hash": "vbrzLVBQcl6Liz4xsYfxww=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {

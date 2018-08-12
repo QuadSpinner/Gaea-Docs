@@ -39,8 +39,8 @@ If the pinned node is in the chain of nodes for whom you are modifying propertie
 
 If you pin another node, the current pinned node is released. If you pin the same node again, it will release the pin.
 
-### Fixed Visual
-Fixing the visual (press `G`) is the same as a pinned preview, however it only works for Color nodes. When you fix the visual, and move between different color production nodes, the color texture will change in concert with the node you select, however the base heightfield upon which the texture is applied will be the Fixed Visual.
+### Pinned Visual
+Pinning the visual (press `G`) is the same as a pinned preview, however it only works for Color nodes. When you fix the visual, and move between different color production nodes, the color texture will change in concert with the node you select, however the base heightfield upon which the texture is applied will be the Fixed Visual. If you move to a non-color node, it will show you its default preview.
 
 ### Mark for Save
 When a node is marked for saving (press `L`), it will emit the output as a file when the terrain is built. Any nodes marked for saving will be available in the Build Manager.
