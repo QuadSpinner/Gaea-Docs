@@ -5,9 +5,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Post Processing | QuadSpinner Gaea </title>
+    <title>Properties | QuadSpinner Gaea </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Post Processing | QuadSpinner Gaea ">
+    <meta name="title" content="Properties | QuadSpinner Gaea ">
     <meta name="generator" content="docfx 2.37.2.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
@@ -66,13 +66,47 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Post-Processing">
-<h1 id="intrinsic-post-processing">Intrinsic Post Processing</h1>
+            <article class="content wrap" id="_content" data-uid="Properties">
+<h1 id="properties">Properties</h1>
 
-<p>The Post Process tab sits right next to the Properties tab, and provides quick access to common functions. In this release, we have added a limit set of common functions, but more will be added later once certain under-the-hood changes are complete.</p>
-<p>You can use autolevel and clamp to control your node without having to add a second node. This will help you keep your graph clean.</p>
+<p>Every node exposes a set of properties or settings that you can modify to change the effect that node has on the terrain. When you select a node, the settings become available in the Properties panel in the right side of the interface.</p>
+<p>When you change a property, the effect is immediately applied and made visible in the viewport - except when dealing with Heavy Nodes (see below). There are mostly a limited type of properties for all nodes:</p>
+<ul>
+<li>Integer: such as 1, 2, 3, 4, etc. They usually define quantity or a finite value like angle.</li>
+<li>Decimals: such as 0.1, 0.256, 0.4885, etc. They usually define the strength or amount of a certain setting. In most cases, small changes can be quite powerful.</li>
+<li>Toggle: They usually allow you to turn a feature on or off.</li>
+<li>Choices: These take the form of a dropdown where you can select one of many options.</li>
+<li>Color: They allow you to choose a color for the color production nodes.</li>
+</ul>
+<p>Some nodes may have special controls specific to them, like the @Directed-Erosione-Node.</p>
+<div class="NOTE">
+<h5>Note</h5>
+<p>Dragging always sucks up more CPU power than clicking because each movement of the drag cancels the pending process of the terrain and fires up a new process. If you drag slowly, this can mean anything between dozens to hundreds of reprocess threads.</p>
+</div>
+<div class="TIP">
+<h5>Tip</h5>
+<p>One of the easiest ways to learn about a node's properties is to try changing them to different values across the range to see the effect they have.</p>
+</div>
+<div class="WARNING">
+<h5>Warning</h5>
+<p>If a setting says something like &quot;Iteration&quot;, &quot;Strength&quot;, &quot;Cycles&quot;, or &quot;Amount&quot;, be cautious. High values may take longer to process.</p>
+</div>
+<h2 id="microincrements">Microincrements</h2>
+<p>The Microincrements panel is available when you right-click an Integer or Decimals property. With the Microincrements panel, you can achieve much higher precision in entering values: you can type a value; click a button to halve, double, increment (small or large); or reset the value.</p>
+<p>It also gives you access to a private Undo history for that particular setting. This history is cleared when you select a different node.</p>
+<h2 id="seed-reset">Seed Reset</h2>
+<p>Seed Reset is a minor enhancement in the microincrements UI. It sets the “Default” seed value to whatever the random value is when the node is created. So if you play around for a while and want to go back to the original seed, you can simply reset the Seed.</p>
+<h2 id="heavy-nodes">Heavy Nodes</h2>
+<p>We have classified some nodes, such as <a class="xref" href="../reference/Nodes/Erosion--Erosion.html">Erosion</a>, <a class="xref" href="../reference/Nodes/Erosion--Fluvial.html">Fluvial</a>, etc. as &quot;Heavy&quot; nodes — meaning, they can take a long time to process, and sometimes cannot be cancelled mid-process. Updating multiple settings on such a node can slow down or even freeze up the application.</p>
+<p>When you modify a Heavy node, it will not update automatically. It will instead show an <strong>Apply</strong> button, which you can click when you have made your changes.
+If you move away from the node, or select another node, changes will be applied automatically, so you won’t lose any modifications.</p>
+<p>You can optionally turn on the manual node update for all nodes if you prefer, by turning off <strong>Automatically apply Node Modifications</strong> in the <a class="xref" href="Preferences.html">Preferences</a>. If the setting is turned on, which is the default, only Heavy nodes will require manual updates.</p>
+<h1 id="post-processing">Post Processing</h1>
+<p>The Post Process tab sits right under the Properties, and provides quick access to common functions. In this release, we have added a limit set of common functions, but more will be added later once certain under-the-hood changes are complete.</p>
+<p>You can use autolevel and influence to control your node without having to add a second node. This will help you keep your graph clean.</p>
 <p>The Influence slider is a very simple yet powerful tool for layering effects. It blends the output back with the input, allowing you to manage the influence of the current node.</p>
-<p>Here is an example: a heavily eroded terrain goes through Recurve, but in Recurve, the influence is set to ~0.5, which gives us a more realistic looking output of Recurve, while being able to use strong values in Recurve to create long striations.</p>
+<p><code>// TODO: Image</code></p>
+<p>Here is an example: a heavily eroded terrain goes through Recurve, but in Recurve, the influence is set to <code>0.5</code>, which gives us a more realistic looking output of Recurve, while being able to use strong values in Recurve to create long striations.</p>
 </article>
           </div>
           

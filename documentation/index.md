@@ -8,7 +8,7 @@ The documentation is organized to help you get started with Gaea quickly and eas
 
 If you are completely new to terrain design software, we recommend starting with the @Basics-of-Terrain-Design and familiarizing yourself with the Gaea Interface in @Getting-around.
 
-The **Workflows** section explains the different workflows you can use to create terrains in Gaea.
+Gaea champions the idea of having **multiple workflows** to suit the artist and the terrain. You choose how you want to work. You can even change your workflow in the middle of the project without adverse effects. The **Workflows** section explains the main workflows in Gaea: @Layers-Mode, @Graph-Mode, @Sculpt-Mode
 
 The **Using Gaea** section explains various concepts in detail such as the @Build-Manager, @Color-Production, @Importing-Data, and more.
 

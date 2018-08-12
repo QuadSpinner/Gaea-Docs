@@ -15,20 +15,20 @@
         href: Toolbox.md
       - name: Viewport
         href: Viewport.md
-      - name: Heavy Nodes
-        href: Heavy Nodes.md
+      - name: Resolutions
+        href: Resolutions.md
       - name: Preferences
         href: Preferences.md
       - name: Keyboard Shortcuts
         href: Keyboard.md
 - name: Workflows
   items:
-  - name: Graph Mode
-    href: Graph Mode.md
-  - name: Layer Mode
-    href: Layer Mode.md
-  - name: Sculpting
-    href: Directed Erosion.md
+  - name: Graph
+    href: Workflow--Graph.md
+  - name: Layers
+    href: Workflow--Layers.md
+  - name: Sculpt
+    href: Workflow--Sculpt.md
 - name: Using Gaea
   items:
     - name: Importing Data
@@ -41,6 +41,8 @@
       href: Color Production.md
     - name: Build Manager
       href: Building.md
+    - name: Tiled Builds
+      href: Tiled Builds.md
     - name: Exporting Data
       href: Exporting.md
     - name: Creating LODs and Variations

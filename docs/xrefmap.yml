@@ -91,9 +91,6 @@ references:
 - uid: Desert-Mountain
   name: Desert Mountain
   href: quickstarts/Desert-Mountain.html
-- uid: Directed-Erosion
-  name: Directed Erosion
-  href: documentation/Directed%20Erosion.html
 - uid: Directed-Erosion-Node
   name: Directed Erosion
   href: reference/Nodes/Erosion--Directed%20Erosion.html
@@ -156,13 +153,10 @@ references:
   href: quickstarts/Gradient-Slope.html
 - uid: Graph-Mode
   name: Graph Mode
-  href: documentation/Graph%20Mode.html
+  href: documentation/Workflow--Graph.html
 - uid: Heal
   name: Heal
   href: reference/Nodes/Adjustment--Heal.html
-- uid: Heavy-Nodes
-  name: Heavy Nodes
-  href: documentation/Heavy%20Nodes.html
 - uid: Height
   name: Height
   href: reference/Nodes/Selector--Height.html
@@ -208,9 +202,9 @@ references:
 - uid: Large-Desert
   name: Large Desert
   href: quickstarts/Large-Desert.html
-- uid: Layer-Mode
-  name: Layer Mode
-  href: documentation/Layer%20Mode.html
+- uid: Layers-Mode
+  name: Layers Workflow
+  href: documentation/Workflow--Layers.html
 - uid: LineNoise
   name: LineNoise
   href: reference/Nodes/Primitive--LineNoise.html
@@ -253,12 +247,12 @@ references:
 - uid: Polar
   name: Polar
   href: reference/Nodes/Filter--Polar.html
-- uid: Post-Processing
-  name: Post Processing
-  href: documentation/Properties.html
 - uid: Preferences
   name: Preferences
   href: documentation/Preferences.html
+- uid: Properties
+  name: Properties
+  href: documentation/Properties.html
 - uid: quickstarts
   name: Quickstarts
   href: quickstarts/index.html
@@ -268,6 +262,9 @@ references:
 - uid: Repulse
   name: Repulse
   href: reference/Nodes/Filter--Repulse.html
+- uid: Resolutions
+  name: Resolutions
+  href: documentation/Resolutions.html
 - uid: Ridge
   name: Ridge
   href: quickstarts/Ridge.html
@@ -286,6 +283,9 @@ references:
 - uid: scripting
   name: scripting
   href: api/scripting.html
+- uid: Sculpt-Mode
+  name: Sculpt Workflow
+  href: documentation/Workflow--Sculpt.html
 - uid: Sediment
   name: Sediment
   href: reference/Nodes/Erosion--Sediment.html
@@ -364,6 +364,9 @@ references:
 - uid: Threshold
   name: Threshold
   href: reference/Nodes/Adjustment--Threshold.html
+- uid: Tiled-Builds
+  name: Tiled-Builds
+  href: documentation/Tiled%20Builds.html
 - uid: Toolbox
   name: Toolbox
   href: documentation/Toolbox.html

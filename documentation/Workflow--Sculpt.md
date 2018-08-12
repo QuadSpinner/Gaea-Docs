@@ -1,6 +1,6 @@
 ---
-uid: Directed-Erosion
-title: Directed Erosion
+uid: Sculpt-Mode
+title: Sculpt Workflow
 ---
 
 ## Understanding Directed Erosion
