@@ -3,7 +3,7 @@ uid: Erosion
 title: Erosion
 ---
 
-nGaea 2480 introduces a comprehensive erosion node, simply called Erosion. It provides sophisticated erosion with a very easy to use interface. The Erosion node provides control over the scale, where you can choose the size of the largest erosion feature, as well as the overall scale of the terrain.
+Gaea 2480 introduces a comprehensive erosion node, simply called Erosion. It provides sophisticated erosion with a very easy to use interface. The Erosion node provides control over the scale, where you can choose the size of the largest erosion feature, as well as the overall scale of the terrain.
 
 | Setting           | Values                 | Description                                               |
 | :---------------- | :--------------------- | :-------------------------------------------------------- |

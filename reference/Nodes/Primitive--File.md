@@ -5,7 +5,6 @@ title: File
 
 The File node loads any supported image or data file as a terrain. It supports all major file formats such as ???. You can also transform the input.
 
-
 | Setting       | Values       | Description                                                                                                                     |
 | :------------ | :----------- | :------------------------------------------------------------------------------------------------------------------------------ |
 | **File**      | Filename     | The file to load.                                                                                                               |

@@ -3,9 +3,6 @@ uid: Bomber
 title: Bomber
 ---
 
-n
-
-
 | Setting              | Values      | Description                                                                           |
 | :------------------- | :---------- | :------------------------------------------------------------------------------------ |
 | **Distribution**     |             | The method of distribution                                                            |

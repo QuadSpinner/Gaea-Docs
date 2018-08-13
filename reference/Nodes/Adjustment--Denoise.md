@@ -3,7 +3,7 @@ uid: Denoise
 title: Denoise
 ---
 
-nDenoise is a general purpose noise removal filter.
+Denoise is a general purpose noise removal filter.
 
 A single iteration is appropriate in most cases. For extremely noisy terrains that require many passes, it is recommended that the desired area be masked to protect the rest of the terrain from losing important details.
 

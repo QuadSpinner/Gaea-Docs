@@ -3,7 +3,7 @@ uid: Sharpen
 title: Sharpen
 ---
 
-nSharpen enhances the edges and small structures of a terrain by making them more prominent.
+Sharpen enhances the edges and small structures of a terrain by making them more prominent.
 
 | Setting    | Values      | Description                                               |
 | :--------- | :---------- | :-------------------------------------------------------- |

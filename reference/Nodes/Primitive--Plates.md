@@ -3,7 +3,7 @@ uid: Plates
 title: Plates
 ---
 
-nPlates is a new primitive based on a Perlin core with flat plate-like formations created in between larger *Perlin-eque* shapes. The flat, slanting areas can create great slopes — especially when combined with Displace nodes.
+Plates is a new primitive based on a Perlin core with flat plate-like formations created in between larger *Perlin-eque* shapes. The flat, slanting areas can create great slopes — especially when combined with Displace nodes.
 
 
 | Setting       | Values      | Description                                               |
