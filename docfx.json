@@ -59,6 +59,7 @@
     ],
     "globalMetadata": {
       "_appTitle": "QuadSpinner Gaea",
+      "_enableSearch": true,
       "_gitContribute": {
         "repo": "https://github.com/quadspinner/Gaea-Docs",
         "branch": "master"

@@ -16,27 +16,27 @@ Biome uses a water map (like FlowMap or the Erosion node’s Flow output) and us
 | **Jitter**                     | On / Off    | Lorem                                                     |
 | **Water Bodies**               | On / Off    | Lorem                                                     |
 | **Seed**                       | 0 - 128000  | The randomization pattern or seed for the node's process. |
-| **Ocean**                      |      | Lorem                                                     |
-| **Coast**                      |      | Lorem                                                     |
-| **Lake Shore**                 |      | Lorem                                                     |
-| **Lake**                       |      | Lorem                                                     |
-| **River**                      |      | Lorem                                                     |
-| **Marsh**                      |      | Lorem                                                     |
-| **Ice**                        |      | Lorem                                                     |
-| **Beach**                      |      | Lorem                                                     |
-| **Snow**                       |      | Lorem                                                     |
-| **Tundra**                     |      | Lorem                                                     |
-| **Bare**                       |      | Lorem                                                     |
-| **Scorched**                   |      | Lorem                                                     |
-| **Taiga**                      |      | Lorem                                                     |
-| **Shrubland**                  |      | Lorem                                                     |
-| **Temperate Desert**           |      | Lorem                                                     |
-| **Temperate Rainforest**       |      | Lorem                                                     |
-| **Temperate Deciduous Forest** |      | Lorem                                                     |
-| **Grassland**                  |      | Lorem                                                     |
-| **Subtropical Desert**         |      | Lorem                                                     |
-| **Tropical Rainforest**        |      | Lorem                                                     |
-| **Tropical Seasonal Forest**   |      | Lorem                                                     |
+| **Ocean**                      |             | Lorem                                                     |
+| **Coast**                      |             | Lorem                                                     |
+| **Lake Shore**                 |             | Lorem                                                     |
+| **Lake**                       |             | Lorem                                                     |
+| **River**                      |             | Lorem                                                     |
+| **Marsh**                      |             | Lorem                                                     |
+| **Ice**                        |             | Lorem                                                     |
+| **Beach**                      |             | Lorem                                                     |
+| **Snow**                       |             | Lorem                                                     |
+| **Tundra**                     |             | Lorem                                                     |
+| **Bare**                       |             | Lorem                                                     |
+| **Scorched**                   |             | Lorem                                                     |
+| **Taiga**                      |             | Lorem                                                     |
+| **Shrubland**                  |             | Lorem                                                     |
+| **Temperate Desert**           |             | Lorem                                                     |
+| **Temperate Rainforest**       |             | Lorem                                                     |
+| **Temperate Deciduous Forest** |             | Lorem                                                     |
+| **Grassland**                  |             | Lorem                                                     |
+| **Subtropical Desert**         |             | Lorem                                                     |
+| **Tropical Rainforest**        |             | Lorem                                                     |
+| **Tropical Seasonal Forest**   |             | Lorem                                                     |
 
 
 

@@ -1,0 +1,1 @@
+DocFXMinifier.exe
