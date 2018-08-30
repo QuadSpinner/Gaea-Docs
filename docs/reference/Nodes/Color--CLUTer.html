@@ -1,1 +1,174 @@
-<!DOCTYPE html><!--[if IE]><![endif]--><html><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge,chrome=1"><title>CLUTer | QuadSpinner Gaea</title><meta name=viewport content="width=device-width"><meta name=title content="CLUTer | QuadSpinner Gaea "><meta name=generator content="docfx 2.37.2.0"><link rel="shortcut icon" href=../../favicon.ico><link rel=stylesheet href=../../styles/docfx.vendor.css><link rel=stylesheet href=../../styles/docfx.css><link rel=stylesheet href=../../styles/main.css><meta property=docfx:navrel content=../../toc.html><meta property=docfx:tocrel content=../toc.html><meta property=docfx:rel content="../../"><body data-spy=scroll data-target=#affix data-offset=120><div id=wrapper><header><nav id=autocollapse class="navbar navbar-inverse ng-scope" role=navigation><div class=container><div class=navbar-header><button type=button class=navbar-toggle data-toggle=collapse data-target=#navbar> <span class=sr-only>Toggle navigation</span> <span class=icon-bar></span> <span class=icon-bar></span> <span class=icon-bar></span> </button> <a class=navbar-brand href=../../index.html> <img id=logo class=svg src=../../logo.svg alt=""> </a></div><div class="collapse navbar-collapse" id=navbar><form class="navbar-form navbar-right" role=search id=search><div class=form-group><input type=text class=form-control id=search-query placeholder=Search autocomplete=off></div></form></div></div></nav><div class="subnav navbar navbar-default"><div class="container hide-when-search" id=breadcrumb><ul class=breadcrumb><li></ul></div></div></header><div class="container body-content"><div id=search-results><div class=search-list></div><div class=sr-items><p><i class="glyphicon glyphicon-refresh index-loading"></i></div><ul id=pagination></ul></div></div><div role=main class="container body-content hide-when-search"><div class="sidenav hide-when-search"><a class="btn toc-toggle collapse" data-toggle=collapse href=#sidetoggle aria-expanded=false aria-controls=sidetoggle>Show / Hide Table of Contents</a><div class="sidetoggle collapse" id=sidetoggle><div id=sidetoc></div></div></div><div class="article row grid-right"><div class=col-md-10><article class="content wrap" id=_content data-uid=CLUTer><p>Coloration in Gaea is based on CLUTs, or color lookup tables. As 2D heightfields are essentially a grid of number ranging from 0.0 (lowest) to 1.0 (highest), CLUTs are represented as gradients which are mapped to those heights.<p>The lowest part of a gradient corresponds to the lowest part of the terrain, while the highest part of the gradient corresponds to the highest part of the terrain. Everything in between is evenly distributed.<p>The CLUTer nodes let's you take any grayscale input, such as <a class=xref href=Selector--Curvature.html>Curvature</a>, <a class=xref href=Selector--Slope.html>Slope</a>, @Surface, <a class=xref href=DataMap--FlowMap.html>FlowMap</a>, and map it onto a gradient.<h3 id=gradient-editor>Gradient Editor</h3><p>Click anywhere in the gradient to create a new stop. Drag the stop to position it. Select the stop and press <code>DEL</code> to delete the stop.<p><img src=../../images/CLUT-sample.png alt=CLUTer><table><thead><tr><th style=text-align:left>Setting<th style=text-align:left>Values<th style=text-align:left>Description<tbody><tr><td style=text-align:left><strong>Reverse</strong><td style=text-align:left>On / Off<td style=text-align:left>Reverses the mapping of the gradient.<tr><td style=text-align:left><strong>Input Noise</strong><td style=text-align:left>0.00 - 1.00<td style=text-align:left>Introduces noise to the incoming grayscale map.<tr><td style=text-align:left><strong>Color Noise</strong><td style=text-align:left>0.00 - 1.00<td style=text-align:left>Introduces minor color distortions to the map.<tr><td style=text-align:left><strong>Input Clarity</strong><td style=text-align:left>On / Off<td style=text-align:left>Applies localized contrast enhancements to the incoming map.<tr><td style=text-align:left><strong>Input Auto Level</strong><td style=text-align:left>On / Off<td style=text-align:left>Applies an autolevels filter to the incoming map.<tr><td style=text-align:left><strong>Output Clarity</strong><td style=text-align:left>On / Off<td style=text-align:left>Applies localized contrast enhancements to the output texture.<tr><td style=text-align:left><strong>Output Auto Level</strong><td style=text-align:left>On / Off<td style=text-align:left>Applies an autolevels filter to the output texture.</table><div class=TIP><h5>Tip</h5><p>You can use <strong>Input Clarity</strong> instead of interjecting an Autolevels node to the graph.</div><p>In this example, a <a class=xref href=DataMap--FlowMap.html>FlowMap</a> is mapped by <a class=xref href=Color--CLUTer.html>CLUTer</a> to create basic texture map.<p><img src=../../images/CLUT-sample2.png alt=CLUTer><p>For general information on creating color textures, see <a class=xref href=../../documentation/Color%20Production.html>Color Production</a>.</article></div><div class="hidden-sm col-md-2" role=complementary><div class=sideaffix><div class=contribution><ul class=nav><li><a href=https://github.com/quadspinner/Gaea-Docs/blob/master/reference/Nodes/Color--CLUTer.md/#L1 class=contribution-link>Improve this Doc</a></ul></div><nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id=affix> </nav></div></div></div></div><footer><div class=footer><div class=container><small>Copyright &copy; 2018 QuadSpinner. All rights reserved.</small> <span>Generated by <strong>DocFX</strong></span></div></div></footer></div><script src=../../styles/docfx.vendor.js></script><script src=../../styles/docfx.js></script><script src=../../styles/main.js></script>
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>CLUTer | QuadSpinner Gaea </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="CLUTer | QuadSpinner Gaea ">
+    <meta name="generator" content="docfx 2.38.0.0">
+    
+    <link rel="shortcut icon" href="../../favicon.ico">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="../toc.html">
+    
+    <meta property="docfx:rel" content="../../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="CLUTer">
+
+
+<p>Coloration in Gaea is based on CLUTs, or color lookup tables. As 2D heightfields are essentially a grid of number ranging from 0.0 (lowest) to 1.0 (highest), CLUTs are represented as gradients which are mapped to those heights.</p>
+<p>The lowest part of a gradient corresponds to the lowest part of the terrain, while the highest part of the gradient corresponds to the highest part of the terrain. Everything in between is evenly distributed.</p>
+<p>The CLUTer nodes let's you take any grayscale input, such as <a class="xref" href="Selector--Curvature.html">Curvature</a>, <a class="xref" href="Selector--Slope.html">Slope</a>, @Surface, <a class="xref" href="DataMap--FlowMap.html">FlowMap</a>, and map it onto a gradient.</p>
+<h3 id="gradient-editor">Gradient Editor</h3>
+<p>Click anywhere in the gradient to create a new stop. Drag the stop to position it. Select the stop and press <code>DEL</code> to delete the stop.</p>
+<p><img src="../../images/CLUT-sample.png" alt="CLUTer"></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Setting</th>
+<th style="text-align: left;">Values</th>
+<th style="text-align: left;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>Reverse</strong></td>
+<td style="text-align: left;">On / Off</td>
+<td style="text-align: left;">Reverses the mapping of the gradient.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Input Noise</strong></td>
+<td style="text-align: left;">0.00 - 1.00</td>
+<td style="text-align: left;">Introduces noise to the incoming grayscale map.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Color Noise</strong></td>
+<td style="text-align: left;">0.00 - 1.00</td>
+<td style="text-align: left;">Introduces minor color distortions to the map.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Input Clarity</strong></td>
+<td style="text-align: left;">On / Off</td>
+<td style="text-align: left;">Applies localized contrast enhancements to the incoming map.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Input Auto Level</strong></td>
+<td style="text-align: left;">On / Off</td>
+<td style="text-align: left;">Applies an autolevels filter to the incoming map.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Output Clarity</strong></td>
+<td style="text-align: left;">On / Off</td>
+<td style="text-align: left;">Applies localized contrast enhancements to the output texture.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Output Auto Level</strong></td>
+<td style="text-align: left;">On / Off</td>
+<td style="text-align: left;">Applies an autolevels filter to the output texture.</td>
+</tr>
+</tbody>
+</table>
+<div class="TIP">
+<h5>Tip</h5>
+<p>You can use <strong>Input Clarity</strong> instead of interjecting an Autolevels node to the graph.</p>
+</div>
+<p>In this example, a <a class="xref" href="DataMap--FlowMap.html">FlowMap</a> is mapped by <a class="xref" href="Color--CLUTer.html">CLUTer</a> to create basic texture map.</p>
+<p><img src="../../images/CLUT-sample2.png" alt="CLUTer"></p>
+<p>For general information on creating color textures, see <a class="xref" href="../../documentation/Color%20Production.html">Color Production</a>.</p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/quadspinner/Gaea-Docs/blob/master/reference/Nodes/Color--CLUTer.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="footer">
+          <div class="container">
+            
+            <small>Copyright &copy; 2018 QuadSpinner. All rights reserved.</small> <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+  </body>
+</html>

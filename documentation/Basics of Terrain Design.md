@@ -30,7 +30,7 @@ Layers are a deceptively simple way to craft terrains. You can stack nodes like 
 
 Layers are limited with one-to-one relationships, unlike a graph which can have a one-to-many relationships where you can create two different "chains" of creation and blend them together in myriad ways.
 
-Read more about this workflow in the @Layer-Mode section.
+Read more about this workflow in the @Layers-Mode section.
 
 ## Graph
 

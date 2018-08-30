@@ -1,1 +1,130 @@
-<!DOCTYPE html><!--[if IE]><![endif]--><html><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge,chrome=1"><title>Terrain Scale | QuadSpinner Gaea</title><meta name=viewport content="width=device-width"><meta name=title content="Terrain Scale | QuadSpinner Gaea "><meta name=generator content="docfx 2.37.2.0"><link rel="shortcut icon" href=../favicon.ico><link rel=stylesheet href=../styles/docfx.vendor.css><link rel=stylesheet href=../styles/docfx.css><link rel=stylesheet href=../styles/main.css><meta property=docfx:navrel content=../toc.html><meta property=docfx:tocrel content=toc.html><meta property=docfx:rel content="../"><body data-spy=scroll data-target=#affix data-offset=120><div id=wrapper><header><nav id=autocollapse class="navbar navbar-inverse ng-scope" role=navigation><div class=container><div class=navbar-header><button type=button class=navbar-toggle data-toggle=collapse data-target=#navbar> <span class=sr-only>Toggle navigation</span> <span class=icon-bar></span> <span class=icon-bar></span> <span class=icon-bar></span> </button> <a class=navbar-brand href=../index.html> <img id=logo class=svg src=../logo.svg alt=""> </a></div><div class="collapse navbar-collapse" id=navbar><form class="navbar-form navbar-right" role=search id=search><div class=form-group><input type=text class=form-control id=search-query placeholder=Search autocomplete=off></div></form></div></div></nav><div class="subnav navbar navbar-default"><div class="container hide-when-search" id=breadcrumb><ul class=breadcrumb><li></ul></div></div></header><div class="container body-content"><div id=search-results><div class=search-list></div><div class=sr-items><p><i class="glyphicon glyphicon-refresh index-loading"></i></div><ul id=pagination></ul></div></div><div role=main class="container body-content hide-when-search"><div class="sidenav hide-when-search"><a class="btn toc-toggle collapse" data-toggle=collapse href=#sidetoggle aria-expanded=false aria-controls=sidetoggle>Show / Hide Table of Contents</a><div class="sidetoggle collapse" id=sidetoggle><div id=sidetoc></div></div></div><div class="article row grid-right"><div class=col-md-10><article class="content wrap" id=_content data-uid=Terrain-Scale><p>Gaea supports setting an arbitrary scale for your terrains through the new Terrain Definition panel. If you're a casual terrain artist, this won't affect your workflow too much — the defaults will be sufficient. But if you're creating precisely scaled terrains, the Terrain Definition is your best friend.<h2 id=terrain-definition>Terrain Definition</h2><p>The Terrain Definition popup is found in the main toolbar.<p>You can define the Base and Height of your terrain in meters. Both are counted from sea level (0.0m). The Scale determines the extent of the entire terrain. By default, Gaea terrains are set at sea level (Base: 0m), just over 3km tall (Height: 3,200m), and 5 x 5 square kilometers (Scale: 5,000m) wide.<p>3km is usually more than enough for most terrains. Mt. Everest is 8.8km tall! Going that tall is not recommended unless you really know how to handle the side effects of such tall terrains.<p>Note: Terrain Definition is non-destructive. You can scale your terrain, and the update will be applied on the fly without requiring a rebuild of your terrain. You can change the values as often as you like.<h2 id=full-range-vs-clamped>Full Range vs. Clamped</h2><p>The new Output node is the primary way to save your output. It automatically saves the specified file when a full Build is initiated from the Export panel.<p>By default, it exports Clamped values, but you can choose to export a Full Range map by enabling Full Range in the Output node's properties.<h3 id=whats-the-difference>What's the difference?</h3><p>Here you can see the two outputs: Clamped and Full Range. The main difference is that Clamped is limited to the height set in the Terrain Definition, while Full Range ignores both the Base and Height settings, and exports the entire gradient range in its natural form (32-bit floating point).<h3 id=when-should-i-use-full-range>When should I use Full Range?</h3><p>Most of the time, you won't need to use it. Rare cases where it is useful is when you intend to manually scale the terrain vertically later; or you want to manually edit or sculpt the terrain in Photoshop, ZBrush or Mudbox and need as much detail as possible.<p>If you do use the Full Range export, it is best to use the OpenEXR (.exr) format to preserve the values as best as possible.<p>You can always export a copy with clamped values, and use that as a guide for vertically resizing the externally edited Full Range output.</article></div><div class="hidden-sm col-md-2" role=complementary><div class=sideaffix><div class=contribution><ul class=nav><li><a href="https://github.com/quadspinner/Gaea-Docs/blob/master/documentation/Terrain Scale.md/#L1" class=contribution-link>Improve this Doc</a></ul></div><nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id=affix> </nav></div></div></div></div><footer><div class=footer><div class=container><small>Copyright &copy; 2018 QuadSpinner. All rights reserved.</small> <span>Generated by <strong>DocFX</strong></span></div></div></footer></div><script src=../styles/docfx.vendor.js></script><script src=../styles/docfx.js></script><script src=../styles/main.js></script>
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Terrain Scale | QuadSpinner Gaea </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Terrain Scale | QuadSpinner Gaea ">
+    <meta name="generator" content="docfx 2.38.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Terrain-Scale">
+
+
+<p>Gaea supports setting an arbitrary scale for your terrains through the new Terrain Definition panel. If you're a casual terrain artist, this won't affect your workflow too much — the defaults will be sufficient. But if you're creating precisely scaled terrains, the Terrain Definition is your best friend.</p>
+<h2 id="terrain-definition">Terrain Definition</h2>
+<p>The Terrain Definition popup is found in the main toolbar.</p>
+<p>You can define the Base and Height of your terrain in meters. Both are counted from sea level (0.0m). The Scale determines the extent of the entire terrain. By default, Gaea terrains are set at sea level (Base: 0m), just over 3km tall (Height: 3,200m), and 5 x 5 square kilometers (Scale: 5,000m) wide.</p>
+<p>3km is usually more than enough for most terrains. Mt. Everest is 8.8km tall! Going that tall is not recommended unless you really know how to handle the side effects of such tall terrains.</p>
+<p>Note: Terrain Definition is non-destructive. You can scale your terrain, and the update will be applied on the fly without requiring a rebuild of your terrain. You can change the values as often as you like.</p>
+<h2 id="full-range-vs-clamped">Full Range vs. Clamped</h2>
+<p>The new Output node is the primary way to save your output. It automatically saves the specified file when a full Build is initiated from the Export panel.</p>
+<p>By default, it exports Clamped values, but you can choose to export a Full Range map by enabling Full Range in the Output node's properties.</p>
+<h3 id="whats-the-difference">What's the difference?</h3>
+<p>Here you can see the two outputs: Clamped and Full Range. The main difference is that Clamped is limited to the height set in the Terrain Definition, while Full Range ignores both the Base and Height settings, and exports the entire gradient range in its natural form (32-bit floating point).</p>
+<h3 id="when-should-i-use-full-range">When should I use Full Range?</h3>
+<p>Most of the time, you won't need to use it. Rare cases where it is useful is when you intend to manually scale the terrain vertically later; or you want to manually edit or sculpt the terrain in Photoshop, ZBrush or Mudbox and need as much detail as possible.</p>
+<p>If you do use the Full Range export, it is best to use the OpenEXR (.exr) format to preserve the values as best as possible.</p>
+<p>You can always export a copy with clamped values, and use that as a guide for vertically resizing the externally edited Full Range output.</p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/quadspinner/Gaea-Docs/blob/master/documentation/Terrain Scale.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="footer">
+          <div class="container">
+            
+            <small>Copyright &copy; 2018 QuadSpinner. All rights reserved.</small> <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
