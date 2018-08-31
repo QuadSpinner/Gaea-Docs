@@ -431,5 +431,13 @@
         "detailedType": 1,
         "name": "node-reference",
         "sourceFile": "reference\\index.md"
+    },
+    {
+        "uid": "Output--Output",
+        "title": "Output",
+        "type": "Conceptual",
+        "detailedType": 1,
+        "name": "Output--Output",
+        "sourceFile": "reference\\Nodes\\Output--Output.md"
     }
 ]
