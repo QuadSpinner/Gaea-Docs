@@ -1207,3 +1207,9 @@ tr td:nth-child(2) em {
 input{
   border-radius: 0 !important;
 }
+
+span.wip{
+  font-size: 12px;
+  font-weight: 600;
+  color: rgb(152, 18, 18);
+}
