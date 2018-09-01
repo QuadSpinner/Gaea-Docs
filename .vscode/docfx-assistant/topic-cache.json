@@ -439,5 +439,37 @@
         "detailedType": 1,
         "name": "Output--Output",
         "sourceFile": "reference\\Nodes\\Output--Output.md"
+    },
+    {
+        "uid": "Noise",
+        "title": "Noise",
+        "type": "Conceptual",
+        "detailedType": 1,
+        "name": "Noise",
+        "sourceFile": "reference\\Nodes\\Filter--Noise.md"
+    },
+    {
+        "uid": "Terrace",
+        "title": "Terrace",
+        "type": "Conceptual",
+        "detailedType": 1,
+        "name": "Terrace",
+        "sourceFile": "reference\\Nodes\\Filter--Terrace.md"
+    },
+    {
+        "uid": "Whorl",
+        "title": "Whorl",
+        "type": "Conceptual",
+        "detailedType": 1,
+        "name": "Whorl",
+        "sourceFile": "reference\\Nodes\\Filter--Whorl.md"
+    },
+    {
+        "uid": "Distribution",
+        "title": "Distribution",
+        "type": "Conceptual",
+        "detailedType": 1,
+        "name": "Distribution",
+        "sourceFile": "reference\\Nodes\\Filter--Distribution.md"
     }
 ]
