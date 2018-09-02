@@ -3,7 +3,7 @@ uid: File
 title: File
 ---
 
-The File node loads any supported image or data file as a terrain. It supports all major file formats such as ???. You can also transform the input.
+The File node loads any supported image or data file as a terrain. It supports all major file formats. You can also transform the input.
 
 | Setting       | Values       | Description                                                                                                                     |
 | :------------ | :----------- | :------------------------------------------------------------------------------------------------------------------------------ |
@@ -15,6 +15,5 @@ The File node loads any supported image or data file as a terrain. It supports a
 | **Angle**     | 0 - 360      | The angle of rotation of the terrain.                                                                                           |  |
 | **Height**    | 0.00 - 10.00 | Lorem                                                                                                                           |
 | **Raise**     | 0.00 - 1.00  | Lorem                                                                                                                           |
-
 
 

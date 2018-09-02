@@ -16,4 +16,4 @@ Whorl applies multiple vortex-like distortions across the terrain to create larg
 
 
 > [!TIP] 
-> 
+> Whorls can be overpowering if used by itself. A great way to tone them down is to lower the Influence value in the Post Processing panel. See @Properties for details.

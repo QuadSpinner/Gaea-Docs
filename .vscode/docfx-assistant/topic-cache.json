@@ -457,6 +457,38 @@
         "sourceFile": "reference\\Nodes\\Filter--Terrace.md"
     },
     {
+        "uid": "Distribution",
+        "title": "Distribution",
+        "type": "Conceptual",
+        "detailedType": 1,
+        "name": "Distribution",
+        "sourceFile": "reference\\Nodes\\Filter--Distribution.md"
+    },
+    {
+        "uid": "Flip",
+        "title": "Flip",
+        "type": "Conceptual",
+        "detailedType": 1,
+        "name": "Flip",
+        "sourceFile": "reference\\Nodes\\Adjustment--Flip.md"
+    },
+    {
+        "uid": "Heal",
+        "title": "Heal",
+        "type": "Conceptual",
+        "detailedType": 1,
+        "name": "Heal",
+        "sourceFile": "reference\\Nodes\\Adjustment--Heal.md"
+    },
+    {
+        "uid": "Sharpen",
+        "title": "Sharpen",
+        "type": "Conceptual",
+        "detailedType": 1,
+        "name": "Sharpen",
+        "sourceFile": "reference\\Nodes\\Adjustment--Sharpen.md"
+    },
+    {
         "uid": "Whorl",
         "title": "Whorl",
         "type": "Conceptual",
@@ -465,11 +497,43 @@
         "sourceFile": "reference\\Nodes\\Filter--Whorl.md"
     },
     {
-        "uid": "Distribution",
-        "title": "Distribution",
+        "uid": "File",
+        "title": "File",
         "type": "Conceptual",
         "detailedType": 1,
-        "name": "Distribution",
-        "sourceFile": "reference\\Nodes\\Filter--Distribution.md"
+        "name": "File",
+        "sourceFile": "reference\\Nodes\\Primitive--File.md"
+    },
+    {
+        "uid": "Sediment",
+        "title": "Sediment",
+        "type": "Conceptual",
+        "detailedType": 1,
+        "name": "Sediment",
+        "sourceFile": "reference\\Nodes\\Erosion--Sediment.md"
+    },
+    {
+        "uid": "Constant",
+        "title": "Constant",
+        "type": "Conceptual",
+        "detailedType": 1,
+        "name": "Constant",
+        "sourceFile": "reference\\Nodes\\Primitive--Constant.md"
+    },
+    {
+        "uid": "Draw",
+        "title": "Draw",
+        "type": "Conceptual",
+        "detailedType": 1,
+        "name": "Draw",
+        "sourceFile": "reference\\Nodes\\Primitive--Draw.md"
+    },
+    {
+        "uid": "Fault",
+        "title": "Fault",
+        "type": "Conceptual",
+        "detailedType": 1,
+        "name": "Fault",
+        "sourceFile": "reference\\Nodes\\Primitive--Fault.md"
     }
 ]
