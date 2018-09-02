@@ -473,14 +473,6 @@
         "sourceFile": "reference\\Nodes\\Adjustment--Flip.md"
     },
     {
-        "uid": "Heal",
-        "title": "Heal",
-        "type": "Conceptual",
-        "detailedType": 1,
-        "name": "Heal",
-        "sourceFile": "reference\\Nodes\\Adjustment--Heal.md"
-    },
-    {
         "uid": "Sharpen",
         "title": "Sharpen",
         "type": "Conceptual",
@@ -567,5 +559,45 @@
         "detailedType": 1,
         "name": "Repulse",
         "sourceFile": "reference\\Nodes\\Filter--Repulse.md"
+    },
+    {
+        "uid": "Fluvial",
+        "title": "Fluvial",
+        "type": "Conceptual",
+        "detailedType": 1,
+        "name": "Fluvial",
+        "sourceFile": "reference\\Nodes\\Erosion--Fluvial.md"
+    },
+    {
+        "uid": "BrightnessContrast",
+        "title": "BrightnessContrast",
+        "type": "Conceptual",
+        "detailedType": 1,
+        "name": "BrightnessContrast",
+        "sourceFile": "reference\\Nodes\\Color--BrightnessContrast.md"
+    },
+    {
+        "uid": "HSL",
+        "title": "HSL",
+        "type": "Conceptual",
+        "detailedType": 1,
+        "name": "HSL",
+        "sourceFile": "reference\\Nodes\\Color--HSL.md"
+    },
+    {
+        "uid": "Zero-Borders",
+        "title": "Zero Borders",
+        "type": "Conceptual",
+        "detailedType": 1,
+        "name": "Zero-Borders",
+        "sourceFile": "reference\\Nodes\\Adjustment--Zero Borders.md"
+    },
+    {
+        "uid": "Heal",
+        "title": "Heal",
+        "type": "Conceptual",
+        "detailedType": 1,
+        "name": "Heal",
+        "sourceFile": "reference\\Nodes\\Adjustment--Heal.md"
     }
 ]

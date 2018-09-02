@@ -8,3 +8,4 @@
 /**/obj/
 _site
 _site_pdf
+.vscode/docfx-assistant/topic-cache.json
