@@ -134,6 +134,8 @@
     items:
       - name: FlowMap
         href: Nodes/DataMap--FlowMap.md
+      - name: Growth
+        href: Nodes/DataMap--Growth.md
       - name: Soil Map
         href: Nodes/DataMap--Soil Map.md
       - name: Surfacer

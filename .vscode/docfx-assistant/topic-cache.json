@@ -599,5 +599,77 @@
         "detailedType": 1,
         "name": "Heal",
         "sourceFile": "reference\\Nodes\\Adjustment--Heal.md"
+    },
+    {
+        "uid": "Buildup",
+        "title": "Buildup",
+        "type": "Conceptual",
+        "detailedType": 1,
+        "name": "Buildup",
+        "sourceFile": "reference\\Nodes\\Erosion--Buildup.md"
+    },
+    {
+        "uid": "Subterrace",
+        "title": "Subterrace",
+        "type": "Conceptual",
+        "detailedType": 1,
+        "name": "Subterrace",
+        "sourceFile": "reference\\Nodes\\Filter--Subterrace.md"
+    },
+    {
+        "uid": "Hydro",
+        "title": "Hydro",
+        "type": "Conceptual",
+        "detailedType": 1,
+        "name": "Hydro",
+        "sourceFile": "reference\\Nodes\\Erosion--Hydro.md"
+    },
+    {
+        "uid": "Recurve",
+        "title": "Recurve",
+        "type": "Conceptual",
+        "detailedType": 1,
+        "name": "Recurve",
+        "sourceFile": "reference\\Nodes\\Filter--Recurve.md"
+    },
+    {
+        "uid": "Sine",
+        "title": "Sine",
+        "type": "Conceptual",
+        "detailedType": 1,
+        "name": "Sine",
+        "sourceFile": "reference\\Nodes\\Adjustment--Sine.md"
+    },
+    {
+        "uid": "FlowMap",
+        "title": "FlowMap",
+        "type": "Conceptual",
+        "detailedType": 1,
+        "name": "FlowMap",
+        "sourceFile": "reference\\Nodes\\DataMap--FlowMap.md"
+    },
+    {
+        "uid": "Soil-Map",
+        "title": "Soil Map",
+        "type": "Conceptual",
+        "detailedType": 1,
+        "name": "Soil-Map",
+        "sourceFile": "reference\\Nodes\\DataMap--Soil Map.md"
+    },
+    {
+        "uid": "Surfacer",
+        "title": "Surfacer",
+        "type": "Conceptual",
+        "detailedType": 1,
+        "name": "Surfacer",
+        "sourceFile": "reference\\Nodes\\DataMap--Surfacer.md"
+    },
+    {
+        "uid": "Growth",
+        "title": "Growth",
+        "type": "Conceptual",
+        "detailedType": 1,
+        "name": "Growth",
+        "sourceFile": "reference\\Nodes\\DataMap-Growth.md"
     }
 ]

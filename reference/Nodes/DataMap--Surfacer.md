@@ -6,16 +6,16 @@ title: Surfacer
 Surfacer provides several types of texturing primitives. It should not be used by itself. Instead, multiple Surfacers' output should be combined to create a sophisticated texture mask, and can also be combined with other complex texture masks such as the Data Maps.
 
 
-| Setting      | Values         | Description |
-| :----------- | :------------- | :---------- |
+| Setting      | Values         | Description                                                                   |
+| :----------- | :------------- | :---------------------------------------------------------------------------- |
 | **Mode**     |                |
-|              | *Sprinkling*   | Lorem |
-|              | *Peaks*        | Lorem |
-|              | *Sliders*      | Lorem |
-|              | *Splotches*    | Lorem |
-|              | *Trace*        | Lorem |
-|              | *Wind Streaks* | Lorem |
-| **Strength** | 0.00 - 1.00    | Lorem |
+|              | *Sprinkling*   | Noisy convexity mask.                                                         |
+|              | *Peaks*        | Slope deposits mask.                                                          |
+|              | *Sliders*      | Lorem                                                                         |
+|              | *Splotches*    | Random splotches on the terrain based on the neighboring terrain structures.  |
+|              | *Trace*        | Traces the most prominent shapes on the terrain.                              |
+|              | *Wind Streaks* | Masks areas where winds would swipe across structures. Useful for weathering. |
+| **Strength** | 0.00 - 1.00    | The strength of the mask.                                                     |
 
 
 

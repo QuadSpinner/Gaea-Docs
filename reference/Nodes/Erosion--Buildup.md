@@ -7,11 +7,11 @@ Buildup is an inverse form of erosion. Instead of taking sediments away, like th
 
 All erosion features found in terrain design software focus almost exclusively on carving the terrain, which eventually results in a predictable model. Buildup conversely regenerates some of the lost mass, filling up the excessively carved and convex areas. This is quite useful for simulating ancient landscapes.
 
-| Setting        | Values      | Description |
-| :------------- | :---------- | :---------- |
-| **Amount**     | 0.00 - 1.00 | Lorem |
-| **Dispersion** | 0.00 - 1.00 | Lorem |
-| **Inversion**  | On / Off    | Lorem |
+| Setting        | Values      | Description                                                  |
+| :------------- | :---------- | :----------------------------------------------------------- |
+| **Amount**     | 0.00 - 1.00 | The amount of sediment buildup to add to the terrain.        |
+| **Dispersion** | 0.00 - 1.00 | The distance up to which the sediment buildup should expand. |
+| **Inversion**  | On / Off    | Invert the process of dispersion on slopes.                  |
 
 
 
