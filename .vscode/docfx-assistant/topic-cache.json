@@ -535,5 +535,37 @@
         "detailedType": 1,
         "name": "Fault",
         "sourceFile": "reference\\Nodes\\Primitive--Fault.md"
+    },
+    {
+        "uid": "Gradient",
+        "title": "Gradient",
+        "type": "Conceptual",
+        "detailedType": 1,
+        "name": "Gradient",
+        "sourceFile": "reference\\Nodes\\Primitive--Gradient.md"
+    },
+    {
+        "uid": "Igneous",
+        "title": "Igneous",
+        "type": "Conceptual",
+        "detailedType": 1,
+        "name": "Igneous",
+        "sourceFile": "reference\\Nodes\\Primitive--Igneous.md"
+    },
+    {
+        "uid": "Fusion",
+        "title": "Fusion",
+        "type": "Conceptual",
+        "detailedType": 1,
+        "name": "Fusion",
+        "sourceFile": "reference\\Nodes\\Erosion--Fusion.md"
+    },
+    {
+        "uid": "Repulse",
+        "title": "Repulse",
+        "type": "Conceptual",
+        "detailedType": 1,
+        "name": "Repulse",
+        "sourceFile": "reference\\Nodes\\Filter--Repulse.md"
     }
 ]
