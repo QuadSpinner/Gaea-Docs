@@ -80,6 +80,7 @@
                 <span class="wip">This documentation is a work-in-progress and subject to change.</span>
 
 
+<p>The Flip node flips the terrain horizontally, vertically, or both. It can also invert the X-Y ordering of the individual pixels.</p>
 <table>
 <thead>
 <tr>
@@ -91,26 +92,33 @@
 <tbody>
 <tr>
 <td style="text-align: left;"><strong>Direction</strong></td>
-<td style="text-align: left;">Lorem</td>
+<td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
 </tr>
 <tr>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"><em>Horizontal</em></td>
-<td style="text-align: left;">Lorem</td>
+<td style="text-align: left;">Flips the terrain horizontally.</td>
 </tr>
 <tr>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"><em>Vertical</em></td>
-<td style="text-align: left;">Lorem</td>
+<td style="text-align: left;">Flips the terrain vertically.</td>
 </tr>
 <tr>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"><em>Both</em></td>
-<td style="text-align: left;">Lorem</td>
+<td style="text-align: left;">Flips the terrain both horizontally and vertically.</td>
+</tr>
+<tr>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><em>Inverse Order</em></td>
+<td style="text-align: left;">Inverts the X-Y ordering.</td>
 </tr>
 </tbody>
 </table>
+<h3 id="what-is-x-y-ordering">What is X-Y ordering?</h3>
+<p>Heightfields are stored as grids, with row-priority as the default. Meaning, for a 512 x 512 grid, each pixel is stored as 512 (X) rows of 512 (Y) pixels. When the ordering is inverted, the pixels are reordered as column-first so the grid is created as 512 (Y) columns of 512 (X) pixels.</p>
 </article>
           </div>
           

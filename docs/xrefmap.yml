@@ -154,6 +154,9 @@ references:
 - uid: Graph-Mode
   name: Graph Mode
   href: documentation/Workflow--Graph.html
+- uid: Growth
+  name: Growth
+  href: reference/Nodes/DataMap--Growth.html
 - uid: Heal
   name: Heal
   href: reference/Nodes/Adjustment--Heal.html
