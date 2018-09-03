@@ -64,14 +64,6 @@
         "sourceFile": "documentation\\Exporting.md"
     },
     {
-        "uid": "Getting-around",
-        "title": "Getting around",
-        "type": "Conceptual",
-        "detailedType": 1,
-        "name": "Getting-around",
-        "sourceFile": "documentation\\Getting around.md"
-    },
-    {
         "uid": "Getting-help",
         "title": "Getting help",
         "type": "Conceptual",
@@ -671,5 +663,13 @@
         "detailedType": 1,
         "name": "Growth",
         "sourceFile": "reference\\Nodes\\DataMap-Growth.md"
+    },
+    {
+        "uid": "Getting-around",
+        "title": "Getting around",
+        "type": "Conceptual",
+        "detailedType": 1,
+        "name": "Getting-around",
+        "sourceFile": "documentation\\Getting around.md"
     }
 ]
