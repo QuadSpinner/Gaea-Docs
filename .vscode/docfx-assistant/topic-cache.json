@@ -113,14 +113,6 @@
         "sourceFile": "documentation\\Resolutions.md"
     },
     {
-        "uid": "Terrain-Scale",
-        "title": "Terrain Scale",
-        "type": "Conceptual",
-        "detailedType": 1,
-        "name": "Terrain-Scale",
-        "sourceFile": "documentation\\Terrain Scale.md"
-    },
-    {
         "uid": "Tiled-Builds",
         "title": "Tiled Builds",
         "type": "Conceptual",
@@ -671,5 +663,13 @@
         "detailedType": 1,
         "name": "Getting-around",
         "sourceFile": "documentation\\Getting around.md"
+    },
+    {
+        "uid": "Terrain-Scale",
+        "title": "Terrain Scale",
+        "type": "Conceptual",
+        "detailedType": 1,
+        "name": "Terrain-Scale",
+        "sourceFile": "documentation\\Terrain Scale.md"
     }
 ]
