@@ -10,8 +10,11 @@ Biome uses a water map (like FlowMap or the Erosion node’s Flow output) and us
 | **Y Scale**                    | 0.00 - 1.00 | Lorem                                                     |
 | **Influence**                  | 0.00 - 1.00 | Lorem                                                     |
 | **Sea Level**                  | 0.00 - 1.00 | Lorem                                                     |
+| **Allow Highlands**            | On / Off    | Lorem ipsum                                               |
 | **Highlands**                  | 0.00 - 1.00 | Lorem                                                     |
+| **Allow Midlands**             | On / Off    | Lorem ipsum                                               |
 | **Midlands**                   | 0.00 - 1.00 | Lorem                                                     |
+| **Allow Lowlands**             | On / Off    | Lorem ipsum                                               |
 | **Lowlands**                   | 0.00 - 1.00 | Lorem                                                     |
 | **Jitter**                     | On / Off    | Lorem                                                     |
 | **Water Bodies**               | On / Off    | Lorem                                                     |
