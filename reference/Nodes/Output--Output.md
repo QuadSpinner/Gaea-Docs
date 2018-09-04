@@ -1,5 +1,5 @@
 ---
-uid: Output--Output
+uid: Output
 title: Output
 ---
 
