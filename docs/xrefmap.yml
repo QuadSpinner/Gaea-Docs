@@ -67,7 +67,7 @@ references:
 - uid: Color-Production
   name: Color Production
   href: documentation/Color%20Production.html
-- uid: Combiner--Combine
+- uid: Combine
   name: Combine
   href: reference/Nodes/Combiner--Combine.html
 - uid: Common-Issues
@@ -124,9 +124,9 @@ references:
 - uid: Flip
   name: Flip
   href: reference/Nodes/Adjustment--Flip.html
-- uid: FlowMap
-  name: FlowMap
-  href: reference/Nodes/DataMap--FlowMap.html
+- uid: Flow
+  name: Flow
+  href: reference/Nodes/DataMap--Flow.html
 - uid: Fluvial
   name: Fluvial
   href: reference/Nodes/Erosion--Fluvial.html
@@ -235,7 +235,7 @@ references:
 - uid: Origami
   name: Origami
   href: reference/Nodes/Filter--Origami.html
-- uid: Output--Output
+- uid: Output
   name: Output
   href: reference/Nodes/Output--Output.html
 - uid: Perlin
@@ -316,9 +316,9 @@ references:
 - uid: Sloping-Sandstone
   name: Sloping Sandstone
   href: quickstarts/Sloping-Sandstone.html
-- uid: Soil-Map
-  name: Soil Map
-  href: reference/Nodes/DataMap--Soil%20Map.html
+- uid: Soil
+  name: Soil
+  href: reference/Nodes/DataMap--Soil.html
 - uid: Stratify
   name: Stratify
   href: reference/Nodes/Erosion--Stratify.html

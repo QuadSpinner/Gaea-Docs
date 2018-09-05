@@ -82,7 +82,7 @@
 
 <p>Coloration in Gaea is based on CLUTs, or color lookup tables. As 2D heightfields are essentially a grid of number ranging from 0.0 (lowest) to 1.0 (highest), CLUTs are represented as gradients which are mapped to those heights.</p>
 <p>The lowest part of a gradient corresponds to the lowest part of the terrain, while the highest part of the gradient corresponds to the highest part of the terrain. Everything in between is evenly distributed.</p>
-<p>The CLUTer nodes let's you take any grayscale input, such as <a class="xref" href="Selector--Curvature.html">Curvature</a>, <a class="xref" href="Selector--Slope.html">Slope</a>, @Surface, <a class="xref" href="DataMap--FlowMap.html">FlowMap</a>, and map it onto a gradient.</p>
+<p>The CLUTer nodes let's you take any grayscale input, such as <a class="xref" href="Selector--Curvature.html">Curvature</a>, <a class="xref" href="Selector--Slope.html">Slope</a>, @Surface, @flow, and map it onto a gradient.</p>
 <h3 id="gradient-editor">Gradient Editor</h3>
 <p>Click anywhere in the gradient to create a new stop. Drag the stop to position it. Select the stop and press <code>DEL</code> to delete the stop.</p>
 <p><img src="../../images/CLUT-sample.png" alt="CLUTer"></p>
@@ -130,13 +130,23 @@
 <td style="text-align: left;">On / Off</td>
 <td style="text-align: left;">Applies an autolevels filter to the output texture.</td>
 </tr>
+<tr>
+<td style="text-align: left;"><strong>Data</strong></td>
+<td style="text-align: left;">Filename</td>
+<td style="text-align: left;">Lorem ipsum</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Magick</strong></td>
+<td style="text-align: left;">Filename</td>
+<td style="text-align: left;">Lorem ipsum</td>
+</tr>
 </tbody>
 </table>
 <div class="TIP">
 <h5>Tip</h5>
 <p>You can use <strong>Input Clarity</strong> instead of interjecting an Autolevels node to the graph.</p>
 </div>
-<p>In this example, a <a class="xref" href="DataMap--FlowMap.html">FlowMap</a> is mapped by <a class="xref" href="Color--CLUTer.html">CLUTer</a> to create basic texture map.</p>
+<p>In this example, a @flow is mapped by <a class="xref" href="Color--CLUTer.html">CLUTer</a> to create basic texture map.</p>
 <p><img src="../../images/CLUT-sample2.png" alt="CLUTer"></p>
 <p>For general information on creating color textures, see <a class="xref" href="../../documentation/Color%20Production.html">Color Production</a>.</p>
 </article>

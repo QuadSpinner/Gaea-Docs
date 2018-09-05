@@ -1,6 +1,22 @@
 [
     { "name":"",
         "notes":[
+            "[New] First-run experience.",
+            "[Improved] Erosion crash on Windows 7 fixed.",
+            "[Improved] Bleeding Edge viewport engine now works on non-English installs.",
+            "[Fixed] Deposits showed blank terrain.",
+            "[Fixed] Missing UI symbols were fixed.",
+            "[Issue] Color maps may not visible in the Classic viewport engine.",
+            "[Issue] Biome may show some unnecessary noise.",
+            "[Issue] Some example files may not work completely.",
+            "[Issue] The new viewport may not function properly with some superficial features. We're working on this."
+        ],
+        "pub_date": "2018-09-05T00:00:00Z",
+        "version": "1.0.9.5511",
+        "url": "http://medium.com/quadspinner/"
+    },
+    { "name":"",
+        "notes":[
             "[New] Override the display of any node to show as mask",
             "[Improved] Watson Diagnostics Tool updated",
             "[Improved] Important memory improvements in visualizing heightfields",
