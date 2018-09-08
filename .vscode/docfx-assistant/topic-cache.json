@@ -40,14 +40,6 @@
         "sourceFile": "documentation\\Building.md"
     },
     {
-        "uid": "Color-Production",
-        "title": "Color Production",
-        "type": "Conceptual",
-        "detailedType": 1,
-        "name": "Color-Production",
-        "sourceFile": "documentation\\Color Production.md"
-    },
-    {
         "uid": "Common-Issues",
         "title": "Common Issues",
         "type": "Conceptual",
@@ -657,28 +649,12 @@
         "sourceFile": "documentation\\Getting around.md"
     },
     {
-        "uid": "Terrain-Scale",
-        "title": "Terrain Scale",
-        "type": "Conceptual",
-        "detailedType": 1,
-        "name": "Terrain-Scale",
-        "sourceFile": "documentation\\Terrain Scale.md"
-    },
-    {
         "uid": "Importing-Data",
         "title": "Importing Data",
         "type": "Conceptual",
         "detailedType": 1,
         "name": "Importing-Data",
         "sourceFile": "documentation\\Importing Data.md"
-    },
-    {
-        "uid": "Data-Maps",
-        "title": "Data Maps",
-        "type": "Conceptual",
-        "detailedType": 1,
-        "name": "Data-Maps",
-        "sourceFile": "documentation\\Data Maps.md"
     },
     {
         "uid": "Creating-Variations",
@@ -695,5 +671,29 @@
         "detailedType": 1,
         "name": "shortcuts",
         "sourceFile": "documentation\\Keyboard.md"
+    },
+    {
+        "uid": "Terrain-Scale",
+        "title": "Terrain Scale",
+        "type": "Conceptual",
+        "detailedType": 1,
+        "name": "Terrain-Scale",
+        "sourceFile": "documentation\\Terrain Scale.md"
+    },
+    {
+        "uid": "Data-Maps",
+        "title": "Data Maps",
+        "type": "Conceptual",
+        "detailedType": 1,
+        "name": "Data-Maps",
+        "sourceFile": "documentation\\Data Maps.md"
+    },
+    {
+        "uid": "Color-Production",
+        "title": "Color Production",
+        "type": "Conceptual",
+        "detailedType": 1,
+        "name": "Color-Production",
+        "sourceFile": "documentation\\Color Production.md"
     }
 ]

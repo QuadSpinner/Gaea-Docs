@@ -12,7 +12,7 @@ You can define the Base and Height of your terrain in meters. Both are counted f
 
 ```
     // Internally, the terrain scale calculation is performed like this:
-    (height / scale) - base;
+    (height / scale) - base
 
 ```
 

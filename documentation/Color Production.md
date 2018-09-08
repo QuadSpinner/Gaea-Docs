@@ -18,3 +18,7 @@ Now, if you take the same CLUT map, and instead of using the height of the terra
 The latter is not necessary most of the time, but is recommended. Otherwise your input may not look accurate in the preview as it will just assume the first 3D node prior to this node is the heightfield.
 
 This port was created specifically to help visualize terrains while creating complex color maps.
+
+## Using Data Maps
+
+To create color maps using Data Maps, see @Data-Maps.
