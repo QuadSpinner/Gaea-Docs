@@ -80,14 +80,6 @@
         "sourceFile": "documentation\\Installing Gaea.md"
     },
     {
-        "uid": "shortcuts",
-        "title": "Keyboard Shortcuts",
-        "type": "Conceptual",
-        "detailedType": 1,
-        "name": "shortcuts",
-        "sourceFile": "documentation\\Keyboard.md"
-    },
-    {
         "uid": "Preferences",
         "title": "Preferences",
         "type": "Conceptual",
@@ -671,5 +663,37 @@
         "detailedType": 1,
         "name": "Terrain-Scale",
         "sourceFile": "documentation\\Terrain Scale.md"
+    },
+    {
+        "uid": "Importing-Data",
+        "title": "Importing Data",
+        "type": "Conceptual",
+        "detailedType": 1,
+        "name": "Importing-Data",
+        "sourceFile": "documentation\\Importing Data.md"
+    },
+    {
+        "uid": "Data-Maps",
+        "title": "Data Maps",
+        "type": "Conceptual",
+        "detailedType": 1,
+        "name": "Data-Maps",
+        "sourceFile": "documentation\\Data Maps.md"
+    },
+    {
+        "uid": "Creating-Variations",
+        "title": "Creating Variations",
+        "type": "Conceptual",
+        "detailedType": 1,
+        "name": "Creating-Variations",
+        "sourceFile": "documentation\\Creating Variations.md"
+    },
+    {
+        "uid": "shortcuts",
+        "title": "Keyboard Shortcuts",
+        "type": "Conceptual",
+        "detailedType": 1,
+        "name": "shortcuts",
+        "sourceFile": "documentation\\Keyboard.md"
     }
 ]
