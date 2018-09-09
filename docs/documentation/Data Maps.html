@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title> | QuadSpinner Gaea </title>
+    <title>Data Maps | QuadSpinner Gaea </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content=" | QuadSpinner Gaea ">
-    <meta name="generator" content="docfx 2.38.0.0">
+    <meta name="title" content="Data Maps | QuadSpinner Gaea ">
+    <meta name="generator" content="docfx 2.39.1.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -76,9 +76,16 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="">
+            <article class="content wrap" id="_content" data-uid="Data-Maps">
                 <span class="wip">This documentation is a work-in-progress and subject to change.</span>
+<h1 id="what-are-data-maps">What are Data Maps?</h1>
 
+<p>Data Maps are special masks. While Selector masks generally represent an area or selection such as slope, angle, or curvature, Data Maps represent a specific type of data of the area: such as water flow, soil deposits, etc.</p>
+<p>Data Maps are very useful for creating color maps. For example, the water flow can be used to create a Biome texture, or used manually with a CLUTer or SatMaps node to create a texture along water flow areas.</p>
+<h1 id="a-basic-texture-with-data-maps">A basic texture with Data Maps</h1>
+<p>In this example, we create a simple terrain using a Mountain node, then eroding it to get some basic erosion data. On top of the eroded output, we apply a Soil Map node. The Soil Map node is fed to a SatMaps node to create a base texture for the terrain. The Flow and Wear output of the Erosion node are mixed and fed to another SatMaps node to create a second map. The two maps are mixed together to create the final texture.</p>
+<p>// TODO: Image</p>
+<p>See the <a class="xref" href="../quickstarts/index.html">Quickstarts</a> for more color production examples.</p>
 </article>
           </div>
           

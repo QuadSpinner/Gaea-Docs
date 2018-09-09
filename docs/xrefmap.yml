@@ -79,9 +79,15 @@ references:
 - uid: Convector
   name: Convector
   href: reference/Nodes/Erosion--Convector.html
+- uid: Creating-Variations
+  name: Creating Variations
+  href: documentation/Creating%20Variations.html
 - uid: Curvature
   name: Curvature
   href: reference/Nodes/Selector--Curvature.html
+- uid: Data-Maps
+  name: Data Maps
+  href: documentation/Data%20Maps.html
 - uid: Denoise
   name: Denoise
   href: reference/Nodes/Adjustment--Denoise.html

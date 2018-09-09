@@ -8,7 +8,7 @@
     <title>Terrain Scale | QuadSpinner Gaea </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Terrain Scale | QuadSpinner Gaea ">
-    <meta name="generator" content="docfx 2.38.0.0">
+    <meta name="generator" content="docfx 2.39.1.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -85,7 +85,7 @@
 <p>The Terrain Definition popup is found in the main toolbar.</p>
 <p>You can define the Base and Height of your terrain in meters. Both are counted from sea level (0.0m). The Scale determines the extent of the entire terrain. By default, Gaea terrains are set at sea level (Base: 0m), just over 3km tall (Height: 3,200m), and 5 x 5 square kilometers (Scale: 5,000m) wide.</p>
 <pre><code>    // Internally, the terrain scale calculation is performed like this:
-    (height / scale) - base;
+    (height / scale) - base
 
 </code></pre>
 <p>3km is usually more than enough for most terrains. Mt. Everest is 8.8km tall! Going that tall is not recommended unless you really know how to handle the side effects of such tall terrains.</p>
