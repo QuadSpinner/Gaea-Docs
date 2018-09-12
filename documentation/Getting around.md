@@ -6,7 +6,7 @@ title: Getting around
 # Introduction to the User Interface
 
 The Gaea user interface (UI) is made of 3 essential areas:
-- The node graph where you construct your terrain using nodes.
+- The node graph where you construct a terrain using nodes.
 - The properties panel where you change settings for the selected node.
 - The viewport where you preview the terrain.
 
@@ -19,5 +19,5 @@ See the following topics to get a better understanding of how Gaea operates:
 - @Resolutions
 - @Toolbox
 - @Preferences
-- @shortcuts
+- @Shortcuts
 - @Graph-Mode
