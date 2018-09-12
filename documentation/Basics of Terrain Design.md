@@ -14,7 +14,7 @@ The *Modify* phase requires you to take the basic primitive shape and make it mo
 
 `// TODO: Image`
 
-The *Export* phase is the easiest. You take the last node in your graph and mark it to save, then build it using the @Build-Manager.
+The *Export* phase is the easiest. You take the last node in your graph and mark to save, then build it using the @Build-Manager.
 
 `// TODO: Image`
 
