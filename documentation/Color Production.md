@@ -8,6 +8,8 @@ All coloration in Gaea is based on CLUTs, or color lookup tables. As 2D heightfi
 
 The lowest part of a gradient corresponds to the lowest part of the terrain, while the highest part of the gradient corresponds to the highest part of the terrain. Everything in between is evenly distributed.
 
+// TODO: Image
+
 In this example, you can see how the gradient from a CLUTer node maps to the heightfield.
 
 Now, if you take the same CLUT map, and use a FlowMap instead of using the height of the terrain as the input, you get a different type of texture output that follows the flow lines of the FlowMap output.
