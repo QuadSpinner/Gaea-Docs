@@ -42,7 +42,7 @@ If you move away from the node, or select another node, changes will be applied 
 You can optionally turn on the manual node update for all nodes if you prefer, by turning off **Automatically apply Node Modifications** in the @Preferences. If the setting is turned on, which is the default, only Heavy nodes will require manual updates.
 
 #  Post Processing
-The Post Process tab sits right under the Properties, and provides quick access to common functions. There is a limited set of common functions; more will be added once certain under-the-hood changes are complete.
+The Post Process tab sits right under the Properties and provides quick access to common functions. 
 
 You can use Autolevel and Influence to control your node without having to add a second node. This will help you keep your graph clean.
 
