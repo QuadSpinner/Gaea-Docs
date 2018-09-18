@@ -9,7 +9,7 @@ title: Keyboard Shortcuts
 | New                        | `Ctrl + N`         |
 | Open                       | `Ctrl + O`         |
 | Save                       | `Ctrl + S`         |
-| Save Incremental           | `Ctrl + Shift + S` |
+| Save incremental           | `Ctrl + Shift + S` |
 | **Graph Commands**         |
 | Refresh node               | `F5`               |
 | Bypass node                | `B`                |
@@ -18,7 +18,7 @@ title: Keyboard Shortcuts
 | Mark node for save         | `F3`               |
 | Delete node                | `Del`              |
 | Rename node                | `F2`               |
-| Build Terrain              | `Ctrl + Shift + B` |
+| Build terrain              | `Ctrl + Shift + B` |
 | Multi-Mix nodes            | `F8`               |
 | Duplicate node             | `Ctrl + D`         |
 | Quick search nodes         | `TAB`              |

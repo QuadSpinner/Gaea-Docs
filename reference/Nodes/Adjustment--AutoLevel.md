@@ -13,4 +13,5 @@ title: AutoLevel
 
 
 
-Level is recommended in most situations over Equalize, as the latter may make terrains look too bulky and remove delicate features in some cases.
+> [!TIP] 
+> Level is recommended in most situations over Equalize, as the latter may make terrains look too bulky and remove delicate features in some cases.
