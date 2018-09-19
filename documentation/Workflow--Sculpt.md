@@ -56,6 +56,8 @@ When the Sculpt mode is active, your cursor in the viewport shows the impact are
 
 Click anywhere on the terrain to create a "stroke" using the selected tool. In this case, we use the Landbreaker tool to create a few random strokes.
 
+`// TODO: Image`
+
 You will notice that, while the base terrain uses the preview resolution (512 x 512), the strokes and their effects on the terrain are at your sculpt's target resolution (2048 x 2048). This lets you preview the effect your final build will have regardless of your preview quality.
 
 Once you are satisfied with your sculpt, turn the Sculpt mode off. You will notice that your high resolution sculpt is downscaled to the preview resolution, and may lose a lot of the detail.
