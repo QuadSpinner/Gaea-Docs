@@ -6,8 +6,8 @@ title: Bomber
 | Setting              | Values      | Description                                                                           |
 | :------------------- | :---------- | :------------------------------------------------------------------------------------ |
 | **Distribution**     |             | The method of distribution                                                            |
-|                      | *Random*    | A randomized distribution, that results in pure chaotic patterns.                     |
-|                      | *Poisson*   | A discrete probability distribution function, that results in a natural distribution. |
+|                      | *Random*    | A randomized distribution that results in pure chaotic patterns.                     |
+|                      | *Poisson*   | A discrete probability distribution function that results in a natural distribution. |
 |                      | *Grid*      | A normalized grid distribution function that results in a systematic pattern.         |
 | **Clusters**         | 1 - 30      | The number of independent distribution clusters.                                      |
 | **Density**          | 0.10 - 0.90 | The density of the independent clusters, and the instances within each cluster.       |
