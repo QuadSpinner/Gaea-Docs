@@ -17,7 +17,7 @@ Installing Gaea is a simple process. Depending on your installation location, yo
 3. By default, Gaea installs to `C:\Program Files\QuadSpinner\Gaea` but can be directed to any other folder. For security purposes, we recommend the `C:\Program Files` folder.
 4. Once setup is complete, Gaea will launch.
 5. Follow the on-screen questions to set up your default preferences.
-6. The Gaea central project repository and build stacks are placed in `Documents\Gaea\` by default, however you can change this folder to any other location through introduction dialog, or at any later time via the Preferences.
+6. The Gaea central project repository and build stacks are placed in `Documents\Gaea\` by default. However, you can change this folder to any other location through the introduction dialog, or at any later time via the Preferences.
 
 ---
 
@@ -35,4 +35,4 @@ The Gaea installer is flexibly built for administrative and unattended installat
 2. Alternatively, copy the license file to the same folder as `Gaea.exe`.
 
 ### Floating Server
-This feature is currently in development and may not be available until version 1.1. Please contact technical support for an alternative in the meantime.
+This feature is currently in development and may not be available until version 1.1. Please contact technical support for an interim alternative.

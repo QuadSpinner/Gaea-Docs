@@ -4,9 +4,9 @@ title: Basics of Terrain Design
 ---
 
 # The Basics
-There are 3 things you must do for any terrains: create, modify, export.
+There are 3 steps you must take to achieve any terrain: create, modify, export.
 
-The *Create* phase requires you to use nodes that are known as Primitives. In normal 3D applications, we are used to primitives such as box, sphere, plane, and so on. In Gaea, a primitive is a basic element of a terrain. For example, @"Mountain" and @"Dunes" are two examples of geological elements.
+The *Create* phase requires you to use nodes that are known as Primitives. In normal 3D applications, primitives can include  box, sphere, plane, and so on. In Gaea, a primitive is a basic geological element of a terrain. For example, @"Mountain" and @"Dunes" are two such basic elements.
 
 `// TODO: Image`
 
@@ -14,21 +14,21 @@ The *Modify* phase requires you to take the basic primitive shape and make it mo
 
 `// TODO: Image`
 
-The *Export* phase is the easiest. You take the last node in your graph and mark it for saving, then build it using the @Build-Manager.
+The *Export* phase is the easiest. You take the last node in your graph and mark to save, then build it using the @Build-Manager.
 
 `// TODO: Image`
 
 # Choosing your Workflow
 
-Gaea provides two different workflows for creating terrains. You can choose either based on your needs, and you can even switch between the two while working on the terrain.
+Gaea provides two different workflows for creating terrains. You can choose the method that best suits your needs, and also switch between the two while working on the terrain.
 
 ## Layers
 
 `// TODO: Image`
 
-Layers are a deceptively simple way to craft terrains. You can stack nodes like Photoshop&reg; layers. This is a great way to quickly prototype a terrain or explore different ideas, without worrying about managing nodes.
+Layers are a deceptively simple way to craft terrains. You can stack nodes like Photoshop&reg; layers. This is a great technique to quickly prototype a terrain or explore different ideas, without worrying about managing nodes.
 
-Layers are limited with one-to-one relationships, unlike a graph which can have a one-to-many relationships where you can create two different "chains" of creation and blend them together in myriad ways.
+Layers are limited to one-to-one relationships, unlike a graph. Graphs can have one-to-many relationships, where you can create two different "chains" of creation and blend them together in myriad ways.
 
 Read more about this workflow in the @Layers-Mode section.
 
@@ -36,7 +36,7 @@ Read more about this workflow in the @Layers-Mode section.
 
 `// TODO: Image`
 
-The Graph provides a sophisticated workflow that is very flexible. Like any other graph based workflow, you get both simple and complex functions packed into nodes which you can connect to each other to create a network which produces a terrain.
+The Graph provides a sophisticated workflow that is very flexible. Like any other graph-based workflow, you get both simple and complex functions packed into nodes which you can connect to each other to create a network that produces a terrain.
 
 Read more about this workflow in the @Graph-Mode section
 

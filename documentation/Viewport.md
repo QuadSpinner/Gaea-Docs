@@ -58,7 +58,7 @@ The viewport is available in two forms.
 The *Bleeding Edge* engine uses modern hardware and software capabilities to provide extremely detailed views of your terrains. It does this at additional GPU expense, but provides the best visuals. The *Bleeding Edge* engine can show previews of up to 16K resolution.
 
 ### Standard Engine
-The *Standard* engine is made for compatibility and will work great across both modern and older hardware. It can visualize up to 8K resolution terrains, but high resolution previews are the expense of minor visual fidelity.
+The *Standard* engine is made for compatibility and works great across both modern and older hardware. It can visualize up to 8K resolution terrains, but high resolution previews are at the expense of minor visual fidelity.
 
 ## Map Viewer
 The Map Viewer provides flat, 2D previews with pixel-to-pixel accuracy. In some situations, you can see visual data that may not be readily visible in the 3D viewport.
