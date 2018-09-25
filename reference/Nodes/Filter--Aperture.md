@@ -19,7 +19,7 @@ The Aperture node expands or compacts every single feature on the terrain, simil
 |                | *Corner*   | Large, diagonal squares.                                                                                                       |
 |                | *Ring*     | Small, circular formation with steps/terraces.                                                                                 |
 |                | *Sobel*    | Rectangular stretches which retain corner shapes.                                                                              |
-| **Random**     | On / Off   | When on, each iteration uses a randomly selected kernel.                                                                       |
+| **Random**     | On / Off   | When off, each iteration uses a randomly selected kernel.                                                                       |
 | **Seed**       | 0 - 128000 | The randomization pattern or seed for the node's process.                                                                      |
 
 
