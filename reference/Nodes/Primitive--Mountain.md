@@ -3,7 +3,7 @@ uid: Mountain
 title: Mountain
 ---
 
-The Mountain is one of the most versatile primitives in Gaea. It uses a modulated Voronoi pattern and distortions to create realistic mountain shape, ready for further modification and erosion.
+Mountain is one of the most versatile primitives in Gaea. It uses a modulated Voronoi pattern and distortions to create realistic mountain shapes, ready for further modification and erosion.
 
 | Setting    | Values      | Description                                               |
 | :--------- | :---------- | :-------------------------------------------------------- |
@@ -22,4 +22,4 @@ The Mountain is one of the most versatile primitives in Gaea. It uses a modulate
 
 
 
-For simple results, such as distance mountains that don't require too much detail, you can create a mountain primitive with a scale of your choice and add the Erosion node. This is the easiest way to create lot of simple assets.
+For simple results, such as distance mountains that don't require much detail, you can create a Mountain primitive with a scale of your choice and add the Erosion node. This is the easiest way to create a lot of simple assets.

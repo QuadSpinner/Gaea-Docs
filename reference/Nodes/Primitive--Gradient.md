@@ -10,11 +10,11 @@ It creates three distinct types of gradients: Linear, Radial, and Helix. Several
 | Setting              | Values      | Description                                                                           |
 | :------------------- | :---------- | :------------------------------------------------------------------------------------ |
 | **Type**             |             |
-|                      | *Linear*    | A ramp going from lowest to heighest.                                                 |
+|                      | *Linear*    | A ramp going from lowest to highest.                                                 |
 |                      | *Radial*    | A soft, radial "bump".                                                                |
 |                      | *Helix*     | A climbing, spiral or helix gradient.                                                 |
 | **Scale**            | 0.00 - 1.00 | The scale of the gradient.                                                            |
-| **Sawtooth**         | On / Off    | Whether a lower scaled Linear gradient should create a repeating or sawtooth pattern. |
+| **Sawtooth**         | On / Off    | On allows a lower scaled Linear gradient to create a repeating or sawtooth pattern. |
 | **Direction**        | 0 - 360     | The angle of the Linear gradient.                                                     |
 | **Edge Behavior**    |             |
 |                      | *None*      | Edge pixels are left blank.                                                           |
@@ -22,7 +22,7 @@ It creates three distinct types of gradients: Linear, Radial, and Helix. Several
 |                      | *Repeat*    | Edge pixels are repeated.                                                             |
 |                      | *Edge*      | ???                                                                                   |
 | **X** / **Y**        | 0.00 - 1.00 | The center point on the Radial gradient.                                              |
-| **Start** /  **End** | 0 - 360     | Where the helix should start and end.                                                 |
+| **Start** /  **End** | 0 - 360     | Where the Helix will start and end.                                                 |
 
 
 

@@ -3,7 +3,7 @@ uid: Cells
 title: Cells
 ---
 
-This node quantizes the heightfield into discrete cells as defined by the Distance function. The default Euclidian function creates basalt pillar-like shapes.
+This node quantizes the heightfield into discrete cells, defined by the Distance function. The default Euclidian function creates basalt pillar-like shapes.
 
 
 | Setting      | Values       | Description                                                                                                                                                    |
@@ -15,7 +15,7 @@ This node quantizes the heightfield into discrete cells as defined by the Distan
 |              | *Euclidean*  | Euclidean creates sharp, angular cells.                                                                                                                        |
 |              | *Manhattan*  | Manhattan creates slightly unnatural multi-angled shapes, which can be quite useful when processed further.                                                    |
 |              | *Shepards*   | Shepards provides stark peaks and sinkholes.                                                                                                                   |
-|              | *Hybrid*     | Euclidean-Manhattan hybrid creates merges both distancing functions equally.                                                                                   |
+|              | *Hybrid*     | Euclidean-Manhattan hybrid merges both distancing functions equally.                                                                                   |
 
 
 
