@@ -13,4 +13,4 @@ title: Output
 > The output file will be overwritten on each build. Use the @Build-Manager instead to automatically stack and rename files.
 
 > [!NOTE]
-> The Output node is for backward compatibility only. We recommend using the @Build-Manager instead, unless you have specific uses.
+> The Output node is for backward compatibility only. We recommend using the @Build-Manager instead, unless you have specific needs.
