@@ -4,14 +4,14 @@ title: Graph Mode
 ---
 
 ## Understanding the Advanced Graph
-The graph may look complicated, but follows a simple pattern. Each node represents a specific function, and has two types of "ports", namely Input ports and Output ports. These ports are used to connect one node to another to create a sequence of functions, which result in a terrain.
+The graph may look complicated, but follows a simple pattern. Each node represents a specific function, and has two types of "ports"; namely, Input ports and Output ports. These ports are used to connect one node to another to create a sequence of functions, which result in a terrain.
 
-There are certain nodes which may not have all the port types, or may have special ports specific to that node. For better understanding of those nodes, please see the documentation for those specific nodes under the `Reference`.
+There are certain nodes that may not have both port types, or may have special ports specific to that node. For a better understanding of those nodes, please see the documentation for those specific nodes under `Reference`.
 
 ---
 
 ## Masking
-Masking is a very important part of creating sophisticated terrains. By default, when you apply an effect or process on a terrain, it is applied uniformly across the entire surface. By using the Mask port, you can contain the effect into a specific area.
+Masking is a very important part of creating sophisticated terrains. By default, when you apply an effect or process on a terrain, it is applied uniformly across the entire surface. By using the Mask port, you can contain the effect in a specific area.
 
 You can use any shape/terrain to mask a node, or you can draw it with Fluent Masking.
 
@@ -33,17 +33,17 @@ When a graph becomes large, there are many ways you can manage nodes for specifi
 Bypassing a node (press `B`) keeps it in the graph, and maintains its relationships, but it is not included in the processing. This is very useful for experimentation.
 
 ### Pinned Preview
-Pinning a preview (press `F`) is a good way to see the end-result of a chain of nodes. When a node is pinned, you can move to other nodes and see their properties, however the visual is that of the pinned node only. 
+Pinning a preview (press `F`) is a convenient way to see the end-result of a chain of nodes. When a node is pinned, you can move to other nodes and see their properties; however, the visual is only that of the pinned node. 
 
-If the pinned node is in the chain of nodes for whom you are modifying properties, you will see the effect those changes have on the pinned node without having to move your focus.
+If the pinned node is in the chain of nodes for which you are modifying properties, you will see the effect those changes have on the pinned node without having to move your focus.
 
 If you pin another node, the current pinned node is released. If you pin the same node again, it will release the pin.
 
 ### Pinned Visual
-Pinning the visual (press `G`) is the same as a pinned preview, however it only works for Color nodes. When you fix the visual, and move between different color production nodes, the color texture will change in concert with the node you select, however the base heightfield upon which the texture is applied will be the Fixed Visual. If you move to a non-color node, it will show you its default preview.
+Pinning the visual (press `G`) is the same as a pinned preview, but it only works for Color nodes. When you fix the visual and move between different color production nodes, the color texture will change in concert with the node you select. However, the base heightfield upon which the texture is applied will be the Fixed Visual. If you move to a non-color node, it will show you its default preview.
 
 ### Mark for Save
-When a node is marked for saving (press `L`), it will emit the output as a file when the terrain is built. Any nodes marked for saving will be available in the Build Manager.
+When a node is marked for save (press `L`), it will emit the output as a file when the terrain is built. Any nodes that are marked for save will be available in the Build Manager.
 
 See the article `Building` for details.
 
@@ -51,14 +51,14 @@ See the article `Building` for details.
 
 ## Using Convenience Tools
 ### Drop Behavior
-Drop a node on a connection to have it interject itself between two nodes. Drop it on another node and have it be parented to that node. If another sibling node exists, the new node will organized automatically.
+Drop a node on a connection to have it interject itself between two nodes. Drop it on another node to have it be parented to that node. If another sibling node exists, the new node will be organized automatically.
 
-Alternatively, you can drag an unconnected node that already exists on to a connection, and it will interject itself.
+Alternatively, you can drag an unconnected node, that already exists, on to a connection and it will interject itself.
 
 ### Auto Layout
 Even the most complicated graphs can be automatically organized. Just press `F4` in the graph.
 
-Pressing `F4` once will layout the graph in a linear pattern. Pressing `F4` again lays out the graph in a waterfall pattern. In the waterfall pattern, Gaea will intelligently try and figure out the junctions in the graph and stagger the subsequence nodes accordingly.
+Pressing `F4` once will layout the graph in a linear pattern. Pressing `F4` again lays out the graph in a waterfall pattern. In the waterfall pattern, Gaea will intelligently try to figure out the junctions in the graph and stagger the subsequence nodes accordingly.
 
 ### Quick Create Node
 Rather than setting up a node and then connecting it, you can drag a connection into empty space and use the quick create menu.
@@ -67,4 +67,4 @@ Rather than setting up a node and then connecting it, you can drag a connection 
 Drop a connection on another connection to quickly connect to the same source node.
 
 ### MultiMix
-Select two or more nodes, and click the MultiMix button to instantly create a sequence of Combine nodes to mix the selected nodes together. For more detailed control, you can select two at a time and MultiMix the results.
+Select two or more nodes, and click the MultiMix button. This will instantly create a sequence of Combine nodes to mix the selected nodes together. For more detailed control, you can select two at a time and MultiMix the results.

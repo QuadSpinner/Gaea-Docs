@@ -43,7 +43,7 @@
      - name: Clamp
        href: Nodes/Adjustment--Clamp.md
      - name: Combine
-       href: Nodes/Combiner--Combine.md
+       href: Nodes/Adjustment--Combine.md
      - name: Denoise
        href: Nodes/Adjustment--Denoise.md
      - name: Displace

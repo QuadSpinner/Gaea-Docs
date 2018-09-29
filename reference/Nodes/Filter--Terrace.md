@@ -3,7 +3,7 @@ uid: Terrace
 title: Terrace
 ---
 
-You can modulate the terracing process by attaching a second, optional input.
+The Terrace node lets you modulate the terracing process by attaching a second, optional input.
 
 
 | Setting          | Values      | Description                                                   |
@@ -17,4 +17,4 @@ You can modulate the terracing process by attaching a second, optional input.
 | **Seed**         | 0 - 128000  | The randomization pattern or seed for the node's process.     |
 
 > [!TIP] 
-> Try using two Terrace nodes: one with fewer terraces but lower uniformity, and another with many terraces but higher uniformity. The combined output can be tweaked using the Soft Falloff and Intensity to avoid over processing.
+> Try using two Terrace nodes: one with fewer terraces and lower uniformity, and another with several terraces and higher uniformity. The combined output can be tweaked using the Soft Falloff and Intensity settings to avoid over processing.

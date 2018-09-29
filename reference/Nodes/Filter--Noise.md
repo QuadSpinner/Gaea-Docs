@@ -11,7 +11,7 @@ title: Noise
 |                | *Random*    | Random dots.                                              |
 |                | *Gaussian*  | Lorem                                                     |
 |                | *Poisson*   | Lorem                                                     |
-|                | *Impulse*   | Sharp, strong, spikes.                                    |
+|                | *Impulse*   | Sharp, strong spikes.                                    |
 |                | *Laplacian* | Lorem                                                     |
 | **Level**      | Lorem       |
 |                | *None*      | Lorem                                                     |
