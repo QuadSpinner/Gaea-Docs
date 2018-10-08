@@ -1,6 +1,25 @@
 [
     { "name":"",
         "notes":[
+            "[Improved] Viewport performance improvement for Medium and Low settings.",
+            "[Fixed] Gaea would get stuck on splash screen.",
+            "[Fixed] Build Engine could not process paths with spaces.",
+            "[Fixed] Erosion maps were swapped.",
+            "[Fixed] Duplicate preset names were not permitted.",
+            "[Removed] Fusion node temporarily removed for a critical failure.",
+            "[Issue] Undo does not work correctly in some cases.",
+            "[Issue] There may be some cursor offset issues in Erosion Studio.",
+            "[Issue] 16k and higher build sizes are not available yet.",
+            "[Issue] Biome may show some unnecessary noise.",
+            "[Issue] Some example files may not work completely.",
+            "[Issue] The new viewport may not function properly with some superficial features."
+        ],
+        "pub_date": "2018-10-08T00:00:00Z",
+        "version": "1.0.10.6003",
+        "url": "http://medium.com/quadspinner/"
+    },    
+    { "name":"",
+        "notes":[
             "[New] MSI based installer.",
             "[Improved] SatMaps now has input and output color modifiers.",
             "[Fixed] Erosion data maps were inconsistent or blank.",
