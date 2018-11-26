@@ -16,9 +16,6 @@ When you change a property, the effect is immediately applied and made visible i
 
 Some nodes may have special controls specific to them, like the @Directed-Erosion-Node.
 
-> [!NOTE] 
-> Dragging always sucks up more CPU power than clicking because each movement of the drag cancels the pending process of the terrain and fires up a new process. If you drag slowly, this can mean anything between dozens to hundreds of reprocess threads.
-
 > [!TIP]
 > One of the easiest ways to learn about a node's properties is to experiment, changing them to different values across the range to see the effect they have.
 

@@ -80,14 +80,6 @@
         "sourceFile": "documentation\\Preferences.md"
     },
     {
-        "uid": "Properties",
-        "title": "Properties",
-        "type": "Conceptual",
-        "detailedType": 1,
-        "name": "Properties",
-        "sourceFile": "documentation\\Properties.md"
-    },
-    {
         "uid": "Resolutions",
         "Title": "Resolutions",
         "type": "Conceptual",
@@ -399,14 +391,6 @@
         "detailedType": 1,
         "name": "Growth",
         "sourceFile": "reference\\Nodes\\DataMap--Growth.md"
-    },
-    {
-        "uid": "Getting-around",
-        "title": "Getting around",
-        "type": "Conceptual",
-        "detailedType": 1,
-        "name": "Getting-around",
-        "sourceFile": "documentation\\Getting around.md"
     },
     {
         "uid": "Importing-Data",
@@ -1095,5 +1079,21 @@
         "detailedType": 1,
         "name": "Transform",
         "sourceFile": "reference\\Nodes\\Adjustment--Transform.md"
+    },
+    {
+        "uid": "Properties",
+        "title": "Properties",
+        "type": "Conceptual",
+        "detailedType": 1,
+        "name": "Properties",
+        "sourceFile": "documentation\\Properties.md"
+    },
+    {
+        "uid": "Getting-around",
+        "title": "Getting around",
+        "type": "Conceptual",
+        "detailedType": 1,
+        "name": "Getting-around",
+        "sourceFile": "documentation\\Getting around.md"
     }
 ]
