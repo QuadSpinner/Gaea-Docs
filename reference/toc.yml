@@ -110,8 +110,6 @@
         href: Nodes/Erosion--Convector.md
       - name: Deposits
         href: Nodes/Erosion--Deposits.md
-      - name: Directed Erosion
-        href: Nodes/Erosion--Directed Erosion.md
       - name: Erosion
         href: Nodes/Erosion--Erosion.md
       - name: Fluvial
