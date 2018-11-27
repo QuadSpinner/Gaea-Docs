@@ -1,4 +1,19 @@
 {
+  "reference/Nodes/Primitive--Fault.html": {
+    "href": "reference/Nodes/Primitive--Fault.html",
+    "title": "Fault | QuadSpinner Gaea",
+    "keywords": "This documentation is a work-in-progress and subject to change. The Fault primitive creates a fault in the terrain. The shape can be anything from a crack to a valley, based on the settings. If the Fault node is used by itself, it will create a fault in a flat terrain. To produce a fault in your existing terrain, attach it to another node. Fault Scale Location Setting Values Description Width 0.00 - 0.40 The width of the fault. Depth 0.00 - 1.00 The depth of the fault. Shrink 0.00 - 0.50 Contraction of the fault from the two ends. Setting Values Description Scale 0.10 - 0.75 The scale of the shapes and features of the fault. Chaos 0.25 - 0.90 The randomness of features of the fault. Setting Values Description X 0.00 - 1.00 The horizontal position of the fault. Only available when Shrink is above 0.0. Y 0.00 - 1.00 The vertical position of the fault. Angle 0 - 360 The direction of the fault. Seed 0 - 128000 The randomization pattern or seed for the node's process. Tip To create a \"multi-fault\": duplicate a Fault node, attach it to the original Fault node, and change a few settings. For example, changing the depth, width, or even seed, can produce interesting results."
+  },
+  "reference/Nodes/Filter--Repulse.html": {
+    "href": "reference/Nodes/Filter--Repulse.html",
+    "title": "Repulse | QuadSpinner Gaea",
+    "keywords": "This documentation is a work-in-progress and subject to change. The Repulse node can push or pull the center of the terrain, creating an explosion or implosion type outward distortion. Setting Values Description Amount -1.00 - 1.00 The amount of repulse. Negative values create an outward push; positive values create an inward pull. Scale 0.0 - 1.00 The size of the effect. X / Y 0.00 - 1.00 The location of the effect center. Can only be used if the Scale is less than 1.0."
+  },
+  "reference/Nodes/Erosion--MicroErosion.html": {
+    "href": "reference/Nodes/Erosion--MicroErosion.html",
+    "title": "MicroErosion | QuadSpinner Gaea",
+    "keywords": "This documentation is a work-in-progress and subject to change. Setting Values Description Iterations 25 - 30 Lorem Strength 0.001 - 0.05 Lorem"
+  },
   "documentation/Exporting.html": {
     "href": "documentation/Exporting.html",
     "title": "Importing in other packages | QuadSpinner Gaea",
@@ -359,11 +374,6 @@
     "title": "Stratify | QuadSpinner Gaea",
     "keywords": "This documentation is a work-in-progress and subject to change. Breakage is the stark form of erosion encapsulated in Gaea's Stratify node. This erosion method allows you to stratify the terrain in a non-linear fashion. Unlike terracing, stratification involves substrata/subterraces created in confined local zones, such as between two broken plates. Each stratified layer exists independent from the rest of the layer, creating a robust, realistic formation. Setting Values Description Strength 0.00 - 0.30 The amount of stratification to be applied. Low values produce more strata, with fractured, delicate substrata; high values produce stronger, larger strata. Substrata 0.00 - 1.00 At non-zero values, this setting creates a secondary level of stratification between the first level of stratification for added detail. Filtered On / Off When ON, creates smoother curvature for the plates."
   },
-  "reference/Nodes/Filter--Repulse.html": {
-    "href": "reference/Nodes/Filter--Repulse.html",
-    "title": "Repulse | QuadSpinner Gaea",
-    "keywords": "This documentation is a work-in-progress and subject to change. The Repulse node can push or pull the center of the terrain, creating an explosion or implosion type outward distortion. Setting Values Description Amount -1.00 - 1.00 The amount of repulse. Negative values create an outward push; positive values create an inward pull. Scale 0.01 - 1.00 The size of the effect. X / Y -1.00 - 1.00 The location of the effect center. Can only be used if the Scale is less than 1.0."
-  },
   "reference/Nodes/Filter--Rocks.html": {
     "href": "reference/Nodes/Filter--Rocks.html",
     "title": "Rocks | QuadSpinner Gaea",
@@ -514,16 +524,6 @@
     "title": "Whorl | QuadSpinner Gaea",
     "keywords": "This documentation is a work-in-progress and subject to change. Whorl applies multiple vortex-like distortions across the terrain to create large scale warping. This can be very useful when creating massive landscapes and wanting to avoid a patterning in the noise, or for creating slightly surreal or alien landscapes. Setting Values Description Whorls 3 - 150 The number of whorls to add to the terrain. Power 0.00 - 3.00 The strength of the distortion applied with each whorl. Type Spin Whorls appear as round, independent formations. Stretch Whorls appear as stretched, interconnected formations. Seed 0 - 128000 The randomization pattern or seed for the node's process. Tip Whorl can be overpowering if used by itself. An effective way to tone down Whorl is to lower the Influence value in the Post Processing panel. See Properties for details."
   },
-  "reference/Nodes/Primitive--Fault.html": {
-    "href": "reference/Nodes/Primitive--Fault.html",
-    "title": "Fault | QuadSpinner Gaea",
-    "keywords": "This documentation is a work-in-progress and subject to change. The Fault primitive creates a fault in the terrain. The shape can be anything from a crack to a valley, based on the settings. If the Fault node is used by itself, it will create a fault in a flat terrain. To produce a fault in your existing terrain, attach it to another node. Setting Values Description Width 0.00 - 0.40 The width of the fault. Depth 0.00 - 1.00 The depth of the fault. Shrink 0.00 - 0.50 Contraction of the fault from the two ends. Scale 0.10 - 0.75 The scale of the shapes and features of the fault. Chaos 0.25 - 0.90 The randomness of features of the fault. X 0.00 - 1.00 The horizontal position of the fault. Only available when Shrink is above 0.0. Y 0.00 - 1.00 The vertical position of the fault. Angle 0 - 360 The direction of the fault. Seed 0 - 128000 The randomization pattern or seed for the node's process. Tip To create a \"multi-fault\": duplicate a Fault node, attach it to the original Fault node, and change a few settings. For example, changing the depth, width, or even seed, can produce interesting results."
-  },
-  "reference/Nodes/Primitive--File.html": {
-    "href": "reference/Nodes/Primitive--File.html",
-    "title": "File | QuadSpinner Gaea",
-    "keywords": "This documentation is a work-in-progress and subject to change. The File node loads any supported image or data file as a terrain. It supports all major file formats. You can also transform the input. Setting Values Description File Filename The file to load. Adaptive On / Off Adapt the resolution of the input if it does not match the terrain resolution. This is very useful for lower resolution images. Invert On / Off Invert the terrain. X / Y 0.00 - 1.00 The location of the terrain. Scale 0.00 - 1.00 The size of the terrain. Angle 0 - 360 The angle of rotation of the terrain. Height 0.00 - 10.00 Lorem Raise 0.00 - 1.00 Lorem"
-  },
   "reference/Nodes/Primitive--Voronoi+.html": {
     "href": "reference/Nodes/Primitive--Voronoi+.html",
     "title": "Voronoi+ | QuadSpinner Gaea",
@@ -578,11 +578,6 @@
     "href": "reference/Nodes/DataMap--Soil.html",
     "title": "Soil | QuadSpinner Gaea",
     "keywords": "This documentation is a work-in-progress and subject to change. Soil Map creates a soil mask, with increased density in crevices or other areas where the slope allows for soil to settle. By increasing the Power value, a higher number of soil settling cycles are simulated. A low value provides a \"fresh\" sprinkling of dust with very little wind and other simulations to \"move\" the dust afterwards. High values perform more simulation cycles to sprinkle dust but also move it around (repeatedly). Setting Values Description Power 5 - 50 The power of soil deposits. Smaller values create detailed, small deposits. Larger values create less detailed but stronger deposits. Graded On / Off Creates stacked deposits with geometric progression, which produce softer gradations. Tip You can combine different Soil Maps using the Combine node set to Max. You can even combine with other Data Maps, such as Flow or Velocity, to create a texture mask upon which color production can take place."
-  },
-  "reference/Nodes/Erosion--MicroErosion.html": {
-    "href": "reference/Nodes/Erosion--MicroErosion.html",
-    "title": "MicroErosion | QuadSpinner Gaea",
-    "keywords": "This documentation is a work-in-progress and subject to change. Setting Values Description Iterations 25 - 30 Lorem Strength 0.00 - 0.05 Lorem"
   },
   "reference/Nodes/Filter--Cells.html": {
     "href": "reference/Nodes/Filter--Cells.html",
@@ -698,5 +693,10 @@
     "href": "reference/Nodes/DataMap--Velocity.html",
     "title": "Velocity | QuadSpinner Gaea",
     "keywords": "This documentation is a work-in-progress and subject to change. Setting Values Description Duration 0 - 700 Lorem Rain 10 - 400 Lorem Reach Low 0 - 100 Lorem Reach High 0 - 2000 Lorem Velocity Low 0 - 100 Lorem Velocity High 0 - 2000 Lorem Angle 0 - 180 Lorem"
+  },
+  "reference/Nodes/Primitive--File.html": {
+    "href": "reference/Nodes/Primitive--File.html",
+    "title": "File | QuadSpinner Gaea",
+    "keywords": "This documentation is a work-in-progress and subject to change. The File node loads any supported image or data file as a terrain. It supports all major file formats. You can also transform the input. File Processing Transform Setting Values Description File Filename The file to load. Adaptive On / Off Adapt the resolution of the input if it does not match the terrain resolution. This is very useful for lower resolution images. Invert On / Off Invert the terrain. Setting Values Description X / Y 0.00 - 1.00 The location of the terrain. Scale 0.00 - 1.00 The size of the terrain. Angle 0 - 360 The angle of rotation of the terrain. Height 0.00 - 10.00 Lorem Raise 0.00 - 1.00 Lorem"
   }
 }
