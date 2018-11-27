@@ -8,7 +8,7 @@
     <title>Build Manager | QuadSpinner Gaea </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Build Manager | QuadSpinner Gaea ">
-    <meta name="generator" content="docfx 2.39.1.0">
+    <meta name="generator" content="docfx 2.40.4.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -82,23 +82,22 @@
 
 <p>The output from your Graph must be saved to a file in order to use it elsewhere. To do this, you must build the output. When you build the output, Gaea will create it at your target resolution. This may take a while to build depending on the complexity of your graph, and the effects used.</p>
 <p><img src="../images/Build-Progress.png" alt="Mark for save"></p>
-<p>Over the course of a complex project, saving and managing the appropriate outputs becomes a tedious ordeal. Managing outputs for many different nodes, especially those with multiple outputs such as the Erosion node, makes it even worse.</p>
+<p>Over the course of a complex project, saving and managing the appropriate outputs can become a tedious task. Managing outputs for several different nodes, especially those with multiple outputs like the Erosion node, can make it even worse.</p>
 <p>The Build Manager simplifies how builds are saved, organized, and managed for future use.</p>
 <h2 id="mark-for-save">Mark for Save</h2>
 <p>Instead of creating a dedicated &quot;Output&quot; node and then specifying the file to save, you can mark a node for automatic output. Just right-click any node and select &quot;Save&quot;.</p>
 <p><img src="../images/Build-Mark.png" alt="Mark for save"></p>
-<p>Instead of creating a dedicated &quot;Output&quot; node and then specifying the file to save, you can mark a node for automatic output. Just right-click any node and select &quot;Save&quot;.</p>
 <h2 id="the-build-manager">The Build Manager</h2>
 <p>Now when you click Build, instead of firing off a build directly, you will see the Build Manager. The Build Manager gives you easy access to crucial output preferences.</p>
 <p><img src="../images/Build-Manager.png" alt="Mark for save"></p>
-<p>The node grid shows you all the nodes marked for output. You can temporarily toggle a node by clicking the color circle in the top left corner of the node. This does not affect the build, only the output. This can be useful when you only want to see a few specific outputs, or need to go back to rebuild an older project for selective output.</p>
-<p>When a node has multiple outputs, such as the Erosion or Breaker nodes in this example, you can individually toggle which ports should be saved as files.</p>
-<p>You can choose the file format to use for all outputs, modify a node's output name by clicking on the node's label, choose unclamped (formerly called &quot;Full Range&quot;), and +1 output(where 512 x 512 becomes 513 x 513 — necessary for some game engines).</p>
+<p>The node grid shows you all the nodes marked for output. You can temporarily toggle a node by clicking the color circle in the top left corner of the node. This does not affect the build, only the output. This can be useful when you just want to see a few specific outputs, or you need to go back to rebuild an older project for selective output.</p>
+<p>When a node has multiple outputs, such as the Erosion and Breaker nodes in this example, you can individually toggle which ports should be saved as files.</p>
+<p>You can choose the file format to use for all outputs, modify a node's output name by clicking on the node's label, choose unclamped (formerly called &quot;Full Range&quot;), and +1 output (where 512 x 512 becomes 513 x 513 — necessary for some game engines).</p>
 <p>You can also use the Build Manager for version control and file organization.</p>
 <h2 id="version-control-and-organization">Version Control and Organization</h2>
 <h3 id="organizing-builds">Organizing Builds</h3>
 <p>The Location field in the Build Manager provides two built-in options for storing your builds.</p>
-<p>The first option is the central build repository, which is stored in My Documents\Gaea\Builds[Filename] by default, but can be changed to any location — even on a local network or an online shared folder with OneDrive, Dropbox, GDrive, etc. This can be useful in team situations.</p>
+<p>The first option is the central build repository, which is stored in My Documents\Gaea\Builds[Filename] by default, but can be changed to any location — even to a local network or an online shared folder with OneDrive, Dropbox, GDrive, etc. This can be useful in team situations.</p>
 <p><img src="../images/Build-ExportedFiles.png" alt="Mark for save"></p>
 <p>The other option is to have it stored alongside the file in a Builds folder. So if your file is called MyTerrain.tor, a folder called MyTerrain_Builds will be placed next to it.</p>
 <p>In both cases, inside the Builds folder, a subfolder with the build timestamp is created. The build output files, a build.info file, and the .tor copy are stored inside this subfolder.</p>
@@ -107,7 +106,7 @@
 <code>C:\Users\Username\Documents\Gaea\Builds\EastRiver\2018–06–22_22–55–31\</code></p>
 <p>Local File:
 <code>D:\Work\Terrains\EastRiver_Builds\2018–06–22_21–55–31\</code></p>
-<p>But these are not the only options. You can explicitly specify a location instead of choosing a template, or create your own combinations using an absolute path and variables such as:</p>
+<p>But these are not the only options. You can explicitly specify a location instead of choosing a template, or you can create your own combinations using an absolute path and variables such as:</p>
 <ul>
 <li><code>[FileLocation]</code> Location of the currently open file.</li>
 <li><code>[Builds]</code> Central build repository.</li>
@@ -124,7 +123,7 @@
  which would create <code>\\00.00.00\Team\Terrains\Bob_2018–06–22–55–31\</code></p>
 <h3 id="version-controlling-terrains">Version Controlling Terrains</h3>
 <p>Gaea's Build Manager and Build Stack give you low level version control without additional overhead.</p>
-<p>The &quot;Save copy of .TOR&quot; option is useful when you want to manage different versions of your actual project file. When turned on, every time your build finishes, a copy of the .tor file in the exact state of that particular build is stored alongside the build output. You can easily go back to any older build state for your file, save it as new file.</p>
+<p>The &quot;Save copy of .TOR&quot; option is useful when you want to manage different versions of your actual project file. When turned on, every time your build finishes, a copy of the .tor file in the exact state of that particular build is stored alongside the build output. You can easily go back to any older build state for your file, and save it as new file.</p>
 <p>You can also map the folder to almost any modern version control system (Git, Mercurial, Visual Studio Team Services, etc.), or share on a network folder with your team.</p>
 </article>
           </div>

@@ -150,6 +150,8 @@
       href: Nodes/Selector--Curvature.md
     - name: Height
       href: Nodes/Selector--Height.md
+    - name: Mask
+      href: Nodes/Selector--Mask.md
     - name: Slope
       href: Nodes/Selector--Slope.md
   - name: Color

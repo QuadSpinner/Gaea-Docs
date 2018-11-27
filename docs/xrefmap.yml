@@ -69,7 +69,7 @@ references:
   href: documentation/Color%20Production.html
 - uid: Combine
   name: Combine
-  href: reference/Nodes/Combiner--Combine.html
+  href: reference/Nodes/Adjustment--Combine.html
 - uid: Common-Issues
   name: Common Issues
   href: documentation/Common%20Issues.html
@@ -217,6 +217,9 @@ references:
 - uid: LineNoise
   name: LineNoise
   href: reference/Nodes/Primitive--LineNoise.html
+- uid: Mask
+  name: Mask
+  href: reference/Nodes/Selector--Mask.html
 - uid: MicroErosion
   name: MicroErosion
   href: reference/Nodes/Erosion--MicroErosion.html

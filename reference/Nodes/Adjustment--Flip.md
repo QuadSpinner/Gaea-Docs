@@ -11,7 +11,6 @@ The Flip node flips the terrain horizontally, vertically, or both. It can also i
 |               | *Horizontal*    | Flips the terrain horizontally.                     |
 |               | *Vertical*      | Flips the terrain vertically.                       |
 |               | *Both*          | Flips the terrain both horizontally and vertically. |
-|               | *Inverse Order* | Inverts the X-Y ordering.                           |
 
 
 ### What is X-Y ordering?

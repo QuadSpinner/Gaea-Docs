@@ -7,18 +7,19 @@ Biome uses a water map (like FlowMap or the Erosion node’s Flow output) to cre
 
 | Setting                        | Values      | Description                                               |
 | :----------------------------- | :---------- | :-------------------------------------------------------- |
+| **Allow Highlands**            | On / Off    | Lorem ipsum                                               |
+| **Allow Midlands**             | On / Off    | Lorem ipsum                                               |
+| **Allow Lowlands**             | On / Off    | Lorem ipsum                                               |
+| **Highlands**                  | 0.00 - 1.00 | Lorem                                                     |
+| **Midlands**                   | 0.00 - 1.00 | Lorem                                                     |
+| **Lowlands**                   | 0.00 - 1.00 | Lorem                                                     |
+| **Seed**                       | 0 - 128000  | The randomization pattern or seed for the node's process. |
+| **Jitter**                     | On / Off    | Lorem                                                     |
+| **Precise**                    | On / Off    | Lorem                                                     |
 | **Y Scale**                    | 0.00 - 1.00 | Lorem                                                     |
 | **Influence**                  | 0.00 - 1.00 | Lorem                                                     |
 | **Sea Level**                  | 0.00 - 1.00 | Lorem                                                     |
-| **Allow Highlands**            | On / Off    | Lorem ipsum                                               |
-| **Highlands**                  | 0.00 - 1.00 | Lorem                                                     |
-| **Allow Midlands**             | On / Off    | Lorem ipsum                                               |
-| **Midlands**                   | 0.00 - 1.00 | Lorem                                                     |
-| **Allow Lowlands**             | On / Off    | Lorem ipsum                                               |
-| **Lowlands**                   | 0.00 - 1.00 | Lorem                                                     |
-| **Jitter**                     | On / Off    | Lorem                                                     |
 | **Water Bodies**               | On / Off    | Lorem                                                     |
-| **Seed**                       | 0 - 128000  | The randomization pattern or seed for the node's process. |
 | **Ocean**                      |             | Lorem                                                     |
 | **Coast**                      |             | Lorem                                                     |
 | **Lake Shore**                 |             | Lorem                                                     |

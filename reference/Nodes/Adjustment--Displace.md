@@ -10,9 +10,9 @@ title: Displace
 |                       | *Vertical*  | Lorem                                                     |
 |                       | *Rugged*    | Lorem                                                     |
 |                       | *Custom*    | Lorem                                                     |
+| **Uniform**           | On / Off    | Lorem                                                     |
 | **Strength**          | 0.00 - 1.00 | Lorem                                                     |
 | **Strength Vertical** | 0.00 - 1.00 | *Available when Uniform is turned Off*                    |
-| **Uniform**           | On / Off    | Lorem                                                     |
 | **Scale**             | 0.00 - 1.00 | Lorem                                                     |
 | **Complexity**        | 1 - 12      | Lorem                                                     |
 | **X**                 | 0.00 - 1.00 | Lorem                                                     |
