@@ -9,8 +9,6 @@ A single iteration is appropriate in most cases. For extremely noisy terrains th
 
 | Setting      | Values      | Description                                                                                                                                           |
 | :----------- | :---------- | :---------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Foo |||
-|:----------- |
 | **Strength** | 0.00 - 1.00 | Lorem                                                                                                                                                 |
 | **Type**     |             |
 |              | *Denoise*   | Denoise systematically cleans up random noise, spikes, and extremely sharp edges.                                                                     |
