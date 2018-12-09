@@ -3,6 +3,7 @@ uid: Perlin
 title: Perlin
 ---
 
+# [Perlin](#tab/tabid-a)
 | Setting            | Values       | Description                                               |
 | :----------------- | :----------- | :-------------------------------------------------------- |
 | **Scale**          | 0.00 - 1.00  | Lorem                                                     |
@@ -17,6 +18,10 @@ title: Perlin
 |                    | *None*       | Lorem                                                     |
 |                    | *Simple*     | Lorem                                                     |
 |                    | *Complex*    | Lorem                                                     |
+
+# [Warp](#tab/tabid-b)
+| Setting            | Values       | Description                                               |
+| :----------------- | :----------- | :-------------------------------------------------------- |
 | **Warp Frequency** | 0.00 - 1.00  | Lorem                                                     |
 | **Warp Amplitude** | 0.00 - 1.00  | Lorem                                                     |
 | **Warp Octaves**   | 1 - 14       | Lorem                                                     |
