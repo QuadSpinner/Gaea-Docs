@@ -8,7 +8,7 @@
     <title>Biome | QuadSpinner Gaea </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Biome | QuadSpinner Gaea ">
-    <meta name="generator" content="docfx 2.39.1.0">
+    <meta name="generator" content="docfx 2.40.4.0">
     
     <link rel="shortcut icon" href="../../favicon.ico">
     <link rel="stylesheet" href="../../styles/docfx.vendor.css">
@@ -80,7 +80,100 @@
                 <span class="wip">This documentation is a work-in-progress and subject to change.</span>
 
 
-<p>Biome uses a water map (like FlowMap or the Erosion node’s Flow output) and uses it to create different biome zones depending on altitude, access to fresh water (defined by the water map), and other conditions. The output from Biome can be used directly as a basic texture map, or as a &quot;Super Splat&quot;. The colors for each biome zone (such as Desert, Tropical Rainforest, etc.) can be customized to your needs.</p>
+<p>Biome uses a water map (like FlowMap or the Erosion node’s Flow output) to create different biome zones based on altitude, access to fresh water (defined by the water map), and other conditions. The output from Biome can be used directly as a basic texture map, or as a &quot;Super Splat&quot;. The colors for each biome zone (such as Desert, Tropical Rainforest, etc) can be customized to your needs.</p>
+<div class="tabGroup" id="tabgroup_CeZOj-G++Q">
+<ul role="tablist">
+<li role="presentation">
+<a href="#tabpanel_CeZOj-G++Q_tabid-a" role="tab" aria-controls="tabpanel_CeZOj-G++Q_tabid-a" data-tab="tabid-a" tabindex="0" aria-selected="true">Biomes</a>
+</li>
+<li role="presentation">
+<a href="#tabpanel_CeZOj-G++Q_tabid-b" role="tab" aria-controls="tabpanel_CeZOj-G++Q_tabid-b" data-tab="tabid-b" tabindex="-1">Options</a>
+</li>
+<li role="presentation">
+<a href="#tabpanel_CeZOj-G++Q_tabid-c" role="tab" aria-controls="tabpanel_CeZOj-G++Q_tabid-c" data-tab="tabid-c" tabindex="-1">Scale and Influence</a>
+</li>
+<li role="presentation">
+<a href="#tabpanel_CeZOj-G++Q_tabid-d" role="tab" aria-controls="tabpanel_CeZOj-G++Q_tabid-d" data-tab="tabid-d" tabindex="-1">Water</a>
+</li>
+<li role="presentation">
+<a href="#tabpanel_CeZOj-G++Q_tabid-e" role="tab" aria-controls="tabpanel_CeZOj-G++Q_tabid-e" data-tab="tabid-e" tabindex="-1">Colors</a>
+</li>
+</ul>
+<section id="tabpanel_CeZOj-G++Q_tabid-a" role="tabpanel" data-tab="tabid-a">
+
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Setting</th>
+<th style="text-align: left;">Values</th>
+<th style="text-align: left;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>Allow Highlands</strong></td>
+<td style="text-align: left;">On / Off</td>
+<td style="text-align: left;">Lorem ipsum</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Allow Midlands</strong></td>
+<td style="text-align: left;">On / Off</td>
+<td style="text-align: left;">Lorem ipsum</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Allow Lowlands</strong></td>
+<td style="text-align: left;">On / Off</td>
+<td style="text-align: left;">Lorem ipsum</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Highlands</strong></td>
+<td style="text-align: left;">0.00 - 1.00</td>
+<td style="text-align: left;">Lorem</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Midlands</strong></td>
+<td style="text-align: left;">0.00 - 1.00</td>
+<td style="text-align: left;">Lorem</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Lowlands</strong></td>
+<td style="text-align: left;">0.00 - 1.00</td>
+<td style="text-align: left;">Lorem</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="tabpanel_CeZOj-G++Q_tabid-b" role="tabpanel" data-tab="tabid-b" aria-hidden="true" hidden="hidden">
+
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Setting</th>
+<th style="text-align: left;">Values</th>
+<th style="text-align: left;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>Seed</strong></td>
+<td style="text-align: left;">0 - 128000</td>
+<td style="text-align: left;">The randomization pattern or seed for the node's process.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Jitter</strong></td>
+<td style="text-align: left;">On / Off</td>
+<td style="text-align: left;">Lorem</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Precise</strong></td>
+<td style="text-align: left;">On / Off</td>
+<td style="text-align: left;">Lorem</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="tabpanel_CeZOj-G++Q_tabid-c" role="tabpanel" data-tab="tabid-c" aria-hidden="true" hidden="hidden">
+
 <table>
 <thead>
 <tr>
@@ -100,44 +193,23 @@
 <td style="text-align: left;">0.00 - 1.00</td>
 <td style="text-align: left;">Lorem</td>
 </tr>
+</tbody>
+</table>
+</section>
+<section id="tabpanel_CeZOj-G++Q_tabid-d" role="tabpanel" data-tab="tabid-d" aria-hidden="true" hidden="hidden">
+
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Setting</th>
+<th style="text-align: left;">Values</th>
+<th style="text-align: left;">Description</th>
+</tr>
+</thead>
+<tbody>
 <tr>
 <td style="text-align: left;"><strong>Sea Level</strong></td>
 <td style="text-align: left;">0.00 - 1.00</td>
-<td style="text-align: left;">Lorem</td>
-</tr>
-<tr>
-<td style="text-align: left;"><strong>Allow Highlands</strong></td>
-<td style="text-align: left;">On / Off</td>
-<td style="text-align: left;">Lorem ipsum</td>
-</tr>
-<tr>
-<td style="text-align: left;"><strong>Highlands</strong></td>
-<td style="text-align: left;">0.00 - 1.00</td>
-<td style="text-align: left;">Lorem</td>
-</tr>
-<tr>
-<td style="text-align: left;"><strong>Allow Midlands</strong></td>
-<td style="text-align: left;">On / Off</td>
-<td style="text-align: left;">Lorem ipsum</td>
-</tr>
-<tr>
-<td style="text-align: left;"><strong>Midlands</strong></td>
-<td style="text-align: left;">0.00 - 1.00</td>
-<td style="text-align: left;">Lorem</td>
-</tr>
-<tr>
-<td style="text-align: left;"><strong>Allow Lowlands</strong></td>
-<td style="text-align: left;">On / Off</td>
-<td style="text-align: left;">Lorem ipsum</td>
-</tr>
-<tr>
-<td style="text-align: left;"><strong>Lowlands</strong></td>
-<td style="text-align: left;">0.00 - 1.00</td>
-<td style="text-align: left;">Lorem</td>
-</tr>
-<tr>
-<td style="text-align: left;"><strong>Jitter</strong></td>
-<td style="text-align: left;">On / Off</td>
 <td style="text-align: left;">Lorem</td>
 </tr>
 <tr>
@@ -145,11 +217,20 @@
 <td style="text-align: left;">On / Off</td>
 <td style="text-align: left;">Lorem</td>
 </tr>
+</tbody>
+</table>
+</section>
+<section id="tabpanel_CeZOj-G++Q_tabid-e" role="tabpanel" data-tab="tabid-e" aria-hidden="true" hidden="hidden">
+
+<table>
+<thead>
 <tr>
-<td style="text-align: left;"><strong>Seed</strong></td>
-<td style="text-align: left;">0 - 128000</td>
-<td style="text-align: left;">The randomization pattern or seed for the node's process.</td>
+<th style="text-align: left;">Setting</th>
+<th style="text-align: left;">Values</th>
+<th style="text-align: left;">Description</th>
 </tr>
+</thead>
+<tbody>
 <tr>
 <td style="text-align: left;"><strong>Ocean</strong></td>
 <td style="text-align: left;"></td>
@@ -257,6 +338,8 @@
 </tr>
 </tbody>
 </table>
+</section>
+</div>
 </article>
           </div>
           

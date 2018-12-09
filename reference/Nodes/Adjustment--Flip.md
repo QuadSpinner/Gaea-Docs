@@ -5,13 +5,12 @@ title: Flip
 
 The Flip node flips the terrain horizontally, vertically, or both. It can also invert the X-Y ordering of the individual pixels.
 
-| Setting       | Values          | Description                                         |
-| :------------ | :-------------- | :-------------------------------------------------- |
-| **Direction** |                 |
-|               | *Horizontal*    | Flips the terrain horizontally.                     |
-|               | *Vertical*      | Flips the terrain vertically.                       |
-|               | *Both*          | Flips the terrain both horizontally and vertically. |
-|               | *Inverse Order* | Inverts the X-Y ordering.                           |
+| Setting       | Values       | Description                                         |
+| :------------ | :----------- | :-------------------------------------------------- |
+| **Direction** |              |
+|               | *Horizontal* | Flips the terrain horizontally.                     |
+|               | *Vertical*   | Flips the terrain vertically.                       |
+|               | *Both*       | Flips the terrain both horizontally and vertically. |
 
 
 ### What is X-Y ordering?

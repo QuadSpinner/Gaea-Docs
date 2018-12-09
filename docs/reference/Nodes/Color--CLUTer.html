@@ -8,7 +8,7 @@
     <title>CLUTer | QuadSpinner Gaea </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="CLUTer | QuadSpinner Gaea ">
-    <meta name="generator" content="docfx 2.39.1.0">
+    <meta name="generator" content="docfx 2.40.4.0">
     
     <link rel="shortcut icon" href="../../favicon.ico">
     <link rel="stylesheet" href="../../styles/docfx.vendor.css">
@@ -80,12 +80,23 @@
                 <span class="wip">This documentation is a work-in-progress and subject to change.</span>
 
 
-<p>Coloration in Gaea is based on CLUTs, or color lookup tables. As 2D heightfields are essentially a grid of number ranging from 0.0 (lowest) to 1.0 (highest), CLUTs are represented as gradients which are mapped to those heights.</p>
-<p>The lowest part of a gradient corresponds to the lowest part of the terrain, while the highest part of the gradient corresponds to the highest part of the terrain. Everything in between is evenly distributed.</p>
-<p>The CLUTer nodes let's you take any grayscale input, such as <a class="xref" href="Selector--Curvature.html">Curvature</a>, <a class="xref" href="Selector--Slope.html">Slope</a>, @Surface, @flow, and map it onto a gradient.</p>
+<p>Coloration in Gaea is based on CLUTs, or color lookup tables. As 2D heightfields are essentially a grid of numbers ranging from 0.0 (lowest) to 1.0 (highest), CLUTs are represented as gradients which are mapped to those heights.</p>
+<p>The lowest part of a gradient corresponds to the lowest part of the terrain. The highest part of a gradient corresponds to the highest part of the terrain. Everything in between is evenly distributed.</p>
+<p>The CLUTer nodes let you take any grayscale input (such as <a class="xref" href="Selector--Curvature.html">Curvature</a>, <a class="xref" href="Selector--Slope.html">Slope</a>, @Surface, @flow) and map it onto a gradient.</p>
 <h3 id="gradient-editor">Gradient Editor</h3>
 <p>Click anywhere in the gradient to create a new stop. Drag the stop to position it. Select the stop and press <code>DEL</code> to delete the stop.</p>
 <p><img src="../../images/CLUT-sample.png" alt="CLUTer"></p>
+<div class="tabGroup" id="tabgroup_CeZOj-G++Q">
+<ul role="tablist">
+<li role="presentation">
+<a href="#tabpanel_CeZOj-G++Q_tabid-a" role="tab" aria-controls="tabpanel_CeZOj-G++Q_tabid-a" data-tab="tabid-a" tabindex="0" aria-selected="true">Pre-Process</a>
+</li>
+<li role="presentation">
+<a href="#tabpanel_CeZOj-G++Q_tabid-b" role="tab" aria-controls="tabpanel_CeZOj-G++Q_tabid-b" data-tab="tabid-b" tabindex="-1">Post-Process</a>
+</li>
+</ul>
+<section id="tabpanel_CeZOj-G++Q_tabid-a" role="tabpanel" data-tab="tabid-a">
+
 <table>
 <thead>
 <tr>
@@ -96,19 +107,9 @@
 </thead>
 <tbody>
 <tr>
-<td style="text-align: left;"><strong>Reverse</strong></td>
-<td style="text-align: left;">On / Off</td>
-<td style="text-align: left;">Reverses the mapping of the gradient.</td>
-</tr>
-<tr>
 <td style="text-align: left;"><strong>Input Noise</strong></td>
 <td style="text-align: left;">0.00 - 1.00</td>
 <td style="text-align: left;">Introduces noise to the incoming grayscale map.</td>
-</tr>
-<tr>
-<td style="text-align: left;"><strong>Color Noise</strong></td>
-<td style="text-align: left;">0.00 - 1.00</td>
-<td style="text-align: left;">Introduces minor color distortions to the map.</td>
 </tr>
 <tr>
 <td style="text-align: left;"><strong>Input Clarity</strong></td>
@@ -119,6 +120,30 @@
 <td style="text-align: left;"><strong>Input Auto Level</strong></td>
 <td style="text-align: left;">On / Off</td>
 <td style="text-align: left;">Applies an autolevels filter to the incoming map.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Reverse</strong></td>
+<td style="text-align: left;">On / Off</td>
+<td style="text-align: left;">Reverses the mapping of the gradient.</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="tabpanel_CeZOj-G++Q_tabid-b" role="tabpanel" data-tab="tabid-b" aria-hidden="true" hidden="hidden">
+
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Setting</th>
+<th style="text-align: left;">Values</th>
+<th style="text-align: left;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>Color Noise</strong></td>
+<td style="text-align: left;">0.00 - 1.00</td>
+<td style="text-align: left;">Introduces minor color distortions to the map.</td>
 </tr>
 <tr>
 <td style="text-align: left;"><strong>Output Clarity</strong></td>
@@ -149,6 +174,8 @@
 <p>In this example, a @flow is mapped by <a class="xref" href="Color--CLUTer.html">CLUTer</a> to create basic texture map.</p>
 <p><img src="../../images/CLUT-sample2.png" alt="CLUTer"></p>
 <p>For general information on creating color textures, see <a class="xref" href="../../documentation/Color%20Production.html">Color Production</a>.</p>
+</section>
+</div>
 </article>
           </div>
           

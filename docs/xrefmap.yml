@@ -69,7 +69,7 @@ references:
   href: documentation/Color%20Production.html
 - uid: Combine
   name: Combine
-  href: reference/Nodes/Combiner--Combine.html
+  href: reference/Nodes/Adjustment--Combine.html
 - uid: Common-Issues
   name: Common Issues
   href: documentation/Common%20Issues.html
@@ -202,6 +202,9 @@ references:
 - uid: Installing-Gaea
   name: Installing Gaea
   href: documentation/Installing%20Gaea.html
+- uid: Invert
+  name: Invert
+  href: reference/Nodes/Adjustment--Invert.html
 - uid: LandBreaker
   name: LandBreaker
   href: reference/Sculpt%20Tools/LandBreaker.html
@@ -217,6 +220,12 @@ references:
 - uid: LineNoise
   name: LineNoise
   href: reference/Nodes/Primitive--LineNoise.html
+- uid: Mask
+  name: Mask
+  href: reference/Nodes/Selector--Mask.html
+- uid: Mesher
+  name: Mesher
+  href: reference/Nodes/Output--Mesher.html
 - uid: MicroErosion
   name: MicroErosion
   href: reference/Nodes/Erosion--MicroErosion.html
@@ -235,6 +244,9 @@ references:
 - uid: Noise
   name: Noise
   href: reference/Nodes/Filter--Noise.html
+- uid: Normal Map
+  name: Normal Map
+  href: reference/Nodes/Color--NormalMap.html
 - uid: Ocean-Cliffs
   name: Ocean Cliffs
   href: quickstarts/Ocean-Cliffs.html
@@ -274,6 +286,15 @@ references:
 - uid: Resolutions
   name: Resolutions
   href: documentation/Resolutions.html
+- uid: Resource
+  name: Resource
+  href: reference/Nodes/Primitive--Resource.html
+- uid: RGB Extractor
+  name: RGB Extractor
+  href: reference/Nodes/Adjustment--RGBExtractor.html
+- uid: RGB Mixer
+  name: RGB Mixer
+  href: reference/Nodes/Color--RGBMixer.html
 - uid: Ridge
   name: Ridge
   href: quickstarts/Ridge.html
@@ -322,6 +343,9 @@ references:
 - uid: Sloping-Sandstone
   name: Sloping Sandstone
   href: quickstarts/Sloping-Sandstone.html
+- uid: Snow
+  name: Snow
+  href: reference/Nodes/Erosion--Snow.html
 - uid: Soil
   name: Soil
   href: reference/Nodes/DataMap--Soil.html
@@ -367,6 +391,9 @@ references:
 - uid: Terrain-Scale
   name: Terrain Scale
   href: documentation/Terrain%20Scale.html
+- uid: Thermal Erosion
+  name: Thermal Erosion
+  href: reference/Nodes/Erosion--ThermalErosion.html
 - uid: Thousand-Mesas
   name: Thousand Mesas
   href: quickstarts/Thousand-Mesas.html
