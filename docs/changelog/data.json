@@ -1,6 +1,54 @@
 [
-    { "name":"",
-        "notes":[
+    {
+        "name": "",
+        "notes": [
+            "[New] Task-based buttons in graph.",
+            "[New] Redesigned 2D view.",
+            "[Improved] Details mode in Thermal Erosion.",
+            "[Improved] Aggressive mode in Erosion.",
+            "[Improved] Hybrid Processor in Erosion.",
+            "[Improved] Major calibration of terrain scale - visually and logically.",
+            "[Improved] Location field enhanced in Build Manager.",
+            "[Improved] Breaker now has depth control.",
+            "[Improved] Refresh and Mutate relocated to graph.",
+            "[Improved] Toggle buttons replaced with checkboxes.",
+            "[Improved] Browse button added to Build Manager.",
+            "[Improved] Slope visualization in Viewport was inaccurate.",
+            "[Improved] Erosion Studio now accessed directly in the startup screen.",
+            "[Fixed] Gaea would not start in some cases.",
+            "[Fixed] Masked Data Maps and Selectors had contaminated output.",
+            "[Fixed] Dropping RGBMixer node would crash.",
+            "[Fixed] Perlin was still inverted.",
+            "[Fixed] Output was mistakenly shown in Layers mode.",
+            "[Fixed] Duplicating savable nodes caused conflicts.",
+            "[Fixed] 2D view was broken.",
+            "[Fixed] Erosion Studio showed all-files option when exporting.",
+            "[Fixed] Mesher could not export beyond 4000 vertices.",
+            "[Fixed] Preview resolution still did not change on file load.",
+            "[Fixed] Nodes would not refresh when loading a new file.",
+            "[Fixed] Build Manager did not copy TOR files.",
+            "[Fixed] Sunlight editor panel would flicker.",
+            "[Fixed] CLUTer would hang or crash.",
+            "[Fixed] Color connectors would become white.",
+            "[Fixed] Basic and Cutter tools in Erosion Studio were broken.",
+            "[Fixed] Popups in Erosion Studio would not right-click.",
+            "[Fixed] Skybox would not show in 3D view.",
+            "[Fixed] Duplicated nodes would be unresponsive until unselected.",
+            "[Fixed] Breaker was not working.",
+            "[Removed] 20,000m height limit. New height is 10,000m.",
+            "[Issue] Some Mesher output parameters may be disabled or not register changes.",
+            "[Issue] Zoom slider may not accept numeric entry.",
+            "[Issue] Undo does not work correctly in some cases.",
+            "[Issue] 16k and higher build sizes are not available yet.",
+            "[Issue] Some example files may not work completely."
+        ],
+        "pub_date": "2018-12-18T00:00:00Z",
+        "version": "1.0.12.7230",
+        "url": "http://medium.com/quadspinner/"
+    },
+    {
+        "name": "",
+        "notes": [
             "[New] Thermal Erosion node.",
             "[New] RGBMix and RGBSplit nodes added.",
             "[New] ColorFx node added.",
@@ -44,10 +92,10 @@
         "pub_date": "2018-12-09T00:00:00Z",
         "version": "1.0.12.7094",
         "url": "http://medium.com/quadspinner/"
-    },    
-
-    { "name":"",
-        "notes":[
+    },
+    {
+        "name": "",
+        "notes": [
             "[New] Enhanced user interface, with new color coded property sheets.",
             "[New] Node properties are organized into groups.",
             "[New] Save workspaces preferences.",
@@ -72,10 +120,10 @@
         "pub_date": "2018-11-24T00:00:00Z",
         "version": "1.0.11.6770",
         "url": "http://medium.com/quadspinner/"
-    },    
-
-    { "name":"",
-        "notes":[
+    },
+    {
+        "name": "",
+        "notes": [
             "[New] Machine (and human) readable build logs now generated with each build.",
             "[Improved] Remember Toolbox expander state.",
             "[Improved] Breaker output refined, and new Hard Cracks option added.",
@@ -99,10 +147,10 @@
         "pub_date": "2018-11-19T00:00:00Z",
         "version": "1.0.11.6302",
         "url": "http://medium.com/quadspinner/"
-    },    
-
-    { "name":"",
-        "notes":[
+    },
+    {
+        "name": "",
+        "notes": [
             "[Improved] Long running tasks can be cancelled by pressing ESC.",
             "[Improved] Slider responsive increased.",
             "[Improved] Build Manager UI.",
@@ -119,10 +167,10 @@
         "pub_date": "2018-11-14T00:00:00Z",
         "version": "1.0.11.6299",
         "url": "http://medium.com/quadspinner/"
-    },    
-
-    { "name":"",
-        "notes":[
+    },
+    {
+        "name": "",
+        "notes": [
             "[Improved] Added a notice when using the Output node.",
             "[Improved] Watson diagnostics.",
             "[Fixed] Deleting a node caused a crash.",
@@ -135,10 +183,10 @@
         "pub_date": "2018-11-12T00:00:00Z",
         "version": "1.0.11.6223",
         "url": "http://medium.com/quadspinner/"
-    },    
-
-    { "name":"",
-        "notes":[
+    },
+    {
+        "name": "",
+        "notes": [
             "[New] Resource Manager to embed files in the project.",
             "[New] Resource node for consuming embedded resources.",
             "[New] Mask node for drawable masks.",
@@ -175,9 +223,10 @@
         "pub_date": "2018-11-07T00:00:00Z",
         "version": "1.0.11.6220",
         "url": "http://medium.com/quadspinner/"
-    },    
-    { "name":"",
-        "notes":[
+    },
+    {
+        "name": "",
+        "notes": [
             "[Improved] Viewport performance improvement for Medium and Low settings.",
             "[Fixed] Gaea would get stuck on splash screen.",
             "[Fixed] Build Engine could not process paths with spaces.",
@@ -194,9 +243,10 @@
         "pub_date": "2018-10-08T00:00:00Z",
         "version": "1.0.10.6003",
         "url": "http://medium.com/quadspinner/"
-    },    
-    { "name":"",
-        "notes":[
+    },
+    {
+        "name": "",
+        "notes": [
             "[New] MSI based installer.",
             "[Improved] SatMaps now has input and output color modifiers.",
             "[Fixed] Erosion data maps were inconsistent or blank.",
@@ -214,9 +264,10 @@
         "pub_date": "2018-10-05T00:00:00Z",
         "version": "1.0.10.6002",
         "url": "http://medium.com/quadspinner/"
-    },    
-    { "name":"",
-        "notes":[
+    },
+    {
+        "name": "",
+        "notes": [
             "[New] Preset capability for nodes.",
             "[New] Ctrl + Drag-drop node to preload preset.",
             "[Improved] Splash screen would not show during slower startups.",
@@ -237,8 +288,9 @@
         "version": "1.0.9.6001",
         "url": "http://medium.com/quadspinner/"
     },
-    { "name":"",
-        "notes":[
+    {
+        "name": "",
+        "notes": [
             "[New] Erosion Studio application.",
             "[New] Build Engine with improved efficiency.",
             "[New] Command line builds.",
@@ -273,8 +325,9 @@
         "version": "1.0.9.6000",
         "url": "http://medium.com/quadspinner/"
     },
-    { "name":"",
-        "notes":[
+    {
+        "name": "",
+        "notes": [
             "[New] First-run experience.",
             "[Improved] Erosion crash on Windows 7 fixed.",
             "[Improved] Bleeding Edge viewport engine now works on non-English installs.",
@@ -289,8 +342,9 @@
         "version": "1.0.9.5511",
         "url": "http://medium.com/quadspinner/"
     },
-    { "name":"",
-        "notes":[
+    {
+        "name": "",
+        "notes": [
             "[New] Override the display of any node to show as mask",
             "[Improved] Watson Diagnostics Tool updated",
             "[Improved] Important memory improvements in visualizing heightfields",
@@ -308,8 +362,9 @@
         "version": "1.0.8.5339",
         "url": "http://medium.com/quadspinner/"
     },
-    { "name":"",
-        "notes":[
+    {
+        "name": "",
+        "notes": [
             "[New] Redesigned viewport system",
             "[New] Procedural shaders for terrain previews",
             "[New] Error recovery: emergency autosave shown in Startup screen after crash",
