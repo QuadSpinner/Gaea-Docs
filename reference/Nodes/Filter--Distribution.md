@@ -7,8 +7,8 @@ The Distribution node creates a distribution map in the form of white pixels, or
 
 | Setting       | Values      | Description                                                                 |
 | :------------ | :---------- | :-------------------------------------------------------------------------- |
-| **Occurrence** | 0.00 - 1.00 | The chance of a hit occurring. Higher values create more distribution dots. |
-| **Density**   | 0.00 - 1.00 | The cluster density of hits.                                                |
+| **Occurrence** | 0 - 100% | The chance of a hit occurring. Higher values create more distribution dots. |
+| **Density**   | 0 - 100% | The cluster density of hits.                                                |
 | **Seed**      | 0 - 128000  | The randomization pattern or seed for the node's process.                   |
 
 

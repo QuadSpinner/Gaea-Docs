@@ -555,15 +555,19 @@ body .toc {
 }
 
 .toc .nav>li.active>.expand-stub::before, .toc .nav>li.in>.expand-stub::before, .toc .nav>li.in.active>.expand-stub::before, .toc .nav>li.filtered>.expand-stub::before {
-  font-family: "Overpass";
-  font-weight: 300;
+  font-family: "Consolas";
+  font-weight: 600;
   content: "-";
+  position: relative;
+  top: 4px;
 }
 
 .toc .nav>li>.expand-stub::before, .toc .nav>li.active>.expand-stub::before {
-  font-family: "Overpass";
-  font-weight: 300;
+  font-family: "Consolas";
+  font-weight: 600;
   content: "+";
+  position: relative;
+  top: -1px;
 }
 
 .toc .nav>li.filtered>ul, .toc .nav>li.in>ul {
@@ -1101,10 +1105,11 @@ div.embeddedvideo iframe {
   padding-right: 0px;
 }
 
-toc .level2 a.active, .level3 a.active {
+a.active {
   border-color: #928771;
   background-color: #eee;
   color: #fff;
+  font-weight: 600;
   border-radius: 2px;
   padding: 3px 12px !important;
 }
@@ -1174,7 +1179,7 @@ tr td:nth-child(2) {
   letter-spacing: -1px;
 }
 
-tr{
+tr {
   border-bottom: 1px solid #000 !important;
 }
 
@@ -1182,6 +1187,7 @@ tr{
   content: '>';
   padding-right: 5px;
 } */
+
 tr td:nth-child(2) em {
   /* font-family: "Assistant" !important; */
   font-style: normal !important;
@@ -1192,7 +1198,7 @@ tr td:nth-child(2) em {
 }
 
 .TIP, .WARNING, .NOTE {
-  background: rgba(255,255,255,0.44) !important;
+  background: rgba(255, 255, 255, 0.44) !important;
   font-size: 13px;
   font-weight: 600;
   border-radius: 0;
@@ -1208,7 +1214,8 @@ tr td:nth-child(2) em {
 .TIP p, .WARNING p, .NOTE p {
   padding-left: 30px;
 }
-.NOTE{
+
+.NOTE {
   border-color: #eedeab;
   color: #7e7e7e;
 }
@@ -1222,12 +1229,22 @@ tr td:nth-child(2) em {
   word-wrap: break-word !important;
 }
 
-input{
+input {
   border-radius: 0 !important;
 }
 
-span.wip{
+span.wip {
   font-size: 12px;
   font-weight: 600;
   color: rgb(152, 18, 18);
+}
+
+#toc_filter_input {
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.sidefilter {
+  padding: 6px !important;
+  margin: 15px;
 }

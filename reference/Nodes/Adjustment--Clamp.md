@@ -7,8 +7,8 @@ Clamp allows you to control the height of the terrain. You can use it to squash 
 
 | Setting       | Values      | Description |
 | :------------ | :---------- | :---------- |
-| **Min**       | 0.00 - 1.00 | Lorem       |
-| **Max**       | 0.00 - 1.00 | Lorem       |
+| **Min**       | 0 - 100% | Lorem       |
+| **Max**       | 0 - 100% | Lorem       |
 | **Operation** | Lorem       |
 |               | *Clamp*     | Lorem       |
 |               | *Clip*      | Lorem       |

@@ -10,7 +10,7 @@ Convector is an exaggerated form of thermal erosion with a few tweaks for styliz
 | :----------------- | :----------- | :-------------------------------------------------------- |
 | **Iterations** | 1 - 100     | Lorem       |
 | **Steepness**  | 0.00 - 0.30 | Lorem       |
-| **Strength**   | 0.00 - 1.00 | Lorem       |
+| **Strength**   | 0 - 100% | Lorem       |
 | **Cutoff**     | 0.00 - 0.02 | Lorem       |
 
 

@@ -1,5 +1,5 @@
 ---
-uid: Graph-Mode
+uid: GraphMode
 title: Graph Mode
 ---
 

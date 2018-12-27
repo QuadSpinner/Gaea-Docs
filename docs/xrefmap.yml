@@ -157,7 +157,7 @@ references:
 - uid: Gradient-Slope
   name: Gradient Slope
   href: quickstarts/Gradient-Slope.html
-- uid: Graph-Mode
+- uid: GraphMode
   name: Graph Mode
   href: documentation/Workflow--Graph.html
 - uid: Growth
@@ -214,7 +214,7 @@ references:
 - uid: Large-Desert
   name: Large Desert
   href: quickstarts/Large-Desert.html
-- uid: Layers-Mode
+- uid: LayersMode
   name: Layers Workflow
   href: documentation/Workflow--Layers.html
 - uid: LineNoise
@@ -301,6 +301,9 @@ references:
 - uid: Rocks
   name: Rocks
   href: reference/Nodes/Filter--Rocks.html
+- uid: RockSlide
+  name: RockSlide
+  href: reference/Nodes/Erosion--RockSlide.html
 - uid: RoughSlants
   name: RoughSlants
   href: quickstarts/RoughSlants.html
@@ -313,7 +316,7 @@ references:
 - uid: scripting
   name: scripting
   href: api/scripting.html
-- uid: Sculpt-Mode
+- uid: SculptMode
   name: Sculpt Workflow
   href: documentation/Workflow--Sculpt.html
 - uid: Sediment
@@ -325,7 +328,7 @@ references:
 - uid: Sharp-Mountain
   name: Sharp Mountain
   href: quickstarts/Sharp-Mountain.html
-- uid: shortcuts
+- uid: Shortcuts
   name: Keyboard Shortcuts
   href: documentation/Keyboard.html
 - uid: Simple-Mountain

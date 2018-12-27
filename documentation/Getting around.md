@@ -10,7 +10,7 @@ The Gaea user interface (UI) is made of 3 essential areas:
 - The properties panel where you change settings for the selected node.
 - The viewport where you preview the terrain.
 
-Certain aspects of the interface are altered depending on the workflow you have selected. The Node Graph is hidden when you work in @Layers-Mode. The @Toolbox is made visible when you work in @Graph-Mode.
+Certain aspects of the interface are altered depending on the workflow you have selected. The Node Graph is hidden when you work in @LayersMode. The @Toolbox is made visible when you work in @GraphMode.
 
 See the following topics to get a better understanding of how Gaea operates:
 
@@ -20,4 +20,4 @@ See the following topics to get a better understanding of how Gaea operates:
 - @Toolbox
 - @Preferences
 - @Shortcuts
-- @Graph-Mode
+- @GraphMode

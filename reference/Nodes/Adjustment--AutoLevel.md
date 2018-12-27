@@ -9,7 +9,7 @@ title: AutoLevel
 |              | *Level*     | Automatically levels the terrain where the heights are proportionately distributed between the highest and lowest points. |
 |              | *Equalize*  | Equalizes the terrain where the heights are linearly distributed between the highest and lowest points.                  |
 |              | *Gamma*     | Applies a Gamma-style height adjustment to the terrain.                                                                  |
-| **Strength** | 0.00 - 1.00 | The strength of the applied levels method.                                                                               |
+| **Strength** | 0 - 100% | The strength of the applied levels method.                                                                               |
 
 
 

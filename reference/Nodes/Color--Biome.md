@@ -11,9 +11,9 @@ Biome uses a water map (like FlowMap or the Erosion node’s Flow output) to cre
 | **Allow Highlands**            | On / Off    | Lorem ipsum                                               |
 | **Allow Midlands**             | On / Off    | Lorem ipsum                                               |
 | **Allow Lowlands**             | On / Off    | Lorem ipsum                                               |
-| **Highlands**                  | 0.00 - 1.00 | Lorem                                                     |
-| **Midlands**                   | 0.00 - 1.00 | Lorem                                                     |
-| **Lowlands**                   | 0.00 - 1.00 | Lorem                                                     |
+| **Highlands**                  | 0 - 100% | Lorem                                                     |
+| **Midlands**                   | 0 - 100% | Lorem                                                     |
+| **Lowlands**                   | 0 - 100% | Lorem                                                     |
 
 # [Options](#tab/tabid-b)
 | Setting                        | Values      | Description                                               |
@@ -25,13 +25,13 @@ Biome uses a water map (like FlowMap or the Erosion node’s Flow output) to cre
 # [Scale and Influence](#tab/tabid-c)
 | Setting                        | Values      | Description                                               |
 | :----------------------------- | :---------- | :-------------------------------------------------------- |
-| **Y Scale**                    | 0.00 - 1.00 | Lorem                                                     |
-| **Influence**                  | 0.00 - 1.00 | Lorem                                                     |
+| **Y Scale**                    | 0 - 100% | Lorem                                                     |
+| **Influence**                  | 0 - 100% | Lorem                                                     |
 
 # [Water](#tab/tabid-d)
 | Setting                        | Values      | Description                                               |
 | :----------------------------- | :---------- | :-------------------------------------------------------- |
-| **Sea Level**                  | 0.00 - 1.00 | Lorem                                                     |
+| **Sea Level**                  | 0 - 100% | Lorem                                                     |
 | **Water Bodies**               | On / Off    | Lorem                                                     |
 
 # [Colors](#tab/tabid-e)

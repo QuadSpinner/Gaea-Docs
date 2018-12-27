@@ -5,7 +5,7 @@ title: Noise
 
 | Setting        | Values      | Description                                               |
 | :------------- | :---------- | :-------------------------------------------------------- |
-| **Strength**   | 0.00 - 1.00 | The strength of noise added to the terrain.               |
+| **Strength**   | 0 - 100% | The strength of noise added to the terrain.               |
 | **Iterations** | 1 - 50      | The number of noise iterations performed on the terrain.  |
 | **Method**     |             |
 |                | *Random*    | Random dots.                                              |

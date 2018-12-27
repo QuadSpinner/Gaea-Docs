@@ -7,11 +7,11 @@ title: Snow
 # [Snowfall](#tab/tabid-a)
 | Setting         | Values      | Description |
 | :-------------- | :---------- | :---------- |
-| **Duration**    | 0.00 - 1.00 | Lorem       |
-| **Intensity**   | 0.00 - 1.00 | Lorem       |
-| **Settle-Thaw** | 0.00 - 1.00 | Lorem       |
-| **Melt**        | 0.00 - 1.00 | Lorem       |
-| **Snow line**   | 0.00 - 1.00 | Lorem       |
+| **Duration**    | 0 - 100% | Lorem       |
+| **Intensity**   | 0 - 100% | Lorem       |
+| **Settle-Thaw** | 0 - 100% | Lorem       |
+| **Melt**        | 0 - 100% | Lorem       |
+| **Snow line**   | 0 - 100% | Lorem       |
 
 
 

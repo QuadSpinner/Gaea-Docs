@@ -21,7 +21,7 @@ It creates three distinct types of gradients: Linear, Radial, and Helix. Several
 |                      | *Mirror*    | Edge pixels are mirrored.                                                             |
 |                      | *Repeat*    | Edge pixels are repeated.                                                             |
 |                      | *Edge*      | ???                                                                                   |
-| **X** / **Y**        | 0.00 - 1.00 | The center point on the Radial gradient.                                              |
+| **X** / **Y**        | 0 - 100% | The center point on the Radial gradient.                                              |
 | **Start** /  **End** | 0 - 360     | Where the Helix will start and end.                                                 |
 
 

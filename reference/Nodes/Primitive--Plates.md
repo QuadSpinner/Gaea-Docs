@@ -8,8 +8,8 @@ Plates is a new primitive, based on a Perlin core with flat plate-like formation
 
 | Setting       | Values      | Description                                               |
 | :------------ | :---------- | :-------------------------------------------------------- |
-| **Scale**     | 0.00 - 1.00 | Lorem                                                     |
-| **Steepness** | 0.00 - 1.00 | Lorem                                                     |
+| **Scale**     | 0 - 100% | Lorem                                                     |
+| **Steepness** | 0 - 100% | Lorem                                                     |
 | **Collision** | 0.01 - 0.25 | Lorem                                                     |
 | **Slant**     | On / Off    | Lorem                                                     |
 | **Inverse**   | On / Off    | Lorem                                                     |
