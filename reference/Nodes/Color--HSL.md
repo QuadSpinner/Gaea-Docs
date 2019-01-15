@@ -7,7 +7,7 @@ The HSL node allows you to apply a basic Hue/Saturation/Lightness modification t
 
 | Setting | Values      | Description              |
 | :------ | :---------- | :----------------------- |
-| **H**   | 0.00 - 1.00 | The amount of Hue shift. |
+| **H**   | 0 - 100% | The amount of Hue shift. |
 | **S**   | 0.00 - 5.00 | The saturation level.    |
 | **L**   | 0.00 - 5.00 | The lightness of colors. |
 

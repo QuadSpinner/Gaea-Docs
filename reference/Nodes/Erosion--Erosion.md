@@ -15,9 +15,9 @@ Gaea introduces a comprehensive erosion node, simply called Erosion. It provides
 # [Downcutting](#tab/tabid-b)
 | Setting         | Values      | Description |
 | :-------------- | :---------- | :---------- |
-| **Downcutting** | 0.00 - 1.00 | Lorem       |
-| **Inhibition**  | 0.00 - 1.00 | Lorem       |
-| **Base Level**  | 0.00 - 1.00 | Lorem       |
+| **Downcutting** | 0 - 100% | Lorem       |
+| **Inhibition**  | 0 - 100% | Lorem       |
+| **Base Level**  | 0 - 100% | Lorem       |
 
 # [Scale](#tab/tabid-c)
 | Setting           | Values      | Description |
@@ -30,10 +30,10 @@ Gaea introduces a comprehensive erosion node, simply called Erosion. It provides
 # [Flow](#tab/tabid-d)
 | Setting    | Values      | Description |
 | :--------- | :---------- | :---------- |
-| **Volume** | 0.00 - 1.00 | Lorem       |
-| **Debris** | 0.00 - 1.00 | Lorem       |
+| **Volume** | 0 - 100% | Lorem       |
+| **Debris** | 0 - 100% | Lorem       |
 | **Rivers** | On / Off    | Lorem ipsum |
-| **Depth**  | 0.00 - 1.00 | Lorem ipsum |
+| **Depth**  | 0 - 100% | Lorem ipsum |
 
 # [Other Settings](#tab/tabid-e)
 | Setting         | Values                 | Description                                               |

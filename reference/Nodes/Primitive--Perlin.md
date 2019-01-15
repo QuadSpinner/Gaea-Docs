@@ -6,7 +6,7 @@ title: Perlin
 # [Perlin](#tab/tabid-a)
 | Setting            | Values       | Description                                               |
 | :----------------- | :----------- | :-------------------------------------------------------- |
-| **Scale**          | 0.00 - 1.00  | Lorem                                                     |
+| **Scale**          | 0 - 100%  | Lorem                                                     |
 | **Octaves**        | 1 - 14       | Lorem                                                     |
 | **Scale X**        | 0.00 - 10.00 | Lorem ipsum                                               |
 | **Scale Y**        | 0.00 - 10.00 | Lorem ipsum                                               |
@@ -22,8 +22,8 @@ title: Perlin
 # [Warp](#tab/tabid-b)
 | Setting            | Values       | Description                                               |
 | :----------------- | :----------- | :-------------------------------------------------------- |
-| **Warp Frequency** | 0.00 - 1.00  | Lorem                                                     |
-| **Warp Amplitude** | 0.00 - 1.00  | Lorem                                                     |
+| **Warp Frequency** | 0 - 100%  | Lorem                                                     |
+| **Warp Amplitude** | 0 - 100%  | Lorem                                                     |
 | **Warp Octaves**   | 1 - 14       | Lorem                                                     |
 | **Seed**           | 0 - 128000   | The randomization pattern or seed for the node's process. |
 

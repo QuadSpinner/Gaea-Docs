@@ -15,10 +15,10 @@ The File node loads any supported image or data file as a terrain. It supports a
 # [Transform](#tab/tabid-b)
 | Setting            | Values       | Description                                               |
 | :----------------- | :----------- | :-------------------------------------------------------- |
-| **X** / **Y** | 0.00 - 1.00  | The location of the terrain.                                                                                                    |
-| **Scale**     | 0.00 - 1.00  | The size of the terrain.                                                                                                        |
+| **X** / **Y** | 0 - 100%  | The location of the terrain.                                                                                                    |
+| **Scale**     | 0 - 100%  | The size of the terrain.                                                                                                        |
 | **Angle**     | 0 - 360      | The angle of rotation of the terrain.                                                                                           |  |
 | **Height**    | 0.00 - 10.00 | Lorem                                                                                                                           |
-| **Raise**     | 0.00 - 1.00  | Lorem                                                                                                                           |
+| **Raise**     | 0 - 100%  | Lorem                                                                                                                           |
 
 

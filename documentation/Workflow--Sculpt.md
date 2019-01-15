@@ -1,5 +1,5 @@
 ---
-uid: Sculpt-Mode
+uid: SculptMode
 title: Sculpt Workflow
 ---
 

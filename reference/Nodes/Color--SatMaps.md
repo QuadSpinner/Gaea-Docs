@@ -10,7 +10,7 @@ SatMap works exactly like the CLUT node, except you pick from the built-in maps 
 | Setting               | Values      | Description |
 | :-------------------- | :---------- | :---------- |
 | **Index**             | 0 - 973     | Lorem       |
-| **Noise**             | 0.00 - 1.00 | Lorem       |
+| **Noise**             | 0 - 100% | Lorem       |
 | **Reverse**           | On / Off    | Lorem       |
 | **Jitter**            | On / Off    | Lorem       |
 | **Input Clarity**     | On / Off    | Lorem       |

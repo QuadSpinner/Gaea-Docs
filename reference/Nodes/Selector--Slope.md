@@ -7,7 +7,7 @@ title: Slope
 | :---------- | :---------- | :---------- |
 | **Min**     | 0 - 90      | Lorem       |
 | **Max**     | 0 - 90      | Lorem       |
-| **Falloff** | 0.00 - 1.00 | Lorem       |
+| **Falloff** | 0 - 100% | Lorem       |
 
 
 

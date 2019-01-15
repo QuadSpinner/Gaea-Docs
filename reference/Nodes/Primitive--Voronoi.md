@@ -10,7 +10,7 @@ Quisque luctus, magna vitae elementum mattis, dui massa ultricies ligula, eget p
 # [Voronoi](#tab/tabid-a)
 | Setting            | Values       | Description                                               |
 | :----------------- | :----------- | :-------------------------------------------------------- |
-| **Scale**          | 0.00 - 1.00  | Lorem                                                     |
+| **Scale**          | 0 - 100%  | Lorem                                                     |
 | **Seed**           | 0 - 128000   | The randomization pattern or seed for the node's process. |
 | **Dual**           | On / Off     | Lorem                                                     |
 
@@ -21,8 +21,8 @@ Quisque luctus, magna vitae elementum mattis, dui massa ultricies ligula, eget p
 |                    | *None*       | Lorem                                                     |
 |                    | *Simple*     | Lorem                                                     |
 |                    | *Complex*    | Lorem                                                     |
-| **Warp Frequency** | 0.00 - 1.00  | Lorem                                                     |
-| **Warp Amplitude** | 0.00 - 1.00  | Lorem                                                     |
+| **Warp Frequency** | 0 - 100%  | Lorem                                                     |
+| **Warp Amplitude** | 0 - 100%  | Lorem                                                     |
 | **Warp Octaves**   | 1 - 14       | Lorem                                                     |
 
 # [Advanced settings](#tab/tabid-c)

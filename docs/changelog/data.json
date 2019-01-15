@@ -1,6 +1,192 @@
 [
-    { "name":"",
-        "notes":[
+    {
+        "name": "",
+        "notes": [
+            "[New] Task-based buttons in graph.",
+            "[New] Redesigned 2D view.",
+            "[Improved] Details mode in Thermal Erosion.",
+            "[Improved] Aggressive mode in Erosion.",
+            "[Improved] Hybrid Processor in Erosion.",
+            "[Improved] Major calibration of terrain scale - visually and logically.",
+            "[Improved] Location field enhanced in Build Manager.",
+            "[Improved] Breaker now has depth control.",
+            "[Improved] Refresh and Mutate relocated to graph.",
+            "[Improved] Toggle buttons replaced with checkboxes.",
+            "[Improved] Browse button added to Build Manager.",
+            "[Improved] Slope visualization in Viewport was inaccurate.",
+            "[Improved] Erosion Studio now accessed directly in the startup screen.",
+            "[Fixed] Gaea would not start in some cases.",
+            "[Fixed] Masked Data Maps and Selectors had contaminated output.",
+            "[Fixed] Dropping RGBMixer node would crash.",
+            "[Fixed] Perlin was still inverted.",
+            "[Fixed] Output was mistakenly shown in Layers mode.",
+            "[Fixed] Duplicating savable nodes caused conflicts.",
+            "[Fixed] 2D view was broken.",
+            "[Fixed] Erosion Studio showed all-files option when exporting.",
+            "[Fixed] Mesher could not export beyond 4000 vertices.",
+            "[Fixed] Preview resolution still did not change on file load.",
+            "[Fixed] Nodes would not refresh when loading a new file.",
+            "[Fixed] Build Manager did not copy TOR files.",
+            "[Fixed] Sunlight editor panel would flicker.",
+            "[Fixed] CLUTer would hang or crash.",
+            "[Fixed] Color connectors would become white.",
+            "[Fixed] Basic and Cutter tools in Erosion Studio were broken.",
+            "[Fixed] Popups in Erosion Studio would not right-click.",
+            "[Fixed] Skybox would not show in 3D view.",
+            "[Fixed] Duplicated nodes would be unresponsive until unselected.",
+            "[Fixed] Breaker was not working.",
+            "[Removed] 20,000m height limit. New height is 10,000m.",
+            "[Issue] Some Mesher output parameters may be disabled or not register changes.",
+            "[Issue] Zoom slider may not accept numeric entry.",
+            "[Issue] Undo does not work correctly in some cases.",
+            "[Issue] 16k and higher build sizes are not available yet.",
+            "[Issue] Some example files may not work completely."
+        ],
+        "pub_date": "2018-12-18T00:00:00Z",
+        "version": "1.0.12.7230",
+        "url": "http://medium.com/quadspinner/"
+    },
+    {
+        "name": "",
+        "notes": [
+            "[New] Thermal Erosion node.",
+            "[New] RGBMix and RGBSplit nodes added.",
+            "[New] ColorFx node added.",
+            "[New] Normal Map node.",
+            "[Improved] Several core operations optimized for more faster interactions.",
+            "[Improved] Autolayout for compact nodes.",
+            "[Improved] Autolevel node editor.",
+            "[Improved] Denoise node editor.",
+            "[Improved] New icons and better placement for large (extended) nodes.",
+            "[Improved] Auto connect menu has better readability, and now only shows allowed ports.",
+            "[Improved] Suspend engine warning visual.",
+            "[Improved] Auto Apply Lock (per node) for heavy nodes.",
+            "[Improved] Preferences dialog simplified.",
+            "[Improved] First run dialog simplified.",
+            "[Improved] Bypass, Delete, Save multiple selected nodes.",
+            "[Improved] Improvements and optimizations for Erosion and Snow nodes.",
+            "[Improved] If Visualization port is empty, color map is shown on a flat plane.",
+            "[Fixed] Cache would not refresh on file load.",
+            "[Fixed] Interface lost focus after panning the graph.",
+            "[Fixed] Nodes would not refresh in certain contexts.",
+            "[Fixed] Nodes related to deleted connections are updated properly.",
+            "[Fixed] CLUTer editor would become unstable.",
+            "[Fixed] Breaker was not visible at certain resolutions.",
+            "[Fixed] Node would not update visually when changing connections.",
+            "[Fixed] Context menu accelerators added.",
+            "[Fixed] Duplicating several nodes broke the property editor.",
+            "[Fixed] Ridged Perlin was inverted.",
+            "[Fixed] Autolayout fixed for small nodes.",
+            "[Fixed] Terrain scale was malformed in older files.",
+            "[Fixed] TORX files were not recognized.",
+            "[Fixed] Incorrect terrain when shown when visualizing color nodes.",
+            "[Fixed] Several smaller bugs fixed.",
+            "[Removed] Obsolete denoise option removed.",
+            "[Removed] BrightnessContrast and HSL removed. Use ColorFx instead.",
+            "[Issue] Some Mesher output parameters may be disabled or not register changes.",
+            "[Issue] Zoom slider may not accept numeric entry.",
+            "[Issue] Undo does not work correctly in some cases.",
+            "[Issue] 16k and higher build sizes are not available yet.",
+            "[Issue] Some example files may not work completely."
+        ],
+        "pub_date": "2018-12-09T00:00:00Z",
+        "version": "1.0.12.7094",
+        "url": "http://medium.com/quadspinner/"
+    },
+    {
+        "name": "",
+        "notes": [
+            "[New] Enhanced user interface, with new color coded property sheets.",
+            "[New] Node properties are organized into groups.",
+            "[New] Save workspaces preferences.",
+            "[New] Suspend button to disable processing.",
+            "[New] UI scaling.",
+            "[Improved] Startup speed improved.",
+            "[Improved] Startup dialog now has additional options, access to Preferences, and more.",
+            "[Improved] Better font readability throughout the application.",
+            "[Fixed] Mask node failed on build.",
+            "[Fixed] Erosion would not show progress in some situations.",
+            "[Fixed] Snow would not show progress in some situations.",
+            "[Fixed] Node refreshing architecture improved.",
+            "[Fixed] Affected nodes are not refreshed when deleting a node.",
+            "[Fixed] Undo button was not visible in Erosion Studio.",
+            "[Removed] OpenEXR 32-bit support removed temporarily. OpenEXR will use 16-bit half float.",
+            "[Removed] Directed Erosion node removed permanently, including backward compatibility support. Use Erosion Studio instead.",
+            "[Issue] Some Mesher output parameters may be disabled or not register changes.",
+            "[Issue] Undo does not work correctly in some cases.",
+            "[Issue] 16k and higher build sizes are not available yet.",
+            "[Issue] Some example files may not work completely."
+        ],
+        "pub_date": "2018-11-24T00:00:00Z",
+        "version": "1.0.11.6770",
+        "url": "http://medium.com/quadspinner/"
+    },
+    {
+        "name": "",
+        "notes": [
+            "[New] Machine (and human) readable build logs now generated with each build.",
+            "[Improved] Remember Toolbox expander state.",
+            "[Improved] Breaker output refined, and new Hard Cracks option added.",
+            "[Improved] Renaming a savable node prompts for filename to be renamed as well.",
+            "[Improved] Blending artifacts in Erosion node.",
+            "[Improved] Erosion now features configurable performance options.",
+            "[Improved] Growth map output value increased stabilized.",
+            "[Improved] Build Manager option to open build output folder when build finishes.",
+            "[Improved] Build Manager option to close Gaea interface for better performance.",
+            "[Improved] Build Swarm will notify when builds fail, and mark it in the log.",
+            "[Fixed] Nodes display type was mistakenly set.",
+            "[Fixed] Mask node did not load data at certain resolutions.",
+            "[Fixed] Recent files list was not updated when using Save Incremental.",
+            "[Fixed] Build would complete, but output is empty.",
+            "[Fixed] Installer gives proper warning, and link, for missing .NET Framework.",
+            "[Issue] Some Mesher output parameters may be disabled or not register changes.",
+            "[Issue] Undo does not work correctly in some cases.",
+            "[Issue] 16k and higher build sizes are not available yet.",
+            "[Issue] Some example files may not work completely."
+        ],
+        "pub_date": "2018-11-19T00:00:00Z",
+        "version": "1.0.11.6302",
+        "url": "http://medium.com/quadspinner/"
+    },
+    {
+        "name": "",
+        "notes": [
+            "[Improved] Long running tasks can be cancelled by pressing ESC.",
+            "[Improved] Slider responsive increased.",
+            "[Improved] Build Manager UI.",
+            "[Fixed] Unnecessary watermarks in high resolution builds.",
+            "[Fixed] Erosion Studio tools would create blank output.",
+            "[Fixed] Combine layer did not work in Layers mode.",
+            "[Fixed] Faulty double processing when dragging sliders.",
+            "[Removed] Old Build Engine option removed.",
+            "[Issue] Some Mesher output parameters may be disabled or not register changes.",
+            "[Issue] Undo does not work correctly in some cases.",
+            "[Issue] 16k and higher build sizes are not available yet.",
+            "[Issue] Some example files may not work completely."
+        ],
+        "pub_date": "2018-11-14T00:00:00Z",
+        "version": "1.0.11.6299",
+        "url": "http://medium.com/quadspinner/"
+    },
+    {
+        "name": "",
+        "notes": [
+            "[Improved] Added a notice when using the Output node.",
+            "[Improved] Watson diagnostics.",
+            "[Fixed] Deleting a node caused a crash.",
+            "[Fixed] Minor fixes.",
+            "[Issue] Some Mesher output parameters may be disabled or not register changes.",
+            "[Issue] Undo does not work correctly in some cases.",
+            "[Issue] 16k and higher build sizes are not available yet.",
+            "[Issue] Some example files may not work completely."
+        ],
+        "pub_date": "2018-11-12T00:00:00Z",
+        "version": "1.0.11.6223",
+        "url": "http://medium.com/quadspinner/"
+    },
+    {
+        "name": "",
+        "notes": [
             "[New] Resource Manager to embed files in the project.",
             "[New] Resource node for consuming embedded resources.",
             "[New] Mask node for drawable masks.",
@@ -37,9 +223,10 @@
         "pub_date": "2018-11-07T00:00:00Z",
         "version": "1.0.11.6220",
         "url": "http://medium.com/quadspinner/"
-    },    
-    { "name":"",
-        "notes":[
+    },
+    {
+        "name": "",
+        "notes": [
             "[Improved] Viewport performance improvement for Medium and Low settings.",
             "[Fixed] Gaea would get stuck on splash screen.",
             "[Fixed] Build Engine could not process paths with spaces.",
@@ -56,9 +243,10 @@
         "pub_date": "2018-10-08T00:00:00Z",
         "version": "1.0.10.6003",
         "url": "http://medium.com/quadspinner/"
-    },    
-    { "name":"",
-        "notes":[
+    },
+    {
+        "name": "",
+        "notes": [
             "[New] MSI based installer.",
             "[Improved] SatMaps now has input and output color modifiers.",
             "[Fixed] Erosion data maps were inconsistent or blank.",
@@ -76,9 +264,10 @@
         "pub_date": "2018-10-05T00:00:00Z",
         "version": "1.0.10.6002",
         "url": "http://medium.com/quadspinner/"
-    },    
-    { "name":"",
-        "notes":[
+    },
+    {
+        "name": "",
+        "notes": [
             "[New] Preset capability for nodes.",
             "[New] Ctrl + Drag-drop node to preload preset.",
             "[Improved] Splash screen would not show during slower startups.",
@@ -99,8 +288,9 @@
         "version": "1.0.9.6001",
         "url": "http://medium.com/quadspinner/"
     },
-    { "name":"",
-        "notes":[
+    {
+        "name": "",
+        "notes": [
             "[New] Erosion Studio application.",
             "[New] Build Engine with improved efficiency.",
             "[New] Command line builds.",
@@ -135,8 +325,9 @@
         "version": "1.0.9.6000",
         "url": "http://medium.com/quadspinner/"
     },
-    { "name":"",
-        "notes":[
+    {
+        "name": "",
+        "notes": [
             "[New] First-run experience.",
             "[Improved] Erosion crash on Windows 7 fixed.",
             "[Improved] Bleeding Edge viewport engine now works on non-English installs.",
@@ -151,8 +342,9 @@
         "version": "1.0.9.5511",
         "url": "http://medium.com/quadspinner/"
     },
-    { "name":"",
-        "notes":[
+    {
+        "name": "",
+        "notes": [
             "[New] Override the display of any node to show as mask",
             "[Improved] Watson Diagnostics Tool updated",
             "[Improved] Important memory improvements in visualizing heightfields",
@@ -170,8 +362,9 @@
         "version": "1.0.8.5339",
         "url": "http://medium.com/quadspinner/"
     },
-    { "name":"",
-        "notes":[
+    {
+        "name": "",
+        "notes": [
             "[New] Redesigned viewport system",
             "[New] Procedural shaders for terrain previews",
             "[New] Error recovery: emergency autosave shown in Startup screen after crash",

@@ -21,7 +21,7 @@ The Mixer node is just like the Combine node, but for mixing colors rather than 
 |                 | *SqRt*          | Lorem       |
 |                 | *Power*         | Lorem       |
 |                 | *Difference*    | Lorem       |
-| **Ratio**       | 0.00 - 1.00     | Lorem       |
+| **Ratio**       | 0 - 100%     | Lorem       |
 
 
 
