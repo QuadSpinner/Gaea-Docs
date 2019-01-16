@@ -23,7 +23,7 @@
         {{>partials/searchResults}}
       </div>
       {{/_enableSearch}}
-      <div role="main" class="container body-content hide-when-search">
+      <div role="main" class="container-fluid body-content hide-when-search">
       {{^_disableToc}}
         {{>partials/toc}}
         <div class="article row grid-right">
@@ -37,10 +37,12 @@
           {{^_disableAffix}}
           <div class="col-md-10">
           {{/_disableAffix}}
+          <div class="container">
             <article class="content wrap" id="_content" data-uid="{{uid}}">
                 <span class="wip">This documentation is a work-in-progress and subject to change.</span>
                 {{!body}}
             </article>
+            </div>
           </div>
           {{^_disableAffix}}
           {{>partials/affix}}
