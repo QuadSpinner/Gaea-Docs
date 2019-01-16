@@ -7,14 +7,14 @@ Voronoi is a staple of procedural design. It creates sharp, geometric patterns. 
 
 Quisque luctus, magna vitae elementum mattis, dui massa ultricies ligula, eget posuere orci est vitae neque. Nam interdum molestie tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin euismod euismod nunc. 
 
-# [Voronoi](#tab/tabid-a)
+### Voronoi
 | Setting            | Values       | Description                                               |
 | :----------------- | :----------- | :-------------------------------------------------------- |
 | **Scale**          | 0 - 100%  | Lorem                                                     |
 | **Seed**           | 0 - 128000   | The randomization pattern or seed for the node's process. |
 | **Dual**           | On / Off     | Lorem                                                     |
 
-# [Perturb settings](#tab/tabid-b)
+### Perturb settings
 | Setting            | Values       | Description                                               |
 | :----------------- | :----------- | :-------------------------------------------------------- |
 | **Perturb**        | Lorem        |
@@ -25,7 +25,7 @@ Quisque luctus, magna vitae elementum mattis, dui massa ultricies ligula, eget p
 | **Warp Amplitude** | 0 - 100%  | Lorem                                                     |
 | **Warp Octaves**   | 1 - 14       | Lorem                                                     |
 
-# [Advanced settings](#tab/tabid-c)
+### Advanced settings
 | Setting            | Values       | Description                                               |
 | :----------------- | :----------- | :-------------------------------------------------------- |
 | **Scale X**        | 0.00 - 10.00 | Lorem ipsum                                               |

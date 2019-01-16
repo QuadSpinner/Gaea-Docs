@@ -801,14 +801,6 @@
         "sourceFile": "reference\\Nodes\\Adjustment--Sharpen.md"
     },
     {
-        "uid": "Heal",
-        "title": "Heal",
-        "type": "Conceptual",
-        "detailedType": 1,
-        "name": "Heal",
-        "sourceFile": "reference\\Nodes\\Adjustment--Heal.md"
-    },
-    {
         "uid": "Sine",
         "title": "Sine",
         "type": "Conceptual",
@@ -1129,14 +1121,6 @@
         "sourceFile": "reference\\Nodes\\Primitive--Plates.md"
     },
     {
-        "uid": "Voronoi",
-        "title": "Voronoi",
-        "type": "Conceptual",
-        "detailedType": 1,
-        "name": "Voronoi",
-        "sourceFile": "reference\\Nodes\\Primitive--Voronoi.md"
-    },
-    {
         "uid": "Curvature",
         "title": "Curvature",
         "type": "Conceptual",
@@ -1175,5 +1159,21 @@
         "detailedType": 1,
         "name": "Sediment",
         "sourceFile": "reference\\Nodes\\Erosion--Sediment.md"
+    },
+    {
+        "uid": "Heal",
+        "title": "Heal",
+        "type": "Conceptual",
+        "detailedType": 1,
+        "name": "Heal",
+        "sourceFile": "reference\\Nodes\\Adjustment--Heal.md"
+    },
+    {
+        "uid": "Voronoi",
+        "title": "Voronoi",
+        "type": "Conceptual",
+        "detailedType": 1,
+        "name": "Voronoi",
+        "sourceFile": "reference\\Nodes\\Primitive--Voronoi.md"
     }
 ]

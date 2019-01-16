@@ -24,6 +24,9 @@ $(function () {
   breakText();
   renderTabs();
 
+  
+  // $("#ntitle").html(document.title.split("|")[0]);
+
   window.refresh = function (article) {
     // Update markup result
     if (typeof article == 'undefined' || typeof article.content == 'undefined')
@@ -35,6 +38,7 @@ $(function () {
     renderAlerts();
     renderAffix();
     renderTabs();
+
   }
 
   // Add this event listener when needed
