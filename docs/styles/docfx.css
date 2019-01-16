@@ -791,7 +791,7 @@ body .toc {
 }
 
 .affix ul>li.active>ul, .affix ul>li.active>a:before, .affix ul>li>a:hover:before {
-  display: block;
+  display: block !important;
   white-space: nowrap;
 }
 
@@ -836,12 +836,12 @@ body .toc {
   max-height: 200px;
 }
 
-footer {
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: 1000;
+.footer {
+  position: absolute !important;
+  left: 0 !important;
+  right: 0 !important;
+  bottom: 0 !important;
+  z-index: 1000 !important;
 }
 
 .footer {

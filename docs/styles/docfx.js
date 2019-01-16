@@ -18,7 +18,7 @@ $(function () {
   renderNavbar();
   renderSidebar();
   renderAffix();
-  renderFooter();
+  // renderFooter();
   renderLogo();
 
   breakText();
@@ -655,47 +655,47 @@ $(function () {
     }
   }
 
-  // Show footer
-  function renderFooter() {
-    initFooter();
-    $(window).on("scroll", showFooterCore);
+  // // Show footer
+  // function renderFooter() {
+  //   initFooter();
+  //   $(window).on("scroll", showFooterCore);
 
-    function initFooter() {
-      if (needFooter()) {
-        shiftUpBottomCss();
-        $("footer").show();
-      } else {
-        resetBottomCss();
-        $("footer").hide();
-      }
-    }
+  //   function initFooter() {
+  //     if (needFooter()) {
+  //       shiftUpBottomCss();
+  //       $("footer").show();
+  //     } else {
+  //       resetBottomCss();
+  //       $("footer").hide();
+  //     }
+  //   }
 
-    function showFooterCore() {
-      if (needFooter()) {
-        shiftUpBottomCss();
-        $("footer").fadeIn();
-      } else {
-        resetBottomCss();
-        $("footer").fadeOut();
-      }
-    }
+  //   function showFooterCore() {
+  //     if (needFooter()) {
+  //       shiftUpBottomCss();
+  //       $("footer").fadeIn();
+  //     } else {
+  //       resetBottomCss();
+  //       $("footer").fadeOut();
+  //     }
+  //   }
 
-    function needFooter() {
-      var scrollHeight = $(document).height();
-      var scrollPosition = $(window).height() + $(window).scrollTop();
-      return (scrollHeight - scrollPosition) < 1;
-    }
+  //   function needFooter() {
+  //     var scrollHeight = $(document).height();
+  //     var scrollPosition = $(window).height() + $(window).scrollTop();
+  //     return (scrollHeight - scrollPosition) < 1;
+  //   }
 
-    function resetBottomCss() {
-      $(".sidetoc").removeClass("shiftup");
-      $(".sideaffix").removeClass("shiftup");
-    }
+  //   function resetBottomCss() {
+  //     $(".sidetoc").removeClass("shiftup");
+  //     $(".sideaffix").removeClass("shiftup");
+  //   }
 
-    function shiftUpBottomCss() {
-      $(".sidetoc").addClass("shiftup");
-      $(".sideaffix").addClass("shiftup");
-    }
-  }
+  //   function shiftUpBottomCss() {
+  //     $(".sidetoc").addClass("shiftup");
+  //     $(".sideaffix").addClass("shiftup");
+  //   }
+  // }
 
   function renderLogo() {
     // For LOGO SVG
