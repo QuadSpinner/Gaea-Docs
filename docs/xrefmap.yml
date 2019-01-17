@@ -158,7 +158,7 @@ references:
   name: Gradient Slope
   href: quickstarts/Gradient-Slope.html
 - uid: GraphMode
-  name: Graph Mode
+  name: Graph Workflow
   href: documentation/workflows/Graph.html
 - uid: Growth
   name: Growth
