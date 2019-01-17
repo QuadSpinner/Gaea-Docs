@@ -58,7 +58,8 @@ The old EAPs were installed using a self-extracting executable (SFX), so there w
 7. If any of the above folders can’t be deleted, reboot your computer, then try again.
 
 Gaea does not use the registry for any functional purposes. There is no need to clean registry entries, as they don’t affect the workings of the software.
-Install a fresh copy
+
+### Install a fresh copy
 
 With the old Gaea EAP and its residual traces removed, you can install anew. See the steps at the top.
 

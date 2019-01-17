@@ -5,9 +5,13 @@ title: Vector
 
 | Setting            | Values      | Description |
 | :----------------- | :---------- | :---------- |
-| **Vector**         | Filename    | Lorem ipsum |
-| **Peak**           | On / Off    | Lorem ipsum |
-| **Distort**        | On / Off    | Lorem ipsum |
-| **Distort Amount** | 0 - 100% | Lorem ipsum |
-| **Smooth**         | On / Off    | Lorem ipsum |
-| **Invert**         | On / Off    | Lorem ipsum |
+| **Vector**         | Filename    | TODO ipsum |
+| **Peak**           | On / Off    | TODO ipsum |
+| **Distort**        | On / Off    | TODO ipsum |
+| **Distort Amount** | 0 - 100% | TODO ipsum |
+| **Smooth**         | On / Off    | TODO ipsum |
+| **Invert**         | On / Off    | TODO ipsum |
+
+***
+
+<!--examples-->

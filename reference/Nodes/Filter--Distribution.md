@@ -12,3 +12,7 @@ The Distribution node creates a distribution map in the form of white pixels, or
 | **Seed**      | 0 - 128000  | The randomization pattern or seed for the node's process.                   |
 
 
+
+***
+
+<!--examples-->

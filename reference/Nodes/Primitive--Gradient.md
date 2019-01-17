@@ -26,3 +26,7 @@ It creates three distinct types of gradients: Linear, Radial, and Helix. Several
 
 
 
+
+***
+
+<!--examples-->

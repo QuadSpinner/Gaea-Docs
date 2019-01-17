@@ -28,8 +28,8 @@ Click anywhere in the gradient to create a new stop. Drag the stop to position i
 | **Color Noise**       | 0 - 100% | Introduces minor color distortions to the map.                 |
 | **Output Clarity**    | On / Off    | Applies localized contrast enhancements to the output texture. |
 | **Output Auto Level** | On / Off    | Applies an autolevels filter to the output texture.            |
-| **Data**              | Filename    | Lorem ipsum                                                    |
-| **Magick**            | Filename    | Lorem ipsum                                                    |
+| **Data**              | Filename    | TODO ipsum                                                    |
+| **Magick**            | Filename    | TODO ipsum                                                    |
 
 
 > [!TIP]
@@ -40,3 +40,7 @@ In this example, a @flow is mapped by @CLUTer to create basic texture map.
 ![CLUTer](../../images/CLUT-sample2.png)
 
 For general information on creating color textures, see @Color-Production.
+
+***
+
+<!--examples-->

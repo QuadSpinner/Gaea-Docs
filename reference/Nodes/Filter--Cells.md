@@ -19,3 +19,7 @@ This node quantizes the heightfield into discrete cells, defined by the Distance
 
 
 
+
+***
+
+<!--examples-->

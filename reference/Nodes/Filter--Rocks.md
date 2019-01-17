@@ -5,7 +5,11 @@ title: Rocks
 
 | Setting    | Values      | Description |
 | :--------- | :---------- | :---------- |
-| **Amount** | 0 - 100% | Lorem |
+| **Amount** | 0 - 100% | TODO |
 
 
 
+
+***
+
+<!--examples-->

@@ -14,3 +14,7 @@ title: Output
 
 > [!NOTE]
 > The Output node is for backward compatibility only. We recommend using the @Build-Manager instead, unless you have specific needs.
+
+***
+
+<!--examples-->

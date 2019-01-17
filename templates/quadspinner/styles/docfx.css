@@ -4,6 +4,7 @@
 html, body {
   font-family: 'Assistant', 'Segoe UI', Tahoma, Helvetica, sans-serif;
   height: 100%;
+  background: #e5e5e5 !important;
 }
 
 button, a, .xref {
@@ -189,7 +190,7 @@ header .navbar {
 }
 
 .subnav {
-  min-height: 40px;
+  background: #f5f5f5;
 }
 
 .inheritance h5, .inheritedMembers h5 {
@@ -219,13 +220,15 @@ article section {
 
 .breadcrumb {
   margin: 0;
-  padding: 10px 0;
+  font-size: 12px;
+  padding: 2px 0;
   background-color: inherit;
   white-space: nowrap;
 }
 
 .breadcrumb>li+li:before {
   content: "\00a0/";
+  margin-right: 4px;
 }
 
 #autocollapse.collapsed .navbar-header {
@@ -302,8 +305,8 @@ article section {
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.1);
 }
 
-.navbar .navbar-nav {
-  display: inline-block;
+#search-query {
+  font-size: 12px !important;
 }
 
 .docs-search {
@@ -364,6 +367,7 @@ article section {
 
 #search {
   display: none;
+  margin-right: 1em;
 }
 
 /* Search results display*/
@@ -479,6 +483,10 @@ article section {
   z-index: 1;
 }
 
+.sidetoc ul>li{
+  display: block;
+}
+
 .sidetoc.shiftup {
   bottom: 70px;
 }
@@ -583,17 +591,21 @@ body .toc {
   margin: 0 0 0 3px;
 }
 
+.toc .level1, .sidetoc .level1 {
+  display: block !important;
+}
+
 .toc .level1>li {
   font-weight: bold;
   margin-top: 10px;
   position: relative;
-  font-size: 16px;
+  font-size: 12px;
 }
 
 .toc .level2 {
   font-weight: normal;
   margin: 5px 0 0 15px;
-  font-size: 14px;
+  font-size: 12px;
 }
 
 /* .level3 li::before{
@@ -705,6 +717,11 @@ body .toc {
   background-color: #ffffff;
 }
 
+
+.sideaffix .nav{
+  display: block !important;
+}
+
 .sideaffix ul.nav>li>a:focus {
   background: none;
 }
@@ -774,7 +791,7 @@ body .toc {
 }
 
 .affix ul>li.active>ul, .affix ul>li.active>a:before, .affix ul>li>a:hover:before {
-  display: block;
+  display: block !important;
   white-space: nowrap;
 }
 
@@ -819,12 +836,12 @@ body .toc {
   max-height: 200px;
 }
 
-footer {
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: 1000;
+.footer {
+  position: absolute !important;
+  left: 0 !important;
+  right: 0 !important;
+  bottom: 0 !important;
+  z-index: 1000 !important;
 }
 
 .footer {
@@ -1087,16 +1104,17 @@ div.embeddedvideo iframe {
 /********************* FORMATS ******************/
 
 .toc .level1 a {
+  font-size: 15px !important;
   font-weight: 600 !important;
 }
 
 .toc .level2 a {
-  font-size: 16px !important;
+  font-size: 13px !important;
   font-weight: 400 !important;
 }
 
 .toc .level3 a {
-  font-size: 15px !important;
+  font-size: 13px !important;
   font-weight: 400 !important;
 }
 
@@ -1105,7 +1123,7 @@ div.embeddedvideo iframe {
   padding-right: 0px;
 }
 
-a.active {
+.toc a.active {
   border-color: #928771;
   background-color: #eee;
   color: #fff;
@@ -1159,17 +1177,16 @@ code {
   font-size: 14px;
 }
 
-tr td:nth-child(1) {
+table:not(.example) tr td:nth-child(1) {
   width: 150px;
 }
 
-tr td:nth-child(2) {
-  /* width: 180px;
-  font-family: "Overpass";
-  color: #928771 !important;
-  font-size: 12px !important; */
-  /* border-color: #928771; */
-  /* background-color: #eedeab; */
+table:not(.example) tr th:nth-child(2) {
+  display: none !important;
+}
+
+table:not(.example) tr td:nth-child(2) {
+  display: none !important;
   color: #222;
   border-radius: 2px;
   padding: 3px 6px;
@@ -1177,6 +1194,10 @@ tr td:nth-child(2) {
   font-size: 13px;
   font-family: "Overpass Mono";
   letter-spacing: -1px;
+}
+
+.examples td {
+  width: inherit !important;
 }
 
 tr {
@@ -1188,7 +1209,7 @@ tr {
   padding-right: 5px;
 } */
 
-tr td:nth-child(2) em {
+table:not(.example) tr td:nth-child(2) em {
   /* font-family: "Assistant" !important; */
   font-style: normal !important;
 }
@@ -1247,4 +1268,40 @@ span.wip {
 .sidefilter {
   padding: 6px !important;
   margin: 15px;
+}
+
+.example {
+  border: 1px solid #ccc !important;
+  background-color: #3a3a3a;
+  padding: 12px;
+  color: #eee;
+}
+
+.example td {
+  padding: 4px;
+}
+
+.example ul li {
+  list-style: none;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.card-deck{
+  margin-bottom: 2em;
+}
+
+
+.card-footer{
+  background: #333;
+  color: #eee;
+}
+
+.examples hr{
+  color: #999;
+  margin-bottom: 2em;
+}
+
+.examples ul li{
+  list-style: none;
 }

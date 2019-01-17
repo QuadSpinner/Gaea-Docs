@@ -12,3 +12,6 @@ The HSL node allows you to apply a basic Hue/Saturation/Lightness modification t
 | **L**   | 0.00 - 5.00 | The lightness of colors. |
 
 For general information on creating color textures, see @Color-Production.
+***
+
+<!--examples-->
