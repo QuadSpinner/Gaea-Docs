@@ -1297,3 +1297,7 @@ article>p, article>ul>li, article>ol>li {
 .smaller-image img {
   max-width: 300px;
 }
+
+article h1, article h2, article h3, article h4{
+  margin-top: 2em !important;
+}

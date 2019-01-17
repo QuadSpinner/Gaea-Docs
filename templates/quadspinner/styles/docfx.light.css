@@ -233,3 +233,8 @@ span.wip {
 .examples ul li code {
   color: #eedeab;
 }
+
+
+code.lang-cs{
+  color: #47A7A0;
+  }

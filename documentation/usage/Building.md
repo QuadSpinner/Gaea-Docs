@@ -3,7 +3,7 @@ uid: Build-Manager
 title: Build Manager
 ---
 
-## Building Terrains
+# Building Terrains
 
 The output from your project must be saved to a file in order to use it elsewhere. To do this, you must build the output. When you build the output, Gaea will create it at your target resolution. This may take a while to build depending on the complexity of your terrain, and the effects used.
 
@@ -18,10 +18,8 @@ Over the course of a complex project, saving and managing the appropriate output
 The Build Manager simplifies how builds are saved, organized, and managed for future use.
 
 ## Mark for Save
+
 Instead of creating a dedicated "Output" node and then specifying the file to save, you can mark a node for automatic output.
-
-
-
 
 ![Mark for save](/images/ui/Build-Mark.png)
 
@@ -34,6 +32,7 @@ Once a node is marked for saving, it displays this icon underneath the node.
 
 
 ## The Build Manager
+
 Now when you click Build, instead of firing off a build directly, you will see the Build Manager. The Build Manager gives you easy access to crucial output preferences.
 
 ![Mark for save](/images/ui/Build-Manager.png)
@@ -49,6 +48,7 @@ You can also use the Build Manager for version control and file organization.
 ## Version Control and Organization
 
 ### Organizing Builds
+
 The Location field in the Build Manager provides two built-in options for storing your builds.
 
 The first option is the central build repository, which is stored in My Documents\Gaea\Builds\[Filename] by default, but can be changed to any location — even to a local network or an online shared folder with OneDrive, Dropbox, GDrive, etc. This can be useful in team situations.
@@ -60,6 +60,7 @@ The other option is to have it stored alongside the file in a Builds folder. So 
 In both cases, inside the Builds folder, a subfolder with the build timestamp is created. The build output files, a build.info file, and the .tor copy are stored inside this subfolder.
 
 ### Example paths
+
 Central Repository:
 `C:\Users\Username\Documents\Gaea\Builds\EastRiver\2018–06–22_22–55–31\`
 
@@ -84,6 +85,7 @@ or something more specific such as:
  which would create ```\\00.00.00\Team\Terrains\Bob_2018–06–22–55–31\```
 
 ### Version Controlling Terrains
+
 Gaea's Build Manager and Build Stack give you low level version control without additional overhead.
 
 The "Save copy of .TOR" option is useful when you want to manage different versions of your actual project file. When turned on, every time your build finishes, a copy of the .tor file in the exact state of that particular build is stored alongside the build output. You can easily go back to any older build state for your file, and save it as new file.
@@ -126,4 +128,78 @@ Example Command Line:
 
 ## Batch Building
 
-## Logs
+You can run a batch build by executing a batch (.bat) file as shown below.
+
+```bat
+REM Change drive, just to be sure
+C: 
+REM Go to the Gaea install folder
+cd %programfiles%\QuadSpinner\Gaea
+
+SET vars = --silent --savetor
+
+REM List all files to build in quotes
+Gaea.Build.exe "C:\Users\Dax\Documents\Gaea\ErosionB-001.tor" vars
+Gaea.Build.exe "C:\Users\Dax\Documents\Gaea\ErosionB-002.tor" vars
+Gaea.Build.exe "C:\Users\Dax\Documents\Gaea\ErosionB-003.tor" vars
+Gaea.Build.exe "C:\Users\Dax\Documents\Gaea\ErosionB-004.tor" vars
+Gaea.Build.exe "C:\Users\Dax\Documents\Gaea\ErosionB-005.tor" vars
+Gaea.Build.exe "C:\Users\Dax\Documents\Gaea\ErosionB-006.tor" vars
+Gaea.Build.exe "C:\Users\Dax\Documents\Gaea\ErosionB-007.tor" vars
+Gaea.Build.exe "C:\Users\Dax\Documents\Gaea\ErosionB-008.tor" vars
+Gaea.Build.exe "C:\Users\Dax\Documents\Gaea\ErosionB-009.tor" vars
+```
+
+> [!TIP] 
+> In the future, you will be able to drag and drop multiple files on Gaea.Build.exe to run a batch build.
+
+## Build Logs
+
+Build Swarm logs are both machine and human readable. All values are tab separated.
+
+### Format
+
+```dsconfig
+STARTLOG                // Denotes start of a log
+GAEA <VERSION>          // Gaea version stamp
+
+START <TIME>            // Build start time (yyyy-MM-dd HH:mm:ssz)
+END <TIME>              // Build end time (yyyy-MM-dd HH:mm:ssz)
+TOTAL   <TIME>          // Total time taken (HH:mm:ss.ms)
+
+RESOLUTION  <RES>       // Total build resolution
+BUCKET SIZE <RES>       // Tiled build bucket resolution
+
+NODE    <NAME>  <TIME>  // Node name and time taken to build  (HH:mm:ss.ms)
+
+OUTPUT <PATH>           // Build destination directory
+ENDLOG                  // Denotes end of the log
+```
+
+### Example
+
+```lua
+STARTLOG
+GAEA	1.0.12.7338
+
+START	2018-12-30 07:29:18Z
+END	2018-12-30 07:30:01Z
+TOTAL	0:00:37
+
+RESOLUTION	2048x2048
+BUCKET SIZE	2048x2048
+
+NODE	Mountain	0:00:00.696
+NODE	Displace	0:00:01.12
+NODE	Erosion	0:00:07.411
+NODE	Convector	0:00:07.72
+NODE	Displace	0:00:01.133
+NODE	Erosion	0:00:19.097
+NODE	Terrace	0:00:00.041
+NODE	Terrace	0:00:00.059
+NODE	Combine	0:00:00.047
+
+OUTPUT	C:\Users\Dax\Documents\Gaea\Builds\ErosionB-002\2018-12-30_07-29-16
+ENDLOG
+
+```

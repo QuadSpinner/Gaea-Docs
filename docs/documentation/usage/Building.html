@@ -102,7 +102,7 @@
             <article class="content wrap" id="_content" data-uid="Build-Manager">
                 <span class="wip">This documentation is a work-in-progress and subject to change.</span>
                 <br><br>
-<h2 id="building-terrains">Building Terrains</h2>
+<h1 id="building-terrains">Building Terrains</h1>
 
 <p>The output from your project must be saved to a file in order to use it elsewhere. To do this, you must build the output. When you build the output, Gaea will create it at your target resolution. This may take a while to build depending on the complexity of your terrain, and the effects used.</p>
 <div class="small-image">
@@ -175,7 +175,72 @@ Once a node is marked for saving, it displays this icon underneath the node.
 <p><code>--format EXT</code> - Override the default output format. Allowed values are PNG, EXR, PSD, HDR, TIF, RAW. Must be entered in CAPITALS.</p>
 <p><code>--variant N</code> - Repeats the build and randomizes the seeds of every node for each build to create variations. Variations are stored in own sub-folder named in the pattern of Var1, Var2, etc.</p>
 <h2 id="batch-building">Batch Building</h2>
-<h2 id="logs">Logs</h2>
+<p>You can run a batch build by executing a batch (.bat) file as shown below.</p>
+<pre><code class="lang-bat">REM Change drive, just to be sure
+C: 
+REM Go to the Gaea install folder
+cd %programfiles%\QuadSpinner\Gaea
+
+SET vars = --silent --savetor
+
+REM List all files to build in quotes
+Gaea.Build.exe &quot;C:\Users\Dax\Documents\Gaea\ErosionB-001.tor&quot; vars
+Gaea.Build.exe &quot;C:\Users\Dax\Documents\Gaea\ErosionB-002.tor&quot; vars
+Gaea.Build.exe &quot;C:\Users\Dax\Documents\Gaea\ErosionB-003.tor&quot; vars
+Gaea.Build.exe &quot;C:\Users\Dax\Documents\Gaea\ErosionB-004.tor&quot; vars
+Gaea.Build.exe &quot;C:\Users\Dax\Documents\Gaea\ErosionB-005.tor&quot; vars
+Gaea.Build.exe &quot;C:\Users\Dax\Documents\Gaea\ErosionB-006.tor&quot; vars
+Gaea.Build.exe &quot;C:\Users\Dax\Documents\Gaea\ErosionB-007.tor&quot; vars
+Gaea.Build.exe &quot;C:\Users\Dax\Documents\Gaea\ErosionB-008.tor&quot; vars
+Gaea.Build.exe &quot;C:\Users\Dax\Documents\Gaea\ErosionB-009.tor&quot; vars
+</code></pre>
+<div class="TIP">
+<h5>Tip</h5>
+<p>In the future, you will be able to drag and drop multiple files on Gaea.Build.exe to run a batch build.</p>
+</div>
+<h2 id="build-logs">Build Logs</h2>
+<p>Build Swarm logs are both machine and human readable. All values are tab separated.</p>
+<h3 id="format">Format</h3>
+<pre><code class="lang-dsconfig">STARTLOG                // Denotes start of a log
+GAEA &lt;VERSION&gt;          // Gaea version stamp
+
+START &lt;TIME&gt;            // Build start time (yyyy-MM-dd HH:mm:ssz)
+END &lt;TIME&gt;              // Build end time (yyyy-MM-dd HH:mm:ssz)
+TOTAL   &lt;TIME&gt;          // Total time taken (HH:mm:ss.ms)
+
+RESOLUTION  &lt;RES&gt;       // Total build resolution
+BUCKET SIZE &lt;RES&gt;       // Tiled build bucket resolution
+
+NODE    &lt;NAME&gt;  &lt;TIME&gt;  // Node name and time taken to build  (HH:mm:ss.ms)
+
+OUTPUT &lt;PATH&gt;           // Build destination directory
+ENDLOG                  // Denotes end of the log
+</code></pre>
+<h3 id="example">Example</h3>
+<pre><code class="lang-lua">STARTLOG
+GAEA	1.0.12.7338
+
+START	2018-12-30 07:29:18Z
+END	2018-12-30 07:30:01Z
+TOTAL	0:00:37
+
+RESOLUTION	2048x2048
+BUCKET SIZE	2048x2048
+
+NODE	Mountain	0:00:00.696
+NODE	Displace	0:00:01.12
+NODE	Erosion	0:00:07.411
+NODE	Convector	0:00:07.72
+NODE	Displace	0:00:01.133
+NODE	Erosion	0:00:19.097
+NODE	Terrace	0:00:00.041
+NODE	Terrace	0:00:00.059
+NODE	Combine	0:00:00.047
+
+OUTPUT	C:\Users\Dax\Documents\Gaea\Builds\ErosionB-002\2018-12-30_07-29-16
+ENDLOG
+
+</code></pre>
 </article>
             </div>
           </div>
