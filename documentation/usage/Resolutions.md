@@ -1,6 +1,6 @@
 ---
 uid: Resolutions
-Title: Resolutions
+Title: Understanding Resolution
 ---
 
 # Resolutions

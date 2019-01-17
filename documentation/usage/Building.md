@@ -7,7 +7,7 @@ title: Build Manager
 
 The output from your Graph must be saved to a file in order to use it elsewhere. To do this, you must build the output. When you build the output, Gaea will create it at your target resolution. This may take a while to build depending on the complexity of your graph, and the effects used.
 
-![Mark for save](../images/Build-Progress.png)
+![Mark for save](/images/Build-Progress.png)
 
 Over the course of a complex project, saving and managing the appropriate outputs can become a tedious task. Managing outputs for several different nodes, especially those with multiple outputs like the Erosion node, can make it even worse.
 
@@ -16,13 +16,13 @@ The Build Manager simplifies how builds are saved, organized, and managed for fu
 ## Mark for Save
 Instead of creating a dedicated "Output" node and then specifying the file to save, you can mark a node for automatic output. Just right-click any node and select "Save".
 
-![Mark for save](../images/Build-Mark.png)
+![Mark for save](/images/Build-Mark.png)
 
 
 ## The Build Manager
 Now when you click Build, instead of firing off a build directly, you will see the Build Manager. The Build Manager gives you easy access to crucial output preferences.
 
-![Mark for save](../images/Build-Manager.png)
+![Mark for save](/images/Build-Manager.png)
 
 The node grid shows you all the nodes marked for output. You can temporarily toggle a node by clicking the color circle in the top left corner of the node. This does not affect the build, only the output. This can be useful when you just want to see a few specific outputs, or you need to go back to rebuild an older project for selective output.
 
@@ -39,7 +39,7 @@ The Location field in the Build Manager provides two built-in options for storin
 
 The first option is the central build repository, which is stored in My Documents\Gaea\Builds\[Filename] by default, but can be changed to any location — even to a local network or an online shared folder with OneDrive, Dropbox, GDrive, etc. This can be useful in team situations.
 
-![Mark for save](../images/Build-ExportedFiles.png)
+![Mark for save](/images/Build-ExportedFiles.png)
 
 The other option is to have it stored alongside the file in a Builds folder. So if your file is called MyTerrain.tor, a folder called MyTerrain_Builds will be placed next to it.
 

@@ -24,7 +24,7 @@ references:
   href: reference/Nodes/Adjustment--AutoLevel.html
 - uid: Basics-of-Terrain-Design
   name: Basics of Terrain Design
-  href: documentation/Basics%20of%20Terrain%20Design.html
+  href: documentation/usage/Basics.html
 - uid: BiasGain
   name: BiasGain
   href: reference/Nodes/Adjustment--BiasGain.html
@@ -45,7 +45,7 @@ references:
   href: reference/Nodes/Color--BrightnessContrast.html
 - uid: Build-Manager
   name: Build Manager
-  href: documentation/Building.html
+  href: documentation/usage/Building.html
 - uid: Buildup
   name: Buildup
   href: reference/Nodes/Erosion--Buildup.html
@@ -66,7 +66,7 @@ references:
   href: reference/Nodes/Erosion--Coast.html
 - uid: Color-Production
   name: Color Production
-  href: documentation/Color%20Production.html
+  href: documentation/usage/Color-Production.html
 - uid: Combine
   name: Combine
   href: reference/Nodes/Adjustment--Combine.html
@@ -81,13 +81,13 @@ references:
   href: reference/Nodes/Erosion--Convector.html
 - uid: Creating-Variations
   name: Creating Variations
-  href: documentation/Creating%20Variations.html
+  href: documentation/usage/Variations.html
 - uid: Curvature
   name: Curvature
   href: reference/Nodes/Selector--Curvature.html
 - uid: Data-Maps
   name: Data Maps
-  href: documentation/Data%20Maps.html
+  href: documentation/usage/Data-Maps.html
 - uid: Denoise
   name: Denoise
   href: reference/Nodes/Adjustment--Denoise.html
@@ -159,7 +159,7 @@ references:
   href: quickstarts/Gradient-Slope.html
 - uid: GraphMode
   name: Graph Mode
-  href: documentation/Workflow--Graph.html
+  href: documentation/workflows/Graph.html
 - uid: Growth
   name: Growth
   href: reference/Nodes/DataMap--Growth.html
@@ -195,10 +195,10 @@ references:
   href: quickstarts/Igneous.html
 - uid: Importing-Data
   name: Importing Data
-  href: documentation/Importing%20Data.html
+  href: documentation/usage/Importing.html
 - uid: Importing-in-other-packages
   name: Importing in other packages
-  href: documentation/Exporting.html
+  href: documentation/usage/Exporting.html
 - uid: index
   name: index
   href: api/index.html
@@ -219,7 +219,7 @@ references:
   href: quickstarts/Large-Desert.html
 - uid: LayersMode
   name: Layers Workflow
-  href: documentation/Workflow--Layers.html
+  href: documentation/workflows/Layers.html
 - uid: LineNoise
   name: LineNoise
   href: reference/Nodes/Primitive--LineNoise.html
@@ -273,10 +273,10 @@ references:
   href: reference/Nodes/Filter--Polar.html
 - uid: Preferences
   name: Preferences
-  href: documentation/Preferences.html
+  href: documentation/interface/Preferences.html
 - uid: Properties
   name: Properties
-  href: documentation/Properties.html
+  href: documentation/interface/Properties.html
 - uid: quickstarts
   name: Quickstarts
   href: quickstarts/index.html
@@ -288,7 +288,7 @@ references:
   href: reference/Nodes/Filter--Repulse.html
 - uid: Resolutions
   name: Resolutions
-  href: documentation/Resolutions.html
+  href: documentation/usage/Resolutions.html
 - uid: Resource
   name: Resource
   href: reference/Nodes/Primitive--Resource.html
@@ -321,7 +321,7 @@ references:
   href: api/scripting.html
 - uid: SculptMode
   name: Sculpt Workflow
-  href: documentation/Workflow--Sculpt.html
+  href: documentation/workflows/Sculpt.html
 - uid: Sediment
   name: Sediment
   href: reference/Nodes/Erosion--Sediment.html
@@ -333,7 +333,7 @@ references:
   href: quickstarts/Sharp-Mountain.html
 - uid: Shortcuts
   name: Keyboard Shortcuts
-  href: documentation/Keyboard.html
+  href: documentation/interface/Keyboard.html
 - uid: Simple-Mountain
   name: Simple Mountain
   href: quickstarts/Simple-Mountain.html
@@ -355,6 +355,9 @@ references:
 - uid: Soil
   name: Soil
   href: reference/Nodes/DataMap--Soil.html
+- uid: Startup
+  name: Startup Screen
+  href: documentation/interface/Startup.html
 - uid: Stratify
   name: Stratify
   href: reference/Nodes/Erosion--Stratify.html
@@ -396,7 +399,7 @@ references:
   href: reference/Nodes/Filter--Terrace.html
 - uid: Terrain-Scale
   name: Terrain Scale
-  href: documentation/Terrain%20Scale.html
+  href: documentation/usage/Scale.html
 - uid: Thermal Erosion
   name: Thermal Erosion
   href: reference/Nodes/Erosion--ThermalErosion.html
@@ -408,10 +411,10 @@ references:
   href: reference/Nodes/Adjustment--Threshold.html
 - uid: Tiled-Builds
   name: Tiled Builds
-  href: documentation/Tiled%20Builds.html
+  href: documentation/usage/Tiled-Builds.html
 - uid: Toolbox
   name: Toolbox
-  href: documentation/Toolbox.html
+  href: documentation/interface/Toolbox.html
 - uid: Transform
   name: Transform
   href: reference/Nodes/Adjustment--Transform.html
@@ -423,7 +426,7 @@ references:
   href: reference/Nodes/DataMap--Velocity.html
 - uid: Viewport
   name: Viewport
-  href: documentation/Viewport.html
+  href: documentation/interface/Viewport.html
 - uid: Volcano
   name: Volcano
   href: quickstarts/Volcano.html

@@ -4,49 +4,50 @@
   items:
   - name: Installing Gaea
     href: Installing Gaea.md
-  - name: Basics of Terrain Design
-    href: Basics of Terrain Design.md
   - name: Getting around
     href: Getting around.md
     items:
       - name: Node Properties
-        href: Properties.md
+        href: interface/Properties.md
       - name: Toolbox
-        href: Toolbox.md
+        href: interface/Toolbox.md
       - name: Viewport
-        href: Viewport.md
-      - name: Resolutions
-        href: Resolutions.md
+        href: interface/Viewport.md
       - name: Preferences
-        href: Preferences.md
+        href: interface/Preferences.md
       - name: Keyboard Shortcuts
-        href: Keyboard.md
+        href: interface/Keyboard.md
+
 - name: Workflows
   items:
   - name: Graph
-    href: Workflow--Graph.md
+    href: workflows/Graph.md
   - name: Layers
-    href: Workflow--Layers.md
+    href: workflows/Layers.md
   - name: Sculpt
-    href: Workflow--Sculpt.md
+    href: workflows/Sculpt.md
 - name: Using Gaea
   items:
+    - name: Basics of Terrain Design
+      href: usage/Basics.md
+    - name: Understanding Resolutions
+      href: usage/Resolutions.md
     - name: Importing Data
-      href: Importing Data.md
+      href: usage/Importing.md
     - name: Terrain Scale
-      href: Terrain Scale.md
+      href: usage/Scale.md
     - name: Using Data Maps
-      href: Data Maps.md
+      href: usage/Data-Maps.md
     - name: Color Production
-      href: Color Production.md
+      href: usage/Color-Production.md
     - name: Build Manager
-      href: Building.md
+      href: usage/Building.md
     - name: Tiled Builds
-      href: Tiled Builds.md
+      href: usage/Tiled-Builds.md
     - name: Exporting Data
-      href: Exporting.md
+      href: usage/Exporting.md
     - name: Creating LODs and Variations
-      href: Creating Variations.md
+      href: usage/Variations.md
 - name: Misc
   items:
   - name: Common Issues
