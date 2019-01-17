@@ -14,3 +14,6 @@ title: Thermal Erosion
 | **Smoothness**     | 0 - 100% | Lorem       |
 | **Talus angle**    | 0.00 - 90.0 | Lorem       |
 | **Talus settling** | 0 - 100% | Lorem       |
+***
+
+<!--examples-->

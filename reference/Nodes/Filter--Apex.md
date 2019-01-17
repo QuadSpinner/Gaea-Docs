@@ -17,3 +17,7 @@ Apex uses Euclidean distancing (the same function used to create the Voronoi pat
 
 
 
+
+***
+
+<!--examples-->

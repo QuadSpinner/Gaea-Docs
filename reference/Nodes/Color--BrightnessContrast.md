@@ -12,3 +12,6 @@ This node provides simple color adjustment for textures. It is particularly usef
 
 
 For general information on creating color textures, see @Color-Production.
+***
+
+<!--examples-->

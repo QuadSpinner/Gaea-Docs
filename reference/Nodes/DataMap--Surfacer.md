@@ -19,3 +19,7 @@ Surfacer provides several types of texturing primitives. It should not be used b
 
 
 
+
+***
+
+<!--examples-->

@@ -16,3 +16,7 @@ title: Fold
 
 
 
+
+***
+
+<!--examples-->

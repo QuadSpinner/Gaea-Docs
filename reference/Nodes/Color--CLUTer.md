@@ -40,3 +40,7 @@ In this example, a @flow is mapped by @CLUTer to create basic texture map.
 ![CLUTer](../../images/CLUT-sample2.png)
 
 For general information on creating color textures, see @Color-Production.
+
+***
+
+<!--examples-->

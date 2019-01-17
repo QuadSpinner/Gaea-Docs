@@ -16,3 +16,7 @@ Clamp allows you to control the height of the terrain. You can use it to squash 
 
 
 
+
+***
+
+<!--examples-->

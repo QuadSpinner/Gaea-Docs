@@ -35,3 +35,6 @@ title: Snow
 |                       | *B&W Mask*  | Lorem       |
 | **Use Snowfall mask** | On / Off    | Lorem       |
 | **Use Melt mask**     | On / Off    | Lorem       |
+***
+
+<!--examples-->

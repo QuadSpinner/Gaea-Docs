@@ -10,3 +10,7 @@ title: Draw
 | **Curve**   | 0 - 100% | Lorem ipsum |
 | **Blur**    | 0 - 100% | Lorem ipsum |
 | **Height**  | 0 - 100% | Lorem ipsum |
+
+***
+
+<!--examples-->

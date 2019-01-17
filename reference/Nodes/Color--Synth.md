@@ -24,3 +24,6 @@ title: Synth
 To create your own color maps from scratch, use @CLUTer.
 
 For general information on creating color textures, see @Color-Production.
+***
+
+<!--examples-->

@@ -1286,3 +1286,28 @@ span.wip {
   font-size: 12px;
   font-weight: bold;
 }
+
+.card-deck{
+  margin-bottom: 2em;
+}
+
+
+.card-footer{
+  background: #333;
+  color: #eee;
+}
+
+.examples hr{
+  color: #999;
+  margin-bottom: 2em;
+}
+
+.examples ul li{
+  list-style: none;
+  font-size: 12px;
+}
+
+.examples ul li code{
+  background: none;
+  color: #eedeab;
+}

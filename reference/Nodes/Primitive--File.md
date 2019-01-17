@@ -22,3 +22,7 @@ The File node loads any supported image or data file as a terrain. It supports a
 | **Raise**     | 0 - 100%  | Lorem                                                                                                                           |
 
 
+
+***
+
+<!--examples-->

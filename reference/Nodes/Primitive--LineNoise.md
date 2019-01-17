@@ -17,3 +17,7 @@ LineNoise is a geometry generator that creates sets of lines that can be distort
 
 
 
+
+***
+
+<!--examples-->

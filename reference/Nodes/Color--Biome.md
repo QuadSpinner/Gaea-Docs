@@ -61,3 +61,7 @@ Biome uses a water map (like FlowMap or the Erosion node’s Flow output) to cre
 
 
 
+
+***
+
+<!--examples-->

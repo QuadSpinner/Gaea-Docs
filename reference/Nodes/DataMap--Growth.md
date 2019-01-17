@@ -19,3 +19,7 @@ title: Growth
 | **Graininess**  | 10.00 - 9000.00 | Lorem ipsum |
 | **Cragginess**  | 2.00 - 9000.00  | Lorem ipsum |
 | **Seed**        | 0 - 128000      | Lorem ipsum |
+
+***
+
+<!--examples-->

@@ -16,3 +16,6 @@ Transform allows you to move, rotate, and scale any terrain. The Transform node 
 
 > [!TIP]
 > If your terrain has a hard edge, try using the `Zero Borders` node before applying the Transform node.
+***
+
+<!--examples-->

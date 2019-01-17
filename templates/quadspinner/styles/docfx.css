@@ -791,7 +791,7 @@ body .toc {
 }
 
 .affix ul>li.active>ul, .affix ul>li.active>a:before, .affix ul>li>a:hover:before {
-  display: block;
+  display: block !important;
   white-space: nowrap;
 }
 
@@ -1285,4 +1285,23 @@ span.wip {
   list-style: none;
   font-size: 12px;
   font-weight: bold;
+}
+
+.card-deck{
+  margin-bottom: 2em;
+}
+
+
+.card-footer{
+  background: #333;
+  color: #eee;
+}
+
+.examples hr{
+  color: #999;
+  margin-bottom: 2em;
+}
+
+.examples ul li{
+  list-style: none;
 }

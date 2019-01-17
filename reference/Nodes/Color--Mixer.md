@@ -26,3 +26,7 @@ The Mixer node is just like the Combine node, but for mixing colors rather than 
 
 
 To quickly mix nodes, you can select the nodes and press `F8`.
+
+***
+
+<!--examples-->

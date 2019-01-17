@@ -22,3 +22,7 @@ SatMap works exactly like the CLUT node, except you pick from the built-in maps 
 
 
 For general information on creating color textures, see @Color-Production.
+
+***
+
+<!--examples-->

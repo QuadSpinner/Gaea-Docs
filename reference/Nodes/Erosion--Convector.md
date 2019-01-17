@@ -26,3 +26,7 @@ Convector is an exaggerated form of thermal erosion with a few tweaks for styliz
 The delicate terracing can be very useful as a base for the Erosion node. As you can see in the second screenshot, these terraces help mimic a big mountain — especially for snow accumulation purposes.
 
 `// TODO: Image`
+
+***
+
+<!--examples-->

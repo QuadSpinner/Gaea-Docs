@@ -11,3 +11,7 @@ title: Vector
 | **Distort Amount** | 0 - 100% | Lorem ipsum |
 | **Smooth**         | On / Off    | Lorem ipsum |
 | **Invert**         | On / Off    | Lorem ipsum |
+
+***
+
+<!--examples-->

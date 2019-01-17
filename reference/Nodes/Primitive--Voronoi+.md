@@ -13,3 +13,6 @@ title: Voronoi+
 
 
 You can also use @"voronoi.md"
+***
+
+<!--examples-->
