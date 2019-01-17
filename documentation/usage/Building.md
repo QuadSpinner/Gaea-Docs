@@ -1,6 +1,6 @@
 ---
-uid: Build-Manager
-title: Build Manager
+uid: building
+title: Building Terrains
 ---
 
 # Building Terrains
@@ -33,13 +33,8 @@ Once a node is marked for saving, it displays this icon underneath the node.
 
 ## The Build Manager
 
-Now when you click Build, instead of firing off a build directly, you will see the Build Manager. The Build Manager gives you easy access to crucial output preferences.
-
 ![Mark for save](/images/ui/Build-Manager.png)
 
-The node grid shows you all the nodes marked for output. You can temporarily toggle a node by clicking the color circle in the top left corner of the node. This does not affect the build, only the output. This can be useful when you just want to see a few specific outputs, or you need to go back to rebuild an older project for selective output.
-
-When a node has multiple outputs, such as the Erosion and Breaker nodes in this example, you can individually toggle which ports should be saved as files.
 
 You can choose the file format to use for all outputs, modify a node's output name by clicking on the node's label, choose unclamped (formerly called "Full Range"), and +1 output (where 512 x 512 becomes 513 x 513 — necessary for some game engines).
 

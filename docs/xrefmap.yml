@@ -43,9 +43,12 @@ references:
 - uid: BrightnessContrast
   name: BrightnessContrast
   href: reference/Nodes/Color--BrightnessContrast.html
+- uid: building
+  name: Building Terrains
+  href: documentation/usage/Building.html
 - uid: Build-Manager
   name: Build Manager
-  href: documentation/usage/Building.html
+  href: documentation/interface/Build-Manager.html
 - uid: build-swarm
   name: Build Swarm
   href: documentation/usage/Build-Swarm.html
@@ -136,6 +139,9 @@ references:
 - uid: File
   name: File
   href: reference/Nodes/Primitive--File.html
+- uid: first-terrain
+  name: Your first terrain
+  href: documentation/usage/First-Terrain.html
 - uid: Flip
   name: Flip
   href: reference/Nodes/Adjustment--Flip.html

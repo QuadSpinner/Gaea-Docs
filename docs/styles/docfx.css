@@ -8,7 +8,8 @@ html, body {
 
 button, a, .xref {
   cursor: pointer;
-  font-weight: 600;
+  font-weight: 600;  
+  transition: all linear 0.333s;
 }
 
 button:hover, button:focus, a:hover, a:focus {
@@ -154,14 +155,13 @@ h4, .h4, h5, .h5, h6, .h6 {
 }
 
 .grad-bottom {
-  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.05));  
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.05));
   height: 5px;
 }
 
 .divider {
   margin: 0 5px;
 }
-
 
 header {
   position: fixed;
@@ -185,18 +185,16 @@ header .navbar {
   margin: 0 -15px;
 }
 
-
 .inheritance h5, .inheritedMembers h5 {
   padding-bottom: 5px;
 }
 
 article h1, article h2, article h3, article h4 {
   margin-top: 2em;
-  
   max-width: 740px;
 }
 
-article h1, article h2{
+article h1, article h2 {
   border-bottom: 1px solid;
 }
 
@@ -449,7 +447,6 @@ article section {
   margin-left: 0;
 }
 
-
 .sidetoc {
   position: fixed;
   width: 260px;
@@ -533,19 +530,24 @@ body .toc {
 }
 
 .toc .nav>li.active>.expand-stub::before, .toc .nav>li.in>.expand-stub::before, .toc .nav>li.in.active>.expand-stub::before, .toc .nav>li.filtered>.expand-stub::before {
-  font-family: "Overpass Mono";
+  font-family: "Assistant";
   font-weight: 400;
-  content: "-";
+  content: "‹";
+  font-size: 20px;
   position: relative;
-  top: 4px;
+  top: -6px;
+  opacity: 0.5;
+  transition: all linear 0.333s;
 }
 
 .toc .nav>li>.expand-stub::before, .toc .nav>li.active>.expand-stub::before {
-  font-family: "Overpass Mono";
+  font-family: "Assistant";
   font-weight: 400;
-  content: "+";
+  font-size: 20px;
+  content: "›";
   position: relative;
-  top: 1px;
+  top: -6px;
+  transition: all linear 0.333s;
 }
 
 .toc .nav>li.filtered>ul, .toc .nav>li.in>ul {
@@ -559,6 +561,10 @@ body .toc {
 .toc ul {
   font-size: 12px;
   margin: 0 0 0 3px;
+}
+
+.toc li {
+  padding: 6px;
 }
 
 .toc .level1, .sidetoc .level1 {
@@ -576,6 +582,23 @@ body .toc {
   font-weight: normal;
   margin: 5px 0 0 15px;
   font-size: 12px;
+}
+
+.toc .level2 .expand-stub::before {
+  left: 15px;
+  padding: 4px;
+}
+
+
+.toc ul.nav.level1 li.in span.expand-stub::before{
+  top: -6px !important;
+}
+.toc ul.nav.level1 li.active.in ul.nav.level2 li.active.in span.expand-stub::before {
+  top: -6px !important;
+}
+
+.toc ul.nav.level1 li.active.in ul.nav.level2 li.in span.expand-stub::before {
+  top: -6px !important;
 }
 
 /* .level3 li::before{
@@ -678,7 +701,6 @@ body .toc {
   font-size: 14px;
 }
 
-
 .sideaffix .nav {
   display: block !important;
 }
@@ -705,10 +727,12 @@ body .toc {
   padding-bottom: 10px;
   height: calc(100% - 100px);
   margin-right: -20px;
+  opacity: 0.85;
 }
 
 .affix ul.level3 {
   margin-left: 9px;
+  opacity: 0.75;
 }
 
 .affix ul.level4 {
@@ -754,7 +778,6 @@ body .toc {
   margin-bottom: 50px;
 }
 
-
 .affix>ul>li.active>a, .affix>ul>li.active>a:before {
   content: "|";
   font-size: 16px;
@@ -765,8 +788,6 @@ body .toc {
 .affix ul ul>li>a {
   padding: 2px 15px;
 }
-
-
 
 .affix ul>li>a:before, .affix ul ul {
   display: none;
@@ -800,7 +821,6 @@ body .toc {
   z-index: 100;
   display: none;
 }
-
 
 .codewrapper:hover .tryspan {
   display: block;
@@ -1020,8 +1040,6 @@ div.embeddedvideo iframe {
   margin-bottom: -1px;
 }
 
-
-
 @media (min-width: 768px) {
   .tabGroup a[role="tab"] {
     padding: 5px 15px;
@@ -1148,7 +1166,6 @@ table:not(.example) tr td:nth-child(2) {
   width: inherit !important;
 }
 
-
 /* tr td:nth-child(2) em::before{
   content: '>';
   padding-right: 5px;
@@ -1179,7 +1196,6 @@ table:not(.example) tr td:nth-child(2) em {
 .TIP p, .WARNING p, .NOTE p {
   padding-left: 30px;
 }
-
 
 .TIP h5::before, .WARNING h5::before, .NOTE h5::before {
   display: none;
@@ -1226,7 +1242,6 @@ span.wip {
 .card-deck {
   margin-bottom: 2em;
 }
-
 
 .examples hr {
   margin-bottom: 2em;

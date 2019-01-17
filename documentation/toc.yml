@@ -18,37 +18,45 @@
       - name: Preferences
         href: interface/Preferences.md
       - name: Build Manager
-        href: usage/Building.md
+        href: interface/Build-Manager.md
       - name: Keyboard Shortcuts
         href: interface/Keyboard.md
+  - name: Workflows
+    items:
+    - name: Graph
+      href: workflows/Graph.md
+    - name: Layers
+      href: workflows/Layers.md
+    - name: Sculpt
+      href: workflows/Sculpt.md
 
-- name: Workflows
-  items:
-  - name: Graph
-    href: workflows/Graph.md
-  - name: Layers
-    href: workflows/Layers.md
-  - name: Sculpt
-    href: workflows/Sculpt.md
 - name: Using Gaea
   items:
     - name: Basics of Terrain Design
       href: usage/Basics.md
-    - name: Understanding Resolutions
-      href: usage/Resolutions.md
-    - name: Terrain Scale
-      href: usage/Scale.md
-    - name: Data Maps
-      href: usage/Data-Maps.md
+      items:
+        - name: Your first terrain
+          href: usage/First-Terrain.md
+        - name: Understanding Resolutions
+          href: usage/Resolutions.md
+        - name: Terrain Scale
+          href: usage/Scale.md
     - name: Color Production
       href: usage/Color-Production.md
       items:
-        - name: Using Data Maps
-          href: usage/Color-DataMaps.md
-        - name: Creating Biomes
+        - name: Working with Data Maps
+          href: usage/Data-Maps.md
+        - name: Working with Biomes
           href: usage/Color-Biome.md
-    - name: Tiled Builds
-      href: usage/Tiled-Builds.md
+    - name: Building Terrains
+      href: usage/Building.md
+      items:
+        - name: Tiled Builds
+          href: usage/Tiled-Builds.md
+        - name: Build Swarm
+          href: usage/Build-Swarm.md
+        - name: Creating LODs and Variations
+          href: usage/Variations.md
     - name: Import-Export
       href: usage/Import-Export.md
       items:
@@ -56,10 +64,6 @@
           href: usage/Importing.md
         - name: Exporting Data
           href: usage/Exporting.md
-        - name: Creating LODs and Variations
-          href: usage/Variations.md
-    - name: Build Swarm
-      href: usage/Build-Swarm.md
 
 - name: Misc
   items:
