@@ -112,7 +112,7 @@ table, tr, td, th {
   border: 0 !important;
 }
 
-th{
+th {
   padding: 4px !important;
   font-size: 11px;
   opacity: 0.67;
@@ -534,7 +534,9 @@ body .toc {
   text-decoration: inherit;
 }
 
-.toc .nav>li.active>a {}
+.toc .nav>li.active {
+  padding: 6px;
+}
 
 .toc .nav>li.active>a:hover, .toc .nav>li.active>a:focus {}
 
@@ -1284,4 +1286,14 @@ ol>li:before {
 
 article>p, article>ul>li, article>ol>li {
   max-width: 740px;
+}
+
+/*****************************/
+
+.small-image img {
+  max-width: 450px;
+}
+
+.smaller-image img {
+  max-width: 300px;
 }

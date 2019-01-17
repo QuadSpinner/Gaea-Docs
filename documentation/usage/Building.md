@@ -5,24 +5,38 @@ title: Build Manager
 
 ## Building Terrains
 
-The output from your Graph must be saved to a file in order to use it elsewhere. To do this, you must build the output. When you build the output, Gaea will create it at your target resolution. This may take a while to build depending on the complexity of your graph, and the effects used.
+The output from your project must be saved to a file in order to use it elsewhere. To do this, you must build the output. When you build the output, Gaea will create it at your target resolution. This may take a while to build depending on the complexity of your terrain, and the effects used.
 
-![Mark for save](../images/Build-Progress.png)
+<div class="small-image">
+
+![Mark for save](/images/ui/Build-Progress.png)
+
+This image shows the Build Swarm building your terrain project.
 
 Over the course of a complex project, saving and managing the appropriate outputs can become a tedious task. Managing outputs for several different nodes, especially those with multiple outputs like the Erosion node, can make it even worse.
 
 The Build Manager simplifies how builds are saved, organized, and managed for future use.
 
 ## Mark for Save
-Instead of creating a dedicated "Output" node and then specifying the file to save, you can mark a node for automatic output. Just right-click any node and select "Save".
+Instead of creating a dedicated "Output" node and then specifying the file to save, you can mark a node for automatic output.
 
-![Mark for save](../images/Build-Mark.png)
+
+
+
+![Mark for save](/images/ui/Build-Mark.png)
+
+To mark a node for saving, right-click the node and select Save. You can also use the Graph Toolbar button. In the @LayersMode you can right-click a layer in the Layers List.
+
+![Mark for save](/images/ui/Build-Marked.png)
+
+</div>
+Once a node is marked for saving, it displays this icon underneath the node.
 
 
 ## The Build Manager
 Now when you click Build, instead of firing off a build directly, you will see the Build Manager. The Build Manager gives you easy access to crucial output preferences.
 
-![Mark for save](../images/Build-Manager.png)
+![Mark for save](/images/ui/Build-Manager.png)
 
 The node grid shows you all the nodes marked for output. You can temporarily toggle a node by clicking the color circle in the top left corner of the node. This does not affect the build, only the output. This can be useful when you just want to see a few specific outputs, or you need to go back to rebuild an older project for selective output.
 
@@ -39,7 +53,7 @@ The Location field in the Build Manager provides two built-in options for storin
 
 The first option is the central build repository, which is stored in My Documents\Gaea\Builds\[Filename] by default, but can be changed to any location — even to a local network or an online shared folder with OneDrive, Dropbox, GDrive, etc. This can be useful in team situations.
 
-![Mark for save](../images/Build-ExportedFiles.png)
+![Mark for save](/images/Build-ExportedFiles.png)
 
 The other option is to have it stored alongside the file in a Builds folder. So if your file is called MyTerrain.tor, a folder called MyTerrain_Builds will be placed next to it.
 
@@ -75,3 +89,41 @@ Gaea's Build Manager and Build Stack give you low level version control without 
 The "Save copy of .TOR" option is useful when you want to manage different versions of your actual project file. When turned on, every time your build finishes, a copy of the .tor file in the exact state of that particular build is stored alongside the build output. You can easily go back to any older build state for your file, and save it as new file.
 
 You can also map the folder to almost any modern version control system (Git, Mercurial, Visual Studio Team Services, etc.), or share on a network folder with your team.
+
+
+# Build Swarm
+
+The Build Swarm is the command line building engine for Gaea. Whenever a large scale build is needed, Gaea launches the Build Swarm to build the terrain. You can also launch it manually if needed. The Build Swarm can be found in the Gaea installation folder as `Gaea.Build.exe`.
+
+The Build Swarm writes status messages to StdOut and can be monitored remotely if needed. You MUST use the `--silent` argument when capturing StdOut data otherwise it may overload your application and slow down the build itself.
+
+## Command Line Arguments
+
+> [!NOTE]
+> Gaea uses double dashes `--` instead of a single dash for command line arguments.
+
+Example Command Line:
+```
+"C:\Program Files\QuadSpinner\Gaea\Gaea.Build.exe" "C:\Users\Me\Documents\Gaea\MyFile.tor" 
+```
+
+`--silent` - Disables all non-essential console output.
+
+`--savetor` - Saves a copy of the current file in the build folder.
+
+`--open` - Opens the build folder after the build is complete.
+
+
+*The following functionality is scheduled for inclusion soon.*
+
+`--path PATH` - Override the destination path for the build. PATH must be a legal, non-write-protected path supplied in double quotes. Gaea will attempt to create the folder if possible.
+
+`--var(foo, bar)` - Override the value (bar) of a node property (foo) that has been exposed in the file.
+
+`--format EXT` - Override the default output format. Allowed values are PNG, EXR, PSD, HDR, TIF, RAW. Must be entered in CAPITALS.
+
+`--variant N` - Repeats the build and randomizes the seeds of every node for each build to create variations. Variations are stored in own sub-folder named in the pattern of Var1, Var2, etc.
+
+## Batch Building
+
+## Logs

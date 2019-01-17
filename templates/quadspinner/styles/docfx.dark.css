@@ -219,7 +219,8 @@ tr {
 }
 
 .TIP, .WARNING, .NOTE {
-  background: rgba(255, 255, 255, 0.44) !important;
+  background: #222529 !important;
+  color: #eee;
 }
 
 .NOTE {
@@ -257,7 +258,7 @@ span.wip {
 }
 
 .card {
-  border-color: #1b1e2b;
-  background: #1b1e2b;
+  border-color: #222529;
+  background: #222529;
   color: #eee;
 }

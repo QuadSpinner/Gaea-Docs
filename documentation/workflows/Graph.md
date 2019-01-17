@@ -1,6 +1,6 @@
 ---
 uid: GraphMode
-title: Graph Mode
+title: Graph Workflow
 ---
 
 ## Understanding the Advanced Graph

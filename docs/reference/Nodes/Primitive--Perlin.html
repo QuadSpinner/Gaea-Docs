@@ -1,1 +1,457 @@
-<!DOCTYPE html><!--[if IE]><![endif]--><html><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge,chrome=1"><title>Perlin | QuadSpinner Gaea</title><meta name=viewport content="width=device-width"><meta name=title content="Perlin | QuadSpinner Gaea "><meta name=generator content="docfx 2.40.4.0"><link rel="shortcut icon" href=../../favicon.ico><link rel=stylesheet id=cssv href=../../styles/docfx.vendor.css><link rel=stylesheet id=cssx href=../../styles/docfx.light.css><link rel=stylesheet href=../../styles/docfx.css><link rel=stylesheet href=../../styles/toggle.css><link rel=stylesheet href=../../styles/main.css><script src=https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js></script><meta property=docfx:navrel content=../../toc.html><meta property=docfx:tocrel content=../toc.html><meta property=docfx:rel content="../../"><body data-spy=scroll data-target=#affix data-offset=120><div id=wrapper><header><nav id=autocollapse class="navbar navbar-expand-lg navbar-dark bg-dark ng-scope" role=navigation><div class=navbar-header><button class=navbar-toggler type=button data-toggle=collapse data-target=#navbar aria-controls=navbar aria-expanded=false aria-label="Toggle navigation"> <span class=navbar-toggler-icon></span> </button> <a class=navbar-brand href=../../index.html> <img id=logo class=svg src=../../logo.svg alt=""> </a></div><div class="collapse justify-content-between navbar-collapse" id=navbar><div id=naver></div><form class="my-2 my-lg-0 form-inline justify-content-end" role=search id=search><div class=form-group><input type=text class=form-control id=search-query placeholder=Search autocomplete=off></div></form></div></nav><div class="subnav navbar navbar-default"><div class="container-fluid hide-when-search" id=breadcrumb><ul class=breadcrumb><li></ul></div></div><div class=button-con><label for=cb1> <svg xmlns=http://www.w3.org/2000/svg xmlns:xlink=http://www.w3.org/1999/xlink version=1.1 id=dayIcon x=0px y=0px viewbox="0 0 35 35" style="enable-background:new 0 0 35 35" xml:space=preserve><g id=Sun><g><path style=fill-rule:evenodd;clip-rule:evenodd d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"></path></g></g></svg> </label> <input class=toggle id=cb1 type=checkbox onchange=setStyle()> <label class=toggle-button for=cb1></label> <label for=cb1> <svg xmlns=http://www.w3.org/2000/svg xmlns:xlink=http://www.w3.org/1999/xlink version=1.1 id=nightIcon x=0px y=0px viewbox="0 0 100 100" enable-background="new 0 0 100 100" xml:space=preserve><path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"></path></svg> </label></div></header><div class="container body-content"><div id=search-results><div class=search-list></div><div class=sr-items><p><i class="glyphicon glyphicon-refresh index-loading"></i></div><ul id=pagination></ul></div></div><div role=main class="container-fluid body-content hide-when-search"><div class="sidenav hide-when-search"><a class="btn toc-toggle collapse" data-toggle=collapse href=#sidetoggle aria-expanded=false aria-controls=sidetoggle>Show / Hide Table of Contents</a><div class="sidetoggle collapse" id=sidetoggle><div id=sidetoc></div></div></div><div class="article row grid-right"><div class=col-md-10><div class=container><h4 id=ntitle>Perlin</h4><article class="content wrap" id=_content data-uid=Perlin><span class=wip>This documentation is a work-in-progress and subject to change.</span> <br><br><div class=tabGroup id=tabgroup_CeZOj-G++Q><ul role=tablist><li role=presentation><a href=#tabpanel_CeZOj-G++Q_tabid-a role=tab aria-controls=tabpanel_CeZOj-G++Q_tabid-a data-tab=tabid-a tabindex=0 aria-selected=true>Perlin</a><li role=presentation><a href=#tabpanel_CeZOj-G++Q_tabid-b role=tab aria-controls=tabpanel_CeZOj-G++Q_tabid-b data-tab=tabid-b tabindex=-1>Warp</a></ul><section id=tabpanel_CeZOj-G++Q_tabid-a role=tabpanel data-tab=tabid-a><table><thead><tr><th style=text-align:left>Setting<th style=text-align:left>Values<th style=text-align:left>Description<tbody><tr><td style=text-align:left><strong>Scale</strong><td style=text-align:left>0 - 100%<td style=text-align:left>TODO<tr><td style=text-align:left><strong>Octaves</strong><td style=text-align:left>1 - 14<td style=text-align:left>TODO<tr><td style=text-align:left><strong>Scale X</strong><td style=text-align:left>0.00 - 10.00<td style=text-align:left>TODO<tr><td style=text-align:left><strong>Scale Y</strong><td style=text-align:left>0.00 - 10.00<td style=text-align:left>TODO<tr><td style=text-align:left><strong>Noise</strong><td style=text-align:left>TODO<td style=text-align:left><tr><td style=text-align:left><td style=text-align:left><em>FBM</em><td style=text-align:left>TODO<tr><td style=text-align:left><td style=text-align:left><em>Ridged</em><td style=text-align:left>TODO<tr><td style=text-align:left><td style=text-align:left><em>Billowy</em><td style=text-align:left>TODO<tr><td style=text-align:left><strong>Perturb</strong><td style=text-align:left>TODO<td style=text-align:left><tr><td style=text-align:left><td style=text-align:left><em>None</em><td style=text-align:left>TODO<tr><td style=text-align:left><td style=text-align:left><em>Simple</em><td style=text-align:left>TODO<tr><td style=text-align:left><td style=text-align:left><em>Complex</em><td style=text-align:left>TODO</table></section><section id=tabpanel_CeZOj-G++Q_tabid-b role=tabpanel data-tab=tabid-b aria-hidden=true hidden><table><thead><tr><th style=text-align:left>Setting<th style=text-align:left>Values<th style=text-align:left>Description<tbody><tr><td style=text-align:left><strong>Warp Frequency</strong><td style=text-align:left>0 - 100%<td style=text-align:left>TODO<tr><td style=text-align:left><strong>Warp Amplitude</strong><td style=text-align:left>0 - 100%<td style=text-align:left>TODO<tr><td style=text-align:left><strong>Warp Octaves</strong><td style=text-align:left>1 - 14<td style=text-align:left>TODO<tr><td style=text-align:left><strong>Seed</strong><td style=text-align:left>0 - 128000<td style=text-align:left>The randomization pattern or seed for the node's process.</table></section></div><div class=examples><div class=card-deck><div class=card><img class=card-img-top src=/images/ref/Perlin--Noise000.png><div class=card-footer><ul><li>Noise: <code> FBM</code></ul></div></div><div class=card><img class=card-img-top src=/images/ref/Perlin--Noise001.png><div class=card-footer><ul><li>Noise: <code> Ridged</code></ul></div></div><div class=card><img class=card-img-top src=/images/ref/Perlin--Noise002.png><div class=card-footer><ul><li>Noise: <code> Billowy</code></ul></div></div></div><hr><div class=card-deck><div class=card><img class=card-img-top src=/images/ref/Perlin--Octaves000.png><div class=card-footer><ul><li>Octaves: <code> 1</code></ul></div></div><div class=card><img class=card-img-top src=/images/ref/Perlin--Octaves001.png><div class=card-footer><ul><li>Octaves: <code> 3</code></ul></div></div><div class=card><img class=card-img-top src=/images/ref/Perlin--Octaves002.png><div class=card-footer><ul><li>Octaves: <code> 6</code></ul></div></div></div><hr><div class=card-deck><div class=card><img class=card-img-top src=/images/ref/Perlin--Perturb000.png><div class=card-footer><ul><li>Perturb: <code> None</code></ul></div></div><div class=card><img class=card-img-top src=/images/ref/Perlin--Perturb001.png><div class=card-footer><ul><li>Perturb: <code> Simple</code></ul></div></div><div class=card><img class=card-img-top src=/images/ref/Perlin--Perturb002.png><div class=card-footer><ul><li>Perturb: <code> Complex</code></ul></div></div></div><hr><div class=card-deck><div class=card><img class=card-img-top src=/images/ref/Perlin--Scale000.png><div class=card-footer><ul><li>Scale: <code> 6.63%</code></ul></div></div><div class=card><img class=card-img-top src=/images/ref/Perlin--Scale001.png><div class=card-footer><ul><li>Scale: <code> 48.34%</code></ul></div></div><div class=card><img class=card-img-top src=/images/ref/Perlin--Scale002.png><div class=card-footer><ul><li>Scale: <code> 82.51%</code></ul></div></div></div><hr><div class=card-deck><div class=card><img class=card-img-top src="/images/ref/Perlin--Scale X000.png"><div class=card-footer><ul><li>Scale X: <code> 2.0</code></ul></div></div><div class=card><img class=card-img-top src="/images/ref/Perlin--Scale X001.png"><div class=card-footer><ul><li>Scale X: <code> 5.0</code></ul></div></div><div class=card><img class=card-img-top src="/images/ref/Perlin--Scale X002.png"><div class=card-footer><ul><li>Scale X: <code> 9.0</code></ul></div></div></div><hr><div class=card-deck><div class=card><img class=card-img-top src="/images/ref/Perlin--Scale Y000.png"><div class=card-footer><ul><li>Scale Y: <code> 2.6</code></ul></div></div><div class=card><img class=card-img-top src="/images/ref/Perlin--Scale Y001.png"><div class=card-footer><ul><li>Scale Y: <code> 5.3</code></ul></div></div><div class=card><img class=card-img-top src="/images/ref/Perlin--Scale Y002.png"><div class=card-footer><ul><li>Scale Y: <code> 9.1</code></ul></div></div></div><hr><div class=card-deck><div class=card><img class=card-img-top src="/images/ref/Perlin--Warp Amplitude000.png"><div class=card-footer><ul><li>Warp Amplitude: <code> 17.69%</code></ul></div></div><div class=card><img class=card-img-top src="/images/ref/Perlin--Warp Amplitude001.png"><div class=card-footer><ul><li>Warp Amplitude: <code> 64.42%</code></ul></div></div><div class=card><img class=card-img-top src="/images/ref/Perlin--Warp Amplitude002.png"><div class=card-footer><ul><li>Warp Amplitude: <code> 93.07%</code></ul></div></div></div><hr><div class=card-deck><div class=card><img class=card-img-top src="/images/ref/Perlin--Warp Frequency000.png"><div class=card-footer><ul><li>Warp Frequency: <code> 4.12%</code></ul></div></div><div class=card><img class=card-img-top src="/images/ref/Perlin--Warp Frequency001.png"><div class=card-footer><ul><li>Warp Frequency: <code> 8.14%</code></ul></div></div><div class=card><img class=card-img-top src="/images/ref/Perlin--Warp Frequency002.png"><div class=card-footer><ul><li>Warp Frequency: <code> 11.16%</code></ul></div></div></div><hr><div class=card-deck><div class=card><img class=card-img-top src="/images/ref/Perlin--Warp Octaves000.png"><div class=card-footer><ul><li>Warp Octaves: <code> 2</code></ul></div></div><div class=card><img class=card-img-top src="/images/ref/Perlin--Warp Octaves001.png"><div class=card-footer><ul><li>Warp Octaves: <code> 6</code></ul></div></div><div class=card><img class=card-img-top src="/images/ref/Perlin--Warp Octaves002.png"><div class=card-footer><ul><li>Warp Octaves: <code> 10</code></ul></div></div></div><hr></div></article></div></div><div class="hidden-sm col-md-2" role=complementary><div class=sideaffix><div class=contribution><ul class=nav><li><a href=https://github.com/quadspinner/Gaea-Docs/blob/master/reference/Nodes/Primitive--Perlin.md/#L1 class=contribution-link>Improve this Doc</a></ul></div><nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id=affix> </nav></div></div></div></div><div class="xfot text-right"><div class=container-fluid><small>Copyright &copy; 2018 QuadSpinner. All rights reserved.</small> <span>Generated by <strong>DocFX</strong></span></div></div></div><script src=../../styles/docfx.vendor.js></script><script src=../../styles/docfx.js></script><script src=../../styles/main.js></script>
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Perlin | QuadSpinner Gaea </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Perlin | QuadSpinner Gaea ">
+    <meta name="generator" content="docfx 2.40.4.0">
+    
+    <link rel="shortcut icon" href="../../favicon.ico">
+    <link rel="stylesheet" id="cssv" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" id="cssx" href="../../styles/docfx.light.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/toggle.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="../toc.html">
+    
+    <meta property="docfx:rel" content="../../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar  navbar-expand-lg  navbar-dark bg-dark ng-scope" role="navigation">
+         
+            <div class="navbar-header">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+              
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse justify-content-between navbar-collapse" id="navbar">
+            <div id="naver"></div>
+              <form class="my-2 my-lg-0 form-inline justify-content-end" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+        
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container-fluid hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+        
+          </div>
+        </div>
+        
+        <div class="button-con">
+          <label for='cb1'>
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="dayIcon" x="0px" y="0px" viewbox="0 0 35 35" style="enable-background:new 0 0 35 35;" xml:space="preserve">
+              <g id="Sun">
+                <g>
+                  <path style="fill-rule:evenodd;clip-rule:evenodd;" d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"></path>
+                </g>
+              </g>
+            </svg>
+          </label>
+          <input class='toggle' id='cb1' type='checkbox' onchange="setStyle()">
+          <label class='toggle-button' for='cb1'></label>
+          <label for='cb1'>
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="nightIcon" x="0px" y="0px" viewbox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+              <path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"></path>
+            </svg>
+          </label>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container-fluid body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+          <div class="container">
+                <h4 id="ntitle">Perlin</h4>
+            <article class="content wrap" id="_content" data-uid="Perlin">
+                <span class="wip">This documentation is a work-in-progress and subject to change.</span>
+                <br><br>
+
+<div class="tabGroup" id="tabgroup_CeZOj-G++Q">
+<ul role="tablist">
+<li role="presentation">
+<a href="#tabpanel_CeZOj-G++Q_tabid-a" role="tab" aria-controls="tabpanel_CeZOj-G++Q_tabid-a" data-tab="tabid-a" tabindex="0" aria-selected="true">Perlin</a>
+</li>
+<li role="presentation">
+<a href="#tabpanel_CeZOj-G++Q_tabid-b" role="tab" aria-controls="tabpanel_CeZOj-G++Q_tabid-b" data-tab="tabid-b" tabindex="-1">Warp</a>
+</li>
+</ul>
+<section id="tabpanel_CeZOj-G++Q_tabid-a" role="tabpanel" data-tab="tabid-a">
+
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Setting</th>
+<th style="text-align: left;">Values</th>
+<th style="text-align: left;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>Scale</strong></td>
+<td style="text-align: left;">0 - 100%</td>
+<td style="text-align: left;">TODO</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Octaves</strong></td>
+<td style="text-align: left;">1 - 14</td>
+<td style="text-align: left;">TODO</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Scale X</strong></td>
+<td style="text-align: left;">0.00 - 10.00</td>
+<td style="text-align: left;">TODO</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Scale Y</strong></td>
+<td style="text-align: left;">0.00 - 10.00</td>
+<td style="text-align: left;">TODO</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Noise</strong></td>
+<td style="text-align: left;">TODO</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><em>FBM</em></td>
+<td style="text-align: left;">TODO</td>
+</tr>
+<tr>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><em>Ridged</em></td>
+<td style="text-align: left;">TODO</td>
+</tr>
+<tr>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><em>Billowy</em></td>
+<td style="text-align: left;">TODO</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Perturb</strong></td>
+<td style="text-align: left;">TODO</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><em>None</em></td>
+<td style="text-align: left;">TODO</td>
+</tr>
+<tr>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><em>Simple</em></td>
+<td style="text-align: left;">TODO</td>
+</tr>
+<tr>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><em>Complex</em></td>
+<td style="text-align: left;">TODO</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="tabpanel_CeZOj-G++Q_tabid-b" role="tabpanel" data-tab="tabid-b" aria-hidden="true" hidden="hidden">
+
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Setting</th>
+<th style="text-align: left;">Values</th>
+<th style="text-align: left;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>Warp Frequency</strong></td>
+<td style="text-align: left;">0 - 100%</td>
+<td style="text-align: left;">TODO</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Warp Amplitude</strong></td>
+<td style="text-align: left;">0 - 100%</td>
+<td style="text-align: left;">TODO</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Warp Octaves</strong></td>
+<td style="text-align: left;">1 - 14</td>
+<td style="text-align: left;">TODO</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Seed</strong></td>
+<td style="text-align: left;">0 - 128000</td>
+<td style="text-align: left;">The randomization pattern or seed for the node's process.</td>
+</tr>
+</tbody>
+</table>
+</section>
+</div>
+<div class="examples">
+<div class="card-deck">
+<div class="card">
+<img   class="card-img-top" src="/images/ref/Perlin--Noise000.png" />
+<div class="card-footer"><ul>
+<li>Noise: <code> FBM</code></li>
+</ul></div>
+</div>
+<div class="card">
+<img   class="card-img-top" src="/images/ref/Perlin--Noise001.png" />
+<div class="card-footer"><ul>
+<li>Noise: <code> Ridged</code></li>
+</ul></div>
+</div>
+<div class="card">
+<img   class="card-img-top" src="/images/ref/Perlin--Noise002.png" />
+<div class="card-footer"><ul>
+<li>Noise: <code> Billowy</code></li>
+</ul></div>
+</div>
+</div>
+<hr />
+
+<div class="card-deck">
+<div class="card">
+<img   class="card-img-top" src="/images/ref/Perlin--Octaves000.png" />
+<div class="card-footer"><ul>
+<li>Octaves: <code> 1</code></li>
+</ul></div>
+</div>
+<div class="card">
+<img   class="card-img-top" src="/images/ref/Perlin--Octaves001.png" />
+<div class="card-footer"><ul>
+<li>Octaves: <code> 3</code></li>
+</ul></div>
+</div>
+<div class="card">
+<img   class="card-img-top" src="/images/ref/Perlin--Octaves002.png" />
+<div class="card-footer"><ul>
+<li>Octaves: <code> 6</code></li>
+</ul></div>
+</div>
+</div>
+<hr />
+
+<div class="card-deck">
+<div class="card">
+<img   class="card-img-top" src="/images/ref/Perlin--Perturb000.png" />
+<div class="card-footer"><ul>
+<li>Perturb: <code> None</code></li>
+</ul></div>
+</div>
+<div class="card">
+<img   class="card-img-top" src="/images/ref/Perlin--Perturb001.png" />
+<div class="card-footer"><ul>
+<li>Perturb: <code> Simple</code></li>
+</ul></div>
+</div>
+<div class="card">
+<img   class="card-img-top" src="/images/ref/Perlin--Perturb002.png" />
+<div class="card-footer"><ul>
+<li>Perturb: <code> Complex</code></li>
+</ul></div>
+</div>
+</div>
+<hr />
+
+<div class="card-deck">
+<div class="card">
+<img   class="card-img-top" src="/images/ref/Perlin--Scale000.png" />
+<div class="card-footer"><ul>
+<li>Scale: <code> 6.63%</code></li>
+</ul></div>
+</div>
+<div class="card">
+<img   class="card-img-top" src="/images/ref/Perlin--Scale001.png" />
+<div class="card-footer"><ul>
+<li>Scale: <code> 48.34%</code></li>
+</ul></div>
+</div>
+<div class="card">
+<img   class="card-img-top" src="/images/ref/Perlin--Scale002.png" />
+<div class="card-footer"><ul>
+<li>Scale: <code> 82.51%</code></li>
+</ul></div>
+</div>
+</div>
+<hr />
+
+<div class="card-deck">
+<div class="card">
+<img   class="card-img-top" src="/images/ref/Perlin--Scale X000.png" />
+<div class="card-footer"><ul>
+<li>Scale X: <code> 2.0</code></li>
+</ul></div>
+</div>
+<div class="card">
+<img   class="card-img-top" src="/images/ref/Perlin--Scale X001.png" />
+<div class="card-footer"><ul>
+<li>Scale X: <code> 5.0</code></li>
+</ul></div>
+</div>
+<div class="card">
+<img   class="card-img-top" src="/images/ref/Perlin--Scale X002.png" />
+<div class="card-footer"><ul>
+<li>Scale X: <code> 9.0</code></li>
+</ul></div>
+</div>
+</div>
+<hr />
+
+<div class="card-deck">
+<div class="card">
+<img   class="card-img-top" src="/images/ref/Perlin--Scale Y000.png" />
+<div class="card-footer"><ul>
+<li>Scale Y: <code> 2.6</code></li>
+</ul></div>
+</div>
+<div class="card">
+<img   class="card-img-top" src="/images/ref/Perlin--Scale Y001.png" />
+<div class="card-footer"><ul>
+<li>Scale Y: <code> 5.3</code></li>
+</ul></div>
+</div>
+<div class="card">
+<img   class="card-img-top" src="/images/ref/Perlin--Scale Y002.png" />
+<div class="card-footer"><ul>
+<li>Scale Y: <code> 9.1</code></li>
+</ul></div>
+</div>
+</div>
+<hr />
+
+<div class="card-deck">
+<div class="card">
+<img   class="card-img-top" src="/images/ref/Perlin--Warp Amplitude000.png" />
+<div class="card-footer"><ul>
+<li>Warp Amplitude: <code> 17.69%</code></li>
+</ul></div>
+</div>
+<div class="card">
+<img   class="card-img-top" src="/images/ref/Perlin--Warp Amplitude001.png" />
+<div class="card-footer"><ul>
+<li>Warp Amplitude: <code> 64.42%</code></li>
+</ul></div>
+</div>
+<div class="card">
+<img   class="card-img-top" src="/images/ref/Perlin--Warp Amplitude002.png" />
+<div class="card-footer"><ul>
+<li>Warp Amplitude: <code> 93.07%</code></li>
+</ul></div>
+</div>
+</div>
+<hr />
+
+<div class="card-deck">
+<div class="card">
+<img   class="card-img-top" src="/images/ref/Perlin--Warp Frequency000.png" />
+<div class="card-footer"><ul>
+<li>Warp Frequency: <code> 4.12%</code></li>
+</ul></div>
+</div>
+<div class="card">
+<img   class="card-img-top" src="/images/ref/Perlin--Warp Frequency001.png" />
+<div class="card-footer"><ul>
+<li>Warp Frequency: <code> 8.14%</code></li>
+</ul></div>
+</div>
+<div class="card">
+<img   class="card-img-top" src="/images/ref/Perlin--Warp Frequency002.png" />
+<div class="card-footer"><ul>
+<li>Warp Frequency: <code> 11.16%</code></li>
+</ul></div>
+</div>
+</div>
+<hr />
+
+<div class="card-deck">
+<div class="card">
+<img   class="card-img-top" src="/images/ref/Perlin--Warp Octaves000.png" />
+<div class="card-footer"><ul>
+<li>Warp Octaves: <code> 2</code></li>
+</ul></div>
+</div>
+<div class="card">
+<img   class="card-img-top" src="/images/ref/Perlin--Warp Octaves001.png" />
+<div class="card-footer"><ul>
+<li>Warp Octaves: <code> 6</code></li>
+</ul></div>
+</div>
+<div class="card">
+<img   class="card-img-top" src="/images/ref/Perlin--Warp Octaves002.png" />
+<div class="card-footer"><ul>
+<li>Warp Octaves: <code> 10</code></li>
+</ul></div>
+</div>
+</div>
+<hr />
+
+</div>
+
+</article>
+            </div>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/quadspinner/Gaea-Docs/blob/master/reference/Nodes/Primitive--Perlin.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+        <div class="xfot text-right">
+          <div class="container-fluid">
+            
+            <small>Copyright &copy; 2018 QuadSpinner. All rights reserved.</small> <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+    </div>
+    
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+  </body>
+</html>
