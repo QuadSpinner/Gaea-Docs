@@ -109,12 +109,12 @@ references:
 - uid: Distribution
   name: Distribution
   href: reference/Nodes/Filter--Distribution.html
+- uid: docs-home
+  name: Welcome
+  href: documentation/index.html
 - uid: Double-Plates
   name: Double Plates
   href: quickstarts/Double-Plates.html
-- uid: Draw
-  name: Draw
-  href: reference/Nodes/Primitive--Draw.html
 - uid: Dunes
   name: Dunes
   href: reference/Nodes/Primitive--Dunes.html
@@ -178,6 +178,9 @@ references:
 - uid: Hill-Slope
   name: Hill Slope
   href: quickstarts/Hill-Slope.html
+- uid: homehome
+  name: Documentation Home
+  href: index.html
 - uid: HSL
   name: HSL
   href: reference/Nodes/Color--HSL.html
@@ -415,9 +418,6 @@ references:
 - uid: Uluru-Style-Rock
   name: Uluru Style Rock
   href: quickstarts/Uluru-Style-Rock.html
-- uid: Vector
-  name: Vector
-  href: reference/Nodes/Primitive--Vector.html
 - uid: Velocity
   name: Velocity
   href: reference/Nodes/DataMap--Velocity.html

@@ -1,4 +1,9 @@
-# Documentation
+---
+title: Welcome
+uid: docs-home
+---
+
+# Welcome to the Gaea Documentation
 
 The documentation is organized to help you get started with Gaea quickly and easily regardless of your skill level.
 

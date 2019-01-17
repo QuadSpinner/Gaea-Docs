@@ -14,7 +14,7 @@ title: Breaker
 | Setting         | Values     | Description                                                                |
 | :-------------- | :--------- | :------------------------------------------------------------------------- |
 | **Seed**        | 0 - 128000 | TODO                                                                      |
-| **Hard Cracks** | On / Off   | TODO ipsum                                                                |
+| **Hard Cracks** | On / Off   | TODO                                                                |
 | **Mode**        |            |
 |                 | *Fast*     | Processes faster, but may not always result in the same pattern of cracks. |
 |                 | *Accurate* | Processes a bit slower, but ensures the pattern remains the same.          |

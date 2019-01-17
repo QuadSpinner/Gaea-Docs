@@ -8,9 +8,9 @@ Biome uses a water map (like FlowMap or the Erosion node’s Flow output) to cre
 # [Biomes](#tab/tabid-a)
 | Setting                        | Values      | Description                                               |
 | :----------------------------- | :---------- | :-------------------------------------------------------- |
-| **Allow Highlands**            | On / Off    | TODO ipsum                                               |
-| **Allow Midlands**             | On / Off    | TODO ipsum                                               |
-| **Allow Lowlands**             | On / Off    | TODO ipsum                                               |
+| **Allow Highlands**            | On / Off    | TODO                                               |
+| **Allow Midlands**             | On / Off    | TODO                                               |
+| **Allow Lowlands**             | On / Off    | TODO                                               |
 | **Highlands**                  | 0 - 100% | TODO                                                     |
 | **Midlands**                   | 0 - 100% | TODO                                                     |
 | **Lowlands**                   | 0 - 100% | TODO                                                     |

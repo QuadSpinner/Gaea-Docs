@@ -22,7 +22,7 @@ Gaea introduces a comprehensive erosion node, simply called Erosion. It provides
 # [Scale](#tab/tabid-c)
 | Setting           | Values      | Description |
 | :---------------- | :---------- | :---------- |
-| **Real Scale**    | On / Off    | TODO ipsum |
+| **Real Scale**    | On / Off    | TODO |
 | **Feature Scale** | 50 - 20000  | TODO       |
 | **Terrain Scale** | 500 - 20000 | TODO       |
 | **Verticality**   | 50 - 20000  | TODO       |
@@ -32,8 +32,8 @@ Gaea introduces a comprehensive erosion node, simply called Erosion. It provides
 | :--------- | :---------- | :---------- |
 | **Volume** | 0 - 100% | TODO       |
 | **Debris** | 0 - 100% | TODO       |
-| **Rivers** | On / Off    | TODO ipsum |
-| **Depth**  | 0 - 100% | TODO ipsum |
+| **Rivers** | On / Off    | TODO |
+| **Depth**  | 0 - 100% | TODO |
 
 # [Other Settings](#tab/tabid-e)
 | Setting         | Values                 | Description                                               |
