@@ -156,6 +156,10 @@ Once a node is marked for saving, it displays this icon underneath the node.
 <p>The &quot;Save copy of .TOR&quot; option is useful when you want to manage different versions of your actual project file. When turned on, every time your build finishes, a copy of the .tor file in the exact state of that particular build is stored alongside the build output. You can easily go back to any older build state for your file, and save it as new file.</p>
 <p>You can also map the folder to almost any modern version control system (Git, Mercurial, Visual Studio Team Services, etc.), or share on a network folder with your team.</p>
 <h1 id="build-swarm">Build Swarm</h1>
+<div class="WARNING">
+<h5>Warning</h5>
+<p>Using the Build Swarm manually or through automation is recommended for advanced users only.</p>
+</div>
 <p>The Build Swarm is the command line building engine for Gaea. Whenever a large scale build is needed, Gaea launches the Build Swarm to build the terrain. You can also launch it manually if needed. The Build Swarm can be found in the Gaea installation folder as <code>Gaea.Build.exe</code>.</p>
 <p>The Build Swarm writes status messages to StdOut and can be monitored remotely if needed. You MUST use the <code>--silent</code> argument when capturing StdOut data otherwise it may overload your application and slow down the build itself.</p>
 <h2 id="command-line-arguments">Command Line Arguments</h2>
@@ -164,7 +168,7 @@ Once a node is marked for saving, it displays this icon underneath the node.
 <p>Gaea uses double dashes <code>--</code> instead of a single dash for command line arguments.</p>
 </div>
 <p>Example Command Line:</p>
-<pre><code>&quot;C:\Program Files\QuadSpinner\Gaea\Gaea.Build.exe&quot; &quot;C:\Users\Me\Documents\Gaea\MyFile.tor&quot; 
+<pre><code class="lang-bat">&quot;C:\Program Files\QuadSpinner\Gaea\Gaea.Build.exe&quot; &quot;C:\Users\Me\Documents\Gaea\MyFile.tor&quot; 
 </code></pre>
 <p><code>--silent</code> - Disables all non-essential console output.</p>
 <p><code>--savetor</code> - Saves a copy of the current file in the build folder.</p>

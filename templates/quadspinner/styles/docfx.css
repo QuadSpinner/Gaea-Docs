@@ -148,23 +148,13 @@ h4, .h4, h5, .h5, h6, .h6 {
   position: relative;
 }
 
-/* blends header footer and content together with gradient effect */
-
 .grad-top {
-  /* For Safari 5.1 to 6.0 */
-  /* For Opera 11.1 to 12.0 */
-  /* For Firefox 3.6 to 15 */
   background: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0));
-  /* Standard syntax */
   height: 5px;
 }
 
 .grad-bottom {
-  /* For Safari 5.1 to 6.0 */
-  /* For Opera 11.1 to 12.0 */
-  /* For Firefox 3.6 to 15 */
-  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.05));
-  /* Standard syntax */
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.05));  
   height: 5px;
 }
 
@@ -172,7 +162,6 @@ h4, .h4, h5, .h5, h6, .h6 {
   margin: 0 5px;
 }
 
-hr {}
 
 header {
   position: fixed;
@@ -196,17 +185,18 @@ header .navbar {
   margin: 0 -15px;
 }
 
-.subnav {}
 
 .inheritance h5, .inheritedMembers h5 {
   padding-bottom: 5px;
 }
 
 article h1, article h2, article h3, article h4 {
-  margin-top: 25px;
+  margin-top: 3em;
 }
 
-article h4 {}
+article h1:first-child {
+  margin-top: 1em !important;
+}
 
 article span.small.pull-right {
   margin-top: 20px;
@@ -437,10 +427,6 @@ article section {
   font-size: 13px;
 }
 
-.pagination>li>a {}
-
-.pagination>.active>a {}
-
 .fixed_header {
   position: fixed;
   width: 100%;
@@ -457,7 +443,6 @@ article section {
   margin-left: 0;
 }
 
-.sidenav, .fixed_header, .toc {}
 
 .sidetoc {
   position: fixed;
@@ -537,8 +522,6 @@ body .toc {
 .toc .nav>li.active {
   padding: 6px;
 }
-
-.toc .nav>li.active>a:hover, .toc .nav>li.active>a:focus {}
 
 .toc .nav>li>.expand-stub {
   cursor: pointer;
@@ -689,7 +672,6 @@ body .toc {
   font-size: 14px;
 }
 
-.sideaffix>div.contribution>ul>li>a.contribution-link:hover {}
 
 .sideaffix .nav {
   display: block !important;
@@ -735,15 +717,28 @@ body .toc {
   margin-left: 18px;
 }
 
-/* .affix ul>li>a {
-  border-left: 1px solid #aaa393;
-} */
+.affix .level2 li::before, .affix .level3 li::before, .affix .level4 li::before, .affix .level5 li::before {
+  content: '↳' !important;
+  position: relative;
+  left: 10px;
+  color: #aaa;
+}
+
+.affix .level3 li::before {
+  opacity: 0.75;
+}
+
+.affix .level4 li::before, .affix .level5 li::before {
+  opacity: 0.5;
+}
 
 .affix ul>li>a:hover {
   background: none;
 }
 
-.affix ul>li.active>a, .affix ul>li.active>a:before {}
+.affix ul>li.active>a:before {
+  content: "|";
+}
 
 .affix ul>li>a {
   padding: 5px 12px;
@@ -753,7 +748,6 @@ body .toc {
   margin-bottom: 50px;
 }
 
-.affix a:hover {}
 
 .affix>ul>li.active>a, .affix>ul>li.active>a:before {
   content: "|";
@@ -766,13 +760,7 @@ body .toc {
   padding: 2px 15px;
 }
 
-/* .affix ul ul>li>a:before {
-  content: ">";
-  font-size: 14px;
-  position: absolute;
-  top: -1px;
-  left: 5px;
-} */
+
 
 .affix ul>li>a:before, .affix ul ul {
   display: none;
@@ -807,7 +795,6 @@ body .toc {
   display: none;
 }
 
-.tryspan:hover {}
 
 .codewrapper:hover .tryspan {
   display: block;
@@ -931,10 +918,6 @@ body .toc {
   }
 }
 
-/* For code snippet line highlight */
-
-pre>code .line-highlight {}
-
 /* Alerts */
 
 .alert h5 {
@@ -1031,18 +1014,7 @@ div.embeddedvideo iframe {
   margin-bottom: -1px;
 }
 
-.tabGroup a[role="tab"]:hover {}
 
-.tabGroup a[role="tab"][aria-selected="true"] {}
-
-.tabGroup a[role="tab"][aria-selected="true"] {}
-
-.tabGroup a[role="tab"]:hover {}
-
-/* .tabGroup a[role="tab"]:focus {
-  outline: 1px solid #0050C5;
-  outline-offset: -1px;
-} */
 
 @media (min-width: 768px) {
   .tabGroup a[role="tab"] {
@@ -1170,7 +1142,6 @@ table:not(.example) tr td:nth-child(2) {
   width: inherit !important;
 }
 
-tr {}
 
 /* tr td:nth-child(2) em::before{
   content: '>';
@@ -1203,7 +1174,6 @@ table:not(.example) tr td:nth-child(2) em {
   padding-left: 30px;
 }
 
-.NOTE {}
 
 .TIP h5::before, .WARNING h5::before, .NOTE h5::before {
   display: none;
@@ -1251,7 +1221,6 @@ span.wip {
   margin-bottom: 2em;
 }
 
-.card-footer {}
 
 .examples hr {
   margin-bottom: 2em;
@@ -1296,8 +1265,4 @@ article>p, article>ul>li, article>ol>li {
 
 .smaller-image img {
   max-width: 300px;
-}
-
-article h1, article h2, article h3, article h4{
-  margin-top: 2em !important;
 }

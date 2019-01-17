@@ -95,6 +95,9 @@ You can also map the folder to almost any modern version control system (Git, Me
 
 # Build Swarm
 
+> [!WARNING]
+> Using the Build Swarm manually or through automation is recommended for advanced users only.
+
 The Build Swarm is the command line building engine for Gaea. Whenever a large scale build is needed, Gaea launches the Build Swarm to build the terrain. You can also launch it manually if needed. The Build Swarm can be found in the Gaea installation folder as `Gaea.Build.exe`.
 
 The Build Swarm writes status messages to StdOut and can be monitored remotely if needed. You MUST use the `--silent` argument when capturing StdOut data otherwise it may overload your application and slow down the build itself.
@@ -105,7 +108,7 @@ The Build Swarm writes status messages to StdOut and can be monitored remotely i
 > Gaea uses double dashes `--` instead of a single dash for command line arguments.
 
 Example Command Line:
-```
+```bat
 "C:\Program Files\QuadSpinner\Gaea\Gaea.Build.exe" "C:\Users\Me\Documents\Gaea\MyFile.tor" 
 ```
 
