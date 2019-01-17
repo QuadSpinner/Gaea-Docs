@@ -5,10 +5,10 @@ title: Threshold
 
 | Setting      | Values      | Description |
 | :----------- | :---------- | :---------- |
-| **Scale**    | 0.00 - 0.50 | Lorem       |
-| **Bias**     | 0.00 - 0.50 | Lorem       |
-| **Adaptive** | On / Off    | Lorem ipsum |
-| **Invert**   | On / Off    | Lorem ipsum |
+| **Scale**    | 0.00 - 0.50 | TODO       |
+| **Bias**     | 0.00 - 0.50 | TODO       |
+| **Adaptive** | On / Off    | TODO ipsum |
+| **Invert**   | On / Off    | TODO ipsum |
 
 
 

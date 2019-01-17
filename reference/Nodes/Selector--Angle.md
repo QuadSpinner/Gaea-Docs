@@ -5,10 +5,10 @@ title: Angle
 
 | Setting     | Values      | Description |
 | :---------- | :---------- | :---------- |
-| **Azimuth** | 0 - 360     | Lorem       |
-| **Min**     | 0 - 100% | Lorem       |
-| **Max**     | 0 - 100% | Lorem       |
-| **Falloff** | 0 - 100% | Lorem       |
+| **Azimuth** | 0 - 360     | TODO       |
+| **Min**     | 0 - 100% | TODO       |
+| **Max**     | 0 - 100% | TODO       |
+| **Falloff** | 0 - 100% | TODO       |
 
 
 

@@ -9,15 +9,15 @@ title: Noise
 | **Iterations** | 1 - 50      | The number of noise iterations performed on the terrain.  |
 | **Method**     |             |
 |                | *Random*    | Random dots.                                              |
-|                | *Gaussian*  | Lorem                                                     |
-|                | *Poisson*   | Lorem                                                     |
+|                | *Gaussian*  | TODO                                                     |
+|                | *Poisson*   | TODO                                                     |
 |                | *Impulse*   | Sharp, strong spikes.                                    |
-|                | *Laplacian* | Lorem                                                     |
-| **Level**      | Lorem       |
-|                | *None*      | Lorem                                                     |
-|                | *Level*     | Lorem                                                     |
-|                | *Equalize*  | Lorem                                                     |
-|                | *Gamma*     | Lorem                                                     |
+|                | *Laplacian* | TODO                                                     |
+| **Level**      | TODO       |
+|                | *None*      | TODO                                                     |
+|                | *Level*     | TODO                                                     |
+|                | *Equalize*  | TODO                                                     |
+|                | *Gamma*     | TODO                                                     |
 | **Seed**       | 0 - 128000  | The randomization pattern or seed for the node's process. |
 
 

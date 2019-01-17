@@ -7,10 +7,10 @@ The Coast node creates a coastal region on the terrain. The coast can be either 
 
 | Setting         | Values      | Description |
 | :-------------- | :---------- | :---------- |
-| **Intensity**   | 0 - 100% | Lorem       |
-| **Water Level** | 0 - 100% | Lorem       |
-| **Beach Size**  | 0.00 - 0.10 | Lorem       |
-| **Transition**  | 0.00 - 0.10 | Lorem       |
+| **Intensity**   | 0 - 100% | TODO       |
+| **Water Level** | 0 - 100% | TODO       |
+| **Beach Size**  | 0.00 - 0.10 | TODO       |
+| **Transition**  | 0.00 - 0.10 | TODO       |
 
 
 

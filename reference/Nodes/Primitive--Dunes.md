@@ -5,8 +5,8 @@ title: Dunes
 
 | Setting   | Values      | Description |
 | :-------- | :---------- | :---------- |
-| **Scale** | 0 - 100% | Lorem ipsum |
-| **Seed**  | 0 - 128000  | Lorem ipsum |
+| **Scale** | 0 - 100% | TODO ipsum |
+| **Seed**  | 0 - 128000  | TODO ipsum |
 
 ***
 

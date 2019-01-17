@@ -7,7 +7,7 @@
   "reference/Nodes/Primitive--SlopeNoise.html": {
     "href": "reference/Nodes/Primitive--SlopeNoise.html",
     "title": "SlopeNoise | QuadSpinner Gaea",
-    "keywords": "This documentation is a work-in-progress and subject to change. SlopeNoise is a unique primitive specifically for creating expansive sloping terrains. SlopeNoise's internal noise distortions create a shape that is very conducive to strong, flowing erosion. Setting Values Description Scale 0 - 100% Lorem Displacement 0.04 - 0.40 Lorem Direction 0 - 360 Lorem Seed 0 - 128000 The randomization pattern or seed for the node's process. SlopeNoise is fantastic for medium range or close-up scenes, where you want to dramatically show the scale and height of the slope. <!--examples-->"
+    "keywords": "This documentation is a work-in-progress and subject to change. SlopeNoise is a unique primitive specifically for creating expansive sloping terrains. SlopeNoise's internal noise distortions create a shape that is very conducive to strong, flowing erosion. Setting Values Description Scale 0 - 100% TODO Displacement 0.04 - 0.40 TODO Direction 0 - 360 TODO Seed 0 - 128000 The randomization pattern or seed for the node's process. SlopeNoise is fantastic for medium range or close-up scenes, where you want to dramatically show the scale and height of the slope. <!--examples-->"
   },
   "reference/Nodes/Primitive--Resource.html": {
     "href": "reference/Nodes/Primitive--Resource.html",
@@ -37,7 +37,7 @@
   "reference/Nodes/Adjustment--BiasGain.html": {
     "href": "reference/Nodes/Adjustment--BiasGain.html",
     "title": "BiasGain | QuadSpinner Gaea",
-    "keywords": "This documentation is a work-in-progress and subject to change. Setting Values Description Intensity -1.00 - 1.00 Lorem Bias -1.00 - 1.00 Lorem <!--examples-->"
+    "keywords": "This documentation is a work-in-progress and subject to change. Setting Values Description Intensity -1.00 - 1.00 TODO Bias -1.00 - 1.00 TODO <!--examples-->"
   },
   "documentation/Resolutions.html": {
     "href": "documentation/Resolutions.html",
@@ -82,37 +82,37 @@
   "reference/Nodes/Filter--Apex.html": {
     "href": "reference/Nodes/Filter--Apex.html",
     "title": "Apex | QuadSpinner Gaea",
-    "keywords": "This documentation is a work-in-progress and subject to change. Apex uses Euclidean distancing (the same function used to create the Voronoi pattern) to take any heightfield and turn it into a stark, pyramid-like mountain chain. It requires a terrain with a large difference between the highest and lowest points. Setting Values Description Mode Lorem Distance Lorem Slant Lorem Steepness 0 - 100% Lorem A 0 - 100% Lorem B 0 - 100% Lorem Angle 0 - 360 Lorem <!--examples-->"
+    "keywords": "This documentation is a work-in-progress and subject to change. Apex uses Euclidean distancing (the same function used to create the Voronoi pattern) to take any heightfield and turn it into a stark, pyramid-like mountain chain. It requires a terrain with a large difference between the highest and lowest points. Setting Values Description Mode TODO Distance TODO Slant TODO Steepness 0 - 100% TODO A 0 - 100% TODO B 0 - 100% TODO Angle 0 - 360 TODO <!--examples-->"
   },
   "reference/Nodes/Erosion--MicroErosion.html": {
     "href": "reference/Nodes/Erosion--MicroErosion.html",
     "title": "MicroErosion | QuadSpinner Gaea",
-    "keywords": "This documentation is a work-in-progress and subject to change. Setting Values Description Iterations 25 - 30 Lorem Strength 0.00 - 0.05 Lorem <!--examples-->"
+    "keywords": "This documentation is a work-in-progress and subject to change. Setting Values Description Iterations 25 - 30 TODO Strength 0.00 - 0.05 TODO <!--examples-->"
   },
   "reference/Nodes/Erosion--Landform.html": {
     "href": "reference/Nodes/Erosion--Landform.html",
     "title": "Landform | QuadSpinner Gaea",
-    "keywords": "This documentation is a work-in-progress and subject to change. Setting Values Description Iterations 1 - 15 Lorem Erosion Power 5 - 1000 Lorem Displacement 0.04 - 0.40 Lorem Degrees 0 - 360 Lorem Seed 0 - 128000 The randomization pattern or seed for the node's process. <!--examples-->"
+    "keywords": "This documentation is a work-in-progress and subject to change. Setting Values Description Iterations 1 - 15 TODO Erosion Power 5 - 1000 TODO Displacement 0.04 - 0.40 TODO Degrees 0 - 360 TODO Seed 0 - 128000 The randomization pattern or seed for the node's process. <!--examples-->"
   },
   "reference/Nodes/DataMap--Velocity.html": {
     "href": "reference/Nodes/DataMap--Velocity.html",
     "title": "Velocity | QuadSpinner Gaea",
-    "keywords": "This documentation is a work-in-progress and subject to change. Setting Values Description Duration 0 - 700 Lorem Rain 10 - 400 Lorem Reach Low 0 - 100 Lorem Reach High 0 - 2000 Lorem Velocity Low 0 - 100 Lorem Velocity High 0 - 2000 Lorem Angle 0 - 180 Lorem <!--examples-->"
+    "keywords": "This documentation is a work-in-progress and subject to change. Setting Values Description Duration 0 - 700 TODO Rain 10 - 400 TODO Reach Low 0 - 100 TODO Reach High 0 - 2000 TODO Velocity Low 0 - 100 TODO Velocity High 0 - 2000 TODO Angle 0 - 180 TODO <!--examples-->"
   },
   "reference/Nodes/DataMap--Surfacer.html": {
     "href": "reference/Nodes/DataMap--Surfacer.html",
     "title": "Surfacer | QuadSpinner Gaea",
-    "keywords": "This documentation is a work-in-progress and subject to change. Surfacer provides several types of texturing primitives. It should not be used by itself. Instead, multiple Surfacers' output should be combined to create a sophisticated texture mask, and can also be combined with other complex texture masks, such as the Data Maps. Setting Values Description Mode Sprinkling Noisy convexity mask. Peaks Slope deposits mask. Sliders Lorem Splotches Random splotches on the terrain based on neighboring terrain structures. Trace Traces the most prominent shapes on the terrain. Wind Streaks Masks areas where winds would swipe across structures. Useful for weathering. Strength 0 - 100% The strength of the mask. <!--examples-->"
+    "keywords": "This documentation is a work-in-progress and subject to change. Surfacer provides several types of texturing primitives. It should not be used by itself. Instead, multiple Surfacers' output should be combined to create a sophisticated texture mask, and can also be combined with other complex texture masks, such as the Data Maps. Setting Values Description Mode Sprinkling Noisy convexity mask. Peaks Slope deposits mask. Sliders TODO Splotches Random splotches on the terrain based on neighboring terrain structures. Trace Traces the most prominent shapes on the terrain. Wind Streaks Masks areas where winds would swipe across structures. Useful for weathering. Strength 0 - 100% The strength of the mask. <!--examples-->"
   },
   "reference/Nodes/Color--CLUTer.html": {
     "href": "reference/Nodes/Color--CLUTer.html",
     "title": "CLUTer | QuadSpinner Gaea",
-    "keywords": "This documentation is a work-in-progress and subject to change. Coloration in Gaea is based on CLUTs, or color lookup tables. As 2D heightfields are essentially a grid of numbers ranging from 0.0 (lowest) to 1.0 (highest), CLUTs are represented as gradients which are mapped to those heights. The lowest part of a gradient corresponds to the lowest part of the terrain. The highest part of a gradient corresponds to the highest part of the terrain. Everything in between is evenly distributed. The CLUTer nodes let you take any grayscale input (such as Curvature , Slope , @Surface, @flow) and map it onto a gradient. Gradient Editor Click anywhere in the gradient to create a new stop. Drag the stop to position it. Select the stop and press DEL to delete the stop. Pre-Process Post-Process Setting Values Description Input Noise 0 - 100% Introduces noise to the incoming grayscale map. Input Clarity On / Off Applies localized contrast enhancements to the incoming map. Input Auto Level On / Off Applies an autolevels filter to the incoming map. Reverse On / Off Reverses the mapping of the gradient. Setting Values Description Color Noise 0 - 100% Introduces minor color distortions to the map. Output Clarity On / Off Applies localized contrast enhancements to the output texture. Output Auto Level On / Off Applies an autolevels filter to the output texture. Data Filename Lorem ipsum Magick Filename Lorem ipsum Tip You can use Input Clarity instead of interjecting an Autolevels node to the graph. In this example, a @flow is mapped by CLUTer to create basic texture map. For general information on creating color textures, see Color Production . <!--examples-->"
+    "keywords": "This documentation is a work-in-progress and subject to change. Coloration in Gaea is based on CLUTs, or color lookup tables. As 2D heightfields are essentially a grid of numbers ranging from 0.0 (lowest) to 1.0 (highest), CLUTs are represented as gradients which are mapped to those heights. The lowest part of a gradient corresponds to the lowest part of the terrain. The highest part of a gradient corresponds to the highest part of the terrain. Everything in between is evenly distributed. The CLUTer nodes let you take any grayscale input (such as Curvature , Slope , @Surface, @flow) and map it onto a gradient. Gradient Editor Click anywhere in the gradient to create a new stop. Drag the stop to position it. Select the stop and press DEL to delete the stop. Pre-Process Post-Process Setting Values Description Input Noise 0 - 100% Introduces noise to the incoming grayscale map. Input Clarity On / Off Applies localized contrast enhancements to the incoming map. Input Auto Level On / Off Applies an autolevels filter to the incoming map. Reverse On / Off Reverses the mapping of the gradient. Setting Values Description Color Noise 0 - 100% Introduces minor color distortions to the map. Output Clarity On / Off Applies localized contrast enhancements to the output texture. Output Auto Level On / Off Applies an autolevels filter to the output texture. Data Filename TODO ipsum Magick Filename TODO ipsum Tip You can use Input Clarity instead of interjecting an Autolevels node to the graph. In this example, a @flow is mapped by CLUTer to create basic texture map. For general information on creating color textures, see Color Production . <!--examples-->"
   },
   "reference/Nodes/Adjustment--Transform.html": {
     "href": "reference/Nodes/Adjustment--Transform.html",
     "title": "Transform | QuadSpinner Gaea",
-    "keywords": "This documentation is a work-in-progress and subject to change. Transform allows you to move, rotate, and scale any terrain. The Transform node can be implemented at any point in your graph as it is a post-process effect. Setting Values Description X / Y 0 - 100% The location of the terrain. Scale 0 - 100% The size of the terrain. Angle 0 - 360 The angle of rotation of the terrain. Mirror Edges On / Off Lorem ipsum Tip If your terrain has a hard edge, try using the Zero Borders node before applying the Transform node. <!--examples-->"
+    "keywords": "This documentation is a work-in-progress and subject to change. Transform allows you to move, rotate, and scale any terrain. The Transform node can be implemented at any point in your graph as it is a post-process effect. Setting Values Description X / Y 0 - 100% The location of the terrain. Scale 0 - 100% The size of the terrain. Angle 0 - 360 The angle of rotation of the terrain. Mirror Edges On / Off TODO ipsum Tip If your terrain has a hard edge, try using the Zero Borders node before applying the Transform node. <!--examples-->"
   },
   "reference/Nodes/Adjustment--Gamma.html": {
     "href": "reference/Nodes/Adjustment--Gamma.html",
@@ -122,12 +122,12 @@
   "reference/Nodes/Adjustment--Denoise.html": {
     "href": "reference/Nodes/Adjustment--Denoise.html",
     "title": "Denoise | QuadSpinner Gaea",
-    "keywords": "This documentation is a work-in-progress and subject to change. Denoise is a general purpose noise removal filter. A single iteration is appropriate in most cases. For extremely noisy terrains that require several passes, it is recommended that the desired area be masked to protect the rest of the terrain from losing important details. Setting Values Description Strength 0 - 100% Lorem Type Denoise Denoise systematically cleans up random noise, spikes, and extremely sharp edges. Despeckle Despeckle cleans areas in which noise is noticeable, while leaving complex areas untouched. The noise is reduced without severely affecting contours. <!--examples-->"
+    "keywords": "This documentation is a work-in-progress and subject to change. Denoise is a general purpose noise removal filter. A single iteration is appropriate in most cases. For extremely noisy terrains that require several passes, it is recommended that the desired area be masked to protect the rest of the terrain from losing important details. Setting Values Description Strength 0 - 100% TODO Type Denoise Denoise systematically cleans up random noise, spikes, and extremely sharp edges. Despeckle Despeckle cleans areas in which noise is noticeable, while leaving complex areas untouched. The noise is reduced without severely affecting contours. <!--examples-->"
   },
   "reference/Nodes/Adjustment--Blur.html": {
     "href": "reference/Nodes/Adjustment--Blur.html",
     "title": "Blur | QuadSpinner Gaea",
-    "keywords": "This documentation is a work-in-progress and subject to change. Setting Values Description Power 0.10 - 10.00 Lorem Sigma 0.10 - 10.00 Lorem Direction 0 - 360 Lorem Type Lorem Fast Lorem Gaussian Lorem Radial Lorem Motion Lorem Smooth Lorem <!--examples-->"
+    "keywords": "This documentation is a work-in-progress and subject to change. Setting Values Description Power 0.10 - 10.00 TODO Sigma 0.10 - 10.00 TODO Direction 0 - 360 TODO Type TODO Fast TODO Gaussian TODO Radial TODO Motion TODO Smooth TODO <!--examples-->"
   },
   "reference/index.html": {
     "href": "reference/index.html",
@@ -207,22 +207,22 @@
   "reference/Nodes/Primitive--Voronoi+.html": {
     "href": "reference/Nodes/Primitive--Voronoi+.html",
     "title": "Voronoi+ | QuadSpinner Gaea",
-    "keywords": "This documentation is a work-in-progress and subject to change. Setting Values Description Iterations 1 - 30 Lorem ipsum Noisy Edges On / Off Lorem ipsum Strength 0.02 - 0.80 Lorem ipsum Density 0.02 - 0.50 Lorem ipsum Seed 0 - 128000 Lorem ipsum You can also use @\"voronoi.md\" <!--examples-->"
+    "keywords": "This documentation is a work-in-progress and subject to change. Setting Values Description Iterations 1 - 30 TODO ipsum Noisy Edges On / Off TODO ipsum Strength 0.02 - 0.80 TODO ipsum Density 0.02 - 0.50 TODO ipsum Seed 0 - 128000 TODO ipsum You can also use @\"voronoi.md\" <!--examples-->"
   },
   "reference/Nodes/Primitive--Vector.html": {
     "href": "reference/Nodes/Primitive--Vector.html",
     "title": "Vector | QuadSpinner Gaea",
-    "keywords": "This documentation is a work-in-progress and subject to change. Setting Values Description Vector Filename Lorem ipsum Peak On / Off Lorem ipsum Distort On / Off Lorem ipsum Distort Amount 0 - 100% Lorem ipsum Smooth On / Off Lorem ipsum Invert On / Off Lorem ipsum <!--examples-->"
+    "keywords": "This documentation is a work-in-progress and subject to change. Setting Values Description Vector Filename TODO ipsum Peak On / Off TODO ipsum Distort On / Off TODO ipsum Distort Amount 0 - 100% TODO ipsum Smooth On / Off TODO ipsum Invert On / Off TODO ipsum <!--examples-->"
   },
   "reference/Nodes/Primitive--Dunes.html": {
     "href": "reference/Nodes/Primitive--Dunes.html",
     "title": "Dunes | QuadSpinner Gaea",
-    "keywords": "This documentation is a work-in-progress and subject to change. Setting Values Description Scale 0 - 100% Lorem ipsum Seed 0 - 128000 Lorem ipsum <!--examples-->"
+    "keywords": "This documentation is a work-in-progress and subject to change. Setting Values Description Scale 0 - 100% TODO ipsum Seed 0 - 128000 TODO ipsum <!--examples-->"
   },
   "reference/Nodes/Primitive--Draw.html": {
     "href": "reference/Nodes/Primitive--Draw.html",
     "title": "Draw | QuadSpinner Gaea",
-    "keywords": "This documentation is a work-in-progress and subject to change. Setting Values Description Strokes Filename Lorem ipsum SVG Filename Lorem ipsum Curve 0 - 100% Lorem ipsum Blur 0 - 100% Lorem ipsum Height 0 - 100% Lorem ipsum <!--examples-->"
+    "keywords": "This documentation is a work-in-progress and subject to change. Setting Values Description Strokes Filename TODO ipsum SVG Filename TODO ipsum Curve 0 - 100% TODO ipsum Blur 0 - 100% TODO ipsum Height 0 - 100% TODO ipsum <!--examples-->"
   },
   "reference/Nodes/Filter--Repulse.html": {
     "href": "reference/Nodes/Filter--Repulse.html",
@@ -247,7 +247,7 @@
   "reference/Nodes/Filter--Bomber.html": {
     "href": "reference/Nodes/Filter--Bomber.html",
     "title": "Bomber | QuadSpinner Gaea",
-    "keywords": "This documentation is a work-in-progress and subject to change. Setting Values Description Distribution The method of distribution Random A randomized distribution that results in pure chaotic patterns. Poisson A discrete probability distribution function that results in a natural distribution. Grid A normalized grid distribution function that results in a systematic pattern. Clusters 1 - 30 The number of independent distribution clusters. Density 0.10 - 0.90 The density of the independent clusters, and the instances within each cluster. Strength 0 - 100 Lorem Jitter 0.00 - 0.20 The random offset applied to each instance while distributing. Minimum Scale 0 - 100% The smallest randomized instance size. Maximum Scale 0 - 100% The largest randomized instance size. Minimum Rotation 0 - 360 The minimum randomized rotation angle. Maximum Rotation 0 - 360 The maximum randomized rotation angle. Seed 0 - 128000 The randomization pattern or seed for the node's process. If your terrain has a hard edge, try using the Zero Borders node before applying the Bomber node. <!--examples-->"
+    "keywords": "This documentation is a work-in-progress and subject to change. Setting Values Description Distribution The method of distribution Random A randomized distribution that results in pure chaotic patterns. Poisson A discrete probability distribution function that results in a natural distribution. Grid A normalized grid distribution function that results in a systematic pattern. Clusters 1 - 30 The number of independent distribution clusters. Density 0.10 - 0.90 The density of the independent clusters, and the instances within each cluster. Strength 0 - 100 TODO Jitter 0.00 - 0.20 The random offset applied to each instance while distributing. Minimum Scale 0 - 100% The smallest randomized instance size. Maximum Scale 0 - 100% The largest randomized instance size. Minimum Rotation 0 - 360 The minimum randomized rotation angle. Maximum Rotation 0 - 360 The maximum randomized rotation angle. Seed 0 - 128000 The randomization pattern or seed for the node's process. If your terrain has a hard edge, try using the Zero Borders node before applying the Bomber node. <!--examples-->"
   },
   "quickstarts/Technique-Slanted-Rocks.html": {
     "href": "quickstarts/Technique-Slanted-Rocks.html",
@@ -282,22 +282,22 @@
   "reference/Nodes/Selector--Angle.html": {
     "href": "reference/Nodes/Selector--Angle.html",
     "title": "Angle | QuadSpinner Gaea",
-    "keywords": "This documentation is a work-in-progress and subject to change. Setting Values Description Azimuth 0 - 360 Lorem Min 0 - 100% Lorem Max 0 - 100% Lorem Falloff 0 - 100% Lorem <!--examples-->"
+    "keywords": "This documentation is a work-in-progress and subject to change. Setting Values Description Azimuth 0 - 360 TODO Min 0 - 100% TODO Max 0 - 100% TODO Falloff 0 - 100% TODO <!--examples-->"
   },
   "reference/Nodes/Primitive--Voronoi.html": {
     "href": "reference/Nodes/Primitive--Voronoi.html",
     "title": "Voronoi | QuadSpinner Gaea",
-    "keywords": "This documentation is a work-in-progress and subject to change. Voronoi is a staple of procedural design. It creates sharp, geometric patterns. The version in Gaea, however, is a \"geo-variant\". We have modified the base Voronoi shape to fit the needs of terrain design from the beginning. Quisque luctus, magna vitae elementum mattis, dui massa ultricies ligula, eget posuere orci est vitae neque. Nam interdum molestie tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin euismod euismod nunc. Voronoi Setting Values Description Scale 0 - 100% Lorem Seed 0 - 128000 The randomization pattern or seed for the node's process. Dual On / Off Lorem Perturb settings Setting Values Description Perturb Lorem None Lorem Simple Lorem Complex Lorem Warp Frequency 0 - 100% Lorem Warp Amplitude 0 - 100% Lorem Warp Octaves 1 - 14 Lorem Advanced settings Setting Values Description Scale X 0.00 - 10.00 Lorem ipsum Scale Y 0.00 - 10.00 Lorem ipsum Function Lorem E Lorem M Lorem N Lorem Form Lorem C Lorem N Lorem R Lorem P Lorem A Lorem S Lorem M Lorem D Lorem <!--examples-->"
+    "keywords": "This documentation is a work-in-progress and subject to change. Voronoi is a staple of procedural design. It creates sharp, geometric patterns. The version in Gaea, however, is a \"geo-variant\". We have modified the base Voronoi shape to fit the needs of terrain design from the beginning. Quisque luctus, magna vitae elementum mattis, dui massa ultricies ligula, eget posuere orci est vitae neque. Nam interdum molestie tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin euismod euismod nunc. Voronoi Setting Values Description Scale 0 - 100% TODO Seed 0 - 128000 The randomization pattern or seed for the node's process. Dual On / Off TODO Perturb settings Setting Values Description Perturb TODO None TODO Simple TODO Complex TODO Warp Frequency 0 - 100% TODO Warp Amplitude 0 - 100% TODO Warp Octaves 1 - 14 TODO Advanced settings Setting Values Description Scale X 0.00 - 10.00 TODO ipsum Scale Y 0.00 - 10.00 TODO ipsum Function TODO E TODO M TODO N TODO Form TODO C TODO N TODO R TODO P TODO A TODO S TODO M TODO D TODO <!--examples-->"
   },
   "reference/Nodes/Primitive--Plates.html": {
     "href": "reference/Nodes/Primitive--Plates.html",
     "title": "Plates | QuadSpinner Gaea",
-    "keywords": "This documentation is a work-in-progress and subject to change. Plates is a new primitive, based on a Perlin core with flat plate-like formations created in between larger Perlin-esque shapes. The flat, slanting areas can make great slopes — especially when combined with Displace nodes. Setting Values Description Scale 0 - 100% Lorem Steepness 0 - 100% Lorem Collision 0.01 - 0.25 Lorem Slant On / Off Lorem Inverse On / Off Lorem Seed 0 - 128000 The randomization pattern or seed for the node's process. <!--examples-->"
+    "keywords": "This documentation is a work-in-progress and subject to change. Plates is a new primitive, based on a Perlin core with flat plate-like formations created in between larger Perlin-esque shapes. The flat, slanting areas can make great slopes — especially when combined with Displace nodes. Setting Values Description Scale 0 - 100% TODO Steepness 0 - 100% TODO Collision 0.01 - 0.25 TODO Slant On / Off TODO Inverse On / Off TODO Seed 0 - 128000 The randomization pattern or seed for the node's process. <!--examples-->"
   },
   "reference/Nodes/Primitive--File.html": {
     "href": "reference/Nodes/Primitive--File.html",
     "title": "File | QuadSpinner Gaea",
-    "keywords": "This documentation is a work-in-progress and subject to change. The File node loads any supported image or data file as a terrain. It supports all major file formats. You can also transform the input. File Processing Transform Setting Values Description File Filename The file to load. Adaptive On / Off Adapt the resolution of the input if it does not match the terrain resolution. This is very useful for lower resolution images. Invert On / Off Invert the terrain. Setting Values Description X / Y 0 - 100% The location of the terrain. Scale 0 - 100% The size of the terrain. Angle 0 - 360 The angle of rotation of the terrain. Height 0.00 - 10.00 Lorem Raise 0 - 100% Lorem <!--examples-->"
+    "keywords": "This documentation is a work-in-progress and subject to change. The File node loads any supported image or data file as a terrain. It supports all major file formats. You can also transform the input. File Processing Transform Setting Values Description File Filename The file to load. Adaptive On / Off Adapt the resolution of the input if it does not match the terrain resolution. This is very useful for lower resolution images. Invert On / Off Invert the terrain. Setting Values Description X / Y 0 - 100% The location of the terrain. Scale 0 - 100% The size of the terrain. Angle 0 - 360 The angle of rotation of the terrain. Height 0.00 - 10.00 TODO Raise 0 - 100% TODO <!--examples-->"
   },
   "reference/Nodes/Primitive--Constant.html": {
     "href": "reference/Nodes/Primitive--Constant.html",
@@ -312,7 +312,7 @@
   "reference/Nodes/Filter--Aperture.html": {
     "href": "reference/Nodes/Filter--Aperture.html",
     "title": "Aperture | QuadSpinner Gaea",
-    "keywords": "This documentation is a work-in-progress and subject to change. The Aperture node expands or compacts every single feature on the terrain, similar to bokeh in a camera. Setting Values Description Method Choose whether to expand or compact the visuals on the terrain. Expand Lorem Contract Lorem Iterations 0 - 20 Number of aperture passes to perform on the terrain. Higher number of passes creates a pronounced effect at the expense of speed. Kernel Kernel is the shape of the aperture. Changing the kernel can change how the features on the terrain are modified. Disk Large, circular formation. Diamond Small, diagonal squares. Cross Small cross pattern. Can create predictable shape. For best results, use with masking. Oct Large, octagonal formation. Corner Large, diagonal squares. Ring Small, circular formation with steps/terraces. Sobel Rectangular stretches which retain corner shapes. Random On / Off When on, each iteration uses a randomly selected kernel. Seed 0 - 128000 The randomization pattern or seed for the node's process. <!--examples-->"
+    "keywords": "This documentation is a work-in-progress and subject to change. The Aperture node expands or compacts every single feature on the terrain, similar to bokeh in a camera. Setting Values Description Method Choose whether to expand or compact the visuals on the terrain. Expand TODO Contract TODO Iterations 0 - 20 Number of aperture passes to perform on the terrain. Higher number of passes creates a pronounced effect at the expense of speed. Kernel Kernel is the shape of the aperture. Changing the kernel can change how the features on the terrain are modified. Disk Large, circular formation. Diamond Small, diagonal squares. Cross Small cross pattern. Can create predictable shape. For best results, use with masking. Oct Large, octagonal formation. Corner Large, diagonal squares. Ring Small, circular formation with steps/terraces. Sobel Rectangular stretches which retain corner shapes. Random On / Off When on, each iteration uses a randomly selected kernel. Seed 0 - 128000 The randomization pattern or seed for the node's process. <!--examples-->"
   },
   "reference/Nodes/Erosion--RockSlide.html": {
     "href": "reference/Nodes/Erosion--RockSlide.html",
@@ -337,32 +337,32 @@
   "reference/Nodes/Selector--Slope.html": {
     "href": "reference/Nodes/Selector--Slope.html",
     "title": "Slope | QuadSpinner Gaea",
-    "keywords": "This documentation is a work-in-progress and subject to change. Setting Values Description Min 0 - 90 Lorem Max 0 - 90 Lorem Falloff 0 - 100% Lorem <!--examples-->"
+    "keywords": "This documentation is a work-in-progress and subject to change. Setting Values Description Min 0 - 90 TODO Max 0 - 90 TODO Falloff 0 - 100% TODO <!--examples-->"
   },
   "reference/Nodes/Selector--Mask.html": {
     "href": "reference/Nodes/Selector--Mask.html",
     "title": "Mask | QuadSpinner Gaea",
-    "keywords": "This documentation is a work-in-progress and subject to change. Setting Values Description Blur 0 - 100 Lorem Size 1 - 100 Lorem <!--examples-->"
+    "keywords": "This documentation is a work-in-progress and subject to change. Setting Values Description Blur 0 - 100 TODO Size 1 - 100 TODO <!--examples-->"
   },
   "reference/Nodes/Primitive--Mountain.html": {
     "href": "reference/Nodes/Primitive--Mountain.html",
     "title": "Mountain | QuadSpinner Gaea",
-    "keywords": "This documentation is a work-in-progress and subject to change. Mountain is one of the most versatile primitives in Gaea. It uses a modulated Voronoi pattern and distortions to create realistic mountain shapes, ready for further modification and erosion. Setting Values Description Scale 0 - 100% Lorem Edge 0.00 - 0.50 Lorem Seed 0 - 128000 The randomization pattern or seed for the node's process. Type A Lorem B Lorem C Lorem D Lorem Height Natural Lorem Enhanced Lorem Equalized Lorem For simple results, such as distance mountains that don't require much detail, you can create a Mountain primitive with a scale of your choice and add the Erosion node. This is the easiest way to create a lot of simple assets. <!--examples-->"
+    "keywords": "This documentation is a work-in-progress and subject to change. Mountain is one of the most versatile primitives in Gaea. It uses a modulated Voronoi pattern and distortions to create realistic mountain shapes, ready for further modification and erosion. Setting Values Description Scale 0 - 100% TODO Edge 0.00 - 0.50 TODO Seed 0 - 128000 The randomization pattern or seed for the node's process. Type A TODO B TODO C TODO D TODO Height Natural TODO Enhanced TODO Equalized TODO For simple results, such as distance mountains that don't require much detail, you can create a Mountain primitive with a scale of your choice and add the Erosion node. This is the easiest way to create a lot of simple assets. <!--examples-->"
   },
   "reference/Nodes/Primitive--LineNoise.html": {
     "href": "reference/Nodes/Primitive--LineNoise.html",
     "title": "LineNoise | QuadSpinner Gaea",
-    "keywords": "This documentation is a work-in-progress and subject to change. LineNoise is a geometry generator that creates sets of lines that can be distorted and used with other noises and fractals to create layered ridges. Setting Values Description Type Lorem Random Lorem Gaussian Lorem Poisson Lorem Impulse Lorem Uniform Lorem Seed 0 - 128000 The randomization pattern or seed for the node's process. <!--examples-->"
+    "keywords": "This documentation is a work-in-progress and subject to change. LineNoise is a geometry generator that creates sets of lines that can be distorted and used with other noises and fractals to create layered ridges. Setting Values Description Type TODO Random TODO Gaussian TODO Poisson TODO Impulse TODO Uniform TODO Seed 0 - 128000 The randomization pattern or seed for the node's process. <!--examples-->"
   },
   "reference/Nodes/Erosion--Erosion.html": {
     "href": "reference/Nodes/Erosion--Erosion.html",
     "title": "Erosion | QuadSpinner Gaea",
-    "keywords": "This documentation is a work-in-progress and subject to change. Gaea introduces a comprehensive erosion node, simply called Erosion. It provides sophisticated erosion with a very easy to use interface. The Erosion node provides control over the scale, where you can choose the size of the largest erosion feature, as well as the overall scale of the terrain. Erosion Downcutting Scale Flow Other Settings Setting Values Description Duration 0.001 - 1.00 Lorem Rock Softness 0.05 - 1.00 Lorem Strength 0.001 - 1.00 Lorem Setting Values Description Downcutting 0 - 100% Lorem Inhibition 0 - 100% Lorem Base Level 0 - 100% Lorem Setting Values Description Real Scale On / Off Lorem ipsum Feature Scale 50 - 20000 Lorem Terrain Scale 500 - 20000 Lorem Verticality 50 - 20000 Lorem Setting Values Description Volume 0 - 100% Lorem Debris 0 - 100% Lorem Rivers On / Off Lorem ipsum Depth 0 - 100% Lorem ipsum Setting Values Description Seed 0 - 128000 The randomization pattern or seed for the node's process. Performance Lorem Off Lorem 1X Lorem 2X Lorem 3X Lorem 4X Lorem None Lorem Mask Localization mask Erosion Strength Lorem Rock Softness Lorem Precipitation Amount Lorem None Lorem The Erosion node’s algorithm addresses one of the biggest problems in digital erosion: it preserves features across different resolutions. This means that a 512 x 512 preview build will maintain essential parity for all major erosion features with a high resolution 4K or 8K build. You no longer need to guess the output type. The algorithm also creates exquisite flows with naturalistic curves, never before been seen in digital erosion. <!--examples-->"
+    "keywords": "This documentation is a work-in-progress and subject to change. Gaea introduces a comprehensive erosion node, simply called Erosion. It provides sophisticated erosion with a very easy to use interface. The Erosion node provides control over the scale, where you can choose the size of the largest erosion feature, as well as the overall scale of the terrain. Erosion Downcutting Scale Flow Other Settings Setting Values Description Duration 0.001 - 1.00 TODO Rock Softness 0.05 - 1.00 TODO Strength 0.001 - 1.00 TODO Setting Values Description Downcutting 0 - 100% TODO Inhibition 0 - 100% TODO Base Level 0 - 100% TODO Setting Values Description Real Scale On / Off TODO ipsum Feature Scale 50 - 20000 TODO Terrain Scale 500 - 20000 TODO Verticality 50 - 20000 TODO Setting Values Description Volume 0 - 100% TODO Debris 0 - 100% TODO Rivers On / Off TODO ipsum Depth 0 - 100% TODO ipsum Setting Values Description Seed 0 - 128000 The randomization pattern or seed for the node's process. Performance TODO Off TODO 1X TODO 2X TODO 3X TODO 4X TODO None TODO Mask Localization mask Erosion Strength TODO Rock Softness TODO Precipitation Amount TODO None TODO The Erosion node’s algorithm addresses one of the biggest problems in digital erosion: it preserves features across different resolutions. This means that a 512 x 512 preview build will maintain essential parity for all major erosion features with a high resolution 4K or 8K build. You no longer need to guess the output type. The algorithm also creates exquisite flows with naturalistic curves, never before been seen in digital erosion. <!--examples-->"
   },
   "reference/Nodes/Erosion--Directed Erosion.html": {
     "href": "reference/Nodes/Erosion--Directed Erosion.html",
     "title": "Directed Erosion | QuadSpinner Gaea",
-    "keywords": "This documentation is a work-in-progress and subject to change. Setting Values Description Target Resolution Lorem 2K (2048) Lorem 4K (4096) Lorem 8K (8192) Lorem 16K (16384) Lorem 32K (32768) Lorem 64K (65536) Lorem 128K (131072) Lorem 256K (262144) Lorem Preserve HD Session On / Off Lorem <!--examples-->"
+    "keywords": "This documentation is a work-in-progress and subject to change. Setting Values Description Target Resolution TODO 2K (2048) TODO 4K (4096) TODO 8K (8192) TODO 16K (16384) TODO 32K (32768) TODO 64K (65536) TODO 128K (131072) TODO 256K (262144) TODO Preserve HD Session On / Off TODO <!--examples-->"
   },
   "reference/Nodes/DataMap--Flow.html": {
     "href": "reference/Nodes/DataMap--Flow.html",
@@ -372,7 +372,7 @@
   "reference/Nodes/Color--Synth.html": {
     "href": "reference/Nodes/Color--Synth.html",
     "title": "Synth | QuadSpinner Gaea",
-    "keywords": "This documentation is a work-in-progress and subject to change. Setting Values Description Bitmap Filename Lorem ipsum Stops 2 - 256 Lorem ipsum Fuzzy 0 - 100 Lorem ipsum Rotate 0 - 360 Lorem ipsum Seed 0 - 128000 Lorem ipsum Reverse On / Off Lorem ipsum Input Noise 0 - 100% Lorem ipsum Color Noise 0 - 100% Lorem ipsum Input Clarity On / Off Lorem ipsum Input Auto Level On / Off Lorem ipsum Output Clarity On / Off Lorem ipsum Output Auto Level On / Off Lorem ipsum Data Filename Lorem ipsum Magick Filename Lorem ipsum To create your own color maps from scratch, use CLUTer . For general information on creating color textures, see Color Production . <!--examples-->"
+    "keywords": "This documentation is a work-in-progress and subject to change. Setting Values Description Bitmap Filename TODO ipsum Stops 2 - 256 TODO ipsum Fuzzy 0 - 100 TODO ipsum Rotate 0 - 360 TODO ipsum Seed 0 - 128000 TODO ipsum Reverse On / Off TODO ipsum Input Noise 0 - 100% TODO ipsum Color Noise 0 - 100% TODO ipsum Input Clarity On / Off TODO ipsum Input Auto Level On / Off TODO ipsum Output Clarity On / Off TODO ipsum Output Auto Level On / Off TODO ipsum Data Filename TODO ipsum Magick Filename TODO ipsum To create your own color maps from scratch, use CLUTer . For general information on creating color textures, see Color Production . <!--examples-->"
   },
   "reference/Nodes/Color--BrightnessContrast.html": {
     "href": "reference/Nodes/Color--BrightnessContrast.html",
@@ -382,7 +382,7 @@
   "reference/Nodes/Color--Biome.html": {
     "href": "reference/Nodes/Color--Biome.html",
     "title": "Biome | QuadSpinner Gaea",
-    "keywords": "This documentation is a work-in-progress and subject to change. Biome uses a water map (like FlowMap or the Erosion node’s Flow output) to create different biome zones based on altitude, access to fresh water (defined by the water map), and other conditions. The output from Biome can be used directly as a basic texture map, or as a \"Super Splat\". The colors for each biome zone (such as Desert, Tropical Rainforest, etc) can be customized to your needs. Biomes Options Scale and Influence Water Colors Setting Values Description Allow Highlands On / Off Lorem ipsum Allow Midlands On / Off Lorem ipsum Allow Lowlands On / Off Lorem ipsum Highlands 0 - 100% Lorem Midlands 0 - 100% Lorem Lowlands 0 - 100% Lorem Setting Values Description Seed 0 - 128000 The randomization pattern or seed for the node's process. Jitter On / Off Lorem Precise On / Off Lorem Setting Values Description Y Scale 0 - 100% Lorem Influence 0 - 100% Lorem Setting Values Description Sea Level 0 - 100% Lorem Water Bodies On / Off Lorem Setting Values Description Ocean Lorem Coast Lorem Lake Shore Lorem Lake Lorem River Lorem Marsh Lorem Ice Lorem Beach Lorem Snow Lorem Tundra Lorem Bare Lorem Scorched Lorem Taiga Lorem Shrubland Lorem Temperate Desert Lorem Temperate Rainforest Lorem Temperate Deciduous Forest Lorem Grassland Lorem Subtropical Desert Lorem Tropical Rainforest Lorem Tropical Seasonal Forest Lorem <!--examples-->"
+    "keywords": "This documentation is a work-in-progress and subject to change. Biome uses a water map (like FlowMap or the Erosion node’s Flow output) to create different biome zones based on altitude, access to fresh water (defined by the water map), and other conditions. The output from Biome can be used directly as a basic texture map, or as a \"Super Splat\". The colors for each biome zone (such as Desert, Tropical Rainforest, etc) can be customized to your needs. Biomes Options Scale and Influence Water Colors Setting Values Description Allow Highlands On / Off TODO ipsum Allow Midlands On / Off TODO ipsum Allow Lowlands On / Off TODO ipsum Highlands 0 - 100% TODO Midlands 0 - 100% TODO Lowlands 0 - 100% TODO Setting Values Description Seed 0 - 128000 The randomization pattern or seed for the node's process. Jitter On / Off TODO Precise On / Off TODO Setting Values Description Y Scale 0 - 100% TODO Influence 0 - 100% TODO Setting Values Description Sea Level 0 - 100% TODO Water Bodies On / Off TODO Setting Values Description Ocean TODO Coast TODO Lake Shore TODO Lake TODO River TODO Marsh TODO Ice TODO Beach TODO Snow TODO Tundra TODO Bare TODO Scorched TODO Taiga TODO Shrubland TODO Temperate Desert TODO Temperate Rainforest TODO Temperate Deciduous Forest TODO Grassland TODO Subtropical Desert TODO Tropical Rainforest TODO Tropical Seasonal Forest TODO <!--examples-->"
   },
   "reference/Nodes/Adjustment--Invert.html": {
     "href": "reference/Nodes/Adjustment--Invert.html",
@@ -397,12 +397,12 @@
   "reference/Nodes/Adjustment--Displace.html": {
     "href": "reference/Nodes/Adjustment--Displace.html",
     "title": "Displace | QuadSpinner Gaea",
-    "keywords": "This documentation is a work-in-progress and subject to change. Displacement Noise Location Setting Values Description Method Lorem Standard Lorem Vertical Lorem Rugged Lorem Custom Lorem Uniform On / Off Lorem Strength 0 - 100% Lorem Strength Vertical 0 - 100% Available when Uniform is turned Off Setting Values Description Scale 0 - 100% Lorem Complexity 1 - 12 Lorem Seed 0 - 128000 The randomization pattern or seed for the node's process. Setting Values Description X 0 - 100% Lorem Y 0 - 100% Lorem <!--examples-->"
+    "keywords": "This documentation is a work-in-progress and subject to change. Displacement Noise Location Setting Values Description Method TODO Standard TODO Vertical TODO Rugged TODO Custom TODO Uniform On / Off TODO Strength 0 - 100% TODO Strength Vertical 0 - 100% Available when Uniform is turned Off Setting Values Description Scale 0 - 100% TODO Complexity 1 - 12 TODO Seed 0 - 128000 The randomization pattern or seed for the node's process. Setting Values Description X 0 - 100% TODO Y 0 - 100% TODO <!--examples-->"
   },
   "reference/Nodes/Adjustment--Clamp.html": {
     "href": "reference/Nodes/Adjustment--Clamp.html",
     "title": "Clamp | QuadSpinner Gaea",
-    "keywords": "This documentation is a work-in-progress and subject to change. Clamp allows you to control the height of the terrain. You can use it to squash the terrain, clip it at certain heights, or make it taller using the Extend operation. Setting Values Description Min 0 - 100% Lorem Max 0 - 100% Lorem Operation Lorem Clamp Lorem Clip Lorem Extend Lorem <!--examples-->"
+    "keywords": "This documentation is a work-in-progress and subject to change. Clamp allows you to control the height of the terrain. You can use it to squash the terrain, clip it at certain heights, or make it taller using the Extend operation. Setting Values Description Min 0 - 100% TODO Max 0 - 100% TODO Operation TODO Clamp TODO Clip TODO Extend TODO <!--examples-->"
   },
   "reference/Nodes/Adjustment--AutoLevel.html": {
     "href": "reference/Nodes/Adjustment--AutoLevel.html",
@@ -412,22 +412,22 @@
   "reference/Nodes/Erosion--Alluvium.html": {
     "href": "reference/Nodes/Erosion--Alluvium.html",
     "title": "Alluvium | QuadSpinner Gaea",
-    "keywords": "This documentation is a work-in-progress and subject to change. Alluvium Deposits Advanced Setting Values Description Iterations 1 - 10 Lorem Hardness 0.01 - 1.00 Lorem Power 0.01 - 1.00 Lorem Setting Values Description Sediments 0.01 - 1.00 Lorem Flow 1 - 5 Lorem Setting Values Description Chaos 0.00 - 0.30 Lorem Seed 0 - 128000 The randomization pattern or seed for the node's process. <!--examples-->"
+    "keywords": "This documentation is a work-in-progress and subject to change. Alluvium Deposits Advanced Setting Values Description Iterations 1 - 10 TODO Hardness 0.01 - 1.00 TODO Power 0.01 - 1.00 TODO Setting Values Description Sediments 0.01 - 1.00 TODO Flow 1 - 5 TODO Setting Values Description Chaos 0.00 - 0.30 TODO Seed 0 - 128000 The randomization pattern or seed for the node's process. <!--examples-->"
   },
   "reference/Nodes/Color--NormalMap.html": {
     "href": "reference/Nodes/Color--NormalMap.html",
     "title": "Normal Map | QuadSpinner Gaea",
-    "keywords": "This documentation is a work-in-progress and subject to change. Setting Values Description Width 0.00 - 5.00 Lorem Height 0.00 - 5.00 Lorem Length 0.00 - 5.00 Lorem Flip Y On / Off Lorem <!--examples-->"
+    "keywords": "This documentation is a work-in-progress and subject to change. Setting Values Description Width 0.00 - 5.00 TODO Height 0.00 - 5.00 TODO Length 0.00 - 5.00 TODO Flip Y On / Off TODO <!--examples-->"
   },
   "reference/Nodes/Color--Mixer.html": {
     "href": "reference/Nodes/Color--Mixer.html",
     "title": "Mixer | QuadSpinner Gaea",
-    "keywords": "This documentation is a work-in-progress and subject to change. The Mixer node is just like the Combine node, but for mixing colors rather than heightfields or masks. The Mixer node is color coded to help differentiate it from the Combine node. Setting Values Description Source Node or Layer Lorem Swap Inputs On / Off Lorem Method Lorem Blend Lorem Add Lorem Screen Lorem Subtract Lorem Multiply Lorem Divide Lorem Max Lorem Min Lorem SqRt Lorem Power Lorem Difference Lorem Ratio 0 - 100% Lorem To quickly mix nodes, you can select the nodes and press F8 . <!--examples-->"
+    "keywords": "This documentation is a work-in-progress and subject to change. The Mixer node is just like the Combine node, but for mixing colors rather than heightfields or masks. The Mixer node is color coded to help differentiate it from the Combine node. Setting Values Description Source Node or Layer TODO Swap Inputs On / Off TODO Method TODO Blend TODO Add TODO Screen TODO Subtract TODO Multiply TODO Divide TODO Max TODO Min TODO SqRt TODO Power TODO Difference TODO Ratio 0 - 100% TODO To quickly mix nodes, you can select the nodes and press F8 . <!--examples-->"
   },
   "reference/Nodes/Adjustment--Threshold.html": {
     "href": "reference/Nodes/Adjustment--Threshold.html",
     "title": "Threshold | QuadSpinner Gaea",
-    "keywords": "This documentation is a work-in-progress and subject to change. Setting Values Description Scale 0.00 - 0.50 Lorem Bias 0.00 - 0.50 Lorem Adaptive On / Off Lorem ipsum Invert On / Off Lorem ipsum <!--examples-->"
+    "keywords": "This documentation is a work-in-progress and subject to change. Setting Values Description Scale 0.00 - 0.50 TODO Bias 0.00 - 0.50 TODO Adaptive On / Off TODO ipsum Invert On / Off TODO ipsum <!--examples-->"
   },
   "reference/Nodes/Adjustment--Sine.html": {
     "href": "reference/Nodes/Adjustment--Sine.html",
@@ -442,7 +442,7 @@
   "reference/Nodes/Adjustment--Combine.html": {
     "href": "reference/Nodes/Adjustment--Combine.html",
     "title": "Combine | QuadSpinner Gaea",
-    "keywords": "This documentation is a work-in-progress and subject to change. Setting Values Description Source Node or Layer Lorem Swap Inputs On / Off Lorem Method Lorem Blend Lorem Add Lorem Screen Lorem Subtract Lorem Multiply Lorem Divide Lorem Max Lorem Min Lorem SqRt Lorem Power Lorem Difference Lorem Ratio 0 - 100% Lorem <!--examples-->"
+    "keywords": "This documentation is a work-in-progress and subject to change. Setting Values Description Source Node or Layer TODO Swap Inputs On / Off TODO Method TODO Blend TODO Add TODO Screen TODO Subtract TODO Multiply TODO Divide TODO Max TODO Min TODO SqRt TODO Power TODO Difference TODO Ratio 0 - 100% TODO <!--examples-->"
   },
   "documentation/Workflow--Layers.html": {
     "href": "documentation/Workflow--Layers.html",
@@ -522,17 +522,17 @@
   "reference/Nodes/Selector--Height.html": {
     "href": "reference/Nodes/Selector--Height.html",
     "title": "Height | QuadSpinner Gaea",
-    "keywords": "This documentation is a work-in-progress and subject to change. Setting Values Description Min 0 - 100% Lorem Max 0 - 100% Lorem Falloff 0 - 100% Lorem <!--examples-->"
+    "keywords": "This documentation is a work-in-progress and subject to change. Setting Values Description Min 0 - 100% TODO Max 0 - 100% TODO Falloff 0 - 100% TODO <!--examples-->"
   },
   "reference/Nodes/Selector--Curvature.html": {
     "href": "reference/Nodes/Selector--Curvature.html",
     "title": "Curvature | QuadSpinner Gaea",
-    "keywords": "This documentation is a work-in-progress and subject to change. Setting Values Description Min 0 - 100% Lorem Max 0 - 100% Lorem Falloff 0 - 100% Lorem Curvature Type Lorem Horizontal Lorem Vertical Lorem Average Lorem <!--examples-->"
+    "keywords": "This documentation is a work-in-progress and subject to change. Setting Values Description Min 0 - 100% TODO Max 0 - 100% TODO Falloff 0 - 100% TODO Curvature Type TODO Horizontal TODO Vertical TODO Average TODO <!--examples-->"
   },
   "reference/Nodes/Filter--Rocks.html": {
     "href": "reference/Nodes/Filter--Rocks.html",
     "title": "Rocks | QuadSpinner Gaea",
-    "keywords": "This documentation is a work-in-progress and subject to change. Setting Values Description Amount 0 - 100% Lorem <!--examples-->"
+    "keywords": "This documentation is a work-in-progress and subject to change. Setting Values Description Amount 0 - 100% TODO <!--examples-->"
   },
   "reference/Nodes/Filter--Cells.html": {
     "href": "reference/Nodes/Filter--Cells.html",
@@ -552,7 +552,7 @@
   "reference/Nodes/Erosion--Convector.html": {
     "href": "reference/Nodes/Erosion--Convector.html",
     "title": "Convector | QuadSpinner Gaea",
-    "keywords": "This documentation is a work-in-progress and subject to change. Convector is an exaggerated form of thermal erosion with a few tweaks for stylized output. Convector creates strong slopes and terraces at the same time, offering a unique flavor of erosion. Convection Options Setting Values Description Iterations 1 - 100 Lorem Steepness 0.00 - 0.30 Lorem Strength 0 - 100% Lorem Cutoff 0.00 - 0.02 Lorem Setting Values Description Invert On / Off Lorem Add On / Off Lorem Remove On / Off Lorem The delicate terracing can be very useful as a base for the Erosion node. As you can see in the second screenshot, these terraces help mimic a big mountain — especially for snow accumulation purposes. // TODO: Image <!--examples-->"
+    "keywords": "This documentation is a work-in-progress and subject to change. Convector is an exaggerated form of thermal erosion with a few tweaks for stylized output. Convector creates strong slopes and terraces at the same time, offering a unique flavor of erosion. Convection Options Setting Values Description Iterations 1 - 100 TODO Steepness 0.00 - 0.30 TODO Strength 0 - 100% TODO Cutoff 0.00 - 0.02 TODO Setting Values Description Invert On / Off TODO Add On / Off TODO Remove On / Off TODO The delicate terracing can be very useful as a base for the Erosion node. As you can see in the second screenshot, these terraces help mimic a big mountain — especially for snow accumulation purposes. // TODO: Image <!--examples-->"
   },
   "reference/Nodes/DataMap--Soil.html": {
     "href": "reference/Nodes/DataMap--Soil.html",
@@ -562,7 +562,7 @@
   "reference/Nodes/Adjustment--Zero Borders.html": {
     "href": "reference/Nodes/Adjustment--Zero Borders.html",
     "title": "Zero Borders | QuadSpinner Gaea",
-    "keywords": "This documentation is a work-in-progress and subject to change. The Zero Borders node allows you to softly transition the edges of a terrain into nothing. It is similar to a vignette effect in paint applications. This node is particularly useful when using Bomber or other effects where the tall edge would be problematic. Setting Values Description Mode Round Lorem ipsum Square Lorem ipsum Margin 0 - 100 Lorem ipsum Falloff 0 - 100 Lorem ipsum Auto On / Off Lorem ipsum <!--examples-->"
+    "keywords": "This documentation is a work-in-progress and subject to change. The Zero Borders node allows you to softly transition the edges of a terrain into nothing. It is similar to a vignette effect in paint applications. This node is particularly useful when using Bomber or other effects where the tall edge would be problematic. Setting Values Description Mode Round TODO ipsum Square TODO ipsum Margin 0 - 100 TODO ipsum Falloff 0 - 100 TODO ipsum Auto On / Off TODO ipsum <!--examples-->"
   },
   "reference/Nodes/Erosion--Buildup.html": {
     "href": "reference/Nodes/Erosion--Buildup.html",
@@ -572,12 +572,12 @@
   "reference/Nodes/DataMap--Growth.html": {
     "href": "reference/Nodes/DataMap--Growth.html",
     "title": "Growth | QuadSpinner Gaea",
-    "keywords": "This documentation is a work-in-progress and subject to change. Growth Advanced Settings Setting Values Description Duration 1 - 6000 Lorem ipsum Slope 2.00 - 2000.00 Lorem ipsum Spread 1.00 - 6000.00 Lorem ipsum Wild Growth 0 - 1000 Lorem ipsum Fit Rivers True or False Lorem ipsum Groves True or False Lorem ipsum Setting Values Description Graininess 10.00 - 9000.00 Lorem ipsum Cragginess 2.00 - 9000.00 Lorem ipsum Seed 0 - 128000 Lorem ipsum <!--examples-->"
+    "keywords": "This documentation is a work-in-progress and subject to change. Growth Advanced Settings Setting Values Description Duration 1 - 6000 TODO ipsum Slope 2.00 - 2000.00 TODO ipsum Spread 1.00 - 6000.00 TODO ipsum Wild Growth 0 - 1000 TODO ipsum Fit Rivers True or False TODO ipsum Groves True or False TODO ipsum Setting Values Description Graininess 10.00 - 9000.00 TODO ipsum Cragginess 2.00 - 9000.00 TODO ipsum Seed 0 - 128000 TODO ipsum <!--examples-->"
   },
   "reference/Nodes/Color--SatMaps.html": {
     "href": "reference/Nodes/Color--SatMaps.html",
     "title": "SatMaps | QuadSpinner Gaea",
-    "keywords": "This documentation is a work-in-progress and subject to change. The SatMap node gives you access to hundreds of CLUT maps which were created from satellite data collected from around the globe. SatMap works exactly like the CLUT node, except you pick from the built-in maps rather than make your own. Just change the Index slider (right-click for accurate changes) to choose a map. Setting Values Description Index 0 - 973 Lorem Noise 0 - 100% Lorem Reverse On / Off Lorem Jitter On / Off Lorem Input Clarity On / Off Lorem Input Auto Level On / Off Lorem Output Clarity On / Off Lorem Output Auto Level On / Off Lorem For general information on creating color textures, see Color Production . <!--examples-->"
+    "keywords": "This documentation is a work-in-progress and subject to change. The SatMap node gives you access to hundreds of CLUT maps which were created from satellite data collected from around the globe. SatMap works exactly like the CLUT node, except you pick from the built-in maps rather than make your own. Just change the Index slider (right-click for accurate changes) to choose a map. Setting Values Description Index 0 - 973 TODO Noise 0 - 100% TODO Reverse On / Off TODO Jitter On / Off TODO Input Clarity On / Off TODO Input Auto Level On / Off TODO Output Clarity On / Off TODO Output Auto Level On / Off TODO For general information on creating color textures, see Color Production . <!--examples-->"
   },
   "reference/Nodes/Color--HSL.html": {
     "href": "reference/Nodes/Color--HSL.html",
@@ -612,7 +612,7 @@
   "reference/Nodes/Erosion--ThermalErosion.html": {
     "href": "reference/Nodes/Erosion--ThermalErosion.html",
     "title": "Thermal Erosion | QuadSpinner Gaea",
-    "keywords": "This documentation is a work-in-progress and subject to change. Setting Values Description Terrain Scale 500 - 20000 Lorem Feature Scale 1 - 250 Lorem Verticality 50 - 20000 Lorem Duration 0 - 100% Lorem Strength 0 - 100% Lorem Smoothness 0 - 100% Lorem Talus angle 0.00 - 90.0 Lorem Talus settling 0 - 100% Lorem <!--examples-->"
+    "keywords": "This documentation is a work-in-progress and subject to change. Setting Values Description Terrain Scale 500 - 20000 TODO Feature Scale 1 - 250 TODO Verticality 50 - 20000 TODO Duration 0 - 100% TODO Strength 0 - 100% TODO Smoothness 0 - 100% TODO Talus angle 0.00 - 90.0 TODO Talus settling 0 - 100% TODO <!--examples-->"
   },
   "reference/Nodes/Erosion--Stratify.html": {
     "href": "reference/Nodes/Erosion--Stratify.html",
@@ -622,7 +622,7 @@
   "reference/Nodes/Erosion--Fold.html": {
     "href": "reference/Nodes/Erosion--Fold.html",
     "title": "Fold | QuadSpinner Gaea",
-    "keywords": "This documentation is a work-in-progress and subject to change. Setting Values Description Scale 0.40 - 1.00 Lorem Rift 0 - 100% Lorem Folding 0.05 - 0.50 Lorem Midpoint -1.00 - 1.00 Lorem Range 0 - 100% Lorem Angle 0 - 360 Lorem Elevate On / Off Lorem Seed 0 - 128000 The randomization pattern or seed for the node's process. <!--examples-->"
+    "keywords": "This documentation is a work-in-progress and subject to change. Setting Values Description Scale 0.40 - 1.00 TODO Rift 0 - 100% TODO Folding 0.05 - 0.50 TODO Midpoint -1.00 - 1.00 TODO Range 0 - 100% TODO Angle 0 - 360 TODO Elevate On / Off TODO Seed 0 - 128000 The randomization pattern or seed for the node's process. <!--examples-->"
   },
   "reference/Nodes/Erosion--Fluvial.html": {
     "href": "reference/Nodes/Erosion--Fluvial.html",
@@ -632,7 +632,7 @@
   "reference/Nodes/Erosion--Breaker.html": {
     "href": "reference/Nodes/Erosion--Breaker.html",
     "title": "Breaker | QuadSpinner Gaea",
-    "keywords": "This documentation is a work-in-progress and subject to change. Breaker Advanced Setting Values Description Duration 1 - 5000 The number of breakage iterations to perform on the terrain. The default value should work in most situations. River Length 3 - 500 The maximum length of each break or river. Erosion Power 5 - 1000 The strength of the breakage process. High values may cause sharp drops and spikes depending on the terrain. Setting Values Description Seed 0 - 128000 Lorem Hard Cracks On / Off Lorem ipsum Mode Fast Processes faster, but may not always result in the same pattern of cracks. Accurate Processes a bit slower, but ensures the pattern remains the same. <!--examples-->"
+    "keywords": "This documentation is a work-in-progress and subject to change. Breaker Advanced Setting Values Description Duration 1 - 5000 The number of breakage iterations to perform on the terrain. The default value should work in most situations. River Length 3 - 500 The maximum length of each break or river. Erosion Power 5 - 1000 The strength of the breakage process. High values may cause sharp drops and spikes depending on the terrain. Setting Values Description Seed 0 - 128000 TODO Hard Cracks On / Off TODO ipsum Mode Fast Processes faster, but may not always result in the same pattern of cracks. Accurate Processes a bit slower, but ensures the pattern remains the same. <!--examples-->"
   },
   "documentation/Properties.html": {
     "href": "documentation/Properties.html",
@@ -657,7 +657,7 @@
   "reference/Nodes/Output--Mesher.html": {
     "href": "reference/Nodes/Output--Mesher.html",
     "title": "Mesher | QuadSpinner Gaea",
-    "keywords": "This documentation is a work-in-progress and subject to change. Setting Values Description Format Lorem Wavefront OBJ (.obj) Lorem Prefer Quads On / Off Lorem Real Scale On / Off Lorem Vertex Count 16 - 8192 Lorem LOD Lorem None Lorem LOD 1 Lorem LOD 2 Lorem LOD 3 Lorem LOD 4 Lorem <!--examples-->"
+    "keywords": "This documentation is a work-in-progress and subject to change. Setting Values Description Format TODO Wavefront OBJ (.obj) TODO Prefer Quads On / Off TODO Real Scale On / Off TODO Vertex Count 16 - 8192 TODO LOD TODO None TODO LOD 1 TODO LOD 2 TODO LOD 3 TODO LOD 4 TODO <!--examples-->"
   },
   "reference/Nodes/Filter--Whorl.html": {
     "href": "reference/Nodes/Filter--Whorl.html",
@@ -692,7 +692,7 @@
   "reference/Nodes/Filter--Noise.html": {
     "href": "reference/Nodes/Filter--Noise.html",
     "title": "Noise | QuadSpinner Gaea",
-    "keywords": "This documentation is a work-in-progress and subject to change. Setting Values Description Strength 0 - 100% The strength of noise added to the terrain. Iterations 1 - 50 The number of noise iterations performed on the terrain. Method Random Random dots. Gaussian Lorem Poisson Lorem Impulse Sharp, strong spikes. Laplacian Lorem Level Lorem None Lorem Level Lorem Equalize Lorem Gamma Lorem Seed 0 - 128000 The randomization pattern or seed for the node's process. <!--examples-->"
+    "keywords": "This documentation is a work-in-progress and subject to change. Setting Values Description Strength 0 - 100% The strength of noise added to the terrain. Iterations 1 - 50 The number of noise iterations performed on the terrain. Method Random Random dots. Gaussian TODO Poisson TODO Impulse Sharp, strong spikes. Laplacian TODO Level TODO None TODO Level TODO Equalize TODO Gamma TODO Seed 0 - 128000 The randomization pattern or seed for the node's process. <!--examples-->"
   },
   "reference/Nodes/Filter--Distribution.html": {
     "href": "reference/Nodes/Filter--Distribution.html",
@@ -702,7 +702,7 @@
   "reference/Nodes/Primitive--Perlin.html": {
     "href": "reference/Nodes/Primitive--Perlin.html",
     "title": "Perlin | QuadSpinner Gaea",
-    "keywords": "This documentation is a work-in-progress and subject to change. Perlin Warp Setting Values Description Scale 0 - 100% Lorem Octaves 1 - 14 Lorem Scale X 0.00 - 10.00 Lorem ipsum Scale Y 0.00 - 10.00 Lorem ipsum Noise Lorem FBM Lorem Ridged Lorem Billowy Lorem Perturb Lorem None Lorem Simple Lorem Complex Lorem Setting Values Description Warp Frequency 0 - 100% Lorem Warp Amplitude 0 - 100% Lorem Warp Octaves 1 - 14 Lorem Seed 0 - 128000 The randomization pattern or seed for the node's process. <!--examples-->"
+    "keywords": "This documentation is a work-in-progress and subject to change. Perlin Warp Setting Values Description Scale 0 - 100% TODO Octaves 1 - 14 TODO Scale X 0.00 - 10.00 TODO ipsum Scale Y 0.00 - 10.00 TODO ipsum Noise TODO FBM TODO Ridged TODO Billowy TODO Perturb TODO None TODO Simple TODO Complex TODO Setting Values Description Warp Frequency 0 - 100% TODO Warp Amplitude 0 - 100% TODO Warp Octaves 1 - 14 TODO Seed 0 - 128000 The randomization pattern or seed for the node's process. <!--examples-->"
   },
   "reference/Nodes/Output--Output.html": {
     "href": "reference/Nodes/Output--Output.html",
@@ -717,12 +717,12 @@
   "reference/Nodes/Erosion--Snow.html": {
     "href": "reference/Nodes/Erosion--Snow.html",
     "title": "Snow | QuadSpinner Gaea",
-    "keywords": "This documentation is a work-in-progress and subject to change. Snowfall Scale Advanced Setting Values Description Duration 0 - 100% Lorem Intensity 0 - 100% Lorem Settle-Thaw 0 - 100% Lorem Melt 0 - 100% Lorem Snow line 0 - 100% Lorem Setting Values Description Real Scale On / Off Lorem Terrain Scale 500 - 20000 Lorem Verticality 50 - 20000 Lorem Setting Values Description Slip-off angle 0.00 - 90.0 Lorem Adhered snow mass 0.00 - 30.0 Lorem Model scale 1.00 - 16.0 Lorem Snow output Lorem Depth Lorem Soft Mask Lorem B&W Mask Lorem Use Snowfall mask On / Off Lorem Use Melt mask On / Off Lorem <!--examples-->"
+    "keywords": "This documentation is a work-in-progress and subject to change. Snowfall Scale Advanced Setting Values Description Duration 0 - 100% TODO Intensity 0 - 100% TODO Settle-Thaw 0 - 100% TODO Melt 0 - 100% TODO Snow line 0 - 100% TODO Setting Values Description Real Scale On / Off TODO Terrain Scale 500 - 20000 TODO Verticality 50 - 20000 TODO Setting Values Description Slip-off angle 0.00 - 90.0 TODO Adhered snow mass 0.00 - 30.0 TODO Model scale 1.00 - 16.0 TODO Snow output TODO Depth TODO Soft Mask TODO B&W Mask TODO Use Snowfall mask On / Off TODO Use Melt mask On / Off TODO <!--examples-->"
   },
   "reference/Nodes/Erosion--Coast.html": {
     "href": "reference/Nodes/Erosion--Coast.html",
     "title": "Coast | QuadSpinner Gaea",
-    "keywords": "This documentation is a work-in-progress and subject to change. The Coast node creates a coastal region on the terrain. The coast can be either a smooth transition (beaches) or a strong transition (cliffs). Setting Values Description Intensity 0 - 100% Lorem Water Level 0 - 100% Lorem Beach Size 0.00 - 0.10 Lorem Transition 0.00 - 0.10 Lorem A systematic coast may not always look realistic. Try using a mask to affect certain areas only, or combine multiple Coast nodes with masks. <!--examples-->"
+    "keywords": "This documentation is a work-in-progress and subject to change. The Coast node creates a coastal region on the terrain. The coast can be either a smooth transition (beaches) or a strong transition (cliffs). Setting Values Description Intensity 0 - 100% TODO Water Level 0 - 100% TODO Beach Size 0.00 - 0.10 TODO Transition 0.00 - 0.10 TODO A systematic coast may not always look realistic. Try using a mask to affect certain areas only, or combine multiple Coast nodes with masks. <!--examples-->"
   },
   "documentation/Basics of Terrain Design.html": {
     "href": "documentation/Basics of Terrain Design.html",
@@ -737,7 +737,7 @@
   "reference/Nodes/Erosion--Deposits.html": {
     "href": "reference/Nodes/Erosion--Deposits.html",
     "title": "Deposits | QuadSpinner Gaea",
-    "keywords": "This documentation is a work-in-progress and subject to change. Setting Values Description Iterations 1 - 10 Lorem Sediments 0.01 - 2.00 Lorem Flow 1 - 5 Lorem Chaos 0 - 100% Lorem Seed 0 - 128000 The randomization pattern or seed for the node's process. <!--examples-->"
+    "keywords": "This documentation is a work-in-progress and subject to change. Setting Values Description Iterations 1 - 10 TODO Sediments 0.01 - 2.00 TODO Flow 1 - 5 TODO Chaos 0 - 100% TODO Seed 0 - 128000 The randomization pattern or seed for the node's process. <!--examples-->"
   },
   "documentation/Workflow--Sculpt.html": {
     "href": "documentation/Workflow--Sculpt.html",

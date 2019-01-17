@@ -7,13 +7,13 @@ Apex uses Euclidean distancing (the same function used to create the Voronoi pat
 
 | Setting       | Values      | Description |
 | :------------ | :---------- | :---------- |
-| **Mode**      | Lorem |
-|               | *Distance*  | Lorem |
-|               | *Slant*     | Lorem |
-| **Steepness** | 0 - 100% | Lorem |
-| **A**         | 0 - 100% | Lorem |
-| **B**         | 0 - 100% | Lorem |
-| **Angle**     | 0 - 360     | Lorem |
+| **Mode**      | TODO |
+|               | *Distance*  | TODO |
+|               | *Slant*     | TODO |
+| **Steepness** | 0 - 100% | TODO |
+| **A**         | 0 - 100% | TODO |
+| **B**         | 0 - 100% | TODO |
+| **Angle**     | 0 - 360     | TODO |
 
 
 

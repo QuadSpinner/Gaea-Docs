@@ -5,13 +5,13 @@ title: Velocity
 
 | Setting           | Values   | Description |
 | :---------------- | :------- | :---------- |
-| **Duration**      | 0 - 700  | Lorem |
-| **Rain**          | 10 - 400 | Lorem |
-| **Reach Low**     | 0 - 100  | Lorem |
-| **Reach High**    | 0 - 2000 | Lorem |
-| **Velocity Low**  | 0 - 100  | Lorem |
-| **Velocity High** | 0 - 2000 | Lorem |
-| **Angle**         | 0 - 180  | Lorem |
+| **Duration**      | 0 - 700  | TODO |
+| **Rain**          | 10 - 400 | TODO |
+| **Reach Low**     | 0 - 100  | TODO |
+| **Reach High**    | 0 - 2000 | TODO |
+| **Velocity Low**  | 0 - 100  | TODO |
+| **Velocity High** | 0 - 2000 | TODO |
+| **Angle**         | 0 - 180  | TODO |
 
 
 
