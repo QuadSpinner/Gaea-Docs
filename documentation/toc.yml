@@ -17,6 +17,8 @@
         href: interface/Viewport.md
       - name: Preferences
         href: interface/Preferences.md
+      - name: Build Manager
+        href: usage/Building.md
       - name: Keyboard Shortcuts
         href: interface/Keyboard.md
 
@@ -34,22 +36,31 @@
       href: usage/Basics.md
     - name: Understanding Resolutions
       href: usage/Resolutions.md
-    - name: Importing Data
-      href: usage/Importing.md
     - name: Terrain Scale
       href: usage/Scale.md
-    - name: Using Data Maps
+    - name: Data Maps
       href: usage/Data-Maps.md
     - name: Color Production
       href: usage/Color-Production.md
-    - name: Build Manager
-      href: usage/Building.md
+      items:
+        - name: Using Data Maps
+          href: usage/Color-DataMaps.md
+        - name: Creating Biomes
+          href: usage/Color-Biome.md
     - name: Tiled Builds
       href: usage/Tiled-Builds.md
-    - name: Exporting Data
-      href: usage/Exporting.md
-    - name: Creating LODs and Variations
-      href: usage/Variations.md
+    - name: Import-Export
+      href: usage/Import-Export.md
+      items:
+        - name: Importing Data
+          href: usage/Importing.md
+        - name: Exporting Data
+          href: usage/Exporting.md
+        - name: Creating LODs and Variations
+          href: usage/Variations.md
+    - name: Build Swarm
+      href: usage/Build-Swarm.md
+
 - name: Misc
   items:
   - name: Common Issues

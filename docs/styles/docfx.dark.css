@@ -8,7 +8,7 @@ button, a, .xref {
 }
 
 button:hover, button:focus, a:hover, a:focus {
-  color: #aaa393;
+  color: #5bc0de;
 }
 
 a.disable, a.disable:hover {
@@ -16,19 +16,27 @@ a.disable, a.disable:hover {
 }
 
 .divider {
-  color: #aaa393;
+  color: #5bc0de;
 }
 
 hr {
-  border-color: #aaa393;
+  border-color: #5bc0de;
 }
 
 .subnav {
   background: #222529;
 }
 
+.subnav a {
+  color: #928771;
+}
+
 .inheritance h5, .inheritedMembers h5 {
   border-bottom: 1px solid #ccc;
+}
+
+article h1, article h2, article h3, article h4 {
+  color: #778089;
 }
 
 article h4 {
@@ -97,7 +105,7 @@ body .toc {
 }
 
 .toc .nav>li>a {
-  color: #666666;
+  color: #778089;
 }
 
 .toc .nav>li>a:hover, .toc .nav>li>a:focus {
@@ -109,7 +117,7 @@ body .toc {
 }
 
 .toc .nav>li.active>a:hover, .toc .nav>li.active>a:focus {
-  color: #aaa393;
+  color: #5bc0de;
 }
 
 .sidefilter {
@@ -118,12 +126,12 @@ body .toc {
 
 .toc-filter {
   background: #222529;
-  color: #666666;
+  color: #778089;
 }
 
 .toc-filter>input {
   background: #222529;
-  color: #666666;
+  color: #778089;
 }
 
 .sideaffix>div.contribution>ul>li>a.contribution-link:hover {
@@ -131,7 +139,7 @@ body .toc {
 }
 
 .affix ul>li>a:hover {
-  color: #666666;
+  color: #778089;
 }
 
 .affix ul>li.active>a, .affix ul>li.active>a:before {
@@ -139,7 +147,7 @@ body .toc {
 }
 
 .affix ul>li>a {
-  color: #666666;
+  color: #778089;
 }
 
 .affix a:hover {
@@ -155,7 +163,7 @@ body .toc {
 }
 
 .tryspan {
-  border-color: #aaa393;
+  border-color: #5bc0de;
   background-color: white;
   color: #767676;
 }
@@ -180,7 +188,6 @@ pre>code .line-highlight {
   border-bottom: 1px solid #343a40;
 }
 
-
 .tabGroup a[role="tab"][aria-selected="true"] {
   border: 1px solid #343a40;
   border-bottom: 1px solid #272b30;
@@ -199,13 +206,13 @@ pre>code .line-highlight {
 }
 
 .toc a.active {
-  border-color: #928771;
+  border-color: #778089;
   background-color: #222529;
   color: #fff;
 }
 
 code {
-  border-color: #928771;
+  border-color: #778089;
   background-color: #eedeab;
   color: #222;
 }
@@ -263,6 +270,6 @@ span.wip {
   color: #eee;
 }
 
-code.lang-cs{
-color: #47A7A0;
+code.lang-cs {
+  color: #47A7A0;
 }

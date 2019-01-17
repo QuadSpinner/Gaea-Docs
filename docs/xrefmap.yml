@@ -46,6 +46,9 @@ references:
 - uid: Build-Manager
   name: Build Manager
   href: documentation/usage/Building.html
+- uid: build-swarm
+  name: Build Swarm
+  href: documentation/usage/Build-Swarm.html
 - uid: Buildup
   name: Buildup
   href: reference/Nodes/Erosion--Buildup.html
@@ -64,6 +67,12 @@ references:
 - uid: Coast
   name: Coast
   href: reference/Nodes/Erosion--Coast.html
+- uid: color-biome
+  name: Creating Biomes
+  href: documentation/usage/Color-Biome.html
+- uid: color-datamaps
+  name: Data Maps for Color Production
+  href: documentation/usage/Color-DataMaps.html
 - uid: Color-Production
   name: Color Production
   href: documentation/usage/Color-Production.html
@@ -193,6 +202,9 @@ references:
 - uid: Igneous-Quickstart
   name: Igneous
   href: quickstarts/Igneous.html
+- uid: import-export
+  name: Import and Export
+  href: documentation/usage/Import-Export.html
 - uid: Importing-Data
   name: Importing Data
   href: documentation/usage/Importing.html

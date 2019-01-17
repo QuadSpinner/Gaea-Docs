@@ -13,4 +13,4 @@ In this example, we create a simple terrain using a Mountain node, then erode it
 
 // TODO: Image
 
-See the @quickstarts for more color production examples.
+See the @color-datamaps for further information.

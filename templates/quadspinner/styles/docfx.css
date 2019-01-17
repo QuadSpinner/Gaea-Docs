@@ -191,7 +191,13 @@ header .navbar {
 }
 
 article h1, article h2, article h3, article h4 {
-  margin-top: 3em;
+  margin-top: 2em;
+  
+  max-width: 740px;
+}
+
+article h1, article h2{
+  border-bottom: 1px solid;
 }
 
 article h1:first-child {
@@ -508,7 +514,6 @@ body .toc {
 }
 
 .toc .nav>li>a {
-  color: #666666;
   margin-left: 0px;
   display: block;
   padding: 0;
@@ -647,10 +652,11 @@ body .toc {
   margin-top: 50px;
   font-size: 12px;
   max-height: 100%;
-  overflow: hidden;
   top: 60px;
   bottom: 10px;
   position: fixed;
+  right: 60px;
+  width: auto;
 }
 
 .sideaffix.shiftup {
@@ -1253,7 +1259,7 @@ ol>li:before {
   content: counter(item) ".";
 }
 
-article>p, article>ul>li, article>ol>li {
+article p, article ul>li, article ol>li {
   max-width: 740px;
 }
 
