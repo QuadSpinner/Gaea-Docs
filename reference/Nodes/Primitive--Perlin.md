@@ -8,8 +8,8 @@ title: Perlin
 | :----------------- | :----------- | :-------------------------------------------------------- |
 | **Scale**          | 0 - 100%  | TODO                                                     |
 | **Octaves**        | 1 - 14       | TODO                                                     |
-| **Scale X**        | 0.00 - 10.00 | TODO ipsum                                               |
-| **Scale Y**        | 0.00 - 10.00 | TODO ipsum                                               |
+| **Scale X**        | 0.00 - 10.00 | TODO                                               |
+| **Scale Y**        | 0.00 - 10.00 | TODO                                               |
 | **Noise**          | TODO        |
 |                    | *FBM*        | TODO                                                     |
 |                    | *Ridged*     | TODO                                                     |

@@ -525,6 +525,12 @@ $(function () {
 
   function renderBreadcrumb() {
     var breadcrumb = [];
+
+    breadcrumb.push({
+      href: "/",
+      name: "&#128640;"
+    });
+
     $('#navbar a.active').each(function (i, e) {
       breadcrumb.push({
         href: e.href,

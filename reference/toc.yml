@@ -4,8 +4,6 @@
     items:
       - name: Constant
         href: Nodes/Primitive--Constant.md
-      - name: Draw
-        href: Nodes/Primitive--Draw.md
       - name: Dunes
         href: Nodes/Primitive--Dunes.md
       - name: Fault
@@ -28,8 +26,6 @@
         href: Nodes/Primitive--Resource.md
       - name: SlopeNoise
         href: Nodes/Primitive--SlopeNoise.md
-      - name: Vector
-        href: Nodes/Primitive--Vector.md
       - name: Voronoi
         href: Nodes/Primitive--Voronoi.md
       - name: Voronoi+
