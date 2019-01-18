@@ -34,10 +34,10 @@ Creates a new Erosion Studio @sculpt-mode project. It will ask you for an existi
 The ... menu in the top right gives you access to additional options.
 
 ### Preferences
-Opens the @Preferences dialog.
+Opens the @preferences dialog.
 
 ### Disable 3D Viewport
-This option lets you disable the 3D viewport and replaces it with the 2D @Viewport. This can be helpful for diagnosing problems, working in just the 2D view, or when you quickly need to change settings in an existing file for building.
+This option lets you disable the 3D viewport and replaces it with the 2D @viewport. This can be helpful for diagnosing problems, working in just the 2D view, or when you quickly need to change settings in an existing file for building.
 
 ### Help
 Takes you to this documentation.
