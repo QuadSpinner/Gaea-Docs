@@ -1,28 +1,24 @@
-
-
-.state {
-    display: inline-block;
-    padding: 4px 8px;
+.changelog li span {
+    background-color: #0366d6;
+    display: inline;
+    flex: 0 0 65px;
+    font-size: 10px;
     font-weight: 600;
-    line-height: 20px;
-    color: #fff;
+    border-radius: 3px;
+    margin-right: 8px;
+    padding: 2px 5px;
+    text-transform: uppercase;
     text-align: center;
-    background-color: #959da5;
-    border-radius: 3px
 }
 
-.state-open, .state-proposed, .state-reopened {
-    background-color: #2cbe4e
+.new span, .added span {
+    background-color: #28a745;
 }
 
-.state-merged {
-    background-color: #6f42c1
+.fixed span, .improved span {
+    background-color: #0366d6;
 }
 
-.state-closed {
-    background-color: #cb2431
-}
-
-.state-renamed {
-    background-color: #ffd33d
+.removed span, .issue span {
+    background-color: #d73a49;
 }
