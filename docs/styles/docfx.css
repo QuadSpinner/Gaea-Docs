@@ -1184,6 +1184,7 @@ table:not(.example) tr td:nth-child(2) em {
   font-weight: 600;
   border-radius: 0;
   padding: 12px;
+  max-width: 740px;
 }
 
 .TIP h5, .WARNING h5, .NOTE h5 {
@@ -1298,15 +1299,14 @@ article p, article ul>li, article ol>li {
   margin-top: 4px;
 }
 
-
 .new span, .added span {
   background-color: #28a745 !important;
 }
 
-.fixed span
-{
+.fixed span {
   background-color: #6f42c1 !important;
 }
+
 .improved span {
   background-color: #0366d6 !important;
 }
@@ -1325,14 +1325,14 @@ article p, article ul>li, article ol>li {
   max-width: 300px;
 }
 
-.xfot{
+.xfot {
   position: absolute;
   bottom: 10px;
   right: 10px;
   font-size: 12px;
 }
 
-.xfot span{
+.xfot span {
   display: block;
   font-size: 11px;
   opacity: 0.5;
