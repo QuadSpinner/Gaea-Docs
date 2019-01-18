@@ -155,10 +155,10 @@ Gaea.Build.exe &quot;C:\Users\Dax\Documents\Gaea\ErosionB-009.tor&quot; vars
 <p>Build Swarm logs are both machine and human readable. All values are tab separated.</p>
 <h3 id="format">Format</h3>
 <pre><code class="lang-dsconfig">STARTLOG                // Denotes start of a log
-GAEA &lt;VERSION&gt;          // Gaea version stamp
+GAEA    &lt;VERSION&gt;          // Gaea version stamp
 
-START &lt;TIME&gt;            // Build start time (yyyy-MM-dd HH:mm:ssz)
-END &lt;TIME&gt;              // Build end time (yyyy-MM-dd HH:mm:ssz)
+START   &lt;TIME&gt;            // Build start time (yyyy-MM-dd HH:mm:ssz)
+END     &lt;TIME&gt;              // Build end time (yyyy-MM-dd HH:mm:ssz)
 TOTAL   &lt;TIME&gt;          // Total time taken (HH:mm:ss.ms)
 
 RESOLUTION  &lt;RES&gt;       // Total build resolution
@@ -166,7 +166,7 @@ BUCKET SIZE &lt;RES&gt;       // Tiled build bucket resolution
 
 NODE    &lt;NAME&gt;  &lt;TIME&gt;  // Node name and time taken to build  (HH:mm:ss.ms)
 
-OUTPUT &lt;PATH&gt;           // Build destination directory
+OUTPUT  &lt;PATH&gt;           // Build destination directory
 ENDLOG                  // Denotes end of the log
 </code></pre>
 <h3 id="example">Example</h3>
@@ -183,14 +183,13 @@ BUCKET SIZE	2048x2048
 NODE	Mountain	0:00:00.696
 NODE	Displace	0:00:01.12
 NODE	Erosion	0:00:07.411
-NODE	Convector	0:00:07.72
 NODE	Displace	0:00:01.133
 NODE	Erosion	0:00:19.097
 NODE	Terrace	0:00:00.041
 NODE	Terrace	0:00:00.059
 NODE	Combine	0:00:00.047
 
-OUTPUT	C:\Users\Dax\Documents\Gaea\Builds\ErosionB-002\2018-12-30_07-29-16
+OUTPUT	C:\Users\Me\Documents\Gaea\Builds\ErosionB-002\2018-12-30_07-29-16
 ENDLOG
 
 </code></pre>

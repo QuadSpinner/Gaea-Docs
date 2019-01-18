@@ -1324,3 +1324,16 @@ article p, article ul>li, article ol>li {
 .smaller-image img {
   max-width: 300px;
 }
+
+.xfot{
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  font-size: 12px;
+}
+
+.xfot span{
+  display: block;
+  font-size: 11px;
+  opacity: 0.5;
+}
