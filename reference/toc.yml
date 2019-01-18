@@ -54,8 +54,6 @@
         href: Nodes/Adjustment--Heal.md
       - name: Invert
         href: Nodes/Adjustment--Invert.md
-      - name: RGB Extractor
-        href: Nodes/Adjustment--RGBExtractor.md
       - name: Sharpen
         href: Nodes/Adjustment--Sharpen.md
       - name: Sine
@@ -172,6 +170,8 @@
         href: Nodes/Color--Mixer.md
       - name: Normal Map
         href: Nodes/Color--NormalMap.md
+      - name: RGBSplit
+        href: Nodes/Color--RGBSplit.md
       - name: RGB Mixer
         href: Nodes/Color--RGBMixer.md
       - name: SatMaps
