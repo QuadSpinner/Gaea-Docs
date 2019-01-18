@@ -106,11 +106,10 @@ references:
 - uid: Curvature
   name: Curvature
   href: reference/Nodes/Selector--Curvature.html
-- uid: data-maps
 - uid: Cutter
   name: Cutter
   href: reference/Sculpt%20Tools/Cutter.html
-- uid: Data-Maps
+- uid: data-maps
   name: Data Maps
   href: documentation/usage/Data-Maps.html
 - uid: Denoise
