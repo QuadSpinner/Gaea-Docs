@@ -1,4 +1,7 @@
-﻿//! moment.js
+﻿
+$(document).ready(function(){       
+
+//! moment.js
 //! version : 2.18.1
 //! authors : Tim Wood, Iskren Chernev, Moment.js contributors
 //! license : MIT
@@ -13,10 +16,14 @@ $(function () {
 
     var el = $('#release-notes');
     el.html('<h2>Loading…</h2>')
+try{
 
-    fetch("data.json")
+    fetch("../changelog/data.json")
     .then(response => response.json())
     .then(json => buildReleases(json));
+}catch(err){
+    console.log(err);
+}
 
 });
 
@@ -86,3 +93,4 @@ function createChange(changeText) {
         return $("<li />").addClass(elClassnames).text(changeText);
     }
 }
+});

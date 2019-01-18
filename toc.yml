@@ -10,3 +10,6 @@
 - name: API
   href: api/
   homepage: api/index.md
+- name: Changelog
+  href: changelog/
+  homepage: changelog/index.md

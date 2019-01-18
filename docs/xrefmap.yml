@@ -61,6 +61,9 @@ references:
 - uid: Cells
   name: Cells
   href: reference/Nodes/Filter--Cells.html
+- uid: changelog
+  name: Changelog
+  href: changelog/index.html
 - uid: Clamp
   name: Clamp
   href: reference/Nodes/Adjustment--Clamp.html
