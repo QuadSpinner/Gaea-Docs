@@ -1,5 +1,5 @@
 ---
-uid: Build-Manager
+uid: build-manager
 title: Build Manager
 ---
 

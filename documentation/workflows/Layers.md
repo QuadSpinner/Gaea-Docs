@@ -1,5 +1,5 @@
 ---
-uid: LayersMode
+uid: layers-mode
 title: Layers Workflow
 ---
 # Layers Workflow

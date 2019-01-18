@@ -23,7 +23,7 @@ Instead of creating a dedicated "Output" node and then specifying the file to sa
 
 ![Mark for save](/images/ui/Build-Mark.png)
 
-To mark a node for saving, right-click the node and select Save. You can also use the Graph Toolbar button. In the @LayersMode you can right-click a layer in the Layers List.
+To mark a node for saving, right-click the node and select Save. You can also use the Graph Toolbar button. In the @layers-mode you can right-click a layer in the Layers List.
 
 ![Mark for save](/images/ui/Build-Marked.png)
 

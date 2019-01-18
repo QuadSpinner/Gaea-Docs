@@ -1,5 +1,5 @@
 ---
-uid: Preferences
+uid: preferences
 title: Preferences
 ---
 

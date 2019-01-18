@@ -1,5 +1,5 @@
 ---
-uid: Basics-of-Terrain-Design
+uid: basics
 title: Basics of Terrain Design
 ---
 

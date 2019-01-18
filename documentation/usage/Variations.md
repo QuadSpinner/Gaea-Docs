@@ -1,4 +1,4 @@
 ---
-uid: Creating-Variations
+uid: variations
 title: Creating Variations
 ---

@@ -22,7 +22,7 @@ references:
 - uid: AutoLevel
   name: AutoLevel
   href: reference/Nodes/Adjustment--AutoLevel.html
-- uid: Basics-of-Terrain-Design
+- uid: basics
   name: Basics of Terrain Design
   href: documentation/usage/Basics.html
 - uid: BiasGain
@@ -46,7 +46,7 @@ references:
 - uid: building
   name: Building Terrains
   href: documentation/usage/Building.html
-- uid: Build-Manager
+- uid: build-manager
   name: Build Manager
   href: documentation/interface/Build-Manager.html
 - uid: build-swarm
@@ -79,13 +79,13 @@ references:
 - uid: color-datamaps
   name: Data Maps for Color Production
   href: documentation/usage/Color-DataMaps.html
-- uid: Color-Production
+- uid: color-production
   name: Color Production
   href: documentation/usage/Color-Production.html
 - uid: Combine
   name: Combine
   href: reference/Nodes/Adjustment--Combine.html
-- uid: Common-Issues
+- uid: common-issues
   name: Common Issues
   href: documentation/Common%20Issues.html
 - uid: Constant
@@ -94,13 +94,10 @@ references:
 - uid: Convector
   name: Convector
   href: reference/Nodes/Erosion--Convector.html
-- uid: Creating-Variations
-  name: Creating Variations
-  href: documentation/usage/Variations.html
 - uid: Curvature
   name: Curvature
   href: reference/Nodes/Selector--Curvature.html
-- uid: Data-Maps
+- uid: data-maps
   name: Data Maps
   href: documentation/usage/Data-Maps.html
 - uid: Denoise
@@ -136,6 +133,9 @@ references:
 - uid: Erosion
   name: Erosion
   href: reference/Nodes/Erosion--Erosion.html
+- uid: exporting
+  name: Exporting for other packages
+  href: documentation/usage/Exporting.html
 - uid: Fault
   name: Fault
   href: reference/Nodes/Primitive--Fault.html
@@ -163,10 +163,10 @@ references:
 - uid: Gamma
   name: Gamma
   href: reference/Nodes/Adjustment--Gamma.html
-- uid: Getting-around
+- uid: getting-around
   name: Getting around
   href: documentation/Getting%20around.html
-- uid: Getting-help
+- uid: getting-help
   name: Getting help
   href: documentation/Getting%20help.html
 - uid: Gradient
@@ -175,7 +175,7 @@ references:
 - uid: Gradient-Slope
   name: Gradient Slope
   href: quickstarts/Gradient-Slope.html
-- uid: GraphMode
+- uid: graph-mode
   name: Graph Workflow
   href: documentation/workflows/Graph.html
 - uid: Growth
@@ -214,16 +214,13 @@ references:
 - uid: import-export
   name: Import and Export
   href: documentation/usage/Import-Export.html
-- uid: Importing-Data
+- uid: importing
   name: Importing Data
   href: documentation/usage/Importing.html
-- uid: Importing-in-other-packages
-  name: Importing in other packages
-  href: documentation/usage/Exporting.html
 - uid: index
   name: index
   href: api/index.html
-- uid: Installing-Gaea
+- uid: installing
   name: Installing Gaea
   href: documentation/Installing%20Gaea.html
 - uid: Invert
@@ -238,7 +235,7 @@ references:
 - uid: Large-Desert
   name: Large Desert
   href: quickstarts/Large-Desert.html
-- uid: LayersMode
+- uid: layers-mode
   name: Layers Workflow
   href: documentation/workflows/Layers.html
 - uid: LineNoise
@@ -292,10 +289,10 @@ references:
 - uid: Polar
   name: Polar
   href: reference/Nodes/Filter--Polar.html
-- uid: Preferences
+- uid: preferences
   name: Preferences
   href: documentation/interface/Preferences.html
-- uid: Properties
+- uid: properties
   name: Properties
   href: documentation/interface/Properties.html
 - uid: quickstarts
@@ -307,7 +304,7 @@ references:
 - uid: Repulse
   name: Repulse
   href: reference/Nodes/Filter--Repulse.html
-- uid: Resolutions
+- uid: resolutions
   name: Resolutions
   href: documentation/usage/Resolutions.html
 - uid: Resource
@@ -337,10 +334,13 @@ references:
 - uid: SatMaps-001
   name: SatMaps 001
   href: quickstarts/SatMaps-001.html
+- uid: scale
+  name: Terrain Scale
+  href: documentation/usage/Scale.html
 - uid: scripting
   name: scripting
   href: api/scripting.html
-- uid: SculptMode
+- uid: sculpt-mode
   name: Sculpt Workflow
   href: documentation/workflows/Sculpt.html
 - uid: Sediment
@@ -352,7 +352,7 @@ references:
 - uid: Sharp-Mountain
   name: Sharp Mountain
   href: quickstarts/Sharp-Mountain.html
-- uid: Shortcuts
+- uid: shortcuts
   name: Keyboard Shortcuts
   href: documentation/interface/Keyboard.html
 - uid: Simple-Mountain
@@ -376,8 +376,8 @@ references:
 - uid: Soil
   name: Soil
   href: reference/Nodes/DataMap--Soil.html
-- uid: Startup
-  name: Startup Screen
+- uid: Startup Screen
+  name: startup
   href: documentation/interface/Startup.html
 - uid: Stratify
   name: Stratify
@@ -418,9 +418,6 @@ references:
 - uid: Terrace
   name: Terrace
   href: reference/Nodes/Filter--Terrace.html
-- uid: Terrain-Scale
-  name: Terrain Scale
-  href: documentation/usage/Scale.html
 - uid: Thermal Erosion
   name: Thermal Erosion
   href: reference/Nodes/Erosion--ThermalErosion.html
@@ -430,10 +427,10 @@ references:
 - uid: Threshold
   name: Threshold
   href: reference/Nodes/Adjustment--Threshold.html
-- uid: Tiled-Builds
+- uid: tiled-builds
   name: Tiled Builds
   href: documentation/usage/Tiled-Builds.html
-- uid: Toolbox
+- uid: toolbox
   name: Toolbox
   href: documentation/interface/Toolbox.html
 - uid: Transform
@@ -442,10 +439,13 @@ references:
 - uid: Uluru-Style-Rock
   name: Uluru Style Rock
   href: quickstarts/Uluru-Style-Rock.html
+- uid: variations
+  name: Creating Variations
+  href: documentation/usage/Variations.html
 - uid: Velocity
   name: Velocity
   href: reference/Nodes/DataMap--Velocity.html
-- uid: Viewport
+- uid: viewport
   name: Viewport
   href: documentation/interface/Viewport.html
 - uid: Volcano
