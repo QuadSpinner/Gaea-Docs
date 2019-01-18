@@ -22,6 +22,9 @@ references:
 - uid: AutoLevel
   name: AutoLevel
   href: reference/Nodes/Adjustment--AutoLevel.html
+- uid: Basic
+  name: Basic
+  href: reference/Sculpt%20Tools/Basic.html
 - uid: basics
   name: Basics of Terrain Design
   href: documentation/usage/Basics.html
@@ -58,6 +61,12 @@ references:
 - uid: Butte
   name: Butte
   href: quickstarts/Butte.html
+- uid: Carver I
+  name: Carver I
+  href: reference/Sculpt%20Tools/Carver%20I.html
+- uid: Carver II
+  name: Carver II
+  href: reference/Sculpt%20Tools/Carver%20II.html
 - uid: Cells
   name: Cells
   href: reference/Nodes/Filter--Cells.html
@@ -98,6 +107,10 @@ references:
   name: Curvature
   href: reference/Nodes/Selector--Curvature.html
 - uid: data-maps
+- uid: Cutter
+  name: Cutter
+  href: reference/Sculpt%20Tools/Cutter.html
+- uid: Data-Maps
   name: Data Maps
   href: documentation/usage/Data-Maps.html
 - uid: Denoise
@@ -151,6 +164,9 @@ references:
 - uid: Flow
   name: Flow
   href: reference/Nodes/DataMap--Flow.html
+- uid: FlowLines
+  name: FlowLines
+  href: reference/Sculpt%20Tools/FlowLines.html
 - uid: Fluvial
   name: Fluvial
   href: reference/Nodes/Erosion--Fluvial.html
@@ -181,6 +197,9 @@ references:
 - uid: Growth
   name: Growth
   href: reference/Nodes/DataMap--Growth.html
+- uid: Gullies
+  name: Gullies
+  href: reference/Sculpt%20Tools/Gullies.html
 - uid: Heal
   name: Heal
   href: reference/Nodes/Adjustment--Heal.html
@@ -286,6 +305,9 @@ references:
 - uid: Pleasant-Hill
   name: Pleasant Hill
   href: quickstarts/Pleasant-Hill.html
+- uid: Pockmarks
+  name: Pockmarks
+  href: reference/Sculpt%20Tools/Pockmarks.html
 - uid: Polar
   name: Polar
   href: reference/Nodes/Filter--Polar.html
@@ -310,12 +332,12 @@ references:
 - uid: Resource
   name: Resource
   href: reference/Nodes/Primitive--Resource.html
-- uid: RGB Extractor
-  name: RGB Extractor
-  href: reference/Nodes/Adjustment--RGBExtractor.html
 - uid: RGB Mixer
   name: RGB Mixer
   href: reference/Nodes/Color--RGBMixer.html
+- uid: RGBSplit
+  name: RGBSplit
+  href: reference/Nodes/Color--RGBSplit.html
 - uid: Ridge
   name: Ridge
   href: quickstarts/Ridge.html
@@ -325,6 +347,12 @@ references:
 - uid: RockSlide
   name: RockSlide
   href: reference/Nodes/Erosion--RockSlide.html
+- uid: Rough Flow
+  name: Rough Flow
+  href: reference/Sculpt%20Tools/Rough%20Flow.html
+- uid: Roughness
+  name: Roughness
+  href: reference/Sculpt%20Tools/Roughness.html
 - uid: RoughSlants
   name: RoughSlants
   href: quickstarts/RoughSlants.html
@@ -337,12 +365,18 @@ references:
 - uid: scale
   name: Terrain Scale
   href: documentation/usage/Scale.html
+- uid: Scratch
+  name: Scratch
+  href: reference/Sculpt%20Tools/Scratch.html
 - uid: scripting
   name: scripting
   href: api/scripting.html
 - uid: sculpt-mode
   name: Sculpt Workflow
   href: documentation/workflows/Sculpt.html
+- uid: Sculpt--Soil
+  name: Soil
+  href: reference/Sculpt%20Tools/Sculpt--Soil.html
 - uid: Sediment
   name: Sediment
   href: reference/Nodes/Erosion--Sediment.html
@@ -460,6 +494,12 @@ references:
 - uid: Whorl
   name: Whorl
   href: reference/Nodes/Filter--Whorl.html
+- uid: Wide Flow I
+  name: Wide Flow I
+  href: reference/Sculpt%20Tools/Wide%20Flow%20I.html
+- uid: Wide Flow II
+  name: Wide Flow II
+  href: reference/Sculpt%20Tools/Wide%20Flow%20II.html
 - uid: Zero-Borders
   name: Zero Borders
   href: reference/Nodes/Adjustment--Zero%20Borders.html
