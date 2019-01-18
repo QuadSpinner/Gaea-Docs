@@ -106,14 +106,13 @@ BUCKET SIZE	2048x2048
 NODE	Mountain	0:00:00.696
 NODE	Displace	0:00:01.12
 NODE	Erosion	0:00:07.411
-NODE	Convector	0:00:07.72
 NODE	Displace	0:00:01.133
 NODE	Erosion	0:00:19.097
 NODE	Terrace	0:00:00.041
 NODE	Terrace	0:00:00.059
 NODE	Combine	0:00:00.047
 
-OUTPUT	C:\Users\Dax\Documents\Gaea\Builds\ErosionB-002\2018-12-30_07-29-16
+OUTPUT	C:\Users\Me\Documents\Gaea\Builds\ErosionB-002\2018-12-30_07-29-16
 ENDLOG
 
 ```

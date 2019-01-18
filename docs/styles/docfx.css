@@ -8,7 +8,7 @@ html, body {
 
 button, a, .xref {
   cursor: pointer;
-  font-weight: 600;  
+  font-weight: 600;
   transition: all linear 0.333s;
 }
 
@@ -588,10 +588,10 @@ body .toc {
   padding: 4px;
 }
 
-
-.toc ul.nav.level1 li.in span.expand-stub::before{
+.toc ul.nav.level1 li.in span.expand-stub::before {
   top: -6px !important;
 }
+
 .toc ul.nav.level1 li.active.in ul.nav.level2 li.active.in span.expand-stub::before {
   top: -6px !important;
 }
@@ -1279,10 +1279,61 @@ article p, article ul>li, article ol>li {
 
 /*****************************/
 
+.changelog li span {
+  background-color: #0366d6;
+  color: #fff;
+  display: inline-block;
+  font-size: 10px;
+  font-weight: 600;
+  border-radius: 3px;
+  margin-right: 8px;
+  padding: 2px 5px;
+  text-transform: uppercase;
+  text-align: center;
+  width: 72px !important;
+}
+
+.changelog li {
+  list-style: none;
+  margin-top: 4px;
+}
+
+
+.new span, .added span {
+  background-color: #28a745 !important;
+}
+
+.fixed span
+{
+  background-color: #6f42c1 !important;
+}
+.improved span {
+  background-color: #0366d6 !important;
+}
+
+.removed span, .issue span {
+  background-color: #d73a49 !important;
+}
+
+/****************************/
+
 .small-image img {
   max-width: 450px;
 }
 
 .smaller-image img {
   max-width: 300px;
+}
+
+.xfot{
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  font-size: 12px;
+}
+
+.xfot span{
+  display: block;
+  font-size: 11px;
+  opacity: 0.5;
 }

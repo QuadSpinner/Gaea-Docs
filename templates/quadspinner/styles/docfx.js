@@ -528,7 +528,7 @@ $(function () {
 
     breadcrumb.push({
       href: "/",
-      name: "&#128640;"
+      name: "Home"
     });
 
     $('#navbar a.active').each(function (i, e) {

@@ -12,13 +12,13 @@
 }
 
 .new span, .added span {
-    background-color: #28a745;
+    background-color: #28a745 !important;
 }
 
 .fixed span, .improved span {
-    background-color: #0366d6;
+    background-color: #0366d6 !important;
 }
 
 .removed span, .issue span {
-    background-color: #d73a49;
+    background-color: #d73a49 !important;
 }
