@@ -28,7 +28,6 @@ title: Snow
 | :-------------------- | :---------- | :---------- |
 | **Slip-off angle**    | 0.00 - 90.0 | TODO       |
 | **Adhered snow mass** | 0.00 - 30.0 | TODO       |
-| **Model scale**       | 1.00 - 16.0 | TODO       |
 | **Snow output**       | TODO       |
 |                       | *Depth*     | TODO       |
 |                       | *Soft Mask* | TODO       |

@@ -116,22 +116,22 @@
         href: Nodes/Erosion--Fluvial.md
       - name: Fold
         href: Nodes/Erosion--Fold.md
-      - name: Fusion
-        href: Nodes/Erosion--Fusion.md
       - name: Hydro
         href: Nodes/Erosion--Hydro.md
       - name: Landform
         href: Nodes/Erosion--Landform.md
       - name: MicroErosion
         href: Nodes/Erosion--MicroErosion.md
+      - name: RockSlide
+        href: Nodes/Erosion--RockSlide.md
       - name: Sediment
         href: Nodes/Erosion--Sediment.md
       - name: Snow
         href: Nodes/Erosion--Snow.md
       - name: Stratify
         href: Nodes/Erosion--Stratify.md
-      - name: Thermal Erosion
-        href: Nodes/Erosion--ThermalErosion.md
+      - name: Thermal
+        href: Nodes/Erosion--Thermal.md
   - name: Data Maps
     items:
       - name: Flow
