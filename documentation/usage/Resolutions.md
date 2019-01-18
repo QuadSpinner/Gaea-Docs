@@ -1,5 +1,5 @@
 ---
-uid: Resolutions
+uid: resolutions
 Title: Understanding Resolution
 ---
 

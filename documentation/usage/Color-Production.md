@@ -1,5 +1,5 @@
 ---
-uid: Color-Production
+uid: color-production
 title: Color Production
 ---
 

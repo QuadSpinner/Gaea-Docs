@@ -1,6 +1,6 @@
 ---
-uid: Importing-in-other-packages
-title: Importing in other packages
+uid: exporting
+title: Exporting for other packages
 ---
 
 ## 3dsmax

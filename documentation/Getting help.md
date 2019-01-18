@@ -1,4 +1,4 @@
 ---
-uid: Getting-help
+uid: getting-help
 title: Getting help
 ---

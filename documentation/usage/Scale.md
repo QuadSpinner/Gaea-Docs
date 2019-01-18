@@ -1,5 +1,5 @@
 ---
-uid: Terrain-Scale
+uid: scale
 title: Terrain Scale
 ---
 

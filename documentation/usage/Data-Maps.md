@@ -1,5 +1,5 @@
 ---
-uid: Data-Maps
+uid: data-maps
 title: Data Maps
 ---
 

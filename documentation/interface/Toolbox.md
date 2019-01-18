@@ -1,5 +1,5 @@
 ---
-uid: Toolbox
+uid: toolbox
 title: Toolbox
 ---
 

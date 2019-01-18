@@ -1,6 +1,6 @@
 ---
-title: Startup Screen
-uid: Startup
+title: startup
+uid: Startup Screen
 ---
 
 ![](/images/ui/Startup.png)
@@ -12,10 +12,10 @@ On the right side, you have all the commands you need to get started. On the lef
 ## Commands
 
 #### Create a terrain (Graph)
-Creates a new terrain with the @GraphMode.
+Creates a new terrain with the @graph-mode.
 
 #### Create a terrain (Layers)
-Creates a new terrain with the @LayersMode.
+Creates a new terrain with the @layers-mode.
 
 #### Open an existing file
 Lets you open any Gaea terrain file or Sculpt project.
@@ -27,7 +27,7 @@ Gaea ships with several @quickstarts that help you get started, and also teach v
 By default, the Graph is created with a handful of nodes to get you started. If you prefer to start with a blank graph, you can use this command.
 
 ### Create a new sculpt
-Creates a new Erosion Studio @SculptMode project. It will ask you for an existing heightfield to use as your sculpting base. Seee @SculptMode for details.
+Creates a new Erosion Studio @sculpt-mode project. It will ask you for an existing heightfield to use as your sculpting base. Seee @sculpt-mode for details.
 
 ## Menu
 

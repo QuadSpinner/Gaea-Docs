@@ -1,5 +1,5 @@
 ---
-uid: Properties
+uid: properties
 title: Properties
 ---
 
