@@ -160,20 +160,18 @@
     items:
       - name: Biome
         href: Nodes/Color--Biome.md
-      - name: BrightnessContrast
-        href: Nodes/Color--BrightnessContrast.md
       - name: CLUTer
         href: Nodes/Color--CLUTer.md
-      - name: HSL
-        href: Nodes/Color--HSL.md
+      - name: ColorFX
+        href: Nodes/Color--ColorFX.md
       - name: Mixer
         href: Nodes/Color--Mixer.md
       - name: Normal Map
         href: Nodes/Color--NormalMap.md
       - name: RGBSplit
         href: Nodes/Color--RGBSplit.md
-      - name: RGB Mixer
-        href: Nodes/Color--RGBMixer.md
+      - name: RGBMix
+        href: Nodes/Color--RGBMix.md
       - name: SatMaps
         href: Nodes/Color--SatMaps.md
       - name: Synth

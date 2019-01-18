@@ -88,6 +88,9 @@ references:
 - uid: color-datamaps
   name: Data Maps for Color Production
   href: documentation/usage/Color-DataMaps.html
+- uid: ColorFX
+  name: ColorFX
+  href: reference/Nodes/Color--ColorFX.html
 - uid: color-production
   name: Color Production
   href: documentation/usage/Color-Production.html
@@ -331,9 +334,9 @@ references:
 - uid: Resource
   name: Resource
   href: reference/Nodes/Primitive--Resource.html
-- uid: RGB Mixer
-  name: RGB Mixer
-  href: reference/Nodes/Color--RGBMixer.html
+- uid: RGBMix
+  name: RGBMix
+  href: reference/Nodes/Color--RGBMix.html
 - uid: RGBSplit
   name: RGBSplit
   href: reference/Nodes/Color--RGBSplit.html
@@ -451,15 +454,9 @@ references:
 - uid: Terrace
   name: Terrace
   href: reference/Nodes/Filter--Terrace.html
-- uid: Terrain-Scale
-  name: Terrain Scale
-  href: documentation/usage/Scale.html
 - uid: Thermal
   name: Thermal
   href: reference/Nodes/Erosion--Thermal.html
-- uid: Thermal Erosion
-  name: Thermal Erosion
-  href: reference/Nodes/Erosion--ThermalErosion.html
 - uid: Thousand-Mesas
   name: Thousand Mesas
   href: quickstarts/Thousand-Mesas.html
