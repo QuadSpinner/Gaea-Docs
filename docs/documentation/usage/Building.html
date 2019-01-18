@@ -126,8 +126,14 @@ Once a node is marked for saving, it displays this icon underneath the node.
 <p>This is the path where the built output will be saved. By default it is saved in a version controlled path in the Builds repository. You can always enter a normal path directly, or pick from presets in the dropdown.</p>
 <p>For additional information see the <strong>Organizing Builds</strong> below.</p>
 <h3 id="resolution">Resolution</h3>
+<p>The output resolution of the build. Higher resolutions give you better detail at the cost of longer processing times.</p>
+<div class="WARNING">
+<h5>Warning</h5>
+<p>16k and 32k builds are experimental at this stage and will be optimized over the next several builds.</p>
+</div>
 <h3 id="format">Format</h3>
-<p>This dropdown allows you to choose the the format in which your output is saved. You can select</p>
+<p>This dropdown allows you to choose the the format in which your output is saved. All files are 16-bit.</p>
+<p>To save any output as a mesh, see <a class="xref" href="Exporting.html">Exporting for other packages</a> and <a class="xref" href="../../reference/Nodes/Output--Mesher.html">Mesher</a>.</p>
 <h3 id="resample">Resample</h3>
 <p>This option is for builds that need to be taken to Unreal Engine, and is turned off by default. Unreal engine requires particular dimensions for ingesting terrains. To meet Unreal's requirements, Gaea will build the terrain at its own fixed resolutions and then faithfully downsample to the Unreal friendly resolution.</p>
 <p>Pick the nearest Gaea resolution in the main Resolution dropdown, then select the Unreal friendly resolution in the Resample dropdown.</p>
@@ -143,9 +149,14 @@ Once a node is marked for saving, it displays this icon underneath the node.
 <p>If you do use the Full Range export, it is best to use the OpenEXR (.exr) format to preserve the values as best as possible.</p>
 <p>You can always export a copy with Clamped values, and use that as a guide for vertically resizing the externally edited Full Range output.</p>
 <h3 id="increase-output-scale-by-1">Increase output scale by +1</h3>
+<p>Some software require heightfields to be one pixel larger than the normal dimension. For example, 4096 is required to be 4097. Check this option to increase the dimensions by one pixel.</p>
+<p>This option is ignored when the Resample option is used.</p>
 <h3 id="save-a-copy-of-this-tor-file">Save a copy of this .TOR file</h3>
+<p>Saves a copy of the current .TOR or .TORX file in the build folder.</p>
 <h3 id="close-gaea-ui">Close Gaea UI</h3>
+<p>The Gaea interface - especially when using high resolution previews - can consume enough RAM to cause an impact on high resolution builds. To conserve memory, you can check this option to close Gaea when the build starts.</p>
 <h3 id="open-folder-after-build">Open folder after build</h3>
+<p>Check this option to open the build destination folder when the build completes.</p>
 <h2 id="version-control-and-organization">Version Control and Organization</h2>
 <h3 id="organizing-builds">Organizing Builds</h3>
 <p>The Location field in the Build Manager provides two built-in options for storing your builds.</p>

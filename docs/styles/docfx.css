@@ -572,7 +572,7 @@ body .toc {
 
 .toc .level1>li {
   font-weight: bold;
-  margin-top: 10px;
+  margin-top: 0px;
   position: relative;
   font-size: 12px;
 }
