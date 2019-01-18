@@ -8,7 +8,6 @@ The Mixer node is just like the Combine node, but for mixing colors rather than 
 | Setting         | Values          | Description |
 | :-------------- | :-------------- | :---------- |
 | **Source**      | *Node or Layer* | TODO       |
-| **Swap Inputs** | On / Off        | TODO       |
 | **Method**      | TODO           |
 |                 | *Blend*         | TODO       |
 |                 | *Add*           | TODO       |

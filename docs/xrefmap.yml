@@ -88,6 +88,9 @@ references:
 - uid: color-datamaps
   name: Data Maps for Color Production
   href: documentation/usage/Color-DataMaps.html
+- uid: ColorFX
+  name: ColorFX
+  href: reference/Nodes/Color--ColorFX.html
 - uid: color-production
   name: Color Production
   href: documentation/usage/Color-Production.html
@@ -331,9 +334,9 @@ references:
 - uid: Resource
   name: Resource
   href: reference/Nodes/Primitive--Resource.html
-- uid: RGB Mixer
-  name: RGB Mixer
-  href: reference/Nodes/Color--RGBMixer.html
+- uid: RGBMix
+  name: RGBMix
+  href: reference/Nodes/Color--RGBMix.html
 - uid: RGBSplit
   name: RGBSplit
   href: reference/Nodes/Color--RGBSplit.html
