@@ -451,6 +451,12 @@ references:
 - uid: Terrace
   name: Terrace
   href: reference/Nodes/Filter--Terrace.html
+- uid: Terrain-Scale
+  name: Terrain Scale
+  href: documentation/usage/Scale.html
+- uid: Thermal
+  name: Thermal
+  href: reference/Nodes/Erosion--Thermal.html
 - uid: Thermal Erosion
   name: Thermal Erosion
   href: reference/Nodes/Erosion--ThermalErosion.html
