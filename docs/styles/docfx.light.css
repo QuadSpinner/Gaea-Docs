@@ -30,6 +30,10 @@ hr {
   border-bottom: 1px solid #ccc;
 }
 
+article h1, article h2 {
+  border-bottom: 1px solid #ccc !important;
+}
+
 article h4 {
   border-bottom: 1px solid #ccc;
 }

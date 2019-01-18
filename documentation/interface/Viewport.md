@@ -72,19 +72,14 @@ Additionally, you can visualize the secondary output as flat images or overlays 
 
 The menu in the bottom right corner gives you access to additional options for the 2D view, including the secondary outputs mentioned above, lighting control for the 3D mode, and the ability to save the current 2D view to a PNG file.
 
-# Modifying view settings
 
-![](/images/ui/Pop-Definition.png)
-
-Aliquam nunc. Fusce at lacus in turpis tincidunt congue. Nam tempor sagittis massa. Cras luctus vehicula ligula. Donec pretium egestas lacus. Proin ac velit ac erat condimentum dictum. Donec massa elit, laoreet a, varius quis, dapibus a, lectus. Proin pellentesque nibh tristique odio. Sed odio magna, euismod ac, sodales eu, suscipit eget, lectus. Aliquam libero. Cras leo. Donec ac libero vel nibh nonummy mollis. Vivamus a orci. In interdum mattis nunc. Donec condimentum ultricies nisi. Cras sit amet quam. Sed non quam at est venenatis ultricies. In nec neque. Proin ut nunc. Mauris dictum sollicitudin nibh. 
-
-## Using the Sun
+## Lighting
 
 ![](/images/ui/Pop-Atmosphere.png)
 
 Aliquam nunc. Fusce at lacus in turpis tincidunt congue. Nam tempor sagittis massa. Cras luctus vehicula ligula. Donec pretium egestas lacus. Proin ac velit ac erat condimentum dictum. Donec massa elit, laoreet a, varius quis, dapibus a, lectus. Proin pellentesque nibh tristique odio. Sed odio magna, euismod ac, sodales eu, suscipit eget, lectus. Aliquam libero. Cras leo. Donec ac libero vel nibh nonummy mollis. Vivamus a orci. In interdum mattis nunc. Donec condimentum ultricies nisi. Cras sit amet quam. Sed non quam at est venenatis ultricies. In nec neque. Proin ut nunc. Mauris dictum sollicitudin nibh. 
 
-## Using the Water Level
+## Water Surface
 
 ![](/images/ui/Pop-Water.png)
 

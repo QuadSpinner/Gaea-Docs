@@ -5,9 +5,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Hydro | QuadSpinner Gaea </title>
+    <title>Thermal | QuadSpinner Gaea </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Hydro | QuadSpinner Gaea ">
+    <meta name="title" content="Thermal | QuadSpinner Gaea ">
     <meta name="generator" content="docfx 2.40.7.0">
     
     <link rel="shortcut icon" href="../../favicon.ico">
@@ -98,15 +98,22 @@
         <div class="article row grid-right">
           <div class="col-md-10">
           <div class="container">
-                <h4 id="ntitle">Hydro</h4>
-            <article class="content wrap" id="_content" data-uid="Hydro">
+                <h4 id="ntitle">Thermal</h4>
+            <article class="content wrap" id="_content" data-uid="Thermal">
                 <span class="wip">This documentation is a work-in-progress and subject to change.</span>
                 <br><br>
 
+<div class="tabGroup" id="tabgroup_CeZOj-G++Q">
+<ul role="tablist">
+<li role="presentation">
+<a href="#tabpanel_CeZOj-G++Q_tabid-a" role="tab" aria-controls="tabpanel_CeZOj-G++Q_tabid-a" data-tab="tabid-a" tabindex="0" aria-selected="true">Thermal Erosion</a>
+</li>
+<li role="presentation">
+<a href="#tabpanel_CeZOj-G++Q_tabid-b" role="tab" aria-controls="tabpanel_CeZOj-G++Q_tabid-b" data-tab="tabid-b" tabindex="-1">Scale</a>
+</li>
+</ul>
+<section id="tabpanel_CeZOj-G++Q_tabid-a" role="tabpanel" data-tab="tabid-a">
 
-<p>Hydro creates waterflow erosion, such as rivers and ancient seabeds. It can be used in two forms: Lateral and Ventral.</p>
-<p>Lateral enhances the terrain by providing a different method of eroding rocky river banks, and even underwater areas. Lateral follows the water flow, creating patterns based on the flows over and around obstacles.</p>
-<p>Ventral uses partially randomized, churning forces to erode the terrain. It works with two sets of forces: macro and micro, which interweave to use the shape of the terrain to drive the erosion. This erosion method uses horizontal flow mechanics (unlike hydraulic erosion), resulting in a look that flowing waters gently carved in the terrain over thousands of year.</p>
 <table>
 <thead>
 <tr>
@@ -117,33 +124,78 @@
 </thead>
 <tbody>
 <tr>
-<td style="text-align: left;"><strong>Power</strong></td>
-<td style="text-align: left;">0 - 100%</td>
-<td style="text-align: left;">Higher values cause larger, smoother shapes and decay fine details. Lower values preserve details but create slightly rougher curves.</td>
-</tr>
-<tr>
-<td style="text-align: left;"><strong>Multiplier</strong></td>
-<td style="text-align: left;">1 - 10</td>
-<td style="text-align: left;">Higher values cause the erosion to erase smaller features in the terrain by producing stronger flows.</td>
-</tr>
-<tr>
-<td style="text-align: left;"><strong>Form</strong></td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-</tr>
-<tr>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"><em>Lateral</em></td>
+<td style="text-align: left;"><strong>Duration</strong></td>
+<td style="text-align: left;">0.001 - 1.00</td>
 <td style="text-align: left;">TODO</td>
 </tr>
 <tr>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"><em>Ventral</em></td>
+<td style="text-align: left;"><strong>Strength</strong></td>
+<td style="text-align: left;">0.001 - 1.00</td>
 <td style="text-align: left;">TODO</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Anisotropy</strong></td>
+<td style="text-align: left;">0.05 - 1.00</td>
+<td style="text-align: left;">TODO</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Talus Angle</strong></td>
+<td style="text-align: left;">0.0 - 90.00</td>
+<td style="text-align: left;">TODO</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Talus Settling</strong></td>
+<td style="text-align: left;">0.0 - 1.0</td>
+<td style="text-align: left;">TODO</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Fine Detail</strong></td>
+<td style="text-align: left;">On / Off</td>
+<td style="text-align: left;">TODO</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Debris Size</strong></td>
+<td style="text-align: left;">0.1 - 100.00</td>
+<td style="text-align: left;"><em>Available when Fine Detail is turned On</em></td>
 </tr>
 </tbody>
 </table>
-<hr>
+</section>
+<section id="tabpanel_CeZOj-G++Q_tabid-b" role="tabpanel" data-tab="tabid-b" aria-hidden="true" hidden="hidden">
+
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Setting</th>
+<th style="text-align: left;">Values</th>
+<th style="text-align: left;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>Real Scale</strong></td>
+<td style="text-align: left;">On / Off</td>
+<td style="text-align: left;">TODO</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Terrain Scale</strong></td>
+<td style="text-align: left;">500 - 20000</td>
+<td style="text-align: left;"><em>Available when Real Scale is turned Off</em></td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Feature Scale</strong></td>
+<td style="text-align: left;">1 - 250</td>
+<td style="text-align: left;">TODO</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Verticality</strong></td>
+<td style="text-align: left;">50 - 20000</td>
+<td style="text-align: left;"><em>Available when Real Scale is turned Off</em></td>
+</tr>
+</tbody>
+</table>
+</section>
+</div>
 <!--examples-->
 </article>
             </div>
@@ -154,7 +206,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/quadspinner/Gaea-Docs/blob/master/reference/Nodes/Erosion--Hydro.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/quadspinner/Gaea-Docs/blob/master/reference/Nodes/Erosion--Thermal.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

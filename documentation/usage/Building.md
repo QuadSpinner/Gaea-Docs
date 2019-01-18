@@ -40,6 +40,52 @@ You can choose the file format to use for all outputs, modify a node's output na
 
 You can also use the Build Manager for version control and file organization.
 
+
+## Build Options
+
+### Build Destination
+
+This is the path where the built output will be saved. By default it is saved in a version controlled path in the Builds repository. You can always enter a normal path directly, or pick from presets in the dropdown.
+
+For additional information see the **Organizing Builds** below.
+
+### Resolution
+
+### Format
+This dropdown allows you to choose the the format in which your output is saved. You can select 
+
+### Resample
+This option is for builds that need to be taken to Unreal Engine, and is turned off by default. Unreal engine requires particular dimensions for ingesting terrains. To meet Unreal's requirements, Gaea will build the terrain at its own fixed resolutions and then faithfully downsample to the Unreal friendly resolution. 
+
+Pick the nearest Gaea resolution in the main Resolution dropdown, then select the Unreal friendly resolution in the Resample dropdown.
+
+### Color Space
+You can choose to save color maps in RGB, sRGB, or scRGB color spaces.
+
+### Ignore Vertical Scaling
+The new Output node is the primary way to save your output. It automatically saves the specified file when a full Build is initiated from the Export panel.
+
+By default, it exports Clamped values, but you can choose to export a Full Range map by enabling Full Range in the Output node's properties.
+
+#### What's the difference?
+Here you can see the two outputs: Clamped and Full Range. The main difference is that Clamped is limited to the height set in the Terrain Definition, while Full Range ignores both the Base and Height settings, and exports the entire gradient range in its natural form (32-bit floating point).
+
+#### When should I use Full Range?
+Most of the time, you won't need to use Full Range. It can be useful in rare cases: when you intend to manually scale the terrain vertically later; or when you want to manually edit or sculpt the terrain in Photoshop, ZBrush or Mudbox and need as much detail as possible.
+
+If you do use the Full Range export, it is best to use the OpenEXR (.exr) format to preserve the values as best as possible.
+
+You can always export a copy with Clamped values, and use that as a guide for vertically resizing the externally edited Full Range output.
+
+### Increase output scale by +1
+
+### Save a copy of this .TOR file
+
+### Close Gaea UI
+
+### Open folder after build
+
+
 ## Version Control and Organization
 
 ### Organizing Builds
