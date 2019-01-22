@@ -37,16 +37,13 @@ The Favorites panel is a handy way to access your most used nodes without having
 ![](/images/ui/Graph-Zoom.png)
 The Gaea interface is resolution independent. If you're working on a HiDPI display, you can scale the entire interface using the Zoom slider.
 
-
-
 Certain aspects of the interface are altered depending on the workflow you have selected. The Node Graph is hidden when you work in @layers-mode. The @toolbox is made visible when you work in @graph-mode.
 
-Each of these major elements is discussed in detail in the following topics:
+For further information, see the following topics:
+- @startup
+- @toolbox
 - @properties
 - @viewport
-- @resolutions
-- @toolbox
 - @preferences
+- @build-manager
 - @shortcuts
-- @graph-Mode
-- @layers-Mode

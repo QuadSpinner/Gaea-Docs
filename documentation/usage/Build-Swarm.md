@@ -29,6 +29,8 @@ Example Command Line:
 
 `--open` - Opens the build folder after the build is complete.
 
+`--beep` - Play a short beep at the end of a build.
+
 
 *The following functionality is scheduled for inclusion soon.*
 
