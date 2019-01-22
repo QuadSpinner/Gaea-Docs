@@ -8,8 +8,8 @@ The Zero Borders node allows you to softly transition the edges of a terrain int
 | Setting     | Values   | Description                              |
 | :---------- | :------- | :--------------------------------------- |
 | **Mode**    |          |
-|             |          | *Round*                                  |
-|             |          | *Square*                                 |
+|             |          | *Round* : TODO                           |
+|             |          | *Square*  : TODO                         |
 | **Margin**  | 0 - 100  | *Available when Square mode is selected* |
 | **Falloff** | 0 - 100  | *Available when Auto is turned Off*      |
 | **Auto**    | On / Off | TODO                                     |

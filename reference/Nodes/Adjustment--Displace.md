@@ -7,10 +7,10 @@ title: Displace
 | Setting               | Values   | Description                            |
 | :-------------------- | :------- | :------------------------------------- |
 | **Method**            | TODO     |
-|                       |          | *Standard*                             |
-|                       |          | *Vertical*                             |
-|                       |          | *Rugged*                               |
-|                       |          | *Custom*                               |
+|                       |          | *Standard* : TODO                      |
+|                       |          | *Vertical* : TODO                      |
+|                       |          | *Rugged* : TODO                        |
+|                       |          | *Custom* : TODO                        |
 | **Uniform**           | On / Off | TODO                                   |
 | **Strength**          | 0 - 100% | TODO                                   |
 | **Strength Vertical** | 0 - 100% | *Available when Uniform is turned Off* |
