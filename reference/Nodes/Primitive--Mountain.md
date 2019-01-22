@@ -7,18 +7,18 @@ Mountain is one of the most versatile primitives in Gaea. It uses a modulated Vo
 
 | Setting    | Values      | Description                                               |
 | :--------- | :---------- | :-------------------------------------------------------- |
-| **Scale**  | 0 - 100% | TODO                                                     |
-| **Edge**   | 0.00 - 0.50 | TODO                                                     |
+| **Scale**  | 0 - 100%    | TODO                                                      |
+| **Edge**   | 0.00 - 0.50 | TODO                                                      |
 | **Seed**   | 0 - 128000  | The randomization pattern or seed for the node's process. |
 | **Type**   |             |
-|            | *A*         | TODO                                                     |
-|            | *B*         | TODO                                                     |
-|            | *C*         | TODO                                                     |
-|            | *D*         | TODO                                                     |
+|            |             | *A* : TODO                                                |
+|            |             | *B* : TODO                                                |
+|            |             | *C* : TODO                                                |
+|            |             | *D* : TODO                                                |
 | **Height** |             |
-|            | *Natural*   | TODO                                                     |
-|            | *Enhanced*  | TODO                                                     |
-|            | *Equalized* | TODO                                                     |
+|            |             | *Natural* : TODO                                          |
+|            |             | *Enhanced* : TODO                                         |
+|            |             | *Equalized* : TODO                                        |
 
 
 
