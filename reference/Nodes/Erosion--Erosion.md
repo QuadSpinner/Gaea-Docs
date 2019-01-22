@@ -36,24 +36,24 @@ Gaea introduces a comprehensive erosion node, simply called Erosion. It provides
 | **Depth**  | 0 - 100% | *Available when Rivers is turned On* |
 
 # [Other Settings](#tab/tabid-e)
-| Setting            | Values                 | Description                                                                   |
-| :----------------- | :--------------------- | :---------------------------------------------------------------------------- |
-| **Seed**           | 0 - 128000             | The randomization pattern or seed for the node's process.                     |
-| **Process Mode**   |                        | TODO                                                                          |
-|                    | *Linear*               | TODO                                                                          |
-|                    | *Hybrid*               | TODO                                                                          |
-|                    | *Parallel*             | TODO                                                                          |
-| **Parallel Speed** | TODO                   | * Parallel Speed option is available when Parallel Process Mode is selected.* |
-|                    | *1X*                   | TODO                                                                          |
-|                    | *2X*                   | TODO                                                                          |
-|                    | *3X*                   | TODO                                                                          |
-|                    | *4X*                   | TODO                                                                          |
-| **Mask**           | Localization mask      | * Mask option is available when Linear Process Mode is selected.*             |
-|                    | *Erosion Strength*     | TODO                                                                          |
-|                    | *Rock Softness*        | TODO                                                                          |
-|                    | *Precipitation Amount* | TODO                                                                          |
-|                    | *None*                 | TODO                                                                          |
-| **Agressive Mode** | On / Off               | TODO                                                                          |
+| Setting            | Values            | Description                                                                   |
+| :----------------- | :---------------- | :---------------------------------------------------------------------------- |
+| **Seed**           | 0 - 128000        | The randomization pattern or seed for the node's process.                     |
+| **Process Mode**   |                   | TODO                                                                          |
+|                    |                   | *Linear* : TODO                                                               |
+|                    |                   | *Hybrid* : TODO                                                               |
+|                    |                   | *Parallel* : TODO                                                             |
+| **Parallel Speed** | TODO              | * Parallel Speed option is available when Parallel Process Mode is selected.* |
+|                    |                   | *1X* : TODO                                                                   |
+|                    |                   | *2X* : TODO                                                                   |
+|                    |                   | *3X* : TODO                                                                   |
+|                    |                   | *4X* : TODO                                                                   |
+| **Mask**           | Localization mask | * Mask option is available when Linear Process Mode is selected.*             |
+|                    |                   | *Erosion Strength* : TODO                                                     |
+|                    |                   | *Rock Softness* : TODO                                                        |
+|                    |                   | *Precipitation Amount* : TODO                                                 |
+|                    |                   | *None* : TODO                                                                 |
+| **Agressive Mode** | On / Off          | TODO                                                                          |
 
 
 The Erosion node’s algorithm addresses one of the biggest problems in digital erosion: it preserves features across different resolutions. This means that a 512 x 512 preview build will maintain essential parity for all major erosion features with a high resolution 4K or 8K build. You no longer need to guess the output type.
