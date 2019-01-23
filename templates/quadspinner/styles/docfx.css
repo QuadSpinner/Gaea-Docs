@@ -1161,6 +1161,12 @@ table:not(.example) tr td:nth-child(2) {
   letter-spacing: -1px;
 }
 
+table:not(.example) tr td:nth-child(3) em:nth-child(1) {
+  padding-left: 16px;
+  font-weight: 600;
+  font-style: normal;
+}
+
 .examples td {
   width: inherit !important;
 }
