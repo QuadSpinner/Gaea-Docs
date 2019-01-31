@@ -5,9 +5,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Build Manager | QuadSpinner Gaea </title>
+    <title>Terrain Scale | QuadSpinner Gaea </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Build Manager | QuadSpinner Gaea ">
+    <meta name="title" content="Terrain Scale | QuadSpinner Gaea ">
     <meta name="generator" content="docfx 2.40.7.0">
     
     <link rel="shortcut icon" href="../../favicon.ico">
@@ -98,17 +98,26 @@
         <div class="article row grid-right">
           <div class="col-md-10">
           <div class="container">
-                <h4 id="ntitle">Build Manager</h4>
-            <article class="content wrap" id="_content" data-uid="build-manager">
+                <h4 id="ntitle">Terrain Scale</h4>
+            <article class="content wrap" id="_content" data-uid="scale">
                 <span class="wip">This documentation is a work-in-progress and subject to change.</span>
                 <br><br>
-<h1 id="build-manager">Build Manager</h1>
 
-<p>The Build Manager gives you easy access to crucial output preferences. It is accessed by clicking the <strong>Build</strong> button in the top toolbar.</p>
-<p><img src="/images/ui/Build-Manager.png" alt="Mark for save"></p>
-<p>The node grid shows you all the nodes marked for output. You can temporarily toggle a node by clicking the color circle in the top left corner of the node. This does not affect the build, only the output. This can be useful when you just want to see a few specific outputs, or you need to go back to rebuild an older project for selective output.</p>
-<p>When a node has multiple outputs, such as the Erosion and Breaker nodes in this example, you can individually toggle which ports should be saved as files.</p>
-<p>For details on how to use the build manager, see <a class="xref" href="../usage/Build-Building.html">Building Terrains</a></p>
+
+<p>Gaea supports setting an arbitrary scale for your terrains through the new Terrain Definition panel. If you're a casual terrain artist, this won't affect your workflow too much — the defaults will be sufficient. But if you're creating precisely scaled terrains, the Terrain Definition is your best friend.</p>
+<h2 id="terrain-definition">Terrain Definition</h2>
+<p>The Terrain Definition popup is found in the main toolbar.</p>
+<p><img src="/images/ui/Pop-Definition.png" alt=""></p>
+<p>You can define the Base and Height of your terrain in meters. Both are counted from sea level (0.0m). The Scale determines the extent of the entire terrain. By default, Gaea terrains are set at sea level (Base: 0m), 2.6km tall (Height: 2,600m), and 5 x 5 square kilometers wide (Scale: 5,000m).</p>
+<pre><code>// Internally, the terrain scale calculation is performed like this:
+(height / scale) - base
+
+</code></pre>
+<p>A height of 2.6km is usually more than enough for most terrains. For perspective, Mt. Everest is 8.8km tall! Going that tall is not recommended unless you really know how to handle the side effects of such tall terrains.</p>
+<div class="NOTE">
+<h5>Note</h5>
+<p>Terrain Definition is non-destructive. You can scale your terrain and the update will be applied on the fly without requiring a rebuild of your terrain. You can change the values as often as you like.</p>
+</div>
 </article>
             </div>
           </div>
@@ -118,7 +127,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/quadspinner/Gaea-Docs/blob/master/documentation/interface/Build-Manager.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/quadspinner/Gaea-Docs/blob/master/documentation/usage/Basics-Scale.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

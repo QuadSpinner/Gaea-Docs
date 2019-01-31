@@ -5,9 +5,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Build Manager | QuadSpinner Gaea </title>
+    <title>Importing Data | QuadSpinner Gaea </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Build Manager | QuadSpinner Gaea ">
+    <meta name="title" content="Importing Data | QuadSpinner Gaea ">
     <meta name="generator" content="docfx 2.40.7.0">
     
     <link rel="shortcut icon" href="../../favicon.ico">
@@ -98,17 +98,21 @@
         <div class="article row grid-right">
           <div class="col-md-10">
           <div class="container">
-                <h4 id="ntitle">Build Manager</h4>
-            <article class="content wrap" id="_content" data-uid="build-manager">
+                <h4 id="ntitle">Importing Data</h4>
+            <article class="content wrap" id="_content" data-uid="importing">
                 <span class="wip">This documentation is a work-in-progress and subject to change.</span>
                 <br><br>
-<h1 id="build-manager">Build Manager</h1>
+<h1 id="importing-heightmaps">Importing Heightmaps</h1>
 
-<p>The Build Manager gives you easy access to crucial output preferences. It is accessed by clicking the <strong>Build</strong> button in the top toolbar.</p>
-<p><img src="/images/ui/Build-Manager.png" alt="Mark for save"></p>
-<p>The node grid shows you all the nodes marked for output. You can temporarily toggle a node by clicking the color circle in the top left corner of the node. This does not affect the build, only the output. This can be useful when you just want to see a few specific outputs, or you need to go back to rebuild an older project for selective output.</p>
-<p>When a node has multiple outputs, such as the Erosion and Breaker nodes in this example, you can individually toggle which ports should be saved as files.</p>
-<p>For details on how to use the build manager, see <a class="xref" href="../usage/Build-Building.html">Building Terrains</a></p>
+<p>To import a heightfield in any major 16-bit or 8-bit image format, create a <a class="xref" href="../../reference/Nodes/Primitive--File.html">File</a> node and load the desired file. If using <a class="xref" href="../workflows/Graph.html">Graph Workflow</a>, you can simply drag and drop a valid file on the graph and a <a class="xref" href="../../reference/Nodes/Primitive--File.html">File</a> node will be created for you.</p>
+<h1 id="importing-meshes">Importing Meshes</h1>
+<blockquote>
+<p>This feature will be available in the February 2019 update cycle.</p>
+</blockquote>
+<h1 id="importing-geospatial-data">Importing Geospatial Data</h1>
+<blockquote>
+<p>Support for DEM, SRTM, and other formats will be available soon.</p>
+</blockquote>
 </article>
             </div>
           </div>
@@ -118,7 +122,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/quadspinner/Gaea-Docs/blob/master/documentation/interface/Build-Manager.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/quadspinner/Gaea-Docs/blob/master/documentation/usage/IO-Importing.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

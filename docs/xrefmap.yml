@@ -22,12 +22,15 @@ references:
 - uid: AutoLevel
   name: AutoLevel
   href: reference/Nodes/Adjustment--AutoLevel.html
+- uid: baking
+  name: What is baking?
+  href: documentation/usage/Build-Baking.html
 - uid: Basic
   name: Basic
   href: reference/Sculpt%20Tools/Basic.html
 - uid: basics
   name: Basics of Terrain Design
-  href: documentation/usage/Basics.html
+  href: documentation/usage/Basics-Basics.html
 - uid: BiasGain
   name: BiasGain
   href: reference/Nodes/Adjustment--BiasGain.html
@@ -48,7 +51,7 @@ references:
   href: reference/Nodes/Color--BrightnessContrast.html
 - uid: building
   name: Building Terrains
-  href: documentation/usage/Building.html
+  href: documentation/usage/Build-Building.html
 - uid: build-manager
   name: Build Manager
   href: documentation/interface/Build-Manager.html
@@ -100,6 +103,9 @@ references:
 - uid: common-issues
   name: Common Issues
   href: documentation/Common%20Issues.html
+- uid: componentized-erosion
+  name: Componentized Erosion
+  href: documentation/usage/Erosion-Components.html
 - uid: Constant
   name: Constant
   href: reference/Nodes/Primitive--Constant.html
@@ -114,7 +120,7 @@ references:
   href: reference/Sculpt%20Tools/Cutter.html
 - uid: data-maps
   name: Data Maps
-  href: documentation/usage/Data-Maps.html
+  href: documentation/usage/Color-Data-Maps.html
 - uid: Denoise
   name: Denoise
   href: reference/Nodes/Adjustment--Denoise.html
@@ -148,9 +154,12 @@ references:
 - uid: Erosion
   name: Erosion
   href: reference/Nodes/Erosion--Erosion.html
+- uid: erosion-process
+  name: Introduction to Erosion
+  href: documentation/usage/Erosion-Process.html
 - uid: exporting
   name: Exporting for other packages
-  href: documentation/usage/Exporting.html
+  href: documentation/usage/IO-Exporting.html
 - uid: Fault
   name: Fault
   href: reference/Nodes/Primitive--Fault.html
@@ -159,7 +168,7 @@ references:
   href: reference/Nodes/Primitive--File.html
 - uid: first-terrain
   name: Your first terrain
-  href: documentation/usage/First-Terrain.html
+  href: documentation/usage/Basics-First-Terrain.html
 - uid: Flip
   name: Flip
   href: reference/Nodes/Adjustment--Flip.html
@@ -234,10 +243,10 @@ references:
   href: quickstarts/Igneous.html
 - uid: import-export
   name: Import and Export
-  href: documentation/usage/Import-Export.html
+  href: documentation/usage/IO-Import-Export.html
 - uid: importing
   name: Importing Data
-  href: documentation/usage/Importing.html
+  href: documentation/usage/IO-Importing.html
 - uid: index
   name: index
   href: api/index.html
@@ -330,7 +339,7 @@ references:
   href: reference/Nodes/Filter--Repulse.html
 - uid: resolutions
   name: Resolutions
-  href: documentation/usage/Resolutions.html
+  href: documentation/usage/Basics-Resolutions.html
 - uid: Resource
   name: Resource
   href: reference/Nodes/Primitive--Resource.html
@@ -366,7 +375,7 @@ references:
   href: quickstarts/SatMaps-001.html
 - uid: scale
   name: Terrain Scale
-  href: documentation/usage/Scale.html
+  href: documentation/usage/Basics-Scale.html
 - uid: Scratch
   name: Scratch
   href: reference/Sculpt%20Tools/Scratch.html
@@ -465,7 +474,7 @@ references:
   href: reference/Nodes/Adjustment--Threshold.html
 - uid: tiled-builds
   name: Tiled Builds
-  href: documentation/usage/Tiled-Builds.html
+  href: documentation/usage/Build-Tiled.html
 - uid: toolbox
   name: Toolbox
   href: documentation/interface/Toolbox.html
@@ -477,7 +486,7 @@ references:
   href: quickstarts/Uluru-Style-Rock.html
 - uid: variations
   name: Creating Variations
-  href: documentation/usage/Variations.html
+  href: documentation/usage/Build-Variations.html
 - uid: Velocity
   name: Velocity
   href: reference/Nodes/DataMap--Velocity.html

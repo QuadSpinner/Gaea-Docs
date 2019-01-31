@@ -86,8 +86,9 @@ body .toc {
 }
 
 .toc .nav>li>a {
-  color: #666666;
+  color: #3c394c;
 }
+
 
 .toc .nav>li>a:hover, .toc .nav>li>a:focus {
   color: #000000;
@@ -186,11 +187,14 @@ pre>code .line-highlight {
   border: 1px solid #aaa;
 }
 
-.toc a.active {
-  border-color: #928771;
-  background-color: #eee;
-  color: #fff;
+.toc .in {
+  border-color: #9287715c !important;
 }
+
+.in>.active:last-child{
+  color: #36322a !important;
+}
+
 
 code {
   border-color: #928771;

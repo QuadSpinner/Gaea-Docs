@@ -32,38 +32,52 @@
 
 - name: Using Gaea
   items:
-    - name: Basics of Terrain Design
-      href: usage/Basics.md
+    - name: Create
       items:
+        - name: Basics of terrain design
+          href: usage/Basics-Basics.md
         - name: Your first terrain
-          href: usage/First-Terrain.md
+          href: usage/Basics-First-Terrain.md
         - name: Understanding Resolutions
-          href: usage/Resolutions.md
+          href: usage/Basics-Resolutions.md
         - name: Terrain Scale
-          href: usage/Scale.md
-    - name: Color Production
-      href: usage/Color-Production.md
+          href: usage/Basics-Scale.md
+    - name: Erode
       items:
+        - name: Introduction to Erosion
+          href: usage/Erosion-Process.md
+        - name: Erosion Strategies
+          href: usage/Erosion-Strategies.md
+        - name: Componentized Erosion
+          href: usage/Erosion-Components.md
+    - name: Color
+      items:
+        - name: Color Production
+          href: usage/Color-Production.md
         - name: Working with Data Maps
-          href: usage/Data-Maps.md
+          href: usage/Color-Data-Maps.md
         - name: Working with Biomes
           href: usage/Color-Biome.md
-    - name: Building Terrains
-      href: usage/Building.md
+    - name: Build
       items:
+        - name: Building Terrains
+          href: usage/Build-Building.md
+        - name: Baking
+          href: usage/Build-Baking.md
         - name: Tiled Builds
-          href: usage/Tiled-Builds.md
+          href: usage/Build-Tiled.md
         - name: Build Swarm
           href: usage/Build-Swarm.md
         - name: Creating LODs and Variations
-          href: usage/Variations.md
-    - name: Import-Export
-      href: usage/Import-Export.md
+          href: usage/Build-Variations.md
+    - name: Export
       items:
+        - name: Import-Export
+          href: usage/IO-Import-Export.md
         - name: Importing Data
-          href: usage/Importing.md
+          href: usage/IO-Importing.md
         - name: Exporting Data
-          href: usage/Exporting.md
+          href: usage/IO-Exporting.md
 
 - name: Misc
   items:

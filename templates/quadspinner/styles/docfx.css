@@ -498,6 +498,11 @@ body .toc {
   padding: 0 10px;
 }
 
+.toc ul, .toc li {
+  padding-left: 0 !important;
+  margin-left: 0 !important;
+}
+
 .expand-stub {
   position: absolute;
   left: -10px;
@@ -507,6 +512,15 @@ body .toc {
   position: absolute;
   top: 0;
   left: 0;
+}
+
+.toc .in ul, .in>li>a {
+
+  margin-bottom: 2px;
+}
+
+.toc li.in ul{
+
 }
 
 .toc .nav>li>a {
@@ -520,15 +534,18 @@ body .toc {
   text-decoration: inherit;
 }
 
-.toc .nav>li.active {
-  padding: 6px;
-}
+.toc .nav>li.active {}
 
 .toc .nav>li>.expand-stub {
   cursor: pointer;
 }
 
-.toc .nav>li.active>.expand-stub::before, .toc .nav>li.in>.expand-stub::before, .toc .nav>li.in.active>.expand-stub::before, .toc .nav>li.filtered>.expand-stub::before {
+
+.toc .nav>li.active>.expand-stub::before, 
+.toc .nav>li.in>.expand-stub::before, 
+.toc .nav>li.in.active>.expand-stub::before, 
+.toc .nav>li.filtered>.expand-stub::before 
+{
   font-family: "Assistant";
   font-weight: 400;
   content: "‹";
@@ -549,6 +566,19 @@ body .toc {
   transition: all linear 0.333s;
 }
 
+
+.toc .level2>li.active>.expand-stub::before, 
+.toc .level2>li.in>.expand-stub::before, 
+.toc .level2>li.in.active>.expand-stub::before, 
+.toc .level2>li.filtered>.expand-stub::before 
+{
+  top: -8px !important;
+}
+
+.toc .level2>li>.expand-stub::before, .toc .level2>li.active>.expand-stub::before {
+  top: -8px !important;
+}
+
 .toc .nav>li.filtered>ul, .toc .nav>li.in>ul {
   display: block;
 }
@@ -563,7 +593,7 @@ body .toc {
 }
 
 .toc li {
-  padding: 6px;
+  padding: 0px;
 }
 
 .toc .level1, .sidetoc .level1 {
@@ -579,8 +609,12 @@ body .toc {
 
 .toc .level2 {
   font-weight: normal;
-  margin: 5px 0 0 15px;
+  margin-left: 25px !important;
   font-size: 12px;
+}
+
+.toc .level2 ul{
+  margin-bottom: 12px;
 }
 
 .toc .level2 .expand-stub::before {
@@ -588,7 +622,11 @@ body .toc {
   padding: 4px;
 }
 
-.toc ul.nav.level1 li.in span.expand-stub::before {
+.toc .level3 a{
+  margin-left: 12px !important;
+}
+
+/* .toc ul.nav.level1 li.in span.expand-stub::before {
   top: -6px !important;
 }
 
@@ -598,7 +636,21 @@ body .toc {
 
 .toc ul.nav.level1 li.active.in ul.nav.level2 li.in span.expand-stub::before {
   top: -6px !important;
+} */
+
+/* 
+.toc ul ul li:first-child a{
+  border-top: 1px solid;  
 }
+
+.toc ul ul li:last-child a{
+  border-bottom: 1px solid;  
+} */
+
+/* .toc .active a{
+  margin-top: 6px;
+  margin-bottom: 6px;
+} */
 
 /* .level3 li::before{
   content: '↳';
@@ -1072,33 +1124,53 @@ div.embeddedvideo iframe {
 /********************* FORMATS ******************/
 
 .toc .level1 a {
-  font-size: 15px !important;
+  font-size: 16px !important;
   font-weight: 600 !important;
 }
 
 .toc .level2 a {
-  font-size: 13px !important;
+  font-size: 12px !important;
   font-weight: 600 !important;
+  text-transform: uppercase;
 }
 
 .toc .level3 a {
-  font-size: 13px !important;
+  font-size: 12px !important;
   font-weight: 600 !important;
+  opacity: 0.75;
+  text-transform: none;
 }
 
 .toc .level3 li {
-  padding: 3px 12px;
-  padding-right: 0px;
+  /* padding: 3px 12px; */
+  margin: 0;
+  
 }
 
 .toc a {
-  padding-bottom: 2px !important;
+  padding-bottom: 4px !important;
+}
+
+.toc .level3 li a{
+  margin-bottom: 1px !important;
+}
+
+.level3 .active.in {
+  border-bottom: 0;
 }
 
 .toc a.active {
   font-weight: 600;
   border-radius: 2px;
-  padding: 3px 12px !important;
+  /* padding: 3px 12px !important; */
+}
+
+.toc .active {
+  padding-top: 6px;
+}
+
+.toc .in:last-child {
+  border: 0 !important;
 }
 
 h1, h2 {

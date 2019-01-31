@@ -1,7 +1,7 @@
 - name: Documentation
   href: documentation/
   home: documentation/index.md
-- name: Node Reference
+- name: Reference
   href: Reference/
   homepage: reference/index.md
 - name: Quickstarts

@@ -5,9 +5,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Build Manager | QuadSpinner Gaea </title>
+    <title>What is baking? | QuadSpinner Gaea </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Build Manager | QuadSpinner Gaea ">
+    <meta name="title" content="What is baking? | QuadSpinner Gaea ">
     <meta name="generator" content="docfx 2.40.7.0">
     
     <link rel="shortcut icon" href="../../favicon.ico">
@@ -98,17 +98,38 @@
         <div class="article row grid-right">
           <div class="col-md-10">
           <div class="container">
-                <h4 id="ntitle">Build Manager</h4>
-            <article class="content wrap" id="_content" data-uid="build-manager">
+                <h4 id="ntitle">What is baking?</h4>
+            <article class="content wrap" id="_content" data-uid="baking">
                 <span class="wip">This documentation is a work-in-progress and subject to change.</span>
                 <br><br>
-<h1 id="build-manager">Build Manager</h1>
+<h1 id="what-is-baking">What is baking?</h1>
 
-<p>The Build Manager gives you easy access to crucial output preferences. It is accessed by clicking the <strong>Build</strong> button in the top toolbar.</p>
-<p><img src="/images/ui/Build-Manager.png" alt="Mark for save"></p>
-<p>The node grid shows you all the nodes marked for output. You can temporarily toggle a node by clicking the color circle in the top left corner of the node. This does not affect the build, only the output. This can be useful when you just want to see a few specific outputs, or you need to go back to rebuild an older project for selective output.</p>
-<p>When a node has multiple outputs, such as the Erosion and Breaker nodes in this example, you can individually toggle which ports should be saved as files.</p>
-<p>For details on how to use the build manager, see <a class="xref" href="../usage/Build-Building.html">Building Terrains</a></p>
+<p>Baking, in Gaea's context, means building a node to a specific high resolution and then storing it in a lock or &quot;baked&quot; form. A baked node can display previews at higher resolution than your normal preview, while allowing you to work with the current lower resolution previews for the rest of the graph.</p>
+<p>It is always preferable to see the viewport previews at higher resolution so you can see finer detail and resolution-dependant shapes. However, keeping your previews at 2K or 4K can be slow especially when working with large graphs.</p>
+<p>When a part of a graph is finalized, and you are not expecting to make any changes there - even temporarily - you can bake that part of the graph to prevent it from being reprocessed when the file is loaded or nodes are refreshed. If you select a high resolution for the baking, the baked preview will be stored at that resolution while the rest of the unbaked nodes are shown at the current preview resolution.</p>
+<p>Once further nodes are finalized, you can bake them too.</p>
+<h1 id="baking-options">Baking Options</h1>
+<p>The Graph Baker dialog gives you two options baking options, the bake resolution, and the bake destination - namely Memory and File.</p>
+<h2 id="resolution">Resolution</h2>
+<p>This is the resolution at which the nodes are baked. It can be the same as the preview resolution, or different.</p>
+<div class="TIP">
+<h5>Tip</h5>
+<p>If your final build resolution and bake resolution are the same, Gaea's build engine will use the cache instead of processing. This can boost performance significantly, especially when you are rebuilding a file frequently.</p>
+</div>
+<div class="NOTE">
+<h5>Note</h5>
+<p>If you change the bake resolution in a subsequent bake, any ancestor nodes (those connected on the left side of the target node) that are already baked may be rebaked to match the new resolution.</p>
+</div>
+<h2 id="destination">Destination</h2>
+<p>This is the method by which bakes are stored and used.</p>
+<h3 id="bake-to-memory">Bake to Memory</h3>
+<p>Temporary bake to RAM for this session only. All bakes are lost when closing file.</p>
+<h3 id="bake-to-file">Bake to File</h3>
+<p>Bakes are preserved until the nodes are manually unlocked/unbaked. File bakes can be transported as they are stored in a CACHE folder next to the .tor file.</p>
+<div class="NOTE">
+<h5>Note</h5>
+<p>Your RAM is still used when you bake to file, but the added benefit is that it is not temporary. You can close your file for any length of time, come back and have your nodes pre-built and waiting for you.</p>
+</div>
 </article>
             </div>
           </div>
@@ -118,7 +139,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/quadspinner/Gaea-Docs/blob/master/documentation/interface/Build-Manager.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/quadspinner/Gaea-Docs/blob/master/documentation/usage/Baking.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>
