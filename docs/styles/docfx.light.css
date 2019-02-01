@@ -246,3 +246,8 @@ span.wip {
 code.lang-cs{
   color: #47A7A0;
   }
+
+  
+.toc a.active:last-child {
+  color: #3b8bd0 !important;
+}

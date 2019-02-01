@@ -1,6 +1,6 @@
 ---
-title: startup
-uid: Startup Screen
+title: Startup Screen
+uid: startup
 ---
 
 ![](/images/ui/Startup.png)

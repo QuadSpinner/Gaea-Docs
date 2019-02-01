@@ -35,17 +35,17 @@
     - name: Create
       items:
         - name: Basics of terrain design
-          href: usage/Basics-Basics.md
+          href: usage/Create-Basics.md
         - name: Your first terrain
-          href: usage/Basics-First-Terrain.md
+          href: usage/Create-First.md
         - name: Understanding Resolutions
-          href: usage/Basics-Resolutions.md
+          href: usage/Create-Resolutions.md
         - name: Terrain Scale
-          href: usage/Basics-Scale.md
+          href: usage/Create-Scale.md
     - name: Erode
       items:
         - name: Introduction to Erosion
-          href: usage/Erosion-Process.md
+          href: usage/Erosion-Introduction.md
         - name: Erosion Strategies
           href: usage/Erosion-Strategies.md
         - name: Componentized Erosion
@@ -73,11 +73,11 @@
     - name: Export
       items:
         - name: Import-Export
-          href: usage/IO-Import-Export.md
+          href: usage/Export-Import-Export.md
         - name: Importing Data
-          href: usage/IO-Importing.md
+          href: usage/Export-Importing.md
         - name: Exporting Data
-          href: usage/IO-Exporting.md
+          href: usage/Export-Exporting.md
 
 - name: Misc
   items:

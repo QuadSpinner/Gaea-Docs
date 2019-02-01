@@ -207,7 +207,6 @@ pre>code .line-highlight {
 
 .toc a.active {
   border-color: #778089;
-  background-color: #222529;
   color: #fff;
 }
 
@@ -272,4 +271,9 @@ span.wip {
 
 code.lang-cs {
   color: #47A7A0;
+}
+
+
+.toc a.active:last-child {
+  color: #5bc0de !important;
 }

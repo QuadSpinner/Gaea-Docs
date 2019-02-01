@@ -15,7 +15,7 @@ Layers are a deceptively simple way to craft terrains. You can stack nodes like 
 
 Layers are limited to one-to-one relationships, unlike a graph. Graphs can have one-to-many relationships, where you can create two different "chains" of creation and blend them together in myriad ways.
 
-Read more about this workflow in the @Layers-Mode section.
+Read more about this workflow in the @layers-mode section.
 
 ## Graph
 
@@ -23,8 +23,8 @@ Read more about this workflow in the @Layers-Mode section.
 
 The Graph provides a sophisticated workflow that is very flexible. Like any other graph-based workflow, you get both simple and complex functions packed into nodes which you can connect to each other to create a network that produces a terrain.
 
-Read more about this workflow in the @Graph-Mode section
+Read more about this workflow in the @graph-mode section
 
 # Next steps
 
-Familiarize yourself with the different tools and interfaces available in Gaea in @Getting-around, and start exploring some of the @quickstarts examples to see how terrains can be made.
+Familiarize yourself with the different tools and interfaces available in Gaea in @getting-around, and start exploring some of the @quickstarts examples to see how terrains can be made.

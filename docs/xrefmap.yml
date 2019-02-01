@@ -30,7 +30,7 @@ references:
   href: reference/Sculpt%20Tools/Basic.html
 - uid: basics
   name: Basics of Terrain Design
-  href: documentation/usage/Basics-Basics.html
+  href: documentation/usage/Create-Basics.html
 - uid: BiasGain
   name: BiasGain
   href: reference/Nodes/Adjustment--BiasGain.html
@@ -156,10 +156,10 @@ references:
   href: reference/Nodes/Erosion--Erosion.html
 - uid: erosion-process
   name: Introduction to Erosion
-  href: documentation/usage/Erosion-Process.html
+  href: documentation/usage/Erosion-Introduction.html
 - uid: exporting
   name: Exporting for other packages
-  href: documentation/usage/IO-Exporting.html
+  href: documentation/usage/Export-Exporting.html
 - uid: Fault
   name: Fault
   href: reference/Nodes/Primitive--Fault.html
@@ -168,7 +168,7 @@ references:
   href: reference/Nodes/Primitive--File.html
 - uid: first-terrain
   name: Your first terrain
-  href: documentation/usage/Basics-First-Terrain.html
+  href: documentation/usage/Create-First.html
 - uid: Flip
   name: Flip
   href: reference/Nodes/Adjustment--Flip.html
@@ -243,10 +243,10 @@ references:
   href: quickstarts/Igneous.html
 - uid: import-export
   name: Import and Export
-  href: documentation/usage/IO-Import-Export.html
+  href: documentation/usage/Export-Import-Export.html
 - uid: importing
   name: Importing Data
-  href: documentation/usage/IO-Importing.html
+  href: documentation/usage/Export-Importing.html
 - uid: index
   name: index
   href: api/index.html
@@ -339,7 +339,7 @@ references:
   href: reference/Nodes/Filter--Repulse.html
 - uid: resolutions
   name: Resolutions
-  href: documentation/usage/Basics-Resolutions.html
+  href: documentation/usage/Create-Resolutions.html
 - uid: Resource
   name: Resource
   href: reference/Nodes/Primitive--Resource.html
@@ -375,7 +375,7 @@ references:
   href: quickstarts/SatMaps-001.html
 - uid: scale
   name: Terrain Scale
-  href: documentation/usage/Basics-Scale.html
+  href: documentation/usage/Create-Scale.html
 - uid: Scratch
   name: Scratch
   href: reference/Sculpt%20Tools/Scratch.html
@@ -421,8 +421,8 @@ references:
 - uid: Soil
   name: Soil
   href: reference/Nodes/DataMap--Soil.html
-- uid: Startup Screen
-  name: startup
+- uid: startup
+  name: Startup Screen
   href: documentation/interface/Startup.html
 - uid: Stratify
   name: Stratify

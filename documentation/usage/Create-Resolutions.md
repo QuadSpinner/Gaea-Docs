@@ -18,15 +18,15 @@ The Preview Resolution controls the quality of detail of your terrain preview in
 You can switch between preview resolutions as often as you like. When you switch the resolution, the terrain preview is rebuilt. For 0.5K and 1K previews, the process is usually fast. For 2K and 4K, it can take longer.
 
 > [!TIP]
-> The @Preferences have an option to force any file to a 512 preview resolution when opening. This allows the "first-build" to be very fast and you can always change to a higher resolution. If you start with a high resolution, you have to wait until it is finished before you can do anything. 
+> The @preferences have an option to force any file to a 512 preview resolution when opening. This allows the "first-build" to be very fast and you can always change to a higher resolution. If you start with a high resolution, you have to wait until it is finished before you can do anything. 
 > This option is on by default to prevent such lockouts, but you can turn it off if you prefer.
 
 ## Export Resolution
 The Export Resolution controls the quality of detail in your built/exported terrains. In Gaea, there is no limit on maximum resolution except for what your hardware allows. By default, you can export to resolutions of 1024; 2048; 4096; 8192; 16,384 (16K); and 32,768 (32K). 
 
 > [!TIP]
-> For resolutions beyond 16K, we recommend using @Tiled-Builds to contend with unlimited resolutions on even modest hardware.
+> For resolutions beyond 16K, we recommend using @tiled-builds to contend with unlimited resolutions on even modest hardware.
 
 As with preview resolutions, high export resolutions can also take much longer than the preview - something to be expected with builds. In essence, you create a "template" with your settings when you create a terrain at preview resolutions. When you "build" a terrain, Gaea takes that preview template and uses those settings to build the terrain from scratch using the full export resolution. This results in more detail than is possible in previews.
 
-For more information on building terrains, see @Build-Manager.
+For more information on building terrains, see @build-manager.

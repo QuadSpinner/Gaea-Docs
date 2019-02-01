@@ -32,35 +32,6 @@ h1 mark, h2 mark, h3 mark, h4 mark, h5 mark, h6 mark {
   padding: 0;
 }
 
-.inheritance .level0:before, .inheritance .level1:before, .inheritance .level2:before, .inheritance .level3:before, .inheritance .level4:before, .inheritance .level5:before {
-  content: '↳';
-  margin-right: 5px;
-}
-
-.inheritance .level0 {
-  margin-left: 0em;
-}
-
-.inheritance .level1 {
-  margin-left: 1em;
-}
-
-.inheritance .level2 {
-  margin-left: 2em;
-}
-
-.inheritance .level3 {
-  margin-left: 3em;
-}
-
-.inheritance .level4 {
-  margin-left: 4em;
-}
-
-.inheritance .level5 {
-  margin-left: 5em;
-}
-
 span.parametername, span.paramref, span.typeparamref {
   font-style: italic;
 }
@@ -519,9 +490,6 @@ body .toc {
   margin-bottom: 2px;
 }
 
-.toc li.in ul{
-
-}
 
 .toc .nav>li>a {
   margin-left: 0px;
@@ -566,7 +534,6 @@ body .toc {
   transition: all linear 0.333s;
 }
 
-
 .toc .level2>li.active>.expand-stub::before, 
 .toc .level2>li.in>.expand-stub::before, 
 .toc .level2>li.in.active>.expand-stub::before, 
@@ -579,8 +546,9 @@ body .toc {
   top: -8px !important;
 }
 
-.toc .nav>li.filtered>ul, .toc .nav>li.in>ul {
-  display: block;
+.toc .nav>li.filtered>ul, .toc .nav>li.in>ul
+{
+  display: block !important;
 }
 
 .toc .nav>li>ul {
@@ -1165,8 +1133,8 @@ div.embeddedvideo iframe {
   /* padding: 3px 12px !important; */
 }
 
-.toc .active {
-  padding-top: 6px;
+.toc a.active:last-child {
+  font-weight: bold !important;
 }
 
 .toc .in:last-child {
