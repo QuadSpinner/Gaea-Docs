@@ -22,9 +22,15 @@ references:
 - uid: AutoLevel
   name: AutoLevel
   href: reference/Nodes/Adjustment--AutoLevel.html
-- uid: Basics-of-Terrain-Design
+- uid: baking
+  name: What is baking?
+  href: documentation/usage/Build-Baking.html
+- uid: Basic
+  name: Basic
+  href: reference/Sculpt%20Tools/Basic.html
+- uid: basics
   name: Basics of Terrain Design
-  href: documentation/Basics%20of%20Terrain%20Design.html
+  href: documentation/usage/Basics-Basics.html
 - uid: BiasGain
   name: BiasGain
   href: reference/Nodes/Adjustment--BiasGain.html
@@ -43,18 +49,33 @@ references:
 - uid: BrightnessContrast
   name: BrightnessContrast
   href: reference/Nodes/Color--BrightnessContrast.html
-- uid: Build-Manager
+- uid: building
+  name: Building Terrains
+  href: documentation/usage/Build-Building.html
+- uid: build-manager
   name: Build Manager
-  href: documentation/Building.html
+  href: documentation/interface/Build-Manager.html
+- uid: build-swarm
+  name: Build Swarm
+  href: documentation/usage/Build-Swarm.html
 - uid: Buildup
   name: Buildup
   href: reference/Nodes/Erosion--Buildup.html
 - uid: Butte
   name: Butte
   href: quickstarts/Butte.html
+- uid: Carver I
+  name: Carver I
+  href: reference/Sculpt%20Tools/Carver%20I.html
+- uid: Carver II
+  name: Carver II
+  href: reference/Sculpt%20Tools/Carver%20II.html
 - uid: Cells
   name: Cells
   href: reference/Nodes/Filter--Cells.html
+- uid: changelog
+  name: Changelog
+  href: changelog/index.html
 - uid: Clamp
   name: Clamp
   href: reference/Nodes/Adjustment--Clamp.html
@@ -64,30 +85,42 @@ references:
 - uid: Coast
   name: Coast
   href: reference/Nodes/Erosion--Coast.html
-- uid: Color-Production
+- uid: color-biome
+  name: Creating Biomes
+  href: documentation/usage/Color-Biome.html
+- uid: color-datamaps
+  name: Data Maps for Color Production
+  href: documentation/usage/Color-DataMaps.html
+- uid: ColorFX
+  name: ColorFX
+  href: reference/Nodes/Color--ColorFX.html
+- uid: color-production
   name: Color Production
-  href: documentation/Color%20Production.html
+  href: documentation/usage/Color-Production.html
 - uid: Combine
   name: Combine
   href: reference/Nodes/Adjustment--Combine.html
-- uid: Common-Issues
+- uid: common-issues
   name: Common Issues
   href: documentation/Common%20Issues.html
+- uid: componentized-erosion
+  name: Componentized Erosion
+  href: documentation/usage/Erosion-Components.html
 - uid: Constant
   name: Constant
   href: reference/Nodes/Primitive--Constant.html
 - uid: Convector
   name: Convector
   href: reference/Nodes/Erosion--Convector.html
-- uid: Creating-Variations
-  name: Creating Variations
-  href: documentation/Creating%20Variations.html
 - uid: Curvature
   name: Curvature
   href: reference/Nodes/Selector--Curvature.html
-- uid: Data-Maps
+- uid: Cutter
+  name: Cutter
+  href: reference/Sculpt%20Tools/Cutter.html
+- uid: data-maps
   name: Data Maps
-  href: documentation/Data%20Maps.html
+  href: documentation/usage/Color-Data-Maps.html
 - uid: Denoise
   name: Denoise
   href: reference/Nodes/Adjustment--Denoise.html
@@ -109,30 +142,42 @@ references:
 - uid: Distribution
   name: Distribution
   href: reference/Nodes/Filter--Distribution.html
+- uid: docs-home
+  name: Welcome
+  href: documentation/index.html
 - uid: Double-Plates
   name: Double Plates
   href: quickstarts/Double-Plates.html
-- uid: Draw
-  name: Draw
-  href: reference/Nodes/Primitive--Draw.html
 - uid: Dunes
   name: Dunes
   href: reference/Nodes/Primitive--Dunes.html
 - uid: Erosion
   name: Erosion
   href: reference/Nodes/Erosion--Erosion.html
+- uid: erosion-process
+  name: Introduction to Erosion
+  href: documentation/usage/Erosion-Process.html
+- uid: exporting
+  name: Exporting for other packages
+  href: documentation/usage/IO-Exporting.html
 - uid: Fault
   name: Fault
   href: reference/Nodes/Primitive--Fault.html
 - uid: File
   name: File
   href: reference/Nodes/Primitive--File.html
+- uid: first-terrain
+  name: Your first terrain
+  href: documentation/usage/Basics-First-Terrain.html
 - uid: Flip
   name: Flip
   href: reference/Nodes/Adjustment--Flip.html
 - uid: Flow
   name: Flow
   href: reference/Nodes/DataMap--Flow.html
+- uid: FlowLines
+  name: FlowLines
+  href: reference/Sculpt%20Tools/FlowLines.html
 - uid: Fluvial
   name: Fluvial
   href: reference/Nodes/Erosion--Fluvial.html
@@ -145,10 +190,10 @@ references:
 - uid: Gamma
   name: Gamma
   href: reference/Nodes/Adjustment--Gamma.html
-- uid: Getting-around
+- uid: getting-around
   name: Getting around
   href: documentation/Getting%20around.html
-- uid: Getting-help
+- uid: getting-help
   name: Getting help
   href: documentation/Getting%20help.html
 - uid: Gradient
@@ -157,12 +202,15 @@ references:
 - uid: Gradient-Slope
   name: Gradient Slope
   href: quickstarts/Gradient-Slope.html
-- uid: GraphMode
-  name: Graph Mode
-  href: documentation/Workflow--Graph.html
+- uid: graph-mode
+  name: Graph Workflow
+  href: documentation/workflows/Graph.html
 - uid: Growth
   name: Growth
   href: reference/Nodes/DataMap--Growth.html
+- uid: Gullies
+  name: Gullies
+  href: reference/Sculpt%20Tools/Gullies.html
 - uid: Heal
   name: Heal
   href: reference/Nodes/Adjustment--Heal.html
@@ -178,6 +226,9 @@ references:
 - uid: Hill-Slope
   name: Hill Slope
   href: quickstarts/Hill-Slope.html
+- uid: homehome
+  name: Documentation Home
+  href: index.html
 - uid: HSL
   name: HSL
   href: reference/Nodes/Color--HSL.html
@@ -190,16 +241,16 @@ references:
 - uid: Igneous-Quickstart
   name: Igneous
   href: quickstarts/Igneous.html
-- uid: Importing-Data
+- uid: import-export
+  name: Import and Export
+  href: documentation/usage/IO-Import-Export.html
+- uid: importing
   name: Importing Data
-  href: documentation/Importing%20Data.html
-- uid: Importing-in-other-packages
-  name: Importing in other packages
-  href: documentation/Exporting.html
+  href: documentation/usage/IO-Importing.html
 - uid: index
   name: index
   href: api/index.html
-- uid: Installing-Gaea
+- uid: installing
   name: Installing Gaea
   href: documentation/Installing%20Gaea.html
 - uid: Invert
@@ -214,9 +265,9 @@ references:
 - uid: Large-Desert
   name: Large Desert
   href: quickstarts/Large-Desert.html
-- uid: LayersMode
+- uid: layers-mode
   name: Layers Workflow
-  href: documentation/Workflow--Layers.html
+  href: documentation/workflows/Layers.html
 - uid: LineNoise
   name: LineNoise
   href: reference/Nodes/Primitive--LineNoise.html
@@ -265,15 +316,18 @@ references:
 - uid: Pleasant-Hill
   name: Pleasant Hill
   href: quickstarts/Pleasant-Hill.html
+- uid: Pockmarks
+  name: Pockmarks
+  href: reference/Sculpt%20Tools/Pockmarks.html
 - uid: Polar
   name: Polar
   href: reference/Nodes/Filter--Polar.html
-- uid: Preferences
+- uid: preferences
   name: Preferences
-  href: documentation/Preferences.html
-- uid: Properties
+  href: documentation/interface/Preferences.html
+- uid: properties
   name: Properties
-  href: documentation/Properties.html
+  href: documentation/interface/Properties.html
 - uid: quickstarts
   name: Quickstarts
   href: quickstarts/index.html
@@ -283,18 +337,18 @@ references:
 - uid: Repulse
   name: Repulse
   href: reference/Nodes/Filter--Repulse.html
-- uid: Resolutions
+- uid: resolutions
   name: Resolutions
-  href: documentation/Resolutions.html
+  href: documentation/usage/Basics-Resolutions.html
 - uid: Resource
   name: Resource
   href: reference/Nodes/Primitive--Resource.html
-- uid: RGB Extractor
-  name: RGB Extractor
-  href: reference/Nodes/Adjustment--RGBExtractor.html
-- uid: RGB Mixer
-  name: RGB Mixer
-  href: reference/Nodes/Color--RGBMixer.html
+- uid: RGBMix
+  name: RGBMix
+  href: reference/Nodes/Color--RGBMix.html
+- uid: RGBSplit
+  name: RGBSplit
+  href: reference/Nodes/Color--RGBSplit.html
 - uid: Ridge
   name: Ridge
   href: quickstarts/Ridge.html
@@ -304,6 +358,12 @@ references:
 - uid: RockSlide
   name: RockSlide
   href: reference/Nodes/Erosion--RockSlide.html
+- uid: Rough Flow
+  name: Rough Flow
+  href: reference/Sculpt%20Tools/Rough%20Flow.html
+- uid: Roughness
+  name: Roughness
+  href: reference/Sculpt%20Tools/Roughness.html
 - uid: RoughSlants
   name: RoughSlants
   href: quickstarts/RoughSlants.html
@@ -313,12 +373,21 @@ references:
 - uid: SatMaps-001
   name: SatMaps 001
   href: quickstarts/SatMaps-001.html
+- uid: scale
+  name: Terrain Scale
+  href: documentation/usage/Basics-Scale.html
+- uid: Scratch
+  name: Scratch
+  href: reference/Sculpt%20Tools/Scratch.html
 - uid: scripting
   name: scripting
   href: api/scripting.html
-- uid: SculptMode
+- uid: sculpt-mode
   name: Sculpt Workflow
-  href: documentation/Workflow--Sculpt.html
+  href: documentation/workflows/Sculpt.html
+- uid: Sculpt--Soil
+  name: Soil
+  href: reference/Sculpt%20Tools/Sculpt--Soil.html
 - uid: Sediment
   name: Sediment
   href: reference/Nodes/Erosion--Sediment.html
@@ -328,9 +397,9 @@ references:
 - uid: Sharp-Mountain
   name: Sharp Mountain
   href: quickstarts/Sharp-Mountain.html
-- uid: Shortcuts
+- uid: shortcuts
   name: Keyboard Shortcuts
-  href: documentation/Keyboard.html
+  href: documentation/interface/Keyboard.html
 - uid: Simple-Mountain
   name: Simple Mountain
   href: quickstarts/Simple-Mountain.html
@@ -352,6 +421,9 @@ references:
 - uid: Soil
   name: Soil
   href: reference/Nodes/DataMap--Soil.html
+- uid: Startup Screen
+  name: startup
+  href: documentation/interface/Startup.html
 - uid: Stratify
   name: Stratify
   href: reference/Nodes/Erosion--Stratify.html
@@ -391,39 +463,36 @@ references:
 - uid: Terrace
   name: Terrace
   href: reference/Nodes/Filter--Terrace.html
-- uid: Terrain-Scale
-  name: Terrain Scale
-  href: documentation/Terrain%20Scale.html
-- uid: Thermal Erosion
-  name: Thermal Erosion
-  href: reference/Nodes/Erosion--ThermalErosion.html
+- uid: Thermal
+  name: Thermal
+  href: reference/Nodes/Erosion--Thermal.html
 - uid: Thousand-Mesas
   name: Thousand Mesas
   href: quickstarts/Thousand-Mesas.html
 - uid: Threshold
   name: Threshold
   href: reference/Nodes/Adjustment--Threshold.html
-- uid: Tiled-Builds
+- uid: tiled-builds
   name: Tiled Builds
-  href: documentation/Tiled%20Builds.html
-- uid: Toolbox
+  href: documentation/usage/Build-Tiled.html
+- uid: toolbox
   name: Toolbox
-  href: documentation/Toolbox.html
+  href: documentation/interface/Toolbox.html
 - uid: Transform
   name: Transform
   href: reference/Nodes/Adjustment--Transform.html
 - uid: Uluru-Style-Rock
   name: Uluru Style Rock
   href: quickstarts/Uluru-Style-Rock.html
-- uid: Vector
-  name: Vector
-  href: reference/Nodes/Primitive--Vector.html
+- uid: variations
+  name: Creating Variations
+  href: documentation/usage/Build-Variations.html
 - uid: Velocity
   name: Velocity
   href: reference/Nodes/DataMap--Velocity.html
-- uid: Viewport
+- uid: viewport
   name: Viewport
-  href: documentation/Viewport.html
+  href: documentation/interface/Viewport.html
 - uid: Volcano
   name: Volcano
   href: quickstarts/Volcano.html
@@ -436,6 +505,12 @@ references:
 - uid: Whorl
   name: Whorl
   href: reference/Nodes/Filter--Whorl.html
+- uid: Wide Flow I
+  name: Wide Flow I
+  href: reference/Sculpt%20Tools/Wide%20Flow%20I.html
+- uid: Wide Flow II
+  name: Wide Flow II
+  href: reference/Sculpt%20Tools/Wide%20Flow%20II.html
 - uid: Zero-Borders
   name: Zero Borders
   href: reference/Nodes/Adjustment--Zero%20Borders.html

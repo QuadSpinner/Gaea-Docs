@@ -5,11 +5,14 @@ title: Voronoi+
 
 | Setting         | Values      | Description |
 | :-------------- | :---------- | :---------- |
-| **Iterations**  | 1 - 30      | Lorem ipsum |
-| **Noisy Edges** | On / Off    | Lorem ipsum |
-| **Strength**    | 0.02 - 0.80 | Lorem ipsum |
-| **Density**     | 0.02 - 0.50 | Lorem ipsum |
-| **Seed**        | 0 - 128000  | Lorem ipsum |
+| **Iterations**  | 1 - 30      | TODO |
+| **Noisy Edges** | On / Off    | TODO |
+| **Strength**    | 0.02 - 0.80 | TODO |
+| **Density**     | 0.02 - 0.50 | TODO |
+| **Seed**        | 0 - 128000  | TODO |
 
 
 You can also use @"voronoi.md"
+***
+
+<!--examples-->

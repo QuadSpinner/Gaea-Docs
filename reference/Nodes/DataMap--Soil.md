@@ -13,3 +13,7 @@ Soil Map creates a soil mask, with increased density in crevices or other areas 
 
 > [!TIP] 
 > You can combine different Soil Maps using the Combine node set to Max. You can even combine with other Data Maps, such as Flow or Velocity, to create a texture mask upon which color production can take place.
+
+***
+
+<!--examples-->

@@ -11,3 +11,7 @@ The Origami node creates a diagonal multi-fold pattern. It can be used to create
 
 
 
+
+***
+
+<!--examples-->

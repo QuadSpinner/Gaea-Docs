@@ -4,49 +4,81 @@
   items:
   - name: Installing Gaea
     href: Installing Gaea.md
-  - name: Basics of Terrain Design
-    href: Basics of Terrain Design.md
   - name: Getting around
     href: Getting around.md
     items:
+      - name: Startup Screen
+        href: interface/Startup.md
       - name: Node Properties
-        href: Properties.md
+        href: interface/Properties.md
       - name: Toolbox
-        href: Toolbox.md
+        href: interface/Toolbox.md
       - name: Viewport
-        href: Viewport.md
-      - name: Resolutions
-        href: Resolutions.md
+        href: interface/Viewport.md
       - name: Preferences
-        href: Preferences.md
+        href: interface/Preferences.md
+      - name: Build Manager
+        href: interface/Build-Manager.md
       - name: Keyboard Shortcuts
-        href: Keyboard.md
-- name: Workflows
-  items:
-  - name: Graph
-    href: Workflow--Graph.md
-  - name: Layers
-    href: Workflow--Layers.md
-  - name: Sculpt
-    href: Workflow--Sculpt.md
+        href: interface/Keyboard.md
+  - name: Workflows
+    items:
+    - name: Graph
+      href: workflows/Graph.md
+    - name: Layers
+      href: workflows/Layers.md
+    - name: Sculpt
+      href: workflows/Sculpt.md
+
 - name: Using Gaea
   items:
-    - name: Importing Data
-      href: Importing Data.md
-    - name: Terrain Scale
-      href: Terrain Scale.md
-    - name: Using Data Maps
-      href: Data Maps.md
-    - name: Color Production
-      href: Color Production.md
-    - name: Build Manager
-      href: Building.md
-    - name: Tiled Builds
-      href: Tiled Builds.md
-    - name: Exporting Data
-      href: Exporting.md
-    - name: Creating LODs and Variations
-      href: Creating Variations.md
+    - name: Create
+      items:
+        - name: Basics of terrain design
+          href: usage/Basics-Basics.md
+        - name: Your first terrain
+          href: usage/Basics-First-Terrain.md
+        - name: Understanding Resolutions
+          href: usage/Basics-Resolutions.md
+        - name: Terrain Scale
+          href: usage/Basics-Scale.md
+    - name: Erode
+      items:
+        - name: Introduction to Erosion
+          href: usage/Erosion-Process.md
+        - name: Erosion Strategies
+          href: usage/Erosion-Strategies.md
+        - name: Componentized Erosion
+          href: usage/Erosion-Components.md
+    - name: Color
+      items:
+        - name: Color Production
+          href: usage/Color-Production.md
+        - name: Working with Data Maps
+          href: usage/Color-Data-Maps.md
+        - name: Working with Biomes
+          href: usage/Color-Biome.md
+    - name: Build
+      items:
+        - name: Building Terrains
+          href: usage/Build-Building.md
+        - name: Baking
+          href: usage/Build-Baking.md
+        - name: Tiled Builds
+          href: usage/Build-Tiled.md
+        - name: Build Swarm
+          href: usage/Build-Swarm.md
+        - name: Creating LODs and Variations
+          href: usage/Build-Variations.md
+    - name: Export
+      items:
+        - name: Import-Export
+          href: usage/IO-Import-Export.md
+        - name: Importing Data
+          href: usage/IO-Importing.md
+        - name: Exporting Data
+          href: usage/IO-Exporting.md
+
 - name: Misc
   items:
   - name: Common Issues

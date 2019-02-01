@@ -1,5 +1,5 @@
 ---
-uid: Common-Issues
+uid: common-issues
 title: Common Issues
 ---
 

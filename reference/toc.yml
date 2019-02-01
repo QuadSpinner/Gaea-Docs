@@ -1,11 +1,9 @@
-- name: Node Reference
+- name: Nodes
   items:
   - name: Primitives
     items:
       - name: Constant
         href: Nodes/Primitive--Constant.md
-      - name: Draw
-        href: Nodes/Primitive--Draw.md
       - name: Dunes
         href: Nodes/Primitive--Dunes.md
       - name: Fault
@@ -28,8 +26,6 @@
         href: Nodes/Primitive--Resource.md
       - name: SlopeNoise
         href: Nodes/Primitive--SlopeNoise.md
-      - name: Vector
-        href: Nodes/Primitive--Vector.md
       - name: Voronoi
         href: Nodes/Primitive--Voronoi.md
       - name: Voronoi+
@@ -58,8 +54,6 @@
         href: Nodes/Adjustment--Heal.md
       - name: Invert
         href: Nodes/Adjustment--Invert.md
-      - name: RGB Extractor
-        href: Nodes/Adjustment--RGBExtractor.md
       - name: Sharpen
         href: Nodes/Adjustment--Sharpen.md
       - name: Sine
@@ -122,22 +116,22 @@
         href: Nodes/Erosion--Fluvial.md
       - name: Fold
         href: Nodes/Erosion--Fold.md
-      - name: Fusion
-        href: Nodes/Erosion--Fusion.md
       - name: Hydro
         href: Nodes/Erosion--Hydro.md
       - name: Landform
         href: Nodes/Erosion--Landform.md
       - name: MicroErosion
         href: Nodes/Erosion--MicroErosion.md
+      - name: RockSlide
+        href: Nodes/Erosion--RockSlide.md
       - name: Sediment
         href: Nodes/Erosion--Sediment.md
       - name: Snow
         href: Nodes/Erosion--Snow.md
       - name: Stratify
         href: Nodes/Erosion--Stratify.md
-      - name: Thermal Erosion
-        href: Nodes/Erosion--ThermalErosion.md
+      - name: Thermal
+        href: Nodes/Erosion--Thermal.md
   - name: Data Maps
     items:
       - name: Flow
@@ -166,18 +160,18 @@
     items:
       - name: Biome
         href: Nodes/Color--Biome.md
-      - name: BrightnessContrast
-        href: Nodes/Color--BrightnessContrast.md
       - name: CLUTer
         href: Nodes/Color--CLUTer.md
-      - name: HSL
-        href: Nodes/Color--HSL.md
+      - name: ColorFX
+        href: Nodes/Color--ColorFX.md
       - name: Mixer
         href: Nodes/Color--Mixer.md
       - name: Normal Map
         href: Nodes/Color--NormalMap.md
-      - name: RGB Mixer
-        href: Nodes/Color--RGBMixer.md
+      - name: RGBSplit
+        href: Nodes/Color--RGBSplit.md
+      - name: RGBMix
+        href: Nodes/Color--RGBMix.md
       - name: SatMaps
         href: Nodes/Color--SatMaps.md
       - name: Synth
@@ -190,5 +184,31 @@
         href: Nodes/Output--Output.md
 - name: Sculpting Tools
   items:
+      - name: Basic
+        href: Sculpt Tools/Basic.md
+      - name: Carver I
+        href: Sculpt Tools/Carver I.md
+      - name: Carver II
+        href: Sculpt Tools/Carver II.md
+      - name: Cutter
+        href: Sculpt Tools/Cutter.md
+      - name: FlowLines
+        href: Sculpt Tools/FlowLines.md
+      - name: Gullies
+        href: Sculpt Tools/Gullies.md
       - name: LandBreaker
         href: Sculpt Tools/LandBreaker.md
+      - name: Pockmarks
+        href: Sculpt Tools/Pockmarks.md
+      - name: Rough Flow
+        href: Sculpt Tools/Rough Flow.md
+      - name: Roughness
+        href: Sculpt Tools/Roughness.md
+      - name: Scratch
+        href: Sculpt Tools/Scratch.md
+      - name: Soil
+        href: Sculpt Tools/Sculpt--Soil.md
+      - name: Wide Flow I
+        href: Sculpt Tools/Wide Flow I.md
+      - name: Wide Flow II
+        href: Sculpt Tools/Wide Flow II.md

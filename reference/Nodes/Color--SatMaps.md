@@ -9,16 +9,20 @@ SatMap works exactly like the CLUT node, except you pick from the built-in maps 
 
 | Setting               | Values      | Description |
 | :-------------------- | :---------- | :---------- |
-| **Index**             | 0 - 973     | Lorem       |
-| **Noise**             | 0 - 100% | Lorem       |
-| **Reverse**           | On / Off    | Lorem       |
-| **Jitter**            | On / Off    | Lorem       |
-| **Input Clarity**     | On / Off    | Lorem       |
-| **Input Auto Level**  | On / Off    | Lorem       |
-| **Output Clarity**    | On / Off    | Lorem       |
-| **Output Auto Level** | On / Off    | Lorem       |
+| **Index**             | 0 - 973     | TODO       |
+| **Noise**             | 0 - 100% | TODO       |
+| **Reverse**           | On / Off    | TODO       |
+| **Jitter**            | On / Off    | TODO       |
+| **Input Clarity**     | On / Off    | TODO       |
+| **Input Auto Level**  | On / Off    | TODO       |
+| **Output Clarity**    | On / Off    | TODO       |
+| **Output Auto Level** | On / Off    | TODO       |
 
 
 
 
 For general information on creating color textures, see @Color-Production.
+
+***
+
+<!--examples-->

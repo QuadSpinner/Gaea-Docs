@@ -37,12 +37,21 @@
           "toc.yml",
           "*.md"
         ]
+      },
+      {
+        "files": [
+          "changelog/**.md",
+          "changelog/**/toc.yml",
+          "toc.yml",
+          "*.md"
+        ]
       }
     ],
     "resource": [
       {
         "files": [
-          "images/**"
+          "images/**",
+          "changelog/*.json"
         ]
       }
     ],

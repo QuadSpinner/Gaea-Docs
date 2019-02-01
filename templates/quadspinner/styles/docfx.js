@@ -18,11 +18,14 @@ $(function () {
   renderNavbar();
   renderSidebar();
   renderAffix();
-  renderFooter();
+  // renderFooter();
   renderLogo();
 
   breakText();
   renderTabs();
+
+  
+  // $("#ntitle").html(document.title.split("|")[0]);
 
   window.refresh = function (article) {
     // Update markup result
@@ -35,6 +38,7 @@ $(function () {
     renderAlerts();
     renderAffix();
     renderTabs();
+
   }
 
   // Add this event listener when needed
@@ -346,6 +350,7 @@ $(function () {
       loadNavbar();
     } else {
       $('#navbar ul a.active').parents('li').addClass(active);
+      $('#navbar ul a').parents('li').addClass("nav-item");
       renderBreadcrumb();
     }
 
@@ -358,7 +363,10 @@ $(function () {
       var tocPath = $("meta[property='docfx\\:tocrel']").attr("content") || '';
       if (tocPath) tocPath = tocPath.replace(/\\/g, '/');
       $.get(navbarPath, function (data) {
-        $(data).find("#toc>ul").appendTo("#navbar");
+        var ul = $(data).find("#toc>ul");
+        $(ul).addClass("navbar-nav");
+        $(ul).appendTo("#naver");
+        
         if ($('#search-results').length !== 0) {
           $('#search').show();
           $('body').trigger("searchEvent");
@@ -376,7 +384,7 @@ $(function () {
           if (util.isRelativePath(href)) {
             href = navrel + href;
             $(e).attr("href", href);
-
+            $(e).addClass("nav-link");
             // TODO: currently only support one level navbar
             var isActive = false;
             var originalHref = e.name;
@@ -517,6 +525,12 @@ $(function () {
 
   function renderBreadcrumb() {
     var breadcrumb = [];
+
+    breadcrumb.push({
+      href: "/",
+      name: "Home"
+    });
+
     $('#navbar a.active').each(function (i, e) {
       breadcrumb.push({
         href: e.href,
@@ -647,47 +661,47 @@ $(function () {
     }
   }
 
-  // Show footer
-  function renderFooter() {
-    initFooter();
-    $(window).on("scroll", showFooterCore);
+  // // Show footer
+  // function renderFooter() {
+  //   initFooter();
+  //   $(window).on("scroll", showFooterCore);
 
-    function initFooter() {
-      if (needFooter()) {
-        shiftUpBottomCss();
-        $("footer").show();
-      } else {
-        resetBottomCss();
-        $("footer").hide();
-      }
-    }
+  //   function initFooter() {
+  //     if (needFooter()) {
+  //       shiftUpBottomCss();
+  //       $("footer").show();
+  //     } else {
+  //       resetBottomCss();
+  //       $("footer").hide();
+  //     }
+  //   }
 
-    function showFooterCore() {
-      if (needFooter()) {
-        shiftUpBottomCss();
-        $("footer").fadeIn();
-      } else {
-        resetBottomCss();
-        $("footer").fadeOut();
-      }
-    }
+  //   function showFooterCore() {
+  //     if (needFooter()) {
+  //       shiftUpBottomCss();
+  //       $("footer").fadeIn();
+  //     } else {
+  //       resetBottomCss();
+  //       $("footer").fadeOut();
+  //     }
+  //   }
 
-    function needFooter() {
-      var scrollHeight = $(document).height();
-      var scrollPosition = $(window).height() + $(window).scrollTop();
-      return (scrollHeight - scrollPosition) < 1;
-    }
+  //   function needFooter() {
+  //     var scrollHeight = $(document).height();
+  //     var scrollPosition = $(window).height() + $(window).scrollTop();
+  //     return (scrollHeight - scrollPosition) < 1;
+  //   }
 
-    function resetBottomCss() {
-      $(".sidetoc").removeClass("shiftup");
-      $(".sideaffix").removeClass("shiftup");
-    }
+  //   function resetBottomCss() {
+  //     $(".sidetoc").removeClass("shiftup");
+  //     $(".sideaffix").removeClass("shiftup");
+  //   }
 
-    function shiftUpBottomCss() {
-      $(".sidetoc").addClass("shiftup");
-      $(".sideaffix").addClass("shiftup");
-    }
-  }
+  //   function shiftUpBottomCss() {
+  //     $(".sidetoc").addClass("shiftup");
+  //     $(".sideaffix").addClass("shiftup");
+  //   }
+  // }
 
   function renderLogo() {
     // For LOGO SVG

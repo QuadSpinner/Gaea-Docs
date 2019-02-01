@@ -3,24 +3,30 @@ uid: Synth
 title: Synth
 ---
 
+# [Synthesis](#tab/tabid-a)
 | Setting               | Values      | Description |
 | :-------------------- | :---------- | :---------- |
-| **Bitmap**            | Filename    | Lorem ipsum |
-| **Stops**             | 2 - 256     | Lorem ipsum |
-| **Fuzzy**             | 0 - 100     | Lorem ipsum |
-| **Rotate**            | 0 - 360     | Lorem ipsum |
-| **Seed**              | 0 - 128000  | Lorem ipsum |
-| **Reverse**           | On / Off    | Lorem ipsum |
-| **Input Noise**       | 0 - 100% | Lorem ipsum |
-| **Color Noise**       | 0 - 100% | Lorem ipsum |
-| **Input Clarity**     | On / Off    | Lorem ipsum |
-| **Input Auto Level**  | On / Off    | Lorem ipsum |
-| **Output Clarity**    | On / Off    | Lorem ipsum |
-| **Output Auto Level** | On / Off    | Lorem ipsum |
-| **Data**              | Filename    | Lorem ipsum |
-| **Magick**            | Filename    | Lorem ipsum |
+| **Bitmap**            | Filename    | TODO |
+| **Stops**             | 2 - 256     | TODO |
+| **Fuzzy**             | 0 - 100     | TODO |
+| **Rotate**            | 0 - 360     | TODO |
+| **Seed**              | 0 - 128000  | TODO |
+
+# [Synth](#tab/tabid-b)
+| Setting           | Values       | Description |
+| :---------------- | :----------- | :---------- |
+| **Reverse**           | On / Off    | TODO |
+| **Input Noise**       | 0 - 100% | TODO |
+| **Color Noise**       | 0 - 100% | TODO |
+| **Input Clarity**     | On / Off    | TODO |
+| **Input Auto Level**  | On / Off    | TODO |
+| **Output Clarity**    | On / Off    | TODO |
+| **Output Auto Level** | On / Off    | TODO |
 
 
 To create your own color maps from scratch, use @CLUTer.
 
 For general information on creating color textures, see @Color-Production.
+***
+
+<!--examples-->
