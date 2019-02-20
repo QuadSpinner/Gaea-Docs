@@ -10,13 +10,13 @@ Lateral enhances the terrain by providing a different method of eroding rocky ri
 Ventral uses partially randomized, churning forces to erode the terrain. It works with two sets of forces: macro and micro, which interweave to use the shape of the terrain to drive the erosion. This erosion method uses horizontal flow mechanics (unlike hydraulic erosion), resulting in a look that flowing waters gently carved in the terrain over thousands of year.
 
  
-| Setting        | Values      | Description                                                                                                                           |
-| :------------- | :---------- | :------------------------------------------------------------------------------------------------------------------------------------ |
+| Setting        | Values   | Description                                                                                                                           |
+| :------------- | :------- | :------------------------------------------------------------------------------------------------------------------------------------ |
 | **Power**      | 0 - 100% | Higher values cause larger, smoother shapes and decay fine details. Lower values preserve details but create slightly rougher curves. |
-| **Multiplier** | 1 - 10      | Higher values cause the erosion to erase smaller features in the terrain by producing stronger flows.                             |
-| **Form**       |             |
-|                | *Lateral*   |                                                                                                                                       |
-|                | *Ventral*   |                                                                                                                                       |
+| **Multiplier** | 1 - 10   | Higher values cause the erosion to erase smaller features in the terrain by producing stronger flows.                                 |
+| **Form**       |          |
+|                |          | *Lateral* : TODO                                                                                                                      |
+|                |          | *Ventral* : TODO                                                                                                                      |
 
 
 

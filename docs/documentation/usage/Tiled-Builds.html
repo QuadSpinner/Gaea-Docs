@@ -8,7 +8,7 @@
     <title>Tiled Builds | QuadSpinner Gaea </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Tiled Builds | QuadSpinner Gaea ">
-    <meta name="generator" content="docfx 2.40.4.0">
+    <meta name="generator" content="docfx 2.40.7.0">
     
     <link rel="shortcut icon" href="../../favicon.ico">
     <link rel="stylesheet" id="cssv" href="../../styles/docfx.vendor.css">
@@ -35,7 +35,7 @@
           </button>
               
               <a class="navbar-brand" href="../../index.html">
-                <img id="logo" class="svg" src="../../logo.svg" alt="">
+                <img id="logo" class="svg" src="../../images/logo.png" alt="">
               </a>
             </div>
             <div class="collapse justify-content-between navbar-collapse" id="navbar">
@@ -99,10 +99,25 @@
           <div class="col-md-10">
           <div class="container">
                 <h4 id="ntitle">Tiled Builds</h4>
-            <article class="content wrap" id="_content" data-uid="Tiled-Builds">
+            <article class="content wrap" id="_content" data-uid="tiled-builds">
                 <span class="wip">This documentation is a work-in-progress and subject to change.</span>
                 <br><br>
+<h1 id="tiled-output-vs-tiled-processing">Tiled Output vs. Tiled Processing</h1>
 
+<p>To begin, let's differentiate between tiled output and tiled processing.</p>
+<p><em>&quot;Tiled Output&quot;</em> is when the build results (regardless of how they were built) are saved in a grid - that is, the overall output is split into even tiles. Tiled Output is used for very large terrains, especially in games, where parts of the terrain are &quot;streamed&quot; into memory for efficiency.</p>
+<p><em>&quot;Tiled Processing&quot;</em> or Distributed Processing is when a terrain is divided up into a grid of tiles <em>before</em> processing. After processing, the final output may be saved as individual tiles or as a single image. Tiled Processing is used to process very large terrains beyond what may be possible within the limits of your current hardware. By dividing the terrain into smaller tiles and processing them one by one, a remarkably smaller amount of RAM is needed for processing.</p>
+<h2 id="tiled-output">Tiled Output</h2>
+<p><code>TODO</code></p>
+<h2 id="tiled-processing">Tiled Processing</h2>
+<div class="NOTE">
+<h5>Note</h5>
+<p>Tiled Processing is scheduled for inclusion in the March-April update cycle.</p>
+</div>
+<p>There is natural limitation of tiled processing: each tile is processed without any relation to the neighboring tiles. This may result in abrupt differences at the borders. To overcome this, a Edge Blend setting is provided. You can choose Low, Medium, High, Overkill. Increasing the blending amount will increase the time taken for processing, and the memory required. However, it will still be quite less than a normal or linear build.</p>
+<h3 id="avoid-screenspace-effects">Avoid Screenspace Effects</h3>
+<p>Another natural limitation of Tiled Processing is the inability to process screenspace effects. Screenspace effects are nodes such as <a class="xref" href="../../reference/Nodes/Filter--Swirl.html">Swirl</a>, <a class="xref" href="../../reference/Nodes/Filter--Whorl.html">Whorl</a>, <a class="xref" href="../../reference/Nodes/Adjustment--Transform.html">Transform</a>, etc. Such effects require processing the image as a whole and will not look correct when processed as tiles.</p>
+<p>If you have used any such nodes, there will be a small warning icon in the status bar, and a more comprehensive warning in the <a class="xref" href="../interface/Build-Manager.html">Build Manager</a> dialog.</p>
 </article>
             </div>
           </div>

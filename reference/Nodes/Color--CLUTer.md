@@ -28,8 +28,7 @@ Click anywhere in the gradient to create a new stop. Drag the stop to position i
 | **Color Noise**       | 0 - 100% | Introduces minor color distortions to the map.                 |
 | **Output Clarity**    | On / Off    | Applies localized contrast enhancements to the output texture. |
 | **Output Auto Level** | On / Off    | Applies an autolevels filter to the output texture.            |
-| **Data**              | Filename    | TODO                                                    |
-| **Magick**            | Filename    | TODO                                                    |
+
 
 
 > [!TIP]

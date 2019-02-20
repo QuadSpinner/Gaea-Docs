@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Build Manager | QuadSpinner Gaea </title>
+    <title>Building Terrains | QuadSpinner Gaea </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Build Manager | QuadSpinner Gaea ">
-    <meta name="generator" content="docfx 2.40.4.0">
+    <meta name="title" content="Building Terrains | QuadSpinner Gaea ">
+    <meta name="generator" content="docfx 2.40.7.0">
     
     <link rel="shortcut icon" href="../../favicon.ico">
     <link rel="stylesheet" id="cssv" href="../../styles/docfx.vendor.css">
@@ -35,7 +35,7 @@
           </button>
               
               <a class="navbar-brand" href="../../index.html">
-                <img id="logo" class="svg" src="../../logo.svg" alt="">
+                <img id="logo" class="svg" src="../../images/logo.png" alt="">
               </a>
             </div>
             <div class="collapse justify-content-between navbar-collapse" id="navbar">
@@ -98,11 +98,11 @@
         <div class="article row grid-right">
           <div class="col-md-10">
           <div class="container">
-                <h4 id="ntitle">Build Manager</h4>
-            <article class="content wrap" id="_content" data-uid="Build-Manager">
+                <h4 id="ntitle">Building Terrains</h4>
+            <article class="content wrap" id="_content" data-uid="building">
                 <span class="wip">This documentation is a work-in-progress and subject to change.</span>
                 <br><br>
-<h2 id="building-terrains">Building Terrains</h2>
+<h1 id="building-terrains">Building Terrains</h1>
 
 <p>The output from your project must be saved to a file in order to use it elsewhere. To do this, you must build the output. When you build the output, Gaea will create it at your target resolution. This may take a while to build depending on the complexity of your terrain, and the effects used.</p>
 <div class="small-image">
@@ -118,12 +118,45 @@
 </div>
 Once a node is marked for saving, it displays this icon underneath the node.
 <h2 id="the-build-manager">The Build Manager</h2>
-<p>Now when you click Build, instead of firing off a build directly, you will see the Build Manager. The Build Manager gives you easy access to crucial output preferences.</p>
 <p><img src="/images/ui/Build-Manager.png" alt="Mark for save"></p>
-<p>The node grid shows you all the nodes marked for output. You can temporarily toggle a node by clicking the color circle in the top left corner of the node. This does not affect the build, only the output. This can be useful when you just want to see a few specific outputs, or you need to go back to rebuild an older project for selective output.</p>
-<p>When a node has multiple outputs, such as the Erosion and Breaker nodes in this example, you can individually toggle which ports should be saved as files.</p>
 <p>You can choose the file format to use for all outputs, modify a node's output name by clicking on the node's label, choose unclamped (formerly called &quot;Full Range&quot;), and +1 output (where 512 x 512 becomes 513 x 513 — necessary for some game engines).</p>
 <p>You can also use the Build Manager for version control and file organization.</p>
+<h2 id="build-options">Build Options</h2>
+<h3 id="build-destination">Build Destination</h3>
+<p>This is the path where the built output will be saved. By default it is saved in a version controlled path in the Builds repository. You can always enter a normal path directly, or pick from presets in the dropdown.</p>
+<p>For additional information see the <strong>Organizing Builds</strong> below.</p>
+<h3 id="resolution">Resolution</h3>
+<p>The output resolution of the build. Higher resolutions give you better detail at the cost of longer processing times.</p>
+<div class="WARNING">
+<h5>Warning</h5>
+<p>16k and 32k builds are experimental at this stage and will be optimized over the next several builds.</p>
+</div>
+<h3 id="format">Format</h3>
+<p>This dropdown allows you to choose the the format in which your output is saved. All files are 16-bit.</p>
+<p>To save any output as a mesh, see <a class="xref" href="Exporting.html">Exporting for other packages</a> and <a class="xref" href="../../reference/Nodes/Output--Mesher.html">Mesher</a>.</p>
+<h3 id="resample">Resample</h3>
+<p>This option is for builds that need to be taken to Unreal Engine, and is turned off by default. Unreal engine requires particular dimensions for ingesting terrains. To meet Unreal's requirements, Gaea will build the terrain at its own fixed resolutions and then faithfully downsample to the Unreal friendly resolution.</p>
+<p>Pick the nearest Gaea resolution in the main Resolution dropdown, then select the Unreal friendly resolution in the Resample dropdown.</p>
+<h3 id="color-space">Color Space</h3>
+<p>You can choose to save color maps in RGB, sRGB, or scRGB color spaces.</p>
+<h3 id="ignore-vertical-scaling">Ignore Vertical Scaling</h3>
+<p>The new Output node is the primary way to save your output. It automatically saves the specified file when a full Build is initiated from the Export panel.</p>
+<p>By default, it exports Clamped values, but you can choose to export a Full Range map by enabling Full Range in the Output node's properties.</p>
+<h4 id="whats-the-difference">What's the difference?</h4>
+<p>Here you can see the two outputs: Clamped and Full Range. The main difference is that Clamped is limited to the height set in the Terrain Definition, while Full Range ignores both the Base and Height settings, and exports the entire gradient range in its natural form (32-bit floating point).</p>
+<h4 id="when-should-i-use-full-range">When should I use Full Range?</h4>
+<p>Most of the time, you won't need to use Full Range. It can be useful in rare cases: when you intend to manually scale the terrain vertically later; or when you want to manually edit or sculpt the terrain in Photoshop, ZBrush or Mudbox and need as much detail as possible.</p>
+<p>If you do use the Full Range export, it is best to use the OpenEXR (.exr) format to preserve the values as best as possible.</p>
+<p>You can always export a copy with Clamped values, and use that as a guide for vertically resizing the externally edited Full Range output.</p>
+<h3 id="increase-output-scale-by-1">Increase output scale by +1</h3>
+<p>Some software require heightfields to be one pixel larger than the normal dimension. For example, 4096 is required to be 4097. Check this option to increase the dimensions by one pixel.</p>
+<p>This option is ignored when the Resample option is used.</p>
+<h3 id="save-a-copy-of-this-tor-file">Save a copy of this .TOR file</h3>
+<p>Saves a copy of the current .TOR or .TORX file in the build folder.</p>
+<h3 id="close-gaea-ui">Close Gaea UI</h3>
+<p>The Gaea interface - especially when using high resolution previews - can consume enough RAM to cause an impact on high resolution builds. To conserve memory, you can check this option to close Gaea when the build starts.</p>
+<h3 id="open-folder-after-build">Open folder after build</h3>
+<p>Check this option to open the build destination folder when the build completes.</p>
 <h2 id="version-control-and-organization">Version Control and Organization</h2>
 <h3 id="organizing-builds">Organizing Builds</h3>
 <p>The Location field in the Build Manager provides two built-in options for storing your builds.</p>
@@ -155,27 +188,9 @@ Once a node is marked for saving, it displays this icon underneath the node.
 <p>Gaea's Build Manager and Build Stack give you low level version control without additional overhead.</p>
 <p>The &quot;Save copy of .TOR&quot; option is useful when you want to manage different versions of your actual project file. When turned on, every time your build finishes, a copy of the .tor file in the exact state of that particular build is stored alongside the build output. You can easily go back to any older build state for your file, and save it as new file.</p>
 <p>You can also map the folder to almost any modern version control system (Git, Mercurial, Visual Studio Team Services, etc.), or share on a network folder with your team.</p>
+<hr>
 <h1 id="build-swarm">Build Swarm</h1>
-<p>The Build Swarm is the command line building engine for Gaea. Whenever a large scale build is needed, Gaea launches the Build Swarm to build the terrain. You can also launch it manually if needed. The Build Swarm can be found in the Gaea installation folder as <code>Gaea.Build.exe</code>.</p>
-<p>The Build Swarm writes status messages to StdOut and can be monitored remotely if needed. You MUST use the <code>--silent</code> argument when capturing StdOut data otherwise it may overload your application and slow down the build itself.</p>
-<h2 id="command-line-arguments">Command Line Arguments</h2>
-<div class="NOTE">
-<h5>Note</h5>
-<p>Gaea uses double dashes <code>--</code> instead of a single dash for command line arguments.</p>
-</div>
-<p>Example Command Line:</p>
-<pre><code>&quot;C:\Program Files\QuadSpinner\Gaea\Gaea.Build.exe&quot; &quot;C:\Users\Me\Documents\Gaea\MyFile.tor&quot; 
-</code></pre>
-<p><code>--silent</code> - Disables all non-essential console output.</p>
-<p><code>--savetor</code> - Saves a copy of the current file in the build folder.</p>
-<p><code>--open</code> - Opens the build folder after the build is complete.</p>
-<p><em>The following functionality is scheduled for inclusion soon.</em></p>
-<p><code>--path PATH</code> - Override the destination path for the build. PATH must be a legal, non-write-protected path supplied in double quotes. Gaea will attempt to create the folder if possible.</p>
-<p><code>--var(foo, bar)</code> - Override the value (bar) of a node property (foo) that has been exposed in the file.</p>
-<p><code>--format EXT</code> - Override the default output format. Allowed values are PNG, EXR, PSD, HDR, TIF, RAW. Must be entered in CAPITALS.</p>
-<p><code>--variant N</code> - Repeats the build and randomizes the seeds of every node for each build to create variations. Variations are stored in own sub-folder named in the pattern of Var1, Var2, etc.</p>
-<h2 id="batch-building">Batch Building</h2>
-<h2 id="logs">Logs</h2>
+<p>For advanced use, see <a class="xref" href="Build-Swarm.html">Build Swarm</a>.</p>
 </article>
             </div>
           </div>

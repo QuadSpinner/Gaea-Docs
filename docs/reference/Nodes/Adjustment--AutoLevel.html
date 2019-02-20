@@ -8,7 +8,7 @@
     <title>AutoLevel | QuadSpinner Gaea </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="AutoLevel | QuadSpinner Gaea ">
-    <meta name="generator" content="docfx 2.40.4.0">
+    <meta name="generator" content="docfx 2.40.7.0">
     
     <link rel="shortcut icon" href="../../favicon.ico">
     <link rel="stylesheet" id="cssv" href="../../styles/docfx.vendor.css">
@@ -35,7 +35,7 @@
           </button>
               
               <a class="navbar-brand" href="../../index.html">
-                <img id="logo" class="svg" src="../../logo.svg" alt="">
+                <img id="logo" class="svg" src="../../images/logo.png" alt="">
               </a>
             </div>
             <div class="collapse justify-content-between navbar-collapse" id="navbar">
@@ -103,6 +103,19 @@
                 <span class="wip">This documentation is a work-in-progress and subject to change.</span>
                 <br><br>
 
+<div class="tabGroup" id="tabgroup_CeZOj-G++Q">
+<ul role="tablist">
+<li role="presentation">
+<a href="#tabpanel_CeZOj-G++Q_tabid-a" role="tab" aria-controls="tabpanel_CeZOj-G++Q_tabid-a" data-tab="tabid-a" tabindex="0" aria-selected="true">AutoLevel</a>
+</li>
+<li role="presentation">
+<a href="#tabpanel_CeZOj-G++Q_tabid-b" role="tab" aria-controls="tabpanel_CeZOj-G++Q_tabid-b" data-tab="tabid-b" tabindex="-1">EQUALIZE</a>
+</li>
+<li role="presentation">
+<a href="#tabpanel_CeZOj-G++Q_tabid-c" role="tab" aria-controls="tabpanel_CeZOj-G++Q_tabid-c" data-tab="tabid-c" tabindex="-1">GAMMA</a>
+</li>
+</ul>
+<section id="tabpanel_CeZOj-G++Q_tabid-a" role="tabpanel" data-tab="tabid-a">
 
 <table>
 <thead>
@@ -114,24 +127,9 @@
 </thead>
 <tbody>
 <tr>
-<td style="text-align: left;"><strong>Method</strong></td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-</tr>
-<tr>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"><em>Level</em></td>
+<td style="text-align: left;">Apply Autolevel</td>
+<td style="text-align: left;">On / Off</td>
 <td style="text-align: left;">Automatically levels the terrain where the heights are proportionately distributed between the highest and lowest points.</td>
-</tr>
-<tr>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"><em>Equalize</em></td>
-<td style="text-align: left;">Equalizes the terrain where the heights are linearly distributed between the highest and lowest points.</td>
-</tr>
-<tr>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"><em>Gamma</em></td>
-<td style="text-align: left;">Applies a Gamma-style height adjustment to the terrain.</td>
 </tr>
 <tr>
 <td style="text-align: left;"><strong>Strength</strong></td>
@@ -140,6 +138,57 @@
 </tr>
 </tbody>
 </table>
+</section>
+<section id="tabpanel_CeZOj-G++Q_tabid-b" role="tabpanel" data-tab="tabid-b" aria-hidden="true" hidden="hidden">
+
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Setting</th>
+<th style="text-align: left;">Values</th>
+<th style="text-align: left;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Apply Equalize</td>
+<td style="text-align: left;">On / Off</td>
+<td style="text-align: left;">Equalizes the terrain where the heights are linearly distributed between the highest and lowest points.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Equalize</strong></td>
+<td style="text-align: left;">0 - 100%</td>
+<td style="text-align: left;">The equalize amount.</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="tabpanel_CeZOj-G++Q_tabid-c" role="tabpanel" data-tab="tabid-c" aria-hidden="true" hidden="hidden">
+
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Setting</th>
+<th style="text-align: left;">Values</th>
+<th style="text-align: left;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Apply Gamma</td>
+<td style="text-align: left;">On / Off</td>
+<td style="text-align: left;">Applies a Gamma-style height adjustment to the terrain.</td>
+</tr>
+<tr>
+<td style="text-align: left;">Auto-Gamma</td>
+<td style="text-align: left;">On / Off</td>
+<td style="text-align: left;">Applies AutoGamma.</td>
+</tr>
+</tbody>
+</table>
+</section>
+</div>
+
 <div class="TIP">
 <h5>Tip</h5>
 <p>Level is recommended over Equalize in most situations, as the latter may make terrains look too bulky and remove delicate features in some cases.</p>
@@ -150,13 +199,13 @@
 <div class="card">
 <img   class="card-img-top" src="/images/ref/AutoLevel--Apply Autolevel000.png" />
 <div class="card-footer"><ul>
-<li>Apply Autolevel: <code> False</code></li>
+<li>Apply Autolevel : <code> False</code></li>
 </ul></div>
 </div>
 <div class="card">
 <img   class="card-img-top" src="/images/ref/AutoLevel--Apply Autolevel001.png" />
 <div class="card-footer"><ul>
-<li>Apply Autolevel: <code> True</code></li>
+<li>Apply Autolevel : <code> True</code></li>
 </ul></div>
 </div>
 </div>
@@ -166,22 +215,22 @@
 <div class="card">
 <img   class="card-img-top" src="/images/ref/AutoLevel--Apply EqualizeEqualize000.png" />
 <div class="card-footer"><ul>
-<li>Apply Equalize: <code> True</code></li>
-<li>Equalize: <code> 10.65%</code></li>
+<li>Apply Equalize : <code> True</code></li>
+<li>Equalize : <code>10.7</code></li>
 </ul></div>
 </div>
 <div class="card">
 <img   class="card-img-top" src="/images/ref/AutoLevel--Apply EqualizeEqualize001.png" />
 <div class="card-footer"><ul>
-<li>Apply Equalize: <code> True</code></li>
-<li>Equalize: <code> 54.37%</code></li>
+<li>Apply Equalize : <code> True</code></li>
+<li>Equalize : <code>54.4</code></li>
 </ul></div>
 </div>
 <div class="card">
 <img   class="card-img-top" src="/images/ref/AutoLevel--Apply EqualizeEqualize002.png" />
 <div class="card-footer"><ul>
-<li>Apply Equalize: <code> True</code></li>
-<li>Equalize: <code> 74.47%</code></li>
+<li>Apply Equalize : <code> True</code></li>
+<li>Equalize : <code>74.5</code></li>
 </ul></div>
 </div>
 </div>
@@ -191,7 +240,7 @@
 <div class="card">
 <img   class="card-img-top" src="/images/ref/AutoLevel--Apply Gamma000.png" />
 <div class="card-footer"><ul>
-<li>Apply Gamma: <code> True</code></li>
+<li>Apply Gamma : <code> True</code></li>
 </ul></div>
 </div>
 </div>
@@ -201,15 +250,15 @@
 <div class="card">
 <img   class="card-img-top" src="/images/ref/AutoLevel--Apply GammaAuto-Gamma000.png" />
 <div class="card-footer"><ul>
-<li>Apply Gamma: <code> True</code></li>
-<li>Auto-Gamma: <code> True</code></li>
+<li>Apply Gamma : <code> True</code></li>
+<li>Auto-Gamma : <code> True</code></li>
 </ul></div>
 </div>
 <div class="card">
 <img   class="card-img-top" src="/images/ref/AutoLevel--Apply GammaAuto-Gamma001.png" />
 <div class="card-footer"><ul>
-<li>Apply Gamma: <code> True</code></li>
-<li>Auto-Gamma: <code> False</code></li>
+<li>Apply Gamma : <code> True</code></li>
+<li>Auto-Gamma : <code> False</code></li>
 </ul></div>
 </div>
 </div>
@@ -219,22 +268,22 @@
 <div class="card">
 <img   class="card-img-top" src="/images/ref/AutoLevel--Apply GammaGamma000.png" />
 <div class="card-footer"><ul>
-<li>Apply Gamma: <code> True</code></li>
-<li>Gamma: <code> 0.5</code></li>
+<li>Apply Gamma : <code> True</code></li>
+<li>Gamma : <code>0.5</code></li>
 </ul></div>
 </div>
 <div class="card">
 <img   class="card-img-top" src="/images/ref/AutoLevel--Apply GammaGamma001.png" />
 <div class="card-footer"><ul>
-<li>Apply Gamma: <code> True</code></li>
-<li>Gamma: <code> 1.3</code></li>
+<li>Apply Gamma : <code> True</code></li>
+<li>Gamma : <code>1.3</code></li>
 </ul></div>
 </div>
 <div class="card">
 <img   class="card-img-top" src="/images/ref/AutoLevel--Apply GammaGamma002.png" />
 <div class="card-footer"><ul>
-<li>Apply Gamma: <code> True</code></li>
-<li>Gamma: <code> 2.4</code></li>
+<li>Apply Gamma : <code> True</code></li>
+<li>Gamma : <code>2.4</code></li>
 </ul></div>
 </div>
 </div>
@@ -244,19 +293,19 @@
 <div class="card">
 <img   class="card-img-top" src="/images/ref/AutoLevel--Strength000.png" />
 <div class="card-footer"><ul>
-<li>Strength: <code> 16.18%</code></li>
+<li>Strength : <code>16.2</code></li>
 </ul></div>
 </div>
 <div class="card">
 <img   class="card-img-top" src="/images/ref/AutoLevel--Strength001.png" />
 <div class="card-footer"><ul>
-<li>Strength: <code> 53.37%</code></li>
+<li>Strength : <code>53.4</code></li>
 </ul></div>
 </div>
 <div class="card">
 <img   class="card-img-top" src="/images/ref/AutoLevel--Strength002.png" />
 <div class="card-footer"><ul>
-<li>Strength: <code> 88.54%</code></li>
+<li>Strength : <code>88.5</code></li>
 </ul></div>
 </div>
 </div>

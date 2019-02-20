@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <html>
   
@@ -8,7 +8,7 @@
     <title>Breaker | QuadSpinner Gaea </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Breaker | QuadSpinner Gaea ">
-    <meta name="generator" content="docfx 2.40.4.0">
+    <meta name="generator" content="docfx 2.40.7.0">
     
     <link rel="shortcut icon" href="../../favicon.ico">
     <link rel="stylesheet" id="cssv" href="../../styles/docfx.vendor.css">
@@ -35,7 +35,7 @@
           </button>
               
               <a class="navbar-brand" href="../../index.html">
-                <img id="logo" class="svg" src="../../logo.svg" alt="">
+                <img id="logo" class="svg" src="../../images/logo.png" alt="">
               </a>
             </div>
             <div class="collapse justify-content-between navbar-collapse" id="navbar">
@@ -138,6 +138,11 @@
 <td style="text-align: left;">5 - 1000</td>
 <td style="text-align: left;">The strength of the breakage process. High values may cause sharp drops and spikes depending on the terrain.</td>
 </tr>
+<tr>
+<td style="text-align: left;"><strong>Depth</strong></td>
+<td style="text-align: left;">0 - 100</td>
+<td style="text-align: left;">TODO</td>
+</tr>
 </tbody>
 </table>
 </section>
@@ -169,19 +174,154 @@
 </tr>
 <tr>
 <td style="text-align: left;"></td>
-<td style="text-align: left;"><em>Fast</em></td>
-<td style="text-align: left;">Processes faster, but may not always result in the same pattern of cracks.</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><em>Fast</em> : Processes faster, but may not always result in the same pattern of cracks.</td>
 </tr>
 <tr>
 <td style="text-align: left;"></td>
-<td style="text-align: left;"><em>Accurate</em></td>
-<td style="text-align: left;">Processes a bit slower, but ensures the pattern remains the same.</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><em>Accurate</em> : Processes a bit slower, but ensures the pattern remains the same.</td>
 </tr>
 </tbody>
 </table>
 </section>
 </div>
-<!--examples-->
+<div class="examples">
+<div class="card-deck">
+<div class="card">
+<img   class="card-img-top" src="/images/ref/Breaker--Duration000.png" />
+<div class="card-footer"><ul>
+<li>Duration : <code>760</code></li>
+</ul></div>
+</div>
+<div class="card">
+<img   class="card-img-top" src="/images/ref/Breaker--Duration001.png" />
+<div class="card-footer"><ul>
+<li>Duration : <code>2265</code></li>
+</ul></div>
+</div>
+<div class="card">
+<img   class="card-img-top" src="/images/ref/Breaker--Duration002.png" />
+<div class="card-footer"><ul>
+<li>Duration : <code>3800</code></li>
+</ul></div>
+</div>
+</div>
+<hr />
+
+<div class="card-deck">
+<div class="card">
+<img   class="card-img-top" src="/images/ref/Breaker--DurationDepth000.png" />
+<div class="card-footer"><ul>
+<li>Duration : <code>785</code></li>
+<li>Depth : <code>17.2</code></li>
+</ul></div>
+</div>
+<div class="card">
+<img   class="card-img-top" src="/images/ref/Breaker--DurationDepth001.png" />
+<div class="card-footer"><ul>
+<li>Duration : <code>785</code></li>
+<li>Depth : <code>46.8</code></li>
+</ul></div>
+</div>
+<div class="card">
+<img   class="card-img-top" src="/images/ref/Breaker--DurationDepth002.png" />
+<div class="card-footer"><ul>
+<li>Duration : <code>785</code></li>
+<li>Depth : <code>52.0</code></li>
+</ul></div>
+</div>
+</div>
+<hr />
+
+<div class="card-deck">
+<div class="card">
+<img   class="card-img-top" src="/images/ref/Breaker--DurationErosion Power000.png" />
+<div class="card-footer"><ul>
+<li>Duration : <code>785</code></li>
+<li>Erosion Power : <code>135</code></li>
+</ul></div>
+</div>
+<div class="card">
+<img   class="card-img-top" src="/images/ref/Breaker--DurationErosion Power001.png" />
+<div class="card-footer"><ul>
+<li>Duration : <code>785</code></li>
+<li>Erosion Power : <code>505</code></li>
+</ul></div>
+</div>
+<div class="card">
+<img   class="card-img-top" src="/images/ref/Breaker--DurationErosion Power002.png" />
+<div class="card-footer"><ul>
+<li>Duration : <code>785</code></li>
+<li>Erosion Power : <code>690</code></li>
+</ul></div>
+</div>
+</div>
+<hr />
+
+<div class="card-deck">
+<div class="card">
+<img   class="card-img-top" src="/images/ref/Breaker--DurationHard Cracks000.png" />
+<div class="card-footer"><ul>
+<li>Duration : <code>510</code></li>
+<li>Hard Cracks : <code> False</code></li>
+</ul></div>
+</div>
+<div class="card">
+<img   class="card-img-top" src="/images/ref/Breaker--DurationHard Cracks001.png" />
+<div class="card-footer"><ul>
+<li>Duration : <code>510</code></li>
+<li>Hard Cracks : <code> True</code></li>
+</ul></div>
+</div>
+</div>
+<hr />
+
+<div class="card-deck">
+<div class="card">
+<img   class="card-img-top" src="/images/ref/Breaker--DurationMode000.png" />
+<div class="card-footer"><ul>
+<li>Duration : <code>305</code></li>
+<li>Mode : <code> Fast</code></li>
+</ul></div>
+</div>
+<div class="card">
+<img   class="card-img-top" src="/images/ref/Breaker--DurationMode001.png" />
+<div class="card-footer"><ul>
+<li>Duration : <code>305</code></li>
+<li>Mode : <code> Accurate</code></li>
+</ul></div>
+</div>
+</div>
+<hr />
+
+<div class="card-deck">
+<div class="card">
+<img   class="card-img-top" src="/images/ref/Breaker--DurationRiver Length000.png" />
+<div class="card-footer"><ul>
+<li>Duration : <code>785</code></li>
+<li>River Length : <code>110</code></li>
+</ul></div>
+</div>
+<div class="card">
+<img   class="card-img-top" src="/images/ref/Breaker--DurationRiver Length001.png" />
+<div class="card-footer"><ul>
+<li>Duration : <code>785</code></li>
+<li>River Length : <code>285</code></li>
+</ul></div>
+</div>
+<div class="card">
+<img   class="card-img-top" src="/images/ref/Breaker--DurationRiver Length002.png" />
+<div class="card-footer"><ul>
+<li>Duration : <code>785</code></li>
+<li>River Length : <code>475</code></li>
+</ul></div>
+</div>
+</div>
+<hr />
+
+</div>
+
 </article>
             </div>
           </div>

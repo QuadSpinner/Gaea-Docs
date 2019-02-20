@@ -1,5 +1,5 @@
 ---
-uid: Color-Production
+uid: color-production
 title: Color Production
 ---
 
@@ -23,4 +23,4 @@ This port was created specifically to help visualize terrains while creating com
 
 ## Using Data Maps
 
-To create color maps using Data Maps, see @Data-Maps.
+To create color maps using Data Maps, see @color-datamaps.

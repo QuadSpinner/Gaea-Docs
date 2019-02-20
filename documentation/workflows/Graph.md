@@ -1,5 +1,5 @@
 ---
-uid: GraphMode
+uid: graph-mode
 title: Graph Workflow
 ---
 

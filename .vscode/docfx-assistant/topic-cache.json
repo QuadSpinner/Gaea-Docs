@@ -465,14 +465,6 @@
         "sourceFile": "documentation\\Workflow--Sculpt.md"
     },
     {
-        "uid": "Getting-around",
-        "title": "Getting around",
-        "type": "Conceptual",
-        "detailedType": 1,
-        "name": "Getting-around",
-        "sourceFile": "documentation\\Getting around.md"
-    },
-    {
         "uid": "AutoLevel",
         "title": "AutoLevel",
         "type": "Conceptual",
@@ -1175,5 +1167,13 @@
         "detailedType": 1,
         "name": "Mask",
         "sourceFile": "reference\\Nodes\\Selector--Mask.md"
+    },
+    {
+        "uid": "getting-around",
+        "title": "Getting around",
+        "type": "Conceptual",
+        "detailedType": 1,
+        "name": "getting-around",
+        "sourceFile": "documentation\\Getting around.md"
     }
 ]

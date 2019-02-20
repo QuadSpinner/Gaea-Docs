@@ -1,5 +1,5 @@
 ---
-uid: Installing-Gaea
+uid: installing
 title: Installing Gaea
 ---
 
