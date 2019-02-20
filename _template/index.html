@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+
+<html lang="en" class="default-style">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="IE=edge,chrome=1">
+  <meta name="description" content="">
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+
+  <title>Page 1 - HTML Starter</title>
+
+  <!-- Main font -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900" rel="stylesheet">
+
+  <!-- Icons. Uncomment required icon fonts -->
+  <!-- <link rel="stylesheet" href="assets/vendor/fonts/fontawesome.css"> -->
+  <link rel="stylesheet" href="assets/vendor/fonts/ionicons.css">
+  <!-- <link rel="stylesheet" href="assets/vendor/fonts/linearicons.css"> -->
+  <!-- <link rel="stylesheet" href="assets/vendor/fonts/open-iconic.css"> -->
+  <!-- <link rel="stylesheet" href="assets/vendor/fonts/pe-icon-7-stroke.css"> -->
+
+  <!-- Core stylesheets -->
+  <link rel="stylesheet" href="assets/vendor/css/bootstrap.css">
+  <link rel="stylesheet" href="assets/vendor/css/appwork.css">
+  <link rel="stylesheet" href="assets/vendor/css/theme-corporate.css">
+  <link rel="stylesheet" href="assets/vendor/css/colors.css">
+  <link rel="stylesheet" href="assets/vendor/css/uikit.css">
+
+  <!-- Layout helpers -->
+  <script src="assets/vendor/js/layout-helpers.js"></script>
+
+  <!-- Libs -->
+
+  <!-- `perfect-scrollbar` library required by SideNav plugin -->
+  <link rel="stylesheet" href="assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.css">
+
+</head>
+
+<body>
+
+  <!-- Layout wrapper -->
+  <div class="layout-wrapper layout-1 layout-without-sidenav">
+    <!-- Layout inner -->
+    <div class="layout-inner">
+
+      <!-- Layout navbar -->
+      <nav class="layout-navbar navbar navbar-expand-lg align-items-lg-center bg-navbar-theme container-p-x"
+        id="layout-navbar">
+        <a href="index.html" class="navbar-brand">Gaea Documentation</a>
+
+        <!-- Navbar toggle -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#layout-navbar-collapse">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="navbar-collapse collapse" id="layout-navbar-collapse">
+          <div class="navbar-nav align-items-lg-center">
+            <div class="nav-item"><a class="nav-link" href="#">User Guide</a></div>
+            <div class="nav-item"><a class="nav-link" href="#">Reference</a></div>
+            <div class="nav-item"><a class="nav-link" href="#">Tutorials</a></div>
+            <div class="nav-item"><a class="nav-link" href="#">API</a></div>
+            <div class="nav-item">
+                <label class="nav-link navbar-search-box">
+                  <i class="ion ion-ios-search navbar-icon align-middle"></i>
+                  <span class="navbar-search-input">
+                    <input type="text" class="form-control mx-2" placeholder="Search..." style="width:140px">
+                    <a href="javascript:void(0)" class="navbar-search-cancel">×</a>
+                  </span>
+                </label>
+              </div>
+          </div>
+        </div>
+      </nav>
+      <!-- / Layout navbar -->
+
+      <div class="layout-container">
+
+        <div class="layout-content">
+
+          <!-- Layout sidenav -->
+          <div id="layout-sidenav"
+            class="layout-sidenav-horizontal sidenav sidenav-horizontal bg-sidenav-theme container-p-x flex-grow-0">
+            <ul class="sidenav-inner">
+              <li class="sidenav-item active">
+                <a href="javascript:void(0)" class="sidenav-link">
+                  <i class="sidenav-icon"></i>
+                  <div>Welcome</div>
+                </a>
+              </li>
+              <li class="sidenav-item">
+                <a href="javascript:void(0)" class="sidenav-link sidenav-toggle">
+                  <i class="sidenav-icon"></i>
+                  <div>Getting Started</div>
+                </a>
+                <ul class="sidenav-menu">
+                  <li class="sidenav-item">
+                    <a href="javascript:void(0)" class="sidenav-link">
+                      <div>Item 1.1</div>
+                    </a>
+                  </li>
+                  <li class="sidenav-item">
+                    <a href="javascript:void(0)" class="sidenav-link">
+                      <div>Item 1.2</div>
+                    </a>
+                  </li>
+                  <li class="sidenav-item">
+                    <a href="javascript:void(0)" class="sidenav-link">
+                      <div>Item 1.3</div>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="sidenav-item">
+                <a href="javascript:void(0)" class="sidenav-link sidenav-toggle">
+                  <i class="sidenav-icon"></i>
+                  <div>Workflow</div>
+                </a>
+                <ul class="sidenav-menu">
+                  <li class="sidenav-item">
+                    <a href="javascript:void(0)" class="sidenav-link">
+                      <div>Item 1.1</div>
+                    </a>
+                  </li>
+                  <li class="sidenav-item">
+                    <a href="javascript:void(0)" class="sidenav-link">
+                      <div>Item 1.2</div>
+                    </a>
+                  </li>
+                  <li class="sidenav-item">
+                    <a href="javascript:void(0)" class="sidenav-link">
+                      <div>Item 1.3</div>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="sidenav-item">
+                <a href="javascript:void(0)" class="sidenav-link sidenav-toggle">
+                  <i class="sidenav-icon"></i>
+                  <div>Create</div>
+                </a>
+
+                <ul class="sidenav-menu">
+                  <li class="sidenav-item">
+                    <a href="javascript:void(0)" class="sidenav-link">
+                      <div>Item 2.1</div>
+                    </a>
+                  </li>
+                  <li class="sidenav-item">
+                    <a href="javascript:void(0)" class="sidenav-link sidenav-toggle">
+                      <div>Item 2.2</div>
+                    </a>
+
+                    <ul class="sidenav-menu">
+                      <li class="sidenav-item">
+                        <a href="javascript:void(0)" class="sidenav-link">
+                          <div>Item 2.2.1</div>
+                        </a>
+                      </li>
+                      <li class="sidenav-item">
+                        <a href="javascript:void(0)" class="sidenav-link">
+                          <div>Item 2.2.2</div>
+                        </a>
+                      </li>
+                      <li class="sidenav-item">
+                        <a href="javascript:void(0)" class="sidenav-link">
+                          <div>Item 2.2.3</div>
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="sidenav-item">
+                    <a href="javascript:void(0)" class="sidenav-link sidenav-toggle">
+                      <div>Item 2.3</div>
+                    </a>
+
+                    <ul class="sidenav-menu">
+                      <li class="sidenav-item">
+                        <a href="javascript:void(0)" class="sidenav-link">
+                          <div>Item 2.3.1</div>
+                        </a>
+                      </li>
+                      <li class="sidenav-item">
+                        <a href="javascript:void(0)" class="sidenav-link">
+                          <div>Item 2.3.2</div>
+                        </a>
+                      </li>
+                      <li class="sidenav-item">
+                        <a href="javascript:void(0)" class="sidenav-link">
+                          <div>Item 2.3.3</div>
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li class="sidenav-item">
+                <a href="javascript:void(0)" class="sidenav-link sidenav-toggle">
+                  <div>Erode</div>
+                </a>
+                <ul class="sidenav-menu">
+                  <li class="sidenav-item">
+                    <a href="javascript:void(0)" class="sidenav-link">
+                      <div>Item 2.3.1</div>
+                    </a>
+                  </li>
+                  <li class="sidenav-item">
+                    <a href="javascript:void(0)" class="sidenav-link">
+                      <div>Item 2.3.2</div>
+                    </a>
+                  </li>
+                  <li class="sidenav-item">
+                    <a href="javascript:void(0)" class="sidenav-link">
+                      <div>Item 2.3.3</div>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="sidenav-item">
+                <a href="javascript:void(0)" class="sidenav-link sidenav-toggle">
+                  <i class="sidenav-icon"></i>
+                  <div>Color</div>
+                </a>
+                <ul class="sidenav-menu">
+                  <li class="sidenav-item">
+                    <a href="javascript:void(0)" class="sidenav-link">
+                      <div>Item 2.3.1</div>
+                    </a>
+                  </li>
+                  <li class="sidenav-item">
+                    <a href="javascript:void(0)" class="sidenav-link">
+                      <div>Item 2.3.2</div>
+                    </a>
+                  </li>
+                  <li class="sidenav-item">
+                    <a href="javascript:void(0)" class="sidenav-link">
+                      <div>Item 2.3.3</div>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="sidenav-item">
+                <a href="javascript:void(0)" class="sidenav-link sidenav-toggle">
+                  <i class="sidenav-icon"></i>
+                  <div>Export</div>
+                </a>
+                <ul class="sidenav-menu">
+                  <li class="sidenav-item">
+                    <a href="javascript:void(0)" class="sidenav-link">
+                      <div>Item 2.3.1</div>
+                    </a>
+                  </li>
+                  <li class="sidenav-item">
+                    <a href="javascript:void(0)" class="sidenav-link">
+                      <div>Item 2.3.2</div>
+                    </a>
+                  </li>
+                  <li class="sidenav-item">
+                    <a href="javascript:void(0)" class="sidenav-link">
+                      <div>Item 2.3.3</div>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="sidenav-item">
+                <a href="javascript:void(0)" class="sidenav-link sidenav-toggle">
+                  <i class="sidenav-icon "></i>
+                  <div>Misc</div>
+                </a>
+                <ul class="sidenav-menu">
+                  <li class="sidenav-item">
+                    <a href="javascript:void(0)" class="sidenav-link">
+                      <div>Item 2.3.1</div>
+                    </a>
+                  </li>
+                  <li class="sidenav-item">
+                    <a href="javascript:void(0)" class="sidenav-link">
+                      <div>Item 2.3.2</div>
+                    </a>
+                  </li>
+                  <li class="sidenav-item">
+                    <a href="javascript:void(0)" class="sidenav-link">
+                      <div>Item 2.3.3</div>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <!-- / Layout sidenav -->
+
+          <div class="container-fluid flex-grow-1 container-p-y">          
+              <ol class="breadcrumb">
+                  <li class="breadcrumb-item"><a href="javascript:void(0)">Home</a></li>
+                  <li class="breadcrumb-item"><a href="javascript:void(0)">Library</a></li>
+                  <li class="breadcrumb-item active">Data</li>
+                </ol>
+          </div>
+
+          <!-- Page content -->
+            
+          <div class="container-fluid flex-grow-1 container-p-y">
+            <h4 class="font-weight-bold py-3 mb-4">Page 1</h4>
+            <p>Page content.</p>
+            <p><button class="btn btn-primary btn-lg">Button</button></p>
+          </div>
+          <!-- / Page content -->
+
+          <!-- Layout footer -->
+          <nav class="layout-footer footer bg-footer-theme">
+            <div class="container-fluid container-p-x pb-3">
+              <a href="#" class="footer-link pt-3">Link 1</a>
+              <a href="#" class="footer-link pt-3 ml-4">Link 2</a>
+            </div>
+          </nav>
+          <!-- / Layout footer -->
+
+        </div>
+      </div>
+
+    </div>
+    <!-- Layout inner -->
+  </div>
+  <!-- / Layout wrapper -->
+
+  <!-- Core scripts -->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="assets/vendor/libs/popper/popper.js"></script>
+  <script src="assets/vendor/js/bootstrap.js"></script>
+  <script src="assets/vendor/js/sidenav.js"></script>
+
+  <!-- Libs -->
+
+  <!-- `perfect-scrollbar` library required by SideNav plugin -->
+  <script src="assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.js"></script>
+
+  <!-- Main script -->
+
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
