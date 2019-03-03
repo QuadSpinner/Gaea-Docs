@@ -1,0 +1,5 @@
+---
+uid: Slope
+title: Slope
+---
+

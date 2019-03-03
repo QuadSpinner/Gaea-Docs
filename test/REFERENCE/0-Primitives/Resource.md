@@ -1,0 +1,5 @@
+---
+uid: Resource
+title: Resource
+---
+
