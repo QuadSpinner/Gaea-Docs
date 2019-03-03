@@ -1,6 +1,6 @@
 ---
-uid: portal
-title: Portal
+uid: using-portals
+title: Using Portals
 ---
 
 # Portals

@@ -15,3 +15,9 @@ The API is divided into three high level components:
 - **Styles**: Create UI modifications, or your own styles for the interface.
 
 These components will be available in Gaea 2.0.
+
+### Build Requirements
+- Visual Studio 2017 or later
+- .NET Framework 4.7.2 or higher
+
+Plugins can be written using C# or C++. For C++, you must use C++/CLI for the plugin, but may use pure C++ for internal processing if you want to focus on pure performance.

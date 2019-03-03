@@ -44,8 +44,18 @@ code {
   color: #ffcc00;
 }
 
+h1{
+    font-size: 26px;
+}
+
 h2 {
-  margin-top: 48px;
+    font-size: 22px;
+  margin-top: 36px;
+}
+
+h3{
+    font-size: 18px;
+    font-weight: 600;
 }
 
 .examples {
@@ -62,4 +72,8 @@ h2 {
 }
 .card-header ol{
     margin-bottom: 0 !important;
+}
+
+.card{
+    font-family: "Assistant";
 }
