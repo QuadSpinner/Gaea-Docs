@@ -1,0 +1,110 @@
+.TIP,
+.WARNING,
+.NOTE {
+  font-size: 12px;
+  border-width: 1px;
+  border-style: solid;
+  padding: 12px;
+  border-radius: 3px;
+  max-width: 80%;
+  border-left-width: 6px;
+
+  p {
+    margin-bottom: 0;
+  }
+
+  p:first-child:before {
+    display: block;
+    font-weight: bold;
+  }
+}
+
+.TIP {
+  border-color: rgba(200, 225, 238, 0.33);
+  background-color: #0d161968 !important;
+
+  p:first-child:before {
+    content: "TIP";
+  }
+}
+
+.WARNING {
+  border-color: rgba(236, 189, 113, 0.33);
+  background-color: #2a200686;
+
+  p:first-child:before {
+    content: "WARNING";
+  }
+}
+
+code {
+  background-color: #333;
+  padding: 3px 6px;
+  border-radius: 3px;
+  color: #ffcc00;
+}
+
+h2 {
+  margin-top: 48px;
+}
+
+.examples {
+  ul {
+    padding-left: 0;
+    li {
+      list-style: none;
+    }
+  }
+}
+
+body,
+.bg-footer-theme,.bg-navbar-theme {
+  background-color: #282b31 !important;
+  color: #e0e0e0 !important;
+}
+
+h1,h2,h3,h4{
+    color: #fff;
+}
+
+a{
+    color: #51aeff;
+}
+
+.card,
+.tab-content,
+.nav-tabs .nav-link.active {
+  background-color: #383c44c4 !important;
+}
+
+.navbar-brand{
+    color: #fff !important;
+}
+
+.sidenav-item{
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.breadcrumb-item:hover{
+    color: #a3a4a6 !important;
+}
+
+.breadcrumb-item.active{
+    color: #fff;
+
+    &:hover{
+        color: #fff !important;
+    }
+}
+
+.nav-tabs .nav-link.active {
+  border-color: #383c44 !important;
+  color: #fff;
+  position: relative;
+  left: 1px;
+
+  a {
+    color: #eee;
+  }
+}
