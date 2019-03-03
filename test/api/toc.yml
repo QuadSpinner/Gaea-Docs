@@ -1,7 +1,0 @@
-- name: GaeaFx
-  href: index.md
-  items:
-    - name: Scripting
-      href: scripting.md
-    - name: API
-      href: api.md

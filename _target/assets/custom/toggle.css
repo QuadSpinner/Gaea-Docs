@@ -1,0 +1,106 @@
+
+/*************/
+
+
+.button-con {
+  cursor: default;
+  position: absolute;
+  right: 33px;
+  top: 22px;
+  margin-left: 0px;
+  margin-top: 0px;
+  z-index: 500000000;
+}
+
+#dayIcon {
+  position: relative;
+  width: 16px;
+  height: 16px;
+  top: -12px;
+  margin: 0 7px;
+  fill: #9caec0;
+}
+
+#nightIcon {
+  position: relative;
+  width: 13px;
+  height: 13px;
+  top: -12px;
+  margin: 0 7px;
+  fill: #9caec0;
+}
+
+#dayIcon, #nightIcon {
+  cursor: pointer;
+}
+
+.toggle {
+  display: none;
+}
+
+.toggle, .toggle:after, .toggle:before, .toggle *, .toggle *:after, .toggle *:before, .toggle + .toggle-button {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.toggle::-moz-selection, .toggle:after::-moz-selection, .toggle:before::-moz-selection, .toggle *::-moz-selection, .toggle *:after::-moz-selection, .toggle *:before::-moz-selection, .toggle + .toggle-button::-moz-selection {
+  background: none;
+}
+
+.toggle::selection, .toggle:after::selection, .toggle:before::selection, .toggle *::selection, .toggle *:after::selection, .toggle *:before::selection, .toggle + .toggle-button::selection {
+  background: none;
+}
+
+.toggle + .toggle-button {
+  outline: 0;
+  display: inline-block;
+  width: 48px;
+  height: 18px;
+  position: relative;
+  cursor: pointer;
+  border: 2px solid #333;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.toggle + .toggle-button:after, .toggle + .toggle-button:before {
+  position: relative;
+  display: block;
+  content: "";
+  width: 50%;
+  height: 100%;
+}
+
+.toggle + .toggle-button:after {
+  left: 1px;
+}
+
+.toggle + .toggle-button:before {
+  display: none;
+}
+
+.toggle:checked + .toggle-button:after {
+  left: 50%;
+}
+
+.toggle + .toggle-button {
+  padding: 2px;
+  -webkit-transition: all .2s ease;
+  transition: all .2s ease;
+  border: 2px solid rgba(156, 174, 192, 0.27);
+  border-radius: 2em;
+}
+
+.toggle + .toggle-button:after {
+  -webkit-transition: all .2s ease;
+  transition: all .2s ease;
+  background: rgba(156, 174, 192, 0.27);
+  content: "";
+  border-radius: 1em;
+}
+
+.toggle:checked + .toggle-button:after {
+  left: 50%;
+}

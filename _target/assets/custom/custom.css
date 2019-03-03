@@ -25,7 +25,7 @@
 
 .TIP {
   border-color: rgba(200, 225, 238, 0.33);
-  background-color: #0d161968 !important;
+  background-color: #ddf7ff68;
 }
 
 .TIP p:first-child:before {
@@ -34,7 +34,7 @@
 
 .WARNING {
   border-color: rgba(236, 189, 113, 0.33);
-  background-color: #2a200686;
+  background-color: #fff7e486;
 }
 
 .WARNING p:first-child:before {
@@ -60,55 +60,12 @@ h2 {
   list-style: none;
 }
 
-body,
-.bg-footer-theme, .bg-navbar-theme {
-  background-color: #282b31 !important;
-  color: #e0e0e0 !important;
-}
-
-h1, h2, h3, h4 {
-  color: #fff;
-}
-
-a {
-  color: #51aeff;
-}
-
-.card,
-.tab-content,
-.nav-tabs .nav-link.active {
-  background-color: #383c44c4 !important;
-}
-
-.navbar-brand {
-  color: #fff !important;
-}
-
 .sidenav-item {
   font-size: 12px;
   font-weight: 600;
 }
 
-.breadcrumb-item:hover {
-  color: #a3a4a6 !important;
-}
-
-.breadcrumb-item.active {
-  color: #fff;
-}
-
-.breadcrumb-item.active:hover {
-  color: #fff !important;
-}
-
-.nav-tabs .nav-link.active {
-  border-color: #383c44 !important;
-  color: #fff;
-  position: relative;
-  left: 1px;
-}
-
-.nav-tabs .nav-link.active a {
-  color: #eee;
+.card-header ol {
+  margin-bottom: 0 !important;
 }
 /*# sourceMappingURL=custom.css.map */
