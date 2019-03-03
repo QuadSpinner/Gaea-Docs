@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .TIP,
 .WARNING,
 .NOTE {
@@ -81,5 +82,38 @@ h3 {
 
 .card {
   font-family: "Assistant";
+}
+
+.sidenav-item > .sidenav-link::before {
+  text-transform: none;
+  font-weight: normal;
+  font-style: normal;
+  font-variant: normal;
+  font-family: "Ionicons";
+  line-height: 1;
+  margin-right: 8px;
+  font-size: 16px;
+  color: #f0f0f0;
+}
+
+.guide > .sidenav-item:nth-child(1) > .sidenav-link::before {
+  content: "";
+}
+
+.guide > .sidenav-item:nth-child(2) > .sidenav-link::before {
+  content: "";
+}
+
+.guide > .sidenav-item:nth-child(8) > .sidenav-link::before {
+  content: "";
+}
+
+.reference > .sidenav-item:nth-child(10) > .sidenav-link::before {
+  content: "";
+}
+
+.sidenav-item.open > .sidenav-menu {
+  -webkit-box-shadow: 0 16px 20px rgba(0, 0, 0, 0.33);
+          box-shadow: 0 16px 20px rgba(0, 0, 0, 0.33);
 }
 /*# sourceMappingURL=custom.css.map */

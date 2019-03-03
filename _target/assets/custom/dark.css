@@ -62,4 +62,8 @@ a {
 .nav-tabs .nav-link.active a {
   color: #eee;
 }
+
+.card-header {
+  background-color: #14151728 !important;
+}
 /*# sourceMappingURL=dark.css.map */
