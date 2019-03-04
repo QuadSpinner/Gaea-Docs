@@ -1,1 +1,1 @@
-docfx serve _target
+docfx serve docs

@@ -1,0 +1,177 @@
+@charset "UTF-8";
+
+a {
+  outline: 0;
+}
+
+.TIP,
+.WARNING,
+.NOTE {
+  font-size: 12px;
+  border-width: 1px;
+  border-style: solid;
+  padding: 12px;
+  border-radius: 3px;
+  max-width: 80%;
+  border-left-width: 6px;
+}
+
+.TIP p,
+.WARNING p,
+.NOTE p {
+  margin-bottom: 0;
+}
+
+.TIP p:first-child:before,
+.WARNING p:first-child:before,
+.NOTE p:first-child:before {
+  display: block;
+  font-weight: bold;
+}
+
+.TIP {
+  border-color: rgba(200, 225, 238, 0.33);
+  background-color: #ddf7ff68;
+}
+
+.TIP p:first-child:before {
+  content: "TIP";
+}
+
+.WARNING {
+  border-color: rgba(236, 189, 113, 0.33);
+  background-color: #fff7e486;
+}
+
+.WARNING p:first-child:before {
+  content: "WARNING";
+}
+
+code {
+  background-color: #333;
+  padding: 3px 6px;
+  border-radius: 3px;
+  color: #ffcc00;
+}
+
+h1 {
+  font-size: 26px;
+}
+
+h2 {
+  font-size: 22px;
+  margin-top: 36px;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.examples ul {
+  padding-left: 0;
+}
+
+.examples ul li {
+  list-style: none;
+}
+
+.sidenav-item {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.card-header ol {
+  margin-bottom: 0 !important;
+}
+
+.card {
+  font-family: "Assistant";
+}
+
+.sidenav-item > .sidenav-link::before {
+  text-transform: none;
+  font-weight: normal;
+  font-style: normal;
+  font-variant: normal;
+  font-family: "Ionicons";
+  line-height: 1;
+  margin-right: 8px;
+  font-size: 16px;
+  color: #f0f0f0;
+}
+
+.guide > .sidenav-item:nth-child(1) > .sidenav-link::before {
+  content: "";
+}
+
+.guide > .sidenav-item:nth-child(2) > .sidenav-link::before {
+  content: "";
+}
+
+.guide > .sidenav-item:nth-child(8) > .sidenav-link::before {
+  content: "";
+}
+
+.reference > .sidenav-item:nth-child(10) > .sidenav-link::before {
+  content: "";
+}
+
+.sidenav-item.open > .sidenav-menu {
+  -webkit-box-shadow: 0 16px 20px rgba(0, 0, 0, 0.33);
+  box-shadow: 0 16px 20px rgba(0, 0, 0, 0.33);
+}
+
+.card-header h4 {
+  margin-bottom: 0;
+}
+
+.changelog li span {
+  background-color: #0366d6;
+  color: #fff;
+  display: inline-block;
+  font-size: 10px;
+  font-weight: 600;
+  border-radius: 3px;
+  margin-right: 8px;
+  padding: 2px 5px;
+  text-transform: uppercase;
+  text-align: center;
+  width: 72px !important;
+}
+
+.changelog li {
+  list-style: none;
+  margin-top: 4px;
+}
+
+.new span,
+.added span {
+  background-color: #28a745 !important;
+}
+
+.fixed span {
+  background-color: #6f42c1 !important;
+}
+
+.improved span {
+  background-color: #0366d6 !important;
+}
+
+.removed span,
+.issue span {
+  background-color: #d73a49 !important;
+}
+
+/*# sourceMappingURL=custom.css.map */
+
+.params td:nth-child(1) {
+  width: 15% !important;
+  max-width: 20% !important;
+}
+
+.params td:nth-child(2),
+.params th:nth-child(2) {
+  display: none !important;
+}
+
