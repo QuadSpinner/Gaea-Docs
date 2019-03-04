@@ -159,3 +159,11 @@ h3 {
 
 /*# sourceMappingURL=custom.css.map */
 
+.params td:nth-child(1){
+  width: 15% !important;
+  max-width: 20% !important;
+}
+
+.params td:nth-child(2), .params th:nth-child(2) {
+  display: none !important;
+}
