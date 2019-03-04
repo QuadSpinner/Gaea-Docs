@@ -50,23 +50,23 @@ The 2D view is available directly in the main window alongside the 3D view when 
 
 ## 2D Mode
 
-![](/images/ui/Map-2D.png)
+![](images/ui/Map-2D.png)
 
 The 2D mode shows a basic heightfield in grayscale, with black representing lower areas and white representing higher areas. This is a great way to examine your terrain from an unbiased perspective, especially when dealing with 2D data such as data map outputs, secondary output from erosion, and so on.
 
 ## Equalized Mode
 
-![](/images/ui/Map-Eq.png)
+![](images/ui/Map-Eq.png)
 
 If the 2D view is too difficult to see, the Equalized mode emphasizes the image to help you see better. This is particulary helpful when working with delicate masks and other 2D maps. The equalization process is superficial and does not affect the actual terrain.
 
 ## 3D Mode
 
-![](/images/ui/Map-3D.png)
+![](images/ui/Map-3D.png)
 
 In the 3D mode, a shaded orthographic representation of the terrain is displayed instead of the grayscale heightfield. It makes it easier to visualize finer details that may not be apparent to the human eye in the simple 2D view.
 
-![](/images/ui/Map-Overlay.png)
+![](images/ui/Map-Overlay.png)
 
 Additionally, you can visualize the secondary output as flat images or overlays on the primary output. To access secondary outputs, right-click anywhere in the 2D viewport. The mask is overlaid in red on the grayscale 3D terrain.
 
@@ -77,13 +77,13 @@ The menu in the bottom right corner gives you access to additional options for t
 
 ## Lighting
 
-![](/images/ui/Pop-Atmosphere.png)
+![](images/ui/Pop-Atmosphere.png)
 
 Aliquam nunc. Fusce at lacus in turpis tincidunt congue. Nam tempor sagittis massa. Cras luctus vehicula ligula. Donec pretium egestas lacus. Proin ac velit ac erat condimentum dictum. Donec massa elit, laoreet a, varius quis, dapibus a, lectus. Proin pellentesque nibh tristique odio. Sed odio magna, euismod ac, sodales eu, suscipit eget, lectus. Aliquam libero. Cras leo. Donec ac libero vel nibh nonummy mollis. Vivamus a orci. In interdum mattis nunc. Donec condimentum ultricies nisi. Cras sit amet quam. Sed non quam at est venenatis ultricies. In nec neque. Proin ut nunc. Mauris dictum sollicitudin nibh. 
 
 ## Water Surface
 
-![](/images/ui/Pop-Water.png)
+![](images/ui/Pop-Water.png)
 
 Aliquam nunc. Fusce at lacus in turpis tincidunt congue. Nam tempor sagittis massa. Cras luctus vehicula ligula. Donec pretium egestas lacus. Proin ac velit ac erat condimentum dictum. Donec massa elit, laoreet a, varius quis, dapibus a, lectus. Proin pellentesque nibh tristique odio. Sed odio magna, euismod ac, sodales eu, suscipit eget, lectus. Aliquam libero. Cras leo. Donec ac libero vel nibh nonummy mollis. Vivamus a orci. In interdum mattis nunc. Donec condimentum ultricies nisi. Cras sit amet quam. Sed non quam at est venenatis ultricies. In nec neque. Proin ut nunc. Mauris dictum sollicitudin nibh. 
 

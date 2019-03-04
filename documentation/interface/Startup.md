@@ -3,7 +3,7 @@ title: Startup Screen
 uid: startup
 ---
 
-![](/images/ui/Startup.png)
+![](images/ui/Startup.png)
 
 The Startup Screen is your main entry point into Gaea.
 

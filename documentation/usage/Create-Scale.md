@@ -9,7 +9,7 @@ Gaea supports setting an arbitrary scale for your terrains through the new Terra
 
 The Terrain Definition popup is found in the main toolbar.
 
-![](/images/ui/Pop-Definition.png)
+![](images/ui/Pop-Definition.png)
 
 You can define the Base and Height of your terrain in meters. Both are counted from sea level (0.0m). The Scale determines the extent of the entire terrain. By default, Gaea terrains are set at sea level (Base: 0m), 2.6km tall (Height: 2,600m), and 5 x 5 square kilometers wide (Scale: 5,000m).
 
