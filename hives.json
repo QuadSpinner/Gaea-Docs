@@ -1,35 +1,35 @@
 [
     {
-        "Path": "USER GUIDE",
+        "Path": "Guide",
         "BaseItem": {
             "Title": "User Guide",
-            "Link": "guide.html",
+            "Link": "guide/",
             "UID": "guide"
         }
     },
     {
-        "Path": "REFERENCE",
+        "Path": "Reference",
         "BaseItem": {
-            "Title": "Reference",
-            "Link": "reference.html",
+            "Title": "Node Reference",
+            "Link": "reference/",
             "UID": "reference"
         },
         "ProcessProceduralFiles": true,
         "ProcessExampleFiles": true
     },
     {
-        "Path": "TUTORIALS",
+        "Path": "Tutorials",
         "BaseItem": {
             "Title": "Tutorials",
-            "Link": "tutorials.html",
+            "Link": "tutorials/",
             "UID": "tutorials"
         }
     },
     {
-        "Path": "DEVELOPERS",
+        "Path": "Developers",
         "BaseItem": {
-            "Title": "Developers",
-            "Link": "developers.html",
+            "Title": "For Developers",
+            "Link": "developers/",
             "UID": "dev"
         }
     }

@@ -1,8 +1,7 @@
 ---
-title: Welcome
-uid: docs-home
+uid: home
+title: Gaea Documentation
 ---
-
 # Welcome to the Gaea Documentation
 
 The documentation is organized to help you get started with Gaea quickly and easily regardless of your skill level.
@@ -10,7 +9,7 @@ The documentation is organized to help you get started with Gaea quickly and eas
 <div class="card-deck">
     <div class="card">
     <div class="card-body">
-        <h3><a href="/Guide.html">User Guide</a></h3>
+        <h3><a href="/Guide/">User Guide</a></h3>
         <p>
             Lorem ipsum dolor sit amet
         </p>
@@ -18,7 +17,7 @@ The documentation is organized to help you get started with Gaea quickly and eas
     </div>
     <div class="card">
         <div class="card-body">
-            <h3><a href="/Reference.html">Node Reference</a></h3>
+            <h3><a href="/Reference/">Node Reference</a></h3>
             <p>
                 Lorem ipsum dolor sit amet
             </p>
@@ -26,7 +25,7 @@ The documentation is organized to help you get started with Gaea quickly and eas
     </div>
     <div class="card">
     <div class="card-body">
-        <h3><a href="/Tutorials.html">Hands-On</a></h3>
+        <h3><a href="/Tutorials/">Tutorials</a></h3>
         <p>
             Lorem ipsum dolor sit amet
         </p>
@@ -34,7 +33,7 @@ The documentation is organized to help you get started with Gaea quickly and eas
     </div>
     <div class="card">
         <div class="card-body">
-            <h3><a href="/Developers.html">Extending Gaea</a></h3>
+            <h3><a href="/Developers/">For Developers</a></h3>
             <p>
                 Lorem ipsum dolor sit amet
             </p>

@@ -85,6 +85,12 @@ h3 {
   margin-bottom: 0 !important;
 }
 
+.card-header i{
+  margin: 0 !important;
+  position: relative;
+  top: 3px;
+}
+
 .card {
   font-family: "Assistant";
 }
