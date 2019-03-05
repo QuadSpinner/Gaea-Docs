@@ -1,0 +1,36 @@
+[
+    {
+        "Path": "USER GUIDE",
+        "BaseItem": {
+            "Title": "User Guide",
+            "Link": "guide.html",
+            "UID": "guide"
+        }
+    },
+    {
+        "Path": "REFERENCE",
+        "BaseItem": {
+            "Title": "Reference",
+            "Link": "reference.html",
+            "UID": "reference"
+        },
+        "ProcessProceduralFiles": true,
+        "ProcessExampleFiles": true
+    },
+    {
+        "Path": "TUTORIALS",
+        "BaseItem": {
+            "Title": "Tutorials",
+            "Link": "tutorials.html",
+            "UID": "tutorials"
+        }
+    },
+    {
+        "Path": "DEVELOPERS",
+        "BaseItem": {
+            "Title": "Developers",
+            "Link": "developers.html",
+            "UID": "dev"
+        }
+    }
+]
