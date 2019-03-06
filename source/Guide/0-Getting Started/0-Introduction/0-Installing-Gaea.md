@@ -46,7 +46,7 @@ If you were using our older EXE installers, or have encountered an issue in a ne
 ### Removing old installations
 The old EAPs were installed using a self-extracting executable (SFX), so there was no uninstall for them. You have to manually remove the files.
 
-> [!WARNING] 
+{.WARNING} 
 > At this point, if you have already installed the MSI based Gaea EAP 6002, first uninstall that using the shortcut in the start menu (“Uninstall Gaea EAP”) or from the Control Panel. Then follow the steps below.
 
 1. Ensure `Gaea.exe` or `Archon.exe` are not running in Task Manager. End those processes if they are.

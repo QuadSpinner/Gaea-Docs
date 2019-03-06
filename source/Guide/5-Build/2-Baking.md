@@ -21,10 +21,10 @@ The Graph Baker dialog gives you two options baking options, the bake resolution
 
 This is the resolution at which the nodes are baked. It can be the same as the preview resolution, or different.
 
-> [!TIP]
+{.TIP}
 > If your final build resolution and bake resolution are the same, Gaea's build engine will use the cache instead of processing. This can boost performance significantly, especially when you are rebuilding a file frequently.
 
-> [!NOTE]
+{.NOTE}
 > If you change the bake resolution in a subsequent bake, any ancestor nodes (those connected on the left side of the target node) that are already baked may be rebaked to match the new resolution.
 
 ## Destination
@@ -39,6 +39,6 @@ Temporary bake to RAM for this session only. All bakes are lost when closing fil
 
 Bakes are preserved until the nodes are manually unlocked/unbaked. File bakes can be transported as they are stored in a CACHE folder next to the .tor file.
 
-> [!NOTE]
+{.NOTE}
 > Your RAM is still used when you bake to file, but the added benefit is that it is not temporary. You can close your file for any length of time, come back and have your nodes pre-built and waiting for you.
 

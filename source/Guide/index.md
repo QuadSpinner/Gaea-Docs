@@ -1,6 +1,7 @@
 ---
 uid: user-guide
 title: Welcome
+nav: false
 ---
 
 # Welcome to the Gaea User Guide

@@ -16,10 +16,10 @@ When you change a property, the effect is immediately applied and made visible i
 
 Some nodes may have special controls specific to them, like the @Directed-Erosion-Node.
 
-> [!TIP]
+{.TIP}
 > One of the easiest ways to learn about a node's properties is to experiment, changing them to different values across the range to see the effect they have.
 
-> [!WARNING]
+{.WARNING}
 > If a setting says something like "Iteration", "Strength", "Cycles", or "Amount", be cautious. High values may take longer to process. 
 
 ## Microincrements
