@@ -19,6 +19,10 @@ body,
   color: #e0e0e0 !important;
 }
 
+.bg-navbar-theme .navbar-nav .active > .nav-link {
+  color: #fff !important;
+}
+
 h1,
 h2,
 h3,

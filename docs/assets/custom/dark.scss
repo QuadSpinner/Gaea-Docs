@@ -1,16 +1,12 @@
-
 .TIP {
-    border-color: rgba(200, 225, 238, 0.33);
-    background-color: #0d161968;
-  
-  }
-  
-  .WARNING {
-    border-color: rgba(236, 189, 113, 0.33);
-    background-color: #2a200686;
-  
-  }
+  border-color: rgba(200, 225, 238, 0.33);
+  background-color: #0d161968;
+}
 
+.WARNING {
+  border-color: rgba(236, 189, 113, 0.33);
+  background-color: #2a200686;
+}
 
 body,
 .bg-footer-theme {
@@ -21,6 +17,10 @@ body,
 .bg-navbar-theme {
   background-color: #141517 !important;
   color: #e0e0e0 !important;
+
+  .navbar-nav .active > .nav-link {
+    color: #fff !important;
+  }
 }
 
 h1,
@@ -43,7 +43,6 @@ a {
 .navbar-brand {
   color: #fff !important;
 }
-
 
 .breadcrumb-item:hover {
   color: #a3a4a6 !important;
@@ -68,8 +67,6 @@ a {
   }
 }
 
-
-
-.card-header{
-    background-color: #14151728 !important;
+.card-header {
+  background-color: #14151728 !important;
 }

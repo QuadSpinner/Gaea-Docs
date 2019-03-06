@@ -72,16 +72,21 @@ h3 {
   font-weight: 600;
 }
 
-.card-header ol {
-  margin-bottom: 0 !important;
+.card-header {
+  i {
+    position: relative;
+    top: 3px;
+  }
+  ol {
+    margin-bottom: 0 !important;
+  }
 }
 
 .card {
   font-family: "Assistant";
 }
 
-
-.sidenav-item>.sidenav-link::before {
+.sidenav-item > .sidenav-link::before {
   text-transform: none;
   font-weight: normal;
   font-style: normal;
@@ -93,20 +98,30 @@ h3 {
   color: #f0f0f0;
 }
 
-.guide>.sidenav-item:nth-child(1)>.sidenav-link::before {
+.guide > .sidenav-item:nth-child(1) > .sidenav-link::before {
   content: "";
 }
-.guide>.sidenav-item:nth-child(2)>.sidenav-link::before {
+.guide > .sidenav-item:nth-child(2) > .sidenav-link::before {
   content: "";
 }
-.guide>.sidenav-item:nth-child(8)>.sidenav-link::before {
+.guide > .sidenav-item:nth-child(8) > .sidenav-link::before {
   content: "";
 }
 
-.reference>.sidenav-item:nth-child(10)>.sidenav-link::before {
-    content: "";
-  }
+.reference > .sidenav-item:nth-child(10) > .sidenav-link::before {
+  content: "";
+}
 
-.sidenav-item.open>.sidenav-menu{
-box-shadow: 0 16px 20px rgba(0,0,0,0.33);
+.sidenav-item.open > .sidenav-menu {
+  box-shadow: 0 16px 20px rgba(0, 0, 0, 0.33);
+}
+
+.params td:nth-child(1) {
+  width: 15% !important;
+  max-width: 20% !important;
+}
+
+.params td:nth-child(2),
+.params th:nth-child(2) {
+  display: none !important;
 }

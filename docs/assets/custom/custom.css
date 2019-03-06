@@ -1,9 +1,4 @@
 @charset "UTF-8";
-
-a {
-  outline: 0;
-}
-
 .TIP,
 .WARNING,
 .NOTE {
@@ -81,14 +76,13 @@ h3 {
   font-weight: 600;
 }
 
-.card-header ol {
-  margin-bottom: 0 !important;
-}
-
-.card-header i{
-  margin: 0 !important;
+.card-header i {
   position: relative;
   top: 3px;
+}
+
+.card-header ol {
+  margin-bottom: 0 !important;
 }
 
 .card {
@@ -125,51 +119,8 @@ h3 {
 
 .sidenav-item.open > .sidenav-menu {
   -webkit-box-shadow: 0 16px 20px rgba(0, 0, 0, 0.33);
-  box-shadow: 0 16px 20px rgba(0, 0, 0, 0.33);
+          box-shadow: 0 16px 20px rgba(0, 0, 0, 0.33);
 }
-
-.card-header h4 {
-  margin-bottom: 0;
-}
-
-.changelog li span {
-  background-color: #0366d6;
-  color: #fff;
-  display: inline-block;
-  font-size: 10px;
-  font-weight: 600;
-  border-radius: 3px;
-  margin-right: 8px;
-  padding: 2px 5px;
-  text-transform: uppercase;
-  text-align: center;
-  width: 72px !important;
-}
-
-.changelog li {
-  list-style: none;
-  margin-top: 4px;
-}
-
-.new span,
-.added span {
-  background-color: #28a745 !important;
-}
-
-.fixed span {
-  background-color: #6f42c1 !important;
-}
-
-.improved span {
-  background-color: #0366d6 !important;
-}
-
-.removed span,
-.issue span {
-  background-color: #d73a49 !important;
-}
-
-/*# sourceMappingURL=custom.css.map */
 
 .params td:nth-child(1) {
   width: 15% !important;
@@ -180,4 +131,4 @@ h3 {
 .params th:nth-child(2) {
   display: none !important;
 }
-
+/*# sourceMappingURL=custom.css.map */
