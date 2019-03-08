@@ -1,0 +1,2 @@
+Mode = Square
+Margin = 13

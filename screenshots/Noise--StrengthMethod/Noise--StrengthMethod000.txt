@@ -1,0 +1,2 @@
+Strength = 19.70%
+Method = Random

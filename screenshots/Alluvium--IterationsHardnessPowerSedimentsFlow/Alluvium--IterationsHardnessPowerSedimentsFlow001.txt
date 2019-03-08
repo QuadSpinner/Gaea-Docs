@@ -1,0 +1,5 @@
+Iterations = 4
+Hardness = 20.50%
+Power = 61.79%
+Sediments = 70.75%
+Flow = 4

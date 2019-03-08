@@ -1,0 +1,2 @@
+Rain Cycles = 14
+Constant Rainfall = True

@@ -1,0 +1,3 @@
+Scale = 1.7
+Angle = 47
+Mirror Edges = True

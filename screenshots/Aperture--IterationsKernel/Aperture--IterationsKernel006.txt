@@ -1,0 +1,2 @@
+Iterations = 11
+Kernel = Sobel

@@ -1,0 +1,2 @@
+Whorls = 27
+Power = 0.2

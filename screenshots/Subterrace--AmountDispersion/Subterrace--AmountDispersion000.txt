@@ -1,0 +1,2 @@
+Amount = 22.21%
+Dispersion = 8.14%

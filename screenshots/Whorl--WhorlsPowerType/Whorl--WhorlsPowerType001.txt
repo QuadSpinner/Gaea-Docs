@@ -1,0 +1,3 @@
+Whorls = 22
+Power = 0.2
+Type = Stretch

@@ -1,0 +1,2 @@
+Apply Gamma = True
+Gamma = 1.3

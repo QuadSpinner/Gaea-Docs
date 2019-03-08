@@ -1,0 +1,3 @@
+Iterations = 2
+Hardness = 32.94%
+Sediments = 49.36%

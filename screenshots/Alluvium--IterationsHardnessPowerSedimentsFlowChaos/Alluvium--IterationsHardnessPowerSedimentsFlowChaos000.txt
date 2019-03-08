@@ -1,0 +1,6 @@
+Iterations = 6
+Hardness = 20.50%
+Power = 26.47%
+Sediments = 70.75%
+Flow = 2
+Chaos = 0.0

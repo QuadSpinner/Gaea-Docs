@@ -1,0 +1,2 @@
+Duration = 508
+Hard Cracks = False
