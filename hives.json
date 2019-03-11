@@ -23,7 +23,8 @@
             "Title": "Tutorials",
             "Link": "tutorials/",
             "UID": "tutorials"
-        }
+        },
+        "ProcessTutorialFiles": true
     },
     {
         "Path": "Developers",

@@ -131,4 +131,38 @@ h3 {
 .params th:nth-child(2) {
   display: none !important;
 }
+
+.tutorial {
+  margin-top: 24px;
+}
+
+.tutorial .card {
+  margin-bottom: 24px;
+}
+
+.tutorial .checklist {
+  display: inline-block;
+  background: #f0f0f0;
+  border: 1px solid #e0e0e0;
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  margin: 0;
+  margin-bottom: 24px;
+}
+
+.tutorial .checklist li {
+  display: inline-block;
+  margin-right: 16px;
+}
+
+.tutorial .checklist li .property {
+  min-width: 36px;
+  margin-right: 6px;
+}
+
+.tutorial .checklist li code {
+  position: relative;
+  top: -1px;
+}
 /*# sourceMappingURL=custom.css.map */

@@ -125,3 +125,38 @@ h3 {
 .params th:nth-child(2) {
   display: none !important;
 }
+
+.tutorial {
+
+  margin-top: 24px;
+
+  .card {
+    margin-bottom: 24px;
+  }
+
+  .checklist {
+    display: inline-block;
+    background: #f0f0f0;
+    border: 1px solid #e0e0e0;
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    margin: 0;
+    margin-bottom: 24px;
+
+    li {
+      display: inline-block;
+      margin-right: 16px;
+
+      .property {
+        min-width: 36px;
+        margin-right: 6px;
+      }
+
+      code {
+        position: relative;
+        top: -1px;
+      }
+    }
+  }
+}
