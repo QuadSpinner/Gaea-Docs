@@ -14,7 +14,7 @@ When you change a property, the effect is immediately applied and made visible i
 - **Color**: They allow you to choose a color for the color production nodes.
 - **File**: They allow you to choose a file from your computer.
 
-Some nodes may have special controls specific to them, like the @Directed-Erosion-Node.
+Some nodes may have special controls specific to them.
 
 {.TIP}
 > One of the easiest ways to learn about a node's properties is to experiment, changing them to different values across the range to see the effect they have.
@@ -36,14 +36,18 @@ We have classified some nodes, such as @Erosion, @Fluvial, etc. as "Heavy" Nodes
 When you modify a Heavy node, it will not update automatically. It will instead show an **Apply** button, which you can click when you have made your changes.
 If you move away from the node, or select another node, changes will be applied automatically, so you won’t lose any modifications.
 
-You can optionally turn on the manual node update for all nodes if you prefer, by turning off **Automatically apply Node Modifications** in the @preferences. If the setting is turned on, which is the default, only Heavy nodes will require manual updates.
+**Apply** button has a **Auto Apply** toggle button next to it. When you turn **Auto Apply** on, that particular node will update automatically.
 
 #  Post Processing
-The Post Process tab sits right under the Properties and provides quick access to common functions. 
+The Post Process options sits right under the Properties and provides quick access to common functions.
+
+Post processing options has Autolevel, Invert, Bias-Gain and Clamp options. These are individual options which you can turn On/Off as per your requirements.Turning on a particular options for e.g. Bias-Gain will show the sliders Bias and Gain.
 
 You can use Autolevel and Influence to control your node without having to add a second node. This will help you keep your graph clean.
 
 The Influence slider is a very simple yet powerful tool for layering effects. It blends the output back with the input, allowing you to manage the influence of the current node.
+
+
 
 `// TODO: Image`
 

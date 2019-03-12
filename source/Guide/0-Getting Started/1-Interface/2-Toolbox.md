@@ -4,7 +4,7 @@ title: Toolbox
 ---
 
 ## Toolbox
-The handy Toolbox sits inside the graph, giving you quick drag-drop access to all nodes, along with favorites and search. You can use the shortcut `TAB` while in the graph to quickly access the search function, which appears as a popup next to your mouse cursor.
+The handy Toolbox sits inside the graph, giving you quick drag-drop access to all nodes. You can use the shortcut `TAB` while in the graph to quickly access the search function, which appears as a popup next to your mouse cursor.
 
 ## Search
 Pressing `TAB` will show the Search popup. You can press `TAB` and start typing to get results. Pressing `Ctrl` + `1` through `9` will activate one of the first nine nodes in the search results.
