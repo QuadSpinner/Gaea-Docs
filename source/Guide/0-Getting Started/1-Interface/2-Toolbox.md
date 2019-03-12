@@ -17,7 +17,7 @@ The Recent nodes list is maintained per-session. It will be emptied when you exi
 ## Using the Toolbox
 You can drag and drop a node from the toolbox to your Graph surface. If you drop it on a node, it will automatically connect itself to that node's output.
 
-See @Graph for more details on how to use the toolbox convenience features.
+See @graph-mode for more details on how to use the toolbox convenience features.
 
 ## Favorites
 Favorite nodes are shown at the top of the Graph. To add or remove a node from favorites, right-click on the tool in the Toolbox and check **Show in favorites**. You can also right-click on the tool in favorites bar on top of the Graph and uncheck **Show in favorites** to remove it from favorites. You can choose to show/hide favorites bar. Open the preferences dialog from main Gaea Menu. Under the **Workspace** tab, you can check/uncheck the **Show Favorites in Graph** to show/Hide the Favorites bar on top of Graph.

@@ -9,7 +9,7 @@ The output from your project must be saved to a file in order to use it elsewher
 
 <div class="small-image">
 
-![Mark for save](images/ui/Build-Progress.png)
+![Mark for export](/images/ui/Build-Progress.png)
 
 This image shows the Build Swarm building your terrain project.
 
@@ -17,15 +17,15 @@ Over the course of a complex project, saving and managing the appropriate output
 
 The Build Manager simplifies how builds are saved, organized, and managed for future use.
 
-## Mark for Save
+## Mark for Export
 
 Instead of creating a dedicated "Output" node and then specifying the file to save, you can mark a node for automatic output.
 
-![Mark for save](images/ui/Build-Mark.png)
+![Mark for export](/images/ui/Build-Mark.png)
 
-To mark a node for saving, right-click the node and select Save. You can also use the Graph Toolbar button. In the @layers-mode you can right-click a layer in the Layers List.
+To mark a node for export, right-click the node and select `Mark for Export`. You can also use the Graph Toolbar button. In the @layers-mode you can right-click a layer in the Layers List.
 
-![Mark for save](images/ui/Build-Marked.png)
+![Mark for export](/images/ui/Build-Marked.png)
 
 </div>
 Once a node is marked for saving, it displays this icon underneath the node.
@@ -33,7 +33,7 @@ Once a node is marked for saving, it displays this icon underneath the node.
 
 ## The Build Manager
 
-![Mark for save](images/ui/Build-Manager.png)
+![Mark for save](/images/ui/Build-Manager.png)
 
 
 You can choose the file format to use for all outputs, modify a node's output name by clicking on the node's label, choose unclamped (formerly called "Full Range"), and +1 output (where 512 x 512 becomes 513 x 513 — necessary for some game engines).
@@ -116,7 +116,7 @@ The Location field in the Build Manager provides two built-in options for storin
 
 The first option is the central build repository, which is stored in My Documents\Gaea\Builds\[Filename] by default, but can be changed to any location — even to a local network or an online shared folder with OneDrive, Dropbox, GDrive, etc. This can be useful in team situations.
 
-![Mark for save](images/Build-ExportedFiles.png)
+![Mark for save](/images/Build-ExportedFiles.png)
 
 The other option is to have it stored alongside the file in a Builds folder. So if your file is called MyTerrain.tor, a folder called MyTerrain_Builds will be placed next to it.
 
