@@ -43,7 +43,7 @@ If you pin another node, the current pinned node is released. If you pin the sam
 Pinning the visual (press `G`) is the same as a pinned preview, but it only works for Color nodes. When you fix the visual and move between different color production nodes, the color texture will change in concert with the node you select. However, the base heightfield upon which the texture is applied will be the Fixed Visual. If you move to a non-color node, it will show you its default preview.
 
 ### Mark for Export
-When a node is marked for export (press `L`), it will emit the output as a file when the terrain is built. Any nodes that are marked for save will be available in the Build Manager.
+When a node is marked for export (press `F3`), it will emit the output as a file when the terrain is built. Any nodes that are marked for export will be available in the Build Manager.
 
 See the article `Building` for details.
 
@@ -61,7 +61,7 @@ Even the most complicated graphs can be automatically organized. Just press `F4`
 Pressing `F4` once will layout the graph in a linear pattern. Pressing `F4` again lays out the graph in a waterfall pattern. In the waterfall pattern, Gaea will intelligently try to figure out the junctions in the graph and stagger the subsequence nodes accordingly.
 
 ### Quick Create Node
-Rather than setting up a node and then connecting it, you can drag a connection into empty space and use the quick create menu.
+Rather than setting up a node and then connecting it, you can drag a connection into empty space and use the quick create menu. You can click on a particular node name from the quick create menu, or you can type in node name which will show the list of matching nodes. Selecting node from this list connects to it.
 
 ### Connect to Connection
 Drop a connection on another connection to quickly connect to the same source node.
