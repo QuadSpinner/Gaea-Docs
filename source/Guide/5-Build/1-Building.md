@@ -108,6 +108,10 @@ The Gaea interface - especially when using high resolution previews - can consum
 
 Check this option to open the build destination folder when the build completes.
 
+### Beep when done
+
+Checking this option will sound a beep when the build is complete.
+
 ## Version Control and Organization
 
 ### Organizing Builds
