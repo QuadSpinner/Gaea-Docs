@@ -11,7 +11,7 @@ The *Create* phase requires you to use nodes that are known as Primitives. In no
 
 `// TODO: Image`
 
-The *Modify* phase requires you to take the basic primitive shape and make it more natural by adding filters and erosion. An example of this would be adding a @Terrace node to create even stratification on the terrain, and then adding the @Erosion node to add natural erosion.
+The *Modify* phase requires you to take the basic primitive shape and make it more natural by adding filters and erosion. An example of this would be adding a @Terrace node to create even stratification on the terrain, and then adding the @erosion node to add natural erosion.
 
 `// TODO: Image`
 
