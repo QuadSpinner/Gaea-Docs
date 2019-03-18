@@ -29,4 +29,3 @@
 | **Use Snowfall mask** | On / Off    | Use incoming snowfall mask, if plugged into the Snowfall port.   |
 | **Use Melt mask**     | On / Off    | Use incoming melt mask, if plugged into the Melt port.           |
 
-<!--examples-->
