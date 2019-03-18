@@ -1,14 +1,7 @@
-| Setting         | Values      | Description |
-| :-------------- | :---------- | :---------- |
-| **Intensity**   | 0 - 100% | TODO       |
-| **Water Level** | 0 - 100% | TODO       |
-| **Beach Size**  | 0.00 - 0.10 | TODO       |
-| **Transition**  | 0.00 - 0.10 | TODO       |
+| Setting         | Values      | Description                                                                  |
+| :-------------- | :---------- | :--------------------------------------------------------------------------- |
+| **Intensity**   | 0 - 100%    | Flattening intensity of the coastal area.                                    |
+| **Water Level** | 0 - 100%    | Relative water level by which coastal erosion is applied.                    |
+| **Beach Size**  | 0.00 - 0.10 | Width of the flattened or beach area between the central body and the coast. |
+| **Transition**  | 0.00 - 0.10 | Controls how smoothly the beach transitions into the mainland.               |
 
-
-
-
-A systematic coast may not always look realistic. Try using a mask to affect certain areas only, or combine multiple Coast nodes with masks.
-
-
-<!--examples-->

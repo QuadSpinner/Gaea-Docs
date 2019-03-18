@@ -1,24 +1,15 @@
 # [Convection](#tab/tabid-a)
-| Setting            | Values       | Description                                               |
-| :----------------- | :----------- | :-------------------------------------------------------- |
-| **Iterations** | 1 - 100     | TODO       |
-| **Steepness**  | 0.00 - 0.30 | TODO       |
-| **Strength**   | 0 - 100% | TODO       |
-| **Cutoff**     | 0.00 - 0.02 | TODO       |
+| Setting        | Values      | Description                                                                                        |
+| :------------- | :---------- | :------------------------------------------------------------------------------------------------- |
+| **Iterations** | 1 - 100     | Number of iterations of the convection process.                                                    |
+| **Steepness**  | 0.00 - 0.30 | How much steepness to eradicate. Low values create sharper drops. High values create smooth flows. |
+| **Strength**   | 0 - 100%    | Strength of convection where sediments are bound together.                                         |
+| **Cutoff**     | 0.00 - 0.02 | Altitude at which the effect is cut off.                                                           |
 
 
 # [Options](#tab/tabid-b)
-| Setting            | Values       | Description                                               |
-| :----------------- | :----------- | :-------------------------------------------------------- |
-| **Invert**     | On / Off    | TODO       |
-| **Add**        | On / Off    | TODO       |
-| **Remove**     | On / Off    | TODO       |
-
-
-
-The delicate terracing can be very useful as a base for the Erosion node. As you can see in the second screenshot, these terraces help mimic a big mountain — especially for snow accumulation purposes.
-
-`// TODO: Image`
-
-
-<!--examples-->
+| Setting    | Values   | Description             |
+| :--------- | :------- | :---------------------- |
+| **Invert** | On / Off | Invert slope angles.    |
+| **Add**    | On / Off | Add mass to rocks.      |
+| **Remove** | On / Off | Remove mass from rocks. |
