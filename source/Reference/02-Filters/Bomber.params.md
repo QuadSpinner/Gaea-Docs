@@ -6,7 +6,7 @@
 |                      |             | *Grid* : A normalized grid distribution function that results in a systematic pattern.           |
 | **Clusters**         | 1 - 30      | The number of independent distribution clusters.                                                 |
 | **Density**          | 0.10 - 0.90 | The density of the independent clusters, and the instances within each cluster.                  |
-| **Strength**         | 0 - 100     | TODO                                                                                             |
+| **Strength**         | 0 - 100     | The contribution level in overlapping instances.                                                                                             |
 | **Jitter**           | 0.00 - 0.20 | The random offset applied to each instance while distributing.                                   |
 | **Minimum Scale**    | 0 - 100%    | The smallest randomized instance size.                                                           |
 | **Maximum Scale**    | 0 - 100%    | The largest randomized instance size.                                                            |
@@ -17,7 +17,6 @@
 
 
 
-If your terrain has a hard edge, try using the `Zero Borders` node before applying the Bomber node.
 
 
 <!--examples-->

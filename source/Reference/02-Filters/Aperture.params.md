@@ -1,8 +1,8 @@
 | Setting        | Values     | Description                                                                                                                       |
 | :------------- | :--------- | :-------------------------------------------------------------------------------------------------------------------------------- |
 | **Method**     |            | Choose whether to expand or compact the visuals on the terrain.                                                                   |
-|                |            | *Expand* : TODO                                                                                                                   |
-|                |            | *Contract* : TODO                                                                                                                 |
+|                |            | *Expand* : Expands the pixels.                                                                                                    |
+|                |            | *Contract* : Contracts the pixels.                                                                                                |
 | **Iterations** | 0 - 20     | Number of aperture passes to perform on the terrain. Higher number of passes creates a pronounced effect at the expense of speed. |
 | **Kernel**     |            | Kernel is the shape of the aperture. Changing the kernel can change how the features on the terrain are modified.                 |
 |                |            | *Disk* : Large, circular formation.                                                                                               |

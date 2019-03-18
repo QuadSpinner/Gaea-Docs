@@ -8,9 +8,3 @@
 |              |              | *Manhattan* : Manhattan creates slightly unnatural multi-angled shapes, which can be quite useful when processed further.                                      |
 |              |              | *Shepards* : Shepards provides stark peaks and sinkholes.                                                                                                      |
 |              |              | *Hybrid* : Euclidean-Manhattan hybrid merges both distancing functions equally.                                                                                |
-
-
-
-
-
-<!--examples-->
