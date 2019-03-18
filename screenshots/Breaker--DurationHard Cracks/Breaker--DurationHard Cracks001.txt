@@ -1,2 +1,2 @@
-Duration = 508
+Duration = 500
 Hard Cracks = True

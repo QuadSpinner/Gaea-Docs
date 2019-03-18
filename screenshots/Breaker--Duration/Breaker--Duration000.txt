@@ -1,1 +1,1 @@
-Duration = 760
+Duration = 750

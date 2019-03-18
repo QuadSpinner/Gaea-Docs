@@ -1,1 +1,1 @@
-Falloff = 26.73%
+Falloff = 25.0%

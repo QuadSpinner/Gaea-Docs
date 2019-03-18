@@ -1,1 +1,1 @@
-Graininess = 1555.0
+Graininess = 1500.0

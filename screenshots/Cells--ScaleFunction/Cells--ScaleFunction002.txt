@@ -1,2 +1,2 @@
-Scale = 68.88%
+Scale = 70.0%
 Function = Shepards

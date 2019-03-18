@@ -1,1 +1,1 @@
-Sigma = 0.2
+Sigma = 0.1

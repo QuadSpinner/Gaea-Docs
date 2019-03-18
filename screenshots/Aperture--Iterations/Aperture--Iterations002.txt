@@ -1,1 +1,1 @@
-Iterations = 14
+Iterations = 10

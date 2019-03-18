@@ -1,1 +1,1 @@
-Rain Cycles = 4
+Rain Cycles = 10

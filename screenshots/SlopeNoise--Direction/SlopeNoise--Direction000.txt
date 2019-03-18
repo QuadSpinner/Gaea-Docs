@@ -1,1 +1,1 @@
-Direction = 37
+Direction = 45

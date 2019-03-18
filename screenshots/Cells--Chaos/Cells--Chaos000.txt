@@ -1,1 +1,1 @@
-Chaos = 1.3
+Chaos = 1.0

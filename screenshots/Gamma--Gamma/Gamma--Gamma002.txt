@@ -1,1 +1,1 @@
-Gamma = 1.7
+Gamma = 2.0

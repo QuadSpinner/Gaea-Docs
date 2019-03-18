@@ -1,1 +1,1 @@
-Steepness = 65.41%
+Steepness = 65.0%

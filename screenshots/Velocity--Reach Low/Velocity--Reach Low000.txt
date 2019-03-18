@@ -1,1 +1,1 @@
-Reach Low = 13
+Reach Low = 10

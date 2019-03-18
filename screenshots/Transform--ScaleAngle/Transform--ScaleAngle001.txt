@@ -1,2 +1,2 @@
-Scale = 0.6
-Angle = 118
+Scale = 0.5
+Angle = 120

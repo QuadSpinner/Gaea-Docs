@@ -1,1 +1,1 @@
-Warp Frequency = 14.67%
+Warp Frequency = 15.0%

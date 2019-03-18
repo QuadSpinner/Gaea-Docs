@@ -1,2 +1,2 @@
 Uniform = False
-Strength Vertical = 61.91%
+Strength Vertical = 60.0%

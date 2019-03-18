@@ -1,1 +1,1 @@
-Direction = 40
+Direction = 30

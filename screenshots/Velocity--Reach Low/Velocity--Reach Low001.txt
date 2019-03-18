@@ -1,1 +1,1 @@
-Reach Low = 36
+Reach Low = 40

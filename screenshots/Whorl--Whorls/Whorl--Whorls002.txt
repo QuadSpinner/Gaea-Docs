@@ -1,1 +1,1 @@
-Whorls = 52
+Whorls = 50

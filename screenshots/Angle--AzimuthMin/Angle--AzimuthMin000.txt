@@ -1,2 +1,2 @@
-Azimuth = 114
-Min = 18.19%
+Azimuth = 120
+Min = 20.0%

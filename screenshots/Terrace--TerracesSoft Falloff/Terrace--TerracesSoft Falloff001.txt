@@ -1,2 +1,2 @@
-Terraces = 36
+Terraces = 35
 Soft Falloff = True

@@ -1,1 +1,1 @@
-Degrees = -215
+Degrees = -180

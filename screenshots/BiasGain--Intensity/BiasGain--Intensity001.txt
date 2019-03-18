@@ -1,1 +1,1 @@
-Intensity = 51.96%
+Intensity = 50.0%

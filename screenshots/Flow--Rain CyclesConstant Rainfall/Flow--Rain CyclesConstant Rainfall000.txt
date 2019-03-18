@@ -1,2 +1,2 @@
-Rain Cycles = 14
+Rain Cycles = 15
 Constant Rainfall = True

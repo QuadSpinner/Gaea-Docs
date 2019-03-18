@@ -1,2 +1,2 @@
-Duration = 785
-Erosion Power = 691
+Duration = 750
+Erosion Power = 700

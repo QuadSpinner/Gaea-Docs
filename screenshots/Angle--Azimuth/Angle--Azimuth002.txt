@@ -1,1 +1,1 @@
-Azimuth = 326
+Azimuth = 300

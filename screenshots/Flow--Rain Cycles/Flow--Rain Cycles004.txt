@@ -1,1 +1,1 @@
-Rain Cycles = 165
+Rain Cycles = 150

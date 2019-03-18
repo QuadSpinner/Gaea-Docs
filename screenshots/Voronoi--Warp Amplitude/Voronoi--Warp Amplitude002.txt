@@ -1,1 +1,1 @@
-Warp Amplitude = 93.57%
+Warp Amplitude = 90.0%

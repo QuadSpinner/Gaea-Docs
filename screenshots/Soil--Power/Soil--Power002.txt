@@ -1,1 +1,1 @@
-Power = 46
+Power = 45

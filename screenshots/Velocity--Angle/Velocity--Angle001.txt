@@ -1,1 +1,1 @@
-Angle = 72
+Angle = 60

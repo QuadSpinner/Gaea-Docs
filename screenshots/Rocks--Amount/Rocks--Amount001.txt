@@ -1,1 +1,1 @@
-Amount = 9.65%
+Amount = 10.0%

@@ -1,1 +1,1 @@
-Duration = 3799
+Duration = 3500

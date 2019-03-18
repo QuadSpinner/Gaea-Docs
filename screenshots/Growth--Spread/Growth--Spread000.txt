@@ -1,1 +1,1 @@
-Spread = 338.6
+Spread = 500.0

@@ -1,2 +1,2 @@
 Mode = Square
-Margin = 28
+Margin = 30

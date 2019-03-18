@@ -1,2 +1,2 @@
-Duration = 785
-River Length = 476
+Duration = 750
+River Length = 500

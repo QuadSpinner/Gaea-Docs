@@ -1,1 +1,1 @@
-Occurance = 45.00%
+Occurance = 45.0%

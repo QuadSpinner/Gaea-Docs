@@ -1,1 +1,1 @@
-Direction = 151
+Direction = 150

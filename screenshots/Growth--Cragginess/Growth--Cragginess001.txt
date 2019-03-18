@@ -1,1 +1,1 @@
-Cragginess = 5165.7
+Cragginess = 5000.0

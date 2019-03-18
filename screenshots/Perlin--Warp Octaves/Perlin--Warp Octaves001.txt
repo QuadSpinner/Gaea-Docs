@@ -1,1 +1,1 @@
-Warp Octaves = 6
+Warp Octaves = 5

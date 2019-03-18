@@ -1,1 +1,1 @@
-Power = 0.3
+Power = 0.5

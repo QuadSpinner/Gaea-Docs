@@ -1,1 +1,1 @@
-Whorls = 32
+Whorls = 30

@@ -1,1 +1,1 @@
-Scale Y = 2.6
+Scale Y = 2.0

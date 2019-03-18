@@ -1,1 +1,1 @@
-Density = 10.00%
+Density = 10.0%

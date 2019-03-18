@@ -1,1 +1,1 @@
-Strength = 88.54%
+Strength = 90.0%

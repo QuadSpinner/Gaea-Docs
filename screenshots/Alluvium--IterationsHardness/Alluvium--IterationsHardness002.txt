@@ -1,2 +1,2 @@
 Iterations = 2
-Hardness = 90.65%
+Hardness = 100.0%

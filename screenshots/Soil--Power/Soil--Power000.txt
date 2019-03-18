@@ -1,1 +1,1 @@
-Power = 13
+Power = 15

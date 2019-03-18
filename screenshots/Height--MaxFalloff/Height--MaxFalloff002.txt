@@ -1,2 +1,2 @@
-Max = 66.43%
-Falloff = 88.54%
+Max = 70.0%
+Falloff = 90.0%

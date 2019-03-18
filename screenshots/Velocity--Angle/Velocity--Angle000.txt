@@ -1,1 +1,1 @@
-Angle = 11
+Angle = 30

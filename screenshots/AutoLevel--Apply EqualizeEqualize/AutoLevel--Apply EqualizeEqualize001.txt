@@ -1,2 +1,2 @@
 Apply Equalize = True
-Equalize = 54.37%
+Equalize = 50.0%

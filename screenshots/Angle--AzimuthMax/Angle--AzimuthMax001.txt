@@ -1,2 +1,2 @@
-Azimuth = 114
-Max = 54.87%
+Azimuth = 120
+Max = 50.0%

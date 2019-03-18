@@ -1,2 +1,2 @@
-Duration = 785
-Depth = 17.19%
+Duration = 750
+Depth = 20.0%

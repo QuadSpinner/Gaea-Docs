@@ -1,1 +1,1 @@
-Azimuth = 55
+Azimuth = 50

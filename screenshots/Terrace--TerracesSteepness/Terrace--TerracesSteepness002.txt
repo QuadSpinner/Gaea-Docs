@@ -1,2 +1,2 @@
-Terraces = 36
-Steepness = 85.53%
+Terraces = 35
+Steepness = 80.0%

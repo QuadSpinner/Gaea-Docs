@@ -1,1 +1,1 @@
-Scale = 1.1
+Scale = 1.2

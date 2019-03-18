@@ -1,2 +1,2 @@
-Terraces = 36
-Intensity = 76.48%
+Terraces = 35
+Intensity = 80.0%

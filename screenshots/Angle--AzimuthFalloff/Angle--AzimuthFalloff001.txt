@@ -1,2 +1,2 @@
-Azimuth = 114
-Falloff = 55.88%
+Azimuth = 120
+Falloff = 40.0%
