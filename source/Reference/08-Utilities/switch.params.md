@@ -1,0 +1,3 @@
+| Setting    | Description |
+| :--------- | :---------- |
+| **Switch** | TODO        |
