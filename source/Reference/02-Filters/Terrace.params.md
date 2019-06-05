@@ -6,4 +6,8 @@
 | **Intensity**    | The strength of terracing applied to the terrace.             |
 | **Soft Falloff** | Softens the blend of the terrace edges with the base terrain. |
 | **Reprocess**    | Applies all processing twice for enhanced effect.             |
+| **Process**      |                                                               |
+|                  | *Default* : TODO                                              |
+|                  | *Residual* : TODO                                             |
+|                  | *Gentle* : TODO                                               |
 | **Seed**         | The randomization pattern or seed for the node's process.     |

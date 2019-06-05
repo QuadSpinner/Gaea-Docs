@@ -6,8 +6,16 @@
 |                      | *Grid* : A normalized grid distribution function that results in a systematic pattern.           |
 | **Clusters**         | The number of independent distribution clusters.                                                 |
 | **Density**          | The density of the independent clusters, and the instances within each cluster.                  |
-| **Strength**         | The contribution level in overlapping instances.                                                 |
+| **Variations**       | TODO                                                                                             |
 | **Jitter**           | The random offset applied to each instance while distributing.                                   |
+| **Blend Mode**       |                                                                                                  |
+|                      | *Add* : TODO                                                                                     |
+|                      | *Screen* : TODO                                                                                  |
+|                      | *Max* : TODO                                                                                     |
+|                      | *Min* : TODO                                                                                     |
+|                      | *Difference* : TODO                                                                              |
+| **Strength**         | The contribution level in overlapping instances.                                                 |
+| **Strength Max**     | TODO                                                                                             |
 | **Minimum Scale**    | The smallest randomized instance size.                                                           |
 | **Maximum Scale**    | The largest randomized instance size.                                                            |
 | **Minimum Rotation** | The minimum randomized rotation angle.                                                           |
