@@ -41,13 +41,21 @@ You can choose the file format to use for all outputs, modify a node's output na
 You can also use the Build Manager for version control and file organization.
 
 
-## Build Options
+# Build Options
 
-### Build Destination
+## Node List
+
+Any node marked for export shows up in the Build Manager list. You can also add other nodes directly using the **Add Node** button.
+
+Each node will expose its savable filename, the format in which it will export, and the different outputs it exposes.
+
+## Build Destination
 
 This is the path where the built output will be saved. By default it is saved in a version controlled path in the Builds repository. You can always enter a normal path directly, or pick from presets in the dropdown.
 
 For additional information see the **Organizing Builds** below.
+
+## Build Definition
 
 ### Resolution
 
@@ -58,9 +66,71 @@ The output resolution of the build. Higher resolutions give you better detail at
 
 ### Format
 
-This dropdown allows you to choose the the format in which your output is saved. All files are 16-bit.
+This dropdown allows you to choose the the format in which your output is saved. You can also select per-node file formats in the node list. If you change the selection here, all nodes will default to the selection made here.
 
-To save any output as a mesh, see @exporting and @Mesher.
+{.NOTE}
+> Mesh Formats are not available globally, but must be chosen per-node.
+
+### Ignore Vertical Scaling
+
+Ignores the vertical scale set in the Terrain Definition popup. Use this if you want to manage the vertical scale manually when using the output, or if you are getting stairstep artifacts in your output.
+
+<!-- #### What's the difference?
+
+Here you can see the two outputs: Clamped and Full Range. The main difference is that Clamped is limited to the height set in the Terrain Definition, while Full Range ignores both the Base and Height settings, and exports the entire gradient range in its natural form (32-bit floating point).
+
+#### When should I use Full Range?
+
+Most of the time, you won't need to use Full Range. It can be useful in rare cases: when you intend to manually scale the terrain vertically later; or when you want to manually edit or sculpt the terrain in Photoshop, ZBrush or Mudbox and need as much detail as possible.
+
+If you do use the Full Range export, it is best to use the OpenEXR (.exr) format to preserve the values as best as possible.
+
+You can always export a copy with Clamped values, and use that as a guide for vertically resizing the externally edited Full Range output. -->
+
+## Tiled Output
+
+{.WARNING}
+> Tiled output is experimental at this stage. It will be stabilized in future updates.
+
+## Mesh Options
+
+These options govern the mesh output of nodes in the list that are exporting to a mesh based format such as OBJ, FBX, or XYZ.
+
+### Scale
+
+You can choose from multiple scale options:
+
+- **Normalized**: The vertices are stored between 0.0 and 1.0. This is helpful when you want to rescale it during import in your target application.
+- **1 unit = 1 meter**: The mesh is stored in meters as dictated by the terrain definition you have set in Gaea.
+- **1 unit = 1 kilometer**: The mesh is stored in kilometers as dictated by the terrain definition you have set in Gaea.
+
+### LOD
+
+Gaea can automatically generate multiple LODs (Level of Detail) models for you in a single pass. 
+
+For example, if you are exporting 4 LODs:
+- Base mesh = 2048 vertices
+- LOD 1 = 1024 vertices
+- LOD 2 = 512 vertices
+- LOD 3 = 256 vertices
+- LOD 4 = 128 vertices
+
+{.NOTE}
+> Each LOD is half of the previous vertex count.
+
+### Vertex Count
+
+This is the vertex count of either dimension. Higher density creates more detailed meshes at the expense of speed and memory.
+
+The total number of vertices is the square of the vertex count specifed. So for example, **512** vertex count is: 512 x 512 = 262,144 vertices.
+
+The estimate of vertex and face count is shown below the settings.
+
+### Force Quads
+
+Force all faces to be quads instead of triangles.
+
+## Additional Options
 
 ### Resample
 
@@ -72,29 +142,14 @@ Pick the nearest Gaea resolution in the main Resolution dropdown, then select th
 
 You can choose to save color maps in RGB, sRGB, or scRGB color spaces.
 
-### Ignore Vertical Scaling
-
-The new Output node is the primary way to save your output. It automatically saves the specified file when a full Build is initiated from the Export panel.
-
-By default, it exports Clamped values, but you can choose to export a Full Range map by enabling Full Range in the Output node's properties.
-
-#### What's the difference?
-
-Here you can see the two outputs: Clamped and Full Range. The main difference is that Clamped is limited to the height set in the Terrain Definition, while Full Range ignores both the Base and Height settings, and exports the entire gradient range in its natural form (32-bit floating point).
-
-#### When should I use Full Range?
-
-Most of the time, you won't need to use Full Range. It can be useful in rare cases: when you intend to manually scale the terrain vertically later; or when you want to manually edit or sculpt the terrain in Photoshop, ZBrush or Mudbox and need as much detail as possible.
-
-If you do use the Full Range export, it is best to use the OpenEXR (.exr) format to preserve the values as best as possible.
-
-You can always export a copy with Clamped values, and use that as a guide for vertically resizing the externally edited Full Range output.
-
 ### Increase output scale by +1
 
 Some software require heightfields to be one pixel larger than the normal dimension. For example, 4096 is required to be 4097. Check this option to increase the dimensions by one pixel.
 
 This option is ignored when the Resample option is used.
+
+
+## Build Options
 
 ### Save a copy of this .TOR file
 
@@ -107,6 +162,10 @@ The Gaea interface - especially when using high resolution previews - can consum
 ### Open folder after build
 
 Check this option to open the build destination folder when the build completes.
+
+### Generate Build Log
+
+Generate a machine and human readable build log in .txt format at the build location.
 
 ### Beep when done
 
@@ -139,9 +198,12 @@ But these are not the only options. You can explicitly specify a location instea
 * `[Builds]` Central build repository.
 * `[Filename]` Name of the current file without extension.
 * `[Resolution]` Current resolution (eg. 8192).
-* `[Timestamp]` Sortable timestamp in YYYY-MM-DD_HH-MM-SS format.
+* `[Timestamp]` Sortable timestamp in `yyyy-MM-dd_HH-mm-ss` format.
 * `[Username]` Your local network identity.
 * `[Machine]` Your local network machine name.
+* `[Date]` Current date in `yyyy-MM-dd` format.
+* `[Time]` Current time in `HH-mm-ss` format.
+* `[+++]` Increments a 3 digit number when an existing path exists.
 
 So you could create your own path template such as:
 ```[Builds]\[Filename]\[Timestamp]\[Resolution]\``` — which would create ```~\Documents\Gaea\Builds\EastRiver\2018–06–22_21–55–31\8192\```
