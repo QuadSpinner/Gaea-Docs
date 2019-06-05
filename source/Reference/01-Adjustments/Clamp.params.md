@@ -1,14 +1,8 @@
-| Setting       | Values   | Description    |
-| :------------ | :------- | :------------- |
-| **Min**       | 0 - 100% | TODO           |
-| **Max**       | 0 - 100% | TODO           |
-| **Operation** | TODO     |
-|               |          | *Clamp* : TODO |
-|               |          | *Clip* : TODO  |
-|               |          | *Extend* :TODO |
-
-
-
-
-
-<!--examples-->
+| Setting       | Description    |
+| :------------ | :------------- |
+| **Min**       | TODO           |
+| **Max**       | TODO           |
+| **Operation** |
+|               | *Clamp* : TODO |
+|               | *Clip* : TODO  |
+|               | *Extend* :TODO |

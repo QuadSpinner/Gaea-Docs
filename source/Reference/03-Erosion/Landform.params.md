@@ -1,13 +1,7 @@
-| Setting           | Values      | Description                                               |
-| :---------------- | :---------- | :-------------------------------------------------------- |
-| **Iterations**    | 1 - 15      | TODO                                                     |
-| **Erosion Power** | 5 - 1000    | TODO                                                     |
-| **Displacement**  | 0.04 - 0.40 | TODO                                                     |
-| **Degrees**       | 0 - 360     | TODO                                                     |
-| **Seed**          | 0 - 128000  | The randomization pattern or seed for the node's process. |
-
-
-
-
-
-<!--examples-->
+| Setting           | Description                                               |
+| :---------------- | :-------------------------------------------------------- |
+| **Iterations**    | TODO                                                      |
+| **Erosion Power** | TODO                                                      |
+| **Displacement**  | TODO                                                      |
+| **Degrees**       | TODO                                                      |
+| **Seed**          | The randomization pattern or seed for the node's process. |

@@ -1,17 +1,17 @@
-| Setting    | Values      | Description                                               |
-| :--------- | :---------- | :-------------------------------------------------------- |
-| **Scale**  | 0 - 100%    | TODO                                                      |
-| **Edge**   | 0.00 - 0.50 | TODO                                                      |
-| **Seed**   | 0 - 128000  | The randomization pattern or seed for the node's process. |
-| **Type**   |             |
-|            |             | *A* : TODO                                                |
-|            |             | *B* : TODO                                                |
-|            |             | *C* : TODO                                                |
-|            |             | *D* : TODO                                                |
-| **Height** |             |
-|            |             | *Natural* : TODO                                          |
-|            |             | *Enhanced* : TODO                                         |
-|            |             | *Equalized* : TODO                                        |
+| Setting    | Description                                               |
+| :--------- | :-------------------------------------------------------- |
+| **Scale**  | TODO                                                      |
+| **Edge**   | TODO                                                      |
+| **Seed**   | The randomization pattern or seed for the node's process. |
+| **Type**   |
+|            | *A* : TODO                                                |
+|            | *B* : TODO                                                |
+|            | *C* : TODO                                                |
+|            | *D* : TODO                                                |
+| **Height** |
+|            | *Natural* : TODO                                          |
+|            | *Enhanced* : TODO                                         |
+|            | *Equalized* : TODO                                        |
 
 
 
