@@ -11,5 +11,8 @@
 | **Scale**             | TODO                                                      |
 | **Complexity**        | TODO                                                      |
 | **Seed**              | The randomization pattern or seed for the node's process. |
+| **Iterations**        | TODO                                                      |
+| **Rotate**            | TODO                                                      |
+| **High Quality**      | TODO                                                      |
 | **X**                 | TODO                                                      |
 | **Y**                 | TODO                                                      |
