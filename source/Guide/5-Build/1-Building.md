@@ -206,12 +206,20 @@ But these are not the only options. You can explicitly specify a location instea
 * `[+++]` Increments a 3 digit number when an existing path exists.
 
 So you could create your own path template such as:
-```[Builds]\[Filename]\[Timestamp]\[Resolution]\``` — which would create ```~\Documents\Gaea\Builds\EastRiver\2018–06–22_21–55–31\8192\```
 
-or something more specific such as:
+```[Builds]\[Filename]\[Timestamp]\[Resolution]\``` 
+
+which would create:
+
+```~\Documents\Gaea\Builds\EastRiver\2018–06–22_21–55–31\8192\```
+
+Or something more specific such as:
 
 ```\\00.00.00.00\Team\Terrains\[Username]_[Timestamp]\ ```
- which would create ```\\00.00.00\Team\Terrains\Bob_2018–06–22–55–31\```
+
+which would create:
+
+```\\00.00.00\Team\Terrains\Bob_2018–06–22–55–31\```
 
 ### Version Controlling Terrains
 
