@@ -3,6 +3,7 @@
 | **Scale**        | TODO                                                      |
 | **Displacement** | TODO                                                      |
 | **Direction**    | TODO                                                      |
+| **Stratified**   | TODO                                                      |
 | **Seed**         | The randomization pattern or seed for the node's process. |
 
 
