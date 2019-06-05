@@ -9,5 +9,5 @@
 | **Debris Size**    | Size of the rocky debris in the talus. *Available when Fine Detail is turned On*                                             |
 | **Real Scale**     | Use the scale defined in the terrain. Disable to access addtional options and modify erosion's physics.                      |
 | **Terrain Scale**  | Scale of the terrain. *Available when Real Scale is turned Off*                                                              |
-| **Verticality**    | Height of the terrain.*Available when Real Scale is turned Off*                                                              |
 | **Feature Scale**  | Scale of the largest feature in the terrain.                                                                                 |
+| **Verticality**    | Height of the terrain.*Available when Real Scale is turned Off*                                                              |

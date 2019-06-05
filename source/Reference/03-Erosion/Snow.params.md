@@ -10,6 +10,7 @@
 | **Verticality**       | Height of the terrain.                                                                                   |
 | **Slip-off angle**    | Angle at which snow will stick to the surface.                                                           |
 | **Adhered snow mass** | Mass of snow that sticks to the surface.                                                                 |
+| **Model scale**       | TODO                                                                                                     |
 | **Snow output**       |
 |                       | *Depth* : Depth of the deposited snow.                                                                   |
 |                       | *Soft Mask* : Mask of the snow coverage with soft falloff.                                               |
