@@ -1,5 +1,7 @@
 | Setting               | Description |
 | :-------------------- | :---------- |
+| **Library**           | TODO        |
+| **SatMap Clipping**   | TODO        |
 | **Noise**             | TODO        |
 | **Reverse**           | TODO        |
 | **Jitter**            | TODO        |
