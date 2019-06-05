@@ -1,4 +1,23 @@
 @charset "UTF-8";
+::-moz-selection {
+  /* Code for Firefox */
+  color: black;
+  background: #f7f7a5;
+}
+
+::selection {
+  color: black;
+  background: #f7f7a5;
+}
+
+::-moz-focus-inner {
+  border: 0;
+}
+
+:focus {
+  outline: none;
+}
+
 .TIP,
 .WARNING,
 .NOTE {
@@ -125,11 +144,6 @@ h3 {
 .params td:nth-child(1) {
   width: 15% !important;
   max-width: 20% !important;
-}
-
-.params td:nth-child(2),
-.params th:nth-child(2) {
-  display: none !important;
 }
 
 .tutorial {

@@ -1,3 +1,21 @@
+::-moz-selection {
+  /* Code for Firefox */
+  color: black;
+  background: rgb(247, 247, 165);
+}
+
+::selection {
+  color: black;
+  background: rgb(247, 247, 165);
+}
+
+::-moz-focus-inner {
+  border: 0;
+}
+:focus {
+  outline: none;
+}
+
 .TIP,
 .WARNING,
 .NOTE {
@@ -121,13 +139,7 @@ h3 {
   max-width: 20% !important;
 }
 
-.params td:nth-child(2),
-.params th:nth-child(2) {
-  display: none !important;
-}
-
 .tutorial {
-
   margin-top: 24px;
 
   .card {
