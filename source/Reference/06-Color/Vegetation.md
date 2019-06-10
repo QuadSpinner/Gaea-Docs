@@ -1,0 +1,4 @@
+---
+uid: Vegetation
+title: Vegetation
+---

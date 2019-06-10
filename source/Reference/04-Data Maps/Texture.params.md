@@ -1,0 +1,10 @@
+| Setting     | Description |
+| :---------- | :---------- |
+| **Scale**   | TODO        |
+| **Mode**    | TODO        |
+| **Patches** | TODO        |
+| **Seed**    | TODO        |
+| **Slope**   | TODO        |
+| **Soil**    | TODO        |
+| **Chaos**   | TODO        |
+| **Graded**  | TODO        |
