@@ -25,7 +25,6 @@
   <link rel="stylesheet" href="/assets/vendor/css/uikit.css">
   <link rel="stylesheet" href="/assets/custom/custom.css">
   <link rel="stylesheet" id="cssx" href="/">
-
   <!-- Layout helpers -->
   <script src="/assets/vendor/js/layout-helpers.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
@@ -37,7 +36,7 @@
 
 </head>
 
-<body>
+<body data-spy="scroll" data-target="#toc">
 
   <!-- Layout wrapper -->
   <div class="layout-wrapper layout-1 layout-without-sidenav">
@@ -48,73 +47,55 @@
       <nav class="layout-navbar navbar navbar-expand-lg align-items-lg-center bg-navbar-theme container-p-x"
         id="layout-navbar">
 
-        <div class="container">
 
-          <a href="/index.html" class="navbar-brand">Gaea Documentation</a>
+        <a href="/index.html" class="navbar-brand">
+          <img id="logo" src="/images/Gaea_Logo_Dark.png" class="w-25 d-inline" />
+        </a>
 
-          <!-- Navbar toggle -->
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#layout-navbar-collapse">
-            <span class="navbar-toggler-icon"></span>
-          </button>
+        <!-- Navbar toggle -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#layout-navbar-collapse">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-          <div class="navbar-collapse collapse" id="layout-navbar-collapse">
-            <div class="navbar-nav align-items-lg-center">
-<!--REPLACE-SUPERNAV-->
-            </div>
+        <div class="navbar-collapse collapse" id="layout-navbar-collapse">
+          <div class="navbar-nav align-items-lg-center">
+            <!--REPLACE-SUPERNAV-->
           </div>
-
-          <div class="navbar-text order-lg-2 text-right small"> <label class="switcher switcher-dark">
-              <input type="checkbox" id="cb1" class="switcher-input" checked="">
-              <span class="switcher-indicator">
-                <span class="switcher-yes"><span class="ion ion-md-checkmark"></span></span>
-                <span class="switcher-no"><span class="ion ion-md-close"></span></span>
-              </span>
-              <span class="switcher-label text-muted"><i class="ion ion-ios-moon d-block"></i></span>
-            </label></div>
         </div>
+
+        <div class="navbar-text order-lg-2 text-right small"> <label class="switcher switcher-dark">
+            <input type="checkbox" id="cb1" class="switcher-input" checked="">
+            <span class="switcher-indicator">
+              <span class="switcher-yes"><span class="ion ion-md-checkmark"></span></span>
+              <span class="switcher-no"><span class="ion ion-md-close"></span></span>
+            </span>
+            <span class="switcher-label text-muted"><i class="ion ion-ios-moon d-block"></i></span>
+          </label></div>
+
       </nav>
-
-
 
       <!-- / Layout navbar -->
 
       <div class="layout-container">
 
+        <!-- Layout sidenav -->
+        <!--REPLACE--NAV-->
+        <!-- / Layout sidenav -->
+
+
         <div class="layout-content">
-
-          <!-- Layout sidenav -->
-          <!--REPLACE--NAV-->
-          <!-- / Layout sidenav -->
-
-
-
           <!-- Page content -->
-
           <div class="container flex-grow-1 container-p-y">
+
+            <div class="row">
+              <div class="col-lg-10">
+                <!--REPLACE--BODY-->
+              </div>
+              <div class="col-lg-2">
+                <nav id="toc" data-toggle="toc" class="sticky-top"></nav>
+              </div>
+            </div>
             <!-- Card -->
-
-
-
-
-
-
-
-            <!--REPLACE--BODY-->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
           </div>
           <!-- / Page content -->
@@ -160,7 +141,7 @@
 
   <script src="/assets/js/main.js"></script>
   <script src="/assets/js/ui_navbar.js"></script>
-
+  <script src="/assets/js/bootstrap-toc.min.js"></script>
 
 </body>
 

@@ -27,9 +27,11 @@ $(function () {
 function changeStyle() {
   if (Cookies.get('style') == "dark") {
     document.getElementById('cssx').href = "/assets/custom/dark.css";
+    $("#logo").prop("src", "/images/Gaea_Logo_LightAlt.png");
     $("#cb1").prop("checked", true);
   } else {
     document.getElementById('cssx').href = "/";
+    $("#logo").prop("src", "/images/Gaea_Logo_Dark.png");
     $("#cb1").prop("checked", false);
   }
 }

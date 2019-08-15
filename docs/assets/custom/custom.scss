@@ -1,3 +1,5 @@
+@import "_bootstrap-toc.scss";
+
 ::-moz-selection {
   /* Code for Firefox */
   color: black;
@@ -116,23 +118,23 @@ h3 {
   color: #f0f0f0;
 }
 
-.guide > .sidenav-item:nth-child(1) > .sidenav-link::before {
-  content: "";
-}
-.guide > .sidenav-item:nth-child(2) > .sidenav-link::before {
-  content: "";
-}
-.guide > .sidenav-item:nth-child(8) > .sidenav-link::before {
-  content: "";
-}
+// .guide > .sidenav-item:nth-child(1) > .sidenav-link::before {
+//   content: "";
+// }
+// .guide > .sidenav-item:nth-child(2) > .sidenav-link::before {
+//   content: "";
+// }
+// .guide > .sidenav-item:nth-child(8) > .sidenav-link::before {
+//   content: "";
+// }
 
-.reference > .sidenav-item:nth-child(10) > .sidenav-link::before {
-  content: "";
-}
+// .reference > .sidenav-item:nth-child(10) > .sidenav-link::before {
+//   content: "";
+// }
 
-.sidenav-item.open > .sidenav-menu {
-  box-shadow: 0 16px 20px rgba(0, 0, 0, 0.33);
-}
+// .sidenav-item.open > .sidenav-menu {
+//   box-shadow: 0 16px 20px rgba(0, 0, 0, 0.33);
+// }
 
 .params td:nth-child(1) {
   width: 15% !important;
