@@ -15,16 +15,16 @@ Gaea’s viewport harnesses the powerful Unity engine, and has been deeply custo
 
 ## Orbit View
 
-`// TODO: Image`
+![](/images/ui/Viewport-Orbit.jpg)
 
-- `Alt` and `Mouse Left` to drag. Can be customized in @Preferences.
+- `Alt` and `Mouse Left` to drag. Can be customized in @preferences.
 - `W`,`A`,`S`,`D` for directional movement. 
 - `Mouse Middle` for panning.
 - `Mouse Wheel` for zooming.
 
 ## First Person View
 
-`// TODO: Image`
+![](/images/ui/Viewport-FPS.jpg)
 
 - `Alt` and `Mouse Left` to drag.*
 - `W`,`A`,`S`,`D` for directional movement.
@@ -34,7 +34,7 @@ Gaea’s viewport harnesses the powerful Unity engine, and has been deeply custo
 
 ## Orthographic View
 
-`// TODO: Image`
+![](/images/ui/Viewport-Ortho.jpg)
 
 - `Mouse Wheel` for zooming.
 - `W`,`A`,`S`,`D` and `Mouse Middle` for panning.
@@ -50,23 +50,23 @@ The 2D view is available directly in the main window alongside the 3D view when 
 
 ## 2D Mode
 
-![](/images/ui/Map-2D.png)
+![](/images/ui/Map-2D.jpg)
 
 The 2D mode shows a basic heightfield in grayscale, with black representing lower areas and white representing higher areas. This is a great way to examine your terrain from an unbiased perspective, especially when dealing with 2D data such as data map outputs, secondary output from erosion, and so on.
 
 ## Equalized Mode
 
-![](/images/ui/Map-Eq.png)
+![](/images/ui/Map-Eq.jpg)
 
 If the 2D view is too difficult to see, the Equalized mode emphasizes the image to help you see better. This is particulary helpful when working with delicate masks and other 2D maps. The equalization process is superficial and does not affect the actual terrain.
 
 ## 3D Mode
 
-![](/images/ui/Map-3D.png)
+![](/images/ui/Map-3D.jpg)
 
 In the 3D mode, a shaded orthographic representation of the terrain is displayed instead of the grayscale heightfield. It makes it easier to visualize finer details that may not be apparent to the human eye in the simple 2D view.
 
-![](/images/ui/Map-Overlay.png)
+![](/images/ui/Map-Overlay.jpg)
 
 Additionally, you can visualize the secondary output as flat images or overlays on the primary output. To access secondary outputs, right-click anywhere in the 2D viewport. The mask is overlaid in red on the grayscale 3D terrain.
 

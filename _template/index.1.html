@@ -33,10 +33,10 @@
 
   <!-- `perfect-scrollbar` library required by SideNav plugin -->
   <link rel="stylesheet" href="/assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.css">
-
+  <link rel="stylesheet" href="/assets/custom/obsidian.css">
 </head>
 
-<body data-spy="scroll" data-target="#toc">
+<body>
 
   <!-- Layout wrapper -->
   <div class="layout-wrapper layout-1 layout-without-sidenav">
@@ -44,18 +44,17 @@
     <div class="layout-inner">
 
       <!-- Layout navbar -->
-      <nav class="layout-navbar navbar navbar-expand-lg align-items-lg-center bg-navbar-theme container-p-x"
+      <nav class="layout-navbar navbar navbar-expand-lg bg-navbar-theme container-p-x"
         id="layout-navbar">
-
-
-        <a href="/index.html" class="navbar-brand">
-          <img id="logo" src="/images/Gaea_Logo_Dark.png" class="w-25 d-inline" />
-        </a>
 
         <!-- Navbar toggle -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#layout-navbar-collapse">
           <span class="navbar-toggler-icon"></span>
         </button>
+
+        <a href="/index.html" class="navbar-brand">
+          <img id="logo" src="/images/Gaea_Logo_Dark.png" class="app-brand-logo ui-w-100" />
+        </a>
 
         <div class="navbar-collapse collapse" id="layout-navbar-collapse">
           <div class="navbar-nav align-items-lg-center">
@@ -88,7 +87,7 @@
           <div class="container flex-grow-1 container-p-y">
 
             <div class="row">
-              <div class="col-lg-10">
+              <div class="col-lg-10 textcontent" data-spy="scroll" data-target="#toc">
                 <!--REPLACE--BODY-->
               </div>
               <div class="col-lg-2">
@@ -143,6 +142,8 @@
   <script src="/assets/js/ui_navbar.js"></script>
   <script src="/assets/js/bootstrap-toc.min.js"></script>
 
+  <script src="/assets/js/highlight.pack.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
 </body>
 
 </html>

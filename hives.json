@@ -1,12 +1,5 @@
 [
-    {
-        "Path": "Guide",
-        "BaseItem": {
-            "Title": "User Guide",
-            "Link": "guide/",
-            "UID": "guide"
-        }
-    },
+
     {
         "Path": "Reference",
         "BaseItem": {
@@ -16,6 +9,14 @@
         },
         "ProcessProceduralFiles": true,
         "ProcessExampleFiles": true
+    },
+    {
+        "Path": "Guide",
+        "BaseItem": {
+            "Title": "User Guide",
+            "Link": "guide/",
+            "UID": "guide"
+        }
     },
     {
         "Path": "Tutorials",
