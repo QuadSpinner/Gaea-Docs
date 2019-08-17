@@ -1,0 +1,1 @@
+dotnet Z:\Git\Gaea\AngryMonkey\AngryMonkey\bin\Release\netcoreapp2.1\AngryMonkey.dll

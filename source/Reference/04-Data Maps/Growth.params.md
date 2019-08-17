@@ -8,4 +8,4 @@
 | **Groves**      | TODO        |
 | **Graininess**  | TODO        |
 | **Cragginess**  | TODO        |
-| **Seed**        | TODO        |
+| **Seed**           | The randomization pattern or seed for the node's process. |        |

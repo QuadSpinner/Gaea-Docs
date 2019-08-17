@@ -19,15 +19,6 @@
         }
     },
     {
-        "Path": "Tutorials",
-        "BaseItem": {
-            "Title": "Tutorials",
-            "Link": "tutorials/",
-            "UID": "tutorials"
-        },
-        "ProcessTutorialFiles": true
-    },
-    {
         "Path": "Developers",
         "BaseItem": {
             "Title": "For Developers",

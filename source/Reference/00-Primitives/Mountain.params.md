@@ -1,21 +1,9 @@
-| Setting    | Description                                               |
-| :--------- | :-------------------------------------------------------- |
-| **Scale**  | TODO                                                      |
-| **Edge**   | TODO                                                      |
-| **Seed**   | The randomization pattern or seed for the node's process. |
-| **Type**   |
-|            | *A* : TODO                                                |
-|            | *B* : TODO                                                |
-|            | *C* : TODO                                                |
-|            | *D* : TODO                                                |
-| **Height** |
-|            | *Natural* : TODO                                          |
-|            | *Enhanced* : TODO                                         |
-|            | *Equalized* : TODO                                        |
-
-
-
-For simple results, such as distance mountains that don't require much detail, you can create a Mountain primitive with a scale of your choice and add the Erosion node. This is the easiest way to create a lot of simple assets.
-
-
-<!--examples-->
+| Setting   | Description                                                                                |
+| :-------- | :----------------------------------------------------------------------------------------- |
+| **Scale** | The perceptual scale of the mountain.                                                      |
+| **Edge**  | The faded edge / sprawl of the mountain.                                                   |
+| **Seed**  | The randomization pattern or seed for the node's process.                                  |
+| **Type**  | Four different generative algorithms for the shape.                                        |
+|           | *Natural* : Produces natural heights.                                                      |
+|           | *Enhanced* : Produces slightly exaggerated heights.                                        |
+|           | *Equalized* : Produces mathematically equalized heights with strong volume. Use sparingly. |

@@ -3,7 +3,7 @@
 | **Scale**   | TODO        |
 | **Mode**    | TODO        |
 | **Patches** | TODO        |
-| **Seed**    | TODO        |
+| **Seed**    | The randomization pattern or seed for the node's process.        |
 | **Slope**   | TODO        |
 | **Soil**    | TODO        |
 | **Chaos**   | TODO        |
