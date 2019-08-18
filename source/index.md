@@ -6,38 +6,22 @@ title: Gaea Documentation
 
 The documentation is organized to help you get started with Gaea quickly and easily regardless of your skill level.
 
-<div class="card-deck">
-    <div class="card">
-    <div class="card-body">
-        <h3><a href="/Guide/">User Guide</a></h3>
-        <p>
-            Lorem ipsum dolor sit amet
-        </p>
-        </div>
-    </div>
-    <div class="card">
-        <div class="card-body">
-            <h3><a href="/Reference/">Node Reference</a></h3>
-            <p>
-                Lorem ipsum dolor sit amet
-            </p>
-            </div>
-    </div>
-    <div class="card">
-    <div class="card-body">
-        <h3><a href="/Tutorials/">Tutorials</a></h3>
-        <p>
-            Lorem ipsum dolor sit amet
-        </p>
-        </div>
-    </div>
-    <div class="card">
-        <div class="card-body">
-            <h3><a href="/Developers/">For Developers</a></h3>
-            <p>
-                Lorem ipsum dolor sit amet
-            </p>
-        </div>
-    </div>
+## [User Guide](/Guide/)
 
-</div>
+The User Guide teaches you about Gaea, its different concepts, and how to create and export terrains.
+        
+## [Node Reference](/Reference/)
+
+The Node Reference provides detailed information on each node and sculpting tool.
+            
+           
+## [Tutorials](/Tutorials/)
+
+Tutorials based on the Quickstarts that ship with Gaea, among others.
+        
+      
+## [For Developers](/Developers/)
+
+Gaea API/SDK, automation reference, and plugin development.
+            
+       
