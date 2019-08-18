@@ -1,0 +1,2 @@
+Duration = 300
+Mode = Fast

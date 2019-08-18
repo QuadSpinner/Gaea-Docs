@@ -1,0 +1,5 @@
+| Setting               | Description                                                                                                                                           |
+| :-------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Strength**          | TODO                                                                                                                                                  |
+| **Despeckle**         | Despeckle cleans areas in which noise is noticeable, while leaving complex areas untouched. The noise is reduced without severely affecting contours. |
+| **Apply Enhancement** | TODO                                                                                                                                                  |

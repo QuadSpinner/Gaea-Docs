@@ -1,0 +1,2 @@
+Terraces = 35
+Uniformity = 50.0%

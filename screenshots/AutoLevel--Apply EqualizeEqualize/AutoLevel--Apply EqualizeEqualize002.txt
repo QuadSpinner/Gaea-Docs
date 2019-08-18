@@ -1,0 +1,2 @@
+Apply Equalize = True
+Equalize = 70.0%

@@ -1,0 +1,3 @@
+Scale = 1.5
+Angle = 45
+Mirror Edges = True

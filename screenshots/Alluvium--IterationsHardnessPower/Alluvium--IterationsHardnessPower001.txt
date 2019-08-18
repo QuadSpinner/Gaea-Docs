@@ -1,0 +1,3 @@
+Iterations = 2
+Hardness = 20.00%
+Power = 55.0%

@@ -1,0 +1,3 @@
+Min = 16.58%
+Max = 23.13%
+Operation = Clip

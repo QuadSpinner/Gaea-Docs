@@ -1,0 +1,4 @@
+---
+uid: QuickColor
+title: QuickColor
+---

@@ -1,0 +1,242 @@
+/*!
+ * Bootstrap Table of Contents v1.0.1 (http://afeld.github.io/bootstrap-toc/)
+ * Copyright 2015 Aidan Feldman
+ * Licensed under MIT (https://github.com/afeld/bootstrap-toc/blob/gh-pages/LICENSE.md) */
+/* modified from https://github.com/twbs/bootstrap/blob/94b4076dd2efba9af71f0b18d4ee4b163aa9e0dd/docs/assets/css/src/docs.css#L548-L601 */
+/* All levels of nav */
+nav[data-toggle="toc"] .nav > li > a {
+  display: block;
+  padding: 4px 20px;
+  font-size: 13px;
+  font-weight: 500;
+  color: #767676;
+  border-left: 1px solid rgba(0, 0, 0, 0);
+}
+
+nav[data-toggle="toc"] .nav > li > a:hover,
+nav[data-toggle="toc"] .nav > li > a:focus {
+  padding-left: 19px;
+  color: #09a0fa;
+  text-decoration: none;
+  background-color: transparent;
+  border-left: 1px solid #09a0fa;
+}
+
+nav[data-toggle="toc"] .nav-link.active,
+nav[data-toggle="toc"] .nav-link.active:hover,
+nav[data-toggle="toc"] .nav-link.active:focus {
+  padding-left: 18px;
+  font-weight: bold;
+  color: #09a0fa;
+  background-color: transparent;
+  border-left: 2px solid #09a0fa;
+}
+
+/* Nav: second level (shown on .active) */
+nav[data-toggle="toc"] .nav-link + ul {
+  display: none;
+  /* Hide by default, but at >768px, show it */
+  padding-bottom: 10px;
+}
+
+nav[data-toggle="toc"] .nav .nav > li > a {
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-left: 30px;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+nav[data-toggle="toc"] .nav .nav > li > a:hover,
+nav[data-toggle="toc"] .nav .nav > li > a:focus {
+  padding-left: 29px;
+}
+
+nav[data-toggle="toc"] .nav .nav > li > .active,
+nav[data-toggle="toc"] .nav .nav > li > .active:hover,
+nav[data-toggle="toc"] .nav .nav > li > .active:focus {
+  padding-left: 28px;
+  font-weight: 500;
+}
+
+nav[data-toggle="toc"] .nav-link.active + ul {
+  display: block;
+}
+
+::-moz-selection {
+  /* Code for Firefox */
+  color: black;
+  background: #f7f7a5;
+}
+
+::selection {
+  color: black;
+  background: #f7f7a5;
+}
+
+::-moz-focus-inner {
+  border: 0;
+}
+
+:focus {
+  outline: none;
+}
+
+.img-fluid {
+  max-width: 75% !important;
+}
+
+.TIP,
+.WARNING,
+.NOTE {
+  font-size: 12px;
+  border-width: 1px;
+  border-style: solid;
+  padding: 12px;
+  border-radius: 3px;
+  max-width: 80%;
+  border-left-width: 6px;
+}
+
+.TIP p,
+.WARNING p,
+.NOTE p {
+  margin-bottom: 0;
+}
+
+.TIP p:first-child:before,
+.WARNING p:first-child:before,
+.NOTE p:first-child:before {
+  display: block;
+  font-weight: bold;
+}
+
+.TIP {
+  border-color: rgba(200, 225, 238, 0.33);
+  background-color: #ddf7ff68;
+}
+
+.TIP p:first-child:before {
+  content: "TIP";
+}
+
+.WARNING {
+  border-color: rgba(236, 189, 113, 0.33);
+  background-color: #fff7e486;
+}
+
+.WARNING p:first-child:before {
+  content: "WARNING";
+}
+
+code {
+  background-color: #333;
+  padding: 3px 6px;
+  border-radius: 3px;
+  color: #ffcc00;
+}
+
+.textcontent a {
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 26px;
+}
+
+h2 {
+  font-size: 22px;
+  margin-top: 36px;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.examples ul {
+  padding-left: 0;
+}
+
+.examples ul li {
+  list-style: none;
+}
+
+.sidenav-item {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.card-header i {
+  position: relative;
+  top: 3px;
+}
+
+.card-header ol {
+  margin-bottom: 0 !important;
+}
+
+.card {
+  font-family: "Assistant";
+}
+
+.sidenav-item > .sidenav-link::before {
+  text-transform: none;
+  font-weight: normal;
+  font-style: normal;
+  font-variant: normal;
+  font-family: "Ionicons";
+  line-height: 1;
+  margin-right: 8px;
+  font-size: 16px;
+  color: #f0f0f0;
+}
+
+.sidenav-toggle {
+  padding-right: 0;
+}
+
+.params td:nth-child(1) {
+  width: 15% !important;
+  max-width: 20% !important;
+}
+
+.tutorial {
+  margin-top: 24px;
+}
+
+.tutorial .card {
+  margin-bottom: 24px;
+}
+
+.tutorial .checklist {
+  display: inline-block;
+  background: #f0f0f0;
+  border: 1px solid #e0e0e0;
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  margin: 0;
+  margin-bottom: 24px;
+}
+
+.tutorial .checklist li {
+  display: inline-block;
+  margin-right: 16px;
+}
+
+.tutorial .checklist li .property {
+  min-width: 36px;
+  margin-right: 6px;
+}
+
+.tutorial .checklist li code {
+  position: relative;
+  top: -1px;
+}
+
+h3 {
+  border-bottom: 1px solid #eaebeb;
+  padding-bottom: 5px;
+}
+/*# sourceMappingURL=custom.css.map */

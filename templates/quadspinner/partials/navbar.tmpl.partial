@@ -1,0 +1,20 @@
+{{!Copyright (c) Microsoft. All rights reserved. Licensed under the MIT license. See LICENSE file in the project root for full license information.}}
+
+<nav id="autocollapse" class="navbar  navbar-expand-lg  navbar-dark bg-dark ng-scope" role="navigation">
+ 
+    <div class="navbar-header">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+      {{>partials/logo}}
+    </div>
+    <div class="collapse justify-content-between navbar-collapse" id="navbar">
+    <div id="naver"></div>
+      <form class="my-2 my-lg-0 form-inline justify-content-end" role="search" id="search">
+        <div class="form-group">
+          <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+        </div>
+      </form>
+    </div>
+
+</nav>

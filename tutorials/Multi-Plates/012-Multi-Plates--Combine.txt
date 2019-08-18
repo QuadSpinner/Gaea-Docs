@@ -1,0 +1,2 @@
+Method = Multiply
+Ratio = 94.76%

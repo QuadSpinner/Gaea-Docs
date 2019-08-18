@@ -1,0 +1,2 @@
+Strength = 20.0%
+Level = Level

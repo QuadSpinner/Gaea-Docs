@@ -1,0 +1,29 @@
+[
+
+    {
+        "Path": "Reference",
+        "BaseItem": {
+            "Title": "Node Reference",
+            "Link": "reference/",
+            "UID": "reference"
+        },
+        "ProcessProceduralFiles": true,
+        "ProcessExampleFiles": true
+    },
+    {
+        "Path": "Guide",
+        "BaseItem": {
+            "Title": "User Guide",
+            "Link": "guide/",
+            "UID": "guide"
+        }
+    },
+    {
+        "Path": "Developers",
+        "BaseItem": {
+            "Title": "For Developers",
+            "Link": "developers/",
+            "UID": "dev"
+        }
+    }
+]

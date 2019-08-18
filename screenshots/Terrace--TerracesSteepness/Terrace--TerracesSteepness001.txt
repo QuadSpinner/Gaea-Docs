@@ -1,0 +1,2 @@
+Terraces = 35
+Steepness = 50.0%

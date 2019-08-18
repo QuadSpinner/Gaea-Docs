@@ -1,0 +1,3 @@
+Method = Vertical
+Strength = 7.49%
+Scale = 3.13%

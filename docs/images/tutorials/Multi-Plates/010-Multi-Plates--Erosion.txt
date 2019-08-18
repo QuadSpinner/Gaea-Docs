@@ -1,0 +1,6 @@
+Downcutting = 18.40%
+Inhibition = 3.85%
+Base Level = 36.22%
+Real Scale = False
+Feature Scale = 500
+Terrain Scale = 6641
