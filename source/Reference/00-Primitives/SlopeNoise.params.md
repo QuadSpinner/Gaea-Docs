@@ -1,11 +1,10 @@
-| Setting          | Description                                               |
-| :--------------- | :-------------------------------------------------------- |
-| **Scale**        | TODO                                                      |
-| **Displacement** | TODO                                                      |
-| **Direction**    | TODO                                                      |
-| **Stratified**   | TODO                                                      |
-| **Seed**         | The randomization pattern or seed for the node's process. |
+| Setting          | Description                                                      |
+| :--------------- | :--------------------------------------------------------------- |
+| **Scale**        | The scale of shapes on the slope.                                |
+| **Displacement** | The amount of displacement to perform on the slope shapes.       |
+| **Direction**    | The direction of the slope gradient.                             |
+| **Stratified**   | When enabled, creates long, stratified protrusions on the slope. |
+| **Seed**         | The randomization pattern or seed for the node's process.        |
 
 
 
-SlopeNoise is fantastic for medium range or close-up scenes, where you want to dramatically show the scale and height of the slope.
