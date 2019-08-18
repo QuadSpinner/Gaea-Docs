@@ -7,12 +7,3 @@ The Flow Map can be used to create flow data at any point in the graph, rather t
 
 {.TIP} 
 > There are advantages to both Constant Rainfall options. Average rainfall can be used to highlight stronger flow areas, while Constant rainfall can be used to highlight all flow areas. Combining both can be useful for texture creation.
-
-
-
-
-
-
-
-
-<!--examples-->
