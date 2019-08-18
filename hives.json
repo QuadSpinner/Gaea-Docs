@@ -4,7 +4,7 @@
         "Path": "Reference",
         "BaseItem": {
             "Title": "Node Reference",
-            "Link": "reference/Index.html",
+            "Link": "Reference/Index.html",
             "UID": "reference"
         },
         "ProcessProceduralFiles": true,
@@ -14,7 +14,7 @@
         "Path": "Guide",
         "BaseItem": {
             "Title": "User Guide",
-            "Link": "guide/Index.html",
+            "Link": "Guide/Index.html",
             "UID": "guide"
         }
     },
@@ -22,7 +22,7 @@
         "Path": "Developers",
         "BaseItem": {
             "Title": "For Developers",
-            "Link": "developers/Index.html",
+            "Link": "Developers/Index.html",
             "UID": "dev"
         }
     }
