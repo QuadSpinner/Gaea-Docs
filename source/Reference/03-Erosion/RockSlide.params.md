@@ -4,3 +4,4 @@
 | **Strength**   | The strength of the erosion.                                         |
 | **Random**     | The randomness of each particle's motion.                            |
 | **Seed**       | The randomization pattern or seed for the node's process.            |
+^parallel

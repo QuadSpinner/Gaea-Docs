@@ -15,4 +15,3 @@ title: Scratch
 
 
 
-<!--examples-->

@@ -1,12 +1,12 @@
-| Setting        | Description       |
-| :------------- | :---------------- |
-| **Power**      | TODO              |
-| **Iterations** | TODO              |
-| **Sigma**      | TODO              |
-| **Direction**  | TODO              |
-| **Type**       |                   |
-|                | *Fast* : TODO     |
-|                | *Gaussian* : TODO |
-|                | *Radial* : TODO   |
-|                | *Motion* : TODO   |
-|                | *Smooth* : TODO   |
+| Setting        | Description                                                                                                                              |
+| :------------- | :--------------------------------------------------------------------------------------------------------------------------------------- |
+| **Power**      | The strenght of the blur. For best speed, use high power and low iterations. Although you may see square artifacts with too high values. |
+| **Iterations** | The number of blur iterations to be repeated. For best quality, use low power and at least 4 iterations.                                 |
+| **Sigma**      | The sigma or radius of the Gaussian blur (Only available for Guassian Blur)                                                              |
+| **Direction**  | The direction of the motion blur. (Only available for Motion Blur)                                                                       |
+| **Type**       |                                                                                                                                          |
+|                | *Fast* : TODO                                                                                                                            |
+|                | *Gaussian* : TODO                                                                                                                        |
+|                | *Radial* : TODO                                                                                                                          |
+|                | *Motion* : TODO                                                                                                                          |
+|                | *Smooth* : TODO                                                                                                                          |

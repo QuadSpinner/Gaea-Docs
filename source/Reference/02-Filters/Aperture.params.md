@@ -14,3 +14,4 @@
 |                | *Sobel* : Rectangular stretches which retain corner shapes.                                                                       |
 | **Random**     | When on, each iteration uses a randomly selected kernel.                                                                          |
 | **Seed**       | The randomization pattern or seed for the node's process.                                                                         |
+^parallel

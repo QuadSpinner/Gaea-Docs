@@ -24,4 +24,4 @@ In this example, a @flow is mapped by @CLUTer to create basic texture map.
 For general information on creating color textures, see @Color-Production.
 
 
-<!--examples-->
+

@@ -12,4 +12,4 @@ The Sediment node creates a thick layer of sedimentation on top of the terrain. 
 > If the Drift looks too detached from the main terrain, try changing the Seed or lowering the Strength.
 
 
-<!--examples-->
+

@@ -10,4 +10,4 @@ title: Output
 > The Output node is for backward compatibility only. We recommend using the @build-manager instead, unless you have specific needs.
 
 
-<!--examples-->
+

@@ -16,4 +16,3 @@ title: Cutter
 
 
 
-<!--examples-->

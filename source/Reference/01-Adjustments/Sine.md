@@ -9,4 +9,4 @@ Sine remodulates the terrain noise in a single sine or "reflectance" wave, givin
 > Sine can be great for getting variations from Perlin noises, when you want a slightly unrecognizable or different noise.
 
 
-<!--examples-->
+
