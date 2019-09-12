@@ -77,10 +77,10 @@ Build Swarm logs are both machine and human readable. All values are tab separat
 
 ```dsconfig
 STARTLOG                // Denotes start of a log
-GAEA    <VERSION>          // Gaea version stamp
+GAEA    <VERSION>       // Gaea version stamp
 
-START   <TIME>            // Build start time (yyyy-MM-dd HH:mm:ssz)
-END     <TIME>              // Build end time (yyyy-MM-dd HH:mm:ssz)
+START   <TIME>          // Build start time (yyyy-MM-dd HH:mm:ssz)
+END     <TIME>          // Build end time (yyyy-MM-dd HH:mm:ssz)
 TOTAL   <TIME>          // Total time taken (HH:mm:ss.ms)
 
 RESOLUTION  <RES>       // Total build resolution
@@ -88,7 +88,7 @@ BUCKET SIZE <RES>       // Tiled build bucket resolution
 
 NODE    <NAME>  <TIME>  // Node name and time taken to build  (HH:mm:ss.ms)
 
-OUTPUT  <PATH>           // Build destination directory
+OUTPUT  <PATH>          // Build destination directory
 ENDLOG                  // Denotes end of the log
 ```
 

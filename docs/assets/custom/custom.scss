@@ -52,6 +52,15 @@
   }
 }
 
+.NOTE {
+  border-color: rgba(200, 238, 233, 0.33);
+  background-color: #ddfffb68;
+
+  p:first-child:before {
+    content: "TIP";
+  }
+}
+
 .WARNING {
   border-color: rgba(236, 189, 113, 0.33);
   background-color: #fff7e486;
@@ -61,12 +70,12 @@
   }
 }
 
-code {
-  background-color: #333;
-  padding: 3px 6px;
-  border-radius: 3px;
-  color: #ffcc00;
-}
+// code {
+//   background-color: #333;
+//   padding: 3px 6px;
+//   border-radius: 3px;
+//   color: #ffcc00;
+// }
 
 .textcontent{
 
@@ -197,4 +206,12 @@ h3 {
 h3 {
   border-bottom: 1px solid #eaebeb;
   padding-bottom: 5px;
+}
+
+
+th{
+  font-weight: 700 !important;
+  text-transform: uppercase;
+  font-size: 10px;
+  opacity: 0.5;
 }

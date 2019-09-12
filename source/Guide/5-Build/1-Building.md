@@ -9,7 +9,7 @@ The output from your project must be saved to a file in order to use it elsewher
 
 <div class="small-image">
 
-![Mark for export](/images/ui/Build-Progress.png)
+![Build window](/images/ui/Build-Progress.png)
 
 This image shows the Build Swarm building your terrain project.
 
@@ -21,19 +21,20 @@ The Build Manager simplifies how builds are saved, organized, and managed for fu
 
 Instead of creating a dedicated "Output" node and then specifying the file to save, you can mark a node for automatic output.
 
-![Mark for export](/images/ui/Build-Mark.png)
+![Mark for Export](/images/ui/Build-Mark.png)
 
 To mark a node for export, right-click the node and select `Mark for Export`. You can also use the Graph Toolbar button. In the @layers-mode you can right-click a layer in the Layers List.
 
-![Mark for export](/images/ui/Build-Marked.png)
+![Export Icon](/images/ui/Build-Marked.png)
 
 </div>
+
 Once a node is marked for saving, it displays this icon underneath the node.
 
 
 ## The Build Manager
 
-![Mark for save](/images/ui/Build-Manager.png)
+![Build Manager](/images/ui/Build-Manager.png)
 
 
 You can choose the file format to use for all outputs, modify a node's output name by clicking on the node's label, choose unclamped (formerly called "Full Range"), and +1 output (where 512 x 512 becomes 513 x 513 — necessary for some game engines).
@@ -68,24 +69,23 @@ The output resolution of the build. Higher resolutions give you better detail at
 
 This dropdown allows you to choose the the format in which your output is saved. You can also select per-node file formats in the node list. If you change the selection here, all nodes will default to the selection made here.
 
-{.NOTE}
-> Mesh Formats are not available globally, but must be chosen per-node.
+Mesh Formats are not available globally, but must be chosen per-node.
 
-### Ignore Vertical Scaling
+For details on the individuals formats available, see @file-formats.
 
-Ignores the vertical scale set in the Terrain Definition popup. Use this if you want to manage the vertical scale manually when using the output, or if you are getting stairstep artifacts in your output.
+### Output Range
 
-<!-- #### What's the difference?
+**Natural Elevation**
 
-Here you can see the two outputs: Clamped and Full Range. The main difference is that Clamped is limited to the height set in the Terrain Definition, while Full Range ignores both the Base and Height settings, and exports the entire gradient range in its natural form (32-bit floating point).
+Terrain retains natural scale between 0..1 and ignores artifical scaling created by the proportions in the Terrain Definition. This may require you to scale the height of the terrain in your target application if it does not understand natural scaling.
+                                
+**Artifical Scaling**
+                                
+Terrain is scaled to the proportions in the Terrain Definition. This is useful for mesh exports or heightfields were scale should be handled automatically. In some cases, this method may show banding.
+                                    
+**Forced Full Range**
+Terrain is forced to used the full range between 0..1 provided greater scalability. However, this will require manual scaling in your target application.
 
-#### When should I use Full Range?
-
-Most of the time, you won't need to use Full Range. It can be useful in rare cases: when you intend to manually scale the terrain vertically later; or when you want to manually edit or sculpt the terrain in Photoshop, ZBrush or Mudbox and need as much detail as possible.
-
-If you do use the Full Range export, it is best to use the OpenEXR (.exr) format to preserve the values as best as possible.
-
-You can always export a copy with Clamped values, and use that as a guide for vertically resizing the externally edited Full Range output. -->
 
 ## Tiled Output
 
@@ -177,9 +177,9 @@ Checking this option will sound a beep when the build is complete.
 
 The Location field in the Build Manager provides two built-in options for storing your builds.
 
-The first option is the central build repository, which is stored in My Documents\Gaea\Builds\[Filename] by default, but can be changed to any location — even to a local network or an online shared folder with OneDrive, Dropbox, GDrive, etc. This can be useful in team situations.
+The first option is the central build repository, which is stored in `Documents\Gaea\Builds\[Filename]` by default, but can be changed to any location — even to a local network or an online shared folder with OneDrive, Dropbox, GDrive, etc. This can be useful in team situations.
 
-![Mark for save](/images/Build-ExportedFiles.png)
+![Exported Files](/images/Build-ExportedFiles.png)
 
 The other option is to have it stored alongside the file in a Builds folder. So if your file is called MyTerrain.tor, a folder called MyTerrain_Builds will be placed next to it.
 
@@ -220,6 +220,10 @@ Or something more specific such as:
 which would create:
 
 ```\\00.00.00\Team\Terrains\Bob_2018–06–22–55–31\```
+
+{.WARNING}
+> If you encounter trouble writing to network shares, we recommend hosting the share as a drive instead.
+
 
 ### Version Controlling Terrains
 
