@@ -23,31 +23,37 @@ Simple example of a command line build:
 "C:\Program Files\QuadSpinner\Gaea\Gaea.Build.exe" "C:\Users\Me\Documents\Gaea\MyFile.tor" 
 ```
 
-`--silent` - Disables all non-essential console output.
+### Build Swarm management switches
 
-`--savetor` - Saves a copy of the current file in the build folder.
+| Switch       | Description                                                |
+| :----------- | :--------------------------------------------------------- |
+| `--silent`   | Disables all non-essential console output.                 |
+| `--savetor`  | Saves a copy of the current file in the build folder.      |
+| `--buildlog` | Saves the build log to `buildlog.txt` in the build folder. |
+| `--open`     | Opens the build folder after the build is complete.        |
+| `--close`    | Immediately close the window after build is complete.      |
+| `--beep`     | Play a short beep at the end of a build.                   |
 
-`--open` - Opens the build folder after the build is complete.
+### Build Modification Switchs
 
-`--close` - Immediately close the window after build is complete. Disables the 3 second wait timer.
-
-`--beep` - Play a short beep at the end of a build.
-
-`--unclamped` - Forces the build to use Natural Elevation. See @building
-
-`--forcescale` - Forces the build to use force Full Range scaling. See @building.
-
-`--mutate##` - Repeats the build and randomizes the seeds of every node for each build to create variations. Valid options for the `##` portion are numbers from 1 to 99. See @variations.
-
-`--nodemap` - Creates an XML node map file for any exposed properties.
-
-`--resolution####` - Sets the resolution of the build. Valid options for the `####` portion are 512, 1024, 2048, 4096, and 8192.
-
-`var:value` - Sets the 'value' property of the 'var' exposed node property. See @automation for details. Any such variable arguments must come after `--` switches.
+| Switch             | Description                                                                                                                                                                      |
+| :----------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `--unclamped`      | Forces the build to use Natural Elevation. See @building                                                                                                                         |
+| `--forcescale`     | Forces the build to use force Full Range scaling. See @building.                                                                                                                 |
+| `--mutate##`       | Repeats the build and randomizes the seeds of every node for each build to create variations. <br> Valid options for the `##` portion are numbers from 1 to 99. See @variations. |
+| `--nodemap`        | Creates an XML node map file for any exposed properties.                                                                                                                         |
+| `--resolution####` | Sets the resolution of the build. <br> Valid options for the `####` portion are 512, 1024, 2048, 4096, and 8192.                                                                 |
+| `var:value`        | Sets the 'value' property of the 'var' exposed node property. <br> See @automation for details. Any such variable arguments must come after all switches.                        |
 
 Complex example fo a command line build automation:
 ```vb
-Z:\Git\Gaea\Gaea\Distribution\Obfuscated\Gaea.Build.exe "C:\Users\Dax\Documents\Gaea\sidefx_erosion_automata.tor" --silent --resolution0512 filein:"Z:\WM1.png" fileout:"Z:\WM_out.png" duration:0.518 rocksoftness:0.271 strength:0.184 inhibition:1.0 baselevel:0.0 realscale:true featurescale:2000 seed:0 aggressivemode:true
+Z:\Git\Gaea\Gaea\Distribution\Obfuscated\Gaea.Build.exe 
+ "C:\Users\Dax\Documents\Gaea\sidefx_erosion_automata.tor" 
+ --silent --resolution0512 
+ filein:"Z:\WM1.png"  fileout:"Z:\WM_out.png" 
+ duration:0.518 rocksoftness:0.271 strength:0.184 
+ inhibition:1.0 baselevel:0.0 realscale:true 
+ featurescale:2000 seed:0 aggressivemode:true
 ```
 
 {.NOTE}
@@ -86,7 +92,7 @@ Build Swarm logs are both machine and human readable. All values are tab separat
 
 ### Format
 
-```dsconfig
+```vb
 STARTLOG                // Denotes start of a log
 GAEA    <VERSION>       // Gaea version stamp
 
@@ -101,31 +107,4 @@ NODE    <NAME>  <TIME>  // Node name and time taken to build  (HH:mm:ss.ms)
 
 OUTPUT  <PATH>          // Build destination directory
 ENDLOG                  // Denotes end of the log
-```
-
-### Example
-
-```lua
-STARTLOG
-GAEA	1.0.12.7338
-
-START	2018-12-30 07:29:18Z
-END	2018-12-30 07:30:01Z
-TOTAL	0:00:37
-
-RESOLUTION	2048x2048
-BUCKET SIZE	2048x2048
-
-NODE	Mountain	0:00:00.696
-NODE	Displace	0:00:01.12
-NODE	Erosion	0:00:07.411
-NODE	Displace	0:00:01.133
-NODE	Erosion	0:00:19.097
-NODE	Terrace	0:00:00.041
-NODE	Terrace	0:00:00.059
-NODE	Combine	0:00:00.047
-
-OUTPUT	C:\Users\Me\Documents\Gaea\Builds\ErosionB-002\2018-12-30_07-29-16
-ENDLOG
-
 ```

@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
 @import "_bootstrap-toc.scss";
 
 ::-moz-selection {
@@ -71,12 +72,14 @@
   }
 }
 
-// code {
-//   background-color: #333;
-//   padding: 3px 6px;
-//   border-radius: 3px;
-//   color: #ffcc00;
-// }
+code {
+  background-color: #eedc95;
+  padding: 3px 6px;
+  border-radius: 3px;
+  color: #333333;
+  font-weight: 400;
+  font-family: 'Roboto Mono';
+}
 
 .textcontent{
 

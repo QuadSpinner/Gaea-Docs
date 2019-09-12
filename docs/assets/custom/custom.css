@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap");
 /*!
  * Bootstrap Table of Contents v1.0.1 (http://afeld.github.io/bootstrap-toc/)
  * Copyright 2015 Aidan Feldman
@@ -137,6 +138,15 @@ nav[data-toggle="toc"] .nav-link.active + ul {
 
 .WARNING p:first-child:before {
   content: "WARNING";
+}
+
+code {
+  background-color: #eedc95;
+  padding: 3px 6px;
+  border-radius: 3px;
+  color: #333333;
+  font-weight: 400;
+  font-family: 'Roboto Mono';
 }
 
 .textcontent a {

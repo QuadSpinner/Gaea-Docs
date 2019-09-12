@@ -8,6 +8,13 @@
   background-color: #2a200686;
 }
 
+code {
+  background-color: #333;
+  padding: 3px 6px;
+  border-radius: 3px;
+  color: #ffcc00;
+}
+
 body,
 .bg-footer-theme {
   background-color: #282b31 !important;
