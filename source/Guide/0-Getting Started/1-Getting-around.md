@@ -11,18 +11,23 @@ The Gaea interface is streamlined
 
 ## Interface Sections
 ![](/images/ui/Graph-Graph.jpg)
+
 The Graph surface is where you construct your terrain using different nodes.
 
 ![](/images/ui/Graph-Toolbox.jpg)
+
 The @toolbox is where all nodes are located. You can drag and drop a node to the Graph surface to create a node.
 
 ![](/images/ui/Graph-Properties.jpg)
+
 The @properties panel is where you can modify the properties of the node selected on the Graph surface.
 
 ![](/images/ui/Graph-Viewport3D.jpg)
+
 The 3D @viewport lets you explore the terrain in real time. It shows the output of the currently selected node.
 
 ![](/images/ui/Graph-Viewport2D.jpg)
+
 The 2D @viewport provides an unbiased view of the terrain or mask output of the currently selected node.
 
 ![](/images/ui/Graph-Toolbar.jpg)
