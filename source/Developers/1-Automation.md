@@ -3,6 +3,9 @@ uid: automation
 title: Automating Gaea
 ---
 
+{.WARNING}
+> Professional or Enterprise edition required to take advantage of automation features and bridges to 3rd party applications.
+
 # Automation
 
 Automation is a great way to use Gaea as a semi-external engine, whether to utilize Gaea's erosion or other nodes in another application, or generate terrain variations.
@@ -25,7 +28,7 @@ Repeat the process for any other nodes you wish to expose.
 You can access all exposed properties from the **Node Properties Menu > Show Exposed Properties** or press `F12`.
 
 {.TIP}
-> To process external files and also retrieve the output in an automation scenario, create a @File node for each incoming heightmap, and an @Output for each heigthmap or color map to be saved. Remember to ensure a proper name for each node's filename variable to avoid crashes or data loss.
+> To process external files and also retrieve the output in an automation scenario, create a @File node for each incoming heightmap, and an @Output for each heigthmap or color map to be saved. Remember to ensure a unique name for each node's filename variable to avoid crashes or data loss.
 
 ## Command Line
 
@@ -117,3 +120,7 @@ Here is an example of such a node map.
 </Exposed>
 
 ```
+The Houdini bridge uses the node map to construct the UI for the Gaea node.
+
+![](/images/ui/Houdini.jpg)
+

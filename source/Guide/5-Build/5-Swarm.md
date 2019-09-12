@@ -18,7 +18,7 @@ The Build Swarm writes status messages to StdOut and can be monitored remotely i
 > Gaea uses double dashes `--` instead of a single dash for command line arguments.
 > For paths, always encapsulate them in double quotes to avoid path truncation.
 
-Example Command Line:
+Simple example of a command line build:
 ```vb
 "C:\Program Files\QuadSpinner\Gaea\Gaea.Build.exe" "C:\Users\Me\Documents\Gaea\MyFile.tor" 
 ```
@@ -29,18 +29,29 @@ Example Command Line:
 
 `--open` - Opens the build folder after the build is complete.
 
+`--close` - Immediately close the window after build is complete. Disables the 3 second wait timer.
+
 `--beep` - Play a short beep at the end of a build.
 
+`--unclamped` - Forces the build to use Natural Elevation. See @building
 
-*The following functionality is scheduled for inclusion soon.*
+`--forcescale` - Forces the build to use force Full Range scaling. See @building.
 
-`--path PATH` - Override the destination path for the build. PATH must be a legal, non-write-protected path supplied in double quotes. Gaea will attempt to create the folder if possible.
+`--mutate##` - Repeats the build and randomizes the seeds of every node for each build to create variations. Valid options for the `##` portion are numbers from 1 to 99. See @variations.
 
-`--var(foo, bar)` - Override the value (bar) of a node property (foo) that has been exposed in the file.
+`--nodemap` - Creates an XML node map file for any exposed properties.
 
-`--format EXT` - Override the default output format. Allowed values are PNG, EXR, PSD, HDR, TIF, RAW. Must be entered in CAPITALS.
+`--resolution####` - Sets the resolution of the build. Valid options for the `####` portion are 512, 1024, 2048, 4096, and 8192.
 
-`--variant N` - Repeats the build and randomizes the seeds of every node for each build to create variations. Variations are stored in own sub-folder named in the pattern of Var1, Var2, etc.
+`var:value` - Sets the 'value' property of the 'var' exposed node property. See @automation for details. Any such variable arguments must come after `--` switches.
+
+Complex example fo a command line build automation:
+```vb
+Z:\Git\Gaea\Gaea\Distribution\Obfuscated\Gaea.Build.exe "C:\Users\Dax\Documents\Gaea\sidefx_erosion_automata.tor" --silent --resolution0512 filein:"Z:\WM1.png" fileout:"Z:\WM_out.png" duration:0.518 rocksoftness:0.271 strength:0.184 inhibition:1.0 baselevel:0.0 realscale:true featurescale:2000 seed:0 aggressivemode:true
+```
+
+{.NOTE}
+> You must have the Professional or Enterprise edition to take advantage of automation features.
 
 ## Batch Building
 
