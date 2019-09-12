@@ -35,8 +35,8 @@ You can access all exposed properties from the **Node Properties Menu > Show Exp
 To modify any variables, use the following command line format: `variablename:value`. All variables must be appended to the command line after any switches such as `--open` or `--savetor`. For additional details on command line usage beyond automation, see @build-swarm.
 
 Here is a full command line example:
-```
-C:\Program Files\QuadSpinner\Gaea\Gaea.Build.exe "C:\Users\Username\Documents\Gaea\erosion_automata.tor" 
+```vb
+"C:\Program Files\QuadSpinner\Gaea\Gaea.Build.exe" "C:\Users\Username\Documents\Gaea\erosion_automata.tor" 
  --silent --resolution0512 
  filein:"Z:\input.png" 
  fileout:"Z:\output.png" 
@@ -47,7 +47,8 @@ C:\Program Files\QuadSpinner\Gaea\Gaea.Build.exe "C:\Users\Username\Documents\Ga
  baselevel:0.0 
  realscale:true 
  featurescale:2000 
- seed:0 aggressivemode:true
+ aggressivemode:true
+ seed:0 
 ```
 
 ![](/images/ui/automation-buildmanager-commandline.png)
@@ -61,8 +62,8 @@ Gaea provides the facility to create an XML mapping file containing the details 
 
 To produce this XML map, pass the `--nodemap` switch to the @build-swarm.
 
-```
-C:\Program Files\QuadSpinner\Gaea\Gaea.Build.exe "C:\Users\Username\Documents\Gaea\erosion_automata.tor" --nodemap
+```vb
+Gaea.Build.exe "C:\Gaea\erosion_automata.tor" --nodemap
 ```
 
 Here is an example of such a node map.
