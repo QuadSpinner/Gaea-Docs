@@ -94,7 +94,8 @@ nav[data-toggle="toc"] .nav-link.active + ul {
   border-style: solid;
   padding: 12px;
   border-radius: 3px;
-  max-width: 80%;
+  max-width: 50%;
+  font-weight: 600;
   border-left-width: 6px;
 }
 

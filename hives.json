@@ -19,6 +19,14 @@
         }
     },
     {
+        "Path": "Videos",
+        "BaseItem": {
+            "Title": "Videos",
+            "Link": "Videos/index.html",
+            "UID": "videos"
+        }
+    },
+    {
         "Path": "Developers",
         "BaseItem": {
             "Title": "For Developers",
