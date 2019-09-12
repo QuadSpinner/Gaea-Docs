@@ -90,8 +90,6 @@ Gaea.Build.exe "C:\Users\Dax\Documents\Gaea\ErosionB-009.tor" vars
 
 Build Swarm logs are both machine and human readable. All values are tab separated.
 
-### Format
-
 ```vb
 STARTLOG                // Denotes start of a log
 GAEA    <VERSION>       // Gaea version stamp

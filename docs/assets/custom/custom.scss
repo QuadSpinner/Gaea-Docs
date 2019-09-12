@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap");
 @import "_bootstrap-toc.scss";
 
 ::-moz-selection {
@@ -19,7 +19,7 @@
   outline: none;
 }
 
-.img-fluid{
+.img-fluid {
   max-width: 75% !important;
 }
 
@@ -78,23 +78,26 @@ code {
   border-radius: 3px;
   color: #333333;
   font-weight: 400;
-  font-family: 'Roboto Mono';
+  font-family: "Roboto Mono";
 }
 
-.textcontent{
-
-  a{
+.textcontent {
+  a {
     font-weight: 600;
   }
 }
 
 h1 {
   font-size: 26px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #eaebeb;
 }
 
 h2 {
   font-size: 22px;
   margin-top: 36px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #eaebeb;
 }
 
 h3 {
@@ -161,7 +164,7 @@ h3 {
 //   box-shadow: 0 16px 20px rgba(0, 0, 0, 0.33);
 // }
 
-.sidenav-toggle{
+.sidenav-toggle {
   padding-right: 0;
 }
 
@@ -213,8 +216,7 @@ h3 {
   padding-bottom: 5px;
 }
 
-
-th{
+th {
   font-weight: 700 !important;
   text-transform: uppercase;
   font-size: 10px;
