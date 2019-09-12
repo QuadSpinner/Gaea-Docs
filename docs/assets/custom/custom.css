@@ -141,7 +141,7 @@ nav[data-toggle="toc"] .nav-link.active + ul {
 }
 
 code {
-  background-color: #eedc95;
+  background-color: #ffe57d;
   padding: 3px 6px;
   border-radius: 3px;
   color: #333333;
@@ -165,6 +165,7 @@ h2 {
 h3 {
   font-size: 18px;
   font-weight: 600;
+  margin-top: 36px;
 }
 
 .examples ul {
