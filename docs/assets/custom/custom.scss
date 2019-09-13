@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap");
 @import "_bootstrap-toc.scss";
 
 ::-moz-selection {
@@ -18,7 +19,7 @@
   outline: none;
 }
 
-.img-fluid{
+.img-fluid {
   max-width: 75% !important;
 }
 
@@ -30,7 +31,8 @@
   border-style: solid;
   padding: 12px;
   border-radius: 3px;
-  max-width: 80%;
+  max-width: 50%;
+  font-weight: 600;
   border-left-width: 6px;
 
   p {
@@ -52,6 +54,15 @@
   }
 }
 
+.NOTE {
+  border-color: rgba(200, 238, 233, 0.33);
+  background-color: #ddfffb68;
+
+  p:first-child:before {
+    content: "TIP";
+  }
+}
+
 .WARNING {
   border-color: rgba(236, 189, 113, 0.33);
   background-color: #fff7e486;
@@ -62,31 +73,37 @@
 }
 
 code {
-  background-color: #333;
+  background-color: #ffe57d;
   padding: 3px 6px;
   border-radius: 3px;
-  color: #ffcc00;
+  color: #333333;
+  font-weight: 400;
+  font-family: "Roboto Mono";
 }
 
-.textcontent{
-
-  a{
+.textcontent {
+  a {
     font-weight: 600;
   }
 }
 
 h1 {
   font-size: 26px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #eaebeb;
 }
 
 h2 {
   font-size: 22px;
   margin-top: 36px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #eaebeb;
 }
 
 h3 {
   font-size: 18px;
   font-weight: 600;
+  margin-top: 36px;
 }
 
 .examples {
@@ -147,7 +164,7 @@ h3 {
 //   box-shadow: 0 16px 20px rgba(0, 0, 0, 0.33);
 // }
 
-.sidenav-toggle{
+.sidenav-toggle {
   padding-right: 0;
 }
 
@@ -197,4 +214,11 @@ h3 {
 h3 {
   border-bottom: 1px solid #eaebeb;
   padding-bottom: 5px;
+}
+
+th {
+  font-weight: 700 !important;
+  text-transform: uppercase;
+  font-size: 10px;
+  opacity: 0.5;
 }

@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap");
 /*!
  * Bootstrap Table of Contents v1.0.1 (http://afeld.github.io/bootstrap-toc/)
  * Copyright 2015 Aidan Feldman
@@ -94,7 +95,8 @@ nav[data-toggle="toc"] .nav-link.active + ul {
   border-style: solid;
   padding: 12px;
   border-radius: 3px;
-  max-width: 80%;
+  max-width: 50%;
+  font-weight: 600;
   border-left-width: 6px;
 }
 
@@ -120,6 +122,15 @@ nav[data-toggle="toc"] .nav-link.active + ul {
   content: "TIP";
 }
 
+.NOTE {
+  border-color: rgba(200, 238, 233, 0.33);
+  background-color: #ddfffb68;
+}
+
+.NOTE p:first-child:before {
+  content: "TIP";
+}
+
 .WARNING {
   border-color: rgba(236, 189, 113, 0.33);
   background-color: #fff7e486;
@@ -130,10 +141,12 @@ nav[data-toggle="toc"] .nav-link.active + ul {
 }
 
 code {
-  background-color: #333;
+  background-color: #ffe57d;
   padding: 3px 6px;
   border-radius: 3px;
-  color: #ffcc00;
+  color: #333333;
+  font-weight: 400;
+  font-family: "Roboto Mono";
 }
 
 .textcontent a {
@@ -142,16 +155,21 @@ code {
 
 h1 {
   font-size: 26px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #eaebeb;
 }
 
 h2 {
   font-size: 22px;
   margin-top: 36px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #eaebeb;
 }
 
 h3 {
   font-size: 18px;
   font-weight: 600;
+  margin-top: 36px;
 }
 
 .examples ul {
@@ -238,5 +256,12 @@ h3 {
 h3 {
   border-bottom: 1px solid #eaebeb;
   padding-bottom: 5px;
+}
+
+th {
+  font-weight: 700 !important;
+  text-transform: uppercase;
+  font-size: 10px;
+  opacity: 0.5;
 }
 /*# sourceMappingURL=custom.css.map */

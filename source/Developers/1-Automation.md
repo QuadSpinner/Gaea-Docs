@@ -3,6 +3,9 @@ uid: automation
 title: Automating Gaea
 ---
 
+{.WARNING}
+> Professional or Enterprise edition required to take advantage of automation features and bridges to 3rd party applications.
+
 # Automation
 
 Automation is a great way to use Gaea as a semi-external engine, whether to utilize Gaea's erosion or other nodes in another application, or generate terrain variations.
@@ -25,15 +28,15 @@ Repeat the process for any other nodes you wish to expose.
 You can access all exposed properties from the **Node Properties Menu > Show Exposed Properties** or press `F12`.
 
 {.TIP}
-> To process external files and also retrieve the output in an automation scenario, create a @File node for each incoming heightmap, and an @Output for each heigthmap or color map to be saved. Remember to ensure a proper name for each node's filename variable to avoid crashes or data loss.
+> To process external files and also retrieve the output in an automation scenario, create a @File node for each incoming heightmap, and an @Output for each heigthmap or color map to be saved. Remember to ensure a unique name for each node's filename variable to avoid crashes or data loss.
 
 ## Command Line
 
 To modify any variables, use the following command line format: `variablename:value`. All variables must be appended to the command line after any switches such as `--open` or `--savetor`. For additional details on command line usage beyond automation, see @build-swarm.
 
 Here is a full command line example:
-```
-C:\Program Files\QuadSpinner\Gaea\Gaea.Build.exe "C:\Users\Username\Documents\Gaea\erosion_automata.tor" 
+```vb
+"C:\Program Files\QuadSpinner\Gaea\Gaea.Build.exe" "C:\Users\Username\Documents\Gaea\erosion_automata.tor" 
  --silent --resolution0512 
  filein:"Z:\input.png" 
  fileout:"Z:\output.png" 
@@ -44,7 +47,8 @@ C:\Program Files\QuadSpinner\Gaea\Gaea.Build.exe "C:\Users\Username\Documents\Ga
  baselevel:0.0 
  realscale:true 
  featurescale:2000 
- seed:0 aggressivemode:true
+ aggressivemode:true
+ seed:0 
 ```
 
 ![](/images/ui/automation-buildmanager-commandline.png)
@@ -58,8 +62,8 @@ Gaea provides the facility to create an XML mapping file containing the details 
 
 To produce this XML map, pass the `--nodemap` switch to the @build-swarm.
 
-```
-C:\Program Files\QuadSpinner\Gaea\Gaea.Build.exe "C:\Users\Username\Documents\Gaea\erosion_automata.tor" --nodemap
+```vb
+Gaea.Build.exe "C:\Gaea\erosion_automata.tor" --nodemap
 ```
 
 Here is an example of such a node map.
@@ -117,3 +121,7 @@ Here is an example of such a node map.
 </Exposed>
 
 ```
+The Houdini bridge uses the node map to construct the UI for the Gaea node.
+
+![](/images/ui/Houdini.jpg)
+

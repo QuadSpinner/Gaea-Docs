@@ -44,8 +44,14 @@
     <div class="layout-inner">
 
       <!-- Layout navbar -->
-      <nav class="layout-navbar navbar navbar-expand-lg bg-navbar-theme container-p-x"
-        id="layout-navbar">
+      <nav class="layout-navbar navbar navbar-expand-lg bg-navbar-theme container-p-x" id="layout-navbar">
+
+        <!-- Sidenav toggle -->
+        <div class="layout-sidenav-toggle navbar-nav align-items-lg-center mr-auto mr-lg-4 d-flex d-lg-none d-xl-none">
+          <a class="nav-item nav-link px-0 ml-2" href="javascript:void(0)">
+            <i class="ion ion-md-menu text-large align-middle"></i>
+          </a>
+        </div>
 
         <!-- Navbar toggle -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#layout-navbar-collapse">
@@ -56,11 +62,6 @@
           <img id="logo" src="/images/Gaea_Logo_Dark.png" class="app-brand-logo ui-w-100" />
         </a>
 
-        <div class="navbar-collapse collapse" id="layout-navbar-collapse">
-          <div class="navbar-nav align-items-lg-center">
-            <!--REPLACE-SUPERNAV-->
-          </div>
-        </div>
 
         <div class="navbar-text order-lg-2 text-right small"> <label class="switcher switcher-dark">
             <input type="checkbox" id="cb1" class="switcher-input" checked="">
@@ -71,6 +72,11 @@
             <span class="switcher-label text-muted"><i class="ion ion-ios-moon d-block"></i></span>
           </label></div>
 
+          <div class="navbar-collapse collapse" id="layout-navbar-collapse">
+            <div class="navbar-nav align-items-lg-center">
+              <!--REPLACE-SUPERNAV-->
+            </div>
+          </div>
       </nav>
 
       <!-- / Layout navbar -->
@@ -89,10 +95,10 @@
             <div class="row">
               <div class="col-lg-10 textcontent" data-spy="scroll" data-target="#toc">
 
-                <div class="alert alert-warning font-weight-bold">
+                <div class="alert alert-warning font-weight-bold py-1">
                   <small>
                     <strong>
-                        Work in progress!
+                      Work in progress!
                     </strong>
                     This document is currently being compiled and edited. Contents may not be fully complete.
                   </small>
@@ -152,7 +158,13 @@
   <script src="/assets/js/bootstrap-toc.min.js"></script>
 
   <script src="/assets/js/highlight.pack.js"></script>
-  <script>hljs.initHighlightingOnLoad();</script>
+  <script>
+document.addEventListener('DOMContentLoaded', (event) => {
+  document.querySelectorAll('pre code').forEach((block) => {
+    hljs.highlightBlock(block);
+  });
+});
+  </script>
 </body>
 
 </html>
