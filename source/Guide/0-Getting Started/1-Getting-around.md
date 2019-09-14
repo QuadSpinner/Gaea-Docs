@@ -32,7 +32,7 @@ The 2D @viewport provides an unbiased view of the terrain or mask output of the 
 
 ![](/images/ui/Graph-Toolbar.jpg)
 
-The main toolbar, including the Gaea menu, is where you can access file commands, viewport modes, and terrain options such as materials, terrain definition, atmosphere, and water surface display.
+The main toolbar, including the Gaea menu, is where you can access file commands, viewport modes, and terrain options; such as materials, terrain definition, atmosphere, and water surface display.
 
 ![](/images/ui/Graph-GraphToolbar.jpg)
 
