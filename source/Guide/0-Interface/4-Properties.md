@@ -31,17 +31,17 @@ It also gives you access to a private Undo history for that particular setting. 
 Seed Reset is a minor enhancement in the Microincrements UI. It sets the “Default” seed value to whatever the random value is when the node is created. So if you play around for a while and want to go back to the original seed, you can simply reset the Seed.
 
 ## Heavy Nodes
-We have classified some nodes, such as @Erosion, @Fluvial, etc. as "Heavy" Nodes — meaning, they can take a long time to process, and sometimes cannot be cancelled mid-process. Updating multiple settings on such a node can slow down or even freeze up the application.
+We have classified some nodes, such as @Erosion, @Fluvial, etc., as "Heavy" Nodes — meaning, they can take a long time to process and sometimes cannot be cancelled mid-process. Updating multiple settings on such a node can slow down or even freeze up the application.
 
-When you modify a Heavy node, it will not update automatically. It will instead show an **Apply** button, which you can click when you have made your changes.
+When you modify a Heavy Node, it will not update automatically. It will instead show an **Apply** button, which you can click when you have made your changes.
 If you move away from the node, or select another node, changes will be applied automatically, so you won’t lose any modifications.
 
-**Apply** button has a **Auto Apply** toggle button next to it. When you turn **Auto Apply** on, that particular node will update automatically.
+The **Apply** button has an **Auto Apply** toggle button next to it. When you turn on **Auto Apply**, that particular node will update automatically.
 
 #  Post Processing
 The Post Process options sits right under the Properties and provides quick access to common functions.
 
-Post processing options has Autolevel, Invert, Bias-Gain and Clamp options. These are individual options which you can turn On/Off as per your requirements.Turning on a particular options for e.g. Bias-Gain will show the sliders Bias and Gain.
+Post processing options has Autolevel, Invert, Bias-Gain, and Clamp options. These are individual options which you can turn On/Off per your requirements. Turning on a particular option, e.g. Bias-Gain, will show the sliders Bias and Gain.
 
 You can use Autolevel and Influence to control your node without having to add a second node. This will help you keep your graph clean.
 
@@ -51,4 +51,4 @@ The Influence slider is a very simple yet powerful tool for layering effects. It
 
 `// TODO: Image`
 
-Here is an example: a heavily eroded terrain goes through Recurve, but in Recurve the Influence is set to `0.5`, which yields a more realistic looking output of Recurve, while being able to use strong values in Recurve to create long striations.
+Here is an example: a heavily-eroded terrain goes through Recurve, where the Influence is set to `0.5`, which yields a more realistic looking output of Recurve, while still being able to use strong values in Recurve to create long striations.
