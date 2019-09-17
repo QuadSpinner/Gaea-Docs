@@ -6,7 +6,7 @@ title: Graph Workflow
 ## Understanding the Advanced Graph
 The graph may look complicated, but follows a simple pattern. Each node represents a specific function, and has two types of "ports"; namely, Input ports and Output ports. These ports are used to connect one node to another to create a sequence of functions, which result in a terrain.
 
-There are certain nodes that may not have both port types, or may have special ports specific to that node. For a better understanding of those nodes, please see the documentation for those specific nodes under `Reference`.
+There are certain nodes that may not have both port types, or that may have special ports specific to that node. For a better understanding of those nodes, please see the documentation for those specific nodes under `Reference`.
 
 ---
 
@@ -30,7 +30,7 @@ Once you are finished, click the "End Masking" button in the toolbar to commit t
 When a graph becomes large, there are many ways you can manage nodes for specific purposes. The options below are available through a keyboard shortcut or from the context menu of the node by right-click.
 
 ### Bypass
-Bypassing a node (press `B`) keeps it in the graph, and maintains its relationships, but it is not included in the processing. This is very useful for experimentation.
+Bypassing a node (press `B`) keeps it in the graph and maintains its relationships, but does not include it in the processing. This is very useful for experimentation.
 
 ### Pinned Preview
 Pinning a preview (press `F`) is a convenient way to see the end-result of a chain of nodes. When a node is pinned, you can move to other nodes and see their properties; however, the visual is only that of the pinned node. 
@@ -53,7 +53,7 @@ See the article `Building` for details.
 ### Drop Behavior
 Drop a node on a connection to have it interject itself between two nodes. Drop it on another node to have it be parented to that node. If another sibling node exists, the new node will be organized automatically.
 
-Alternatively, you can drag an unconnected node, that already exists, on to a connection by pressing `Shift` key and it will interject itself.
+Alternatively, you can drag an unconnected node which already exists onto a connection by pressing `Shift` key and it will interject itself.
 
 ### Auto Layout
 Even the most complicated graphs can be automatically organized. Just press `F4` in the graph.
@@ -61,14 +61,14 @@ Even the most complicated graphs can be automatically organized. Just press `F4`
 Pressing `F4` once will layout the graph in a linear pattern. Pressing `F4` again lays out the graph in a waterfall pattern. In the waterfall pattern, Gaea will intelligently try to figure out the junctions in the graph and stagger the subsequence nodes accordingly.
 
 ### Quick Create Node
-Rather than setting up a node and then connecting it, you can drag a connection into empty space and use the quick create menu. You can click on a particular node name from the quick create menu, or you can type in node name which will show the list of matching nodes. Selecting node from this list connects to it.
+Rather than setting up a node and then connecting it, you can drag a connection into empty space and use the quick create menu. You can click on a particular node name from the quick create menu, or you can type in a node name which will show the list of matching nodes. Selecting a node from this list connects to it.
 
 ### Connect to Connection
 Drop a connection on another connection to quickly connect to the same source node.
 
 ### MultiMix
-Select two or more nodes, and click the MultiMix button, alternatively, you can also press `F8` key. This will instantly create a sequence of Combine nodes to mix the selected nodes together. For more detailed control, you can select two at a time and MultiMix the results.
+Select two or more nodes and click the MultiMix button. Alternatively, you can press `F8`. This will instantly create a sequence of Combine nodes to mix the selected nodes together. For more detailed control, you can select two at a time and MultiMix the results.
 
 ## Favorites
-Favorite nodes are shown at the top of the Graph. To add or remove a node from favorites, right-click on the tool in the Toolbox and check **Show in favorites**. You can also right-click on the tool in favorites bar on top of the Graph and uncheck **Show in favorites** to remove it from favorites. You can choose to show/hide favorites bar. Open the preferences dialog from main Gaea Menu. Under the **Workspace** tab, you can check/uncheck the **Show Favorites in Graph** to show/Hide the Favorites bar on top of Graph.
+Favorite nodes are shown at the top of the Graph. To add a node to favorites, right-click on the tool in the Toolbox and check **Show in favorites**. To remove a node from favorites, right-click on the tool in the Favorites bar on top of the Graph and uncheck **Show in favorites**. You can also choose to show/hide Favorites bar. Open the preferences dialog from Gaea Main Menu. Under the **Workspace** tab, you can check/uncheck the **Show Favorites in Graph** to show/Hide the Favorites bar on top of Graph.
 
