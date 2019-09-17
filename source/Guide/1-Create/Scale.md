@@ -19,7 +19,7 @@ You can define the Base and Height of your terrain in meters. Both are counted f
 
 ```
 
-A height of 2.6km is usually more than enough for most terrains. For perspective, Mt. Everest is 8.8km tall! Going that tall is not recommended unless you really know how to handle the side effects of such tall terrains.
+A height of 2.6km is usually more than enough for most terrains. For perspective, Mt. Everest is 8.8km tall! Choosing an extreme height is not recommended unless you know how to handle the side effects of such tall terrains.
 
 {.NOTE}
-> Terrain Definition is non-destructive. You can scale your terrain and the update will be applied on the fly without requiring a rebuild of your terrain. You can change the values as often as you like.
+> Terrain Definition is non-destructive. You can scale your terrain and the update will be immediately applied without the need to rebuild your terrain. You can change the values as often as you like.
