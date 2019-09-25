@@ -23,7 +23,7 @@ Simple example of a command line build:
 "C:\Program Files\QuadSpinner\Gaea\Gaea.Build.exe" "C:\Users\Me\Documents\Gaea\MyFile.tor" 
 ```
 
-### Build Swarm management switches
+### Build Swarm Management Switches
 
 | Switch       | Description                                                |
 | :----------- | :--------------------------------------------------------- |
@@ -31,21 +31,21 @@ Simple example of a command line build:
 | `--savetor`  | Saves a copy of the current file in the build folder.      |
 | `--buildlog` | Saves the build log to `buildlog.txt` in the build folder. |
 | `--open`     | Opens the build folder after the build is complete.        |
-| `--close`    | Immediately close the window after build is complete.      |
-| `--beep`     | Play a short beep at the end of a build.                   |
+| `--close`    | Immediately closes the window after build is complete.      |
+| `--beep`     | Plays a short beep at the end of a build.                   |
 
-### Build Modification Switchs
+### Build Modification Switches
 
 | Switch             | Description                                                                                                                                                                      |
 | :----------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `--unclamped`      | Forces the build to use Natural Elevation. See @building                                                                                                                         |
 | `--forcescale`     | Forces the build to use force Full Range scaling. See @building.                                                                                                                 |
-| `--mutate##`       | Repeats the build and randomizes the seeds of every node for each build to create variations. <br> Valid options for the `##` portion are numbers from 1 to 99. See @variations. |
+| `--mutate##`       | Repeats the build and randomizes the seeds of every node to create variations with each build. <br> Valid options for the `##` portion are numbers from 1 to 99. See @variations. |
 | `--nodemap`        | Creates an XML node map file for any exposed properties.                                                                                                                         |
 | `--resolution####` | Sets the resolution of the build. <br> Valid options for the `####` portion are 512, 1024, 2048, 4096, and 8192.                                                                 |
 | `var:value`        | Sets the 'value' property of the 'var' exposed node property. <br> See @automation for details. Any such variable arguments must come after all switches.                        |
 
-Complex example fo a command line build automation:
+Complex example of a command line build automation:
 ```vb
 Z:\Git\Gaea\Gaea\Distribution\Obfuscated\Gaea.Build.exe 
  "C:\Users\Dax\Documents\Gaea\sidefx_erosion_automata.tor" 
