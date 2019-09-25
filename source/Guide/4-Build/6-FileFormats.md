@@ -32,19 +32,19 @@ Gaea stores and processes its heightfields in 32-bit floating points, which is c
 For practical purposes, exporting as either OpenEXR or TIFF will give you the best results and maximum compatibility with other applications. If you are using a custom pipeline, using R32 or PFM formats may be of more use. See the section below for those formats.
 
 {.TIP}
-> If you are saving output from Gaea to bring back to Gaea either in the same or different file, we recommend using the `.r32` or `.pfm` formats as they will provide maximum fidelity and efficiency.
+> If you are saving output from Gaea to bring back to Gaea either in the same or different file, we recommend using the `.r32` or `.pfm` formats for maximum fidelity and efficiency.
 
 ### 16-bit
 
-While displacement/heightfield information requires 32-bit precision for accuracy, color maps, masks, and other secondary data which may have fewer levels of complexity can make use of 16-bit formats such as PNG. This can help save on disk space as larger worlds will require a lot of storage space. Storing in 16-bit also helps performance.
+While displacement/heightfield information requires 32-bit precision for accuracy; color maps, masks, and other secondary data which may have fewer levels of complexity can make use of 16-bit formats, such as PNG. This can help save on disk space as larger worlds will require a lot of storage space. Storing in 16-bit also helps performance.
 
 In fact, if your terrain does not contain many smooth details, you can even export your main displacement as 16-bit.
 
-Game engines such as Unity can only import RAW 16-bit (ushort) format terrains.
+Game engines, such as Unity, can only import RAW 16-bit (ushort) format terrains.
 
 ### 8-bit
 
-In some cases, for example - black and white masks, you may not need a high level of precision at all. You can use 8-bit PNG output in such situations which can increase performance and save disk space.
+In some cases, for example: black and white masks, you may not need a high level of precision at all. You can use 8-bit PNG output which can increase performance and save disk space.
 
 
 ## Custom Workflows
@@ -65,6 +65,6 @@ Both formats are recommended for heightfield (grayscale) data only.
 
 The Portable Float Map is [based on the NetPBM format](http://netpbm.sourceforge.net/doc/pfm.html). The file contains 3 lines of ASCII text with Unix style carriage return (`\n`), followed by the binary sequence of floats similar to the .r32 format.
 
-Unlike the RAW formats above, PFM can store color data safely as the header can tell the reader if the data is single channel grayscale or RGB.
+Unlike the RAW formats above, PFM can store color data safely. The header tells the reader if the data is single channel grayscale or RGB.
 
-Gaea can also read PFM ASCII format data, but is highly unrecommended as it is extremely inefficent. It is provided for compatibility only.
+Gaea can also read PFM ASCII format data, but is strongly not recommended because it is extremely inefficent. It's provided for compatibility only.
