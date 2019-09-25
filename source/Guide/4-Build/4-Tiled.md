@@ -5,7 +5,7 @@ title: Tiled Builds
 
 # Tiled Output vs. Tiled Processing
 
-To begin, let's differentiate between tiled output and tiled processing.
+Let's differentiate between tiled output and tiled processing:
 
 *"Tiled Output"* is when the build results (regardless of how they were built) are saved in a grid - that is, the overall output is split into even tiles. Tiled Output is used for very large terrains, especially in games, where parts of the terrain are "streamed" into memory for efficiency.
 
@@ -20,10 +20,10 @@ To begin, let's differentiate between tiled output and tiled processing.
 {.NOTE}
 > Tiled Processing is scheduled for inclusion in the March-April update cycle.
 
-There is natural limitation of tiled processing: each tile is processed without any relation to the neighboring tiles. This may result in abrupt differences at the borders. To overcome this, a Edge Blend setting is provided. You can choose Low, Medium, High, Overkill. Increasing the blending amount will increase the time taken for processing, and the memory required. However, it will still be quite less than a normal or linear build.
+There are natural limitations of Tiled Processing. One is that each tile is processed without any relation to the neighboring tiles. This may result in abrupt differences at the borders. To overcome this, an Edge Blend setting is provided. You can choose Low, Medium, High, or Overkill. Increasing the blending amount will increase the time taken for processing, and the memory required. However, it will still be less than a normal or linear build.
 
 ### Avoid Screenspace Effects
 
-Another natural limitation of Tiled Processing is the inability to process screenspace effects. Screenspace effects are nodes such as @Swirl, @Whorl, @Transform, etc. Such effects require processing the image as a whole and will not look correct when processed as tiles.
+Another natural limitation is the inability to process screenspace effects. Screenspace effects are nodes such as @Swirl, @Whorl, @Transform, etc. Such effects require processing the image as a whole and will not look correct when processed as tiles.
 
 If you have used any such nodes, there will be a small warning icon in the status bar, and a more comprehensive warning in the @build-manager dialog.
