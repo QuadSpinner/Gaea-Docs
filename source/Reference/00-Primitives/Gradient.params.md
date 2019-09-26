@@ -5,7 +5,7 @@
 |                      | *Radial* : A soft, radial "bump".                                                   |
 |                      | *Helix* : A climbing, spiral or helix gradient.                                     |
 | **Scale**            | The scale of the gradient.                                                          |
-| **Sawtooth**         | On allows a lower scaled Linear gradient to create a repeating or sawtooth pattern. |
+| **Sawtooth**         | ON allows a lower scaled Linear gradient to create a repeating or sawtooth pattern. |
 | **Direction**        | The angle of the Linear gradient.                                                   |
 | **Edge Behavior**    |
 |                      | *None* : Edge pixels are left blank.                                                |
