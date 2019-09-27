@@ -15,7 +15,7 @@
 | **Function**       |                                                                               |
 |                    | *E* : Euclidean function.                                                     |
 |                    | *M* : Manhattan function.                                                     |
-|                    | *N* : Natural, geology friendly version of Euclidean.                         |
+|                    | *N* : Natural, geology-friendly version of Euclidean.                         |
 | **Form**           |                                                                               |
 |                    | *C* : Voronoi cells with height decided by the cells themselves.              |
 |                    | *N* : Voronoi cells with height decided by the nearest neighbor.              |
@@ -23,5 +23,5 @@
 |                    | *P* : The default look for this geo-variant, suitable for creating mountains. |
 |                    | *A* : A mix between P and M.                                                  |
 |                    | *S* : Individual mountains with fully separated boundaries.                   |
-|                    | *M* : Favor the strongest cell, good for creating a big mountain slope.       |
-|                    | *D* : Favor ridges over cell centers.                                         |
+|                    | *M* : Favors the strongest cell; good for creating a big mountain slope.       |
+|                    | *D* : Favors ridges over cell centers.                                         |
