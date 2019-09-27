@@ -12,7 +12,7 @@
 | **Perturb**        |
 |                    | *None* : No warping.                                                                                                            |
 |                    | *Simple* : Simple, soft warping.                                                                                                |
-|                    | *Complex* : Complex, turbulent warping.                                                                                        |
+|                    | *Complex* : Complex, turbulence warping.                                                                                        |
 | **Warp Frequency** | Frequency of the warp. Higher numbers create stronger warping.                                                                  |
 | **Warp Amplitude** | The strength of the warping applied to the base noise.                                                                          |
 | **Warp Octaves**   | The complexity of the warping shape.                                                                                            |
