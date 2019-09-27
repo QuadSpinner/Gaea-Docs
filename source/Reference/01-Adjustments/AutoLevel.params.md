@@ -8,5 +8,5 @@
 | **Apply Equalize**  | Equalizes the terrain where the heights are linearly distributed between the highest and lowest points.                                        |
 | **Equalize**        | The strength of the equalization.                                                                                                              |
 | **Apply Gamma**     | Applies a Gamma-style height adjustment to the terrain.                                                                                        |
-| **Auto-Gamma**      | Applies AutoGamma.                                                                                                                             |
+| **Auto-Gamma**      | Applies Auto-Gamma.                                                                                                                             |
 | **Gamma**           | The Gamma amount to be used. This only works when Auto-Gamma is turned off.                                                                    |
