@@ -7,12 +7,12 @@
 | **Scale Y**        | The non-uniform scale of the Y axis.                                                                                            |
 | **Noise**          |
 |                    | *FBM* : Use for varied noise.                                                                                                   |
-|                    | *Ridged* : Use for sharped ridges.                                                                                              |
+|                    | *Ridged* : Use for sharp ridges.                                                                                              |
 |                    | *Billowy* : Use for lower, more bulbous shapes.                                                                                 |
 | **Perturb**        |
 |                    | *None* : No warping.                                                                                                            |
 |                    | *Simple* : Simple, soft warping.                                                                                                |
-|                    | *Complex* : Complex, turbulence warping.                                                                                        |
+|                    | *Complex* : Complex, turbulent warping.                                                                                        |
 | **Warp Frequency** | Frequency of the warp. Higher numbers create stronger warping.                                                                  |
 | **Warp Amplitude** | The strength of the warping applied to the base noise.                                                                          |
 | **Warp Octaves**   | The complexity of the warping shape.                                                                                            |
