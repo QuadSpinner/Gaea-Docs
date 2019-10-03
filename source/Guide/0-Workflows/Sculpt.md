@@ -13,39 +13,40 @@ Directed Erosion is intended for fine detailing, and works at an independent res
 ## Working in 1:1 Resolution
 In an effort to prevent memory excesses, the Sculpt mode will only show a 2048 x 2048 area. While the mini map in the sidebar let's you navigate the entire terrain, you can only see a 2K area at a time in the viewport.
 
-Regardless of your target size, Directed Erosion's strokes are always processed at the same speed, whether at 2K or 32K!
+Regardless of your target size, Directed Erosion's strokes are always processed at the same speed, whether at 2K or 32K.
 
 ## Erosion Tools
 The Erosion Tools become available when you enter the Sculpt mode. This floating window lets you select an erosion tool, modify its setting, and choose an erosion mode.
 
 Each erosion tool creates a different effect. Some have secondary variations.
-- **LandBreaker**- general, all purpose erosive breakdown.
-- **Flowlines** - creates Breaker style broad flow lines.
+- **LandBreaker**- general, all-purpose erosive breakdown.
+- **Flowlines** - creates Breaker-style broad flow lines.
 - **Soil** - soil deposit tool. Great with Infinite Flow.
 - **WideFlow** - creates wide, long flows.
-- **Carver** - strong, rock carving. Use sparingly!
-- **Gullies** - create gentle, flowing gullies.
+- **Carver** - creates strong rock carving. Use sparingly!
+- **Gullies** - creates gentle, flowing gullies.
 - **Pockmarks** - creates small impact holes. Use for detailing.
 - **Rocks** - creates rock flows. Great with Infinite Flow.
-- **RoughFlow**- chaotic soil/rock flows.
+- **RoughFlow** - creates chaotic soil/rock flows.
 - **Roughness**- detailing tool to roughen surfaces.
 - **Scratch** - detailing tool to create superficial scratches.
-- **Sedimentary** - strong soil flows. 
+- **Sedimentary** - creates strong soil flows. 
 
 ### Properties
 While properties differ between some tools, there is a general pattern:
 
-- **Size** - the size of your tool's impact area. Note that this is the impact area, where the effect begins. However, if your tool's effect generates erosive flows, these flows will go beyond the impact area. (That's the beauty of Directed Erosion - its not just simple masking.)
-- **Duration**- this is the duration of the effect simulation. Be cautious when using long duration values as they can take quite some time. Get a feel for the tools before modifying this value too much.
+- **Size** - the size of your tool's impact area. Note that this impact area is where the effect begins. However, if your tool's effect generates erosive flows, these flows will go beyond the impact area. (That's the beauty of Directed Erosion - it's not just simple masking.)
+- **Duration**- this is the duration of the effect simulation. Be cautious when using long duration values as they can take 
+time. Get a feel for the tools before modifying this value too much.
 - **Power** - this is the strength of the erosion simulation. In most cases, you should leave it as-is. When using Infinite Flow, you can increase this value without too much penalty. In Normal or Erosive modes, it can shatter the terrain and create bad debris artifacts.
-- **Flow Distance** - this is how far erosive flows should reach beyond the impact area.  The longer the flow, the more processing it will require.
+- **Flow Distance** - this is how far erosive flows should reach beyond the impact area. The longer the flow, the more processing required.
 - **Soil vs Rocks** - the granularity of the erosive material. Low values create soft soil; high values create rocks and boulders.
 
 ### Erosion Mode
 
 - **Normal Flow** - this is the default mode where erosion behaves normally. Erosion will both take away material from your terrain and deposit it elsewhere.
-- **Infinite Flow** - in this mode, erosive debris/material is deposited but never removed. It is great for adding soil, talus, and other material without taking away from your terrain. In other words, it generates soil and rocks from thin air.
-- **Erosive Flow** - in this mode the effect is the exact opposite of Infinite Flow. Material is taken away, but nothing is deposited. You can keep eroding an area without creating deposits downstream.
+- **Infinite Flow** - in this mode, erosive debris/material is deposited, but never removed. It's great for adding soil, talus, and other material without taking away from your terrain. In other words, it generates soil and rocks from thin air.
+- **Erosive Flow** - in this mode, the effect is the exact opposite of Infinite Flow. Material is taken away, but nothing is deposited. You can keep eroding an area without creating deposits downstream.
 
 ### Undo
 The Erosion Tool panel provides a local "in-session" Undo function accessible next to the tools. You can undo up to 20 tool impacts.

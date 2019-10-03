@@ -13,4 +13,4 @@ The node grid shows you all the nodes marked for export. You can temporarily tog
 
 When a node has multiple outputs, such as the Erosion and Breaker nodes in this example, you can individually toggle which ports should be saved as files.
 
-For details on how to use the build manager, see @building
+For details on how to use the Build Manager, see @building.

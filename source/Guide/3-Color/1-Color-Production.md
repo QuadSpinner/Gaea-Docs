@@ -12,12 +12,12 @@ The lowest part of a gradient corresponds to the lowest part of the terrain, whi
 
 In this example, you can see how the gradient from a CLUTer node maps to the heightfield.
 
-Now, if you take the same CLUT map, and use a FlowMap instead of using the height of the terrain as the input, you get a different type of texture output that follows the flow lines of the FlowMap output.
+If, however, you take the same CLUT map and use a FlowMap instead of using the height of the terrain as the input, you get a different type of texture output that follows the flow lines of the FlowMap output.
 
 ## Node Structure
-All color nodes (except Mixer) follow a simple structure: the main input port for mapping the CLUT, and the Visualization port for the 3D heightfield to use for the viewport.
+All color nodes (except Mixer) follow a simple structure: the main Input port for mapping the CLUT, and the Visualization port for the 3D heightfield to use for the viewport.
 
-The latter is not necessary most of the time, but is recommended. Otherwise your input may not look accurate in the preview as it will just assume the first 3D node prior to this node is the heightfield.
+The latter is not necessary most of the time, but is recommended. Otherwise, your input may not look accurate in the preview because it will assume that the first 3D node prior to this node is the heightfield.
 
 This port was created specifically to help visualize terrains while creating complex color maps.
 

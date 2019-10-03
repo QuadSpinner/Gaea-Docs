@@ -5,7 +5,7 @@ uid: first-terrain
 
 # The Basics
 
-There are 3 steps you must take to achieve any terrain: create, modify, export.
+There are three steps you must take to achieve any terrain: create, modify, export.
 
 The *Create* phase requires you to use nodes that are known as Primitives. In normal 3D applications, primitives can include  box, sphere, plane, and so on. In Gaea, a primitive is a basic geological element of a terrain. For example, @Mountain and @Dunes are two such basic elements.
 
@@ -15,6 +15,6 @@ The *Modify* phase requires you to take the basic primitive shape and make it mo
 
 `// TODO: Image`
 
-The *Export* phase is the easiest. You take the last node in your graph and mark to save, then build it using the @build-manager.
+The *Export* phase is the easiest. You take the last node in your graph, mark to save, then build it using the @build-manager.
 
 `// TODO: Image`

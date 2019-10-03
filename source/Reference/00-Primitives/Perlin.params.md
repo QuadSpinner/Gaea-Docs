@@ -7,7 +7,7 @@
 | **Scale Y**        | The non-uniform scale of the Y axis.                                                                                            |
 | **Noise**          |
 |                    | *FBM* : Use for varied noise.                                                                                                   |
-|                    | *Ridged* : Use for sharped ridges.                                                                                              |
+|                    | *Ridged* : Use for sharp ridges.                                                                                              |
 |                    | *Billowy* : Use for lower, more bulbous shapes.                                                                                 |
 | **Perturb**        |
 |                    | *None* : No warping.                                                                                                            |

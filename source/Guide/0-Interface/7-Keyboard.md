@@ -19,7 +19,7 @@ title: Keyboard Shortcuts
 | Delete node                | `Del`              |
 | Rename node                | `F2`               |
 | Build terrain              | `Ctrl + Shift + B` |
-| Multi-Mix nodes            | `F8`               |
+| MultiMix nodes            | `F8`               |
 | Duplicate node             | `Ctrl + D`         |
 | Quick search nodes         | `TAB`              |
 | Zoom graph to 100%         | `Ctrl + 1`         |

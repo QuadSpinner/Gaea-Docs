@@ -1,6 +1,6 @@
 | Setting          | Description                                                                                                      |
 | :--------------- | :--------------------------------------------------------------------------------------------------------------- |
-| **Iterations**   | The number of generative passes. Higher numbers create more complexity but may take a bit more time to generate. |
+| **Iterations**   | The number of generative passes. Higher numbers create more complexity, but may take a bit more time to generate. |
 | **Distribution** |                                                                                                                  |
 |                  | *Poisson* : Seemingly random placement with a natural pattern.                                                   |
 |                  | *Random* : Fully random placement.                                                                               |
