@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<UpdateManifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="1.0.3.1912" ShortDescription="Performance update for Graph mode." Size="77975552" ReleaseType="Beta" ReleaseDate="2018-03-19T20:30:55.3066531+05:30" Filename="Gaea-EAP-1912.exe" URL="http://viridian.quadspinner.com/gaea/Gaea-EAP-1912.exe"><FullDescription>IN THIS BUILD
+NEW: 2D View
+NEW: Selector Nodes
+NEW: Mask highlighting in viewport
+NEW: Detailed Update dialog with release notes
+FIXED: Graph performance fixes
+FIXED: Recent files were not in order
+</FullDescription>
+</UpdateManifest>

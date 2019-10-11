@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<UpdateManifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="1.0.12.7300" ShortDescription="" Size="53932032" ReleaseType="RC" ReleaseDate="2018-12-25T00:00:00.0+05:30" Filename="Gaea-EAP-1.0.12.7300.msi" URL="http://viridian.quadspinner.com/gaea/Gaea-1.0.12.7300.msi?key=DC00"><FullDescription>Major stability improvements, and a new viewport type!
+
+[New] New 2D viewport.
+
+[Improved] Memory and performance optimizations in erosion.
+[Improved] Saved files no longer suffixed with OUTPUT for default port.
+[Improved] Build now saves files as they're built.
+
+[Fixed] Erosion would consume too much memory.
+[Fixed] Deleting multiple items was incorrect.
+[Fixed] Popups had an extra expanded.
+[Fixed] Changing settings on a large graph was too slow.
+[Fixed] Lighting in First Person view was too bright.
+[Fixed] Several other minor fixes.
+
+[Issue] Some Mesher output parameters may be disabled or not register changes.
+[Issue] Zoom slider may not accept numeric entry.
+[Issue] Undo does not work correctly in some cases.
+[Issue] 16k and higher build sizes are not available yet.
+[Issue] Some example files may not work completely.
+</FullDescription>
+</UpdateManifest>

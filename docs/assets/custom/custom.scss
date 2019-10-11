@@ -146,6 +146,15 @@ h3 {
   color: #f0f0f0;
 }
 
+.release-note {
+  h1,
+  h2,
+  h3 {
+    border: 0 !important;
+    font-weight: bold;
+  }
+}
+
 // .guide > .sidenav-item:nth-child(1) > .sidenav-link::before {
 //   content: "";
 // }

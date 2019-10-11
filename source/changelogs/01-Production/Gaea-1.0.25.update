@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<UpdateManifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="1.0.25.9328" Size="44999630" PatchSize="9228712" ReleaseType="RTM" ReleaseDate="2019-08-24T00:00:00" Filename="Gaea-1.0.25.exe" URL="http://viridian.quadspinner.com/gaea/Gaea-1.0.25.exe" PatchURL="http://viridian.quadspinner.com/gaea/Gaea-1.0.25P.exe">
+  <FullDescription>## Selective Erosion
+
+![](http://malachite.blob.core.windows.net/gaea/changelog/1_0_25/selective.jpg)
+
+The Erosion node now features **Selective Processing** properties. When not using an Area mask, you can enable Area Effects based on slope or altitude bias. For example, a high slope bias with **Precipitation Amount** erodes slopes that are steep, while leaving the flat areas alone. This can create very interesting erosion shapes that are not possible with normal physical simulation.
+
+
+## Build Mutations
+
+![](http://malachite.blob.core.windows.net/gaea/changelog/1_0_25/mutations.png)
+
+Now you can select up to 99 mutations in the Build Manager. This will run the build once per each mutation where seeds of all nodes are randomized, giving you a unique terrain in every mutation while still following the core recipe of your graph.
+
+Each mutation's .tor file is stored with the output, so you can manually tweak a specific mutation if you wish to.
+
+
+## CLUTer v2
+
+![](http://malachite.blob.core.windows.net/gaea/changelog/1_0_25/HDgrad2.png)
+
+We have redesigned CLUTer to be faster and more effective. Previously, you could not do much about banding artifacts that could show up on a low slope gradient. Now you can increase the Sample Density setting to smooth the gradient up to a factor of 8!
+
+
+## Protrusion Data Map
+
+![](http://malachite.blob.core.windows.net/gaea/changelog/1_0_25/protrusions.jpg)
+
+The new Protrusion Data Map allows you to highlight protruding rock formations and sharp convexities in a broader form than with the Curvature node. It can be a useful layer in color production.
+
+
+
+# Complete Changelog
+
+#### New
+- Watson Diagnostics tool upgraded.
+- Build Mutations option in Build Manager.
+- New presets for Erosion and Mixer.
+
+#### Node Updates
+- New Protrusions data map.
+- Selective Processing options in Erosion.
+- CLUTer v2 with controllable Sample Density.
+- MultiMix when using Ctrl + F8 with 3 nodes will connect the 3rd node to the Mask of the Combine.
+
+#### Improved
+- Favorites in graph context menu.
+- New Microincrements interface.
+- Percentage sliders can now accept input in meters.
+- Graph Search Box and Context Menu improved.
+- Faster node map creation when using with Houdini.
+
+#### Fixed
+- Combine and Mixer Add blend mode fixed.
+- Vertical Displacement was broken.
+- Exposing a property should automatically name the variable if empty.
+- File button for Input/Output nodes was missing label.
+- Interject Portal created excessive undo steps.
+- When marking nodes for export, use format set in Build Manager instead of default.
+- Several minor memory and efficiency improvements.
+
+#### Known Issue
+- Hybrid mode in Erosion may cause blank output in higher resolutions. Use Linear mode instead.</FullDescription>
+</UpdateManifest>

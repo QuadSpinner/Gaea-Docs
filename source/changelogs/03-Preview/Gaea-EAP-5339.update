@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<UpdateManifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="1.0.8.5339" ShortDescription="" Size="48357376" ReleaseType="Beta" ReleaseDate="2018-08-31T01:50:00.0+05:30" Filename="Gaea-EAP-5339.exe" URL="http://viridian.quadspinner.com/gaea/Gaea-EAP-5339.exe"><FullDescription>This is a ciritical build that fixes issues introduced in EAP 5339.
+
+[New] Override the display of any node to show as mask (press U).
+
+[Improved] Watson Diagnostics Tool updated
+[Improved] Important memory improvements in visualizing heightfields
+
+[Fixed] Several viewport related issues.
+[Fixed] Blurry nodes on some displays.
+[Fixed] Older graphs would show up blank.
+[Fixed] Microersion would show up flat.
+[Fixed] Several wild memory leaks were fixed.
+
+[Issue] Biome may show some unnecessary noise.
+[Issue] The Erosion node and Toolset 2 may crash on certain PCs. We're investigating this issue.
+[Issue] Some example files may not work completely.
+[Issue] The new viewport may not function properly with some superficial features. We're working on this.
+</FullDescription>
+</UpdateManifest>

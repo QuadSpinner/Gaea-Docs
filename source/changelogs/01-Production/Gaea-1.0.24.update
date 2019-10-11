@@ -1,0 +1,121 @@
+<?xml version="1.0"?>
+<UpdateManifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="1.0.24.9236" Size="44989728" PatchSize="9150872" ReleaseType="RTM" ReleaseDate="2019-08-10T00:00:00" Filename="Gaea-1.0.24.exe" URL="http://viridian.quadspinner.com/gaea/Gaea-1.0.24.exe" PatchURL="http://viridian.quadspinner.com/gaea/Gaea-1.0.24P.exe">
+  <FullDescription>## Major Node Updates
+
+![](http://malachite.blob.core.windows.net/gaea/changelog/1_0_24/range.jpg)
+
+### Range
+
+The RANGE node now has two modes:
+- The "High Altitude" mode creates large mountain range structures at higher altitudes, without creating a base. This is very useful for closer action to the mountain.
+- The "With Base" creates more expansive alpine areas with better shapes and clustering of mountain peaks, and larger expanses at the base. This is more useful for creating grand vistas.
+
+The new "Mountain Range" quickstart shows how to use the new mode.
+
+### Snow
+
+The SNOW node has been upgraded with better snow simulation. The new simulation is used by default. To use the classic simulation algorithm, check the "Prefer old style" option.
+
+### Height
+
+The HEIGHT selector node now sports a "Normalized" mode. By default, when it is turned off, Gaea uses the entire terrain definition height to select. For example, if your terrain height definition is set to 2600m, 100% will equal 2600m even if the actual shape of your terrain only reaches 1000m. When Normalized is turned on, Gaea will adapt the range to your shape's range rather than the definition range. This is especially useful when requiring very fine tuned height selection.
+
+Several other nodes have been improved. Please see the full changelog below for details.
+
+## Integration with Houdini
+
+Houdini is an important part of many pipelines and we are proud to announce that Gaea can now be used from Houdini.
+
+![](http://malachite.blob.core.windows.net/gaea/changelog/1_0_24/houdini.jpg)
+
+You can set up a graph of any scale in Gaea, with appropriate input/output points, expose parameters that you need to modify from Houdini, then load your .tor file in Houdini using the Gaea Bridge node from the Game Development Toolset in Houdini.
+
+Watch the [Gaea integration demo from Houdini's SIGGRAPH 2019 event here](https://www.youtube.com/watch?v=7X-r_XarMLI&amp;t=1221).
+
+We will cover this topic in detail on our blog soon, along with a full walkthrough of the process.
+
+## Undo/Redo
+
+This has been an important feature that has not worked as well as it should in previous versions of Gaea. So we overhauled the entire system. Now you can enjoy predictable results from undo/redo, and you get a history dropdown for both commands as well.
+
+![](http://malachite.blob.core.windows.net/gaea/changelog/1_0_24/undo.png)
+
+
+## Quick Export
+
+Gaea can preview up to 4K. Often you will work in 2K for high definition previews, and want to save out the entire exportable node set at 2K for testing in your DCC application or game engine before firing off a full build. To do this, you run the Build Manager which rebuilds the whole world. But you already have the world built at 2K from your preview!
+
+Now when your preview resolution and the export resolution are the same, Build Manager will ask you if you wish to just save the preview cache instead. This will save you time from having to rebuild an already built terrain.
+
+## Ability to control and disable Parallel Processing
+
+All nodes that use Parallel Processing can be subject to certain side effects - most prominently, a grid-like pattern where parallel processed chunks have not blended properly.
+
+![](http://malachite.blob.core.windows.net/gaea/changelog/1_0_24/parallel.png)
+
+With this version, all multi-core nodes give you the option to control how it distributes chunks. You can choose the size of the chunk, the amount of edge blending it should do, or turn off multi-core processing altogether. The latter option may slow down your node's processing a fair bit, but you can be assured clean results.
+
+## Automation Improvements
+
+The bridge to Houdini is the first of many. To allow for easier automation and integration, Gaea can now emit a map of exposed parameters along with defaults and limits. This open format XML file can be consumed by any CG or programming tool to create parameters inside its own interface and execute Gaea builds.
+
+Call the following command line for any .tor file with exposed parameters.
+```
+Gaea.Build.exe "C:\MyTerrain.tor" --nodemap
+```
+
+It creates an XML map like so:
+![](http://malachite.blob.core.windows.net/gaea/changelog/1_0_24/commandline.png)
+
+We will soon publish a detailed automation guide for anyone who wishes to automate Gaea or create their own bridge to parts of their pipeline, or to a 3rd party application.
+
+NOTE: You must have the Professional or Enterprise edition to take advantage of automation features and bridges to 3rd party applications.
+
+# Complete Changelog
+
+#### New
+- Undo / Redo with history details. The entire undo system was overhauled.
+- Quick Export at preview resolution.
+- New automation framework for bridging to 3rd party applications.
+
+#### Node Updates
+- Range v2, better mountain ranges, larger ground areas between mountains.
+- Snow v2, better accumulation and flow.
+- Parallel processing options for Erosion and other multi-core nodes
+- Performance improvements to Snow, Erosion, and Thermal.
+- Abs node now has a threshold parameter.
+- Height node now has a Normalized mode for easier selection.
+- QuickColor now allows you to choose 2 colors for a fast gradient.
+- Dropping CLUTer on Snow now automatically cross-connects the appropriate ports.
+- Deleting Combine with only secondary port is connected, reroutes it to next node.
+- Combiner uses 0% constant if the secondary port is not connected.
+
+#### Improved
+- Parallel processing nodes now have option to select between Linear and Parallel processing.
+- Preferences changes related to node, connection, color scheme does not require Gaea restart.
+- If 'UserData' folder is present in Gaea installation, use it to store data instead of AppData folder.
+- Provide detailed warning when Gaea does not have firewall privileges.
+
+#### Fixed
+- Gaea crashed on loading Quickstarts, if examples stored in custom location.
+- 2D Viewport did not work with Bias/Gain Node.
+- Deleting a bypassed node was processing graph.
+- Input Masks for Snow node did not function correctly.
+- Rare bug where a bad custom startup file would cause an endless loop.
+- Last or selected node was not updated when preview resolution was changed.
+- Panning (Mouse3) while creating connection would create spaghetti connection. 
+- Resource file would not save along with tor file in Gaea Build.
+- Recent file entry was created even save failed.
+- Newer nodes marked for export will use the global format set in the Build Manager instead of EXR.
+- Bypassed nodes could affect previous node's file name when exporting.
+- Mesher's file parameter would not show sometimes.
+- Several minor memory and efficiency improvements.
+
+#### Quickstarts
+
+- New techniques: Deep Grooves, Simple Mountain Slope, Snowy Mountain Ridge, Whorly Terraces.
+- New scenes: Alpine River, Mountain Range (using Range v2).
+
+#### Known Issue
+- Hybrid mode in Erosion may cause blank output in higher resolutions. Use Linear mode instead.</FullDescription>
+</UpdateManifest>
