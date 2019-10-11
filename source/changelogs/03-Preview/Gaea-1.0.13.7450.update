@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<UpdateManifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="1.0.13.7450" ShortDescription="" Size="51720192" ReleaseType="RC" ReleaseDate="2019-01-08T00:00:00.0+05:30" Filename="Gaea-EAP-1.0.13.7450.msi" URL="http://viridian.quadspinner.com/gaea/Gaea-1.0.13.7450.msi?key=DC00"><FullDescription>New features and stability improvements.
+
+[New] Redesigned mask editor.
+[New] Preset functionality for Erosion Studio tools.
+[New] Unreal friendly sizes added in Build Manager (Resample).
+[New] Choose between RGB, sRGB, scRGB in Build Manager.
+[New] 16k and 32k build sizes now available. (Optimizations forthcoming)
+
+[Improved] Favorites moved to a more convenient location in the graph.
+[Improved] Favorites are highlighted in the toolbox.
+[Improved] Shortcut (E) for Select Descendants.
+[Improved] Select Descendants now works on multiple nodes.
+[Improved] Startup performance improved by 10-20% in some situations.
+[Improved] Audio beep when Build swarm completes a build.
+
+[Fixed] 2D View would not update when window size changed.
+[Fixed] Bypass and other commands would not mark file as dirty.
+[Fixed] Mixer would crash on creation.
+[Fixed] Mixer would not update in certain situations.
+[Fixed] Build Manager would mistakenly warn about duplicate filenames.
+[Fixed] File Input would take too long to load.
+[Fixed] Multiple undos in Erosion Studio would leave the cursor as busy.
+
+[Removed] Transform options removed from File Input node. Use Transform node.
+
+[Issue] Some Mesher output parameters may be disabled or not register changes.
+[Issue] Zoom slider may not accept numeric entry.
+[Issue] Undo does not work correctly in some cases.
+[Issue] Some example files may not work completely.
+</FullDescription>
+</UpdateManifest>

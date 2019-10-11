@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<UpdateManifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="1.0.7.456" ShortDescription="The TOR Platform BETA 1 New Build, with significant stability updates, upgraded render engine, and 100+ improvements." Size="107708416" ReleaseType="Beta" ReleaseDate="2017-09-15T20:30:55.3066531+05:30" Filename="GeoGlyph_1.0.7.456.msi" URL="http://viridian.quadspinner.com/torplatform/TOR-1.0.7.456.msi">
+  <FullDescription>The TOR Platform BETA 1 New Build, with significant stability updates, upgraded render engine, and 100+ improvements.
+
+NEW: Viewport engine upgraded for better performance.
+NEW: Engine code improved; several memory leaks fixed.
+FIX: Crash on build.
+FIX: Navigation system fixed (Alt + Mouse1 to rotate). Other improvements forthcoming.
+FIX: Viewport not visible on startup, until window is minimized.
+FIX: Toolbar build button was not available.
+FIX: Viewport quality settings were reset on startup.
+NEW: Update notifications - new builds will arrive faster.
+NEW: Sculpt Modes in Erosion Studio: Normal, Infinite, Erosive.
+NEW: Viewport settings tab is now a toolbar for easier access.
+NEW: Aesthetics for sliders.
+NEW: Layer list now looks similar to the Graph mode's nodes.
+NEW: Working-animation for layers/nodes.
+NEW: Ambient occlusion in viewport for better visualization of cavities.
+NEW: Drag/drop layers to reorder.
+NEW: Combine properties show blend modes in text instead of icons.
+NEW: MSI based setup, with repair, reinstall, and auto-upgrade capabilities.
+FIX: Several dozen small fixes and improvements.</FullDescription>
+</UpdateManifest>

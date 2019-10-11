@@ -1,0 +1,139 @@
+<?xml version="1.0"?>
+<UpdateManifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="1.0.19.8330" Size="42960184" PatchSize="7352353" ReleaseType="RTM" ReleaseDate="2019-05-19T00:00:00" Filename="Gaea-1.0.19.exe" URL="http://viridian.quadspinner.com/gaea/Gaea-1.0.19.exe?f=1" PatchURL="http://viridian.quadspinner.com/gaea/Gaea-1.0.19P.exe?f=1">
+  <FullDescription>## Island Node
+
+![Island Node](http://cdn.quadspinner.com/gaea/changelog/1_0_19/islands.png)
+
+The Island node can be used to create the outline of one or more landmasses - whether islands or continents. The algorithm conveniently positions different landmasses together to simulate natural shapes.
+
+You can [watch a video of this feature here](https://youtu.be/yHITgsb1pgA).
+
+## Iterative Displacement
+
+![Iterative Displacement](http://cdn.quadspinner.com/gaea/changelog/1_0_19/displace.jpg)
+
+Iterative displacement can save a lot of time and management. This is the same as duplicating a Displace node and changing the seed. With the Iteration slider, you can have Gaea do the heavy lifting for you.
+
+## SatMap Clipping
+
+![SatMap Clipping](http://cdn.quadspinner.com/gaea/changelog/1_0_19/satmap_clipping.png)
+
+You can now clip out excess or unwanted areas in a SatMap using the convenient map sliders.
+
+## Residual Terraces
+
+![Residual Terraces](http://cdn.quadspinner.com/gaea/changelog/1_0_19/residual_terraces.jpg)
+
+The Residual option allows for creating shattered, semi-buried terraces that are remnants of older structures that have weathered.
+
+## Splat Node
+
+![Splat Map](http://cdn.quadspinner.com/gaea/changelog/1_0_19/splat.jpg)
+
+The long awaited Splat node lets you combine multiple masks into the RGB channels of a color map. With Splat you can also use RGBA channels.
+
+The Influence and Post Process should reduce the pre-processing nodes you would need to use.
+
+## Vegetation Node Improvements
+
+![Vegetation](http://cdn.quadspinner.com/gaea/changelog/1_0_19/vegetation.png)
+
+Gaea 1.0.19 brings a major efficiency upgrade for the Vegetation node. Instead of selecting a single color, you can select a SatMap from the Green collection directly in the Vegetation node. The randomization is handled automatically.
+
+If you still want a flat color just connect a QuickColor node to the Override port, or any other color map.
+
+A new "Avoid Extremes" option has been added to avoid dotted textures on steep surfaces which can cause tearing.
+
+## Memory Management and Optimization
+
+![Memory Optimization](http://cdn.quadspinner.com/gaea/changelog/1_0_19/memory.png)
+
+You can now see the memory consumption in the bottom right corner of the screen, and get the ability to initiate a memory optimization pass by clicking that button. 
+
+We do this internally to clean up unused memory and reduce RAM fragmentation as datasets become larger. However, we can't do it too often in the code as it could lead to the opposite (performance degradation and fragmentation - what we're trying to avoid!). So we're giving you the option to do it when it seems Gaea may be slowing down.
+
+For example, if you have a very large graph and you have changed the resolution or performed a major operation that has changed dozens and dozens of nodes, there may be some excess memory that Gaea won't clean up for a couple of minutes to avoid slowing down the new processing. But if you want it freed quickly, you can run the optimization command.
+
+Just like we can't call this option internally too frequently, you should not either. If you see very little savings (&lt;100MB) then your memory is already optimized. Excessive optimization will lead to fragmentation.
+
+## Build Command Line
+
+![Command Line](http://cdn.quadspinner.com/gaea/changelog/1_0_19/cmd.png)
+
+You can use the new "Copy Command Line" button to review and copy command line for a particular build. You can use that to create batch files manually for processing multiple builds and automation.
+
+## New quickstarts
+
+![Quickstarts](http://cdn.quadspinner.com/gaea/changelog/1_0_19/quickstarts.jpg)
+
+We have added 11 new quickstarts, including full scenes, and techniques.
+
+# Complete Changelog
+
+### New
+- Memory Optimization option.
+- Several new Quickstarts and Examples.
+- Build directly from the "Recent" list by holding Shift.
+- New icons with a muted look.
+
+### Node Updates
+- Island node for drawing islands and continents.
+- Splat map node.
+- New Abs node for absolute values (1-bit equivalent).
+- SatMap clipping options.
+- Mask node now has built-in blurring.
+- New Residual option in Terrace.
+- New Stratified option in SlopeNoise.
+- Avoid Walls option in Vegetation node.
+- Iteration option in Displace.
+- Inverse logarithmic scaling in AutoLevel node.
+- Combine's Separation mask is now optional.
+- Vegetation node now has built-in maps.
+- Coast water level fixed.
+
+### Improved
+- New tooltips with better descriptions.
+- File Input would not accept non-square images.
+- New Date, Time, and Increment path variables for Build management.
+- Improved passive notification popups.
+- Hold Shift when creating new Graph to make it blank.
+- Allow presets via Context Menu when multiple nodes of same type are selected.
+
+### Fixed
+- Improved cancellation during builds and previews.
+- Portal should not show Post Process stack.
+- License dialog incorrectly mentioned Early Access.
+- Nodes should not overlap when dropped on another node.
+- Right-clicking certain nodes would cause a crash.
+- Exported files would not increment correctly if file existed.
+- Filename increments should start from 001, not 000.
+- Resource file would not save when saving incrementally.
+- Portal would not accept Color connections.
+- Normal Map output was still not accurate.
+- Water level popup would show incorrect values, behave inconsistently.
+- Raw output was flipped.
+- Terrain scale would jump to exceedingly high values.
+- Recent Files would show 8 items instead of 10.
+
+### Quickstarts and Presets
+
+#### Scenes
+- Jabba's Corner
+- Majestic Canyon
+- Rugged Plates (A)
+- Rugged Slope (A)
+- Rugged Slope (B)
+- Square Slopes
+
+#### Techniques
+- Archipelago
+- High Altitude Erosion
+- Sloped Mountain Edge
+- Frozen Lava (A)
+- Frozen Lava (B)
+
+#### Presets
+- Combine: 100Max
+- Texture: Navajo Sandstone
+- Vegetation: Desert Canyon</FullDescription>
+</UpdateManifest>

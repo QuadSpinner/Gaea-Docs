@@ -216,7 +216,5 @@ The "Save copy of .TOR" option is useful when you want to manage different versi
 
 You can also map the folder to almost any modern version control system (Git, Mercurial, Visual Studio Team Services, etc.), or share on a network folder with your team.
 
-***
-
 # Build Swarm
 For advanced use, see @build-swarm.

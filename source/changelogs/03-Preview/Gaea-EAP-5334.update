@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<UpdateManifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="1.0.8.5334" ShortDescription="" Size="49680384" ReleaseType="Beta" ReleaseDate="2018-08-30T01:50:00.0+05:30" Filename="Gaea-EAP-5334.exe" URL="http://viridian.quadspinner.com/gaea/Gaea-EAP-5334.exe"><FullDescription>This is a major build with new features and several improvements. Please see https://medium.com/quadspinner for details.
+
+[New] Redesigned viewport system
+[New] Procedural shaders for terrain previews
+[New] Error recovery: emergency autosave shown in Startup screen after crash
+[New] Copy/Paste one or multiple nodes and connections
+[New] Growth Map
+[New] New graph style option
+[New] New connection style option
+[New] Drop files into the graph to convert to File Input nodes
+[New] Take screenshot of the viewport
+[New] Take screenshots of both the graph and viewport
+[New] Safe Mode option in Start Menu for disaster recovery
+[New] 2D viewport mode for lower-end computers
+[New] Voice commands (experimental)
+
+[Improved] Add Layer popup can now be replaced with menu (see Preferences)
+[Improved] Added auto save option in Preferences
+[Improved] Engine size reduced by ~50% for smaller update sizes
+[Improved] File loading time reduced dramatically
+[Improved] File sizes reduced by up to 60%
+[Improved] Min/Max commands in slider context menus
+[Improved] Recent files respond to 1-9 keys
+[Improved] Restart warning when changing specific preferences
+[Improved] Several nodes have been improved for speed
+[Improved] Biome can now selectively disable topological zones
+
+[Fixed] Autosave created duplicate saves
+[Fixed] Crash when user settings could not be loaded correctly
+[Fixed] Directed Erosion tool window would not close
+[Fixed] Duplication now works properly
+[Fixed] Error thrown by Erosion node is now captured, but node may still not work in some cases
+[Fixed] Fixed inconsistent naming convention in Data Maps
+[Fixed] Graph screenshots now saved as TIF to avoid PNG encoder issues
+[Fixed] Microerosion was broken at higher resolutions
+[Fixed] Microerosion would become too strong at higher resolutions
+[Fixed] Node interjection only works when holding down Shift while dragging
+[Fixed] Port activation animation fixed
+[Fixed] Preferences dialog did not remember the last tab
+[Fixed] Savable nodes with the same filename are incremented instead of overwritten
+
+[Removed] Classic Engine shaders/materials temporarily removed for compatibility
+[Removed] Contours and orbit view skybox temporarily removed for compatibility
+[Removed] Water visuals temporarily removed for compatibility
+[Removed] Contrast node; use Bias-Gain instead
+[Removed] Defunct coastal mode removed from Hydro
+[Removed] Grooves option removed from Landform
+
+[Issue] Biome may show some unnecessary noise.
+[Issue] The Erosion node and Toolset 2 may crash on certain PCs. We're investigating this issue.
+[Issue] Some example files may not work completely.
+[Issue] The new viewport may not function properly with some superficial features. We're working on this.
+</FullDescription>
+</UpdateManifest>

@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<UpdateManifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="1.0.3.1800" ShortDescription="Important update with graph mode, stability improvements, bug fixes, and new features." Size="78598845" ReleaseType="Beta" ReleaseDate="2018-03-14T20:30:55.3066531+05:30" Filename="Gaea-EAP-1800.exe" URL="http://viridian.quadspinner.com/gaea/Gaea-EAP-1800.exe">
+  <FullDescription>IN THIS BUILD
+    NEW: Graph mode now available!
+    NEW: Startup screen.
+    NEW: Switch between Layers and Graph.
+    NEW: Output node with multiple file formats.
+    NEW: Masking available through the Graph.
+    NEW: Specify terrain scale (Tools tab)
+    NEW: Placer node for Scale/Rotate/Translate.
+    NEW: Status bar.
+    NEW: Manually scale viewport elements from Preferences.
+    FIXED: Functionality was broken on non-English Windows versions.
+    FIXED: Sediment node created a grid effect.
+    FIXED: Changing display settings made the viewport too bright.
+    FIXED: Gaea would steal focus.
+    FIXED: Build resolution was not honored.
+    FIXED: LineNoise seed was broken.
+    FIXED: Startup performance was slow.
+    Several minor improvements and performance fixes.
+</FullDescription>
+</UpdateManifest>

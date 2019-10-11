@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<UpdateManifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="1.0.16.8020" ShortDescription="" Size="48484352" ReleaseType="RTM" ReleaseDate="2019-03-22T00:00:00.0+05:30" Filename="Gaea-1.0.16.8020.msi" URL="http://viridian.quadspinner.com/gaea/Gaea-1.0.16.8020.msi"><FullDescription>This update introduces new features, improvements, and bug fixes.
+
+[New] Import Graph functionality.
+[New] QuickColor node.
+[New] Interject Portals by right-clicking nodes.
+[New] Exposed Properties and Editor.
+[New] Automate Properties for command line builds.
+
+[Improved] Change build resolution in command line.
+[Improved] Warn when Pinned for Color is empty.
+[Improved] Disable build log generation.
+
+[Fixed] Node display type would switch incorrectly.
+[Fixed] Several minor issues fixed.
+
+[Removed] Hydro 'Ventral' option removed for compatibility.
+</FullDescription>
+</UpdateManifest>

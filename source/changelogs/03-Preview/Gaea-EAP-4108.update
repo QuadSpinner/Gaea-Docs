@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<UpdateManifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="1.0.6.4108" ShortDescription="" Size="91611136" ReleaseType="Beta" ReleaseDate="2018-06-22T20:21:21.3066531+05:30" Filename="Gaea-EAP-4108.exe" URL="http://viridian.quadspinner.com/gaea/Gaea-EAP-4108.exe"><FullDescription>This is a major build with several key changes.
+Please see https://medium.com/quadspinner for details.
+
+NEW
+- Major UI overhaul.
+- New Large Node style for Graph (optional, in Preferences)
+- New visual feedback system in Graph.
+
+UPDATED
+- Toolbox can now toggle between Grid and List views (see Preferences)
+- All the tabs have been moved to the new toolbar as popups.
+- Output now supports .RAW float format.
+
+FIXES
+- Output now automatically recognizes color vs grayscale output.
+- Several bug and memory leak fixes.
+- Minor performance improvements.
+
+Known Issues
+- The Erosion node may crash on certain PCs. We’re investigating this issue.
+- Biome may show some unnecessary noise.
+- SatMaps does not have a dedicated preview interface, yet. Expect it in the next build.
+- Some elements in the startup screen are disabled by design. They will become active in the next build.
+- Due to structural changes in the file format, old files may not fully work with this new build.
+</FullDescription>
+</UpdateManifest>

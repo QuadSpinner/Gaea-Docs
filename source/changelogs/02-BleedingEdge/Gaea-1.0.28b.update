@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<UpdateManifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="1.0.28.10102" Size="47052720" PatchSize="0" ReleaseType="RTM" ReleaseDate="2019-10-09T00:00:00" Filename="Gaea-1.0.28.exe" URL="http://viridian.quadspinner.com/gaeab/Gaea-1.0.28b.exe" PatchURL="http://viridian.quadspinner.com/gaeab/Gaea-1.0.28bP.exe">
+  <FullDescription>We have revised 1.0.28 and this is an update to the previous Bleeding Edge build. We highly recommend updating.
+
+# Complete Changelog
+
+## IN THIS BUILD
+
+### Improvements
+- Performance improvements for managing files.
+
+### Fixes
+- Minor updates to the viewport freezing bug.
+- Unnecessary reprocessing when loading files.
+- Indie version did not show resolution warning.
+- Several internal bug fixes.
+
+---
+
+## FROM PREVIOUS BUILDS
+
+#### New
+- Predictive services, with the ability to learn from existing terrains.
+- New Toolbox compact mode.
+- Toolbox can now optionally show most-used nodes only.
+- Copy/Paste settings between nodes.
+
+#### Node Updates
+- Cracks node is now up to 50% faster.
+- Shaper node now has a Details slider for better control.
+- New Mask Autolevel post process option.
+- Normal map now has a new 8-point process.
+- Output node improved, allow saving to build folder, and accept color nodes.
+- Splat can now be clamped to a combined total of 1.0.
+- ColorFx now supports Flip operations.
+
+#### Improved
+- Node drop spacing refined.
+- Build Swarm rewritten for faster execution and automation.
+- 2D view speed improved by up to 8x for higher resolutions.
+- Node-connect menu replaced with a more straightforward menu.
+- Right-clicking a slider now automatically focuses on the entry field.
+- Tab-search for nodes now automatically connects the selected node.
+- Watson diagnostics improved with additional options and benchmark tests.
+- Property panel shows hints and warnings for volatile settings.
+- Microincrements hover state improved for mouse interactions.
+- Several minor efficiency improvements.
+- Build title bar shows overall progress and time elapsed.
+
+#### Fixed
+- Island editor would not show overlay on re-edit.
+- Better stability with pinning for color.
+- Build error when overwriting files, when output is a fixed folder path.
+- Erosion Studio output was incorrect.
+- TIFF and PNG output improved.
+- Loading a file with a single node could freeze editor.
+- Unknown parameter warning when building.
+- Builds failed because of incorrect hardware detection.
+- Mesher incorrectly showed format dropdown.
+- License would not be recognized properly.
+- 2D view would incorrectly snap to fit-all when resizing.
+- Autolayout and node-dropping vertical space fine tuned.
+- Splitter bar would remain visible when repeatedly changing toolbox layout.
+- On first run, Gaea won't ask for the Document path.
+
+#### Known Issues
+- The viewport may stop responding on some installations. Restarting Gaea should fix this. We're working on a fix.
+- Hybrid mode in Erosion may cause blank output in higher resolutions. Use Linear mode instead.</FullDescription>
+</UpdateManifest>

@@ -210,6 +210,13 @@ h3 {
   color: #f0f0f0;
 }
 
+.release-note h1,
+.release-note h2,
+.release-note h3 {
+  border: 0 !important;
+  font-weight: bold;
+}
+
 .sidenav-toggle {
   padding-right: 0;
 }

@@ -2,6 +2,7 @@
 
     {
         "Path": "Reference",
+        "Category": 0,
         "BaseItem": {
             "Title": "Node Reference",
             "Link": "Reference/index.html",
@@ -12,6 +13,7 @@
     },
     {
         "Path": "Guide",
+        "Category": 0,
         "BaseItem": {
             "Title": "User Guide",
             "Link": "Guide/index.html",
@@ -20,6 +22,7 @@
     },
     {
         "Path": "Videos",
+        "Category": 0,
         "BaseItem": {
             "Title": "Videos",
             "Link": "Videos/index.html",
@@ -28,10 +31,20 @@
     },
     {
         "Path": "Developers",
+        "Category": 0,
         "BaseItem": {
             "Title": "For Developers",
             "Link": "Developers/index.html",
             "UID": "dev"
+        }
+    },
+    {
+        "Path": "changelogs",
+        "Category": 1,
+        "BaseItem": {
+            "Title": "Version History",
+            "Link": "Changelogs/index.html",
+            "UID": "changelog"
         }
     }
 ]
