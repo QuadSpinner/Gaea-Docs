@@ -13,7 +13,7 @@ Gaea’s viewport harnesses the powerful Unity engine, and has been deeply custo
 
 # 3D Viewport
 
-## Orbit View
+### Orbit View
 
 ![](/images/ui/Viewport-Orbit.jpg)
 
@@ -22,7 +22,7 @@ Gaea’s viewport harnesses the powerful Unity engine, and has been deeply custo
 - `Mouse Wheel` for zooming.
 - `Mouse Middle` for panning.
 
-## First Person View
+### First Person View
 
 ![](/images/ui/Viewport-FPS.jpg)
 
@@ -32,7 +32,7 @@ Gaea’s viewport harnesses the powerful Unity engine, and has been deeply custo
 - `SPACE` to teleport to mouse location (on terrain only).
 - `Mouse Wheel` for zooming.
 
-## Orthographic View
+### Orthographic View
 
 ![](/images/ui/Viewport-Ortho.jpg)
 

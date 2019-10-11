@@ -13,16 +13,7 @@ There are certain nodes that may not have both port types, or that may have spec
 ## Masking
 Masking is a very important part of creating sophisticated terrains. By default, when you apply an effect or process on a terrain, it is applied uniformly across the entire surface. By using the Mask port, you can contain the effect in a specific area.
 
-You can use any shape/terrain to mask a node, or you can draw it with Fluent Masking.
-
-### Fluent Masking
-Fluent Masking allows you to paint a mask on your terrain.
-
-To create a Fluent Mask, click the Fluent Mask button in the node's `Properties toolbar`. This will enable the Fluent Mask mode, and give you a small masking toolbar to control the size and intensity of your brush stroke. 
-
-You can paint on the terrain like you would in any paint program. Holding down the `ALT` key will erase the stroke.
-
-Once you are finished, click the "End Masking" button in the toolbar to commit the mask.
+You can use any shape/terrain to mask a node, or you can draw it with @Mask
 
 ---
 
@@ -48,27 +39,3 @@ When a node is marked for export (press `F3`), it will emit the output as a file
 See the article `Building` for details.
 
 ---
-
-## Using Convenience Tools
-### Drop Behavior
-Drop a node on a connection to have it interject itself between two nodes. Drop it on another node to have it be parented to that node. If another sibling node exists, the new node will be organized automatically.
-
-Alternatively, you can drag an unconnected node which already exists onto a connection by pressing `Shift` key and it will interject itself.
-
-### Auto Layout
-Even the most complicated graphs can be automatically organized. Just press `F4` in the graph.
-
-Pressing `F4` once will layout the graph in a linear pattern. Pressing `F4` again lays out the graph in a waterfall pattern. In the waterfall pattern, Gaea will intelligently try to figure out the junctions in the graph and stagger the subsequence nodes accordingly.
-
-### Quick Create Node
-Rather than setting up a node and then connecting it, you can drag a connection into empty space and use the quick create menu. You can click on a particular node name from the quick create menu, or you can type in a node name which will show the list of matching nodes. Selecting a node from this list connects to it.
-
-### Connect to Connection
-Drop a connection on another connection to quickly connect to the same source node.
-
-### MultiMix
-Select two or more nodes and click the MultiMix button. Alternatively, you can press `F8`. This will instantly create a sequence of Combine nodes to mix the selected nodes together. For more detailed control, you can select two at a time and MultiMix the results.
-
-## Favorites
-Favorite nodes are shown at the top of the Graph. To add a node to favorites, right-click on the tool in the Toolbox and check **Show in favorites**. To remove a node from favorites, right-click on the tool in the Favorites bar on top of the Graph and uncheck **Show in favorites**. You can also choose to show/hide Favorites bar. Open the preferences dialog from Gaea Main Menu. Under the **Workspace** tab, you can check/uncheck the **Show Favorites in Graph** to show/Hide the Favorites bar on top of Graph.
-
