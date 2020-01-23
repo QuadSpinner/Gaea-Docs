@@ -17,7 +17,20 @@ Dragging a node from the @toolbox and dropping it on an existing node will autom
 
 ### Interject Node
 
+**Drop Interject**
+
+If you hold `Shift` and drop a node on an existing node, the new node will interject itself between the node's all outgoing primary output connections.
+
+**Drag Interject**
+
 If you hold `Shift` then drag an independent node (not connected to any other node) over a connection and release the mouse, the node will be interject itself between the two nodes of the existing connections.
+
+**Interject Portal via Menu**
+
+
+**Interject Node via Menu**
+
+
 
 ### Quick Create
 

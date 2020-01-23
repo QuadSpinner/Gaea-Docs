@@ -21,15 +21,28 @@ Installing Gaea is a simple process. Depending on your installation location, yo
 
 ---
 
-### Floating Server
-This feature is currently in development and may not be available until version 1.1. Please contact technical support for an interim alternative.
+## Administrative Install
+
+To run the installer silently:
+`Gaea-1.0.29.exe /s`
+
+To choose the install path:
+`Gaea-1.0.29.exe /S /D=C:\Gaea`
+
+For mass deployment, the following may be an easier process as Gaea is now fully portable.
+
+1. Install Gaea to a temporary folder on any machine.
+2. Copy the license key to the install folder.
+3. Now you can create a zip of the folder or copy it however you prefer to as many computers as you like.
+
+These installations will need be patched or upgraded in the same way.
 
 ---
+
+## Floating Server
+
+This feature is currently in development and may not be available until version 1.1. Please contact technical support for an interim alternative.
 
 ## Clean Installation
 
 If you were using our older EXE installers, or have encountered an issue in a new build, we recommend a clean installation. Download the full installer from the link above, and during installation, check the option for "Clean Installation.
-
-## Bleeding Edge Builds
-
-We release frequent semi-tested builds. For the most part, these builds are stable, but they contain new features which may contain minor bugs. With Bleeding Edge builds, you can 
