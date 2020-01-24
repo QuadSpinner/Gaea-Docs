@@ -39,7 +39,7 @@
         }
     },
     {
-        "Path": "changelogs",
+        "Path": "Changelogs",
         "Category": 1,
         "BaseItem": {
             "Title": "Version History",
