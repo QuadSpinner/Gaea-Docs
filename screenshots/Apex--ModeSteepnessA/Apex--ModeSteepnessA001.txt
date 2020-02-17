@@ -1,3 +1,0 @@
-Mode = Slant
-Steepness = 35.0%
-A = 10.0%

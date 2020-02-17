@@ -1,2 +1,0 @@
-Mode = Square
-Margin = 20

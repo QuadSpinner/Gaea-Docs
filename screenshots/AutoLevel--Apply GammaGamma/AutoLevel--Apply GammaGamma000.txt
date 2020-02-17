@@ -1,2 +1,0 @@
-Apply Gamma = True
-Gamma = 0.5

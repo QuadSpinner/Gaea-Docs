@@ -1,0 +1,2 @@
+Downcutting = 25.00%
+Inhibition = 0.00%

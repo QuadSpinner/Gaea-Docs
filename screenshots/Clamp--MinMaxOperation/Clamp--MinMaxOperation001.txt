@@ -1,3 +1,0 @@
-Min = 5.0%
-Max = 80.0%
-Operation = Clip

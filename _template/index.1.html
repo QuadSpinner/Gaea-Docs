@@ -158,12 +158,17 @@
   <script src="/assets/js/bootstrap-toc.min.js"></script>
 
   <script src="/assets/js/highlight.pack.js"></script>
+  <script src="/assets/js/medium-zoom.min.js"></script>
   <script>
 document.addEventListener('DOMContentLoaded', (event) => {
   document.querySelectorAll('pre code').forEach((block) => {
     hljs.highlightBlock(block);
   });
+  mediumZoom('.zoom', {  margin: 36,  background: '#333333'})
 });
+  </script>
+  <script>
+
   </script>
 </body>
 
