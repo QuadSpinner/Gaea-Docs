@@ -3,8 +3,7 @@ uid: Thermal
 title: Thermal
 ---
 
-Thermal Erosion...
-
+Thermal simulates Thermal Erosion that can create talus and debris.
 
 ### Thermal Stress Anisotropy
 Thermal Stress Anisotropy governs how erosion and the resulting rocks deposits are shaped. It smooths the terrain while eroding. Low values keep the original terrain intact for the most part, while high values create stronger talus at the expense of eroding the original terrain. For example, sharp peaks get eroded heavily with high stress values.

@@ -2,6 +2,9 @@
 uid: Mask
 title: Mask
 ---
+
+The Mask node lets you draw a mask.
+
 You create the mask by drawing it in the Mask interface which is launched by the **Edit Mask** button in the properties panel.
 
 `TODO: Image`
