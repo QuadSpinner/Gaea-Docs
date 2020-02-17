@@ -274,4 +274,17 @@ th {
 .medium-zoom-image--opened {
   z-index: 8;
 }
+
+.sidenav-vertical .sidenav-menu .sidenav-link {
+  padding: 0.2rem;
+  padding-left: 2rem !important;
+}
+
+.sidenav-vertical, .sidenav-vertical .sidenav-block, .sidenav-vertical .sidenav-inner > .sidenav-item, .sidenav-vertical .sidenav-inner > .sidenav-header {
+  width: 12rem;
+}
+
+.sidenav-vertical .sidenav-item .sidenav-link, .sidenav-vertical .sidenav-header, .sidenav-vertical .sidenav-block {
+  padding: .3rem 1rem;
+}
 /*# sourceMappingURL=custom.css.map */
