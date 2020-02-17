@@ -3,6 +3,8 @@ uid: CLUTer
 title: CLUTer
 ---
 
+CLUTer lets you create color gradients which can be mapped to texture masks for creating color maps.
+
 Coloration in Gaea is based on CLUTs, or color lookup tables. As 2D heightfields are essentially a grid of numbers ranging from 0.0 (lowest) to 1.0 (highest), CLUTs are represented as gradients which are mapped to those heights.
 
 The lowest part of a gradient corresponds to the lowest part of the terrain. The highest part of a gradient corresponds to the highest part of the terrain. Everything in between is evenly distributed.
