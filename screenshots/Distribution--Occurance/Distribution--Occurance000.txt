@@ -1,1 +1,0 @@
-Occurance = 15.0%

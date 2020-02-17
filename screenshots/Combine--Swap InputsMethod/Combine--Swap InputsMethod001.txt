@@ -1,2 +1,0 @@
-Swap Inputs = False
-Method = Add

@@ -1,2 +1,0 @@
-Terraces = 35
-Soft Falloff = False

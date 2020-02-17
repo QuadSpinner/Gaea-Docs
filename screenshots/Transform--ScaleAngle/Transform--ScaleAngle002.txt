@@ -1,2 +1,0 @@
-Scale = 0.5
-Angle = 180

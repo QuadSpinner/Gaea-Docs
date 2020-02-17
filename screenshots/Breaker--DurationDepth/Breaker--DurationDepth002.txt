@@ -1,2 +1,0 @@
-Duration = 750
-Depth = 60.0%

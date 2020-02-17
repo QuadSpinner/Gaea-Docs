@@ -1,2 +1,0 @@
-Strength = 20.0%
-Iterations = 15

@@ -1,2 +1,0 @@
-Scale = 70.0%
-Function = Manhattan

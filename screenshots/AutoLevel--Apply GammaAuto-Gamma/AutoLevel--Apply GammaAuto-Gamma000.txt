@@ -1,2 +1,0 @@
-Apply Gamma = True
-Auto-Gamma = True

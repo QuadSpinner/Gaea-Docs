@@ -1,2 +1,0 @@
-Amount = 20.0%
-Dispersion = 10.0%

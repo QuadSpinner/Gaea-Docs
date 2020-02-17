@@ -1,1 +1,0 @@
-Intensity = 10.0%

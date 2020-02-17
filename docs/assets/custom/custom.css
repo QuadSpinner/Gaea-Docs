@@ -141,7 +141,7 @@ nav[data-toggle="toc"] .nav-link.active + ul {
 }
 
 code {
-  background-color: #ffe57d;
+  background: rgba(247, 247, 165, 0.5);
   padding: 3px 6px;
   border-radius: 3px;
   color: #333333;
@@ -265,5 +265,13 @@ th {
   text-transform: uppercase;
   font-size: 10px;
   opacity: 0.5;
+}
+
+.medium-zoom-overlay {
+  z-index: 5;
+}
+
+.medium-zoom-image--opened {
+  z-index: 8;
 }
 /*# sourceMappingURL=custom.css.map */

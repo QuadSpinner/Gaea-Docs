@@ -1,2 +1,0 @@
-Duration = 750
-River Length = 100
