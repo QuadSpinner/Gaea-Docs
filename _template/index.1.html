@@ -24,7 +24,7 @@
   <link rel="stylesheet" href="/assets/vendor/css/colors.css">
   <link rel="stylesheet" href="/assets/vendor/css/uikit.css">
   <link rel="stylesheet" href="/assets/custom/custom.css">
-  <link rel="stylesheet" id="cssx" href="/">
+  <link rel="stylesheet" id="cssx" type="text/css" href="/">
   <!-- Layout helpers -->
   <script src="/assets/vendor/js/layout-helpers.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
@@ -54,14 +54,19 @@
         </div>
 
         <!-- Navbar toggle -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#layout-navbar-collapse">
+        <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#layout-navbar-collapse">
           <span class="navbar-toggler-icon"></span>
-        </button>
+        </button> -->
 
         <a href="/index.html" class="navbar-brand">
           <img id="logo" src="/images/Gaea_Logo_Dark.png" class="app-brand-logo ui-w-100" />
         </a>
 
+        <!-- <div class="navbar-collapse collapse" id="layout-navbar-collapse"> -->
+          <div class="navbar-nav align-items-lg-center">
+            <!--REPLACE-SUPERNAV-->
+          </div>
+        <!-- </div> -->
 
         <div class="navbar-text order-lg-2 text-right small"> <label class="switcher switcher-dark">
             <input type="checkbox" id="cb1" class="switcher-input" checked="">
@@ -72,11 +77,6 @@
             <span class="switcher-label text-muted"><i class="ion ion-ios-moon d-block"></i></span>
           </label></div>
 
-          <div class="navbar-collapse collapse" id="layout-navbar-collapse">
-            <div class="navbar-nav align-items-lg-center">
-              <!--REPLACE-SUPERNAV-->
-            </div>
-          </div>
       </nav>
 
       <!-- / Layout navbar -->

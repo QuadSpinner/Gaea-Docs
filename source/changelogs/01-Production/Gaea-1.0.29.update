@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
-<UpdateManifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="1.0.29.3" Size="39515621" PatchSize="0" ReleaseType="RTM" ReleaseDate="2020-01-17T00:00:00" Filename="Gaea-1.0.29.exe" URL="http://viridian.quadspinner.com/gaea/Gaea-1.0.29.exe" PatchURL="http://viridian.quadspinner.com/gaea/Gaea-1.0.29P.exe">
+<UpdateManifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="1.0.29.5" Size="39516928" PatchSize="6361248" ReleaseType="RTM" ReleaseDate="2020-02-17T00:00:00" Filename="Gaea-1.0.29.exe" URL="http://viridian.quadspinner.com/gaea/Gaea-1.0.29.exe?f=21" PatchURL="http://viridian.quadspinner.com/gaea/Gaea-1.0.29P.exe?f=20">
   <FullDescription>#### What's new in Gaea 1.0.29?
 
 # New 2.5D Viewport, Light baking, and Stability Update
 
-**This is a crucial update that is recommended for all users.**
+**This is a crucial update that is recommended for all users and includes new updates released since 1.0.29.3 was originally released.**
 
 ## Critical Stability Update
 
@@ -25,6 +25,38 @@ We have improved color and gradient editors, and introduced a unified popup for 
 &lt;img src="http://malachite.blob.core.windows.net/gaea/changelog/1_0_29/clut.png" style="max-width: 350px;" /&gt; 
 
 # Complete Changelog
+
+## From 1.0.29.4
+
+#### New
+- Builds can now use bake cache when resolution is same or lower.
+
+#### Node Updates
+- Coast enhanced with larger maximum values.
+- Combine can now accept both heightfield and color inputs.
+- Mesher now has option to create or skip walls for the side of the meshes.
+
+#### Improved
+- 3D/2D lighting toggle added to the main toolbar.
+- Several minor improvements for new viewport render system.
+- Mask gradient visualization reverted to black and white.
+
+#### Fixed
+- Gaea.Build.exe would not execute properly when run from command line or scripts.
+- RGBMix and RGBSplit were broken.
+- Invert was broken.
+- Route and Switch would not accept color nodes.
+- Cells now honors minimum values for Size and Chaos.
+- Vegetation would throw error on creation.
+- Mesher output improved. Excess "wall" artifact removed.
+- Mesh Export options in Build Manager have been removed. Use Mesher node instead.
+- Output node now behaves properly in Build Manager when 'Save to Build Folder' is enabled.
+- Node created from search box would not be placed correctly.
+- Installer would not register custom data path.
+- Quickstarts would not show with custom data path.
+- Presets would not show with custom data path.
+
+## From 1.0.29.3
 
 #### New
 

@@ -262,3 +262,19 @@ figure{
     font-weight: 600;
   }
 }
+
+
+html.layout-expanded{
+
+  .sidenav-vertical{
+    top: 5.5rem !important;
+  }
+}
+
+.navbar-nav .nav-item, .navbar-nav .nav-link {
+    display: inline-block !important;
+    padding-right: 1rem;
+    font-size: 12px;
+    font-weight: bold;
+    padding-top: 0.8rem;
+}

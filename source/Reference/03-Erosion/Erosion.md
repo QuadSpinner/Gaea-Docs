@@ -14,7 +14,9 @@ The Erosion node’s algorithm addresses one of the biggest problems in digital 
 The algorithm also creates exquisite flows with naturalistic curves, never before been seen in digital erosion.
 
 ### Strength and Rock Softness
-Both Strength and Rock softness parameters affect the aggressiveness of erosion, and effect from increasing of one can be similar to the effect of increasing other, but there is still the difference, derived from the definition of these parameters. Lesser strength means dissolved soil will be dropped earlier because of lower water transport capacity, and lesser softness means that the rock will be eroded slower but dissolved sediment will be dropped farther. This results in different distribution of deposits, gullies, and shapes of erosion features.
+Both Strength and Rock softness parameters affect the aggressiveness of erosion, and effect from increasing of one can be similar to the effect of increasing other, but there is still the difference, derived from the definition of these parameters. 
+
+Lesser strength means dissolved soil will be dropped earlier because of lower water transport capacity, and lesser softness means that the rock will be eroded slower but dissolved sediment will be dropped farther. This results in different distribution of deposits, gullies, and shapes of erosion features.
 
 
 <figure>
