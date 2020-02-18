@@ -29,6 +29,9 @@ To run the installer silently:
 To choose the install path:
 `Gaea-1.0.29.exe /S /D=C:\Gaea`
 
+
+### Manual Mass Deployment
+
 For mass deployment, the following may be an easier process as Gaea is now fully portable.
 
 1. Install Gaea to a temporary folder on any machine.
