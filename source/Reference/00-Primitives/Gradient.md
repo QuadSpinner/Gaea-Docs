@@ -7,3 +7,4 @@ The Gradient node is a very useful starting primitive, especially when displaced
 
 This primitive creates three distinct types of gradients: Linear, Radial, and Helix. Several properties shown below are unique to each gradient type.
 
+![](/images/ref/Gradient/Gradient.png)

@@ -245,3 +245,20 @@ th {
 .sidenav-vertical .sidenav-item .sidenav-link, .sidenav-vertical .sidenav-header, .sidenav-vertical .sidenav-block{
   padding: .3rem 1rem;
 }
+
+figure{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  p{
+    margin: 0;
+    padding: 0;
+  }
+
+  figcaption{
+    margin: 0;
+    padding: 0.3rem;
+    padding-left: 1rem;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+  }
+}
