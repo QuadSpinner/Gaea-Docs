@@ -68,3 +68,6 @@ The size of the "features" created during the erosion process - namely the width
 </figure>
 
 The *Real Scale* option automatically controls the general scale (the extents of the terrain and the vertical scale), using the scale set in the Terrain Definition. Although it can be turned off to manually change the 'physics' of the erosion system, although it is not recommended for most scenarios.
+
+{.NOTE} 
+> When using Parallel Processing, the erosion algorithm can become non-deterministic. This means while most of the major flows will appear in the same location, smaller features may appear somewhat different every time the node is processed. To ensure fully deterministic processing, disable Parallel Processing. This will sacrifice processing speed to ensure your results are consistent.
