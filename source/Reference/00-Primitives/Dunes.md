@@ -18,5 +18,5 @@ The Dunes node allows you to create a large sea of dunes in systematic undulatio
 
 ![](/images/ref/Dunes/Dunes--2.png)
 
-<figcaption>Choatic: A windswept, unruly portion of a sand dune covering a smaller area.</figcaption>
+<figcaption>Chaotic: A windswept, unruly portion of a sand dune covering a smaller area.</figcaption>
 </figure>
