@@ -119,7 +119,8 @@ h4, .faux-h4 {
 
 a {
     color: #0071BC;
-    text-decoration: none
+    text-decoration: none;
+    font-weight: 600;
 }
 
 a:hover, a:focus {
@@ -1215,7 +1216,8 @@ nav[data-toggle=toc]>div:first-child.connect-widget {
 }
 
 .docs h1 {
-    margin-bottom: 15px
+    margin-top: 20px;
+    margin-bottom: 15px;
 }
 
 .docs h2 {
@@ -1624,6 +1626,10 @@ nav[data-toggle=toc] .nav>.active>.nav>.active>a {
     margin-bottom: 10px
 }
 
+.docs p{
+    margin-bottom: 20px;
+}
+
 .docs .section {
     padding: 5px 15px;
     background-color: #f3f3f3;
@@ -1646,6 +1652,10 @@ nav[data-toggle=toc] .nav>.active>.nav>.active>a {
 
 .docs a.type-instrinct:hover {
     text-decoration: none
+}
+
+.docs ol li{
+    margin-bottom: 8px;
 }
 
 .docs p span.ts {

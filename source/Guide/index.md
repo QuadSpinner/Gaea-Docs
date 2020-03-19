@@ -4,11 +4,9 @@ title: Welcome
 nav: false
 ---
 
-# Welcome to the Gaea User Guide
+Welcome to the Gaea User Guide. The documentation is organized to help you get started with Gaea quickly and easily regardless of your skill level.
 
-The documentation is organized to help you get started with Gaea quickly and easily regardless of your skill level.
-
-# Getting Started
+## Getting Started
 
 @installing contains instructions on installing Gaea.
 

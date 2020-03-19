@@ -49,6 +49,10 @@
   font-weight: bold;
 }
 
+p.title {
+  font-size: 3rem;
+}
+
 .TIP {
   border-color: rgba(200, 225, 238, 0.33);
   background-color: #ddf7ff68;
@@ -87,25 +91,6 @@ code {
 
 .textcontent a {
   font-weight: 600;
-}
-
-h1 {
-  font-size: 26px;
-  padding-bottom: 5px;
-  border-bottom: 1px solid #eaebeb;
-}
-
-h2 {
-  font-size: 22px;
-  margin-top: 36px;
-  padding-bottom: 5px;
-  border-bottom: 1px solid #eaebeb;
-}
-
-h3 {
-  font-size: 18px;
-  font-weight: 600;
-  margin-top: 36px;
 }
 
 .examples ul {
@@ -161,6 +146,11 @@ h3 {
 
 .sidenav-toggle {
   padding-right: 0;
+}
+
+.params ul li {
+  list-style: none;
+  margin-bottom: 8px;
 }
 
 .params td:nth-child(1) {
