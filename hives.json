@@ -8,8 +8,7 @@
             "Link": "Reference/index.html",
             "UID": "reference"
         },
-        "ProcessProceduralFiles": true,
-        "ProcessExampleFiles": true
+        "ProcessProceduralFiles": true
     },
     {
         "Path": "Guide",
@@ -27,15 +26,6 @@
             "Title": "Videos",
             "Link": "Videos/index.html",
             "UID": "videos"
-        }
-    },
-    {
-        "Path": "Developers",
-        "Category": 0,
-        "BaseItem": {
-            "Title": "For Developers",
-            "Link": "Developers/index.html",
-            "UID": "dev"
         }
     },
     {

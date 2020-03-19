@@ -1,9 +1,230 @@
-<!DOCTYPE html><html lang="en" class="default-style"><head><meta charset="utf-8"><meta http-equiv="x-ua-compatible" content="IE=edge,chrome=1"><meta name="description" content=""><meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0"><title>Breaker - Gaea Documentation - QuadSpinner</title><link rel="shortcut icon" href="/Gaea-32.png" type="image/png"><!-- Main font --><link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900" rel="stylesheet"><!-- Icons. Uncomment required icon fonts --><link rel="stylesheet" href="/assets/vendor/fonts/ionicons.css"><!-- Core stylesheets --><link rel="stylesheet" href="/assets/vendor/css/bootstrap.css"><link rel="stylesheet" href="/assets/vendor/css/appwork.css"><link rel="stylesheet" href="/assets/vendor/css/theme-corporate.css"><link rel="stylesheet" href="/assets/vendor/css/colors.css"><link rel="stylesheet" href="/assets/vendor/css/uikit.css"><link rel="stylesheet" href="/assets/custom/custom.css"><link rel="stylesheet" id="cssx" type="text/css" href="/"><!-- Layout helpers --><script src="/assets/vendor/js/layout-helpers.js"></script><script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script><!-- Libs --> <!-- `perfect-scrollbar` library required by SideNav plugin --><link rel="stylesheet" href="/assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.css"><link rel="stylesheet" href="/assets/custom/obsidian.css"></head><body><!-- Layout wrapper --><div class="layout-wrapper layout-1 layout-without-sidenav"><!-- Layout inner --><div class="layout-inner"><!-- Layout navbar --> <nav class="layout-navbar navbar navbar-expand-lg bg-navbar-theme container-p-x" id="layout-navbar"> <!-- Sidenav toggle --><div class="layout-sidenav-toggle navbar-nav align-items-lg-center mr-auto mr-lg-4 d-flex d-lg-none d-xl-none"><a class="nav-item nav-link px-0 ml-2" href="javascript:void(0)"> <i class="ion ion-md-menu text-large align-middle"></i> </a></div><!-- Navbar toggle --> <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#layout-navbar-collapse">
-          <span class="navbar-toggler-icon"></span>
-        </button> --> <a href="/index.html" class="navbar-brand"> <img id="logo" src="/images/Gaea_Logo_Dark.png" class="app-brand-logo ui-w-100"> </a> <!-- <div class="navbar-collapse collapse" id="layout-navbar-collapse"> --><div class="navbar-nav align-items-lg-center"><ul><li class="nav-item active"><a class="nav-link" href="/Reference/index.html">Node Reference</a></li><li class="nav-item"><a class="nav-link" href="/Guide/index.html">User Guide</a></li><li class="nav-item"><a class="nav-link" href="/Videos/index.html">Videos</a></li><li class="nav-item"><a class="nav-link" href="/Developers/index.html">For Developers</a></li><li class="nav-item"><a class="nav-link" href="/Changelogs/index.html">Version History</a></li></ul></div><!-- </div> --><div class="navbar-text order-lg-2 text-right small"><label class="switcher switcher-dark"> <input type="checkbox" id="cb1" class="switcher-input" checked="checked"> <span class="switcher-indicator"> <span class="switcher-yes"><span class="ion ion-md-checkmark"></span></span> <span class="switcher-no"><span class="ion ion-md-close"></span></span> </span> <span class="switcher-label text-muted"><i class="ion ion-ios-moon d-block"></i></span> </label></div></nav> <!-- / Layout navbar --><div class="layout-container"><!-- Layout sidenav --><div id="layout-sidenav" class="layout-sidenav sidenav sidenav-vertical bg-sidenav-theme"><ul class="sidenav-inner py-1 reference"><li class="sidenav-item"><a href="javascript:void(0)" class="sidenav-link sidenav-toggle"><div>Primitives</div></a><ul class="sidenav-menu"><li class="sidenav-item"><a href="/Reference/Primitives/Constant.html" class="sidenav-link"><div>Constant</div></a></li><li class="sidenav-item"><a href="/Reference/Primitives/Cracks.html" class="sidenav-link"><div>Cracks</div></a></li><li class="sidenav-item"><a href="/Reference/Primitives/Crater.html" class="sidenav-link"><div>Crater</div></a></li><li class="sidenav-item"><a href="/Reference/Primitives/Draw.html" class="sidenav-link"><div>Draw</div></a></li><li class="sidenav-item"><a href="/Reference/Primitives/Dunes.html" class="sidenav-link"><div>Dunes</div></a></li><li class="sidenav-item"><a href="/Reference/Primitives/Fault.html" class="sidenav-link"><div>Fault</div></a></li><li class="sidenav-item"><a href="/Reference/Primitives/File.html" class="sidenav-link"><div>File</div></a></li><li class="sidenav-item"><a href="/Reference/Primitives/Gradient.html" class="sidenav-link"><div>Gradient</div></a></li><li class="sidenav-item"><a href="/Reference/Primitives/Igneous.html" class="sidenav-link"><div>Igneous</div></a></li><li class="sidenav-item"><a href="/Reference/Primitives/Island.html" class="sidenav-link"><div>Island</div></a></li><li class="sidenav-item"><a href="/Reference/Primitives/LineNoise.html" class="sidenav-link"><div>LineNoise</div></a></li><li class="sidenav-item"><a href="/Reference/Primitives/Mountain.html" class="sidenav-link"><div>Mountain</div></a></li><li class="sidenav-item"><a href="/Reference/Primitives/Perlin.html" class="sidenav-link"><div>Perlin</div></a></li><li class="sidenav-item"><a href="/Reference/Primitives/Plates.html" class="sidenav-link"><div>Plates</div></a></li><li class="sidenav-item"><a href="/Reference/Primitives/Range.html" class="sidenav-link"><div>Range</div></a></li><li class="sidenav-item"><a href="/Reference/Primitives/Resource.html" class="sidenav-link"><div>Resource</div></a></li><li class="sidenav-item"><a href="/Reference/Primitives/SlopeNoise.html" class="sidenav-link"><div>SlopeNoise</div></a></li><li class="sidenav-item"><a href="/Reference/Primitives/Voronoi+.html" class="sidenav-link"><div>Voronoi+</div></a></li><li class="sidenav-item"><a href="/Reference/Primitives/Voronoi.html" class="sidenav-link"><div>Voronoi</div></a></li></ul></li><li class="sidenav-item"><a href="javascript:void(0)" class="sidenav-link sidenav-toggle"><div>Adjustments</div></a><ul class="sidenav-menu"><li class="sidenav-item"><a href="/Reference/Adjustments/Abs.html" class="sidenav-link"><div>Abs</div></a></li><li class="sidenav-item"><a href="/Reference/Adjustments/AutoLevel.html" class="sidenav-link"><div>AutoLevel</div></a></li><li class="sidenav-item"><a href="/Reference/Adjustments/BiasGain.html" class="sidenav-link"><div>BiasGain</div></a></li><li class="sidenav-item"><a href="/Reference/Adjustments/Blur.html" class="sidenav-link"><div>Blur</div></a></li><li class="sidenav-item"><a href="/Reference/Adjustments/Clamp.html" class="sidenav-link"><div>Clamp</div></a></li><li class="sidenav-item"><a href="/Reference/Adjustments/Combine.html" class="sidenav-link"><div>Combine</div></a></li><li class="sidenav-item"><a href="/Reference/Adjustments/Denoise.html" class="sidenav-link"><div>Denoise</div></a></li><li class="sidenav-item"><a href="/Reference/Adjustments/Displace.html" class="sidenav-link"><div>Displace</div></a></li><li class="sidenav-item"><a href="/Reference/Adjustments/Flip.html" class="sidenav-link"><div>Flip</div></a></li><li class="sidenav-item"><a href="/Reference/Adjustments/Gamma.html" class="sidenav-link"><div>Gamma</div></a></li><li class="sidenav-item"><a href="/Reference/Adjustments/Heal.html" class="sidenav-link"><div>Heal</div></a></li><li class="sidenav-item"><a href="/Reference/Adjustments/Invert.html" class="sidenav-link"><div>Invert</div></a></li><li class="sidenav-item"><a href="/Reference/Adjustments/Shaper.html" class="sidenav-link"><div>Shaper</div></a></li><li class="sidenav-item"><a href="/Reference/Adjustments/Sharpen.html" class="sidenav-link"><div>Sharpen</div></a></li><li class="sidenav-item"><a href="/Reference/Adjustments/Sine.html" class="sidenav-link"><div>Sine</div></a></li><li class="sidenav-item"><a href="/Reference/Adjustments/Threshold.html" class="sidenav-link"><div>Threshold</div></a></li><li class="sidenav-item"><a href="/Reference/Adjustments/Transform.html" class="sidenav-link"><div>Transform</div></a></li><li class="sidenav-item"><a href="/Reference/Adjustments/Zero%20Borders.html" class="sidenav-link"><div>Zero Borders</div></a></li></ul></li><li class="sidenav-item"><a href="javascript:void(0)" class="sidenav-link sidenav-toggle"><div>Filters</div></a><ul class="sidenav-menu"><li class="sidenav-item"><a href="/Reference/Filters/Aperture.html" class="sidenav-link"><div>Aperture</div></a></li><li class="sidenav-item"><a href="/Reference/Filters/Apex.html" class="sidenav-link"><div>Apex</div></a></li><li class="sidenav-item"><a href="/Reference/Filters/Bomber.html" class="sidenav-link"><div>Bomber</div></a></li><li class="sidenav-item"><a href="/Reference/Filters/Cells.html" class="sidenav-link"><div>Cells</div></a></li><li class="sidenav-item"><a href="/Reference/Filters/Distribution.html" class="sidenav-link"><div>Distribution</div></a></li><li class="sidenav-item"><a href="/Reference/Filters/Noise.html" class="sidenav-link"><div>Noise</div></a></li><li class="sidenav-item"><a href="/Reference/Filters/Origami.html" class="sidenav-link"><div>Origami</div></a></li><li class="sidenav-item"><a href="/Reference/Filters/Polar.html" class="sidenav-link"><div>Polar</div></a></li><li class="sidenav-item"><a href="/Reference/Filters/Recurve.html" class="sidenav-link"><div>Recurve</div></a></li><li class="sidenav-item"><a href="/Reference/Filters/Repulse.html" class="sidenav-link"><div>Repulse</div></a></li><li class="sidenav-item"><a href="/Reference/Filters/Rocks.html" class="sidenav-link"><div>Rocks</div></a></li><li class="sidenav-item"><a href="/Reference/Filters/Subterrace.html" class="sidenav-link"><div>Subterrace</div></a></li><li class="sidenav-item"><a href="/Reference/Filters/Swirl.html" class="sidenav-link"><div>Swirl</div></a></li><li class="sidenav-item"><a href="/Reference/Filters/Terrace.html" class="sidenav-link"><div>Terrace</div></a></li><li class="sidenav-item"><a href="/Reference/Filters/Whorl.html" class="sidenav-link"><div>Whorl</div></a></li></ul></li><li class="sidenav-item open"><a href="javascript:void(0)" class="sidenav-link sidenav-toggle"><div>Erosion</div></a><ul class="sidenav-menu"><li class="sidenav-item open"><a href="/Reference/Erosion/Alluvium.html" class="sidenav-link"><div>Alluvium</div></a></li><li class="sidenav-item"><a href="/Reference/Erosion/Breaker.html" class="sidenav-link active"><div>Breaker</div></a></li><li class="sidenav-item open"><a href="/Reference/Erosion/Buildup.html" class="sidenav-link"><div>Buildup</div></a></li><li class="sidenav-item open"><a href="/Reference/Erosion/Convector.html" class="sidenav-link"><div>Convector</div></a></li><li class="sidenav-item open"><a href="/Reference/Erosion/Deposits.html" class="sidenav-link"><div>Deposits</div></a></li><li class="sidenav-item open"><a href="/Reference/Erosion/Erosion.html" class="sidenav-link"><div>Erosion</div></a></li><li class="sidenav-item open"><a href="/Reference/Erosion/Fluvial.html" class="sidenav-link"><div>Fluvial</div></a></li><li class="sidenav-item open"><a href="/Reference/Erosion/Fold.html" class="sidenav-link"><div>Fold</div></a></li><li class="sidenav-item open"><a href="/Reference/Erosion/Hydro.html" class="sidenav-link"><div>Hydro</div></a></li><li class="sidenav-item open"><a href="/Reference/Erosion/Landform.html" class="sidenav-link"><div>Landform</div></a></li><li class="sidenav-item open"><a href="/Reference/Erosion/MicroErosion.html" class="sidenav-link"><div>MicroErosion</div></a></li><li class="sidenav-item open"><a href="/Reference/Erosion/RockSlide.html" class="sidenav-link"><div>RockSlide</div></a></li><li class="sidenav-item open"><a href="/Reference/Erosion/Sediment.html" class="sidenav-link"><div>Sediment</div></a></li><li class="sidenav-item open"><a href="/Reference/Erosion/Stratify.html" class="sidenav-link"><div>Stratify</div></a></li><li class="sidenav-item open"><a href="/Reference/Erosion/Thermal.html" class="sidenav-link"><div>Thermal</div></a></li></ul></li><li class="sidenav-item"><a href="javascript:void(0)" class="sidenav-link sidenav-toggle"><div>Snow</div></a><ul class="sidenav-menu"><li class="sidenav-item"><a href="/Reference/Snow/Glacier.html" class="sidenav-link"><div>Glacier</div></a></li><li class="sidenav-item"><a href="/Reference/Snow/Iceberg.html" class="sidenav-link"><div>Iceberg</div></a></li><li class="sidenav-item"><a href="/Reference/Snow/IceFloe.html" class="sidenav-link"><div>IceFloe</div></a></li><li class="sidenav-item"><a href="/Reference/Snow/Snowfall.html" class="sidenav-link"><div>Snowfall</div></a></li></ul></li><li class="sidenav-item"><a href="javascript:void(0)" class="sidenav-link sidenav-toggle"><div>Water</div></a><ul class="sidenav-menu"><li class="sidenav-item"><a href="/Reference/Water/Coast.html" class="sidenav-link"><div>Coast</div></a></li><li class="sidenav-item"><a href="/Reference/Water/Headwaters.html" class="sidenav-link"><div>Headwaters</div></a></li><li class="sidenav-item"><a href="/Reference/Water/Lake.html" class="sidenav-link"><div>Lake</div></a></li></ul></li><li class="sidenav-item"><a href="javascript:void(0)" class="sidenav-link sidenav-toggle"><div>Data Maps</div></a><ul class="sidenav-menu"><li class="sidenav-item"><a href="/Reference/Data%20Maps/Cartography.html" class="sidenav-link"><div>Cartography</div></a></li><li class="sidenav-item"><a href="/Reference/Data%20Maps/Details.html" class="sidenav-link"><div>Details</div></a></li><li class="sidenav-item"><a href="/Reference/Data%20Maps/Dither.html" class="sidenav-link"><div>Dither</div></a></li><li class="sidenav-item"><a href="/Reference/Data%20Maps/Flow.html" class="sidenav-link"><div>Flow</div></a></li><li class="sidenav-item"><a href="/Reference/Data%20Maps/Growth.html" class="sidenav-link"><div>Growth</div></a></li><li class="sidenav-item"><a href="/Reference/Data%20Maps/Occlusion.html" class="sidenav-link"><div>Occlusion</div></a></li><li class="sidenav-item"><a href="/Reference/Data%20Maps/Protrusion.html" class="sidenav-link"><div>Protrusion</div></a></li><li class="sidenav-item"><a href="/Reference/Data%20Maps/Soil.html" class="sidenav-link"><div>Soil</div></a></li><li class="sidenav-item"><a href="/Reference/Data%20Maps/Surfacer.html" class="sidenav-link"><div>Surfacer</div></a></li><li class="sidenav-item"><a href="/Reference/Data%20Maps/Texture.html" class="sidenav-link"><div>Texture</div></a></li><li class="sidenav-item"><a href="/Reference/Data%20Maps/Velocity.html" class="sidenav-link"><div>Velocity</div></a></li></ul></li><li class="sidenav-item"><a href="javascript:void(0)" class="sidenav-link sidenav-toggle"><div>Selectors</div></a><ul class="sidenav-menu"><li class="sidenav-item"><a href="/Reference/Selectors/Angle.html" class="sidenav-link"><div>Angle</div></a></li><li class="sidenav-item"><a href="/Reference/Selectors/Curvature.html" class="sidenav-link"><div>Curvature</div></a></li><li class="sidenav-item"><a href="/Reference/Selectors/Height.html" class="sidenav-link"><div>Height</div></a></li><li class="sidenav-item"><a href="/Reference/Selectors/Mask.html" class="sidenav-link"><div>Mask</div></a></li><li class="sidenav-item"><a href="/Reference/Selectors/Slope.html" class="sidenav-link"><div>Slope</div></a></li></ul></li><li class="sidenav-item"><a href="javascript:void(0)" class="sidenav-link sidenav-toggle"><div>Color</div></a><ul class="sidenav-menu"><li class="sidenav-item"><a href="/Reference/Color/Biome.html" class="sidenav-link"><div>Biome</div></a></li><li class="sidenav-item"><a href="/Reference/Color/CLUTer.html" class="sidenav-link"><div>CLUTer</div></a></li><li class="sidenav-item"><a href="/Reference/Color/ColorFx.html" class="sidenav-link"><div>ColorFX</div></a></li><li class="sidenav-item"><a href="/Reference/Color/Mixer.html" class="sidenav-link"><div>Mixer</div></a></li><li class="sidenav-item"><a href="/Reference/Color/NormalMap.html" class="sidenav-link"><div>Normal Map</div></a></li><li class="sidenav-item"><a href="/Reference/Color/QuickColor.html" class="sidenav-link"><div>QuickColor</div></a></li><li class="sidenav-item"><a href="/Reference/Color/RGBMix.html" class="sidenav-link"><div>RGBMix</div></a></li><li class="sidenav-item"><a href="/Reference/Color/RGBSplit.html" class="sidenav-link"><div>RGBSplit</div></a></li><li class="sidenav-item"><a href="/Reference/Color/SatMaps.html" class="sidenav-link"><div>SatMaps</div></a></li><li class="sidenav-item"><a href="/Reference/Color/Splat.html" class="sidenav-link"><div>Splat</div></a></li><li class="sidenav-item"><a href="/Reference/Color/Synth.html" class="sidenav-link"><div>Synth</div></a></li><li class="sidenav-item"><a href="/Reference/Color/Vegetation.html" class="sidenav-link"><div>Vegetation</div></a></li></ul></li><li class="sidenav-item"><a href="javascript:void(0)" class="sidenav-link sidenav-toggle"><div>Output</div></a><ul class="sidenav-menu"><li class="sidenav-item"><a href="/Reference/Output/Mesher.html" class="sidenav-link"><div>Mesher</div></a></li><li class="sidenav-item"><a href="/Reference/Output/Output.html" class="sidenav-link"><div>Output</div></a></li></ul></li><li class="sidenav-item"><a href="javascript:void(0)" class="sidenav-link sidenav-toggle"><div>Utilities</div></a><ul class="sidenav-menu"><li class="sidenav-item"><a href="/Reference/Utilities/Portal.html" class="sidenav-link"><div>Portal</div></a></li><li class="sidenav-item"><a href="/Reference/Utilities/Route.html" class="sidenav-link"><div>Route</div></a></li><li class="sidenav-item"><a href="/Reference/Utilities/Switch.html" class="sidenav-link"><div>Switch</div></a></li></ul></li><li class="sidenav-item"><a href="javascript:void(0)" class="sidenav-link sidenav-toggle"><div>Sculpt</div></a><ul class="sidenav-menu"><li class="sidenav-item"><a href="/Reference/Sculpt/Basic.html" class="sidenav-link"><div>Basic</div></a></li><li class="sidenav-item"><a href="/Reference/Sculpt/Carver%20I.html" class="sidenav-link"><div>Carver I</div></a></li><li class="sidenav-item"><a href="/Reference/Sculpt/Carver%20II.html" class="sidenav-link"><div>Carver II</div></a></li><li class="sidenav-item"><a href="/Reference/Sculpt/Cutter.html" class="sidenav-link"><div>Cutter</div></a></li><li class="sidenav-item"><a href="/Reference/Sculpt/FlowLines.html" class="sidenav-link"><div>FlowLines</div></a></li><li class="sidenav-item"><a href="/Reference/Sculpt/Gullies.html" class="sidenav-link"><div>Gullies</div></a></li><li class="sidenav-item"><a href="/Reference/Sculpt/LandBreaker.html" class="sidenav-link"><div>LandBreaker</div></a></li><li class="sidenav-item"><a href="/Reference/Sculpt/Pockmarks.html" class="sidenav-link"><div>Pockmarks</div></a></li><li class="sidenav-item"><a href="/Reference/Sculpt/Rough%20Flow.html" class="sidenav-link"><div>Rough Flow</div></a></li><li class="sidenav-item"><a href="/Reference/Sculpt/Roughness.html" class="sidenav-link"><div>Roughness</div></a></li><li class="sidenav-item"><a href="/Reference/Sculpt/Scratch.html" class="sidenav-link"><div>Scratch</div></a></li><li class="sidenav-item"><a href="/Reference/Sculpt/Soil.html" class="sidenav-link"><div>Soil</div></a></li><li class="sidenav-item"><a href="/Reference/Sculpt/Wide%20Flow%20I.html" class="sidenav-link"><div>Wide Flow I</div></a></li><li class="sidenav-item"><a href="/Reference/Sculpt/Wide%20Flow%20II.html" class="sidenav-link"><div>Wide Flow II</div></a></li></ul></li></ul></div><!-- / Layout sidenav --><div class="layout-content"><!-- Page content --><div class="container flex-grow-1 container-p-y"><div class="row"><div class="col-lg-10 textcontent" data-spy="scroll" data-target="#toc"><div class="alert alert-warning font-weight-bold py-1"><small> <strong> Work in progress! </strong> This document is currently being compiled and edited. Contents may not be fully complete. </small></div><div class="card"><div class="card-header"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="/index.html"><i class="ion ion-ios-home d-block"></i></a></li><li class="breadcrumb-item"><a href="Reference/index.html">Node Reference</a></li><li class="breadcrumb-item">Erosion</li><li class="breadcrumb-item active">Breaker</li></ol></div><div class="card-body"><p>Breaker creates large cracks in the terrain, following the general rules of Hydraulic Erosion, but without creating soil deposits.</p></div></div><br><h6 class="ml-2">Node Properties</h6><div class="card"><div class="card-body params"><table class="table table-borderless"><thead><tr><th style="text-align: left">Setting</th><th style="text-align: left">Description</th></tr></thead><tbody><tr><td style="text-align: left"><strong>Duration</strong></td><td style="text-align: left">The number of breakage iterations to perform on the terrain. The default value should work in most situations.</td></tr><tr><td style="text-align: left"><strong>River Length</strong></td><td style="text-align: left">The maximum length of each break or river.</td></tr><tr><td style="text-align: left"><strong>Erosion Power</strong></td><td style="text-align: left">The strength of the breakage process. High values may cause sharp drops and spikes depending on the terrain.</td></tr><tr><td style="text-align: left"><strong>Depth</strong></td><td style="text-align: left">Depth of the cracks.</td></tr><tr><td style="text-align: left"><strong>Seed</strong></td><td style="text-align: left">The randomization pattern or seed for the node's process.</td></tr><tr><td style="text-align: left"><strong>Hard Cracks</strong></td><td style="text-align: left">Disables antialiasing and smooth of the crack edges.</td></tr><tr><td style="text-align: left"><strong>Mode</strong></td><td style="text-align: left"></td></tr><tr><td style="text-align: left"></td><td style="text-align: left"><em>Fast</em> : Processes faster, but may not always result in the same pattern of cracks.</td></tr><tr><td style="text-align: left"></td><td style="text-align: left"><em>Accurate</em> : Processes a bit slower, but ensures the pattern remains the same.</td></tr></tbody></table></div></div></div><div class="col-lg-2"><nav id="toc" data-toggle="toc" class="sticky-top"></nav></div></div><!-- Card --></div><!-- / Page content --> <!-- Layout footer --> <nav class="layout-footer footer bg-footer-theme"><div class="container-fluid d-flex flex-wrap justify-content-between text-center container-p-x pb-3"><div class="pt-3"><span class="footer-text font-weight-bolder">QuadSpinner Documentation Hub</span></div><div><a href="https://support.quadspinner.com" target="_blank" class="footer-link pt-3 ml-4">Contact support</a> <a href="https://github.com/QuadSpinner/Gaea-Docs/issues" target="_blank" class="footer-link pt-3 ml-4">Suggest an edit</a></div></div></nav> <!-- / Layout footer --></div></div></div><!-- Layout inner --></div><!-- / Layout wrapper --> <!-- Core scripts --><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script><script src="/assets/vendor/libs/popper/popper.js"></script><script src="/assets/vendor/js/bootstrap.js"></script><script src="/assets/vendor/js/sidenav.js"></script><!-- Libs --> <!-- `perfect-scrollbar` library required by SideNav plugin --><script src="/assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.js"></script><!-- Main script --><script src="/assets/js/main.js"></script><script src="/assets/js/ui_navbar.js"></script><script src="/assets/js/bootstrap-toc.min.js"></script><script src="/assets/js/highlight.pack.js"></script><script src="/assets/js/medium-zoom.min.js"></script><script>document.addEventListener('DOMContentLoaded', (event) => {
-  document.querySelectorAll('pre code').forEach((block) => {
-    hljs.highlightBlock(block);
-  });
-  mediumZoom('.zoom', {  margin: 36,  background: '#333333'})
-  mediumZoom('figure img', {  margin: 36,  background: '#333333'})
-});</script><script></script></body></html>
+<!DOCTYPE html>
+
+<html lang="en" class="default-style">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="IE=edge,chrome=1">
+    <meta name="description" content="">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+
+    <title>Breaker - Gaea Documentation - QuadSpinner</title>
+    <link rel="shortcut icon" href="/Gaea-32.png" type="image/png">
+    <!-- Main font -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="/assets/v3/styles.css">
+    <link rel="stylesheet" href="/assets/v3/bootstrap-toc.css">
+
+    <!-- Icons. Uncomment required icon fonts -->
+    <link rel="stylesheet" href="/assets/custom/custom.css">
+    <link rel="stylesheet" href="/assets/vendor/fonts/ionicons.css">
+
+    <!-- Core stylesheets -->
+    <link rel="stylesheet" id="cssx" type="text/css" href="/">
+    <!-- Layout helpers -->
+    <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+
+    <!-- Libs -->
+
+    <!-- `perfect-scrollbar` library required by SideNav plugin -->
+    <!-- <link rel="stylesheet" href="/assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.css"> -->
+    <!-- <link rel="stylesheet" href="/assets/custom/obsidian.css"> -->
+</head>
+
+<body data-spy="scroll" data-target="#toc">
+
+    <!-- Layout wrapper -->
+    <div id="main">
+        <div class="navbar-fixed-container">
+            <div class="navbar navbar-inverse navbar-fixed-top ">
+                <nav role="navigation" aria-label="Top Level">
+                    <div class="container">
+                        <div class="nav navbar-header">
+                            <a class="navbar-brand" href="https://docs.quadspinner.com/"><span
+                                    itemprop="name">QuadSpinner Gaea</span></a>
+                            <button type="button" class="navbar-toggle" role="navigation" data-toggle="collapse"
+                                data-target=".navbar-collapse" aria-label="Toggle Navigation Menu">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                        </div>
+                        <div class="navbar-collapse collapse" role="navigation">
+                            <ul class="nav navbar-nav navbar-left" role="presentation">
+                                <li class="active"><a href="/Reference/index.html">Node Reference</a></li>
+<li><a href="/Guide/index.html">User Guide</a></li>
+<li><a href="/Videos/index.html">Videos</a></li>
+<li><a href="/Changelogs/index.html">Version History</a></li>
+
+                            </ul>
+
+                            <ul class="nav navbar-nav navbar-right" role="presentation">
+                                <li><a itemprop="downloadUrl" class="link-button"
+                                        href="https://quadspinner.com/download" id="nav-download">
+                                        <span class="hidden-sm">Download Gaea</span>
+                                    </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <div role="main" id="main-content">
+
+            <div class="container body-content docs">
+                <div class="row">
+                    <div class="col-md-2 docs-navbar-container">
+                        <nav id="docs-navbar" aria-label="Topics" class="docs-nav visible-md visible-lg">
+                            <ul class="nav" id="main-nav">
+
+                                <li class="panel collapsed"><a class="area" href="#Primitives" data-parent="#main-nav" data-toggle="collapse">Primitives</a><ul id="Primitives" class="collapse"><li class=""><a href="/Reference/Primitives/Constant.html">Constant</a></li><li class=""><a href="/Reference/Primitives/Cracks.html">Cracks</a></li><li class=""><a href="/Reference/Primitives/Crater.html">Crater</a></li><li class=""><a href="/Reference/Primitives/Draw.html">Draw</a></li><li class=""><a href="/Reference/Primitives/Dunes.html">Dunes</a></li><li class=""><a href="/Reference/Primitives/Fault.html">Fault</a></li><li class=""><a href="/Reference/Primitives/File.html">File</a></li><li class=""><a href="/Reference/Primitives/Gradient.html">Gradient</a></li><li class=""><a href="/Reference/Primitives/Igneous.html">Igneous</a></li><li class=""><a href="/Reference/Primitives/Island.html">Island</a></li><li class=""><a href="/Reference/Primitives/LineNoise.html">LineNoise</a></li><li class=""><a href="/Reference/Primitives/Mountain.html">Mountain</a></li><li class=""><a href="/Reference/Primitives/Perlin.html">Perlin</a></li><li class=""><a href="/Reference/Primitives/Plates.html">Plates</a></li><li class=""><a href="/Reference/Primitives/Range.html">Range</a></li><li class=""><a href="/Reference/Primitives/Resource.html">Resource</a></li><li class=""><a href="/Reference/Primitives/SlopeNoise.html">SlopeNoise</a></li><li class=""><a href="/Reference/Primitives/Voronoi+.html">Voronoi+</a></li><li class=""><a href="/Reference/Primitives/Voronoi.html">Voronoi</a></li></ul></li><li class="panel collapsed"><a class="area" href="#Adjustments" data-parent="#main-nav" data-toggle="collapse">Adjustments</a><ul id="Adjustments" class="collapse"><li class=""><a href="/Reference/Adjustments/Abs.html">Abs</a></li><li class=""><a href="/Reference/Adjustments/AutoLevel.html">AutoLevel</a></li><li class=""><a href="/Reference/Adjustments/BiasGain.html">BiasGain</a></li><li class=""><a href="/Reference/Adjustments/Blur.html">Blur</a></li><li class=""><a href="/Reference/Adjustments/Clamp.html">Clamp</a></li><li class=""><a href="/Reference/Adjustments/Combine.html">Combine</a></li><li class=""><a href="/Reference/Adjustments/Denoise.html">Denoise</a></li><li class=""><a href="/Reference/Adjustments/Displace.html">Displace</a></li><li class=""><a href="/Reference/Adjustments/Flip.html">Flip</a></li><li class=""><a href="/Reference/Adjustments/Gamma.html">Gamma</a></li><li class=""><a href="/Reference/Adjustments/Heal.html">Heal</a></li><li class=""><a href="/Reference/Adjustments/Invert.html">Invert</a></li><li class=""><a href="/Reference/Adjustments/Shaper.html">Shaper</a></li><li class=""><a href="/Reference/Adjustments/Sharpen.html">Sharpen</a></li><li class=""><a href="/Reference/Adjustments/Sine.html">Sine</a></li><li class=""><a href="/Reference/Adjustments/Threshold.html">Threshold</a></li><li class=""><a href="/Reference/Adjustments/Transform.html">Transform</a></li><li class=""><a href="/Reference/Adjustments/Zero%20Borders.html">Zero Borders</a></li></ul></li><li class="panel collapsed"><a class="area" href="#Filters" data-parent="#main-nav" data-toggle="collapse">Filters</a><ul id="Filters" class="collapse"><li class=""><a href="/Reference/Filters/Aperture.html">Aperture</a></li><li class=""><a href="/Reference/Filters/Apex.html">Apex</a></li><li class=""><a href="/Reference/Filters/Bomber.html">Bomber</a></li><li class=""><a href="/Reference/Filters/Cells.html">Cells</a></li><li class=""><a href="/Reference/Filters/Distribution.html">Distribution</a></li><li class=""><a href="/Reference/Filters/Noise.html">Noise</a></li><li class=""><a href="/Reference/Filters/Origami.html">Origami</a></li><li class=""><a href="/Reference/Filters/Polar.html">Polar</a></li><li class=""><a href="/Reference/Filters/Recurve.html">Recurve</a></li><li class=""><a href="/Reference/Filters/Repulse.html">Repulse</a></li><li class=""><a href="/Reference/Filters/Rocks.html">Rocks</a></li><li class=""><a href="/Reference/Filters/Subterrace.html">Subterrace</a></li><li class=""><a href="/Reference/Filters/Swirl.html">Swirl</a></li><li class=""><a href="/Reference/Filters/Terrace.html">Terrace</a></li><li class=""><a href="/Reference/Filters/Whorl.html">Whorl</a></li></ul></li><li class="panel expanded active"><a class="area" href="#Erosion" data-parent="#main-nav" data-toggle="collapse">Erosion</a><ul id="Erosion" class="collapse in"><li class=""><a href="/Reference/Erosion/Alluvium.html">Alluvium</a></li><li class="active"><a href="/Reference/Erosion/Breaker.html">Breaker</a></li><li class=""><a href="/Reference/Erosion/Buildup.html">Buildup</a></li><li class=""><a href="/Reference/Erosion/Convector.html">Convector</a></li><li class=""><a href="/Reference/Erosion/Deposits.html">Deposits</a></li><li class=""><a href="/Reference/Erosion/Erosion.html">Erosion</a></li><li class=""><a href="/Reference/Erosion/Fluvial.html">Fluvial</a></li><li class=""><a href="/Reference/Erosion/Fold.html">Fold</a></li><li class=""><a href="/Reference/Erosion/Hydro.html">Hydro</a></li><li class=""><a href="/Reference/Erosion/Landform.html">Landform</a></li><li class=""><a href="/Reference/Erosion/MicroErosion.html">MicroErosion</a></li><li class=""><a href="/Reference/Erosion/RockSlide.html">RockSlide</a></li><li class=""><a href="/Reference/Erosion/Sediment.html">Sediment</a></li><li class=""><a href="/Reference/Erosion/Stratify.html">Stratify</a></li><li class=""><a href="/Reference/Erosion/Thermal.html">Thermal</a></li></ul></li><li class="panel collapsed"><a class="area" href="#Snow" data-parent="#main-nav" data-toggle="collapse">Snow</a><ul id="Snow" class="collapse"><li class=""><a href="/Reference/Snow/Glacier.html">Glacier</a></li><li class=""><a href="/Reference/Snow/Iceberg.html">Iceberg</a></li><li class=""><a href="/Reference/Snow/IceFloe.html">IceFloe</a></li><li class=""><a href="/Reference/Snow/Snowfall.html">Snowfall</a></li></ul></li><li class="panel collapsed"><a class="area" href="#Water" data-parent="#main-nav" data-toggle="collapse">Water</a><ul id="Water" class="collapse"><li class=""><a href="/Reference/Water/Coast.html">Coast</a></li><li class=""><a href="/Reference/Water/Headwaters.html">Headwaters</a></li><li class=""><a href="/Reference/Water/Lake.html">Lake</a></li></ul></li><li class="panel collapsed"><a class="area" href="#DataMaps" data-parent="#main-nav" data-toggle="collapse">Data Maps</a><ul id="DataMaps" class="collapse"><li class=""><a href="/Reference/Data%20Maps/Cartography.html">Cartography</a></li><li class=""><a href="/Reference/Data%20Maps/Details.html">Details</a></li><li class=""><a href="/Reference/Data%20Maps/Dither.html">Dither</a></li><li class=""><a href="/Reference/Data%20Maps/Flow.html">Flow</a></li><li class=""><a href="/Reference/Data%20Maps/Growth.html">Growth</a></li><li class=""><a href="/Reference/Data%20Maps/Occlusion.html">Occlusion</a></li><li class=""><a href="/Reference/Data%20Maps/Protrusion.html">Protrusion</a></li><li class=""><a href="/Reference/Data%20Maps/Soil.html">Soil</a></li><li class=""><a href="/Reference/Data%20Maps/Surfacer.html">Surfacer</a></li><li class=""><a href="/Reference/Data%20Maps/Texture.html">Texture</a></li><li class=""><a href="/Reference/Data%20Maps/Velocity.html">Velocity</a></li></ul></li><li class="panel collapsed"><a class="area" href="#Selectors" data-parent="#main-nav" data-toggle="collapse">Selectors</a><ul id="Selectors" class="collapse"><li class=""><a href="/Reference/Selectors/Angle.html">Angle</a></li><li class=""><a href="/Reference/Selectors/Curvature.html">Curvature</a></li><li class=""><a href="/Reference/Selectors/Height.html">Height</a></li><li class=""><a href="/Reference/Selectors/Mask.html">Mask</a></li><li class=""><a href="/Reference/Selectors/Slope.html">Slope</a></li></ul></li><li class="panel collapsed"><a class="area" href="#Color" data-parent="#main-nav" data-toggle="collapse">Color</a><ul id="Color" class="collapse"><li class=""><a href="/Reference/Color/Biome.html">Biome</a></li><li class=""><a href="/Reference/Color/CLUTer.html">CLUTer</a></li><li class=""><a href="/Reference/Color/ColorFx.html">ColorFX</a></li><li class=""><a href="/Reference/Color/Mixer.html">Mixer</a></li><li class=""><a href="/Reference/Color/NormalMap.html">Normal Map</a></li><li class=""><a href="/Reference/Color/QuickColor.html">QuickColor</a></li><li class=""><a href="/Reference/Color/RGBMix.html">RGBMix</a></li><li class=""><a href="/Reference/Color/RGBSplit.html">RGBSplit</a></li><li class=""><a href="/Reference/Color/SatMaps.html">SatMaps</a></li><li class=""><a href="/Reference/Color/Splat.html">Splat</a></li><li class=""><a href="/Reference/Color/Synth.html">Synth</a></li><li class=""><a href="/Reference/Color/Vegetation.html">Vegetation</a></li></ul></li><li class="panel collapsed"><a class="area" href="#Output" data-parent="#main-nav" data-toggle="collapse">Output</a><ul id="Output" class="collapse"><li class=""><a href="/Reference/Output/Mesher.html">Mesher</a></li><li class=""><a href="/Reference/Output/Output.html">Output</a></li></ul></li><li class="panel collapsed"><a class="area" href="#Utilities" data-parent="#main-nav" data-toggle="collapse">Utilities</a><ul id="Utilities" class="collapse"><li class=""><a href="/Reference/Utilities/Portal.html">Portal</a></li><li class=""><a href="/Reference/Utilities/Route.html">Route</a></li><li class=""><a href="/Reference/Utilities/Switch.html">Switch</a></li></ul></li><li class="panel collapsed"><a class="area" href="#Sculpt" data-parent="#main-nav" data-toggle="collapse">Sculpt</a><ul id="Sculpt" class="collapse"><li class=""><a href="/Reference/Sculpt/Basic.html">Basic</a></li><li class=""><a href="/Reference/Sculpt/Carver%20I.html">Carver I</a></li><li class=""><a href="/Reference/Sculpt/Carver%20II.html">Carver II</a></li><li class=""><a href="/Reference/Sculpt/Cutter.html">Cutter</a></li><li class=""><a href="/Reference/Sculpt/FlowLines.html">FlowLines</a></li><li class=""><a href="/Reference/Sculpt/Gullies.html">Gullies</a></li><li class=""><a href="/Reference/Sculpt/LandBreaker.html">LandBreaker</a></li><li class=""><a href="/Reference/Sculpt/Pockmarks.html">Pockmarks</a></li><li class=""><a href="/Reference/Sculpt/Rough%20Flow.html">Rough Flow</a></li><li class=""><a href="/Reference/Sculpt/Roughness.html">Roughness</a></li><li class=""><a href="/Reference/Sculpt/Scratch.html">Scratch</a></li><li class=""><a href="/Reference/Sculpt/Soil.html">Soil</a></li><li class=""><a href="/Reference/Sculpt/Wide%20Flow%20I.html">Wide Flow I</a></li><li class=""><a href="/Reference/Sculpt/Wide%20Flow%20II.html">Wide Flow II</a></li></ul></li>
+
+                            </ul>
+                        </nav>
+                        <nav id="small-nav" aria-label="Topics" class="docs-nav hidden-md hidden-lg">
+                            <h4>Topics</h4>
+
+                        </nav>
+                    </div>
+                    <div class="col-sm-9 col-md-8 body">
+                        <!-- -->
+                        <ol class="breadcrumb">
+<li class="breadcrumb-item"><a href="/index.html">Home</a></li>
+<li class="breadcrumb-item"><a href="Reference/index.html">Node Reference</a></li>
+<li class="breadcrumb-item">Erosion</li>
+<li class="breadcrumb-item active">Breaker</li>
+</ol>
+<br><p>Breaker creates large cracks in the terrain, following the general rules of Hydraulic Erosion, but without creating soil deposits.</p>
+
+<br><h6 class="ml-2">Node Properties</h6>
+<div class="card"><div class="card-body params">
+<table class="table table-borderless">
+<thead>
+<tr>
+<th style="text-align: left;">Setting</th>
+<th style="text-align: left;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>Duration</strong></td>
+<td style="text-align: left;">The number of breakage iterations to perform on the terrain. The default value should work in most situations.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>River Length</strong></td>
+<td style="text-align: left;">The maximum length of each break or river.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Erosion Power</strong></td>
+<td style="text-align: left;">The strength of the breakage process. High values may cause sharp drops and spikes depending on the terrain.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Depth</strong></td>
+<td style="text-align: left;">Depth of the cracks.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Seed</strong></td>
+<td style="text-align: left;">The randomization pattern or seed for the node's process.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Hard Cracks</strong></td>
+<td style="text-align: left;">Disables antialiasing and smooth of the crack edges.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Mode</strong></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><em>Fast</em> : Processes faster, but may not always result in the same pattern of cracks.</td>
+</tr>
+<tr>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><em>Accurate</em> : Processes a bit slower, but ensures the pattern remains the same.</td>
+</tr>
+</tbody>
+</table>
+
+</div></div>
+
+
+                    </div>
+                    <div class="col-sm-3 col-md-2 docs-subnavbar-container">
+                        <h4 tabindex="0" class="affix">In this article</h4>
+                        <nav id="toc" data-toggle="toc" aria-label="On Page" data-spy="affix" data-offset-top="20"
+                            class="affix">
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer role="contentinfo">
+        <div class="container">
+            <div class="row">
+                <div class="left col-md-7">
+                    <ul class="links">
+                        <li>
+                            <span class="message">Hello from Seattle.</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="right col-md-5">
+                    <ul class="links">
+                        <li><a id="footer-support-link"
+                                href="https://support.QuadSpinner.com/en-us/getsupport?wf=0&amp;tenant=ClassicCommercial&amp;oaspworkflow=start_1.0.0.0&amp;locale=en-us&amp;supportregion=en-us&amp;pesid=16064&amp;ccsid=636196895839595242"
+                                target="_blank">Support</a></li>
+                        <li><a id="footer-privacy-link" href="https://privacy.QuadSpinner.com/en-us/privacystatement"
+                                target="_blank">Privacy</a></li>
+                        <li><a id="footer-terms-link"
+                                href="https://www.QuadSpinner.com/en-us/legal/intellectualproperty/copyright/default.aspx"
+                                target="_blank">Terms of Use</a></li>
+                        <li><a id="footer-license-link" href="https://code.visualstudio.com/License">License</a></li>
+                    </ul>
+                    <div class="copyright">
+                        <a id="footer-QuadSpinner-link" class="logo" href="https://www.QuadSpinner.com/">
+                            <img class="QuadSpinner-logo" src="vscode_files/QuadSpinner-logo.png"
+                                alt="QuadSpinner homepage" height="20">
+                            <img class="QuadSpinner-logo-inverted" src="vscode_files/QuadSpinner-logo-inverted.png"
+                                alt="QuadSpinner homepage" height="20">
+                        </a>
+                        <span>© 2020 <span itemprop="publisher" itemscope="" itemtype="https://schema.org/Organization">
+                                <span itemprop="name">QuadSpinner</span></span>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- / Layout wrapper -->
+
+    <!-- Core scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+
+
+    <!-- Main script -->
+
+    <script src="https://cdn.rawgit.com/afeld/bootstrap-toc/v0.4.1/dist/bootstrap-toc.min.js"></script>
+    <script src="/assets/js/highlight.pack.js"></script>
+    <script src="/assets/js/medium-zoom.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', (event) => {
+            document.querySelectorAll('pre code').forEach((block) => {
+                hljs.highlightBlock(block);
+            });
+            mediumZoom('.zoom', { margin: 36, background: '#333333' })
+            mediumZoom('figure img', { margin: 36, background: '#333333' })
+        });
+    </script>
+    <script>
+
+    </script>
+</body>
+
+</html>

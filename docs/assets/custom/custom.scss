@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap");
-@import "_bootstrap-toc.scss";
+//@import "_bootstrap-toc.scss";
 
 ::-moz-selection {
   /* Code for Firefox */
@@ -37,6 +37,7 @@
 
   p {
     margin-bottom: 0;
+    line-height: normal;
   }
 
   p:first-child:before {
@@ -171,12 +172,18 @@ h3 {
 //   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 // }
 
+.breadcrumb{
+  background: none !important;
+  font-size: 12px;
+  font-weight: 700;
+}
+
 .sidenav-toggle {
   padding-right: 0;
 }
 
 .params td:nth-child(1) {
-  width: 15% !important;
+  width: 20% !important;
   max-width: 20% !important;
 }
 
@@ -277,4 +284,8 @@ html.layout-expanded{
     font-size: 12px;
     font-weight: bold;
     padding-top: 0.8rem;
+}
+
+.table{
+  font-size: 13px;
 }
