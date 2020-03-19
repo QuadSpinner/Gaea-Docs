@@ -5,7 +5,7 @@ title: Draw
 
 The Draw node lets you draw entire mountain ranges in the shape you choose.
 
-To draw a mountain range of any shape, simply open the Guide Editor using the **Edit Guides** button in the Properties panel. Choose your brush settings (additive, subtractive; and brush size) and draw the shape of your choice. Click the Update button to update the generated shape, or lock to auto-update to update automatically on every stroke.
+To draw a mountain range of any shape, simply open the Guide Editor using the **Edit Guides** button in the Properties panel. Choose your brush settings (additive/subtractive and brush size) and draw the shape of your choice. Click the Update button to update the generated shape, or lock to auto-update to update automatically on every stroke.
 
 The Draw node excels at creating larger shapes, but the algorithm handles the smaller details. It is recommended that smaller details be processed after the fact using other nodes.
 
