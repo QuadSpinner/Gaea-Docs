@@ -30,7 +30,7 @@
   border-style: solid;
   padding: 12px;
   border-radius: 3px;
-  max-width: 50%;
+  max-width: 100%;
   font-weight: 600;
   border-left-width: 6px;
 }
@@ -129,13 +129,6 @@ code {
   margin-right: 8px;
   font-size: 16px;
   color: #f0f0f0;
-}
-
-.release-note h1,
-.release-note h2,
-.release-note h3 {
-  border: 0 !important;
-  font-weight: bold;
 }
 
 .breadcrumb {

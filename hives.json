@@ -1,5 +1,13 @@
 [
-
+    {
+        "Path": "Guide",
+        "Category": 0,
+        "BaseItem": {
+            "Title": "User Guide",
+            "Link": "Guide/index.html",
+            "UID": "guide"
+        }
+    },
     {
         "Path": "Reference",
         "Category": 0,
@@ -9,15 +17,6 @@
             "UID": "reference"
         },
         "ProcessProceduralFiles": true
-    },
-    {
-        "Path": "Guide",
-        "Category": 0,
-        "BaseItem": {
-            "Title": "User Guide",
-            "Link": "Guide/index.html",
-            "UID": "guide"
-        }
     },
     {
         "Path": "Videos",

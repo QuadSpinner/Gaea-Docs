@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+
+<html lang="en" class="default-style">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="IE=edge,chrome=1">
+    <meta name="description" content="">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+
+    <title>Terrain Scale - Gaea Documentation - QuadSpinner</title>
+    <link rel="shortcut icon" href="/Gaea-32.png" type="image/png">
+    <!-- Main font -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="/assets/v3/styles.css">
+    <link rel="stylesheet" href="/assets/v3/bootstrap-toc.css">
+
+    <!-- Icons. Uncomment required icon fonts -->
+    <link rel="stylesheet" href="/assets/custom/custom.css">
+    <link rel="stylesheet" href="/assets/vendor/fonts/ionicons.css">
+
+    <!-- Core stylesheets -->
+    <link rel="stylesheet" id="cssx" type="text/css" href="/">
+    <!-- Layout helpers -->
+    <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+
+    <!-- Libs -->
+
+    <!-- `perfect-scrollbar` library required by SideNav plugin -->
+    <!-- <link rel="stylesheet" href="/assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.css"> -->
+    <!-- <link rel="stylesheet" href="/assets/custom/obsidian.css"> -->
+</head>
+
+<body data-spy="scroll" data-target="#toc">
+
+    <!-- Layout wrapper -->
+    <div id="main">
+        <div class="navbar-fixed-container">
+            <div class="navbar navbar-inverse navbar-fixed-top ">
+                <nav role="navigation" aria-label="Top Level">
+                    <div class="container">
+                        <div class="nav navbar-header">
+                            <a class="navbar-brand" href="https://docs.quadspinner.com/"><span
+                                    itemprop="name">QuadSpinner Gaea</span></a>
+                            <button type="button" class="navbar-toggle" role="navigation" data-toggle="collapse"
+                                data-target=".navbar-collapse" aria-label="Toggle Navigation Menu">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                        </div>
+                        <div class="navbar-collapse collapse" role="navigation">
+                            <ul class="nav navbar-nav navbar-left" role="presentation">
+                                <li class="active"><a href="/Guide/index.html">User Guide</a></li>
+<li><a href="/Reference/index.html">Node Reference</a></li>
+<li><a href="/Videos/index.html">Videos</a></li>
+<li><a href="/Changelogs/index.html">Version History</a></li>
+
+                            </ul>
+
+                            <ul class="nav navbar-nav navbar-right" role="presentation">
+                                <li><a itemprop="downloadUrl" class="link-button"
+                                        href="https://quadspinner.com/download" id="nav-download">
+                                        <span class="hidden-sm">Download Gaea</span>
+                                    </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <div role="main" id="main-content">
+
+            <div class="container body-content docs">
+                <div class="row">
+                    <div class="col-md-2 docs-navbar-container">
+                        <nav id="docs-navbar" aria-label="Topics" class="docs-nav visible-md visible-lg">
+                            <ul class="nav" id="main-nav">
+                                <li class="panel collapsed"><a class="area" href="#GettingStarted" data-parent="#main-nav" data-toggle="collapse">Getting Started</a><ul id="GettingStarted" class="collapse"><li class=""><a href="/Guide/Getting%20Started/Installing-Gaea.html">Installing Gaea</a></li><li class=""><a href="/Guide/Getting%20Started/Getting-around.html">Getting around</a></li><li class=""><a href="/Guide/Getting%20Started/Changelogs.html">Gaea Release History</a></li></ul></li><li class="panel collapsed"><a class="area" href="#UsingGaea" data-parent="#main-nav" data-toggle="collapse">Using Gaea</a><ul id="UsingGaea" class="collapse"><li class=""><a href="/Guide/Using%20Gaea/Startup.html">Startup Screen</a></li><li class=""><a href="/Guide/Using%20Gaea/Toolbox.html">Toolbox</a></li><li class=""><a href="/Guide/Using%20Gaea/Viewport.html">Viewport</a></li><li class=""><a href="/Guide/Using%20Gaea/Properties.html">Properties</a></li><li class=""><a href="/Guide/Using%20Gaea/Build-Manager.html">Build Manager</a></li><li class=""><a href="/Guide/Using%20Gaea/Preferences.html">Preferences</a></li><li class=""><a href="/Guide/Using%20Gaea/Keyboard.html">Keyboard Shortcuts</a></li><li class=""><a href="/Guide/Using%20Gaea/NodeCommands.html">Node Commands</a></li><li class=""><a href="/Guide/Using%20Gaea/Conveniences.html">Convenience Features</a></li></ul></li><li class="panel collapsed"><a class="area" href="#Workflows" data-parent="#main-nav" data-toggle="collapse">Workflows</a><ul id="Workflows" class="collapse"><li class=""><a href="/Guide/Workflows/Graph.html">Graph Workflow</a></li><li class=""><a href="/Guide/Workflows/Layers.html">Layers Workflow</a></li><li class=""><a href="/Guide/Workflows/Sculpt.html">Sculpt Workflow</a></li></ul></li><li class="panel expanded active"><a class="area" href="#Concepts" data-parent="#main-nav" data-toggle="collapse">Concepts</a><ul id="Concepts" class="collapse in"><li class=""><a href="/Guide/Concepts/Resolutions.html">Resolutions</a></li><li class="active"><a href="/Guide/Concepts/Scale.html">Terrain Scale</a></li></ul></li><li class="panel collapsed"><a class="area" href="#Create" data-parent="#main-nav" data-toggle="collapse">Create</a><ul id="Create" class="collapse"><li class=""><a href="/Guide/Create/Basics.html">Basics of Terrain Design</a></li><li class=""><a href="/Guide/Create/Your-First-Terrain.html">Your first terrain</a></li></ul></li><li class="panel collapsed"><a class="area" href="#Erode" data-parent="#main-nav" data-toggle="collapse">Erode</a><ul id="Erode" class="collapse"><li class=""><a href="/Guide/Erode/Introduction.html">Introduction to Erosion</a></li><li class=""><a href="/Guide/Erode/Components.html">Componentized Erosion</a></li><li class=""><a href="/Guide/Erode/Strategies.html">Erosion Strategies</a></li></ul></li><li class="panel collapsed"><a class="area" href="#Color" data-parent="#main-nav" data-toggle="collapse">Color</a><ul id="Color" class="collapse"><li class=""><a href="/Guide/Color/Color-Production.html">Color Production</a></li><li class=""><a href="/Guide/Color/Data-Maps.html">Data Maps</a></li><li class=""><a href="/Guide/Color/Biome.html">Creating Biomes</a></li></ul></li><li class="panel collapsed"><a class="area" href="#Build" data-parent="#main-nav" data-toggle="collapse">Build</a><ul id="Build" class="collapse"><li class=""><a href="/Guide/Build/Building.html">Building Terrains</a></li><li class=""><a href="/Guide/Build/Manager.html">Build Manager</a></li><li class=""><a href="/Guide/Build/Baking.html">Baking</a></li><li class=""><a href="/Guide/Build/Variations.html">Creating Variations</a></li><li class=""><a href="/Guide/Build/Tiled.html">Tiled Builds</a></li><li class=""><a href="/Guide/Build/Swarm.html">Build Swarm</a></li><li class=""><a href="/Guide/Build/FileFormats.html">File Formats</a></li></ul></li><li class="panel collapsed"><a class="area" href="#Export" data-parent="#main-nav" data-toggle="collapse">Export</a><ul id="Export" class="collapse"><li class=""><a href="/Guide/Export/Building.html">Exporting assets</a></li><li class=""><a href="/Guide/Export/Importing.html">Importing Data</a></li><li class=""><a href="/Guide/Export/Import-Export.html">Import and Export</a></li></ul></li><li class="panel collapsed"><a class="area" href="#Organizing" data-parent="#main-nav" data-toggle="collapse">Organizing</a><ul id="Organizing" class="collapse"><li class=""><a href="/Guide/Organizing/Using-Portals.html">Using Portals</a></li></ul></li><li class="panel collapsed"><a class="area" href="#Troubleshooting" data-parent="#main-nav" data-toggle="collapse">Troubleshooting</a><ul id="Troubleshooting" class="collapse"><li class=""><a href="/Guide/Troubleshooting/index.html">Troubleshooting</a></li></ul></li><li class="panel collapsed"><a class="area" href="#Developers" data-parent="#main-nav" data-toggle="collapse">Developers</a><ul id="Developers" class="collapse"><li class=""><a href="/Guide/Developers/Introduction.html">Introduction</a></li><li class=""><a href="/Guide/Developers/Automation.html">Automating Gaea</a></li><li class=""><a href="/Guide/Developers/Scripting.html">Scripting</a></li><li class=""><a href="/Guide/Developers/API.html">Extensibility API</a></li></ul></li><li class="panel collapsed"><a class="area" href="#Bridges" data-parent="#main-nav" data-toggle="collapse">Bridges</a><ul id="Bridges" class="collapse"><li class=""><a href="/Guide/Bridges/Houdini.html">Houdini</a></li></ul></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="col-sm-9 col-md-8 body">
+                        <ol class="breadcrumb">
+<li class="breadcrumb-item"><a href="/index.html">Home</a></li>
+<li class="breadcrumb-item"><a href="Guide/index.html">User Guide</a></li>
+<li class="breadcrumb-item">Concepts</li>
+<li class="breadcrumb-item active">Terrain Scale</li>
+</ol>
+<p class="title">Terrain Scale</p><p>Gaea supports setting an arbitrary scale for your terrains through the new Terrain Definition panel. If you're a casual terrain artist, this won't affect your workflow too much — the defaults will be sufficient. But if you're creating precisely scaled terrains, the Terrain Definition is your best friend.</p>
+<h2 id="terrain-definition">Terrain Definition</h2>
+<p>The Terrain Definition popup is found in the main toolbar.</p>
+<p><img src="/images/Philosophy/scale-definition.png" class="img-fluid" alt="" /></p>
+<p>You define the Height of your terrain in meters. The Scale determines the extent of the entire terrain. By default, Gaea terrains are set to be 2.6km tall (Height: 2,600m), and 5 x 5 square kilometers wide (Scale: 5,000m).</p>
+<p>Internally, the terrain vertical ratio is calculated as: <code>(height / scale)</code></p>
+<p>A height of 2.6km is usually more than enough for most terrains. For perspective, Mt. Everest is 8.8km tall. Choosing an extreme height is not recommended unless you know how to handle the ramifications of such tall terrains. It is important to note that while the maximum height is set to 2600m, it does not mean that any shape created will automatically fill the entire height range.</p>
+<blockquote class="NOTE blockquote">
+<p>Terrain Definition is non-destructive. You can scale your terrain and the update will be immediately applied without the need to rebuild your terrain. You can change the values as often as you like.</p>
+</blockquote>
+<h2 id="scale-philosophy">Scale Philosophy</h2>
+<p>Scale in all CG is an imaginary construct. With Gaea and heightfields, we have pixels when using an image format, or an array of floats if you use a raw format. A Gaea terrain in its most basic form is a cube made of infinite numbers, that must be translated to a fixed size as defined by the output resolution and image format.</p>
+<p>For example, if your output resolution is 2048 x 2048, then the size of the terrain in pixels is 2048 on either side - this uniform across all image and raw formats. The &quot;vertical&quot; capacity is defined by the maximum storage capacity of the format. 32-bit TIFF, EXR, RAW and PFM can store approximately one million levels of vertical &quot;heights&quot;.</p>
+<blockquote class="NOTE blockquote">
+<p>Gaea stores and processes heightfields as &quot;floats&quot; (a high precision number). Heights are stored in a  <code>~0.0,000,000</code> - <code>1.0,000,000</code> range. For the more technically minded, this is just a simplification. Gaea uses IEEE 754 format 32-bit floats.</p>
+</blockquote>
+<p><img src="/images/Philosophy/scale--5000x2600.png" class="img-fluid" alt="" /></p>
+<p>This image shows the &quot;cube&quot; of the default terrain size, which is <code>5000 x 5000</code> meters wide, and <code>2600</code> meters tall. You will notice our cube is not an exact cube, and it shorter than it is wide.</p>
+<p>For realistic use, we must visualize the data the way we perceive mountains in the real world. So we force a height-to-width ratio to satisfy the human perception of scale for terrains.</p>
+<p><img src="/images/Philosophy/scale--5000x5000.png" class="img-fluid" alt="" /></p>
+<p>If you want a perfect cube, your height and scale must be the same. In this image, our terrain is a <code>5000 x 5000</code> meters and <code>5000</code> meters tall.</p>
+<p>So why don't we use a perfect cube? Because it distorts our perception of terrains.</p>
+<p><img src="/images/Philosophy/perlin-5000x5000.png" class="img-fluid" alt="" /></p>
+<p>This is what Perlin noise would like in the &quot;cube&quot; format.</p>
+<p><img src="/images/Philosophy/perlin-5000x2600.png" class="img-fluid" alt="" /></p>
+<p>This is what the same noise looks like with height-to-width ratio applied. As you can see, it fits our perception better.</p>
+<p>It is important to note that all these transformations are <strong>imaginary</strong>. The underlying data is still a fixed grid of numbers.</p>
+<blockquote class="NOTE blockquote">
+<p>The only place the terrain scale affects <em>how</em> your terrain is processed, is when <code>Real Scale</code> is turned on in the Erosion, Snow, or Thermal nodes. Although they can be overridden per node.</p>
+</blockquote>
+<p>This begs the question of how do you the user translate this to practical metrics for exporting and usage in other applications or game engines.</p>
+<h2 id="practical-usage-of-the-scale-philosophy">Practical Usage of the Scale Philosophy</h2>
+<p>When exporting the terrain as an image/heightmap, you must make a fundamental decision:</p>
+<ul>
+<li>Keep the natural scale without applying perceptual ratio.</li>
+<li>Bake the perceptual ratio mentioned above into the pixels.</li>
+<li>Force the terrain to use the entire bit-range of the image format.</li>
+</ul>
+<p>These options are known as the <strong>Output Range</strong> options in the Build Manager. See <a href="/Guide/Build/Building.html">Building Terrains</a> for information on setting those options. Below we will discuss the implications of each option.</p>
+<p>There is no right or wrong way to scale the output range. It depends on what target application you are using, and how</p>
+<h3 id="natural-scale">Natural Scale</h3>
+<p>Technically, this is the most accurate representation of the terrain as the output is exactly what the software itself &quot;sees&quot; when processing. But it will not be <em>perceptually</em> accurate. You will need to manually scale the output along the vertical axis.</p>
+<p>An easy way in most applications is to create a box of the desired size and match the scale of the terrain asset. Or if you use heightmap as a displacement source, then you can set the displacement in meters (or appropriate units).</p>
+<p>If you need to scale it down vertically, use the Height-Scale ratio explained below.</p>
+<h3 id="baked-or-artificial-scale">Baked or Artificial Scale</h3>
+<p>This method will bake the ratio you see in the viewport into the heightfield. This is very useful when exporting meshes. You lose a minor amount of vertical fidelity, but unless you are creating closeups of the terrain, it will not affect you.</p>
+<p>When bringing the terrain into your target application, you can optionally treat it as a perfect cube and your ratio is already baked into the vertical values.</p>
+<h3 id="forced-scale">Forced Scale</h3>
+<p>Forced scaling can, in many situations, give you maximum vertical fidelity. Gaea will force the terrain to use the entire <code>~0.0,000,000 - 1.0,000,000</code> heightrange in 32-bit formats. In 16-bit images that would be <code>0 - 65,534</code>. In 8-bit, it is <code>0 - 254</code>. If you need more vertical fidelity for closeups, this may help as you get more density in the up-axis than in other methods.</p>
+<p>When using forced scaling, you must adjust the vertical size of your output manually in the target application. Like with Natural Scale, use the Height-Scale Ratio.</p>
+<h2 id="important-readouts-for-terrain-scale">Important Readouts for Terrain Scale</h2>
+<p><img src="/images/Philosophy/scale-definition.png" class="img-fluid" alt="" /></p>
+<p>In the Terrain Definition, you get two readouts: Real Scale, and Height-Scale Ratio.</p>
+<p><strong>Real Scale</strong>: This is the pixel-to-meters &quot;density&quot; for your output. It is calculated by dividing your final output resolution (selected in the Build Manager) by the scale in meters set in the Terrain Definition.</p>
+<p>For example, <code>5000 x 5000</code> meter terrain exported at <code>2048 x 2048</code> pixels results in <code>2.4</code> meters per pixel. You can change your output resolution to see the exact ratio you get.</p>
+<p>This information is often used by game designers to ensure scale accuracy between the terrain and other elements of the game.</p>
+<p><strong>Height-Scale Ratio</strong>: Ratio of the Imaginary Cube. If you export using Natural or Forced Scale, and need to resize your terrain, you can resize it by this ratio. The ratio is simply <code>height / scale</code>.</p>
+
+
+                    </div>
+                    <div class="col-sm-3 col-md-2 docs-subnavbar-container">
+                        <h4 tabindex="0" class="affix">In this article</h4>
+                        <nav id="toc" data-toggle="toc" aria-label="On Page" data-spy="affix" data-offset-top="20"
+                            class="affix">
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer role="contentinfo">
+        <div class="container">
+            <div class="row">
+                <div class="left col-md-7">
+                    <ul class="links">
+                        <li>
+                            <span class="message">Hello from Seattle.</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="right col-md-5">
+                    <ul class="links">
+                        <li><a id="footer-support-link"
+                                href="https://support.QuadSpinner.com/en-us/getsupport?wf=0&amp;tenant=ClassicCommercial&amp;oaspworkflow=start_1.0.0.0&amp;locale=en-us&amp;supportregion=en-us&amp;pesid=16064&amp;ccsid=636196895839595242"
+                                target="_blank">Support</a></li>
+                        <li><a id="footer-privacy-link" href="https://privacy.QuadSpinner.com/en-us/privacystatement"
+                                target="_blank">Privacy</a></li>
+                        <li><a id="footer-terms-link"
+                                href="https://www.QuadSpinner.com/en-us/legal/intellectualproperty/copyright/default.aspx"
+                                target="_blank">Terms of Use</a></li>
+                        <li><a id="footer-license-link" href="https://code.visualstudio.com/License">License</a></li>
+                    </ul>
+                    <div class="copyright">
+                        <a id="footer-QuadSpinner-link" class="logo" href="https://www.QuadSpinner.com/">
+                            <img class="QuadSpinner-logo" src="vscode_files/QuadSpinner-logo.png"
+                                alt="QuadSpinner homepage" height="20">
+                            <img class="QuadSpinner-logo-inverted" src="vscode_files/QuadSpinner-logo-inverted.png"
+                                alt="QuadSpinner homepage" height="20">
+                        </a>
+                        <span>© 2020 <span itemprop="publisher" itemscope="" itemtype="https://schema.org/Organization">
+                                <span itemprop="name">QuadSpinner</span></span>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- / Layout wrapper -->
+
+    <!-- Core scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+
+
+    <!-- Main script -->
+
+    <script src="https://cdn.rawgit.com/afeld/bootstrap-toc/v0.4.1/dist/bootstrap-toc.min.js"></script>
+    <script src="/assets/js/highlight.pack.js"></script>
+    <script src="/assets/js/medium-zoom.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', (event) => {
+            document.querySelectorAll('pre code').forEach((block) => {
+                hljs.highlightBlock(block);
+            });
+            mediumZoom('.zoom', { margin: 36, background: '#333333' })
+            mediumZoom('figure img', { margin: 36, background: '#333333' })
+        });
+    </script>
+    <script>
+
+    </script>
+</body>
+
+</html>
