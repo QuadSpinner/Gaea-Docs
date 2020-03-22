@@ -15,3 +15,4 @@
 | **Rotate**            | The direction of the displacement.                                                                                        |
 | **High Quality**      | When enabled, higher quality displacement is used to prevent directional stretching. This may take longer to process.     |
 | **X** / **Y**         | The position of the internal noise's origin.                                                                              |
+| **Scale X / Y** | Lorem ipsum |

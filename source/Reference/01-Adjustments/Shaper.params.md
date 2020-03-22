@@ -4,3 +4,4 @@
 | **Local Effect**          | When enabled, the effect is applied to local geological structures separately instead of the entire terrain.                                                                                        |
 | **Local Area**            | Controls the local area radius that should be used for the local effect. Smaller values affect only the immediate areas around the geological structures, while larger values affect farther areas. |
 | **Maintain fine details** | When enabled, finer detail is preserved regardless of shape changes.                                                                                                                                |
+| **Detail size**           | Lorem ipsum                                                                                                                                                                                         |
