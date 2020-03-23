@@ -1,13 +1,12 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap");
 ::-moz-selection {
   /* Code for Firefox */
   color: black;
-  background: #f7f7a5;
+  background: #ffe308;
 }
 
 ::selection {
   color: black;
-  background: #f7f7a5;
+  background: #ffe308;
 }
 
 ::-moz-focus-inner {
@@ -244,7 +243,9 @@ html.layout-expanded .sidenav-vertical {
   font-size: 13px;
 }
 
-code:not(.hljs), pre:not(code .hljs) {
+pre,
+code,
+kbd {
   font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
   padding: 2px 4px;
   font-size: 90%;
@@ -253,7 +254,33 @@ code:not(.hljs), pre:not(code .hljs) {
   border-radius: 4px;
 }
 
-pre, code {
+pre,
+code {
   border: 0 !important;
+}
+
+.docs img {
+  width: 50%;
+}
+
+.cmd {
+  border-radius: 1px 1px 6px 1px;
+  padding: 2px 6px;
+  font-size: 90%;
+  font-weight: 400;
+  background: #333;
+  color: #fdf6b4;
+}
+
+.medium-zoom-image {
+  border: 2px solid transparent;
+  -webkit-transition: all linear 0.6s;
+  transition: all linear 0.6s;
+}
+
+.medium-zoom-image:hover {
+  border: 2px solid #0072be;
+  -webkit-transition: all linear 0.6s;
+  transition: all linear 0.6s;
 }
 /*# sourceMappingURL=custom.css.map */

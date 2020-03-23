@@ -3,8 +3,8 @@
  * Copyright 2015 Aidan Feldman
  * Licensed under MIT (https://github.com/afeld/bootstrap-toc/blob/gh-pages/LICENSE.md) */
 
-nav[data-toggle=toc] {
-    padding-top: 38px;
+nav[data-toggle=toc] *{
+    border-left: 2px solid transparent;
 }
 
 nav[data-toggle=toc] .nav>li>a {
@@ -12,24 +12,24 @@ nav[data-toggle=toc] .nav>li>a {
     padding: 4px 20px;
     font-size: 13px;
     font-weight: 500;
+    color: #767676;
+    border-left: 2px solid transparent;
 }
 
 nav[data-toggle=toc] .nav>li>a:focus, nav[data-toggle=toc] .nav>li>a:hover {
-    padding-left: 19px;
+    color: #0071BC;
     text-decoration: none;
     background-color: transparent;
+    border-left: 2px solid #0071BC;
 }
 
 nav[data-toggle=toc] .nav>.active:focus>a, nav[data-toggle=toc] .nav>.active:hover>a, nav[data-toggle=toc] .nav>.active>a {
-    padding-left: 18px;
+    
     font-weight: 700;
+    color: #0071BC;
     background-color: transparent;
 }
 
-nav[data-toggle=toc] .nav .nav {
-    display: none;
-    padding-bottom: 10px;
-}
 
 nav[data-toggle=toc] .nav .nav>li>a {
     padding-top: 1px;
@@ -37,18 +37,20 @@ nav[data-toggle=toc] .nav .nav>li>a {
     padding-left: 30px;
     font-size: 12px;
     font-weight: 400;
+    border-left: 2px solid transparent;
 }
 
 nav[data-toggle=toc] .nav .nav>li>a:focus, nav[data-toggle=toc] .nav .nav>li>a:hover {
-    padding-left: 29px;
+    padding-left: 28px;
 }
 
 nav[data-toggle=toc] .nav .nav>.active:focus>a, nav[data-toggle=toc] .nav .nav>.active:hover>a, nav[data-toggle=toc] .nav .nav>.active>a {
     padding-left: 28px;
     font-weight: 500;
+    border-left: 2px solid transparent;
 }
 
 nav[data-toggle=toc] .nav>.active>ul {
     display: block;
-    padding-left: 28px;
+    border-left: 2px solid transparent;
 }

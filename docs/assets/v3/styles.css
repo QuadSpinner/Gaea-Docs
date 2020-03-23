@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;600;700&display=swap');
+
 html {
     margin: 0;
     padding: 0;
@@ -15,7 +17,7 @@ button {
 }
 
 body, p, h1, h2, h3, h4, h5 {
-    font-family: "Segoe UI", "Helvetica Neue", "Helvetica", Arial, sans-serif
+    font-family: "Assistant", "Segoe UI", "Helvetica Neue", "Helvetica", Arial, sans-serif
 }
 
 html {
@@ -78,14 +80,17 @@ h1, h2, h3 {
 }
 
 h1, .faux-h1 {
-    font-size: 3rem !important;
+    font-size: 3rem;
+    font-weight: 100;
+    text-transform: uppercase;
 }
 
 h2, .faux-h2 {
-    font-size: 2rem !important;
+    font-size: 2.3rem;
 }
 
 h3, .faux-h3 {
+    font-weight: 600;
     font-size: 1.8rem
 }
 
@@ -93,18 +98,6 @@ h4, .faux-h4 {
     font-size: 1.2rem;
     font-weight: 600;
     text-transform: uppercase
-}
-
-@media (min-width: 768px) {
-    h1, .faux-h1 {
-        font-size: 4rem
-    }
-    h2, .faux-h2 {
-        font-size: 3rem
-    }
-    h3, .faux-h3 {
-        font-size: 2.2rem
-    }
 }
 
 .wrap-together {
@@ -1395,16 +1388,6 @@ nav[data-toggle=toc] h4 {
     border-color: #0071BC
 }
 
-#docs-navbar .nav .panel.expanded>a:hover {
-    background: url("/expand-up.svg") 110px 5px no-repeat;
-    background-size: 24px
-}
-
-#docs-navbar .nav .panel.collapsed>a:hover {
-    background: url("/expand-down.svg") 110px 5px no-repeat;
-    background-size: 24px
-}
-
 #docs-navbar .nav .collapsing {
     -webkit-transition-duration: .25s;
     -moz-transition-duration: .25s;
@@ -1421,17 +1404,12 @@ nav[data-toggle=toc] h4 {
 }
 
 nav[data-toggle=toc] .nav li a {
+    border-left: 1px solid transparent;
     padding: 5px 10px
 }
 
-nav[data-toggle=toc] .nav li a:before {
-    content:'{';
-    color: #bbb;
-    position: absolute;
-    font-size: 16px;
-    top: 1px;
-    left: 0;
-    display: none
+nav[data-toggle=toc] .nav li:hover {
+    border-left: 1px solid #0071BC;
 }
 
 nav[data-toggle=toc] .nav li a:hover {
@@ -1464,20 +1442,6 @@ nav[data-toggle=toc] .nav li a:hover:before {
     -moz-border-radius: 100%;
     -o-border-radius: 100%;
     border-radius: 100%
-}
-
-nav[data-toggle=toc] .nav>.active>a {
-    color: #0071BC;
-    font-weight: bold
-}
-
-nav[data-toggle=toc] .nav>.active>a:before {
-    color: #0071BC;
-    display: block
-}
-
-nav[data-toggle=toc] .nav>.active>.nav>.active>a {
-    color: #b4a0ff
 }
 
 #small-nav {
@@ -1787,9 +1751,6 @@ nav[data-toggle=toc] .nav>.active>.nav>.active>a {
     .docs h1 {
         margin-top: 0
     }
-    .edit-github a .btn {
-        margin-top: 0
-    }
     .docs .hero-videos, .docs .next-level {
         text-align: center
     }
@@ -1799,176 +1760,6 @@ nav[data-toggle=toc] .nav>.active>.nav>.active>a {
     .docs .section {
         height: 225px
     }
-}
-
-.tutorial-next-btn {
-    background-color: #373277;
-    font-weight: 600;
-    font-size: 20px;
-    cursor: pointer;
-    color: #fff;
-    padding: 15px 35px;
-    border-width: 2px;
-    border-style: solid;
-    border-color: #373277;
-    border-radius: 4px;
-    line-height: 65px;
-    white-space: nowrap;
-    margin: 2px
-}
-
-.tutorial-next-btn:hover {
-    background-color: rgba(55, 50, 119, 0.8);
-    color: #fff;
-    text-decoration-line: unset
-}
-
-.tutorial-install-extension-btn {
-    background-color: rgba(55, 50, 119, 0.7);
-    color: white;
-    border-style: solid;
-    border-width: 1px;
-    border-color: white;
-    font-size: 1.4rem;
-    padding: 5px 20px;
-    margin-right: 5px
-}
-
-.tutorial-install-extension-btn:hover {
-    background-color: #373277;
-    color: #fff;
-    text-decoration-line: unset
-}
-
-.tutorial-feedback-btn {
-    background-color: #fff;
-    font-weight: 600;
-    font-size: 20px;
-    cursor: pointer;
-    color: #373277;
-    padding: 15px 35px;
-    border-style: solid;
-    border-color: #373277;
-    border-width: 2px;
-    border-radius: 4px;
-    line-height: 65px;
-    white-space: nowrap;
-    margin: 2px
-}
-
-.tutorial-feedback-btn:hover {
-    background-color: rgba(241, 226, 255, 0.5);
-    color: #373277;
-    text-decoration-line: unset
-}
-
-.overlay {
-    position: absolute;
-    top: 0px;
-    bottom: 0px;
-    left: 0px;
-    right: 0px;
-    background-color: rgba(0, 0, 0, 0.3);
-    visibility: hidden;
-    opacity: 0;
-    height: 100%
-}
-
-.overlay.visible {
-    visibility: visible !important;
-    opacity: 1;
-    z-index: 2
-}
-
-#surveytitle {
-    height: 35px;
-    background-color: #373277;
-    color: #fff;
-    padding-top: 8px;
-    padding-left: 20px;
-    font-size: 15px
-}
-
-#surveytitle a {
-    float: right;
-    padding-right: 20px;
-    font-weight: bold;
-    color: #fff
-}
-
-#surveytitle a:hover {
-    text-decoration: none
-}
-
-#surveydiv {
-    padding: 20px
-}
-
-#surveydiv iframe {
-    width: 420px;
-    height: 485px;
-    overflow: hidden
-}
-
-#surveypopup .surveypopup {
-    visibility: visible;
-    width: 460px;
-    background-color: #fff;
-    margin: 0 auto;
-    position: fixed;
-    bottom: 5%;
-    left: 35%;
-    overflow: hidden;
-    z-index: 3;
-    -webkit-box-shadow: 0px 0px 8px 4px rgba(0, 0, 0, 0.35);
-    -moz-box-shadow: 0px 0px 8px 4px rgba(0, 0, 0, 0.35);
-    box-shadow: 0px 0px 8px 4px rgba(0, 0, 0, 0.35)
-}
-
-.downloads .nav-tabs a {
-    font-weight: bold
-}
-
-.downloads .nav-tabs>li.active>a {
-    background-color: whitesmoke
-}
-
-.downloads .tab-content {
-    border: #ddd solid 1px;
-    border-top: none;
-    margin-bottom: 15px
-}
-
-.downloads .tab-content .alt-downloads {
-    margin: 0;
-    padding: 10px 0 10px;
-    background-color: #f5f5f5
-}
-
-.downloads .insiders-info {
-    max-width: 900px;
-    margin: auto
-}
-
-.downloads .download {
-    margin: 40px 0 40px
-}
-
-.insiders .download-btn {
-    margin-top: 1em
-}
-
-.license {
-    padding-top: 2rem;
-    padding-bottom: 4rem
-}
-
-.license h2, .license h3, .license strong {
-    font-weight: bold
-}
-
-.license-terms>li {
-    margin-bottom: 2rem
 }
 
 .breadcrumb-item {
