@@ -14,14 +14,8 @@ button {
     border: none
 }
 
-* {
+body, p, h1, h2, h3, h4, h5 {
     font-family: "Segoe UI", "Helvetica Neue", "Helvetica", Arial, sans-serif
-}
-
-code, kbd, pre, samp, code * {
-    font-family: Menlo, Monaco, Consolas, 'Courier New', monospace !important;
-    background-color: #25252B !important;
-    color: #eee !important;
 }
 
 html {
@@ -80,15 +74,15 @@ body {
 
 h1, h2, h3 {
     font-family: "Segoe UI", "Helvetica Neue", "Helvetica", Arial, sans-serif;
-    font-weight: 100
+    font-weight: 200;
 }
 
 h1, .faux-h1 {
-    font-size: 3rem
+    font-size: 3rem !important;
 }
 
 h2, .faux-h2 {
-    font-size: 2.2rem
+    font-size: 2rem !important;
 }
 
 h3, .faux-h3 {
@@ -1626,7 +1620,7 @@ nav[data-toggle=toc] .nav>.active>.nav>.active>a {
     margin-bottom: 10px
 }
 
-.docs p{
+.docs p {
     margin-bottom: 20px;
 }
 
@@ -1654,7 +1648,7 @@ nav[data-toggle=toc] .nav>.active>.nav>.active>a {
     text-decoration: none
 }
 
-.docs ol li{
+.docs ol li {
     margin-bottom: 8px;
 }
 
@@ -1975,4 +1969,15 @@ nav[data-toggle=toc] .nav>.active>.nav>.active>a {
 
 .license-terms>li {
     margin-bottom: 2rem
+}
+
+.breadcrumb-item {
+    font-size: 12px;
+    margin-bottom: 0 !important;
+}
+
+.botbot {
+    position: fixed;
+    bottom: 2em;
+    right: 7em;
 }

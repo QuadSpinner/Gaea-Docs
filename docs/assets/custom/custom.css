@@ -80,15 +80,6 @@ p.title {
   content: "WARNING";
 }
 
-code {
-  background: rgba(247, 247, 165, 0.5);
-  padding: 3px 6px;
-  border-radius: 3px;
-  color: #333333;
-  font-weight: 400;
-  font-family: "Roboto Mono";
-}
-
 .textcontent a {
   font-weight: 600;
 }
@@ -205,12 +196,17 @@ th {
   padding-left: 2rem !important;
 }
 
-.sidenav-vertical, .sidenav-vertical .sidenav-block, .sidenav-vertical .sidenav-inner > .sidenav-item, .sidenav-vertical .sidenav-inner > .sidenav-header {
+.sidenav-vertical,
+.sidenav-vertical .sidenav-block,
+.sidenav-vertical .sidenav-inner > .sidenav-item,
+.sidenav-vertical .sidenav-inner > .sidenav-header {
   width: 12rem;
 }
 
-.sidenav-vertical .sidenav-item .sidenav-link, .sidenav-vertical .sidenav-header, .sidenav-vertical .sidenav-block {
-  padding: .3rem 1rem;
+.sidenav-vertical .sidenav-item .sidenav-link,
+.sidenav-vertical .sidenav-header,
+.sidenav-vertical .sidenav-block {
+  padding: 0.3rem 1rem;
 }
 
 figure {
@@ -235,7 +231,8 @@ html.layout-expanded .sidenav-vertical {
   top: 5.5rem !important;
 }
 
-.navbar-nav .nav-item, .navbar-nav .nav-link {
+.navbar-nav .nav-item,
+.navbar-nav .nav-link {
   display: inline-block !important;
   padding-right: 1rem;
   font-size: 12px;
@@ -245,5 +242,18 @@ html.layout-expanded .sidenav-vertical {
 
 .table {
   font-size: 13px;
+}
+
+code:not(.hljs), pre:not(code .hljs) {
+  font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+  padding: 2px 4px;
+  font-size: 90%;
+  color: #0072be;
+  background-color: #f4f2f9;
+  border-radius: 4px;
+}
+
+pre, code {
+  border: 0 !important;
 }
 /*# sourceMappingURL=custom.css.map */

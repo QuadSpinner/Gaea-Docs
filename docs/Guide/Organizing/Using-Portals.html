@@ -8,29 +8,18 @@
     <meta name="description" content="">
     <meta name="viewport"
         content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
-
     <title>Using Portals - Gaea Documentation - QuadSpinner</title>
     <link rel="shortcut icon" href="/Gaea-32.png" type="image/png">
-    <!-- Main font -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
         integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="/assets/vendor/fonts/ionicons.css">
     <link rel="stylesheet" href="/assets/v3/styles.css">
     <link rel="stylesheet" href="/assets/v3/bootstrap-toc.css">
-
-    <!-- Icons. Uncomment required icon fonts -->
     <link rel="stylesheet" href="/assets/custom/custom.css">
-    <link rel="stylesheet" href="/assets/vendor/fonts/ionicons.css">
-
-    <!-- Core stylesheets -->
+    <link rel="stylesheet" href="/assets/custom/vs2015.css">
+    <link rel="stylesheet" href="/assets/custom/toggle.css">
     <link rel="stylesheet" id="cssx" type="text/css" href="/">
-    <!-- Layout helpers -->
     <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
-
-    <!-- Libs -->
-
-    <!-- `perfect-scrollbar` library required by SideNav plugin -->
-    <!-- <link rel="stylesheet" href="/assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.css"> -->
-    <!-- <link rel="stylesheet" href="/assets/custom/obsidian.css"> -->
 </head>
 
 <body data-spy="scroll" data-target="#toc">
@@ -71,25 +60,30 @@
                 </nav>
             </div>
         </div>
-        <div role="main" id="main-content">
 
+
+        <div role="main" id="main-content">
             <div class="container body-content docs">
+                <nav id="small-nav" aria-label="Topics" class="docs-nav hidden-md hidden-lg">
+                    <p class="faux-h4">Topics</p>
+                    <select id="small-nav-dropdown"><optgroup label="Getting Started"><option value="/Guide/Getting%20Started/Installing-Gaea.html">Installing Gaea</option><option value="/Guide/Getting%20Started/Your-First-Terrain.html">Your first terrain</option><option value="/Guide/Getting%20Started/Common-issues.html">Common Issues</option></optgroup><optgroup label="Interface"><option value="/Guide/Interface/Getting-around.html">Getting around</option><option value="/Guide/Interface/Startup.html">Startup Screen</option><option value="/Guide/Interface/Toolbox.html">Toolbox</option><option value="/Guide/Interface/Viewport.html">Viewport</option><option value="/Guide/Interface/Properties.html">Properties</option><option value="/Guide/Interface/Build-Manager.html">Build Manager</option><option value="/Guide/Interface/Preferences.html">Preferences</option><option value="/Guide/Interface/Keyboard.html">Keyboard Shortcuts</option><option value="/Guide/Interface/NodeCommands.html">Node Commands</option><option value="/Guide/Interface/Conveniences.html">Convenience Features</option></optgroup><optgroup label="Workflows"><option value="/Guide/Workflows/Graph.html">Graph Workflow</option><option value="/Guide/Workflows/Layers.html">Layers Workflow</option><option value="/Guide/Workflows/Sculpt.html">Sculpt Workflow</option></optgroup><optgroup label="Concepts"><option value="/Guide/Concepts/Resolutions.html">Resolutions</option><option value="/Guide/Concepts/Scale.html">Terrain Scale</option></optgroup><optgroup label="Create"><option value="/Guide/Create/Importing.html">Importing Data</option><option value="/Guide/Create/Basics.html">Basics of Terrain Design</option></optgroup><optgroup label="Erode"><option value="/Guide/Erode/Introduction.html">Introduction to Erosion</option><option value="/Guide/Erode/Components.html">Componentized Erosion</option><option value="/Guide/Erode/Strategies.html">Erosion Strategies</option></optgroup><optgroup label="Color"><option value="/Guide/Color/Color-Production.html">Color Production</option><option value="/Guide/Color/Data-Maps.html">Data Maps</option><option value="/Guide/Color/Biome.html">Creating Biomes</option></optgroup><optgroup label="Build"><option value="/Guide/Build/Building.html">Building Terrains</option><option value="/Guide/Build/Manager.html">Build Manager</option><option value="/Guide/Build/Baking.html">Baking</option><option value="/Guide/Build/Variations.html">Creating Variations</option><option value="/Guide/Build/Tiled.html">Tiled Builds</option><option value="/Guide/Build/Swarm.html">Build Swarm</option><option value="/Guide/Build/FileFormats.html">File Formats</option></optgroup><optgroup label="Organizing"><option selected="selected" value="/Guide/Organizing/Using-Portals.html">Using Portals</option></optgroup><optgroup label="Troubleshooting"><option value="/Guide/Troubleshooting/index.html">Troubleshooting</option></optgroup><optgroup label="Bridges"><option value="/Guide/Bridges/Houdini.html">Houdini</option></optgroup><optgroup label="Developers"><option value="/Guide/Z-Developers/Automation.html">Automating Gaea</option><option value="/Guide/Z-Developers/API.html">Extensibility API</option></optgroup></select>
+                </nav>
                 <div class="row">
                     <div class="col-md-2 docs-navbar-container">
                         <nav id="docs-navbar" aria-label="Topics" class="docs-nav visible-md visible-lg">
                             <ul class="nav" id="main-nav">
-                                <li class="panel collapsed"><a class="area" href="#GettingStarted" data-parent="#main-nav" data-toggle="collapse">Getting Started</a><ul id="GettingStarted" class="collapse"><li class=""><a href="/Guide/Getting%20Started/Installing-Gaea.html">Installing Gaea</a></li><li class=""><a href="/Guide/Getting%20Started/Getting-around.html">Getting around</a></li><li class=""><a href="/Guide/Getting%20Started/Changelogs.html">Gaea Release History</a></li></ul></li><li class="panel collapsed"><a class="area" href="#UsingGaea" data-parent="#main-nav" data-toggle="collapse">Using Gaea</a><ul id="UsingGaea" class="collapse"><li class=""><a href="/Guide/Using%20Gaea/Startup.html">Startup Screen</a></li><li class=""><a href="/Guide/Using%20Gaea/Toolbox.html">Toolbox</a></li><li class=""><a href="/Guide/Using%20Gaea/Viewport.html">Viewport</a></li><li class=""><a href="/Guide/Using%20Gaea/Properties.html">Properties</a></li><li class=""><a href="/Guide/Using%20Gaea/Build-Manager.html">Build Manager</a></li><li class=""><a href="/Guide/Using%20Gaea/Preferences.html">Preferences</a></li><li class=""><a href="/Guide/Using%20Gaea/Keyboard.html">Keyboard Shortcuts</a></li><li class=""><a href="/Guide/Using%20Gaea/NodeCommands.html">Node Commands</a></li><li class=""><a href="/Guide/Using%20Gaea/Conveniences.html">Convenience Features</a></li></ul></li><li class="panel collapsed"><a class="area" href="#Workflows" data-parent="#main-nav" data-toggle="collapse">Workflows</a><ul id="Workflows" class="collapse"><li class=""><a href="/Guide/Workflows/Graph.html">Graph Workflow</a></li><li class=""><a href="/Guide/Workflows/Layers.html">Layers Workflow</a></li><li class=""><a href="/Guide/Workflows/Sculpt.html">Sculpt Workflow</a></li></ul></li><li class="panel collapsed"><a class="area" href="#Concepts" data-parent="#main-nav" data-toggle="collapse">Concepts</a><ul id="Concepts" class="collapse"><li class=""><a href="/Guide/Concepts/Resolutions.html">Resolutions</a></li><li class=""><a href="/Guide/Concepts/Scale.html">Terrain Scale</a></li></ul></li><li class="panel collapsed"><a class="area" href="#Create" data-parent="#main-nav" data-toggle="collapse">Create</a><ul id="Create" class="collapse"><li class=""><a href="/Guide/Create/Basics.html">Basics of Terrain Design</a></li><li class=""><a href="/Guide/Create/Your-First-Terrain.html">Your first terrain</a></li></ul></li><li class="panel collapsed"><a class="area" href="#Erode" data-parent="#main-nav" data-toggle="collapse">Erode</a><ul id="Erode" class="collapse"><li class=""><a href="/Guide/Erode/Introduction.html">Introduction to Erosion</a></li><li class=""><a href="/Guide/Erode/Components.html">Componentized Erosion</a></li><li class=""><a href="/Guide/Erode/Strategies.html">Erosion Strategies</a></li></ul></li><li class="panel collapsed"><a class="area" href="#Color" data-parent="#main-nav" data-toggle="collapse">Color</a><ul id="Color" class="collapse"><li class=""><a href="/Guide/Color/Color-Production.html">Color Production</a></li><li class=""><a href="/Guide/Color/Data-Maps.html">Data Maps</a></li><li class=""><a href="/Guide/Color/Biome.html">Creating Biomes</a></li></ul></li><li class="panel collapsed"><a class="area" href="#Build" data-parent="#main-nav" data-toggle="collapse">Build</a><ul id="Build" class="collapse"><li class=""><a href="/Guide/Build/Building.html">Building Terrains</a></li><li class=""><a href="/Guide/Build/Manager.html">Build Manager</a></li><li class=""><a href="/Guide/Build/Baking.html">Baking</a></li><li class=""><a href="/Guide/Build/Variations.html">Creating Variations</a></li><li class=""><a href="/Guide/Build/Tiled.html">Tiled Builds</a></li><li class=""><a href="/Guide/Build/Swarm.html">Build Swarm</a></li><li class=""><a href="/Guide/Build/FileFormats.html">File Formats</a></li></ul></li><li class="panel collapsed"><a class="area" href="#Export" data-parent="#main-nav" data-toggle="collapse">Export</a><ul id="Export" class="collapse"><li class=""><a href="/Guide/Export/Building.html">Exporting assets</a></li><li class=""><a href="/Guide/Export/Importing.html">Importing Data</a></li><li class=""><a href="/Guide/Export/Import-Export.html">Import and Export</a></li></ul></li><li class="panel expanded active"><a class="area" href="#Organizing" data-parent="#main-nav" data-toggle="collapse">Organizing</a><ul id="Organizing" class="collapse in"><li class="active"><a href="/Guide/Organizing/Using-Portals.html">Using Portals</a></li></ul></li><li class="panel collapsed"><a class="area" href="#Troubleshooting" data-parent="#main-nav" data-toggle="collapse">Troubleshooting</a><ul id="Troubleshooting" class="collapse"><li class=""><a href="/Guide/Troubleshooting/index.html">Troubleshooting</a></li></ul></li><li class="panel collapsed"><a class="area" href="#Developers" data-parent="#main-nav" data-toggle="collapse">Developers</a><ul id="Developers" class="collapse"><li class=""><a href="/Guide/Developers/Introduction.html">Introduction</a></li><li class=""><a href="/Guide/Developers/Automation.html">Automating Gaea</a></li><li class=""><a href="/Guide/Developers/Scripting.html">Scripting</a></li><li class=""><a href="/Guide/Developers/API.html">Extensibility API</a></li></ul></li><li class="panel collapsed"><a class="area" href="#Bridges" data-parent="#main-nav" data-toggle="collapse">Bridges</a><ul id="Bridges" class="collapse"><li class=""><a href="/Guide/Bridges/Houdini.html">Houdini</a></li></ul></li>
+                                <li class="panel collapsed"><a class="area" href="#GettingStarted" data-parent="#main-nav" data-toggle="collapse">Getting Started</a><ul id="GettingStarted" class="collapse"><li class=""><a href="/Guide/Getting%20Started/Installing-Gaea.html">Installing Gaea</a></li><li class=""><a href="/Guide/Getting%20Started/Your-First-Terrain.html">Your first terrain</a></li><li class=""><a href="/Guide/Getting%20Started/Common-issues.html">Common Issues</a></li></ul></li><li class="panel collapsed"><a class="area" href="#Interface" data-parent="#main-nav" data-toggle="collapse">Interface</a><ul id="Interface" class="collapse"><li class=""><a href="/Guide/Interface/Getting-around.html">Getting around</a></li><li class=""><a href="/Guide/Interface/Startup.html">Startup Screen</a></li><li class=""><a href="/Guide/Interface/Toolbox.html">Toolbox</a></li><li class=""><a href="/Guide/Interface/Viewport.html">Viewport</a></li><li class=""><a href="/Guide/Interface/Properties.html">Properties</a></li><li class=""><a href="/Guide/Interface/Build-Manager.html">Build Manager</a></li><li class=""><a href="/Guide/Interface/Preferences.html">Preferences</a></li><li class=""><a href="/Guide/Interface/Keyboard.html">Keyboard Shortcuts</a></li><li class=""><a href="/Guide/Interface/NodeCommands.html">Node Commands</a></li><li class=""><a href="/Guide/Interface/Conveniences.html">Convenience Features</a></li></ul></li><li class="panel collapsed"><a class="area" href="#Workflows" data-parent="#main-nav" data-toggle="collapse">Workflows</a><ul id="Workflows" class="collapse"><li class=""><a href="/Guide/Workflows/Graph.html">Graph Workflow</a></li><li class=""><a href="/Guide/Workflows/Layers.html">Layers Workflow</a></li><li class=""><a href="/Guide/Workflows/Sculpt.html">Sculpt Workflow</a></li></ul></li><li class="panel collapsed"><a class="area" href="#Concepts" data-parent="#main-nav" data-toggle="collapse">Concepts</a><ul id="Concepts" class="collapse"><li class=""><a href="/Guide/Concepts/Resolutions.html">Resolutions</a></li><li class=""><a href="/Guide/Concepts/Scale.html">Terrain Scale</a></li></ul></li><li class="panel collapsed"><a class="area" href="#Create" data-parent="#main-nav" data-toggle="collapse">Create</a><ul id="Create" class="collapse"><li class=""><a href="/Guide/Create/Importing.html">Importing Data</a></li><li class=""><a href="/Guide/Create/Basics.html">Basics of Terrain Design</a></li></ul></li><li class="panel collapsed"><a class="area" href="#Erode" data-parent="#main-nav" data-toggle="collapse">Erode</a><ul id="Erode" class="collapse"><li class=""><a href="/Guide/Erode/Introduction.html">Introduction to Erosion</a></li><li class=""><a href="/Guide/Erode/Components.html">Componentized Erosion</a></li><li class=""><a href="/Guide/Erode/Strategies.html">Erosion Strategies</a></li></ul></li><li class="panel collapsed"><a class="area" href="#Color" data-parent="#main-nav" data-toggle="collapse">Color</a><ul id="Color" class="collapse"><li class=""><a href="/Guide/Color/Color-Production.html">Color Production</a></li><li class=""><a href="/Guide/Color/Data-Maps.html">Data Maps</a></li><li class=""><a href="/Guide/Color/Biome.html">Creating Biomes</a></li></ul></li><li class="panel collapsed"><a class="area" href="#Build" data-parent="#main-nav" data-toggle="collapse">Build</a><ul id="Build" class="collapse"><li class=""><a href="/Guide/Build/Building.html">Building Terrains</a></li><li class=""><a href="/Guide/Build/Manager.html">Build Manager</a></li><li class=""><a href="/Guide/Build/Baking.html">Baking</a></li><li class=""><a href="/Guide/Build/Variations.html">Creating Variations</a></li><li class=""><a href="/Guide/Build/Tiled.html">Tiled Builds</a></li><li class=""><a href="/Guide/Build/Swarm.html">Build Swarm</a></li><li class=""><a href="/Guide/Build/FileFormats.html">File Formats</a></li></ul></li><li class="panel expanded active"><a class="area" href="#Organizing" data-parent="#main-nav" data-toggle="collapse">Organizing</a><ul id="Organizing" class="collapse in"><li class="active"><a href="/Guide/Organizing/Using-Portals.html">Using Portals</a></li></ul></li><li class="panel collapsed"><a class="area" href="#Troubleshooting" data-parent="#main-nav" data-toggle="collapse">Troubleshooting</a><ul id="Troubleshooting" class="collapse"><li class=""><a href="/Guide/Troubleshooting/index.html">Troubleshooting</a></li></ul></li><li class="panel collapsed"><a class="area" href="#Bridges" data-parent="#main-nav" data-toggle="collapse">Bridges</a><ul id="Bridges" class="collapse"><li class=""><a href="/Guide/Bridges/Houdini.html">Houdini</a></li></ul></li><li class="panel collapsed"><a class="area" href="#Developers" data-parent="#main-nav" data-toggle="collapse">Developers</a><ul id="Developers" class="collapse"><li class=""><a href="/Guide/Z-Developers/Automation.html">Automating Gaea</a></li><li class=""><a href="/Guide/Z-Developers/API.html">Extensibility API</a></li></ul></li>
                             </ul>
                         </nav>
                     </div>
                     <div class="col-sm-9 col-md-8 body">
-                        <ol class="breadcrumb">
+                        <ol class="breadcrumb visible-md visible-lg">
 <li class="breadcrumb-item"><a href="/index.html">Home</a></li>
 <li class="breadcrumb-item"><a href="Guide/index.html">User Guide</a></li>
 <li class="breadcrumb-item">Organizing</li>
 <li class="breadcrumb-item active">Using Portals</li>
 </ol>
-<p class="title">Using Portals</p><h1 id="portals">Portals</h1>
+<p class="faux-h1">Using Portals</p><h1 id="portals">Portals</h1>
 <p>The portal node is a unique concept in graph-based applications. Like a &quot;wormhole&quot;, portals allow you to connect nodes across vast gaps (or short ones) without visible connections. They not only improve your quality of life, but also dramatically change how you think of and use graphs.</p>
 <p>An orange portal ingests incoming data, and a blue portal emits the ingested data.</p>
 <h2 id="creating-portals">Creating Portals</h2>
@@ -101,11 +95,18 @@
 
 
                     </div>
-                    <div class="col-sm-3 col-md-2 docs-subnavbar-container">
+                    <div class="col-sm-3 col-md-2 docs-subnavbar-container visible-md visible-lg">
                         <h4 tabindex="0" class="affix">In this article</h4>
                         <nav id="toc" data-toggle="toc" aria-label="On Page" data-spy="affix" data-offset-top="20"
                             class="affix">
                         </nav>
+
+                        <div class="botbot">
+                            <div class="mt-square-matcha" style="font-size: 8px; font-weight: bold;">
+                                <input id="cb1" type="checkbox" />
+                                <label for="cb1"></label>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -117,33 +118,22 @@
             <div class="row">
                 <div class="left col-md-7">
                     <ul class="links">
-                        <li>
-                            <span class="message">Hello from Seattle.</span>
-                        </li>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">YouTube</a></li>
+                        <li><a href="#">Instagram</a></li>
                     </ul>
                 </div>
                 <div class="right col-md-5">
                     <ul class="links">
-                        <li><a id="footer-support-link"
-                                href="https://support.QuadSpinner.com/en-us/getsupport?wf=0&amp;tenant=ClassicCommercial&amp;oaspworkflow=start_1.0.0.0&amp;locale=en-us&amp;supportregion=en-us&amp;pesid=16064&amp;ccsid=636196895839595242"
+                        <li><a id="footer-support-link" href="https://support.QuadSpinner.com/"
                                 target="_blank">Support</a></li>
-                        <li><a id="footer-privacy-link" href="https://privacy.QuadSpinner.com/en-us/privacystatement"
-                                target="_blank">Privacy</a></li>
-                        <li><a id="footer-terms-link"
-                                href="https://www.QuadSpinner.com/en-us/legal/intellectualproperty/copyright/default.aspx"
-                                target="_blank">Terms of Use</a></li>
-                        <li><a id="footer-license-link" href="https://code.visualstudio.com/License">License</a></li>
+                        <li><a id="footer-privacy-link" href="https://QuadSpinner.com/Legal" target="_blank">Terms of
+                                Use + Privacy</a></li>
+                        <li><a id="footer-license-link" href="https://QuadSpinner.com/Legal">License</a></li>
                     </ul>
                     <div class="copyright">
-                        <a id="footer-QuadSpinner-link" class="logo" href="https://www.QuadSpinner.com/">
-                            <img class="QuadSpinner-logo" src="vscode_files/QuadSpinner-logo.png"
-                                alt="QuadSpinner homepage" height="20">
-                            <img class="QuadSpinner-logo-inverted" src="vscode_files/QuadSpinner-logo-inverted.png"
-                                alt="QuadSpinner homepage" height="20">
-                        </a>
-                        <span>© 2020 <span itemprop="publisher" itemscope="" itemtype="https://schema.org/Organization">
-                                <span itemprop="name">QuadSpinner</span></span>
-                        </span>
+                        <span>© 2016-2020 QuadSpinner.</span>
                     </div>
                 </div>
             </div>
@@ -163,13 +153,15 @@
     <script src="https://cdn.rawgit.com/afeld/bootstrap-toc/v0.4.1/dist/bootstrap-toc.min.js"></script>
     <script src="/assets/js/highlight.pack.js"></script>
     <script src="/assets/js/medium-zoom.min.js"></script>
+    <script src="/assets/js/main.js"></script>
     <script>
         document.addEventListener('DOMContentLoaded', (event) => {
-            document.querySelectorAll('pre code').forEach((block) => {
+            document.querySelectorAll('pre').forEach((block) => {
                 hljs.highlightBlock(block);
             });
-            mediumZoom('.zoom', { margin: 36, background: '#333333' })
-            mediumZoom('figure img', { margin: 36, background: '#333333' })
+            mediumZoom('.zoom', { margin: 36, background: '#333333' });
+            mediumZoom('figure img', { margin: 36, background: '#333333' });
+            mediumZoom('.img-fluid', { margin: 36, background: '#333333' });
         });
     </script>
     <script>
