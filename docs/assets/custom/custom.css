@@ -53,8 +53,8 @@ p.title {
 }
 
 .TIP {
-  border-color: rgba(200, 225, 238, 0.33);
-  background-color: #ddf7ff68;
+  border-color: rgba(206, 154, 230, 0.459);
+  background-color: #d582ff2f;
 }
 
 .TIP p:first-child:before {
@@ -62,12 +62,12 @@ p.title {
 }
 
 .NOTE {
-  border-color: rgba(200, 238, 233, 0.33);
+  border-color: rgba(135, 211, 201, 0.705);
   background-color: #ddfffb68;
 }
 
 .NOTE p:first-child:before {
-  content: "TIP";
+  content: "NOTE";
 }
 
 .WARNING {
@@ -251,7 +251,7 @@ kbd {
   font-size: 90%;
   color: #0072be;
   background-color: #f4f2f9;
-  border-radius: 4px;
+  border-radius: 3px;
 }
 
 pre,
@@ -282,5 +282,9 @@ code {
   border: 2px solid #0072be;
   -webkit-transition: all linear 0.6s;
   transition: all linear 0.6s;
+}
+
+.shortcuts .table {
+  width: 45% !important;
 }
 /*# sourceMappingURL=custom.css.map */

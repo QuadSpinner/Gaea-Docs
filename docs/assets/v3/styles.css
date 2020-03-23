@@ -76,7 +76,8 @@ body {
 
 h1, h2, h3 {
     font-family: "Segoe UI", "Helvetica Neue", "Helvetica", Arial, sans-serif;
-    font-weight: 200;
+    font-weight: 400;
+    color: #000;
 }
 
 h1, .faux-h1 {
@@ -1729,7 +1730,7 @@ nav[data-toggle=toc] .nav li a:hover:before {
         width: 20px
     }
     .docs {
-        font-size: 14px
+        font-size: 16px
     }
     .docs .feedback {
         width: 75%

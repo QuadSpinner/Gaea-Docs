@@ -3,8 +3,6 @@ uid: build-manager
 title: Build Manager
 ---
 
-# Build Manager
-
 The Build Manager gives you easy access to crucial output preferences. It is accessed by clicking the **Build** button in the top toolbar.
 
 ![Mark for export](/images/ui/Build-Manager.png)

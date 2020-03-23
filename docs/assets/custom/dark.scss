@@ -1,11 +1,16 @@
 .TIP {
-  border-color: rgba(200, 225, 238, 0.33);
-  background-color: #0d161968;
+  border-color: rgba(226, 200, 238, 0.33);
+  background-color: #150d1968;
 }
 
 .WARNING {
   border-color: rgba(236, 189, 113, 0.33);
   background-color: #2a200686;
+}
+
+.NOTE {
+  border-color: rgba(200, 238, 233, 0.33);
+  background-color: #ddfffb10;
 }
 
 body {
@@ -64,4 +69,26 @@ h3 {
 hr {
   color: #666;
   border-color: #666;
+}
+
+#docs-navbar .nav li a {
+  border-left-color: transparent;
+}
+
+pre,
+code,
+kbd {
+  color: #f4f2f9;
+  background-color: #0072be;
+}
+
+.table {
+  th {
+    border-color: #6f6f6f !important;
+  }
+
+  tr,
+  td {
+    border-color: #555 !important;
+  }
 }

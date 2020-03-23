@@ -3,7 +3,6 @@ uid: toolbox
 title: Toolbox
 ---
 
-## Toolbox
 The handy Toolbox sits inside the graph, giving you quick drag-drop access to all nodes. You can use the shortcut `TAB` while in the graph to quickly access the search function, which appears as a popup next to your mouse cursor.
 
 ## Search Popup

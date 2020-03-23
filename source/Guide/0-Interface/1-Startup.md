@@ -9,7 +9,7 @@ The Startup Screen is your main entry point into Gaea.
 
 On the right side, you have all the commands you need to get started. On the left side, you can access the most recently opened projects.
 
-### Commands
+## Commands
 
 **Create a terrain (Graph)**: Creates a new terrain with the @graph-mode.
 
@@ -23,7 +23,7 @@ On the right side, you have all the commands you need to get started. On the lef
 
 **Create a new sculpt**: Creates a new Erosion Studio @sculpt-mode project. It will ask you for an existing heightfield to use as your sculpting base. See @sculpt-mode for details.
 
-### Menu
+## Menu
 
 The ... menu in the top right gives you access to additional options.
 

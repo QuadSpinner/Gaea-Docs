@@ -3,8 +3,6 @@ uid: resolutions
 Title: Understanding Resolution
 ---
 
-# Resolutions
-
 This is one of the central precepts of terrain design. When you work on a terrain, and especially when you export, the amount of detail in the final result is calculated based on the size or resolution of the export image. Even when you export as a mesh, the image resolution is critical.
 
 In Gaea, there are two different resolutions you work with: the Preview Resolution and the Export Resolution.

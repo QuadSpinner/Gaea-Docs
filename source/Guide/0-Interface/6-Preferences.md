@@ -3,8 +3,6 @@ uid: preferences
 title: Preferences
 ---
 
-# Preferences
-
 The Preferences dialog gives you easy access to common preferences. It can be accessed from the Gaea Main menu. You can also access it from the startup dialog.
 
 ## Workspace

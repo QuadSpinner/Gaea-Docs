@@ -50,8 +50,8 @@ p.title {
 }
 
 .TIP {
-  border-color: rgba(200, 225, 238, 0.33);
-  background-color: #ddf7ff68;
+  border-color: rgba(206, 154, 230, 0.459);
+  background-color: #d582ff2f;
 
   p:first-child:before {
     content: "TIP";
@@ -59,11 +59,11 @@ p.title {
 }
 
 .NOTE {
-  border-color: rgba(200, 238, 233, 0.33);
+  border-color: rgba(135, 211, 201, 0.705);
   background-color: #ddfffb68;
 
   p:first-child:before {
-    content: "TIP";
+    content: "NOTE";
   }
 }
 
@@ -277,10 +277,10 @@ kbd {
   font-size: 90%;
   color: #0072be;
   background-color: #f4f2f9;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  -o-border-radius: 4px;
-  border-radius: 4px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
 }
 
 pre,
@@ -304,9 +304,15 @@ code {
 .medium-zoom-image {
   border: 2px solid transparent;
   transition: all linear 0.6s;
+
+  &:hover {
+    border: 2px solid #0072be;
+    transition: all linear 0.6s;
+  }
 }
 
-.medium-zoom-image:hover {
-  border: 2px solid #0072be;
-  transition: all linear 0.6s;
+.shortcuts {
+  .table {
+    width: 45% !important;
+  }
 }

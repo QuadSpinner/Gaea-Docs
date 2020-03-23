@@ -3,7 +3,6 @@ uid: properties
 title: Properties
 ---
 
-# Properties
 Every node exposes a set of properties or settings that you can modify to change the effect that node has on the terrain. When you select a node, the settings become available in the Properties panel in the right side of the interface.
 
 When you change a property, the effect is immediately applied and made visible in the viewport - except when dealing with Heavy Nodes (see below). Most nodes have a limited type of properties: 

@@ -3,8 +3,6 @@ uid: conveniences
 title: Convenience Features
 ---
 
-# Conveniences in Gaea
-
 Quality of life for the user is the baseline for all we do. Gaea features a large array of unobtrusive (and sometimes even hidden) features that can go a long way towards making your workflow more efficient.
 
 ## Node Conveniences
