@@ -82,39 +82,36 @@
 <li class="breadcrumb-item">Interface</li>
 <li class="breadcrumb-item active">Getting around</li>
 </ol>
-<p class="faux-h1">Getting around</p><h1 id="introduction-to-the-user-interface">Introduction to the User Interface</h1>
-<p><img src="/images/ui/Graph-Full.png" class="img-fluid" alt="" /></p>
-<p>The Gaea interface is streamlined</p>
-<h2 id="interface-sections">Interface Sections</h2>
-<p><img src="/images/ui/Graph-Graph.jpg" class="img-fluid" alt="" /></p>
-<p>The Graph surface is where you construct your terrain using different nodes.</p>
-<p><img src="/images/ui/Graph-Toolbox.jpg" class="img-fluid" alt="" /></p>
-<p>The <a href="/Guide/Interface/Toolbox.html">Toolbox</a> is where all nodes are located. You can drag and drop a node to the Graph surface to create a node.</p>
-<p><img src="/images/ui/Graph-Properties.jpg" class="img-fluid" alt="" /></p>
-<p>The <a href="/Guide/Interface/Properties.html">Properties</a> panel is where you can modify the properties of the node selected on the Graph surface.</p>
-<p><img src="/images/ui/Graph-Viewport3D.jpg" class="img-fluid" alt="" /></p>
-<p>The 3D <a href="/Guide/Interface/Viewport.html">Viewport</a> lets you explore the terrain in real time. It shows the output of the currently selected node.</p>
-<p><img src="/images/ui/Graph-Viewport2D.jpg" class="img-fluid" alt="" /></p>
-<p>The 2D <a href="/Guide/Interface/Viewport.html">Viewport</a> provides an unbiased view of the terrain or mask output of the currently selected node.</p>
-<p><img src="/images/ui/Graph-Toolbar.jpg" class="img-fluid" alt="" /></p>
-<p>The main toolbar, including the Gaea menu, is where you can access file commands, viewport modes, and terrain options; such as materials, terrain definition, atmosphere, and water surface display.</p>
-<p><img src="/images/ui/Graph-GraphToolbar.jpg" class="img-fluid" alt="" /></p>
-<p>The Graph toolbar provides quick access to common node commands. Most of these commands are also available by right-clicking the nodes themselves.</p>
-<p><img src="/images/ui/Graph-Favorites.jpg" class="img-fluid" alt="" /></p>
-<p>The Favorites panel is a handy way to access your most used nodes without having to go to the <a href="/Guide/Interface/Toolbox.html">Toolbox</a>. You can right-click nodes in the Toolbox to add or remove them from favorites.</p>
-<p><img src="/images/ui/Graph-Zoom.png" class="img-fluid" alt="" /></p>
-<p>The Gaea interface is resolution independent. If you're working on a HiDPI display, you can scale the entire interface using the Zoom slider.</p>
-<p>Certain aspects of the interface are altered depending on the workflow you have selected. The Node Graph is hidden when you work in @layers-mode. The <a href="/Guide/Interface/Toolbox.html">Toolbox</a> is made visible when you work in @graph-mode.</p>
-<p>For further information, see the following topics:</p>
-<ul>
-<li><a href="/Guide/Interface/Startup.html">Startup Screen</a></li>
-<li><a href="/Guide/Interface/Toolbox.html">Toolbox</a></li>
-<li><a href="/Guide/Interface/Properties.html">Properties</a></li>
-<li><a href="/Guide/Interface/Viewport.html">Viewport</a></li>
-<li><a href="/Guide/Interface/Preferences.html">Preferences</a></li>
-<li><a href="/Guide/Interface/Build-Manager.html">Build Manager</a></li>
-<li><a href="/Guide/Interface/Keyboard.html">Keyboard Shortcuts</a></li>
-</ul>
+<p class="faux-h1">Getting around</p><p><img src="/images/ui/Intro-All.jpg" class="w-100 img-fluid" alt="" /></p>
+<p>The Gaea interface is streamlined and minimal. All essential tools are available right within the main interface.</p>
+<h2 id="viewport">Viewport</h2>
+<p><img src="/images/ui/Intro-Viewports.jpg" class="w-100 img-fluid" alt="" /></p>
+<p>The viewports help you visualize your terrain components as you build the graph. There are two viewports, the 3D viewport, and the 2D viewport. The 2D viewport also doubles as an editor surface when using nodes such as <a href="/Reference/Primitives/Draw.html">Draw</a>, <a href="/Reference/Primitives/Island.html">Island</a>s, <a href="/Reference/Data%20Maps/Mask.html">Mask</a>, etc.</p>
+<p>A viewport toolbar gives you access to all the options for both the viewports and the lighting for the terrain.</p>
+<p>For further details, see <a href="/Guide/Interface/Viewport.html">Viewport</a>.</p>
+<h2 id="graph-surface">Graph Surface</h2>
+<p><img src="/images/ui/Intro-Graph.jpg" class="w-100 img-fluid" alt="" /></p>
+<p>The Graph is the core of Gaea. This is where your take nodes from the Toolbox and implement them on the Graph surface. The toolbox menu allows you change the Toolbox's configuration, such as full size or expert mode.</p>
+<p>The Graph can be split into multiple tabs, which are shown above the nodes. The tabs also share space with key graph tools on the far right such as Pinned nodes, the Baking menu, and more.</p>
+<p>For further details, see @graph.</p>
+<h2 id="properties-panel">Properties Panel</h2>
+<p><img src="/images/ui/Intro-Properties.jpg" class="w-100 img-fluid" alt="" /></p>
+<p>The Properties panel lets you modify the nodes on the Graph surface. When you select a node, the properties for it will be visible here.</p>
+<p>The Post Process Stack is available at the bottom of the Properties panel. These adjustment options can help you skip having to create additional nodes.</p>
+<p>Between the two is the Apply / Lock button. If a node takes a long time to process and has been marked as &quot;Heavy&quot;, or you have toggled Auto Apply, changes to the node properties are not applied until you click Apply.</p>
+<p>For further details, see <a href="/Guide/Interface/Properties.html">Properties</a>.</p>
+<h2 id="toolbars">Toolbars</h2>
+<p><img src="/images/ui/Intro-Toolbars.jpg" class="w-100 img-fluid" alt="" /></p>
+<p>Beyond the graph and viewport toolbars, there are other toolbars across the interface.</p>
+<p>At the top, the main toolbar is shared with the title bar to give you maximum workspace area. It gives you access to key file commands and lets you change the resolution and quality of the viewport. The main menu is accessed by clicking the &quot;Gaea&quot; title.</p>
+<p>On the far right, you can change the scale of the UI. You can also see the version and edition of Gaea you are using.</p>
+<p>In the bottom right corner of the interface, there are a few advanced options for caching, and memory optimization. For further details, see @cache.</p>
+<h2 id="build-tab">Build Tab</h2>
+<p><img src="/images/ui/Intro-Build.jpg" class="w-100 img-fluid" alt="" /></p>
+<p>Gaea needs to build the terrain to get you the final quality version of the terrain you preview while working in the main interface. The Build Manager tab allows you to configure the terrain build and use different options to initiate the build.</p>
+<p>At the bottom, you can select the build destination and fire off the build using the <a href="/Guide/Build/Swarm.html">Build Swarm</a>.</p>
+<p>For further information, see <a href="/Guide/Build/Manager.html">Build Manager</a>.</p>
+<p>Below the Build Manager controls is the Terrain Definition. This is where you can control the arbitrary scale of your terrain. For further information, see <a href="/Guide/Concepts/Scale.html">Terrain Scale</a>.</p>
 
 
                     </div>

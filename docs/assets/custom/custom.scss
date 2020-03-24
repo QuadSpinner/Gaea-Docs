@@ -288,8 +288,15 @@ code {
   border: 0 !important;
 }
 
-.docs img {
-  width: 50%;
+.docs {
+  img:not(.w-25):not(.w-50):not(.w-75):not(.w-100) {
+    width: 50%;
+  }
+
+  .w-100 {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
 }
 
 .cmd {

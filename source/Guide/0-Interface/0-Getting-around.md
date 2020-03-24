@@ -3,56 +3,62 @@ uid: getting-around
 title: Getting around
 ---
 
-# Introduction to the User Interface
+![](/images/ui/Intro-All.jpg){.w-100}
 
-![](/images/ui/Graph-Full.png)
+The Gaea interface is streamlined and minimal. All essential tools are available right within the main interface.
 
-The Gaea interface is streamlined
+## Viewport
 
-## Interface Sections
-![](/images/ui/Graph-Graph.jpg)
+![](/images/ui/Intro-Viewports.jpg){.w-100}
 
-The Graph surface is where you construct your terrain using different nodes.
+The viewports help you visualize your terrain components as you build the graph. There are two viewports, the 3D viewport, and the 2D viewport. The 2D viewport also doubles as an editor surface when using nodes such as @Draw, @Islands, @Mask, etc.
 
-![](/images/ui/Graph-Toolbox.jpg)
+A viewport toolbar gives you access to all the options for both the viewports and the lighting for the terrain.
 
-The @toolbox is where all nodes are located. You can drag and drop a node to the Graph surface to create a node.
+For further details, see @viewport.
 
-![](/images/ui/Graph-Properties.jpg)
+## Graph Surface
 
-The @properties panel is where you can modify the properties of the node selected on the Graph surface.
+![](/images/ui/Intro-Graph.jpg){.w-100}
 
-![](/images/ui/Graph-Viewport3D.jpg)
+The Graph is the core of Gaea. This is where your take nodes from the Toolbox and implement them on the Graph surface. The toolbox menu allows you change the Toolbox's configuration, such as full size or expert mode.
 
-The 3D @viewport lets you explore the terrain in real time. It shows the output of the currently selected node.
+The Graph can be split into multiple tabs, which are shown above the nodes. The tabs also share space with key graph tools on the far right such as Pinned nodes, the Baking menu, and more.
 
-![](/images/ui/Graph-Viewport2D.jpg)
+For further details, see @graph.
 
-The 2D @viewport provides an unbiased view of the terrain or mask output of the currently selected node.
+## Properties Panel
 
-![](/images/ui/Graph-Toolbar.jpg)
+![](/images/ui/Intro-Properties.jpg){.w-100}
 
-The main toolbar, including the Gaea menu, is where you can access file commands, viewport modes, and terrain options; such as materials, terrain definition, atmosphere, and water surface display.
+The Properties panel lets you modify the nodes on the Graph surface. When you select a node, the properties for it will be visible here.
 
-![](/images/ui/Graph-GraphToolbar.jpg)
+The Post Process Stack is available at the bottom of the Properties panel. These adjustment options can help you skip having to create additional nodes.
 
-The Graph toolbar provides quick access to common node commands. Most of these commands are also available by right-clicking the nodes themselves.
+Between the two is the Apply / Lock button. If a node takes a long time to process and has been marked as "Heavy", or you have toggled Auto Apply, changes to the node properties are not applied until you click Apply.
 
-![](/images/ui/Graph-Favorites.jpg)
+For further details, see @properties.
 
-The Favorites panel is a handy way to access your most used nodes without having to go to the @toolbox. You can right-click nodes in the Toolbox to add or remove them from favorites.
+## Toolbars
 
-![](/images/ui/Graph-Zoom.png)
+![](/images/ui/Intro-Toolbars.jpg){.w-100}
 
-The Gaea interface is resolution independent. If you're working on a HiDPI display, you can scale the entire interface using the Zoom slider.
+Beyond the graph and viewport toolbars, there are other toolbars across the interface.
 
-Certain aspects of the interface are altered depending on the workflow you have selected. The Node Graph is hidden when you work in @layers-mode. The @toolbox is made visible when you work in @graph-mode.
+At the top, the main toolbar is shared with the title bar to give you maximum workspace area. It gives you access to key file commands and lets you change the resolution and quality of the viewport. The main menu is accessed by clicking the "Gaea" title.
 
-For further information, see the following topics:
-- @startup
-- @toolbox
-- @properties
-- @viewport
-- @preferences
-- @build-manager
-- @shortcuts
+On the far right, you can change the scale of the UI. You can also see the version and edition of Gaea you are using.
+
+In the bottom right corner of the interface, there are a few advanced options for caching, and memory optimization. For further details, see @cache.
+
+## Build Tab
+
+![](/images/ui/Intro-Build.jpg){.w-100}
+
+Gaea needs to build the terrain to get you the final quality version of the terrain you preview while working in the main interface. The Build Manager tab allows you to configure the terrain build and use different options to initiate the build.
+
+At the bottom, you can select the build destination and fire off the build using the @build-swarm.
+
+For further information, see @buildmanager.
+
+Below the Build Manager controls is the Terrain Definition. This is where you can control the arbitrary scale of your terrain. For further information, see @scale.
