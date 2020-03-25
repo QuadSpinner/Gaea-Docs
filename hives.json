@@ -19,6 +19,15 @@
         "ProcessProceduralFiles": true
     },
     {
+        "Path": "Tutorials",
+        "Category": 0,
+        "BaseItem": {
+            "Title": "Tutorials",
+            "Link": "Tutorials/index.html",
+            "UID": "tutorials"
+        }
+    },
+    {
         "Path": "Videos",
         "Category": 0,
         "BaseItem": {
