@@ -25,7 +25,7 @@
 
     <!-- Layout wrapper -->
     <div id="main">
-        <div class="navbar-fixed-container">
+        <div class="navbar-fixed-container hidden-print">
             <div class="navbar navbar-inverse navbar-fixed-top ">
                 <nav role="navigation" aria-label="Top Level">
                     <div class="container">
@@ -64,19 +64,24 @@
 
         <div role="main" id="main-content">
             <div class="container body-content docs">
-                <nav id="small-nav" aria-label="Topics" class="docs-nav hidden-md hidden-lg">
+                <nav id="small-nav" aria-label="Topics" class="docs-nav hidden-md hidden-lg hidden-print">
                     <p class="faux-h4">Topics</p>
                     <select id="small-nav-dropdown"><optgroup label="Basic"> </optgroup><optgroup label="Intermediate"> </optgroup><optgroup label="Advanced"> </optgroup><optgroup label="Live Streams"> </optgroup><optgroup label="Gaea Learning Videos"> </optgroup></select>
                 </nav>
                 <div class="row">
-                    <div class="col-md-2 docs-navbar-container">
-                        <nav id="docs-navbar" aria-label="Topics" class="docs-nav visible-md visible-lg">
+                    <div class="col-md-2 docs-navbar-container hidden-print">
+                        <nav id="docs-navbar" aria-label="Topics" class="docs-nav visible-md visible-lg ">
                             <ul class="nav" id="main-nav">
                                 <li class="panel collapsed"><a class="area" href="#Basic" data-parent="#main-nav" data-toggle="collapse">Basic</a><ul id="Basic" class="collapse"></ul></li><li class="panel collapsed"><a class="area" href="#Intermediate" data-parent="#main-nav" data-toggle="collapse">Intermediate</a><ul id="Intermediate" class="collapse"></ul></li><li class="panel collapsed"><a class="area" href="#Advanced" data-parent="#main-nav" data-toggle="collapse">Advanced</a><ul id="Advanced" class="collapse"></ul></li><li class="panel collapsed"><a class="area" href="#LiveStreams" data-parent="#main-nav" data-toggle="collapse">Live Streams</a><ul id="LiveStreams" class="collapse"></ul></li><li class="panel collapsed"><a class="area" href="#GaeaLearningVideos" data-parent="#main-nav" data-toggle="collapse">Gaea Learning Videos</a><ul id="GaeaLearningVideos" class="collapse"></ul></li>
                             </ul>
                         </nav>
                     </div>
                     <div class="col-sm-9 col-md-8 body">
+                        <p class="text-danger">
+                            <small>
+                                The documentation is being updated. There may be incomplete sections.
+                            </small>
+                        </p>
                         <ol class="breadcrumb visible-md visible-lg">
 <li class="breadcrumb-item"><a href="/index.html">Home</a></li>
 <li class="breadcrumb-item"><a href="Videos/index.html">Videos</a></li>
@@ -85,7 +90,7 @@
 <p class="faux-h1">Gaea Learning Videos</p>
 
                     </div>
-                    <div class="col-sm-3 col-md-2 docs-subnavbar-container visible-md visible-lg">
+                    <div class="col-sm-3 col-md-2 docs-subnavbar-container visible-md visible-lg hidden-print">
                         <nav id="toc" data-toggle="toc" aria-label="On Page" data-spy="affix" class="affix">
                         </nav>
                         <div class="botbot">
@@ -100,7 +105,7 @@
         </div>
     </div>
 
-    <footer role="contentinfo">
+    <footer role="contentinfo" class="hidden-print">
         <div class="container">
             <div class="row">
                 <div class="left col-md-7">

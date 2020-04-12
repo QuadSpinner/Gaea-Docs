@@ -7,7 +7,7 @@ title: Troubleshooting
 
 Gaea ships with **Watson.exe**, an advanced diagnostics tool that examines your Gaea installation as well as your general hardware configuration, and allows you to log issues with our Technical Support department without opening a web browser.
 
-Watson's goal is to identify and collect small bits of information that may not be readily apparent to the user, or may not be visible without a bit of digging. For example, a small setting in the Preferences may be causing an issue. Watson can identify patterns based on the existing application logs and certain settings, or collect crash logs from recent incidents.
+Watson's goal is to identify and collect small bits of information that may not be readily apparent to the user, or may not be visible without a bit of digging. For example, a small setting in the @preferences may be causing an issue. Watson can identify patterns based on the existing application logs and certain settings, or collect crash logs from recent incidents.
 
 These logs help us understand your Gaea installation, your hardware and relevant drivers, and other similar information. This reduces the need for us to ask you questions and get you solutions to problems at a much quicker pace.
 

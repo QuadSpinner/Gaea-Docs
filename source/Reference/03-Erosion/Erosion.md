@@ -53,7 +53,7 @@ Downcutting effectively transports sediment far away from its origin. If shorter
 
 ### Scale and Feature Size
 
-The size of the "features" created during the erosion process - namely the width of largest valleys and ridges between them - is controlled by the *Feature Scale* option is where you can achieve artistic control over the erosion process.
+The size of the "features" created during the erosion process - namely the width of largest valleys and ridges between them - is controlled by the `Feature Scale` option is where you can achieve artistic control over the erosion process.
 
 <figure>
 
