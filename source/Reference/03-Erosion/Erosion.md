@@ -73,3 +73,7 @@ The *Real Scale* option automatically controls the general scale (the extents of
 
 {.NOTE} 
 > When using Parallel Processing, the erosion algorithm can become non-deterministic. This means while most of the major flows will appear in the same location, smaller features may appear somewhat different every time the node is processed. To ensure fully deterministic processing, disable Parallel Processing. This will sacrifice processing speed to ensure your results are consistent.
+
+
+### Selective Processing
+
