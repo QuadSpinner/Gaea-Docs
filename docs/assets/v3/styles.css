@@ -1773,3 +1773,7 @@ nav[data-toggle=toc] .nav li a:hover:before {
     bottom: 2em;
     right: 7em;
 }
+
+.breadcrumb{
+    padding: 0 !important;
+}

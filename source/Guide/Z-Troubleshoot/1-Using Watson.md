@@ -1,6 +1,6 @@
 ---
-uid: troubleshooting
-title: Troubleshooting
+uid: watson
+title: Using Watson
 ---
 
 ## Watson Diagnostics Tool

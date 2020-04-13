@@ -36,8 +36,6 @@ Consider this graph. Mountain is connected to Displace and Displace is connected
 
 Baked nodes that are not loaded can be loaded through the property editor. However, it is recommended to unbake and bake portions of the graph if you wish to modify anything.
 
-
-
 ## Cache Locations
 
 If your file is `MyFile.tor`, the baked cache will be stored in `\Caches\Hard\MyFile_09cb3a` next to it.
