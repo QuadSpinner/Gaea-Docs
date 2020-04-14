@@ -3,7 +3,7 @@ title: Build Swarm
 uid: build-swarm
 ---
 
-# Build Swarm
+## Build Swarm
 
 {.WARNING}
 > Using the Build Swarm manually or through automation is recommended for advanced users only.
@@ -23,41 +23,51 @@ Simple example of a command line build:
 "C:\Program Files\QuadSpinner\Gaea\Gaea.Build.exe" "C:\Users\Me\Documents\Gaea\MyFile.tor" 
 ```
 
-### Build Swarm Management Switches
+### Modes
+
+`--silent` 
+
+**Silent Mode** disables all console output. This is useful for batch or unattended builds where you do not need visual readouts for progress or build information.
+
+
+`--automata` or `--automation` 
+
+**Automation Mode** is used when automating Gaea from another application. The output is limited to simple status messages which can be read by another software and displayed to end users as needed. For more information on how to use Gaea from other applications, see @create-bridge.
+
+
+### Management Switches
 
 | Switch       | Description                                                |
 | :----------- | :--------------------------------------------------------- |
-| `--silent`   | Disables all non-essential console output.                 |
 | `--savetor`  | Saves a copy of the current file in the build folder.      |
 | `--buildlog` | Saves the build log to `buildlog.txt` in the build folder. |
 | `--open`     | Opens the build folder after the build is complete.        |
-| `--close`    | Immediately closes the window after build is complete.      |
-| `--beep`     | Plays a short beep at the end of a build.                   |
+| `--close`    | Immediately closes the window after build is complete.     |
+| `--beep`     | Plays a short beep at the end of a build.                  |
 
 ### Build Modification Switches
 
-| Switch             | Description                                                                                                                                                                      |
-| :----------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `--unclamped`      | Forces the build to use Natural Elevation. See @building                                                                                                                         |
-| `--forcescale`     | Forces the build to use force Full Range scaling. See @building.                                                                                                                 |
+| Switch             | Description                                                                                                                                                                       |
+| :----------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `--unclamped`      | Forces the build to use Natural Elevation. See @building                                                                                                                          |
+| `--forcescale`     | Forces the build to use force Full Range scaling. See @building.                                                                                                                  |
 | `--mutate##`       | Repeats the build and randomizes the seeds of every node to create variations with each build. <br> Valid options for the `##` portion are numbers from 1 to 99. See @variations. |
-| `--nodemap`        | Creates an XML node map file for any exposed properties.                                                                                                                         |
-| `--resolution####` | Sets the resolution of the build. <br> Valid options for the `####` portion are 512, 1024, 2048, 4096, and 8192.                                                                 |
-| `var:value`        | Sets the 'value' property of the 'var' exposed node property. <br> See @automation for details. Any such variable arguments must come after all switches.                        |
+| `--nodemap`        | Creates an XML node map file for any exposed properties.                                                                                                                          |
+| `--resolution####` | Sets the resolution of the build. <br> Valid options for the `####` portion are 512, 1024, 2048, 4096, and 8192.                                                                  |
+| `var:value`        | Sets the 'value' property of the 'var' exposed node property. <br> See @automation for details. Any such variable arguments must come after all switches.                         |
 
 Complex example of a command line build automation:
 ```vb
 Z:\Git\Gaea\Gaea\Distribution\Obfuscated\Gaea.Build.exe 
  "C:\Users\Dax\Documents\Gaea\sidefx_erosion_automata.tor" 
  --silent --resolution0512 
- filein:"Z:\WM1.png"  fileout:"Z:\WM_out.png" 
+ filein:"Z:\mountain.exr"  fileout:"Z:\mountain_out.exr" 
  duration:0.518 rocksoftness:0.271 strength:0.184 
  inhibition:1.0 baselevel:0.0 realscale:true 
  featurescale:2000 seed:0 aggressivemode:true
 ```
 
-{.NOTE}
-> You must have the Professional or Enterprise edition to take advantage of automation features.
+See @automation for details.
 
 ## Batch Building
 

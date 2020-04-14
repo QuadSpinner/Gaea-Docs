@@ -1,6 +1,6 @@
 ---
 uid: color-production
-title: Color Production
+title: Procedural Textures
 ---
 
 ## Lookup Tables

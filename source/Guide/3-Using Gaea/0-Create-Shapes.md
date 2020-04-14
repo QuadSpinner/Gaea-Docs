@@ -1,6 +1,6 @@
 ---
 uid: primitives
-title: Terrain Primitives
+title: Create with Primitives
 ---
 
 CG applications use primitives such as cubes and spheres to create basic geometry. Gaea being a terrain software uses geological primitives such as @Mountain, @Range, and @Crater.

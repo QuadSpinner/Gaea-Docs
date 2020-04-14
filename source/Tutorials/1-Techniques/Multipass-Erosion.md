@@ -9,7 +9,7 @@ In this example, we have `Selective Processing` set to `Altitude` with high `Dur
 
 ![](/images/ref/Erosion/Erosion-Pass1.jpg){.w-100}
 
-For the second pass, we have default settings except for 100% `Downcutting` and `100%`{.val} `Base Level`. This creates strong flow structures everywhere.
+For the second pass, we have default settings except for `100%`{.val} `Downcutting` and `100%`{.val} `Base Level`. This creates strong flow structures everywhere.
 
 ![](/images/ref/Erosion/Erosion-Pass2.jpg){.w-100}
 

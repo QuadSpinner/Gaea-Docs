@@ -1,15 +1,28 @@
 ---
 uid: cache
-title: Cache Management
+title: Baking and Caching
 ---
 
-Gaea uses various forms of caches to speed up processing and build times.
+Gaea uses various forms of baked caches to speed up processing and build times.
+
+## What is baking?
+
+Baking, in Gaea's context, means building a node to a specific high resolution and then storing it in a lock or "baked" form. A baked node can display previews at higher resolution than your normal preview, while allowing you to work with the current lower resolution previews for the rest of the graph.
+
+It is always preferable to see the viewport previews at higher resolution so you can discern finer detail and resolution-dependent shapes. However, keeping your previews at 2K or 4K can be slow especially when working with large graphs.
+
+When a part of the graph is finalized, and you do not anticipate any changes - even temporarily - you can bake that part of the graph to prevent it from being reprocessed when the file is loaded or the nodes are refreshed. If you select a high resolution for the baking, the baked preview will be stored at that resolution while the rest of the unbaked nodes are shown at the current preview resolution.
+
+Once further nodes are finalized, you can bake them too.
 
 ## Session Cache
 
 A session or "soft" cache helps resume your work faster the next time you open the file. It is disabled by default, so you have to opt-in to use it. To enable, open the Baking Menu and enable `Cache graph on close`.
 
 When closing the file, whether by exiting Gaea or switching to a different file, Gaea will save all the processed nodes' cache to file. Next time you open the file, instead of reprocessing all nodes from scratch Gaea will load the session cache to memory.
+
+{.TIP}
+> For better performance, use a solid state drive for your cache location.
 
 ## Baked Cache
 
