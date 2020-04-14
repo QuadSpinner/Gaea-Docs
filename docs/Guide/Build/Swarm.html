@@ -88,19 +88,18 @@
 <li class="breadcrumb-item">Build</li>
 <li class="breadcrumb-item active">Build Swarm</li>
 </ol>
-<p class="faux-h1">Build Swarm</p><h2 id="build-swarm">Build Swarm</h2>
+<p class="faux-h1">Build Swarm</p><p>The Build Swarm is the command line building engine for Gaea. Whenever a large scale build is needed, Gaea launches the Build Swarm to build the terrain. You can also launch it manually if needed. The Build Swarm can be found in the Gaea installation folder as <code>Gaea.Build.exe</code>.</p>
+<p>The Build Swarm writes status messages to StdOut and can be monitored remotely if needed. You MUST use the <code>--silent</code> argument when capturing StdOut data otherwise it may overload your application and slow down the build itself.</p>
 <blockquote class="WARNING blockquote">
 <p>Using the Build Swarm manually or through automation is recommended for advanced users only.</p>
 </blockquote>
-<p>The Build Swarm is the command line building engine for Gaea. Whenever a large scale build is needed, Gaea launches the Build Swarm to build the terrain. You can also launch it manually if needed. The Build Swarm can be found in the Gaea installation folder as <code>Gaea.Build.exe</code>.</p>
-<p>The Build Swarm writes status messages to StdOut and can be monitored remotely if needed. You MUST use the <code>--silent</code> argument when capturing StdOut data otherwise it may overload your application and slow down the build itself.</p>
 <h2 id="command-line-arguments">Command Line Arguments</h2>
 <blockquote class="NOTE blockquote">
 <p>Gaea uses double dashes <code>--</code> instead of a single dash for command line arguments.
 For paths, always encapsulate them in double quotes to avoid path truncation.</p>
 </blockquote>
 <p>Simple example of a command line build:</p>
-<pre><code class="language-vb">&quot;C:\Program Files\QuadSpinner\Gaea\Gaea.Build.exe&quot; &quot;C:\Users\Me\Documents\Gaea\MyFile.tor&quot; 
+<pre><code class="language-vb">Gaea.Build.exe &quot;C:\Users\Me\Documents\Gaea\MyFile.tor&quot; 
 </code></pre>
 <h3 id="modes">Modes</h3>
 <p><code>--silent</code></p>
@@ -149,15 +148,15 @@ For paths, always encapsulate them in double quotes to avoid path truncation.</p
 <tbody>
 <tr>
 <td style="text-align: left;"><code>--unclamped</code></td>
-<td style="text-align: left;">Forces the build to use Natural Elevation. See <a href="/Guide/Using%20Gaea/Building.html">Build and Export</a></td>
+<td style="text-align: left;">Forces the build to use Natural Elevation. See <a href="/Guide/Concepts/Scale.html">Terrain Scale</a>.</td>
 </tr>
 <tr>
 <td style="text-align: left;"><code>--forcescale</code></td>
-<td style="text-align: left;">Forces the build to use force Full Range scaling. See <a href="/Guide/Using%20Gaea/Building.html">Build and Export</a>.</td>
+<td style="text-align: left;">Forces the build to use force Full Range scaling. See <a href="/Guide/Concepts/Scale.html">Terrain Scale</a>.</td>
 </tr>
 <tr>
 <td style="text-align: left;"><code>--mutate##</code></td>
-<td style="text-align: left;">Repeats the build and randomizes the seeds of every node to create variations with each build. <br> Valid options for the <code>##</code> portion are numbers from 1 to 99. See @variations.</td>
+<td style="text-align: left;">Repeats the build and randomizes the seeds of every node to create variations with each build. <br> Valid options for the <code>##</code> portion are numbers from 1 to 99. See <a href="/Guide/Using%20Gaea/Building.html">Build and Export</a>.</td>
 </tr>
 <tr>
 <td style="text-align: left;"><code>--nodemap</code></td>
@@ -174,13 +173,21 @@ For paths, always encapsulate them in double quotes to avoid path truncation.</p
 </tbody>
 </table>
 <p>Complex example of a command line build automation:</p>
-<pre><code class="language-vb">Z:\Git\Gaea\Gaea\Distribution\Obfuscated\Gaea.Build.exe 
- &quot;C:\Users\Dax\Documents\Gaea\sidefx_erosion_automata.tor&quot; 
- --silent --resolution0512 
- filein:&quot;Z:\mountain.exr&quot;  fileout:&quot;Z:\mountain_out.exr&quot; 
- duration:0.518 rocksoftness:0.271 strength:0.184 
- inhibition:1.0 baselevel:0.0 realscale:true 
- featurescale:2000 seed:0 aggressivemode:true
+<pre><code class="language-vb">Gaea.Build.exe 
+ &quot;C:\Users\Documents\Gaea\sidefx_erosion_automata.tor&quot; 
+ --silent 
+ --resolution0512 
+ filein:&quot;Z:\mountain.exr&quot;  
+ fileout:&quot;Z:\mountain_out.exr&quot; 
+ duration:0.518 
+ rocksoftness:0.271 
+ strength:0.184 
+ inhibition:1.0 
+ baselevel:0.0 
+ realscale:true 
+ featurescale:2000 
+ seed:0 
+ aggressivemode:true
 </code></pre>
 <p>See <a href="/Guide/X-Developers/Automation.html">Automating Gaea</a> for details.</p>
 <h2 id="batch-building">Batch Building</h2>
@@ -193,15 +200,15 @@ cd %programfiles%\QuadSpinner\Gaea
 SET vars = --silent --savetor
 
 REM List all files to build in quotes
-Gaea.Build.exe &quot;C:\Users\Dax\Documents\Gaea\ErosionB-001.tor&quot; vars
-Gaea.Build.exe &quot;C:\Users\Dax\Documents\Gaea\ErosionB-002.tor&quot; vars
-Gaea.Build.exe &quot;C:\Users\Dax\Documents\Gaea\ErosionB-003.tor&quot; vars
-Gaea.Build.exe &quot;C:\Users\Dax\Documents\Gaea\ErosionB-004.tor&quot; vars
-Gaea.Build.exe &quot;C:\Users\Dax\Documents\Gaea\ErosionB-005.tor&quot; vars
-Gaea.Build.exe &quot;C:\Users\Dax\Documents\Gaea\ErosionB-006.tor&quot; vars
-Gaea.Build.exe &quot;C:\Users\Dax\Documents\Gaea\ErosionB-007.tor&quot; vars
-Gaea.Build.exe &quot;C:\Users\Dax\Documents\Gaea\ErosionB-008.tor&quot; vars
-Gaea.Build.exe &quot;C:\Users\Dax\Documents\Gaea\ErosionB-009.tor&quot; vars
+Gaea.Build.exe &quot;C:\Users\Documents\Gaea\ErosionB-001.tor&quot; vars
+Gaea.Build.exe &quot;C:\Users\Documents\Gaea\ErosionB-002.tor&quot; vars
+Gaea.Build.exe &quot;C:\Users\Documents\Gaea\ErosionB-003.tor&quot; vars
+Gaea.Build.exe &quot;C:\Users\Documents\Gaea\ErosionB-004.tor&quot; vars
+Gaea.Build.exe &quot;C:\Users\Documents\Gaea\ErosionB-005.tor&quot; vars
+Gaea.Build.exe &quot;C:\Users\Documents\Gaea\ErosionB-006.tor&quot; vars
+Gaea.Build.exe &quot;C:\Users\Documents\Gaea\ErosionB-007.tor&quot; vars
+Gaea.Build.exe &quot;C:\Users\Documents\Gaea\ErosionB-008.tor&quot; vars
+Gaea.Build.exe &quot;C:\Users\Documents\Gaea\ErosionB-009.tor&quot; vars
 </code></pre>
 <blockquote class="TIP blockquote">
 <p>In the future, you will be able to drag and drop multiple files on Gaea.Build.exe to run a batch build.</p>

@@ -3,18 +3,14 @@ uid: buildmanager
 title: Build Manager
 ---
 
-
-## The Build Manager
-
 ![Build Manager](/images/ui/Build-Manager.png)
-
 
 The Build Manager increases your efficiency. You can choose the file format to use for all outputs, modify a node's output name by clicking on the node's label, choose unclamped (formerly called "Full Range"), and +1 output (where 512 x 512 becomes 513 x 513 — necessary for some game engines).
 
 You can also use the Build Manager for version control and file organization.
 
 
-# Build Options
+## Build Options
 
 ### Node List
 
@@ -188,5 +184,6 @@ The "Save copy of .TOR" option is useful when you want to manage different versi
 
 You can also map the folder to almost any modern version control system (Git, Mercurial, Visual Studio Team Services, etc.), or share on a network folder with your team.
 
-# Build Swarm
+## Build Swarm
+
 For advanced use, see @build-swarm.

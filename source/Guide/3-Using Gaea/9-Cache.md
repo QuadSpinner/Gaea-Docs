@@ -53,7 +53,7 @@ Baked nodes that are not loaded can be loaded through the property editor. Howev
 
 If your file is `MyFile.tor`, the baked cache will be stored in `\Caches\Hard\MyFile_09cb3a` next to it.
 
-For session caches, all caches are stored in the Central Cache Repository. It will follow the same naming pattern, such as `\Caches\Soft\MyFile_09cb3a`. The root path for the Cache Repository is set in the @Preferences.
+For session caches, all caches are stored in the Central Cache Repository. It will follow the same naming pattern, such as `\Caches\Soft\MyFile_09cb3a`. The root path for the Cache Repository is set in the @preferences.
 
 The Cache readout in Gaea's status bar will show you the size of the cache. Clicking the readout button gives you options to cleanup old cache data.
 

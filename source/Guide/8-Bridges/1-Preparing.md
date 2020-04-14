@@ -34,6 +34,6 @@ To ensure both input and output data retains the same level of fidelity, we stro
 
 Pick the right scale option in the @build-manager settings that fits with your application's workflow. See @scale for details.
 
-For maximum flexibility, we recommend sending data in a normalized range appropriate to the format. In Gaea's @file node should use the `Use Full Range` option to normalize the incoming data unless the data is already normalized. Select Normalized the output range in the @build-manager as well.
+For maximum flexibility, we recommend sending data in a normalized range appropriate to the format. In Gaea's @File node should use the `Use Full Range` option to normalize the incoming data unless the data is already normalized. Select Normalized the output range in the @build-manager as well.
 
 When you receive the data in your application after the build, you must process it as appropriate.

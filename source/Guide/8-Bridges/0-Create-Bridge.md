@@ -10,7 +10,7 @@ Gaea can be used as a silent processor from other applications from the command 
 {.WARNING}
 > The end-user must have a Professional or Enterprise edition of Gaea. If you wish to redistribute the Gaea Engine with your application, please contact us.
 
-## Core Concept
+### Core Concept
 
 The Bridge can be created using any programming language, as long as you meet the following requirements:
 - Invoke command lines and wait for process to exit
@@ -30,11 +30,11 @@ The Gaea Bridge workflow consists of the following steps:
 
 To create a recipe file, follow the instructions in @preparing-bridge.
 
-### Configuring UI via Node Map
+## Configuring the Interface
 
 Gaea provides the facility to create an XML mapping file containing the details of all the variables exposed, their type, variable name, friendly name, value limits, and default value.
 
-To produce this XML map, pass the `--nodemap` switch.
+To produce this XML map, pass the `--nodemap` switch. The `.xml` node map file will be created in the same folder as the `.tor` file being passed to `Gaea.Build.exe`.
 
 ```vb
 Gaea.Build.exe "C:\Gaea\erosion_automata.tor" --nodemap
@@ -89,7 +89,7 @@ Your application should use the XML map to configure the UI for the bridge and p
 | Default  | The default value for this setting. Useful for resetting controls.                                                                                                |
 
 
-### Invoking Gaea.Build.exe
+## Invoking Gaea.Build.exe
 
 When you wish to process the heightfield, save it to one of the formats specified above. Also decide on where you want Gaea to save the output so you can read from those files once finished.
 
@@ -105,7 +105,7 @@ Gaea.Build.exe "C:\erosion_automata.tor" --automata --resolution0512
  duration:0.518 finedetail:true verticality:2000
 ```
 
-### Reading StdOut
+## Reading StdOut
 
 When Gaea.Build.exe is executed, you can redirect its Standard Output to read status messages during the build process. You can use these messages to display progress or messages to your end-user.
 
@@ -117,12 +117,12 @@ Sample messages:
 
 Each individual message will be delimited by a line break character. In most environments, this will be `\n`.
 
-### Maintain Scale
+## Maintain Scale
 
 To ensure both input and output data retains the same level of fidelity, we strongly encourage using a 32-bit format for heightmaps.
 
 Pick the right scale option in the @build-manager settings that fits with your application's workflow. See @scale for details.
 
-For maximum flexibility, we recommend sending data in a normalized range appropriate to the format. In Gaea's @file node should use the `Use Full Range` option to normalize the incoming data unless the data is already normalized. Select Normalized the output range in the @build-manager as well.
+For maximum flexibility, we recommend sending data in a normalized range appropriate to the format. In Gaea's @File node should use the `Use Full Range` option to normalize the incoming data unless the data is already normalized. Select Normalized the output range in the @build-manager as well.
 
 When you receive the data in your application after the build, you must process it as appropriate.

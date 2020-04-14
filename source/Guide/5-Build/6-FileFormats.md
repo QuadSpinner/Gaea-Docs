@@ -3,7 +3,8 @@ title: File Formats
 uid: file-formats
 ---
 
-# File Formats in Gaea
+{.TIP}
+> If you are looking for information on the Gaea's formats, see @file-format.
 
 Gaea supports all modern (and some legacy) file formats for both flat files and meshes.
 
@@ -11,7 +12,6 @@ Gaea supports all modern (and some legacy) file formats for both flat files and 
    - OpenEXR (.exr)
    - TIFF (.tif)
    - RAW (.r32)
-   - PFM (.pfm)
 - 16-bit
    - PNG (.png)
    - RAW (.raw)
@@ -60,11 +60,3 @@ The size of the heightfield should be square root of the byte length divided by 
 The `.R32` format will store values between `0.0f` and `1.0f`. While the `.raw` format will store values between `0` and `65535`.
 
 Both formats are recommended for heightfield (grayscale) data only.
-
-### .PFM 32-bit
-
-The Portable Float Map is [based on the NetPBM format](http://netpbm.sourceforge.net/doc/pfm.html). The file contains 3 lines of ASCII text with Unix style carriage return (`\n`), followed by the binary sequence of floats similar to the .r32 format.
-
-Unlike the RAW formats above, PFM can store color data safely. The header tells the reader if the data is single channel grayscale or RGB.
-
-Gaea can also read PFM ASCII format data, but is strongly not recommended because it is extremely inefficent. It's provided for compatibility only.
