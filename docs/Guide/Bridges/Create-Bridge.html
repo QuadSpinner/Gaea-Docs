@@ -99,19 +99,23 @@
 <li>Invoke command lines and wait for process to exit</li>
 <li>Read XML file</li>
 <li>Save as PNG (16-bit), TIFF (32-bit), or OpenEXR (32-bit)</li>
-<li>Redirect and read StdOut (optional)</li>
+<li>Redirect and read StdOut stream (optional)</li>
 </ul>
 <p><img src="/images/seq/bridge.png" class="img-fluid" alt="" /></p>
+<p>Gaea must be installed along with prerequisites (see <a href="/Guide/Getting%20Started/Installing-Gaea.html">Installing Gaea</a>) for the process to work.</p>
 <p>The Gaea Bridge workflow consists of the following steps:</p>
 <ol>
 <li>App invokes <code>--nodemap</code> to get an XML map of available settings in the recipe file.</li>
 <li>App configures its UI according to the XML map.</li>
 <li>App saves the input heightfield(s) as files.</li>
 <li>App invokes <code>Gaea.Build.exe</code> while passing automation variable values as arguments including input and output paths.</li>
-<li>App optionally redirects <code>Gaea.Build.exe</code>'s StdOut to read and display status messages.</li>
+<li>App optionally redirects StdOut stream to read and display status messages.</li>
 <li>When the process exits, App will read the files saved by Gaea in the output path.</li>
 </ol>
 <p>To create a recipe file, follow the instructions in <a href="/Guide/Bridges/Preparing.html">Preparing Gaea file for a Bridge</a>.</p>
+<blockquote class="NOTE blockquote">
+<p>In the future, file based data transfer will be replaced with shared memory buffers for faster data transmission. At that point, you will be able to send and receive data directly as arrays of 32-bit floats.</p>
+</blockquote>
 <h2 id="configuring-the-interface">Configuring the Interface</h2>
 <p>Gaea provides the facility to create an XML mapping file containing the details of all the variables exposed, their type, variable name, friendly name, value limits, and default value.</p>
 <p>To produce this XML map, pass the <code>--nodemap</code> switch. The <code>.xml</code> node map file will be created in the same folder as the <code>.tor</code> file being passed to <code>Gaea.Build.exe</code>.</p>
@@ -141,7 +145,7 @@
                Type=&quot;bool&quot; 
                Variable=&quot;finedetail&quot; 
                Default=&quot;True&quot; /&gt;
-               
+
     &lt;Parameter Name=&quot;Verticality&quot; 
                Type=&quot;int&quot; 
                Variable=&quot;verticality&quot; 
@@ -199,6 +203,7 @@
  fileInput:&quot;Z:\input.png&quot; fileOutput:&quot;Z:\output.png&quot; 
  duration:0.518 finedetail:true verticality:2000
 </code></pre>
+<p>Unless using specific fixed workflows, it is recommended that the <code>--resolutionXXXX</code> argument be passed so Gaea forces the build at the desired resolution. See <a href="/Guide/Build/Swarm.html">Build Swarm</a> for the complete list of accepted command line arguments and switches.</p>
 <h2 id="reading-stdout">Reading StdOut</h2>
 <p>When Gaea.Build.exe is executed, you can redirect its Standard Output to read status messages during the build process. You can use these messages to display progress or messages to your end-user.</p>
 <p>Sample messages:</p>

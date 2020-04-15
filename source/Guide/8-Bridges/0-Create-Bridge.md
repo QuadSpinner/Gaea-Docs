@@ -16,19 +16,24 @@ The Bridge can be created using any programming language, as long as you meet th
 - Invoke command lines and wait for process to exit
 - Read XML file
 - Save as PNG (16-bit), TIFF (32-bit), or OpenEXR (32-bit)
-- Redirect and read StdOut (optional)
+- Redirect and read StdOut stream (optional)
 
 ![](/images/seq/bridge.png)
+
+Gaea must be installed along with prerequisites (see @installing) for the process to work.
 
 The Gaea Bridge workflow consists of the following steps:
 1. App invokes `--nodemap` to get an XML map of available settings in the recipe file.
 2. App configures its UI according to the XML map.
 3. App saves the input heightfield(s) as files.
 4. App invokes `Gaea.Build.exe` while passing automation variable values as arguments including input and output paths.
-5. App optionally redirects `Gaea.Build.exe`'s StdOut to read and display status messages.
+5. App optionally redirects StdOut stream to read and display status messages.
 6. When the process exits, App will read the files saved by Gaea in the output path.
 
 To create a recipe file, follow the instructions in @preparing-bridge.
+
+{.NOTE}
+> In the future, file based data transfer will be replaced with shared memory buffers for faster data transmission. At that point, you will be able to send and receive data directly as arrays of 32-bit floats.
 
 ## Configuring the Interface
 
@@ -66,7 +71,7 @@ Here is an example of such a node map.
                Type="bool" 
                Variable="finedetail" 
                Default="True" />
-               
+
     <Parameter Name="Verticality" 
                Type="int" 
                Variable="verticality" 
@@ -104,6 +109,8 @@ Gaea.Build.exe "C:\erosion_automata.tor" --automata --resolution0512
  fileInput:"Z:\input.png" fileOutput:"Z:\output.png" 
  duration:0.518 finedetail:true verticality:2000
 ```
+
+Unless using specific fixed workflows, it is recommended that the `--resolutionXXXX` argument be passed so Gaea forces the build at the desired resolution. See @build-swarm for the complete list of accepted command line arguments and switches.
 
 ## Reading StdOut
 

@@ -22,14 +22,17 @@ Some nodes may have special controls specific to them.
 > If a setting says something like "Iteration", "Strength", "Cycles", or "Amount", be cautious. High values may take longer to process. 
 
 ## Microincrements
+
 The Microincrements panel is available when you right-click an Integer or Decimals property. With the Microincrements panel, you can achieve much higher precision in entering values: you can type a value; click a button to halve, double, increment (small or large); or reset the value.
 
 It also gives you access to a private Undo history for that particular setting. This history is cleared when you select a different node.
 
 ## Seed Reset
+
 Seed Reset is a minor enhancement in the Microincrements UI. It sets the “Default” seed value to whatever the random value is when the node is created. So if you play around for a while and want to go back to the original seed, you can simply reset the Seed.
 
 ## Heavy Nodes
+
 We have classified some nodes, such as @Erosion, @Fluvial, etc., as "Heavy" Nodes — meaning, they can take a long time to process and sometimes cannot be cancelled mid-process. Updating multiple settings on such a node can slow down or even freeze up the application.
 
 When you modify a Heavy Node, it will not update automatically. It will instead show an **Apply** button, which you can click when you have made your changes.
@@ -37,7 +40,8 @@ If you move away from the node, or select another node, changes will be applied 
 
 The **Apply** button has an **Auto Apply** toggle button next to it. When you turn on **Auto Apply**, that particular node will update automatically.
 
-#  Post Processing
+## Post Processing
+
 The Post Process options sits right under the Properties and provides quick access to common functions.
 
 Post processing options has Autolevel, Invert, Bias-Gain, and Clamp options. These are individual options which you can turn On/Off per your requirements. Turning on a particular option, e.g. Bias-Gain, will show the sliders Bias and Gain.
@@ -45,8 +49,6 @@ Post processing options has Autolevel, Invert, Bias-Gain, and Clamp options. The
 You can use Autolevel and Influence to control your node without having to add a second node. This will help you keep your graph clean.
 
 The Influence slider is a very simple yet powerful tool for layering effects. It blends the output back with the input, allowing you to manage the influence of the current node.
-
-
 
 `// TODO: Image`
 
