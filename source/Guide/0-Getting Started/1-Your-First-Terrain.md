@@ -1,9 +1,7 @@
 ---
-title: Your first terrain
 uid: first-terrain
+title: Your first terrain
 ---
-
-# The Basics
 
 There are three steps you must take to achieve any terrain: create, modify, export.
 
