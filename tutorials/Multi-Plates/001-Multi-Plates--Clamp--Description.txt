@@ -1,1 +1,0 @@
-Clamp the Voronoi tightly so it creates flat plates with high and low levels.

@@ -128,14 +128,14 @@
 </ul>
 <p>These options are known as the <strong>Output Range</strong> options in the Build Manager. See <a href="/Guide/Using%20Gaea/Building.html">Build and Export</a> for information on setting those options. Below we will discuss the implications of each option.</p>
 <p>There is no right or wrong way to scale the output range. It depends on what target application you are using, and how</p>
-<h3 id="natural-scale">Natural Scale</h3>
+<h3 id="raw-scale">Raw Scale</h3>
 <p>Technically, this is the most accurate representation of the terrain as the output is exactly what the software itself &quot;sees&quot; when processing. But it will not be <em>perceptually</em> accurate. You will need to manually scale the output along the vertical axis.</p>
 <p>An easy way in most applications is to create a box of the desired size and match the scale of the terrain asset. Or if you use heightmap as a displacement source, then you can set the displacement in meters (or appropriate units).</p>
 <p>If you need to scale it down vertically, use the Height-Scale ratio explained below.</p>
-<h3 id="baked-or-artificial-scale">Baked or Artificial Scale</h3>
+<h3 id="proportional-or-baked-scale">Proportional or Baked Scale</h3>
 <p>This method will bake the ratio you see in the viewport into the heightfield. This is very useful when exporting meshes. You lose a minor amount of vertical fidelity, but unless you are creating closeups of the terrain, it will not affect you.</p>
 <p>When bringing the terrain into your target application, you can optionally treat it as a perfect cube and your ratio is already baked into the vertical values.</p>
-<h3 id="forced-scale">Forced Scale</h3>
+<h3 id="normalized-scale">Normalized Scale</h3>
 <p>Forced scaling can, in many situations, give you maximum vertical fidelity. Gaea will force the terrain to use the entire <code>~0.0,000,000 - 1.0,000,000</code> heightrange in 32-bit formats. In 16-bit images that would be <code>0 - 65,534</code>. In 8-bit, it is <code>0 - 254</code>. If you need more vertical fidelity for closeups, this may help as you get more density in the up-axis than in other methods.</p>
 <p>When using forced scaling, you must adjust the vertical size of your output manually in the target application. Like with Natural Scale, use the Height-Scale Ratio.</p>
 <h2 id="important-readouts-for-terrain-scale">Important Readouts for Terrain Scale</h2>
@@ -144,7 +144,7 @@
 <p><strong>Real Scale</strong>: This is the pixel-to-meters &quot;density&quot; for your output. It is calculated by dividing your final output resolution (selected in the Build Manager) by the scale in meters set in the Terrain Definition.</p>
 <p>For example, <code>5000 x 5000</code> meter terrain exported at <code>2048 x 2048</code> pixels results in <code>2.4</code> meters per pixel. You can change your output resolution to see the exact ratio you get.</p>
 <p>This information is often used by game designers to ensure scale accuracy between the terrain and other elements of the game.</p>
-<p><strong>Height-Scale Ratio</strong>: Ratio of the Imaginary Cube. If you export using Natural or Forced Scale, and need to resize your terrain, you can resize it by this ratio. The ratio is simply <code>height / scale</code>.</p>
+<p><strong>Height-Scale Ratio</strong>: Ratio of the Imaginary Cube. If you export using Raw or Normalized Scale, and need to resize your terrain, you can resize it by this ratio. The ratio is simply <code>height / scale</code>.</p>
 
 
                     </div>

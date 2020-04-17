@@ -69,7 +69,7 @@ These options are known as the **Output Range** options in the Build Manager. Se
 There is no right or wrong way to scale the output range. It depends on what target application you are using, and how
 
 
-### Natural Scale
+### Raw Scale
 
 Technically, this is the most accurate representation of the terrain as the output is exactly what the software itself "sees" when processing. But it will not be *perceptually* accurate. You will need to manually scale the output along the vertical axis.
 
@@ -77,13 +77,13 @@ An easy way in most applications is to create a box of the desired size and matc
 
 If you need to scale it down vertically, use the Height-Scale ratio explained below.
 
-### Baked or Artificial Scale
+### Proportional or Baked Scale
 
 This method will bake the ratio you see in the viewport into the heightfield. This is very useful when exporting meshes. You lose a minor amount of vertical fidelity, but unless you are creating closeups of the terrain, it will not affect you.
 
 When bringing the terrain into your target application, you can optionally treat it as a perfect cube and your ratio is already baked into the vertical values.
 
-### Forced Scale
+### Normalized Scale
 
 Forced scaling can, in many situations, give you maximum vertical fidelity. Gaea will force the terrain to use the entire `~0.0,000,000 - 1.0,000,000` heightrange in 32-bit formats. In 16-bit images that would be `0 - 65,534`. In 8-bit, it is `0 - 254`. If you need more vertical fidelity for closeups, this may help as you get more density in the up-axis than in other methods.
 
@@ -102,4 +102,4 @@ For example, `5000 x 5000` meter terrain exported at `2048 x 2048` pixels result
 
 This information is often used by game designers to ensure scale accuracy between the terrain and other elements of the game.
 
-**Height-Scale Ratio**: Ratio of the Imaginary Cube. If you export using Natural or Forced Scale, and need to resize your terrain, you can resize it by this ratio. The ratio is simply `height / scale`.
+**Height-Scale Ratio**: Ratio of the Imaginary Cube. If you export using Raw or Normalized Scale, and need to resize your terrain, you can resize it by this ratio. The ratio is simply `height / scale`.
