@@ -7,31 +7,38 @@ title: Gaea Documentation
 
 The documentation is organized to help you get started with Gaea quickly and easily regardless of your skill level.
 
+**Quick Navigation**
 
-<br><br><br>
-
-<div class="row"><div class="col-lg-4">
-
-[![](/images/peripheral/book-bookmark-2.svg)](/Guide/index.html)
-
-## [User Guide](/Guide/index.html)
+### [User Guide](/Guide/index.html)
 
 The User Guide teaches you about Gaea, its different concepts, and how to create and export terrains.
 
-</div><div class="col-lg-4">
+Frequently visited sections: 
 
-[![](/images/peripheral/grain-effect.svg)](/Reference/index.html)
+- @installing
+- @getting-around
+- @first-terrain
+- @watson
+- @versionhistory
 
 ## [Node Reference](/Reference/index.html)
 
 The Node Reference provides detailed information on each node and sculpting tool.
+
+Frequently visited sections: 
+
+- @Erosion
+- @Snowfall
+- @Stacks
+- @SatMaps
+- @Mesher
   
-</div><div class="col-lg-4">
+## [Knowledge Base](/KB/index.html)
 
-[![](/images/peripheral/js-console.svg)](/Developers/index.html)
+You can find answers to the most common questions and scenarios.
 
-## [For Developers](/Developers/index.html)
+Frequently visited sections: 
 
-Gaea API/SDK, automation reference, and plugin development.
-
-</div></div>
+- @faq-purchasing
+- @faq-running
+- @faq-licensing

@@ -28,12 +28,12 @@
         }
     },
     {
-        "Path": "Videos",
+        "Path": "KB",
         "Category": 0,
         "BaseItem": {
-            "Title": "Videos",
-            "Link": "Videos/index.html",
-            "UID": "videos"
+            "Title": "Knowledge Base",
+            "Link": "KB/index.html",
+            "UID": "kb"
         }
     },
     {

@@ -1777,3 +1777,11 @@ nav[data-toggle=toc] .nav li a:hover:before {
 .breadcrumb{
     padding: 0 !important;
 }
+
+.text-danger small{
+    border-radius: 3px;
+    background: rgba(255,0,0, 0.05);
+    padding: 4px 12px;
+    font-size: 11px;
+    font-weight: 600;
+}
