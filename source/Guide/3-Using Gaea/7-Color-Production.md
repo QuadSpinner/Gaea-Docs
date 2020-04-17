@@ -3,33 +3,32 @@ uid: color-production
 title: Procedural Textures
 ---
 
-## Lookup Tables
-All coloration in Gaea is based on CLUTs, or color lookup tables. As 2D heightfields are essentially a grid of numbers ranging from 0.0 (lowest) to 1.0 (highest), CLUTs are represented as gradients which are mapped to those heights.
+## The core concept
 
-The lowest part of a gradient corresponds to the lowest part of the terrain, while the highest part of the gradient corresponds to the highest part of the terrain. Everything in between is evenly distributed.
+All the processes for creating color textures in Gaea is dependent on flowing color ramps/gradients into a black and white mask.
+
+Let's take a look at a basic example. The lowest part of a gradient corresponds to the lowest part of the terrain, while the highest part of the gradient corresponds to the highest part of the terrain. Everything in between is distributed as dictated by the gray intensity.
 
 `// TODO: Image`
 
-In this example, you can see how the gradient from a CLUTer node maps to the heightfield.
+In this example, you can see how the gradient from a @CLUTer node maps to the heightfield.
 
-If, however, you take the same CLUT map and use a FlowMap instead of using the height of the terrain as the input, you get a different type of texture output that follows the flow lines of the FlowMap output.
+`// TODO: Image`
 
-## Node Structure
-All color nodes (except Mixer) follow a simple structure: the main Input port for mapping the CLUT, and the Visualization port for the 3D heightfield to use for the viewport.
+If, however, you take the same CLUT map and use a @FlowMap instead of using the height of the terrain as the input, you get a different type of texture output that follows the flow lines of the FlowMap output.
 
-The latter is not necessary most of the time, but is recommended. Otherwise, your input may not look accurate in the preview because it will assume that the first 3D node prior to this node is the heightfield.
-
-This port was created specifically to help visualize terrains while creating complex color maps.
+To help you create complex procedural masks from which you can create color textures, Gaea provides an array of nodes known as "Data Maps".
 
 
-# What are Data Maps?
-Data Maps are special masks. While Selector masks generally represent an area or selection (such as slope, angle, or curvature), Data Maps represent a specific type of data of the area (such as water flow, soil deposits, etc.).
+## What are Data Maps?
 
-These nodes break the traditional basic data (slope, angle, curvature) + chaos (Perlin noise) method used to create pseudo-random masks from which color maps would be generated. In such situations, you need to find a good seed to make it work. With Data Maps, there is visual randomness, but it's created from systematic analysis of the terrain and follows natural principles. The resulting color maps created from such data look more believable.
+Data Maps are special masks. They let you select basic aspects of the terrain (such as slope, angle, or curvature), or synthesize complex data through simulations (such as water flow, soil deposits, etc.). Additional quick texturing data maps such as Texture and SurfTex help create pseudo-random texture masks through which you can quickly achieve color textures with minimal effort.
 
-Data Maps are very useful for creating color maps. For example, water flow can be used to create a Biome texture, or used manually with a CLUTer or SatMaps node to create a texture along water flow areas.
+These nodes break the traditional basic data (slope, angle, etc.) + chaos (Perlin noise) method, or the heavy reliance on flow output from erosion. In such situations, you need to find a good seed to make it work. With Data Maps, there is visual randomness, but it's created from systematic analysis of the terrain and follows natural principles. The resulting color maps created from such data look more believable.
 
-# A basic texture with Data Maps
+
+## A basic texture with Data Maps
+
 In this example, we create a simple terrain using a Mountain node, then erode it to get some basic erosion data. On top of the eroded output, we apply a Soil Map node. The Soil Map node is fed to a SatMaps node to create a base texture for the terrain. The Flow and Wear output of the Erosion node are mixed and fed to another SatMaps node to create a second map. The two maps are mixed together to create the final texture.
 
 `// TODO: Image`

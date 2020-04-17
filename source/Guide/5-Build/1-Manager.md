@@ -39,13 +39,13 @@ This dropdown allows you to choose the format in which your output is saved. You
 
 Mesh Formats are not available globally and must be chosen per node. 
 
-For details on the individual formats available, see @file-formats.
+For details on the individual formats available, see @save-formats.
 
 **Output Range**
 
-- **Natural Elevation**: Terrain retains natural scale between 0..1 and ignores artifical scaling created by the proportions in the Terrain Definition. This may require you to scale the height of the terrain in your target application if it does not understand natural scaling.                                
-- **Artifical Scaling**: Terrain is scaled to the proportions in the Terrain Definition. This is useful for mesh exports or heightfields where scale should be handled automatically. In some cases, this method may show banding.
-- **Forced Full Range**: Terrain is forced to use the full range between 0..1 providing greater scalability. However, this will require manual scaling in your target application.
+- **Raw**: Terrain retains natural scale between 0..1 and ignores artifical scaling created by the proportions in the Terrain Definition. This may require you to scale the height of the terrain in your target application if it does not understand natural scaling.                                
+- **Proportional**: Terrain is scaled to the proportions in the Terrain Definition. This is useful for mesh exports or heightfields where scale should be handled automatically. In some cases, this method may show banding.
+- **Normalized**: Terrain is forced to use the full range between 0..1 providing greater scalability. However, this will require manual scaling in your target application.
 
 
 ### Tiled Output
@@ -53,52 +53,23 @@ For details on the individual formats available, see @file-formats.
 {.WARNING}
 > Tiled output is experimental at this stage. It will be stabilized in future updates.
 
-### Mesh Options
-
-These options govern the mesh output of nodes in the list that are being exported to a mesh-based format; such as OBJ, FBX, or XYZ.
-
-**Scale**
-- **Normalized**: The vertices are stored between 0.0-1.0. This is helpful when you want to rescale during import in your target application.
-- **1 unit = 1 meter**: The mesh is stored in meters, as dictated by the terrain definition you have set in Gaea.
-- **1 unit = 1 kilometer**: The mesh is stored in kilometers, as dictated by the terrain definition you have set in Gaea.
-
-**LOD**
-
-Gaea can automatically generate multiple LODs (Level of Detail) for you in a single pass. Each LOD is half of the previous vertex count.
-
-For example, if you are exporting 4 LODs:
-- Base mesh = 2048 vertices
-- LOD 1 = 1024 vertices
-- LOD 2 = 512 vertices
-- LOD 3 = 256 vertices
-- LOD 4 = 128 vertices
-
-**Vertex Count**
-
-This is the vertex count of either dimension. Higher density creates more detailed meshes at the expense of speed and memory. The total number of vertices is the square of the vertex count specifed. So for example, **512** vertex count is: 512 x 512 = 262,144 vertices. The estimate of vertex and face counts is shown below the settings.
-
-**Force Quads**
-
-Force all faces to be quads instead of triangles.
-
 ### Additional Options
 
 **Resample**
 
-This option is for builds that need to be taken to Unreal Engine, and is turned off by default. Unreal Engine requires particular dimensions for ingesting terrains. To meet Unreal's requirements, Gaea will build the terrain at its own fixed resolutions and then faithfully downsample to the Unreal-friendly resolution. 
+This option is for builds that need to be taken to Unreal Engine, Unity, or other applications where standard resolutions don't work. It is turned off by default. Unreal Engine requires particular dimensions for ingesting terrains. To meet their requirements, Gaea will build the terrain at its own fixed resolutions and then faithfully downsample to the desired resolution. 
 
-Pick the nearest Gaea resolution in the main Resolution dropdown, then select the Unreal-friendly resolution in the Resample dropdown.
+Pick the nearest Gaea resolution in the main Resolution dropdown, then select the target resolution in the Resample dropdown.
 
 **Color Space**
 
-You can choose to save color maps in RGB, sRGB, or scRGB color spaces.
+You can choose to save color maps in RGB, sRGB, or scRGB color spaces. Does not apply to grayscale heightfields or masks.
 
-**Increase output scale by +1**
+**Mutations**
+Gaea provides a mutation facility during build to create multiple variations of the same terrain. You can select up to 99 mutations. This will run the build once per each mutation where seeds of all nodes are randomized. This gives you a unique terrain in every mutation while still following the core recipe of your graph.
 
-Some software require heightfields to be one pixel larger than the normal dimension. For example, 4096 is required to be 4097. Check this option to increase the dimensions by one pixel.
-
-This option is ignored when the Resample option is used.
-
+{.TIP}
+> Each mutation’s .tor file is stored with the output, so you can manually tweak a specific mutation if desired.
 
 ### Build Options
 

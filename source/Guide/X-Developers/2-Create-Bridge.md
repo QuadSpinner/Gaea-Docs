@@ -8,7 +8,7 @@ title: Create a Bridge
 Gaea can be used as a silent processor from other applications from the command line.
 
 {.WARNING}
-> The end-user must have a Professional or Enterprise edition of Gaea. If you wish to redistribute the Gaea Engine with your application, please contact us.
+> The end-user must have a Professional or Enterprise edition of Gaea.
 
 ### Core Concept
 
@@ -121,6 +121,9 @@ Sample messages:
 - `Invalid value for property [name].`
 - `Property [name] not found.`
 - `Building [current] / [total]...`
+- `> Building [node] / [percent]...`
+
+When a single node requires a long time to build, the progress of that node will be sent with the `>` prefix. You can use this to either hide such messages from your end users, or use it display a specific progress message.
 
 Each individual message will be delimited by a line break character. In most environments, this will be `\n`.
 

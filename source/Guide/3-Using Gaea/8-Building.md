@@ -30,7 +30,7 @@ Gaea provides a mutation facility during build to create multiple variations of 
 
 ![Build Mutations](/images/ui/Build-Mutations.png)
 
-Each mutation’s .tor file is stored with the output, so you can manually tweak a specific mutation if desired.
+{.TIP}
+> Each mutation’s .tor file is stored with the output, so you can manually tweak a specific mutation if desired.
 
 You can also specify mutations in the command line in the @build-swarm.
-
