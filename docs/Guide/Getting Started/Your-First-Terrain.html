@@ -95,22 +95,10 @@
 <p><code>// TODO: Image</code></p>
 <p>The <em>Export</em> phase is the easiest. You take the last node in your graph, mark to save by right-clicking the node and selecting Mark to Export, then build it using the <a href="/Guide/Interface/Build-Manager.html">Build Manager</a>.</p>
 <p><code>// TODO: Image</code></p>
-<h2 id="step-by-step">Step by Step</h2>
-<ol>
-<li>Start Gaea, and in the <a href="/Guide/Interface/Startup.html">Startup Screen</a> select &quot;Graph&quot; as your workflow option.</li>
-<li>A default scene will open. Select all the nodes by dragging a rectangle over them, and press <code>Del</code> to delete them.</li>
-<li>In the <a href="/Guide/Interface/Toolbox.html">Toolbox</a>, find the <a href="/Reference/Primitives/Mountain.html">Mountain</a> node. Drag it from the Toolbox and drop it on the main graph area.</li>
-<li>Once the node is created and selected, on the right hand side, in the <a href="/Guide/Interface/Properties.html">Properties</a> Panel you will be able to modify the settings. Each node has its own distinct settings. You can read more about them in the <a href="/Reference/index.html">Node Reference</a> section.</li>
-<li>Now, the next step is to create a second node - this time we will use <a href="/Reference/Filters/Terrace.html">Terrace</a>. Like with the first one, drag and drop the node from the Toolbox and onto the graph surface.</li>
-<li>To connect the <code>Output</code> (the small ports on the right side of the node) of the Mountain node to the <code>Input</code> (the small ports on the left side of the node), click and drag a line from the Mountain's Output port to the Terrace's Input port. This will create a solid line between the two nodes, denoting that the two ports are connected.</li>
-<li>Go to the <a href="/Guide/Interface/Properties.html">Properties</a> for the Terrace node and select the Process <code>Residual</code>. Play with the settings to see how they work.</li>
-<li>Once done, drag and create an <a href="/Reference/Erosion/Erosion.html">Erosion</a> node from the Toolbox and attach the Terrace node's Output port to the Erosion node's Input port.</li>
-<li>Change the Erosion node's <code>Downcutting</code> property to 40%. You can do this by dragging the slider, or clicking the numeric value shown and modifying it by typing. You will notice that the effect of the change is not shown immediately. This is because Erosion is a &quot;heavy&quot; node. To prevent it from freezing your interface while it repeatedly re-processes itself, a heavy node needs to be updated manually. You can do this by clicking the <code>Apply</code> button at the bottom. If you find this manual updating is not required for your purposes, you can simply 'Lock' the update by clicking the lock icon next to the Apply button. You can always unlock it afterwards.</li>
-<li>Your basic terrain is ready. All that remains is to export the assets. To do this you must mark a node for export. In this case, it is the Erosion node. Right-click the Erosion node and select <code>Mark for export</code>.</li>
-<li>In the top toolbar, click the <code>Build</code> button. This will bring up the <a href="/Guide/Interface/Build-Manager.html">Build Manager</a>. Here you can choose the export format and other settings. For our purposes, we can leave the resolution to <code>2048 x 2048</code>. If you are using the Community Edition, change it to <code>1024 x 1024</code>.</li>
-<li>If you wish to export the terrain as a Mesh, in the main list, next to Erosion, select <code>.obj</code> in the dropdown. If you wish to export it as a displacement/height map instead, select <code>.exr</code>.</li>
-<li>Once you are satisfied with your settings, select <code>Start Build</code>. This will launch the Gaea Build Swarm, Gaea's build engine. In a moment or two, the build will finish and the build folder will open with the final assets.</li>
-</ol>
+<h2 id="a-6-minute-introduction-to-gaea">A 6-minute introduction to Gaea</h2>
+<div class="embed-responsive embed-responsive-16by9">
+<iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/1A1xXfTlKqM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 
                     </div>

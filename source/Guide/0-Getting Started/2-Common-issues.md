@@ -12,4 +12,3 @@ title: Common Issues
 - Ensure you have at least 10GB of free space in your Windows' temp directory, as well as the cache folder set in Gaea Preferences.
 
 If none of these work, run @watson and file a ticket. Our support team will help you figure out the problem.
-

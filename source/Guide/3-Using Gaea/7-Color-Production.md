@@ -29,6 +29,8 @@ These nodes break the traditional basic data (slope, angle, etc.) + chaos (Perli
 
 ## A basic texture with Data Maps
 
-In this example, we create a simple terrain using a Mountain node, then erode it to get some basic erosion data. On top of the eroded output, we apply a Soil Map node. The Soil Map node is fed to a SatMaps node to create a base texture for the terrain. The Flow and Wear output of the Erosion node are mixed and fed to another SatMaps node to create a second map. The two maps are mixed together to create the final texture.
+The following tutorial continues from @tut-create.
 
-`// TODO: Image`
+<div class="embed-responsive embed-responsive-16by9">
+<iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/4AFDXxYlQMg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
