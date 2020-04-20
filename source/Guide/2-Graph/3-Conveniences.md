@@ -28,7 +28,9 @@ If you hold `Shift` then drag an independent node (not connected to any other no
 
 **Interject Node via Menu**
 
+### Out to Out Connection
 
+When you drag an output connection to another output connection, a @Combine node is created with the two ports serving as the inputs for the Combine node.
 
 ### Quick Create
 
