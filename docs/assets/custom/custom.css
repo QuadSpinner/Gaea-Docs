@@ -214,15 +214,16 @@ figure {
 }
 
 figure p {
-  margin: 0;
-  padding: 0;
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
 figure figcaption {
+  font-size: 13px;
   margin: 0;
   padding: 0.3rem;
   padding-left: 1rem;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
   font-weight: 600;
 }
 
