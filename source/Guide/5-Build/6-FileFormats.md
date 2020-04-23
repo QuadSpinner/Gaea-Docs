@@ -8,20 +8,35 @@ uid: save-formats
 
 Gaea supports all modern (and some legacy) file formats for both flat files and meshes.
 
-- 32-bit
-   - OpenEXR (.exr)
-   - TIFF (.tif)
-   - RAW (.r32)
-- 16-bit
-   - PNG (.png)
-   - RAW (.raw)
-   - Photoshop (.psd)
-- 8-bit
-   - PNG (.png)
-- 3D Formats
-   - Wavefront OBJ (.obj)
-   - Autodesk Filmbox (.fbx)
-   - Point Cloud (.xyz)
+
+### For Export 
+
+| Format  | 32 bit  | 16 bit  |  8 bit  |
+| ------- | :-----: | :-----: | :-----: |
+| OpenEXR | &#8226; |         |         |
+| TIFF    | &#8226; | &#8226; |         |
+| PNG     | &#8226; | &#8226; | &#8226; |
+| RAW     | &#8226; | &#8226; |         |
+| PSD     |         | &#8226; |
+
+3D Formats
+  - Wavefront OBJ (.obj)
+  - Autodesk Filmbox (.fbx)
+  - Point Cloud (.xyz)
+
+### For Import
+
+Gaea supports the following formats for importing data:
+ - .exr
+ - .tif/.tiff
+ - .jpg/.jpeg
+ - .png
+ - .psd
+ - .hdr
+ - .pfm
+ - .r32
+ - .raw
+ - .bmp
 
 ## Precision
 

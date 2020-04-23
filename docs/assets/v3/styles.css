@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;600;700&display=swap');
 
 html {
     margin: 0;
@@ -9,7 +9,8 @@ html {
 
 body {
     margin: 0;
-    padding: 0
+    padding: 0;
+    text-rendering: optimizeLegibility;
 }
 
 button {
@@ -17,7 +18,7 @@ button {
 }
 
 body, p, h1, h2, h3, h4, h5 {
-    font-family: "Source Sans Pro", "Segoe UI", "Helvetica Neue", "Helvetica", Arial, sans-serif
+    font-family: "Assistant", "Segoe UI", "Helvetica Neue", "Helvetica", Arial, sans-serif
 }
 
 html {
@@ -75,7 +76,7 @@ body {
 }
 
 h1, h2, h3 {
-    font-family: "Source Sans Pro", "Segoe UI", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+    font-family: "Assistant", "Segoe UI", "Helvetica Neue", "Helvetica", Arial, sans-serif;
     font-weight: 400;
     color: #000;
 }
@@ -136,7 +137,7 @@ textarea {
 }
 
 button, .link-button {
-    font-family: "Source Sans Pro", "Segoe UI", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+    font-family: "Assistant", "Segoe UI", "Helvetica Neue", "Helvetica", Arial, sans-serif;
     font-weight: 600;
     font-size: 20px;
     padding: 15px 35px;
@@ -723,7 +724,7 @@ iframe[name='google_conversion_frame'] {
 }
 
 .search .search-results .result h3 {
-    font-family: "Source Sans Pro", "Segoe UI", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+    font-family: "Assistant", "Segoe UI", "Helvetica Neue", "Helvetica", Arial, sans-serif;
     font-weight: 600;
     font-size: 2.4rem;
     text-overflow: ellipsis;
@@ -1055,6 +1056,10 @@ nav[data-toggle=toc] {
     padding-bottom: 15px
 }
 
+nav[data-toggle=toc] *{
+    transition: all linear 0.3s;
+}
+
 .docs-nav h4, nav[data-toggle=toc] h4 {
     margin-top: 0
 }
@@ -1078,14 +1083,16 @@ nav[data-toggle=toc] h4 {
 
 #docs-navbar .nav li a {
     border-left: 1px solid #ccc;
-    display: block
+    display: block;
+    transition: all linear 0.33s;
 }
 
 #docs-navbar .nav li a:hover {
     background: none;
-    color: #444;
+    color: #111;
     text-decoration: none !important;
-    border-color: #0071BC
+    border-color: #111;
+    padding-left: 25px;
 }
 
 #docs-navbar .nav li a:focus {
@@ -1100,6 +1107,10 @@ nav[data-toggle=toc] h4 {
 #docs-navbar .nav>li li>a {
     padding: 5px 25px;
     position: relative
+}
+
+#docs-navbar .nav>li li>a:hover {
+    padding-left: 30px;
 }
 
 #docs-navbar .nav .docs-home {
@@ -1149,11 +1160,12 @@ nav[data-toggle=toc] h4 {
 
 nav[data-toggle=toc] .nav li a {
     border-left: 1px solid transparent;
-    padding: 5px 10px
+    padding: 5px 10px;
 }
 
 nav[data-toggle=toc] .nav li:hover {
     border-left: 1px solid #0071BC;
+    padding-left: 9px;
 }
 
 nav[data-toggle=toc] .nav li a:hover {
@@ -1529,3 +1541,6 @@ nav[data-toggle=toc] .nav li a:hover:before {
     font-weight: 600;
 }
 
+#main-nav a{
+    transition: all linear 0.33s;
+}

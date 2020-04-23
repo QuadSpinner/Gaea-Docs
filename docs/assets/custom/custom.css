@@ -53,8 +53,8 @@ p.title {
 }
 
 .TIP {
-  border-color: rgba(206, 154, 230, 0.459);
-  background-color: #d582ff2f;
+  border-color: rgba(85, 68, 94, 0.459);
+  background-color: #795a8a23;
 }
 
 .TIP p:first-child:before {
@@ -280,17 +280,28 @@ code {
 
 .medium-zoom-image {
   border: 2px solid transparent;
-  -webkit-transition: all linear 0.6s;
-  transition: all linear 0.6s;
+  -webkit-transition: all linear 0.2s !important;
+  transition: all linear 0.2s !important;
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.33);
+          box-shadow: 0 5px 10px rgba(0, 0, 0, 0.33);
 }
 
 .medium-zoom-image:hover {
   border: 2px solid #0072be;
-  -webkit-transition: all linear 0.6s;
-  transition: all linear 0.6s;
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
+  -webkit-transition: all linear 0.2s !important;
+  transition: all linear 0.2s !important;
+  -webkit-box-shadow: 0 8px 10px rgba(0, 0, 0, 0.267), 0 40px 25px rgba(0, 0, 0, 0.15);
+          box-shadow: 0 8px 10px rgba(0, 0, 0, 0.267), 0 40px 25px rgba(0, 0, 0, 0.15);
 }
 
 .shortcuts .table {
   width: 45% !important;
+}
+
+.embed-responsive {
+  -webkit-box-shadow: 0 8px 10px rgba(0, 0, 0, 0.267), 0 40px 25px rgba(0, 0, 0, 0.15);
+          box-shadow: 0 8px 10px rgba(0, 0, 0, 0.267), 0 40px 25px rgba(0, 0, 0, 0.15);
 }
 /*# sourceMappingURL=custom.css.map */

@@ -3,11 +3,7 @@ uid: buildmanager
 title: Build Manager
 ---
 
-![Build Manager](/images/ui/Build-Manager.png)
-
-The Build Manager increases your efficiency. You can choose the file format to use for all outputs, modify a node's output name by clicking on the node's label, choose unclamped (formerly called "Full Range"), and +1 output (where 512 x 512 becomes 513 x 513 — necessary for some game engines).
-
-You can also use the Build Manager for version control and file organization.
+![Build Manager](/images/ui/Build-Manager.png){.w-100}
 
 
 ## Build Options
@@ -43,9 +39,11 @@ For details on the individual formats available, see @save-formats.
 
 **Output Range**
 
-- **Raw**: Terrain retains natural scale between 0..1 and ignores artifical scaling created by the proportions in the Terrain Definition. This may require you to scale the height of the terrain in your target application if it does not understand natural scaling.                                
-- **Proportional**: Terrain is scaled to the proportions in the Terrain Definition. This is useful for mesh exports or heightfields where scale should be handled automatically. In some cases, this method may show banding.
-- **Normalized**: Terrain is forced to use the full range between 0..1 providing greater scalability. However, this will require manual scaling in your target application.
+| Output Range     | Description       |
+| ---------------- | --------- |
+| **Raw**          | Terrain retains natural scale between 0..1 and ignores artifical scaling created by the proportions in the Terrain Definition. This may require you to scale the height of the terrain in your target application if it does not understand natural scaling. |
+| **Proportional** | Terrain is scaled to the proportions in the Terrain Definition. This is useful for mesh exports or heightfields where scale should be handled automatically. In some cases, this method may show banding.                                                    |
+| **Normalized**   | Terrain is forced to use the full range between 0..1 providing greater scalability. However, this will require manual scaling in your target application.                                                                                                    |
 
 
 ### Tiled Output
@@ -73,25 +71,14 @@ Gaea provides a mutation facility during build to create multiple variations of 
 
 ### Build Options
 
-**Save a copy of this .TOR file**
 
-Saves a copy of the current .TOR or .TORX file in the build folder.
-
-**Close Gaea UI**
-
-The Gaea interface - especially when using high resolution previews - can consume enough RAM to cause an impact on high resolution builds. To conserve memory, you can check this option to close Gaea when the build starts.
-
-**Open folder after build**
-
-Check this option to open the build destination folder when the build completes.
-
-**Generate Build Log**
-
-Generate a machine- and human-readable build log in .txt format at the build location.
-
-**Beep when done**
-
-Checking this option will sound a beep when the build is complete.
+| Setting                           | Description                                                                                                                                                                                                                   |
+| --------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Save a copy of this .TOR file** | Saves a copy of the current .TOR or .TORX file in the build folder.                                                                                                                                                           |
+| **Close Gaea UI**                 | The Gaea interface - especially when using high resolution previews - can consume enough RAM to cause an impact on high resolution builds. To conserve memory, you can check this option to close Gaea when the build starts. |
+| **Open folder after build**       | Check this option to open the build destination folder when the build completes.                                                                                                                                              |
+| **Generate Build Log**            | Generate a machine- and human-readable build log in .txt format at the build location.                                                                                                                                        |
+| **Beep when done**                | Checking this option will sound a beep when the build is complete.                                                                                                                                                            |
 
 ## Version Control and Organization
 

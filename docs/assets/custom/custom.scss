@@ -50,8 +50,8 @@ p.title {
 }
 
 .TIP {
-  border-color: rgba(206, 154, 230, 0.459);
-  background-color: #d582ff2f;
+  border-color: rgba(85, 68, 94, 0.459);
+  background-color: #795a8a23;
 
   p:first-child:before {
     content: "TIP";
@@ -312,11 +312,14 @@ code {
 
 .medium-zoom-image {
   border: 2px solid transparent;
-  transition: all linear 0.6s;
+  transition: all linear 0.2s !important;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.33);
 
   &:hover {
     border: 2px solid #0072be;
-    transition: all linear 0.6s;
+    transform: translateY(-10px);
+    transition: all linear 0.2s !important;
+    box-shadow: 0 8px 10px rgba(0,0,0,0.267), 0 40px 25px rgba(0,0,0,0.15);
   }
 }
 
@@ -324,4 +327,9 @@ code {
   .table {
     width: 45% !important;
   }
+}
+
+
+.embed-responsive{
+  box-shadow: 0 8px 10px rgba(0,0,0,0.267), 0 40px 25px rgba(0,0,0,0.15);
 }

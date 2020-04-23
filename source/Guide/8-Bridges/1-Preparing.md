@@ -1,6 +1,6 @@
 ---
 uid: preparing-bridge
-title: Preparing Gaea file for a Bridge
+title: Preparing TOR files
 ---
 
 Creating your own Gaea recipe is easy. The easiest way is to first create a normal graph in Gaea, using one of the primitives that matches your target application's terrain. For example, a simple @Perlin or @Range node is useful in most cases. Then add the desired nodes to process the terrain. Once the entire graph is complete, create inputs and outputs as defined below, expose properties you need to modify in Houdini, and save the .tor file.
