@@ -7,7 +7,7 @@ title: Pinning Nodes
 
 Pinning a node locks the preview to that node. When a node is pinned, changes made to the other nodes will force updates to all nodes between that node and the pinned node. This allows you to see the end result of a change.
 
-To a pin, right-click a node and select `Pin`. You can also select the node and press `F`. Now when you edit any other node before the pinned node, the changes will propagate all the way to the pinned node every time.
+To pin a node, right-click it and select `Pin`. You can also select the node and press `F`. Now when you edit any other node before the pinned node, the changes will propagate all the way to the pinned node every time.
 
 The Pinned node can accessed quickly from the Graph Toolbar. It is shown as a green link.
 

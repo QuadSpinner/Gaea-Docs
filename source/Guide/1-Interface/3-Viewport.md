@@ -7,35 +7,42 @@ The viewport is your primary method of examining and exploring terrains. It prov
 
 Gaea’s viewport harnesses the powerful Unity engine, and has been deeply customized to fit advanced terrain systems. The viewport can process an 8.3 million polygon terrain in milliseconds, allowing you to work at high resolution.
 
-# 3D Viewport
+## 3D Viewport
 
-### Orbit View
-
-![](/images/ui/Viewport-Orbit.jpg)
+![](/images/ui/viewport-3D-settings.jpg){.w-100}
 
 - `Alt` and `Mouse Left` to drag. Can be customized in @preferences.
-- `W`,`A`,`S`,`D` for directional movement. 
+- `W`,`A`,`S`,`D` for directional movement.
+- `Q` and `E` for up and down.
 - `Mouse Wheel` for zooming.
 - `Mouse Middle` for panning.
+- `Space` to re-center on the terrain.
+
+{.NOTE}
+> When using a stylus, you may need to adjust the sensitivity for panning, zooming, and other movements. You can change the sensitivity in @preferences.
+
+The toolbar on the side has the following commands:
+- 3D Viewport
+- First Person mode (temporarily unavailable)
+- Toggle 2D Viewport
+- Lighting and Viewport Settings
+- 3D Shading
+- Autolevel / Simple Mode
+- Equalized Mode (only visible with 2D maps)
+
+### Viewport Settings
+
+The viewport settings let you modify the look of your viewport. For details of the lighting options, see @Light.
+
+The Colors section lets you modify the color gradients used for rendering the heightfields/terrain and data/mask outputs. You can optionally autolevel or reverse the terrain gradient.
+
+The Water section lets you use the optional water surface. This is a superficial element and does not affect the actual terrain or any nodes.
 
 ### First Person View
 
-![](/images/ui/Viewport-FPS.jpg)
+The First Person view has been temporarily removed from Gaea. Expect it to come back soon.
 
-- `Alt` and `Mouse Left` to drag.*
-- `W`,`A`,`S`,`D` for directional movement.
-- `Q`, `E` to move up and down.
-- `SPACE` to teleport to mouse location (on terrain only).
-- `Mouse Wheel` for zooming.
-
-### Orthographic View
-
-![](/images/ui/Viewport-Ortho.jpg)
-
-- `Mouse Wheel` for zooming.
-- `W`,`A`,`S`,`D` and `Mouse Middle` for panning.
-
-# 2D Viewport
+## 2D Viewport
 
 The 2D viewport provides flat previews with pixel-to-pixel accuracy. In many situations, especially when dealing with masks, you can see visual data that may not be readily visible in the 3D viewport. 
 
@@ -46,39 +53,26 @@ The 2D view is available directly in the main window alongside the 3D view when 
 
 ## 2D Mode
 
-![](/images/ui/Map-2D.jpg)
+The 2D mode lets you see an orthographic view of the terrain. Additionally, you can right-click the viewport to select secondary outputs if a node provides them. For example, you can see the @Erosion node's wear or flow output without having to plug it into another node.
 
-The 2D mode shows a basic heightfield in grayscale, with black representing lower areas and white representing higher areas. This is a great way to examine your terrain from an unbiased perspective, especially when dealing with 2D data; such as data map outputs, secondary output from erosion, and so on.
+![](/images/ui/viewport-2D-ports.jpg){.w-100}
+
+By default, the secondary output will be overlaid on the terrain. You can turn off the 3D Shading in the toolbar to see the mask by itself.
+
+## Plain / Autolevel View
+
+![](/images/ui/viewport-2D-plain.jpg){.w-100}
+
+This mode shows a basic heightfield with minimal lighting. 2D maps are shown in grayscale, with black representing lower areas and white representing higher areas. This is a great way to examine your terrain from an unbiased perspective, especially when dealing with 2D data; such as data map outputs, secondary output from erosion, and so on. 
+
+{.TIP}
+> You can change the gradient representing the mask color gradient in the viewport settings.
+
 
 ## Equalized Mode
 
-![](/images/ui/Map-Eq.jpg)
+![](/images/ui/viewport-2D-eq.jpg){.w-100}
 
 If the 2D view is too difficult to see, the Equalized mode emphasizes the image to help you see better. This is particularly helpful when working with delicate masks and other 2D maps. The equalization process is superficial and does not affect the actual terrain.
 
-## 3D Mode
-
-![](/images/ui/Map-3D.jpg)
-
-In the 3D mode, a shaded orthographic representation of the terrain is displayed instead of the grayscale heightfield. This makes it easier to visualize finer details which may not be apparent to the human eye in the simple 2D view.
-
-![](/images/ui/Map-Overlay.jpg)
-
-Additionally, you can visualize the secondary output as flat images or overlays on the primary output. To access secondary outputs, right-click anywhere in the 2D viewport. The mask is overlaid in red on the grayscale 3D terrain.
-
-## Additional Options
-
-The menu in the bottom right corner gives you access to additional options for the 2D view - including the secondary outputs mentioned above, lighting control for the 3D mode, and the ability to save the current 2D view to a PNG file.
-
-
-## Lighting
-
-![](/images/ui/Pop-Atmosphere.png)
-
-Aliquam nunc. Fusce at lacus in turpis tincidunt congue. Nam tempor sagittis massa. Cras luctus vehicula ligula. Donec pretium egestas lacus. Proin ac velit ac erat condimentum dictum. Donec massa elit, laoreet a, varius quis, dapibus a, lectus. Proin pellentesque nibh tristique odio. Sed odio magna, euismod ac, sodales eu, suscipit eget, lectus. Aliquam libero. Cras leo. Donec ac libero vel nibh nonummy mollis. Vivamus a orci. In interdum mattis nunc. Donec condimentum ultricies nisi. Cras sit amet quam. Sed non quam at est venenatis ultricies. In nec neque. Proin ut nunc. Mauris dictum sollicitudin nibh. 
-
-## Water Surface
-
-![](/images/ui/Pop-Water.png)
-
-Aliquam nunc. Fusce at lacus in turpis tincidunt congue. Nam tempor sagittis massa. Cras luctus vehicula ligula. Donec pretium egestas lacus. Proin ac velit ac erat condimentum dictum. Donec massa elit, laoreet a, varius quis, dapibus a, lectus. Proin pellentesque nibh tristique odio. Sed odio magna, euismod ac, sodales eu, suscipit eget, lectus. Aliquam libero. Cras leo. Donec ac libero vel nibh nonummy mollis. Vivamus a orci. In interdum mattis nunc. Donec condimentum ultricies nisi. Cras sit amet quam. Sed non quam at est venenatis ultricies. In nec neque. Proin ut nunc. Mauris dictum sollicitudin nibh. 
+The mask color gradient is even more useful in this context.

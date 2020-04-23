@@ -136,3 +136,15 @@ Pick the right scale option in the @build-manager settings that fits with your a
 For maximum flexibility, we recommend sending data in a normalized range appropriate to the format. In Gaea's @File node should use the `Use Full Range` option to normalize the incoming data unless the data is already normalized. Select Normalized the output range in the @build-manager as well.
 
 When you receive the data in your application after the build, you must process it as appropriate.
+
+## Locating Gaea
+
+To initiate a command line build, you must first find the location of Gaea's installation.
+
+Query the following registry key for Gaea installation and configuration details:
+`HKEY_CURRENT_USER\SOFTWARE\QuadSpinner\Gaea\1.0`
+
+| Value     | Description           | Example                              |
+| --------- | --------------------- | ------------------------------------ |
+| (Default) | Installation Location | `C:\Program Files\QuadSpinner\Gaea\` |
+| Version   | Installed Version     | `1.2.0.0`                            |

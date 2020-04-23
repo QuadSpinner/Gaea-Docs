@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700&display=swap');
 
 html {
     margin: 0;
@@ -17,7 +17,7 @@ button {
 }
 
 body, p, h1, h2, h3, h4, h5 {
-    font-family: "Assistant", "Segoe UI", "Helvetica Neue", "Helvetica", Arial, sans-serif
+    font-family: "Source Sans Pro", "Segoe UI", "Helvetica Neue", "Helvetica", Arial, sans-serif
 }
 
 html {
@@ -75,7 +75,7 @@ body {
 }
 
 h1, h2, h3 {
-    font-family: "Segoe UI", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+    font-family: "Source Sans Pro", "Segoe UI", "Helvetica Neue", "Helvetica", Arial, sans-serif;
     font-weight: 400;
     color: #000;
 }
@@ -136,7 +136,7 @@ textarea {
 }
 
 button, .link-button {
-    font-family: "Segoe UI", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+    font-family: "Source Sans Pro", "Segoe UI", "Helvetica Neue", "Helvetica", Arial, sans-serif;
     font-weight: 600;
     font-size: 20px;
     padding: 15px 35px;
@@ -723,7 +723,7 @@ iframe[name='google_conversion_frame'] {
 }
 
 .search .search-results .result h3 {
-    font-family: "Segoe UI", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+    font-family: "Source Sans Pro", "Segoe UI", "Helvetica Neue", "Helvetica", Arial, sans-serif;
     font-weight: 600;
     font-size: 2.4rem;
     text-overflow: ellipsis;
@@ -913,263 +913,6 @@ footer .copyright .logo {
     .twitter-follow-button {
         margin-left: 15px
     }
-}
-
-@media (min-width: 992px) {
-    footer .github-star-button, footer .twitter-follow-button {
-        margin-bottom: 0
-    }
-    footer .right {
-        margin-top: 0;
-        text-align: right
-    }
-}
-
-.microsoft-logo-inverted {
-    display: none
-}
-
-@media screen and (-ms-high-contrast: black-on-white) {
-    .microsoft-logo {
-        display: none
-    }
-    .microsoft-logo-inverted {
-        display: inline
-    }
-}
-
-.alt-downloads {
-    text-align: center
-}
-
-.alt-downloads .download-icon {
-    display: inline
-}
-
-.alt-downloads .download-icon-accessible {
-    display: none
-}
-
-@media screen and (-ms-high-contrast: black-on-white) {
-    .alt-downloads .download-icon-accessible {
-        display: inline
-    }
-    .alt-downloads .download-icon {
-        display: none
-    }
-}
-
-.alt-downloads .download {
-    padding: 0 25px;
-    display: inline-block;
-    vertical-align: top
-}
-
-.alt-downloads .home.download {
-    display: none
-}
-
-.alt-downloads.win .download.osx {
-    display: inline-block
-}
-
-.alt-downloads.win .download.linux {
-    display: inline-block
-}
-
-.alt-downloads.linux .download.osx {
-    display: inline-block
-}
-
-.alt-downloads.linux .download.win {
-    display: inline-block
-}
-
-.alt-downloads.osx .download.win {
-    display: inline-block
-}
-
-.alt-downloads.osx .download.linux {
-    display: inline-block
-}
-
-.alt-downloads .logo {
-    height: 100px;
-    width: 100px;
-    background-size: contain !important;
-    margin: 0 auto;
-    -ms-high-contrast-adjust: none
-}
-
-.alt-downloads .logo.windows {
-    background: url("/assets/images/windows-logo.png") center center no-repeat
-}
-
-.alt-downloads .logo.mac {
-    background: url("/assets/images/apple-logo.svg") center center no-repeat
-}
-
-@media screen and (-ms-high-contrast: white-on-black) {
-    .alt-downloads .logo.mac {
-        background-image: url("/assets/images/apple-logo-inverted.svg")
-    }
-}
-
-.alt-downloads .logo.linux {
-    background: url("/assets/images/linux-logo.png") center center no-repeat
-}
-
-.alt-downloads .link-button {
-    color: white;
-    margin: 20px 0 5px;
-    padding: 10px 0;
-    font-size: 1.8rem;
-    width: 240px;
-    background-color: #0066B8
-}
-
-.alt-downloads .link-button small {
-    display: block;
-    margin-top: 0.75rem;
-    color: rgba(255, 255, 255, 0.65);
-    font-size: 1.2rem
-}
-
-.alt-downloads .link-button small.build-type {
-    margin-top: 0;
-    font-size: 1.4rem;
-    font-weight: 300
-}
-
-.alt-downloads .link-button:hover {
-    background-color: #005ba4
-}
-
-.alt-downloads .link-button[data-os='linux64_deb'], .alt-downloads .link-button[data-os='linux64_rpm'] {
-    width: 147px
-}
-
-.alt-downloads .link-button img {
-    position: relative;
-    top: -2px;
-    margin-right: 10px
-}
-
-.alt-downloads .sublink {
-    display: block;
-    font-size: 12px
-}
-
-.alt-downloads .terms {
-    color: #6c6c6c;
-    padding: 4rem 19%
-}
-
-.alt-downloads .terms p {
-    font-size: 1.4rem;
-    line-height: 3rem
-}
-
-.alt-downloads .swimlane {
-    min-height: auto;
-    padding: 1.5rem
-}
-
-.alt-downloads.insiders-callout .swimlane {
-    margin-bottom: 2rem
-}
-
-.alt-downloads.insiders-callout .swimlane h2 {
-    font-weight: 600;
-    margin-bottom: 0.5rem;
-    color: #444;
-    font-size: 2.1rem
-}
-
-.alt-downloads.insiders-callout .swimlane .call-to-action {
-    font-size: 1.8rem;
-    color: #444
-}
-
-@media (min-width: 1200px) {
-    .alt-downloads .terms {
-        padding: 20px 20%
-    }
-}
-
-.home .alt-downloads .swimlane {
-    padding-top: 0
-}
-
-#alt-downloads .win-downloads {
-    width: 94%
-}
-
-#alt-downloads .linux-downloads {
-    width: 55%
-}
-
-#alt-downloads .win-downloads, #alt-downloads .linux-downloads {
-    margin-top: 16px;
-    margin-left: auto;
-    margin-right: auto
-}
-
-#alt-downloads table.win-downloads col:nth-of-type(1), .insiders-builds table.win-downloads col:nth-of-type(1) {
-    width: 135px
-}
-
-#alt-downloads table.linux-downloads col:nth-of-type(1), .insiders-builds table.linux-downloads col:nth-of-type(1) {
-    width: 75px
-}
-
-#alt-downloads table.win-downloads col:nth-of-type(2), #alt-downloads table.win-downloads col:nth-of-type(3), #alt-downloads table.linux-downloads col:nth-of-type(2), #alt-downloads table.linux-downloads col:nth-of-type(3), .insiders-builds table.win-downloads col:nth-of-type(2), .insiders-builds table.win-downloads col:nth-of-type(3), .insiders-builds table.linux-downloads col:nth-of-type(2), .insiders-builds table.linux-downloads col:nth-of-type(3) {
-    width: 45px
-}
-
-.download-btns.insiders-builds .win-downloads, .download-btns.insiders-builds .linux-downloads {
-    margin: 16px auto 20px auto
-}
-
-.download-btns button {
-    font-weight: 700;
-    font-size: 1.8rem;
-    padding: 10px 0;
-    margin: 20px 0 5px;
-    display: inline-block;
-    color: #fff;
-    cursor: pointer;
-    background-color: #0066B8;
-    text-decoration: none;
-    width: 280px
-}
-
-.download-btns button img {
-    position: relative;
-    top: -2px;
-    margin-right: 10px
-}
-
-.download-btns .linux .left-btn {
-    margin-left: 5px
-}
-
-.download-btns .linux button {
-    width: 147px
-}
-
-.download-btns small {
-    font-size: 1.2rem;
-    color: rgba(255, 255, 255, 0.65);
-    display: block
-}
-
-.download-btns .alts {
-    margin-top: 16px
-}
-
-.download-btns .alts a {
-    cursor: pointer
 }
 
 nav[data-toggle=toc]>div:first-child.connect-widget {
@@ -1428,21 +1171,21 @@ nav[data-toggle=toc] .nav li a:hover:before {
 }
 
 #docs-navbar>.nav>.active>a:not(.area), #docs-navbar>.nav>.active .active>a {
-    font-weight: bold
+    font-weight: 600;
 }
 
 #docs-navbar>.nav .active .active a:before {
     content: '';
     position: absolute;
-    height: 7px;
-    width: 7px;
+    height: 8px;
+    width: 8px;
     background-color: #0071BC;
     top: 10px;
     left: -4px;
     -webkit-border-radius: 100%;
     -moz-border-radius: 100%;
     -o-border-radius: 100%;
-    border-radius: 100%
+    border-radius: 100%;
 }
 
 #small-nav {
