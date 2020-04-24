@@ -17,10 +17,6 @@
   outline: none;
 }
 
-.img-fluid {
-  max-width: 75% !important;
-}
-
 .TIP,
 .WARNING,
 .NOTE {
@@ -260,13 +256,24 @@ code {
   border: 0 !important;
 }
 
-.docs img:not(.w-25):not(.w-50):not(.w-75):not(.w-100) {
-  width: 50%;
-}
-
 .docs .w-100 {
   width: 100% !important;
   max-width: 100% !important;
+}
+
+.docs .w-75 {
+  width: 75% !important;
+  max-width: 75% !important;
+}
+
+.docs .w-50 {
+  width: 50% !important;
+  max-width: 50% !important;
+}
+
+.docs .w-25 {
+  width: 25% !important;
+  max-width: 25% !important;
 }
 
 .cmd {
