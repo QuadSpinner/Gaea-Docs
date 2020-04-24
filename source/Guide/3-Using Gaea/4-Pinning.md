@@ -28,7 +28,7 @@ The Underlay node can accessed quickly from the Graph Toolbar. It is shown as a 
 
 <figure>
 
-![](/images/underlay_0.jpg){.w-100}
+![](/images/ui/underlay_0.jpg){.w-100}
 
 <figcaption>
 A color map visualized without an Underlay.
@@ -38,7 +38,7 @@ A color map visualized without an Underlay.
 <div class="col-lg-6">
 <figure>
 
-![](/images/underlay_1.jpg){.w-100}
+![](/images/ui/underlay_1.jpg){.w-100}
 
 <figcaption>
 A color map visualized with the Erosion node marked as Overlay.

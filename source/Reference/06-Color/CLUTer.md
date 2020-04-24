@@ -19,11 +19,6 @@ Click anywhere in the gradient to create a new stop. Drag the stop to position i
 {.TIP}
 > You can use **Input Clarity** instead of interjecting an Autolevels node to the graph.
 
-In this example, a @flow is mapped by @CLUTer to create basic texture map.
+In this example, a @Flow is mapped by CLUTer to create basic texture map.
 
 ![CLUTer](../../images/CLUT-sample2.png)
-
-For general information on creating color textures, see @Color-Production.
-
-
-
