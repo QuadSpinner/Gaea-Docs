@@ -1,16 +1,4 @@
 [
-
-    {
-        "Path": "Reference",
-        "Category": 0,
-        "BaseItem": {
-            "Title": "Node Reference",
-            "Link": "Reference/index.html",
-            "UID": "reference"
-        },
-        "ProcessProceduralFiles": true,
-        "ProcessExampleFiles": true
-    },
     {
         "Path": "Guide",
         "Category": 0,
@@ -21,21 +9,31 @@
         }
     },
     {
-        "Path": "Videos",
+        "Path": "Reference",
         "Category": 0,
         "BaseItem": {
-            "Title": "Videos",
-            "Link": "Videos/index.html",
-            "UID": "videos"
+            "Title": "Node Reference",
+            "Link": "Reference/index.html",
+            "UID": "reference"
+        },
+        "ProcessProceduralFiles": true
+    },
+    {
+        "Path": "Tutorials",
+        "Category": 0,
+        "BaseItem": {
+            "Title": "Tutorials",
+            "Link": "Tutorials/index.html",
+            "UID": "tutorials"
         }
     },
     {
-        "Path": "Developers",
+        "Path": "KB",
         "Category": 0,
         "BaseItem": {
-            "Title": "For Developers",
-            "Link": "Developers/index.html",
-            "UID": "dev"
+            "Title": "Knowledge Base",
+            "Link": "KB/index.html",
+            "UID": "kb"
         }
     },
     {

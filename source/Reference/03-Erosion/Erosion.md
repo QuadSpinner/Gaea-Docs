@@ -1,5 +1,5 @@
 ---
-uid: erosion
+uid: Erosion
 title: Erosion
 ---
 
@@ -53,7 +53,7 @@ Downcutting effectively transports sediment far away from its origin. If shorter
 
 ### Scale and Feature Size
 
-The size of the "features" created during the erosion process - namely the width of largest valleys and ridges between them - is controlled by the *Feature Scale* option is where you can achieve artistic control over the erosion process.
+The size of the "features" created during the erosion process - namely the width of largest valleys and ridges between them - is controlled by the `Feature Scale` option is where you can achieve artistic control over the erosion process.
 
 <figure>
 
@@ -73,3 +73,7 @@ The *Real Scale* option automatically controls the general scale (the extents of
 
 {.NOTE} 
 > When using Parallel Processing, the erosion algorithm can become non-deterministic. This means while most of the major flows will appear in the same location, smaller features may appear somewhat different every time the node is processed. To ensure fully deterministic processing, disable Parallel Processing. This will sacrifice processing speed to ensure your results are consistent.
+
+
+### Selective Processing
+

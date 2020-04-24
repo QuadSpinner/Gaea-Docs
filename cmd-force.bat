@@ -1,0 +1,1 @@
+"Z:\Git\Gaea\AngryMonkey\AngryMonkey\bin\publish\AngryMonkey.exe" --force

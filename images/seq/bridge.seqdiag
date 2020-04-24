@@ -1,0 +1,5 @@
+App->Gaea: Get node map
+Gaea->App: Configure UI
+App-->Gaea: Save input to file
+App->Gaea: Send Parameters to invoke build
+Gaea-->App: Send status

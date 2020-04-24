@@ -3,7 +3,7 @@
 | **Type**             |
 |                      | *Linear* : A ramp going from lowest to highest.                                     |
 |                      | *Radial* : A soft, radial "bump".                                                   |
-|                      | *Helix* : A climbing, spiral or helix gradient.                                     |
+|                      | *Helix* : A climbing spiral or Helix gradient.                                     |
 | **Scale**            | The scale of the gradient.                                                          |
 | **Sawtooth**         | ON allows a lower scaled Linear gradient to create a repeating or sawtooth pattern. |
 | **Direction**        | The angle of the Linear gradient.                                                   |
