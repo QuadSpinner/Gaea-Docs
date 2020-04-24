@@ -19,11 +19,11 @@
         "ProcessProceduralFiles": true
     },
     {
-        "Path": "Tutorials",
+        "Path": "Learning",
         "Category": 0,
         "BaseItem": {
             "Title": "Tutorials",
-            "Link": "Tutorials/index.html",
+            "Link": "Learning/index.html",
             "UID": "tutorials"
         }
     },
