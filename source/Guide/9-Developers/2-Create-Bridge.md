@@ -18,7 +18,7 @@ The Bridge can be created using any programming language, as long as you meet th
 - Save as PNG (16-bit), TIFF (32-bit), or OpenEXR (32-bit)
 - Redirect and read StdOut stream (optional)
 
-![](/images/seq/bridge.png)
+![](/images/seq/bridge.png){.w-50}
 
 Gaea must be installed along with prerequisites (see @installing) for the process to work.
 
