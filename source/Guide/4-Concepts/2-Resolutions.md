@@ -5,19 +5,19 @@ title: Understanding Resolution
 
 This is one of the central precepts of terrain design. When you work on a terrain, and especially when you export, the amount of detail in the final result is calculated based on the size or resolution of the export image. Even when you export as a mesh, the image resolution is critical.
 
-In Gaea, there are two different resolutions you work with: the Preview Resolution and the Export Resolution.
+In Gaea, there are two different resolutions you work with: Preview Resolution and Export Resolution.
 
 ## Preview Resolution
 
-The Preview Resolution controls the quality of detail of your terrain preview in the viewport. You can choose between 512 x 512 (0.5K) to 4096 x 4096 (4K) resolution.
+The Preview Resolution controls the quality of detail of your terrain preview in the viewport. You can choose from 512 x 512 (0.5K) up to 4096 x 4096 (4K) resolution.
 
 {.WARNING}
-> The higher the resolution, the more detail you will get. However, larger resolutions can take 4x more time to process the image. Switch to higher resolutions only when you need to.
+> The higher the resolution, the more detail you will get. Higher resolutions, however, can take 4x longer to process the image. Switch to higher resolutions only when you need to.
 
-You can switch between preview resolutions as often as you like. When you switch the resolution, the terrain preview is rebuilt. For 0.5K and 1K previews, the process is usually fast. For 2K and 4K, it can take longer.
+You can change preview resolutions as often as you like. When you switch the resolution, the terrain preview is rebuilt. For 0.5K and 1K previews, the process is usually fast. For 2K and 4K, it can take longer.
 
 {.NOTE}
-> 4K resolution previews are still experimental and not full optimized. This may lead to slow performance with complex graphs.
+> 4K resolution previews are still experimental and not fully optimized. This may lead to slower performance with complex graphs.
 
 ## Export Resolution
 
@@ -26,16 +26,16 @@ The Export Resolution controls the quality of detail in your built/exported terr
 {.TIP}
 > For resolutions beyond 16K, we recommend using @tiled-builds to contend with unlimited resolutions on even modest hardware.
 
-As with preview resolutions, high export resolutions can also take longer than the preview - something to be expected with builds. In essence, you create a "template" with your settings when you create a terrain at preview resolutions. When you "build" a terrain, Gaea takes that preview template and uses those settings to build the terrain from scratch using the full export resolution. This results in more detail than is possible in previews.
+Like with preview resolutions, high export resolutions can take longer than the preview - something to be expected with builds. In essence, when you create a terrain at preview resolutions, you're creating a "template" with your settings. When you "build" a terrain, Gaea takes that preview template and uses those settings to build the terrain from scratch using the full export resolution. This results in more detail than is possible in previews.
 
 For more information on building terrains, see @build-manager.
 
 
 ## Resolution Dependence
 
-All terrains/heightfields, no matter how procedural, are still bound to the limits of its resolution. While most aspects of Gaea are resolution-independent - meaning an effect or shape will remain the same across different resolutions - there is always a chance that certain shapes and effects may change across several nodes when seen at different resolutions.
+All terrains/heightfields, no matter how procedural, are still bound to the limits of their resolution. While most aspects of Gaea are resolution-independent - meaning, an effect or shape will remain the same across different resolutions - there is always a chance that certain shapes and effects may change across several nodes when seen at different resolutions.
 
-This is a natural side effect of heightfield-based terrains. It is helpful to build and export the terrain at final resolution once in a while to make sure the results are as expected. If the shapes change and you are unsure where it happens, you can mark several key nodes in your graph for export and examine where the change occurs.
+This is a natural side effect of heightfield-based terrains. To make sure the results are as expected, it is helpful to build and export the terrain at final resolution once in a while. If the shapes change and you are unsure where it happens, you can mark for export several key nodes in your graph and examine where the changes occur.
 
 ### Forcing a resolution
 
