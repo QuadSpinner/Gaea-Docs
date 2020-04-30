@@ -13,7 +13,7 @@ For each heightfield or mask you want to send from the target application, creat
 
 ### Exposing variables
 
-To expose a node's properties, use `Node Properties > Expose Properties`{.cmd}.
+To expose a node's properties, use `Node Properties` `>` `Expose Properties`.
 
 ![](/images/ui/automation-expose-menu.png)
 
@@ -26,7 +26,7 @@ In the dialog that comes up, you can check the properties you want to expose and
 
 Repeat the process for any other nodes you wish to expose.
 
-You can access all exposed properties from the `Node Properties Menu > Show Exposed Properties`{.cmd} or press `F12`.
+You can access all exposed properties from the `Node Properties Menu` `>` `Show Exposed Properties` or press `F12`.
 
 
 ### Maintain Scale

@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<UpdateManifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="1.0.21.8721" Size="42295784" PatchSize="6484264" ReleaseType="RTM" ReleaseDate="2019-06-04T00:00:00" Filename="Gaea-1.0.21.exe" URL="http://viridian.quadspinner.com/gaea/Gaea-1.0.21.exe" PatchURL="http://viridian.quadspinner.com/gaea/Gaea-1.0.21P.exe">
+  <FullDescription>## New Mesh Exporter
+
+![Mesh Export](http://cdn.quadspinner.com/gaea/changelog/1_0_21/mesh.jpg)
+
+One of the most requested features is now live - a new mesh exporter, rewritten from the ground up for stability and speed. You can export OBJ, FBX, and XYZ files, choose from multiple scale models, switch between pure tris or quads, generate multiple LODs, and more.
+
+You no longer need the Mesh Output node (unless you want it). You can directly choose a Mesh Format for specific nodes in the Build Manager and select the mesh export settings in the build panel.
+
+
+## Per-node File Formats
+
+![Per-node file formats](http://cdn.quadspinner.com/gaea/changelog/1_0_21/pernode.png)
+
+Gaea's Build Manager made it easy to export files without having to set up separate output nodes. Now you can choose different file formats for individual nodes.
+
+This should reduce the need to use Output and Mesh Output nodes, although they are still available, and in fact, have been updated.
+
+
+## Logic Nodes
+
+![Logic Nodes](http://cdn.quadspinner.com/gaea/changelog/1_0_21/logic.png)
+
+Logic nodes help create structures that can be very useful when scripting and automating. Gaea's debut logic nodes include Switch, which lets you choose between two inputs by toggling an option, and Route, which lets you select one from multiple inputs and/or outputs.
+
+
+## Occlusion Data Map
+
+![Occlusion](http://cdn.quadspinner.com/gaea/changelog/1_0_21/occlusion.jpg)
+
+The occlusion data map is similar to Ambient Occlusion but it has been built to favor terrains in a way where you can use the resulting masks for color production.
+
+
+## Onion Skinning in Draw
+
+![Draw](http://cdn.quadspinner.com/gaea/changelog/1_0_21/draw.png)
+
+To enable you to draw mountains properly - especially in conjunction with the Island node - the Draw node has a new Input like the Mask node input where you can visualize the input terrain under your draw surface.
+
+
+## New Quickstarts
+
+![Quickstarts](http://cdn.quadspinner.com/gaea/changelog/1_0_21/quickstarts.jpg)
+
+This build adds 13 new quickstarts (8 techniques, 5 scenes), including a slew of techniques that show how to add delicate detailing to massive slopes.
+
+
+## Complete Changelog
+
+#### New
+- New Mesh Exporter with quad support and improved LODs.
+- Export meshes as FBX and XYZ (point clouds).
+- Per-node file formats.
+
+#### Node Updates
+- New Data Map: Occlusion.
+- New Logic nodes: Switch and Route.
+- Transform now allows positioning regardless of scale.
+
+#### Improved
+- Updated Build Manager with new options for Mesh Export.
+- Draw node now has onion-skinning/overlay input.
+- Set preset as default for node.
+- SHIFT + New for blank graph.
+
+#### Fixed
+- Percentage input for sliders was broken.
+- Baking was broken in some situations.
+- Duplicate node filenames would not be auto-incremented.
+- F2 did not rename node.
+- SatMap clipping UI was broken.
+- Terrace modulation was biased/broken.
+- Clip was incorrect when Min was greater than 0.
+- Aperture should not go to 0.
+- Some savables would not load in Build Manager.
+- Deleting a node would not re-route all connections.
+
+#### Quickstarts
+- Scenes\Desert Stronghold
+- Scenes\Folded Mountains
+- Scenes\Folded Slope
+- Scenes\Shattered Slope (A)
+- Scenes\Shattered Slope (B)
+- Techniques\Bombing Shapes (A)
+- Techniques\Cropped Mountain
+- Techniques\Drawing Mountains
+- Techniques\Floor Creation
+- Techniques\Glacial Wall
+- Techniques\Technological Pattern
+- Techniques\The Wave in Arizona
+- Techniques\Twisted Sandstone</FullDescription>
+</UpdateManifest>

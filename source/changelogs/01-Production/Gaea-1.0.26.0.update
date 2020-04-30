@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<UpdateManifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="1.0.26.9328" Size="45001874" PatchSize="8952389" ReleaseType="RTM" ReleaseDate="2019-08-27T00:00:00" Filename="Gaea-1.0.26.exe" URL="http://viridian.quadspinner.com/gaea/Gaea-1.0.26.exe" PatchURL="http://viridian.quadspinner.com/gaea/Gaea-1.0.26P.exe">
+  <FullDescription>## Value Clamping for Input and Output
+
+The OpenEXR format suffered from unnecessary clamping of values, and gamma contamination in a linear format. We have made a few critical changes which will now allow you to produce error free EXR output.
+
+The File Input node has been revised to accept the full height range of the incoming file. This option is turned on by default. To clamp it to a specific height, use the Clamp node and type a value in meters.
+
+![](http://malachite.blob.core.windows.net/gaea/changelog/1_0_26/file.png)
+
+### Houdini
+
+We have fixed a critical issue where trying to run Gaea from Houdini would fail immediately or ask for a license even when you had one.
+
+Additionally, we have added the `--unclamped` option which is the same as 'Ignore Vertical Scale' in the Build Manager but can be enforced from the command line.
+
+
+## Viewport Freeze
+
+We are actively working on fixing an issue where the viewport will freeze and will not update until Gaea is rebooted. The root cause is a somewhat complex issue and will take some time to fix. In the meantime, we have added a command in the Build dropdown to recycle the viewport and flush all memory buffers. This is still experimental and may not always work.
+
+![](http://malachite.blob.core.windows.net/gaea/changelog/1_0_26/recycle.png)
+
+
+## Detail Map
+
+The one new feature in this build is the Details node. This node allows you to extract higher frequency details to produce Detail Displacement (for lower resolution meshes) or Detail Normals.
+
+Just add the node to your final height node(s), and set the **Target Size** to your downscaled size. For example, if you are building your world at 8192 x 8192, but your mesh is 2048 x 2048 vertices, then set the Target Size to 2048.
+
+![](http://malachite.blob.core.windows.net/gaea/changelog/1_0_26/details.jpg)
+
+To create Detail Normals, just do the above and attach a Normal Map node to the Details output.
+
+![](http://malachite.blob.core.windows.net/gaea/changelog/1_0_26/detailnormals.jpg)
+
+Please note, the Details output is extremely "microscopic" and may not always be directly visible in the viewport. You should temporarily turn on Autolevel (Lv) in the Post Process options, or use the Eq mode in 2D view to look at the output.
+
+
+## Complete Changelog
+
+#### New
+- Recycle Viewport option in Build Menu for viewport freeze bug (temporary measure).
+
+#### Node Updates
+- New Details node for creating high frequency displacement and normal maps.
+- File Input node caching option for better performance.
+- File Input node option to use full height range.
+
+#### Improved
+- Ctrl + Dropping node now enables preset selection without double processing.
+- Ignoring vertical scale for command line builds using --unclamped.
+
+#### Fixed
+- OpenEXR height clamping and channel contamination bugs fixed.
+- Houdini automation was broken.
+
+#### Known Issue
+- Hybrid mode in Erosion may cause blank output in higher resolutions. Use Linear mode instead.</FullDescription>
+</UpdateManifest>

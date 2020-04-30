@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<UpdateManifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="1.0.23.9000" Size="44026144" PatchSize="13907540" ReleaseType="RTM" ReleaseDate="2019-07-10T00:00:00" Filename="Gaea-1.0.23.exe" URL="http://viridian.quadspinner.com/gaea/Gaea-1.0.23.exe" PatchURL="http://viridian.quadspinner.com/gaea/Gaea-1.0.23P.exe">
+  <FullDescription>This build addresses several issues reported by users, as well as minor improvements.
+
+## Hybrid Erosion Mode to be retired
+The Hybrid process mode in the Erosion node will be retired in the near future. We have updated all our defaults and presets to use Linear mode instead, which is now comparably faster than ever.
+
+With a few recent OpenCL driver issues in various hardware, Hybrid mode can potentially give faulty results in larger builds. If you are using Hybrid mode, you will get a soft warning in the Build Manager. We recommend migrating to the Linear mode when possible as this mode will become unavailable in the near future.
+
+For maximum performance, we still recommend the Parallel process mode, which uses tiled processing and blending for fastest performance. However, it may create tile artifacts on certain slopes. If you encounter such tiling, please switch to Linear mode for maximum visual integrity.
+
+## Complete Changelog
+
+#### Node Updates
+- Double Sided mode in Recurve.
+- Perlin and Voronoi warp default was incorrect.
+- Reset to default context menu option in SatMap clipping.
+- Build Manager now warns if using Hybrid mode in Erosion.
+- Better edge handling in Displace.
+
+#### Improved
+- Minor UI improvements and cleanup.
+- Better status icons for nodes.
+- Build Manager now warns if all node ports are unchecked.
+- Engine Suspended label is now a button as well.
+- Allow Engine Suspension for loading a file.
+
+#### Fixed
+- Internal file loading mechanism fixed.
+- Node options in Build Manager would not save.
+- Certain settings in Build Manager would not save.
+- 2D viewport would not work if only one node was present.
+- Incorrect file bit-depth upon saving.
+- Nodes dropped on Blue portal would overlap.
+- Build Swarm should use en-US instead of system locale.
+- All Erosion presets now use Linear mode as default.
+
+#### Known Issue
+- Hybrid mode in Erosion may cause blank output in higher resolutions. Use Linear mode instead.</FullDescription>
+</UpdateManifest>

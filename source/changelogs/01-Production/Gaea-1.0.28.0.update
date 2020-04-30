@@ -1,0 +1,141 @@
+<?xml version="1.0"?>
+<UpdateManifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="1.0.28.5" Size="47450736" PatchSize="12131896" ReleaseType="RTM" ReleaseDate="2019-10-24T00:00:00" Filename="Gaea-1.0.28.exe" URL="http://viridian.quadspinner.com/gaea/Gaea-1.0.28.exe" PatchURL="http://viridian.quadspinner.com/gaea/Gaea-1.0.28P.exe">
+  <FullDescription>#### What's new in Gaea 1.0.28?
+
+## Predictive services, compact toolbox, major node improvements, and stability updates
+
+## Predictive Services
+
+![](http://malachite.blob.core.windows.net/gaea/changelog/1_0_28/predictive.png)
+
+Gaea's Predictive Services are small, helpful utilities that learn from how you use nodes and try to come up with helpful like spelling suggestions on your phone - except, this is done non-aggressively and very privately on your computer (not on some far away server).
+
+First, you need to train Gaea. You can do so by opening the new Toolbox menu in the top right corner of the Toolbox and selecting "Learn from Gaea Docs folder". It will then go through any files in your Gaea docs folder that were created in the last 3 months and learn from it.
+
+![](http://malachite.blob.core.windows.net/gaea/changelog/1_0_28/predictive_context.png)
+
+Once trained, Gaea will start suggesting nodes. If you drag out a connection from a port, and drop it in any empty space on the graph, the create menu will pop up. Beneath the normal list of nodes, Gaea will suggest nodes based on your previous usage patterns.
+
+## Compact Toolbox + Most Used filter
+
+![](http://malachite.blob.core.windows.net/gaea/changelog/1_0_28/most_used.png)
+
+Another benefit of the Predictive Services is that you can open the Toolbox menu and turn on "Show most used nodes only". This will hide all the nodes that you don't regularly use, saving you precious workspace pixels. This choice is not persisted, and is for the session only, and can be toggled as frequently as you like.
+
+The suggested nodes and TAB search results are not affected.
+
+![](http://malachite.blob.core.windows.net/gaea/changelog/1_0_28/toolbox_compact.png)
+
+The new Compact Toolbox mode also provides extra space so you can see more nodes, even on smaller screens.
+
+## Get name from parent
+
+Here's a little UX improvement we cooked up. Sometimes you have tons of outputs and you spend time naming them. Then you need to add auxiliary outputs for those such as normals or data maps, and it can become a giant chore to name them all.
+
+![](http://malachite.blob.core.windows.net/gaea/changelog/1_0_28/name_from_parent.png)
+
+The new 'Get name from parent' command in the node context menu can get the name of the parent and add the node's own name as a suffix. For example, Slope becomes "Erosion_Slope".
+
+## Copy/Paste Settings
+
+![](http://malachite.blob.core.windows.net/gaea/changelog/1_0_28/copy_settings.png)
+
+You will now be able to right-click any node to copy the settings and paste it on another node of the same class. The options are also available through the node properties menu.
+
+## New Watson
+
+Gaea's diagnostics tool Watson has been updated to work faster and better than ever before. It can collect diagnostics information very quickly and try to pinpoint problems more accurately.
+
+![](http://malachite.blob.core.windows.net/gaea/changelog/1_0_28/Watson1.png)
+
+You can now also file a ticket directly straight from Gaea by entering a few details, and optionally attaching the problem .TOR File. This will save you time from having to go file a ticket manually, while still giving us the vital information needed to identify your problem and provide you with a fix.
+
+![](http://malachite.blob.core.windows.net/gaea/changelog/1_0_28/Watson2.png)
+
+Filing a ticket is optional. You can choose to save a zip file that you can examine yourself, or file manually at your convenience. As always, our logs and other details are stored in plain text in our ever present efforts for transparency.
+
+Any .tor file shared with us is used only for diagnosing the problem and disposed of immediately afterwards.
+
+## Viewport Freezing, and other improvements
+
+We have made some changes in anticipation of the larger changes forthcoming in Gae 1.2. These stability improvements should improve many areas of Gaea, including the occasional viewport freeze some users have encountered.
+
+Please see the full list below for the many other important changes introduced in this build.
+
+
+## Complete Changelog
+
+#### New
+- Predictive services, with the ability to learn from existing terrains.
+- New Toolbox compact mode.
+- Toolbox can now optionally show most-used nodes only.
+- Copy/Paste settings between nodes.
+
+#### Node Updates
+- File Node can now accept relative paths.
+- Transform can accept &lt;1 values in non-uniform mode.
+- Transform node's Sharp option renamed to Unfiltered.
+- Minor fix for portals.
+- Cracks node is now up to 50% faster.
+- Shaper node now has a Details slider for better control.
+- New Mask Autolevel post process option.
+- Normal map now has a new 8-point process.
+- Output node improved, allow saving to build folder, and accept color nodes.
+- Splat can now be clamped to a combined total of 1.0.
+- ColorFx now supports Flip operations.
+- Snow optional inputs fixed.
+- Improved color presets for color swatches in QuickColor, Biome, etc.
+
+#### Improved
+- Improved loading of files.
+- Minor improvements for viewport freezing.
+- Reboot Viewport option has been brought back.
+- New function to get name from parent node.
+- TIFF and other formats should not be compressed.
+- General UI performance improvements.
+- Node drop spacing refined.
+- Build Swarm rewritten for faster execution and automation.
+- Performance improvements for managing files.
+- 2D view speed improved by up to 8x for higher resolutions.
+- Node-connect menu replaced with a more straightforward menu.
+- Right-clicking a slider now automatically focuses on the entry field.
+- Tab-search for nodes now automatically connects the selected node.
+- Watson diagnostics improved with additional options and benchmark tests.
+- Installer now creates Start Menu shortcut for Watson.
+- Watson can now file tickets for you.
+- Watson explains what the optional diagnostics do, and when to use them.
+- Better license release mechanism via About box.
+- Property panel shows hints and warnings for volatile settings.
+- Microincrements hover state improved for mouse interactions.
+- Several minor efficiency improvements.
+- Build title bar shows overall progress and time elapsed.
+
+#### Fixed
+- Renaming nodes could cause a crash with rare characters.
+- Influence post-process fixed.
+- Blank node name should clear custom name.
+- Mutate does not reflect changes in editor.
+- File with one node would confuse the editor.
+- Island editor would not show overlay on re-edit.
+- Better stability with pinning for color.
+- Minor updates to the viewport freezing bug.
+- Unnecessary reprocessing when loading files.
+- Indie version did not show resolution warning.
+- Build error when overwriting files, when output is a fixed folder path.
+- Erosion Studio output was incorrect.
+- TIFF and PNG output improved.
+- Loading a file with a single node could freeze editor.
+- Unknown parameter warning when building.
+- Builds failed because of incorrect hardware detection.
+- Mesher incorrectly showed format dropdown.
+- License would not be recognized properly.
+- 2D view would incorrectly snap to fit-all when resizing.
+- Autolayout and node-dropping vertical space fine tuned.
+- Splitter bar would remain visible when repeatedly changing toolbox layout.
+- On first run, Gaea won't ask for the Document path.
+- Several misc fixes and improvements.
+
+#### Known Issues
+- The viewport may stop responding on some installations. Restarting Gaea should fix this. We're working on a fix.
+- Hybrid mode in Erosion may cause blank output in higher resolutions. Use Linear mode instead.</FullDescription>
+</UpdateManifest>

@@ -15,9 +15,14 @@ Primitives expose a property called Seed. Changing this property randomizes the 
 
 Primitives can be used by themselves, for example a @Mountain node can help create a "hero mountain" without needing other primitives. Or multiple Primitives can be put together using the @Combine node.
 
-`TODO: Introduction to Gaea video`
-
 When multiple Primitives are combined, they can create sophisticated shapes.
+
+<div class="embed-responsive embed-responsive-16by9">
+<iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/1A1xXfTlKqM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+This video continues in @tut-color.
+
 
 ## Hand Drawn Primitives
 

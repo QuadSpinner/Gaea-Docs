@@ -1,5 +1,3 @@
-// Copyright (c) Microsoft. All rights reserved. Licensed under the MIT license. See LICENSE file in the project root for full license information.
-
 function changeStyle() {
     if (Cookies.get('style') == "dark") {
         document.getElementById('cssx').href = "/styles/docfx.dark.css";
