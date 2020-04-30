@@ -2,7 +2,7 @@
 <UpdateManifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="1.0.28.1" Size="47052720" PatchSize="0" ReleaseType="RTM" ReleaseDate="2019-10-09T00:00:00" Filename="Gaea-1.0.28.exe" URL="http://viridian.quadspinner.com/gaeab/Gaea-1.0.28b.exe" PatchURL="http://viridian.quadspinner.com/gaeab/Gaea-1.0.28bP.exe">
   <FullDescription>We have revised 1.0.28 and this is an update to the previous Bleeding Edge build. We highly recommend updating.
 
-# Complete Changelog
+## Complete Changelog
 
 ## IN THIS BUILD
 

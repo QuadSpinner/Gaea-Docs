@@ -2,7 +2,7 @@
 <UpdateManifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="1.0.28.5" Size="47450736" PatchSize="12131896" ReleaseType="RTM" ReleaseDate="2019-10-24T00:00:00" Filename="Gaea-1.0.28.exe" URL="http://viridian.quadspinner.com/gaea/Gaea-1.0.28.exe" PatchURL="http://viridian.quadspinner.com/gaea/Gaea-1.0.28P.exe">
   <FullDescription>#### What's new in Gaea 1.0.28?
 
-# Predictive services, compact toolbox, major node improvements, and stability updates
+## Predictive services, compact toolbox, major node improvements, and stability updates
 
 ## Predictive Services
 
@@ -63,7 +63,7 @@ We have made some changes in anticipation of the larger changes forthcoming in G
 Please see the full list below for the many other important changes introduced in this build.
 
 
-# Complete Changelog
+## Complete Changelog
 
 #### New
 - Predictive services, with the ability to learn from existing terrains.

@@ -46,7 +46,7 @@ To enable you to draw mountains properly - especially in conjunction with the Is
 This build adds 13 new quickstarts (8 techniques, 5 scenes), including a slew of techniques that show how to add delicate detailing to massive slopes.
 
 
-# Complete Changelog
+## Complete Changelog
 
 #### New
 - New Mesh Exporter with quad support and improved LODs.

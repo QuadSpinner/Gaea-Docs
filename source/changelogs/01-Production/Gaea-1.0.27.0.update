@@ -50,7 +50,7 @@ In most cases, this won't change anything for you. If you are running Windows 10
 
 If you encounter any issues, please try installing it manually [from this direct link](https://dotnet.microsoft.com/download/thank-you/net48).
 
-# Complete Changelog
+## Complete Changelog
 
 #### New
 - Flux markers in sliders.

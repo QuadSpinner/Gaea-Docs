@@ -37,7 +37,7 @@ To create Detail Normals, just do the above and attach a Normal Map node to the 
 Please note, the Details output is extremely "microscopic" and may not always be directly visible in the viewport. You should temporarily turn on Autolevel (Lv) in the Post Process options, or use the Eq mode in 2D view to look at the output.
 
 
-# Complete Changelog
+## Complete Changelog
 
 #### New
 - Recycle Viewport option in Build Menu for viewport freeze bug (temporary measure).

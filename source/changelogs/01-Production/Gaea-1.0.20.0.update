@@ -55,7 +55,7 @@ This seemingly tiny feature guides you by showing what value you will get if you
 As we always recommend, in Gaea, **clicking** will give you faster performance than **dragging** a slider. Making that a habit will save you a lot of reprocessing.
 
 
-# Complete Changelog
+## Complete Changelog
 
 #### New
 - Tiled Output (Split Only) now available as an experimental feature.

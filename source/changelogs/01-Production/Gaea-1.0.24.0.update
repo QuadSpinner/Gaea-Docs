@@ -71,7 +71,7 @@ We will soon publish a detailed automation guide for anyone who wishes to automa
 
 NOTE: You must have the Professional or Enterprise edition to take advantage of automation features and bridges to 3rd party applications.
 
-# Complete Changelog
+## Complete Changelog
 
 #### New
 - Undo / Redo with history details. The entire undo system was overhauled.

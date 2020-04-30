@@ -1,22 +1,10 @@
----
-uid: gaea_1_0_29_4
-title: Gaea 1.0.29.4
----
+<?xml version="1.0"?>
+<UpdateManifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="1.0.29.4" Size="39541444" PatchSize="39541444" ReleaseType="EAP" ReleaseDate="2020-02-11T00:00:00" Filename="Gaea-1.0.29b.exe" URL="http://viridian.quadspinner.com/gaeab/Gaea-1.0.29b.exe" PatchURL="http://viridian.quadspinner.com/gaeab/Gaea-1.0.29b.exe">
+  <FullDescription>#### What's new in Gaea 1.0.29.4?
 
+## Stability + Fixes
 
-**Released on 11 February 2020**
-
-<a href="http://viridian.quadspinner.com/gaeab/Gaea-1.0.29b.exe">Download Full Installer 37.71MB</a> <br>
-<a href="http://viridian.quadspinner.com/gaeab/Gaea-1.0.29b.exe">Download Patch 37.71MB</a> <br>
-
-
-<div class="release-note">
-
-#### What's new in Gaea 1.0.29.4?
-
-# Stability + Fixes
-
-# Complete Changelog
+## Complete Changelog
 
 #### New
 
@@ -49,5 +37,5 @@ title: Gaea 1.0.29.4
 - Floating 2D viewport may unduly affect 3D viewport while main 2D viewport is running.
 - Light node is in preview. Final version may differ and break compatibility.
 - The Water system is not fully compatible with the new render system, and may show artifacts.
-- Materials popup is no longer available. A replacement for it will be introduced in Gaea 1.2.
-</div>
+- Materials popup is no longer available. A replacement for it will be introduced in Gaea 1.2.</FullDescription>
+</UpdateManifest>

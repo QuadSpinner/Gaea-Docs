@@ -131,9 +131,15 @@ Each individual message will be delimited by a line break character. In most env
 
 To ensure both input and output data retains the same level of fidelity, we strongly encourage using a 32-bit format for heightmaps.
 
-Pick the right scale option in the @build-manager settings that fits with your application's workflow. See @scale for details.
+See @scale for details on how Gaea handles scale.
 
-For maximum flexibility, we recommend sending data in a normalized range appropriate to the format. In Gaea's @File node should use the `Use Full Range` option to normalize the incoming data unless the data is already normalized. Select Normalized the output range in the @build-manager as well.
+### Raw Data
+
+In most cases, you will want to use Raw Data which is the default option in the @build-manager. This will bring the data within the `0..1` as exported from your application. The scale will be maintained through Gaea's processing and the output will preserve this range. Any @File nodes used should NOT use the `Use Full Range` option otherwise incoming data would become normalized.
+
+### Normalized Data 
+
+If you prefer to receive normalized data, select the Normalized option in the @build-manager. Any @File node should also use the `Use Full Range` option to normalize the incoming data unless the data is already normalized.
 
 When you receive the data in your application after the build, you must process it as appropriate.
 

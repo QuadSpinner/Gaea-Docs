@@ -33,7 +33,7 @@ Over the last several months, we have been constantly adding new quickstarts, wh
 The quickstarts themselves have been organized better into the two categories: Scenes, and Techniques. Scenes are complete terrains that convey a ready asset for production use. Techniques are partial graphs (mostly) that teach a specific way to accomplish a task.
 
 
-# Complete Changelog
+## Complete Changelog
 
 #### New
 - Save default startup graph.

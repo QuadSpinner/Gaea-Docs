@@ -2,7 +2,7 @@
 <UpdateManifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="1.0.29.5" Size="39516928" PatchSize="6361248" ReleaseType="RTM" ReleaseDate="2020-02-17T00:00:00" Filename="Gaea-1.0.29.exe" URL="http://viridian.quadspinner.com/gaea/Gaea-1.0.29.exe?f=21" PatchURL="http://viridian.quadspinner.com/gaea/Gaea-1.0.29P.exe?f=20">
   <FullDescription>#### What's new in Gaea 1.0.29?
 
-# New 2.5D Viewport, Light baking, and Stability Update
+## New 2.5D Viewport, Light baking, and Stability Update
 
 **This is a crucial update that is recommended for all users and includes new updates released since 1.0.29.3 was originally released.**
 
@@ -24,7 +24,7 @@ We have improved color and gradient editors, and introduced a unified popup for 
 
 &lt;img src="http://malachite.blob.core.windows.net/gaea/changelog/1_0_29/clut.png" style="max-width: 350px;" /&gt; 
 
-# Complete Changelog
+## Complete Changelog
 
 ## From 1.0.29.4
 
