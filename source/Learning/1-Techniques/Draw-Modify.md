@@ -1,6 +1,6 @@
 ---
 uid: tut-draw-modify
-title: Draw to modify
+title: Draw to Modify
 ---
 
 A hidden gem in Gaea is the @Mask node. On the surface it appears to be a simple mask drawing tool, but when used in conjunction with specific node networks, it can give you a powerful creative advantage.

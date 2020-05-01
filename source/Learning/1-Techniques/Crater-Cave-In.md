@@ -21,6 +21,6 @@ The Shaper node bulks up the terrain. By disabling detail preservation, the outl
 
 Finally, with the Erosion node, I used Slope Bias in Selective Processing. This targets just steep slopes inside the crater. Because of the smooth bulk-up via Shaper, the outside area is too shallow to be affect by such steep settings.
 
-And there you have it - looks like something a space worm crawled out of, then went back in, with the sand collapsing in. :) 
+And there you have it - looks like something a space worm crawled out of, then went back in, with the sand collapsing in.
 
 Have fun with Shaper.
