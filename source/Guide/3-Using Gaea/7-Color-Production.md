@@ -5,9 +5,9 @@ title: Procedural Textures
 
 ## The core concept
 
-All the processes for creating color textures in Gaea is dependent on flowing color ramps/gradients into a black and white mask.
+All the processes for creating color textures in Gaea are dependent on flowing color ramps/gradients into a black and white mask.
 
-Let's take a look at a basic example. The lowest part of a gradient corresponds to the lowest part of the terrain, while the highest part of the gradient corresponds to the highest part of the terrain. Everything in between is distributed as dictated by the gray intensity.
+Let's take a look at a basic example. The lowest part of a gradient corresponds to the lowest part of the terrain. The highest part of the gradient corresponds to the highest part of the terrain. Everything in between is distributed as dictated by the gray intensity.
 
 `// TODO: Image`
 
@@ -22,9 +22,9 @@ To help you create complex procedural masks from which you can create color text
 
 ## What are Data Maps?
 
-Data Maps are special masks. They let you select basic aspects of the terrain (such as slope, angle, or curvature), or synthesize complex data through simulations (such as water flow, soil deposits, etc.). Additional quick texturing data maps such as Texture and SurfTex help create pseudo-random texture masks through which you can quickly achieve color textures with minimal effort.
+Data Maps are special masks. They let you select basic aspects of the terrain (such as slope, angle, curvature), or synthesize complex data through simulations (such as water flow, soil deposits, etc). Additional quick texturing data maps, such as Texture and SurfTex, help create pseudo-random texture masks through which you can quickly achieve color textures with minimal effort.
 
-These nodes break the traditional basic data (slope, angle, etc.) + chaos (Perlin noise) method, or the heavy reliance on flow output from erosion. In such situations, you need to find a good seed to make it work. With Data Maps, there is visual randomness, but it's created from systematic analysis of the terrain and follows natural principles. The resulting color maps created from such data look more believable.
+These nodes break the traditional basic data (slope, angle, etc) + chaos (Perlin noise) method, or the heavy reliance on flow output from erosion. In these situations, you need to find a good seed to make it work. With Data Maps, there is visual randomness, but it's created from systematic analysis of the terrain and follows natural principles. The resulting color maps created from this data look more believable.
 
 
 ## A basic texture with Data Maps
