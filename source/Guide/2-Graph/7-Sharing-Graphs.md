@@ -34,7 +34,7 @@ Lastly, Chokepoints become "gateways" when you share a graph.
 
 Let's say you like this texturing technique and want to use it in other graphs later. This is very easy to do when you have Chokepoints set up and the part of the graph you want to share is in its own tab. You can export a graph by selecting `Export Graph` in the Graph Menu.
 
-![](/images/ui/graph-menu.png)
+![](/images/ui/graph-menu.png){.w-50}
 
 In the other file, you can use the `Import Graph` command to bring in the export graph. It will get its own tab like the graph from where it was exported.
 
