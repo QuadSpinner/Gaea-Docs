@@ -1,0 +1,208 @@
+<?xml version="1.0"?>
+<UpdateManifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="1.2.0.1" Size="54060651" PatchSize="54060651" ReleaseType="EAP" ReleaseDate="2020-04-30T00:00:00" Filename="Gaea-1.2.0.1b.exe" URL="http://viridian.quadspinner.com/gaeab/Gaea-1.2.0.1b.exe?f=1" PatchURL="http://viridian.quadspinner.com/gaeab/Gaea-1.2.0.1b.exe?f=1">
+  <FullDescription>#### What's new in Gaea 1.2.0.1?
+
+## A major leap forward for Gaea
+
+Gaea 1.2 represents one of the largest sets of features added to Gaea since the original 1.0 release.
+
+&gt; FURTHER DETAILS FORTHCOMING
+
+WARNING: This version is not production ready yet. Please backup any .TOR documents before opening them in this Bleeding Edge build. Gaea 1.2 will alter your files in a way that may make them unusable in previous versions.
+
+## Complete Changelog
+
+#### New
+- Node bookmarks menu
+- Highlight node chains with H (all), LCtrl + H (left), and RCtrl + H (right)
+- Linchpin based loading for Baked Nodes
+- Pin / Underlay buttons added to graph toolbar
+- Thumbnails in Recent Files
+- Experimental Skybox mode added
+- Redesigned Post Process stack
+- "Pin for color" renamed to "Underlay"
+- Statistics Dialog (Experimental)
+
+#### Erosion Studio
+- Terrain Scale support
+
+#### Node Updates
+- New Ice Floe node
+- New Shatter node
+- New Surface node
+- Autolevel now has Multiplier mode
+- Blur is 10x faster
+- Blur minimum value 
+- Bomber node can force Proportional scaling
+- Bomber node now accepts "ground" as primary input
+- Combine now has Abs mode
+- Crater node Inner Scale minimum reduced
+- Displace seed added to all post process stacks
+- Dunes minimum reduced (further changes coming)
+- Lakes node can force lake/ocean floor level
+- Lakes node improved, new surface option (hidden port)
+- Light node can render without color map
+- Light node now further options
+- Light node right-click sun to get sun position from scene
+- LookDev category added
+- Major speed improvements for several nodes
+- Mountain node has new style options
+- Noise node iterations were broken
+- Output node can receive full filename as variable again
+- SaveOutput would break output in automation situations
+- Stacks node improved
+- Surfacer node renamed to SurfTex to avoid confusion
+- Texture node speed improvement
+
+#### Improved
+- Hit SPACE to focus on terrain center
+- Mask display uses selected gradient in all situations
+- Filament node style improved, now default
+- Filament node style shows port name on hover
+- Ctrl + Tab lets you cycle through tabs
+- Ticks for integer sliders
+- Post Process stack memory impact reduced
+- Search popup honors zoom factor from main window
+- Out-to-Out connection now support same node
+- Graph grid / snap improved
+- Cache cleanup options improved
+- Node upgrade message made modal
+- Passive memory optimizer now frees up memory more aggressively
+- Hit area for Gaea main menu extended
+- Right-click on Recent Files to see open options
+- Build Output Range options renamed for better understanding
+- Unity and Unreal resampling options merged into single dropdown
+- Gaea window title now shows current filename
+- Right-click New Project in Startup Screen for more templates
+
+#### Fixed
+- GPU usage was too high even when idle
+- Build Path was not saved in Build Tab
+- Data Map connection color was incorrect
+- Cached color maps were saved as grayscale
+- Incremental save for TORX would create TOR instead
+- Autosave does not save .RESOURCE files
+- Font rendering was broken in some situations
+- Bleeding Edge does not use its own Docs folder
+- Graph options were not saved in some situations
+- Port placement optimized
+- Mutating did not mark file as dirty
+- Build Swarm did not return console colors to normal
+- Build Swarm makes too many error sounds while working
+- 60+ minor bug fixes
+
+#### BREAKING CHANGES
+- Light node will need to be recreated.
+
+
+### Changes in 1.2.0.0
+
+
+#### New
+- Gaea 1.2 UI overhaul.
+- Erosion Studio 1.2 UI and systemic overhaul.
+- Improved startup experience.
+- Portals 2.0.
+- Infinity Graph: Divide your graph into multiple tabs.
+- Infinity Graph: Import and export partial graphs.
+- Viewport: Overhauled viewport and render system.
+- Viewport: Preview mesh density/LOD.
+- Viewport: Alt + MMB zooming option.
+- Viewport: Q + E vertical navigation.
+- Viewport: Optional grid and compass in viewport.
+- Cache session on exit.
+- Toolbox: New docking options for toolbox: full height, top only, bottom only, and hidden.
+- Toolbox: New expert mode in Toolbox for veteran users.
+- Toolbox: Quick switch to shift between Most Used and all nodes.
+- Fourth node style: Filament.
+- Passive Optimizer for improving memory management.
+- Session cache manager.
+- RAM and HDD cache indicators.
+- Descriptive tooltips for all nodes in the toolbox.
+- New Preferences dialog.
+- New About dialog.
+- Build Manager UI simplified, and merged with main UI.
+
+#### Erosion Studio
+- Redesigned system for better performance.
+- Undo was broken.
+- New Erosion tools.
+- New Snow tools.
+- Custom brush shapes.
+- Faster execution and project loading.
+- Reverted the UI back to Erosion Studio's classic layout with fixed sidebar.
+- Advanced mode for each brush to configure your own settings.
+
+#### Node Updates
+- New: Rock Maps node.
+- New: Cartography node.
+- New: Lakes node.
+- New: MultiCombine node.
+- New: Stacks node.
+- New: Draw node 2.0 with new options.
+- New: Flow Map 2.0 with flow separation.
+- New: Fractal option for Terrace node.
+- Dunes: Chaotic mode reworked.
+- Light node now out of preview. Quality settings and preset support added.
+- Output node can now save entire node, removing the need to have an output node per output.
+- Constant node can now produce height or color.
+- SatMaps: Improved favorites system.
+- SatMaps: Sampling density option.
+- Mask node can now be copy-pasted between files.
+- Fixed stepping artifacts created in Snowfall node.
+- Redesigned editor for Mask node.
+- Redesigned editor for Islands node.
+- Redesigned editor for Draw node.
+- Coast: moved to new Water category.
+- Snow: renamed to Snowfall, moved to new Snow category.
+- Selectors category merged with Data Maps.
+- Erosion: Random Sedimentation setting for Selective Processing.
+- Erosion: Obsolete 'Debris' setting removed.
+- Erosion: Inverse option added for height and slope biases.
+- Erosion: Minimum feature size lowered to 5 meters from 50m.
+- Coast: value limits increased.
+- Coast: option to get value from viewport.
+- Nodes can now have hidden ports.
+- Improved naming for ports.
+
+#### Improved
+- Remember preview resolution for saved files.
+- Loading options for files: forcing low resolution, suspending engine.
+- Baking resolution limit increased to 8K.
+- Faster loading of baked caches.
+- Connecting two "out" ports creates a Combine.
+- Search for portals in node searches. 
+- Options: Cache Limit and warning system.
+- Options: Sensitivity customization for stylus users.
+- Options: Hide node categories in node drag-out menus.
+- Progress bars move to bottom right corner for improved visibility
+- New colors for progress bars to clearly indicate progress of current task vs all tasks.
+- Gaea now correctly recognizes 2D maps in a chain and switches from terrain to mask view as required.
+- Viewport lighting presets.
+- (Enterprise only) Gaea TORX file format version now synced to actual build used.
+- Sliders with unchanged values displayed with slightly muted colors.
+
+#### Fixed
+- Nodes created while searching were placed incorrectly.
+- Search text would not clear in some situations.
+- Forcing refresh/invalidation of nodes should not affect baked nodes.
+- Unbaking a node did not refresh the editor.
+- Color nodes exported as TIFF would be grayscale.
+- Accidental double-clicking of title bar area fixed.
+- Progress would not update in some situations.
+- Light node preview was not consistent in both viewports.
+- MultiMix (F8) would require manual node refresh in many situations.
+- Autolevel Mask post process function was broken.
+- Setting "Display As" for a node would not refresh preview.
+- Post Process stack did not update properly when resetting node.
+- 20+ other bugs fixed in Erosion Studio.
+- 20+ other bugs related to lighting and preview caching.
+- 30+ other bug fixes for baking related issues.
+- Addressed 26 bugs that could potentially crash Gaea in some situations.
+- Most Used nodes now include favorites regardless of usage stats.
+
+#### BREAKING CHANGES
+- All existing Erosion Studio projects will not work because of the complete overhaul.
+- "Base" height, part of the terrain definition, has been removed. All terrains now start at 0m for easier consumption.
+- Due to unavoidable changes in our randomizer some nodes - namely SlopeNoise, Noise, LineNoise, and Rocks - will no longer be able to create the same shape as in previous Gaea versions. If those shapes are crucial, please see [THIS LINK]. **Article coming soon**</FullDescription>
+</UpdateManifest>
