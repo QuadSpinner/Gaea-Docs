@@ -1,5 +1,5 @@
 ---
-uid: chokepoint
+uid: Chokepoint
 title: Chokepoint
 ---
 

@@ -23,7 +23,7 @@ Drag and connect to a portal like you would connect nodes normally. It will be c
 
 @dragout a connection and you will be presented with a list of available portals organized by graphs. Select a portal to connect.
 
-![](/images/ui/search-portals.png)
+![](/images/ui/search-portals.png){.w-50}
 
 @dragout a connection and type `\` when the menu shows up. This will present you with a searchable list of all available portals.
 
