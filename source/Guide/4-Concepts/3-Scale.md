@@ -85,9 +85,13 @@ When bringing the terrain into your target application, you can optionally treat
 
 ### Normalized Scale
 
-Forced scaling, in many situations, can give you maximum vertical fidelity. Gaea will force the terrain to use the entire `~0.0,000,000 - 1.0,000,000` heightrange in 32-bit formats. In 16-bit images that would be `0 - 65,534`. In 8-bit, it is `0 - 254`. If you need more vertical fidelity for closeups, this option may help as you get more density in the up-axis than in other methods.
+Forced scaling, in many situations, can give you maximum vertical fidelity. Gaea will force the terrain to use the entire `~0.0,000,000 - 1.0,000,000` height range in 32-bit formats. In 16-bit images that would be `0 - 65,534`. In 8-bit, it is `0 - 254`. If you need more vertical fidelity for closeups, this option may help as you get more density in the up-axis than in other methods.
 
 When using forced scaling, you must adjust the vertical size of your output manually in the target application. Like with Natural Scale, use the Height-Scale Ratio.
+
+### Custom Scale
+
+This is a special option reserved for importing and exporting data in very specific ranges. In most normal circumstances, you will not need to use this node. If you wish to use this mode for automation scenarios, see @create-bridge and @buildmanager.
 
 
 ## Important Readouts for Terrain Scale

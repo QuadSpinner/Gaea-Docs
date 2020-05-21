@@ -53,7 +53,12 @@ Gaea.Build.exe "C:\Users\Me\Documents\Gaea\MyFile.tor"
 | `--nodemap`        | Creates an XML node map file for any exposed properties.                                                                                                                        |
 | `--resolution####` | Sets the resolution of the build. <br> Valid options for the `####` portion are 512, 1024, 2048, 4096, and 8192.                                                                |
 | `--cpulimit##`     | Limit the number of cores Gaea will utilize. For multi-tile scenarios, use `--cpulimit1` to assign a single core to each instance.                                              |
+| `--range-min:###`  | Sets the custom scale range's lower limit.                                                                                                                                      |
+| `--range-max:###`  | Sets the custom scale range's upper limit.                                                                                                                                      |
 | `var:value`        | Sets the 'value' property of the 'var' exposed node property. <br> See @automation for details. Any such variable arguments must come after all switches.                       |
+
+{.NOTE}
+> `--range-min` and `--range-max` must be supplied together, otherwise the scale will fail. Also, when these arguments are passed, the file will forcibly use Custom scale for output, and all @File nodes will be forced to use the `Mapped` scale mode with the supplied scales.
 
 Complex example of a command line build automation:
 ```vb

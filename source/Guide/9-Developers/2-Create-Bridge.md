@@ -15,7 +15,7 @@ Gaea can be used as a silent processor from other applications from the command 
 The Bridge can be created using any programming language, as long as you meet the following requirements:
 - Invoke command lines and wait for process to exit
 - Read XML file
-- Save as PNG (16-bit), TIFF (32-bit), or OpenEXR (32-bit)
+- Save as PNG (16-bit), raw 32-bit floats, TIFF (32-bit), or OpenEXR (32-bit)
 - Redirect and read StdOut stream (optional)
 
 ![](/images/seq/bridge.png){.w-50}
@@ -142,6 +142,12 @@ In most cases, you will want to use Raw Data which is the default option in the 
 If you prefer to receive normalized data, select the Normalized option in the @build-manager. Any @File node should also use the `Use Full Range` option to normalize the incoming data unless the data is already normalized.
 
 When you receive the data in your application after the build, you must process it as appropriate.
+
+### Mapped Data
+
+If you wish to send and receive data (heightfields and masks only) in a specific range, you can choose to use a Custom Range. This can be specified explicitly in @buildmanager or can be passed on-the-fly via the command line.
+
+To use a range of `-1000..1000`, you would supply the following arguments: `--range-min:-1000 --range-max:1000`
 
 ## Locating Gaea
 

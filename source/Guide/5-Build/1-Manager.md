@@ -39,11 +39,15 @@ For details on the individual formats available, see @save-formats.
 
 **Output Range**
 
-| Output Range     | Description       |
-| ---------------- | --------- |
+| Output Range     | Description                                                                                                                                                                                                                                                  |
+| ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | **Raw**          | Terrain retains natural scale between 0..1 and ignores artifical scaling created by the proportions in the Terrain Definition. This may require you to scale the height of the terrain in your target application if it does not understand natural scaling. |
 | **Proportional** | Terrain is scaled to the proportions in the Terrain Definition. This is useful for mesh exports or heightfields where scale should be handled automatically. In some cases, this method may show banding.                                                    |
 | **Normalized**   | Terrain is forced to use the full range between 0..1 providing greater scalability. However, this will require manual scaling in your target application.                                                                                                    |
+| **Custom**       | Terrain data is mapped to a specific scale you specify. Data is not normalized to this range, but proportionally scaled to fit within that range.                                                                                                            |
+
+{.NOTE}
+> Custom Range only applies to heightfields and masks. Color data will be forced to standard range.
 
 
 ### Tiled Output
