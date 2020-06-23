@@ -1,6 +1,7 @@
 | Setting               | Description |
 | :-------------------- | :---------- |
 | **Color**             | TODO        |
+| **Color2**            | Lorem ipsum |
 | **Input Noise**       | TODO        |
 | **Input Clarity**     | TODO        |
 | **Input Auto Level**  | TODO        |
