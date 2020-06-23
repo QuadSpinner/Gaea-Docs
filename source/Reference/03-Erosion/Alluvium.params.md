@@ -1,5 +1,8 @@
 | Setting        | Description                                               |
 | :------------- | :-------------------------------------------------------- |
+| **Mode**       |                                                           |
+|                | *Residual*                                                |
+|                | *Deposits*                                                |
 | **Iterations** | Number of iterations of alluivial deposits.               |
 | **Hardness**   | Hardness of the rock material.                            |
 | **Power**      | Power of the erosion process.                             |
