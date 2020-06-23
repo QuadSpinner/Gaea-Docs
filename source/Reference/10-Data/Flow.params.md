@@ -1,4 +1,19 @@
-| Setting               | Description                                                                                                                                                                                                                           |
-| :-------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **Rain Cycles**       | The number of rain cycles to calculate. Smaller values create small, detailed flows. Larger values create stronger, wider flows.                                                                                                      |
-| **Constant Rainfall** | When enabled, this setting simulates rainfall beyond the rain cycles to create consistent rainfall values. When disabled, the rainfall tapers off as it nears the end of the cycles, producing a weighted average amount of rainfall. |
+| Setting           | Description                                                                                                                      |
+| :---------------- | :------------------------------------------------------------------------------------------------------------------------------- |
+| **Rainfall**      | The number of rain cycles to calculate. Smaller values create small, detailed flows. Larger values create stronger, wider flows. |
+| **Primary**       | Lorem ipsum                                                                                                                      |
+| **Secondary**     | Lorem ipsum                                                                                                                      |
+| **Tertiary**      | Lorem ipsum                                                                                                                      |
+| **Quaternary**    | Lorem ipsum                                                                                                                      |
+| **2x Simulation** | Lorem ipsum                                                                                                                      |
+| **Uniform**       | Lorem ipsum                                                                                                                      |
+| **Primary**       | Lorem ipsum                                                                                                                      |
+| **Secondary**     | Lorem ipsum                                                                                                                      |
+| **Tertiary**      | Lorem ipsum                                                                                                                      |
+| **Quaternary**    | Lorem ipsum                                                                                                                      |
+| **All**           | Lorem ipsum                                                                                                                      |
+| **Quality**       | Lorem ipsum                                                                                                                      |
+|                   | *1:4* Lorem ipsum                                                                                                                |
+|                   | *1:3* Lorem ipsum                                                                                                                |
+|                   | *1:2* Lorem ipsum                                                                                                                |
+|                   | *1:1* Lorem ipsum                                                                                                                |
