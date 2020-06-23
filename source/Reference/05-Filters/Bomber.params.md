@@ -16,6 +16,7 @@
 |                      | *Difference* : TODO                                                                              |
 | **Strength**         | The contribution level in overlapping instances.                                                 |
 | **Strength Max**     | TODO                                                                                             |
+| **Proportional**     | Lorem ipsum                                                                                      |
 | **Minimum Scale**    | The smallest randomized instance size.                                                           |
 | **Maximum Scale**    | The largest randomized instance size.                                                            |
 | **Minimum Rotation** | The minimum randomized rotation angle.                                                           |
