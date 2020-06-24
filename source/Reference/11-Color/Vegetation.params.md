@@ -10,3 +10,4 @@
 | **Slope Bottom**     | TODO        |
 | **Slope Top**        | TODO        |
 | **Avoid Extremes**   | TODO        |
+| **Jitter**           | Lorem ipsum |

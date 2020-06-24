@@ -5,6 +5,8 @@
 | **Exposed Strata**              | The amount of stratified plates to expose from sediments. |
 | **Folding**                     | Lorem ipsum                                               |
 | **Steepness**                   | The steepness of the stratified areas.                    |
+| **Talus Pass**                  | Lorem ipsum                                               |
+| **Power**                       | The power of the talus.                                               |
 | **Talus**                       | Creates a strong talus slope.                             |
 | **Height**                      | The height of the talus from the bottom.                  |
 | **Encourage Strong Flows**      | Lorem ipsum                                               |

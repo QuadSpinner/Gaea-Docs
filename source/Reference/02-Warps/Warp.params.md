@@ -3,7 +3,7 @@
 | **Size**           | Lorem ipsum                         |
 | **Strength**       | Lorem ipsum                         |
 | **Z-scale**        | Lorem ipsum                         |
-| **Noise type**     | Lorem ipsum                         |
+| **Warp Source**    | Lorem ipsum                         |
 |                    | *Perlin FBM* Lorem ipsum            |
 |                    | *Voronoi R* Lorem ipsum             |
 |                    | *Voronoi P* Lorem ipsum             |

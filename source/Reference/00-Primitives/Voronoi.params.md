@@ -1,6 +1,7 @@
 | Setting            | Description                                                                   |
 | :----------------- | :---------------------------------------------------------------------------- |
 | **Scale**          | The perceptual scale of the Voronoi shapes. Higher values create more shapes. |
+| **Jitter**         | Lorem ipsum                                                                   |
 | **Seed**           | The randomization pattern or seed for the node's process.                     |
 | **Dual**           | Creates two overlapping Voronoi patterns.                                     |
 | **Perturb**        |
@@ -23,5 +24,5 @@
 |                    | *P* : The default look for this geo-variant, suitable for creating mountains. |
 |                    | *A* : A mix between P and M.                                                  |
 |                    | *S* : Individual mountains with fully separated boundaries.                   |
-|                    | *M* : Favors the strongest cell; good for creating a big mountain slope.       |
-|                    | *D* : Favors ridges over cell centers.                                         |
+|                    | *M* : Favors the strongest cell; good for creating a big mountain slope.      |
+|                    | *D* : Favors ridges over cell centers.                                        |

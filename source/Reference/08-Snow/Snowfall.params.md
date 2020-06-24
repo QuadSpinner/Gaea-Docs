@@ -11,9 +11,11 @@
 | **Slip-off angle**    | Angle at which snow will stick to the surface.                                                           |
 | **Adhered snow mass** | Mass of snow that sticks to the surface.                                                                 |
 | **Model scale**       | TODO                                                                                                     |
-| **Snow output**       |
+| **Snow output**       |                                                                                                          |
 |                       | *Depth* : Depth of the deposited snow.                                                                   |
 |                       | *Soft Mask* : Mask of the snow coverage with soft falloff.                                               |
 |                       | *B&W Mask* : Mask of the snow coverage with hard, precise edges.                                         |
 | **Use Snowfall mask** | Use incoming snowfall mask, if plugged into the Snowfall port.                                           |
 | **Use Melt mask**     | Use incoming melt mask, if plugged into the Melt port.                                                   |
+| **Prefer old style**  | Lorem ipsum                                                                                              |
+| **Seed**              | Lorem ipsum                                                                                              |
