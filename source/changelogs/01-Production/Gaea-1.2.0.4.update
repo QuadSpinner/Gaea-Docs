@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<UpdateManifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="1.2.0.4" Size="54076224" PatchSize="7612688" ReleaseType="RTM" ReleaseDate="2020-07-02T00:00:00" Filename="Gaea-1.2.0.4.exe" URL="http://viridian.quadspinner.com/gaea/Gaea-1.2.0.4.exe" PatchURL="http://viridian.quadspinner.com/gaea/Gaea-1.2.0.4P.exe">
+  <FullDescription>
+  Important update with several bug fixes, stability improvements, and minor enhancements to nodes. Recommended patch.
+
+  #### Improvements
+- Random selection button for SatMap Editor.
+- Notification when Underlay is missing.
+- Shift+Drop Chokepoint does not reprocess children.
+- Canyonizer is now marked as a heavy node, gets more loops.
+- Lakes processing improved.
+- Range node gets new Chaos option.
+
+#### Fixes
+- Addressed several situations where a crash could occur.
+- License key would not load on Splash screen.
+- Island editor could crash on re-edit.
+- Node's Show As option would not refresh.
+- Cache export message box could block UI.
+- File thumbnail would not save.
+- Incremental save could crash if filename was too short.
+- 2D view would not resize when 3D window is floating.
+- Gaea would forget last used path.
+- Several minor stability issues addressed.
+</FullDescription>
+</UpdateManifest>
