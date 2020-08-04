@@ -29,4 +29,4 @@ And send it to a second Erosion node in the same chain. This has milder settings
 
 ![](/images/ref/Erosion/selective-erosion-006.jpg){.w-100}
 
-And there you have it! You just created a realistic peak out of a blocky, blobby chunk!
+And there you have it! You just created a realistic peak out of a blocky chunk!
