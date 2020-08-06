@@ -23,6 +23,10 @@ By default, the name of the node will be used as the filename. The filename, for
 
 If you prefer direct control over where and how the files are saved, you can use an @Output node. It is also useful when you want to save the same output to multiple formats where you can set up an @Output node per format.
 
+## Mesher Node
+
+If you wish to export your heightfield as a mesh, you can use the @Mesher instead of @Output. Mesher is the only the way to save the output as a mesh.
+
 
 ## Build Mutations
 
