@@ -21,7 +21,7 @@ The Depth mask gives you the depth of the water bodies. You may sometimes need t
 
 ![](/images/ref/Lakes/Lakes--Mask-Depth.png){.w-50}
 
-The Shore mask gives you the full coverage of the shore surrounding all water bodies. To avoid mask overlap (which can create aliasing artifacts) the Shore mask contains the water bodies as well. When coloring, you can layer the shore first then the water. Or if you wish to get a shore only mask, then you can subtract the Lakes mask from the Shore output.
+The Shore mask gives you the full coverage of the shore surrounding all water bodies. To avoid mask overlap (which can create aliasing artifacts) the Shore mask contains the water bodies as well. When coloring, you can layer the shore first then the water. (See @tut-color-water) Or if you wish to get a shore only mask, then you can subtract the Lakes mask from the Shore output.
 
 ![](/images/ref/Lakes/Lakes--Mask-Shore.png){.w-50}
 
