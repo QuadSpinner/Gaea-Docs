@@ -27,6 +27,12 @@ function setStyle() {
 
 $(document).ready(function () {
   $('#cb1').on('click', function () { setStyle(); });
+
+  $("#small-nav-dropdown").change(function(){
+    if ($(this).val()!='') {
+      window.location.href=$(this).val();
+    }
+  });
 });
 
 changeStyle();

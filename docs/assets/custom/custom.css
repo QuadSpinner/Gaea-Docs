@@ -311,4 +311,13 @@ code {
   -webkit-box-shadow: 0 8px 10px rgba(0, 0, 0, 0.267), 0 40px 25px rgba(0, 0, 0, 0.15);
           box-shadow: 0 8px 10px rgba(0, 0, 0, 0.267), 0 40px 25px rgba(0, 0, 0, 0.15);
 }
+
+.params td em {
+  display: block !important;
+  clear: both;
+  font-style: normal;
+  font-weight: 600;
+  -webkit-text-emphasis: none;
+          text-emphasis: none;
+}
 /*# sourceMappingURL=custom.css.map */
