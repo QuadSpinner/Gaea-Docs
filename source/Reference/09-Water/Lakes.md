@@ -25,7 +25,9 @@ The Shore mask gives you the full coverage of the shore surrounding all water bo
 
 ![](/images/ref/Lakes/Lakes--Mask-Shore.png){.w-50}
 
-The Surface output is not a mask but a heightfield. It gives you just the surfaces of the lakes at their exact altitude. This can be used to create a separate mesh or displacement map for further usage in other applications. Or advanced control (see @tut-lake-control).
+The Surface output is not a mask but a heightfield. It is a hidden port only available by dropping a connection on the center of the node and selecting it from the ports menu that pops up.
+
+It gives you just the surfaces of the lakes at their exact altitude. This can be used to create a separate mesh or displacement map for further usage in other applications. Or advanced control (see @tut-lake-control). 
 
 ![](/images/ref/Lakes/Lakes--Mask-Surface.png){.w-50}
 
