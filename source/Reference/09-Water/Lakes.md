@@ -41,6 +41,8 @@ then this is the Surface output visualized as a heightfield.
 
 Flood Control creates a constant amount of water from the bottom up before running the precipitation simulation. This can be used to add extra water to the terrain more efficiently than simply increasing the rainfall. You can also use it bolster the water level of lower lakes while preserving the size of lakes at higher altitudes.
 
+You can Flood Control to create a sea shore as well.
+
 For example, this is our standard Lakes output.
 
 ![](/images/ref/Lakes/Lakes--Flood1.png){.w-50}
