@@ -5,7 +5,7 @@ title: Installing Gaea
 
 ## Software Requirements
 - Microsoft [.NET Framework 4.8](https://dotnet.microsoft.com/download/thank-you/net48) or later.
-- Microsoft [Visual C++ 2017 Runtime](https://aka.ms/vs/15/release/vc_redist.x64.exe).
+- Microsoft [Visual C++ 2017 Runtime](https://aka.ms/vs/16/release/vc_redist.x64.exe).
 
 If either is not detected, the installer will try to download them automatically.
 
