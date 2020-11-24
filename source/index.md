@@ -9,7 +9,7 @@ The documentation is organized to help you get started with Gaea quickly and eas
 
 **Quick Navigation**
 
-### [User Guide](/Guide/index.html)
+## [User Guide](/Guide/index.html)
 
 The User Guide teaches you about Gaea, its different concepts, and how to create and export terrains.
 
