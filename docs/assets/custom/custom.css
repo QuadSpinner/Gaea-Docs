@@ -260,7 +260,7 @@ code {
     list-style: none !important;
     margin-bottom: 32px; }
 
-#search {
+#search-field {
   vertical-align: middle;
   padding: 3px 12px;
   border-radius: 0;
@@ -284,3 +284,14 @@ code {
 
 .navbar-nav li a {
   padding-top: 14px; }
+
+.force-left {
+  float: left !important;
+  margin-right: 5%; }
+
+.force-30 {
+  width: 30% !important;
+  max-width: 30% !important; }
+
+.force-clear {
+  clear: both; }

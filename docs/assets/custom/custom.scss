@@ -374,7 +374,7 @@ code {
 }
 
 
-#search {
+#search-field {
     vertical-align: middle;
     padding: 3px 12px;
     border-radius: 0;
@@ -406,6 +406,20 @@ code {
 }
 
 
-.home-box{
+.home-box {
+}
 
+.force-left {
+    float: left !important;
+    margin-right: 5%;
+}
+
+.force-30 {
+    width: 30% !important;
+    max-width: 30% !important;
+}
+
+
+.force-clear{
+    clear: both;
 }
