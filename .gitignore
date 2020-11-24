@@ -11,3 +11,4 @@ _site_pdf
 .vscode/docfx-assistant/topic-cache.json
 /_template/assets/
 node_modules
+/Gaea-Docs/.vs
