@@ -1,1 +1,1 @@
-"Z:\Git\Gaea\AngryMonkey\AngryMonkey\bin\publish\AngryMonkey.exe" --force
+"Z:\Git\Gaea\AngryMonkey\AngryMonkey\bin\Release\net5.0\AngryMonkey.exe" --force

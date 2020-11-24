@@ -320,4 +320,49 @@ code {
   -webkit-text-emphasis: none;
           text-emphasis: none;
 }
+
+#results {
+  width: 60vw;
+  max-width: 60vw;
+}
+
+#results small {
+  background: #f0f0f0;
+  border-radius: 3px;
+  padding: 2px 6px;
+  margin-bottom: 6px;
+}
+
+#results li {
+  border: 1px solid #e0e0e0;
+  background-color: #f5f9fa50;
+  padding: 8px 16px;
+  border-radius: 4px;
+  list-style: none !important;
+  margin-bottom: 32px;
+}
+
+#search {
+  vertical-align: middle;
+  padding: 3px 12px;
+  border-radius: 0;
+  margin-right: 12px;
+  margin-top: 13px;
+  font-size: 12px;
+  font-weight: bold;
+  background-color: #444449;
+  color: #fff;
+  border: 1px solid #565659;
+}
+
+#nav-download {
+  border-radius: 24px;
+  background: #0072be;
+  margin-top: 11px;
+  padding: 3px 16px;
+}
+
+.navbar-nav li a {
+  padding-top: 14px;
+}
 /*# sourceMappingURL=custom.css.map */
