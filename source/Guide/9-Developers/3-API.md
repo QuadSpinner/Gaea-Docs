@@ -2,6 +2,7 @@
 uid: gaeaapi
 title: Extensibility API
 ---
+^future
 
 # Gaea Extensibility API
 
@@ -17,7 +18,7 @@ The API is divided into three high level components:
 These components will be available in Gaea 2.0.
 
 ### Build Requirements
-- Visual Studio 2017 or later
-- .NET Framework 4.7.2 or higher
+- Visual Studio 2019 or later
+- Microsoft .NET 5.0 or higher
 
 Plugins can be written using C# or C++. For C++, you must use C++/CLI for the plugin, but may use pure C++ for internal processing if you want to focus on pure performance.

@@ -3,12 +3,10 @@ uid: automation
 title: Automating Gaea
 ---
 
+Automation is a great way to use Gaea as a semi-external engine, whether to utilize Gaea's erosion or other nodes in another application, or generate terrain variations.
+
 {.WARNING}
 > Professional or Enterprise edition required to take advantage of automation features and bridges to 3rd party applications.
-
-# Automation
-
-Automation is a great way to use Gaea as a semi-external engine, whether to utilize Gaea's erosion or other nodes in another application, or generate terrain variations.
 
 ## Exposing Properties
 
@@ -37,7 +35,7 @@ To modify any variables, use the following command line format: `variablename:va
 Here is a full command line example:
 ```vb
 "C:\Program Files\QuadSpinner\Gaea\Gaea.Build.exe" "C:\Users\Username\Documents\Gaea\erosion_automata.tor" 
- --silent --resolution0512 
+ --silent --resolution512 
  filein:"Z:\input.png" 
  fileout:"Z:\output.png" 
  duration:0.518 
