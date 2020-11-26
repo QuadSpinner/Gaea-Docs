@@ -35,7 +35,10 @@ These maps can be used for texturing, or for driving other nodes.
 > In digital terrains, inexperienced artists will often try to use the Flow output too prominently for texturing. While this may work in some situations, it tends to create unrealistic textures and can make your terrain look fake and "CG". Try to at least use a @Texture node to complement the flow map.
 
 ## Secondary Forms of Erosion
+^wip
 
 ## Misconceptions
+^wip
 
 ### Erosion should be the last step
+^wip

@@ -7,38 +7,47 @@ title: Gaea Documentation
 
 The documentation is organized to help you get started with Gaea quickly and easily regardless of your skill level.
 
+<div class="home">
+
 **Quick Navigation**
 
-### [User Guide](/Guide/index.html)
+![](/images/icon-guide.png){.force-left}
+## [User Guide](/Guide/index.html)
 
-The User Guide teaches you about Gaea, its different concepts, and how to create and export terrains.
+Learn about Gaea, its different concepts, getting around the interface, and how to create and export terrains.
 
-Frequently visited sections: 
+Frequently visited: 
+  @installing
+| @getting-around
+| @first-terrain
+| @watson
 
-- @installing
-- @getting-around
-- @first-terrain
-- @watson
-- @versionhistory
+---
 
+![](/images/icon-help.png){.force-left}
 ## [Node Reference](/Reference/index.html)
 
 The Node Reference provides detailed information on each node and sculpting tool.
 
-Frequently visited sections: 
+Frequently visited: 
+ @Erosion
+| @Snowfall
+| @Stacks
+| @SatMaps
+| @Mesher
 
-- @Erosion
-- @Snowfall
-- @Stacks
-- @SatMaps
-- @Mesher
-  
+---
+
+![](/images/icon-kb.png){.force-left}  
 ## [Knowledge Base](/KB/index.html)
 
 You can find answers to the most common questions and scenarios.
 
-Frequently visited sections: 
+Frequently visited: 
+ @faq-purchasing
+| @faq-running
+| @faq-licensing
 
-- @faq-purchasing
-- @faq-running
-- @faq-licensing
+---
+
+</div>

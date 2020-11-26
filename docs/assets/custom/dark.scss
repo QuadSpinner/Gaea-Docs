@@ -1,16 +1,16 @@
 .TIP {
   border-color: rgba(226, 200, 238, 0.33);
-  background-color: #150d1968;
+  background-color: rgba(21, 13, 25, 0.41);
 }
 
 .WARNING {
   border-color: rgba(236, 189, 113, 0.33);
-  background-color: #2a200686;
+  background-color: rgba(42, 32, 6, 0.52);
 }
 
 .NOTE {
   border-color: rgba(200, 238, 233, 0.33);
-  background-color: #ddfffb10;
+  background-color: rgba(221, 255, 251, 0.07);
 }
 
 body {
@@ -53,7 +53,7 @@ a {
 }
 
 .card-header {
-  background-color: #14151728 !important;
+  background-color: rgba(20, 21, 23, 0.15) !important;
 }
 
 h1,
@@ -92,3 +92,4 @@ kbd {
     border-color: #555 !important;
   }
 }
+

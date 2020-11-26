@@ -3,6 +3,8 @@ uid: install-issues
 title: Common Issues
 ---
 
+^wip
+
 ## Startup Issues
 
 ### If Gaea fails to start

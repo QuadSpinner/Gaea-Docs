@@ -25,6 +25,7 @@ Post processing options offer other choices. These are individual options which 
 
 The Influence slider is a very simple yet powerful tool for layering effects. It blends the output back with the input, allowing you to manage the influence of the current node.
 
+^wip
 `// TODO: Image`
 
 Here is an example: a heavily-eroded terrain goes through @Recurve, where the Influence is set to `0.5`. This yields a more realistic looking output of Recurve, while still being able to use strong values in Recurve to create long striations.

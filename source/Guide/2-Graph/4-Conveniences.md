@@ -24,9 +24,10 @@ If you hold `Shift` and drop a node on an existing node, the new node will inter
 If you hold `Shift` then drag an independent node (not connected to any other node) over a connection and release the mouse, the node will be interject itself between the two nodes of the existing connections.
 
 **Interject Portal via Menu**
-
+^wip
 
 **Interject Node via Menu**
+^wip
 
 ### Out to Out Connection
 
@@ -52,3 +53,5 @@ Pressing `F4` once will layout the graph in a linear pattern. Pressing `F4` agai
 
 
 ## Node Bookmarks
+
+^wip

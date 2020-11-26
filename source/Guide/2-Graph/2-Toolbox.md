@@ -3,13 +3,7 @@ uid: toolbox
 title: Toolbox
 ---
 
-<div class="row">
-  <div class="col-lg-4">
-
-![](/images/ui/toolbox-normal.png)
-
-  </div>
-  <div class="col-lg-8">
+![](/images/ui/toolbox-normal.png){.force-left .force-30}
 
 The handy Toolbox sits inside the graph, giving you quick drag-drop access to all nodes. Alternatively, you can use the shortcut `TAB` while in the graph to quickly access the search function, which appears as a popup next to your mouse cursor.
 
@@ -21,10 +15,7 @@ See @conveniences for more details on how to use the toolbox convenience feature
 
 Modes, Toolbox Placement, and other options are available from the menu in the top right corner of the toolbox.
 
-  </div>
-</div>
-
-## Search
+## Search{.force-clear}
 
 ![](/images/ui/search-nodes.png){.w-50}
 

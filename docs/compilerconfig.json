@@ -1,0 +1,10 @@
+﻿[
+  {
+    "outputFile": "assets/custom/dark.css",
+    "inputFile": "assets/custom/dark.scss"
+  },
+  {
+    "outputFile": "assets/custom/custom.css",
+    "inputFile": "assets/custom/custom.scss"
+  }
+]
