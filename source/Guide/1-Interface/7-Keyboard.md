@@ -52,6 +52,7 @@ title: Keyboard Shortcuts
 | Cycle display mode | `Ctrl + T`               |
 | Open Connect menu          | `C`         |
 | Open Disconnect menu       | `X`         |
+| Open Quick Navigate menu | `,` |
 | Add node to graph favorites                | `Ctrl + F2`         |
 | Collapse/Expand node | `F11` |
 

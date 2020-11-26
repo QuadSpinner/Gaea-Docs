@@ -3,13 +3,15 @@ uid: installing
 title: Installing Gaea
 ---
 
+---
+
 ## Software Requirements
 - Microsoft [.NET Framework 4.8](https://dotnet.microsoft.com/download/thank-you/net48) or later.
 - Microsoft [Visual C++ 2017 Runtime](https://aka.ms/vs/16/release/vc_redist.x64.exe).
 
 If either is not detected, the installer will try to download them automatically.
 
-## Normal Install
+## Typical Install (Recommended)
 Installing Gaea is a simple process. Depending on your installation location, you may need administrative privileges.
 
 1. Download the [latest version](https://quadspinner.com/gaea/download).
@@ -21,23 +23,10 @@ Installing Gaea is a simple process. Depending on your installation location, yo
 
 ---
 
-## Administrative Install
+## Administrative Install and Mass Deployment
 
-To run the installer silently:
-`Gaea-1.0.29.exe /s`
+See @article-deployment
 
-To choose the install path:
-`Gaea-1.0.29.exe /S /D=C:\Gaea`
-
-### Manual Mass Deployment
-
-For mass deployment, the following may be an easier process as Gaea is now fully portable.
-
-1. Install Gaea to a temporary folder on any machine.
-2. Copy the license key to the install folder.
-3. Now you can create a zip of the folder or copy it however you prefer to as many computers as you like.
-
-These installations will need be patched or upgraded in the same way.
 
 ### Floating Server
 

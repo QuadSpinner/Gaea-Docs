@@ -295,3 +295,57 @@ code {
 
 .force-clear {
   clear: both; }
+
+.home img {
+  border: 0 !important;
+  box-shadow: none !important;
+  cursor: pointer; }
+
+.home h2 {
+  margin-top: 6px !important;
+  padding-top: 6px !important; }
+
+.params td:nth-child(1) {
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase; }
+
+.params td:nth-child(2) em {
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase; }
+
+.d-none {
+  display: none;
+  transition: all linear 0.3s;
+  opacity: 0; }
+
+.d-block {
+  display: block;
+  transition: all linear 0.3s;
+  opacity: 1; }
+
+#quicksearch {
+  transition: all linear 0.3s;
+  position: absolute;
+  top: 42px;
+  left: 0;
+  min-width: 400px;
+  max-width: 380px;
+  max-height: 600px;
+  overflow-y: auto;
+  z-index: 9999999;
+  border: 1px solid #888;
+  background: #fff;
+  padding: 16px; }
+  #quicksearch .instruction {
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase; }
+  #quicksearch li {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 6px;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase; }

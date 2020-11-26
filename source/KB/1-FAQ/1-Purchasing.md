@@ -5,16 +5,18 @@ title: Purchasing
 
 ### Is Gaea subscription based?
 
+No, Gaea licenses are perpetual - no subscriptions or hidden fees. Support, maintenance, and minor updates are all free. Only when upgrading to a major version - e.g. Gaea 2.0 - is it a paid upgrade. 
+
 ### Do I need to pay a maintenance fee?
+
+No. Support, maintenance, and minor updates are all free. Only when upgrading to a major version - e.g. Gaea 2.0 - is it a paid upgrade. 
 
 ### How do I upgrade my Gaea license to Professional or Enterprise?
 
-### Can I purchase Gaea with a credit card?
+You can upgrade to a higher edition any time by simply paying the price difference. There are no penalties.
 
-Yes. To pay using a credit card, instead of clicking the large "PayPal" button, press one of the card icons of your choice to open a popup window for that payment method.
-
-If you are already in the popup window, do not log into your PayPal account. Instead, simply "Continue as a Guest" and you will see which credit cards PayPal accepts.
-
-### There is a large X on my build! How can I remove that?
+To upgrade, place a new order while supplying your existing license key.
 
 ### Can I get a refund for my purchase?
+
+All purchases are strictly non-refundable. Please try the Community Edition to ensure the product meets your needs. Or contact us for information.
