@@ -23,6 +23,9 @@ body {
   .navbar .navbar-nav .active > .nav-link {
     color: #fff !important; }
 
+#docs-navbar .nav li a:hover {
+  color: #fff; }
+
 h1,
 h2,
 h3,

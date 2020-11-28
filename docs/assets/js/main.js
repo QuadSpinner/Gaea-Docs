@@ -29,16 +29,11 @@ $(document).ready(function () {
     $('#cb1').on('click', function () { setStyle(); });
 
     $("#small-nav-dropdown").change(function () {
-        if ($(this).val() != '') {
-            window.location.href = $(this).val();
-        }
+        if ($(this).val() != '') { window.location.href = $(this).val(); }
     });
 
-
     $("video").parent().addClass("video-holder");
-
-    changeStyle();
 });
-
+changeStyle();
 
 
