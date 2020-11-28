@@ -5,11 +5,15 @@ title: Gaea Documentation
 
 # Welcome to the Gaea Documentation
 
+<br />
+
 The documentation is organized to help you get started with Gaea quickly and easily regardless of your skill level.
 
-<div class="home">
+![](/images/splash-1.jpg)
 
-**Quick Navigation**
+<br />
+
+<div class="home">
 
 ![](/images/icon-guide.png){.force-left}
 ## [User Guide](/Guide/index.html)
@@ -22,7 +26,8 @@ Frequently visited:
 | @first-terrain
 | @watson
 
----
+<br />
+<br />
 
 ![](/images/icon-help.png){.force-left}
 ## [Node Reference](/Reference/index.html)
@@ -36,7 +41,8 @@ Frequently visited:
 | @SatMaps
 | @Mesher
 
----
+<br />
+<br />
 
 ![](/images/icon-kb.png){.force-left}  
 ## [Knowledge Base](/KB/index.html)
@@ -48,6 +54,7 @@ Frequently visited:
 | @faq-running
 | @faq-licensing
 
----
+<br />
+<br />
 
 </div>

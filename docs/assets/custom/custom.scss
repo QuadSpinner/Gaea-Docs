@@ -286,7 +286,7 @@ kbd {
     color: #fff;
 }
 
-.docs { 
+.docs {
     .w-100 {
         width: 100% !important;
         max-width: 100% !important;
@@ -336,6 +336,11 @@ kbd {
     }
 }
 
+pre {
+    code {
+        background: none !important;
+    }
+}
 
 .embed-responsive {
     box-shadow: 0 8px 10px rgba(0,0,0,0.267), 0 40px 25px rgba(0,0,0,0.15);
@@ -428,11 +433,14 @@ kbd {
         border: 0 !important;
         box-shadow: none !important;
         cursor: pointer;
+        margin-right: 8px;
+        padding-top: 36px;
+        padding-bottom: 24px;
     }
 
     h2 {
-        margin-top: 6px !important;
-        padding-top: 6px !important;
+        margin-top: 0px !important;
+        padding-top: 0px !important;
     }
 }
 
