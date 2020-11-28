@@ -1,95 +1,95 @@
 .TIP {
-  border-color: rgba(226, 200, 238, 0.33);
-  background-color: rgba(21, 13, 25, 0.41);
+    border-color: rgba(226, 200, 238, 0.33);
+    background-color: rgba(21, 13, 25, 0.41);
 }
 
 .WARNING {
-  border-color: rgba(236, 189, 113, 0.33);
-  background-color: rgba(42, 32, 6, 0.52);
+    border-color: rgba(236, 189, 113, 0.33);
+    background-color: rgba(42, 32, 6, 0.52);
 }
 
 .NOTE {
-  border-color: rgba(200, 238, 233, 0.33);
-  background-color: rgba(221, 255, 251, 0.07);
+    border-color: rgba(200, 238, 233, 0.33);
+    background-color: rgba(221, 255, 251, 0.07);
 }
 
 body {
-  background-color: #252526 !important;
-  color: #9f9f9f !important;
+    background-color: #252526 !important;
+    color: #9f9f9f !important;
 }
 
 .table {
-  color: #9f9f9f !important;
+    color: #9f9f9f !important;
 }
 
 .navbar {
-  background-color: #1e1e1e !important;
-  color: #e0e0e0 !important;
+    background-color: #1e1e1e !important;
+    color: #e0e0e0 !important;
 
-  .navbar-nav .active > .nav-link {
-    color: #fff !important;
-  }
+    .navbar-nav .active > .nav-link {
+        color: #fff !important;
+    }
 }
 
 h1,
 h2,
 h3,
 h4 {
-  color: #fff;
+    color: #fff;
 }
 
 a {
-  color: #51aeff;
+    color: #51aeff;
 }
 
 .nav-tabs .nav-link.active {
-  color: #fff;
-  position: relative;
-  left: 1px;
+    color: #fff;
+    position: relative;
+    left: 1px;
 
-  a {
-    color: #eee;
-  }
+    a {
+        color: #eee;
+    }
 }
 
 .card-header {
-  background-color: rgba(20, 21, 23, 0.15) !important;
+    background-color: rgba(20, 21, 23, 0.15) !important;
 }
 
 h1,
 h2,
 h3 {
-  color: #f0f0f0;
+    color: #f0f0f0;
 }
 
 h3 {
-  border-bottom: 0;
+    border-bottom: 0;
 }
 
 hr {
-  color: #666;
-  border-color: #666;
+    color: #666;
+    border-color: #666;
 }
 
 #docs-navbar .nav li a {
-  border-left-color: transparent;
+    border-left-color: transparent;
 }
 
 pre,
 code,
 kbd {
-  color: #f4f2f9;
-  background-color: #0072be;
+    color: #f4f2f9;
+    background: linear-gradient(#0072be, #093c5e);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.22), 0 5px 35px rgba(0,0,0,0.1);
 }
 
 .table {
-  th {
-    border-color: #6f6f6f !important;
-  }
+    th {
+        border-color: #6f6f6f !important;
+    }
 
-  tr,
-  td {
-    border-color: #555 !important;
-  }
+    tr,
+    td {
+        border-color: #555 !important;
+    }
 }
-

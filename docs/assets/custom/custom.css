@@ -184,18 +184,19 @@ pre,
 code,
 kbd {
   font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
-  padding: 2px 4px;
+  padding: 1px 6px;
+  padding-bottom: 2px;
   font-size: 90%;
-  color: #0072be;
+  color: #fff;
   background-color: #f4f2f9;
-  border-radius: 3px; }
+  border: 0;
+  border-radius: 3px;
+  background: linear-gradient(#0072be, #00406a);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.22), 0 5px 35px rgba(0, 0, 0, 0.1); }
 
 .val {
-  color: #9800be; }
-
-pre,
-code {
-  border: 0 !important; }
+  background: linear-gradient(#9800be, #6b0085);
+  color: #fff; }
 
 .docs .w-100 {
   width: 100% !important;
