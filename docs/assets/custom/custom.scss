@@ -509,3 +509,27 @@ pre {
         box-shadow: 0 8px 10px rgba(0,0,0,0.267), 0 40px 25px rgba(0,0,0,0.15);
     }
 }
+
+.monkey-holder {
+    margin: 0;
+    padding: 0;
+
+    .tiny-monkey {
+        height: 28px;
+        width: auto;
+        position: relative;
+        top: -1px;
+    }
+}
+
+footer {
+    height: auto;
+    min-height: 90px;
+}
+
+
+.wip {
+    small {
+        border: 1px solid rgba(168, 68, 66, 0.25) !important;
+    }
+}

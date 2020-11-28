@@ -1,7 +1,7 @@
 | Setting            | Description                                                                   |
 | :----------------- | :---------------------------------------------------------------------------- |
 | **Scale**          | The perceptual scale of the Voronoi shapes. Higher values create more shapes. |
-| **Jitter**         | Lorem ipsum                                                                   |
+| **Jitter**         | Control the offset of the Voronoi points between symmetrical and chaotic.     |
 | **Seed**           | The randomization pattern or seed for the node's process.                     |
 | **Dual**           | Creates two overlapping Voronoi patterns.                                     |
 | **Perturb**        |

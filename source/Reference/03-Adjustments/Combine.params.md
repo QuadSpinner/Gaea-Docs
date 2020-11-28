@@ -15,5 +15,5 @@
 | **Ratio**           | The ratio applied to the selected method.                                                              |
 | **Swap Inputs**     | Switches the two inputs.                                                                               |
 | **Separation Mask** | When enabled, creates a separation mask that separates the original elements from the combined output. |
-| **Clamp Output**    | Lorem ipsum                                                                                            |
-| **Abs**             | Lorem ipsum                                                                                            |
+| **Clamp Output**    | Clamp the output between 0..1 values, removing any excess spikes or out-of-bound values.               |
+| **Abs**             | When enabled, any value above 0.0 is forced to become 1.0. This is useful for creating hard boundaries out of masks. |

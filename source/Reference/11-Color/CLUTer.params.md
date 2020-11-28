@@ -7,8 +7,8 @@
 | **Color Noise**       | Introduces minor color distortions to the map.                 |
 | **Output Clarity**    | Applies localized contrast enhancements to the output texture. |
 | **Output Auto Level** | Applies an autolevels filter to the output texture.            |
-| **Sample Density**    | Lorem ipsum                                                    |
-|                       | *256 (Fast)* Lorem ipsum                                       |
-|                       | *512 (Slower)* Lorem ipsum                                     |
-|                       | *1024 (Very Slow)* Lorem ipsum                                 |
-|                       | *2048 (Overkill)* Lorem ipsum                                  |
+| **Sample Density**    | The number of samples to use for interpolation between colors. Higher values give smoother gradients (within reason).                                                    |
+|                       | *256 (Fast)* |
+|                       | *512 (Slower)*                                    |
+|                       | *1024 (Very Slow)*                                |
+|                       | *2048 (Overkill)*                              |
