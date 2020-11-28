@@ -76,5 +76,5 @@ Updated every time a new build is released in the  `Bleeding Edge` channel. This
 
 Revision is incremented also when a Bleeding Edge build is rolled into the Production Ready branch.
 
->{.NOTE}
+{.NOTE}
 >The *Revision* element was reset with the release of Gaea 1.0.28 to avoid confusion with the frequent Bleeding Edge updates.

@@ -4,21 +4,7 @@ title: Node Workflow
 ---
 
 
-## Node Properties Conveniences
 
-### Flux Markers
-
-When you move the slider, the last 3 positions are marked with little dots in decreasing opacity levels. These handy little guides can be helpful when exploring settings. They reset every time you unselect that node.
-
-### Revert Node and Save State
-
-Unlike undo, which needs to be done per setting, the Revert node feature is a time saving facility added to all nodes. Whenever you select a node, the "state" of that node is saved to memory. If you change several settings and decide you want to go back to what you had, you can just go to the Node Properties menu and select "Revert Node". This will revert the node back to the saved state.
-
-Be careful, when you select another node, the state of the previous node will be forgotten. But if you want to preserve the state for longer periods of time, you can manually select "Save State" in the same menu for any node. Now that node state is saved in memory until you close the file. You can go back and load the saved state anytime.
-
-### Copy/Paste Settings
-
-You can right-click a node to copy its settings. Then right-click another node of the same type and click Paste Settings to apply those settings to that node.
 
 ## Build Conveniences
 

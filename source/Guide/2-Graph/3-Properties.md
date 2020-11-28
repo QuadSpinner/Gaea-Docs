@@ -55,7 +55,9 @@ Seed Reset is a minor enhancement in the Microincrements UI. It sets the “Defa
 
 ![](/images/ui/properties-flux.png){.w-75}
 
-Flux markers are small dots that represent the last 3 values chosen on the slider previously. They appear when you hover over the slider.
+Flux markers are small dots that represent previous values. They appear when you hover over the slider.
+
+When you move the slider, the last 3 positions are marked with little dots in decreasing opacity levels. These handy little guides can be helpful when exploring settings. They reset every time you unselect that node.
 
 ## Heavy Nodes
 
