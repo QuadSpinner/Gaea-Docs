@@ -270,26 +270,23 @@ pre,
 code,
 kbd {
     font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
-    padding: 2px 4px;
+    padding: 1px 6px;
+    padding-bottom: 2px;
     font-size: 90%;
-    color: #0072be;
+    color: #fff;
     background-color: #f4f2f9;
+    border: 0;
     border-radius: 3px;
+    background: linear-gradient(#0072be, #00406a);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.22), 0 5px 35px rgba(0,0,0,0.1);
 }
 
 .val {
-    color: #9800be;
+    background: linear-gradient(#9800be, #6b0085);
+    color: #fff;
 }
 
-pre,
-code {
-    border: 0 !important;
-}
-
-.docs {
-    // img:not(.w-25):not(.w-50):not(.w-75):not(.w-100) {
-    //   width: 50%;
-    // }
+.docs { 
     .w-100 {
         width: 100% !important;
         max-width: 100% !important;
@@ -342,6 +339,7 @@ code {
 
 .embed-responsive {
     box-shadow: 0 8px 10px rgba(0,0,0,0.267), 0 40px 25px rgba(0,0,0,0.15);
+    margin-bottom: 24px;
 }
 
 .params td em {
@@ -491,5 +489,15 @@ code {
         font-size: 12px;
         font-weight: bold;
         text-transform: uppercase;
+    }
+}
+
+
+.video-holder {
+    margin: 0 !important;
+    padding: 0 !important;
+
+    video {
+        box-shadow: 0 8px 10px rgba(0,0,0,0.267), 0 40px 25px rgba(0,0,0,0.15);
     }
 }

@@ -9,3 +9,6 @@ title: Drag Out
 - If you drag out a line to another port, it will try to connect the two ports.
 - If you drag out a line and drop it in the middle of another node, the connection menu will appear.
 
+<video controls>
+  <source src="/mp4/cnv-portal-create.mp4" type="video/mp4">
+</video>

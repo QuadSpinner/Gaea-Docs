@@ -23,6 +23,9 @@ body {
   .navbar .navbar-nav .active > .nav-link {
     color: #fff !important; }
 
+#docs-navbar .nav li a:hover {
+  color: #fff; }
+
 h1,
 h2,
 h3,
@@ -61,7 +64,8 @@ pre,
 code,
 kbd {
   color: #f4f2f9;
-  background-color: #0072be; }
+  background: linear-gradient(#0072be, #093c5e);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.22), 0 5px 35px rgba(0, 0, 0, 0.1); }
 
 .table th {
   border-color: #6f6f6f !important; }

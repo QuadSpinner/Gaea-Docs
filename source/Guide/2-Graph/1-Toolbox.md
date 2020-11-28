@@ -11,6 +11,10 @@ The handy Toolbox sits inside the graph, giving you quick drag-drop access to al
 
 You can drag and drop a node from the toolbox to your Graph surface. If you drop it on a node, it will automatically connect itself to that node's output.
 
+<video controls>
+  <source src="/mp4/cnv-drop-connect.mp4" type="video/mp4">
+</video>
+
 See @conveniences for more details on how to use the toolbox convenience features.
 
 Modes, Toolbox Placement, and other options are available from the menu in the top right corner of the toolbox.
