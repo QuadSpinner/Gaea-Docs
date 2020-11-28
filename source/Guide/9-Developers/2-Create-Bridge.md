@@ -147,16 +147,19 @@ When you receive the data in your application after the build, you must process 
 
 If you wish to send and receive data (heightfields and masks only) in a specific range, you can choose to use a Custom Range. This can be specified explicitly in @buildmanager or can be passed on-the-fly via the command line.
 
-To use a range of `-1000..1000`, you would supply the following arguments: `--range-min:-1000 --range-max:1000`
+To use a range of `-1000..1000`, you would supply the following arguments: 
+
+`--range-min:-1000 --range-max:1000`{.val}
 
 ## Locating Gaea
 
 To initiate a command line build, you must first find the location of Gaea's installation.
 
 Query the following registry key for Gaea installation and configuration details:
-`HKEY_CURRENT_USER\SOFTWARE\QuadSpinner\Gaea\1.0`
 
-| Value     | Description           | Example                              |
-| --------- | --------------------- | ------------------------------------ |
-| (Default) | Installation Location | `C:\Program Files\QuadSpinner\Gaea\` |
-| Version   | Installed Version     | `1.2.0.0`                            |
+`HKEY_CURRENT_USER\SOFTWARE\QuadSpinner\Gaea\1.0`{.val}
+
+| Value     | Description           | Example                                    |
+| --------- | --------------------- | ------------------------------------------ |
+| (Default) | Installation Location | `C:\Program Files\QuadSpinner\Gaea\`{.val} |
+| Version   | Installed Version     | `1.2.0.0`{.val}                            |
