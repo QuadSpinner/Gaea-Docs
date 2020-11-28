@@ -7,4 +7,4 @@
 | **A**            | Slant of the left slope. (Slant only)                                                           |
 | **B**            | Slant of the right slope. (Slant only)                                                          |
 | **Angle**        | Angle of the overall slant. (Slant only)                                                        |
-| **Mirror Edges** | Lorem ipsum                                                                                     |
+| **Mirror Edges** | Mirror the edge pixels when there is empty space. |
