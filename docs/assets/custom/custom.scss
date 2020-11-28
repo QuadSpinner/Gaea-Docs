@@ -342,6 +342,7 @@ code {
 
 .embed-responsive {
     box-shadow: 0 8px 10px rgba(0,0,0,0.267), 0 40px 25px rgba(0,0,0,0.15);
+    margin-bottom: 24px;
 }
 
 .params td em {
@@ -492,4 +493,20 @@ code {
         font-weight: bold;
         text-transform: uppercase;
     }
+}
+
+
+.video-holder {
+    margin: 0 !important;
+    padding: 0 !important;
+
+    video {
+        box-shadow: 0 8px 10px rgba(0,0,0,0.267), 0 40px 25px rgba(0,0,0,0.15);
+    }
+}
+
+
+blockquote {
+    border: 0;
+    padding: 0;
 }

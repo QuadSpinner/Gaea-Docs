@@ -235,7 +235,8 @@ code {
   width: 75% !important; }
 
 .embed-responsive {
-  box-shadow: 0 8px 10px rgba(0, 0, 0, 0.267), 0 40px 25px rgba(0, 0, 0, 0.15); }
+  box-shadow: 0 8px 10px rgba(0, 0, 0, 0.267), 0 40px 25px rgba(0, 0, 0, 0.15);
+  margin-bottom: 24px; }
 
 .params td em {
   display: block !important;
@@ -349,3 +350,13 @@ code {
     font-size: 12px;
     font-weight: bold;
     text-transform: uppercase; }
+
+.video-holder {
+  margin: 0 !important;
+  padding: 0 !important; }
+  .video-holder video {
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.267), 0 40px 25px rgba(0, 0, 0, 0.15); }
+
+blockquote {
+  border: 0;
+  padding: 0; }

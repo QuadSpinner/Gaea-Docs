@@ -9,11 +9,26 @@ The portal node is a unique concept in graph-based applications. Like a "wormhol
 
 When using the @graph, Portals can be used to connect nodes across different graphs.
 
-Any output port in a node can be converted to a portal. You can create a portal in two ways:
-- @dragout a connection. In the menu that shows up, select `Make Portal`.
-- Select one or more existing connections and press `Ctrl + P` to convert the connections into portal connections.
+### Creating Portals
+Any output port in a node can be converted to a portal. You can create a portal in many ways:
+
+<video controls><source src="/mp4/cnv-portal-create.mp4" type="video/mp4"></video>
+
+@dragout a connection. In the menu that shows up, select `Make Portal`.
+
+<video controls><source src="/mp4/cnv-portal-create-c.mp4" type="video/mp4"></video>
+
+Select a node and press `C` to bring up the Connect menu. Select the port you wish to convert to a portal. You can also hold down `Ctrl` while selecting the convert menu command, and Gaea will connect a @Chokepoint to the desired port and then convert the Chokepoint into a portal. This is very useful to avoid having to reroute connections if you change the node itself or want to add another node after it.
+
+<video controls><source src="/mp4/cnv-portal-convert.mp4" type="video/mp4"></video>
+
+You can also convert existing connections into portals. Select one or more connections and press `Ctrl + P` to convert the connections into portal connections.
+
 
 Once a portal is created, a small tab with the port's name will be visible next to the node.
+
+
+### Connecting to Portals
 
 You can connect to a portal in multiple ways:
 
@@ -32,11 +47,22 @@ Once a portal is connected, a tab showing the name of the portal will be visible
 
 You can rename the portal node to change the name displayed in the portal tab.
 
+
+### Disconnecting Portals
+
 To disconnect a portal from a target node:
-- `Ctrl + right-click` the node. You can select the port you wish to disconnect from the portal.
+
+<video controls><source src="/mp4/cnv-portal-disconnect.mp4" type="video/mp4"></video>
+
+Select the node and press `X`. You can select the port you wish to disconnect from the portal.
+
+### Reverting a Portal
 
 To convert the portal back to a normal node:
-- @dragout a connection from the portal and select `Remove Portal`. Any connections to other nodes in the same graph will be converted to a normal connection. Connections to other graphs will be deleted.
+
+<video controls><source src="/mp4/cnv-portal-remove.mp4" type="video/mp4"></video>
+
+@dragout a connection from the portal and select `Remove Portal`. Any connections to other nodes in the same graph will be converted to a normal connection. Connections to other graphs will be deleted.
 
 ## Chokepoint
 

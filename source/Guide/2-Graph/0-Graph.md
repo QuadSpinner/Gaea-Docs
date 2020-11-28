@@ -9,13 +9,25 @@ Gaea's advanced graph based workflow is the key to creating sophisticated terrai
 
 ![](/images/ui/infinity-graph.png)
 
-{.NOTE}
-> If you have not used node based workflows before, it may look intimidating but Gaea provides a very artist friendly workflow where you are not required to create complex graphs to get good results. Try following some of the simple exercises like @first-terrain or the @tutorials section, and you will see that the graph is quite easy to use. @conveniences further enhance the way you create and manage nodes, making it easy to try different things.
+<div class="embed-responsive embed-responsive-16by9">
+<iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/1A1xXfTlKqM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
-The Infinity Graph allows you to split your terrain graph across multiple tabs using @portals.
+
+If you have not used node based workflows before, it may look intimidating but Gaea provides a very artist friendly workflow where you are not required to create complex graphs to get good results. Try following some of the simple exercises in the @tutorials section, and you will see that the graph is quite easy to use. @conveniences further enhance the way you create and manage nodes, making it easy to try different things.
+
+## Separating the Graph
+
+The Infinity Graph allows you to split your terrain graph across multiple tabs using @portals. This allows you to separate concerns such as creating the main shape, color production, exporting masks, and so on. By reducing the clutter, complex processes become easier to visualize and modify.
+
+<video controls><source src="/mp4/cnv-navigate.mp4" type="video/mp4"></video>
+
+You can quickly navigate across graph tabs using the `,` shortcut on nodes.
 
 ![](/images/ui/graph-menu.png){.w-50}
 
-![](/images/ui/graph-menu-bookmarks.png){.w-50}
+You can move select nodes to different tabs. Portals will be created as required to ensure your connections stay intact.
 
-![](/images/ui/graph-menu-bake.png){.w-50}
+See the @portals page for further details on how to strategically create Portals and Chokepoints to better manage your graph networks.
+
+Also see @conveniences for various ways to manage nodes, both within a graph itself as well as across graph tabs.
