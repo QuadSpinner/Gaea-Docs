@@ -22,9 +22,7 @@ Learn about Gaea, its different concepts, getting around the interface, and how 
 
 Frequently visited: 
   @installing
-| @getting-around
-| @first-terrain
-| @watson
+| @getting-around | @first-terrain | @graph | @lookdev | @portals | @scale | @watson 
 
 <br />
 <br />

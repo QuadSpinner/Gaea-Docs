@@ -15,6 +15,16 @@ title: Keyboard Shortcuts
 | Undo | `Ctrl + Z`|
 | Redo | `Ctrl + Y`|
 | Toggle 2D Viewport | `F6`|
+| Suspend/Resume Engine | `` ` `` |
+| Attempt to cancel preview build | `Esc` |
+
+## Viewport Navigation
+
+| Command          | Shortcut           |
+| :--------------- | -----------------: |
+| Move forward / left / back / right   | `W` `A` `S` `D` |
+| Move up / down | `Q` `E` |
+| Center terrain in viewport | `Space` |
 
 
 ## Graph Commands
