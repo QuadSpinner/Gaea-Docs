@@ -13,9 +13,22 @@ Most of Gaea's Primitives fall into this category. They generate basic geologica
 
 Primitives expose a property called Seed. Changing this property randomizes the shape. This allows you to create multiple primitives that follow the same general paradigm but are distinctly different shapes.
 
-Primitives can be used by themselves, for example the @Mountain node can help create a "hero mountain" without needing other primitives. Or multiple Primitives can be put together using the @Combine node.
+Primitives come in two forms: basic Primitives and Geo Primitives.
 
-When multiple Primitives are combined, they can produce sophisticated shapes.
+### Primitives
+These nodes provide low-level, direct access to the most rudimentary procedural shapes such as fractal noises and simple geometry. @Perlin, @Voronoi, and @Gradient are common primitives.
+
+By themselves, they only create basic shapes, but combined with other Primitives and processed properly with shape modifiers, @Erosion, and @lookdev nodes, they can be transformed into realistic terrains.
+ 
+Multiple Primitives can be put together using the @Combine node. When multiple Primitives are combined, they can produce sophisticated shapes.
+
+### Geo Primitives
+
+Geological Primitives, or Geo Primitives for short, are a more detailed, spefific type of creator node. One of the key aspects of the Geo Primitives is to provide shapes that require very little erosion.
+
+While normal primitives create basic shapes, Geo Primitives create complete geological elements such as @Ridge, @Badlands, @Dunes, @Crater, and so on. This can be a very useful timesaver, as you get near-complete shapes with a single node.
+
+When processed with @Erosion or one or more @lookdev nodes, you can get a complete terrain without having to create elaborate node networks for these tasks.
 
 <div class="embed-responsive embed-responsive-16by9">
 <iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/1A1xXfTlKqM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -24,7 +37,7 @@ When multiple Primitives are combined, they can produce sophisticated shapes.
 This video continues in @tut-color.
 
 
-## Hand Drawn Primitives
+### Hand Drawn Primitives
 
 The @Draw and @Islands nodes allow you to draw shapes which serve as guides upon which further processing is performed. For example, Islands will turn guides into a complex archipelago.
 

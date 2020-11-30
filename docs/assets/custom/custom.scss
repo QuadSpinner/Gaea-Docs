@@ -507,6 +507,13 @@ pre {
 
     video {
         box-shadow: 0 8px 10px rgba(0,0,0,0.267), 0 40px 25px rgba(0,0,0,0.15);
+        border: 2px solid transparent;
+        transition: all linear 0.2s !important;
+
+        &:hover {
+            border: 2px solid #0072be;
+            transition: all linear 0.2s !important;
+        }
     }
 }
 
@@ -532,4 +539,9 @@ footer {
     small {
         border: 1px solid rgba(168, 68, 66, 0.25) !important;
     }
+}
+
+
+.botbot{
+    z-index: 5000;
 }

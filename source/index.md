@@ -13,6 +13,11 @@ The documentation is organized to help you get started with Gaea quickly and eas
 
 <br />
 
+{.TIP}
+> Use the Light/Dark switch at the bottom to change the visual style of the documentation. Dark mode may be easier on the eyes at night.
+
+<br />
+
 <div class="home">
 
 ![](/images/icon-guide.png){.force-left}
