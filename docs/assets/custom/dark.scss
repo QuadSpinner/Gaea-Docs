@@ -31,7 +31,7 @@ body {
     }
 }
 
-#docs-navbar .nav li a:hover{
+#docs-navbar .nav li a:hover {
     color: #fff;
 }
 
@@ -44,6 +44,13 @@ h4 {
 
 a {
     color: #51aeff;
+    transition: color linear 0.2s;
+
+    &:hover {
+        color: rgb(236, 189, 113);
+        transition: color linear 0.2s;
+        text-decoration: none;
+    }
 }
 
 .nav-tabs .nav-link.active {
@@ -77,6 +84,10 @@ hr {
 
 #docs-navbar .nav li a {
     border-left-color: transparent;
+
+    &:hover {
+        border-left-color: #999;
+    }
 }
 
 pre,
@@ -96,4 +107,24 @@ kbd {
     td {
         border-color: #555 !important;
     }
+}
+
+
+.fancybox-content {
+    color: #eee;
+    background-color: #303030;
+}
+
+
+#results {
+
+    small {
+        background: #333;
+    }
+
+    li {
+        border: 1px solid #2f2f2f;
+        background-color: #202020;
+    }
+
 }

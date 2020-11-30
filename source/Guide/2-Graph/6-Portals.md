@@ -32,20 +32,20 @@ Once a portal is created, a small tab with the port's name will be visible next 
 
 You can connect to a portal in multiple ways:
 
-Drag and connect to a portal like you would connect nodes normally. It will be converted to an invisible connection.
-
 ![](/images/ui/portal-menu.png)
 
-@dragout a connection and you will be presented with a list of available portals organized by graphs. Select a portal to connect.
+@dragout a connection and you will be presented with a list of available portals organized by graphs.
 
 ![](/images/ui/search-portals.png){.w-50}
 
 @dragout a connection and type `\` when the menu shows up. This will present you with a searchable list of all available portals.
 
-
 Once a portal is connected, a tab showing the name of the portal will be visible on the target node's input port. The color of the tab represents the node type of the portal.
 
 You can rename the portal node to change the name displayed in the portal tab.
+
+{.NOTE}
+> You can connect to a portal port like a normal connection. This will create a standard connection. Both type of connections can co-exist, however using just one is recommended to avoid visual confusion.
 
 
 ### Disconnecting Portals
@@ -84,3 +84,6 @@ Now everything is routed through the Chokepoint, allowing you to experiment with
 The Chokepoint can be further organized by making its output a portal. You can select all the outgoing connections and press `Ctrl + P` to turn them into portal connections. This is especially useful when working with multiple graphs.
 
 ![](/images/ref/choke_3.png){.w-100}
+
+{.TIP}
+> You can give chokepoints (or any node!) an icon instead of text. Select a node and press `F2` to rename. Inside the rename field, press `Win` + `.` to bring up the Windows emoji picker. You can pick any emoji. This will create an icon for the Chokepoint instead of an abbreviation. 

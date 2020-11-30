@@ -77,13 +77,13 @@ Select two or more nodes and click the MultiMix button. Alternatively, you can p
 
 ### Connect Menu
 
-The Connect menu lets you quickly connect any port to an available portal.
+The Connect menu lets you quickly connect any port to an available portal. Select a node and press `C` to bring up the menu.
 
 <video controls> <source src="/mp4/cnv-portal-connect.mp4" type="video/mp4"></video>
 
 ### Disconnect Menu
 
-The Disconnect menu lets you quickly disconnect any port or even remove a portal.
+The Disconnect menu lets you quickly disconnect any port or even remove a portal. Select a node and press `X` to bring up the menu.
 
 <video controls>
   <source src="/mp4/cnv-portal-disconnect.mp4" type="video/mp4">
@@ -117,6 +117,6 @@ Pressing `F4` once will layout the graph in a linear pattern. Pressing `F4` agai
 
 You can layout portions of a graph by selecting the nodes you want to organize. If none are selected, the entire graph will be organized.
 
->{.TIP}
+{.TIP}
 >While Gaea will try to organize the graph as efficiently and tightly as possible, it cannot anticipate all patterns. It is recommended that you apply auto-layout to portions of the graph at a time - especially those with separate concerns or plenty of branching - to prevent your entire graph from becoming organized too tightly.
 

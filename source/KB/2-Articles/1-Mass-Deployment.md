@@ -33,7 +33,7 @@ For mass deployment, the following may be an easier process as Gaea is now fully
 2. Copy the license key to the install folder.
 3. Now you can create a zip of the folder or copy it however you prefer to as many computers as you like.
 
->{.TIP}
+{.TIP}
 > If you are going to use Gaea with Houdini or another application via a Bridge, please run Gaea and close it. This will initiate local files repositories and registry settings that may be required by other applications to detect and communicate with Gaea.
 
 ## Upgrading

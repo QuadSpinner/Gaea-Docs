@@ -5,10 +5,26 @@ $(document).ready(function () {
     $("#search-field").keyup(function (e) {
         if (e.which === 13) {
             submitSearch();
+        }
+        else if (e.which == 27) {
+            hideSearch();
         } else {
             quickSearch();
         }
     });
+
+    function hideSearch() {
+        $("#quicksearch").addClass("d-none").removeClass("d-block");
+        $(document).removeClass("has-search");
+    }
+
+    $("#main-content").click(function () {
+        if ($(document).hasClass("has-search"))
+            hideSearch();
+    });
+
+    $("#search-field").focus(function () { quickSearch(); })
+    $("#search-field").blur(function () { hideSearch(); })
 
     $(this).keyup(function (e) {
         if (e.which === 8) {
@@ -26,6 +42,7 @@ $(document).ready(function () {
             this.add($.extend({ "id": i }, data[i]));
         }
     });
+
 
     function display_search_results(results, compact) {
 
@@ -63,17 +80,17 @@ $(document).ready(function () {
             $search_results.append("</ul>");
         } else {
             if (compact == true) {
-                $("#quicksearch").addClass("d-none").removeClass("d-block");
+                hideSearch();
             } else {
                 $search_results.html('<p class="mx-5 px-5">No results found.</p>');
             }
         }
 
-
         if (compact == true) {
             $("#quicksearch").removeClass("d-none").addClass("d-block");
+            $(document).addClass("has-search");
         } else {
-            $("#quicksearch").addClass("d-none").removeClass("d-block");
+            hideSearch();
 
             $.fancybox.open({
                 src: '#results',
@@ -92,7 +109,7 @@ $(document).ready(function () {
         event.preventDefault();
         var q = $("#search-field").val();
         q = q.replace(/[^a-zA-Z]/g, '')
-        if (q.length > 2) {
+        if (q.length) {
             var query;
             if (q.indexOf(" ") == -1) {
                 query = q + " " + q + "*";
@@ -108,8 +125,6 @@ $(document).ready(function () {
             }
             var results = window.idx.search(query);
             display_search_results(results, false);
-        } else {
-            noSearch();
         }
     }
 
@@ -117,8 +132,9 @@ $(document).ready(function () {
         event.preventDefault();
         var q = $("#search-field").val();
         q = q.replace(/[^a-zA-Z]/g, '')
-        if (q.length > 2) {
-            var query;
+
+        var query;
+        if (q.length) {
             if (q.indexOf(" ") == -1) {
                 query = q + " " + q + "*";
             } else {
@@ -133,8 +149,6 @@ $(document).ready(function () {
             }
             var results = window.idx.search(query);
             display_search_results(results, true);
-        } else {
-            noSearch();
         }
     }
 });
