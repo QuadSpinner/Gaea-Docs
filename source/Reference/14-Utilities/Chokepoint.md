@@ -11,7 +11,7 @@ In this example, the second @Erosion node is the chokepoint. It feeds several ot
 
 ![](/images/ref/choke_1.png){.w-100}
 
-The easy solution is to interject a Chokepoint node onto the important node. You can hold `Shift` while drag-dropping a Chokepoint on to the Erosion node to interject it and have Gaea reroute all connections. See @nodes for more information.
+The easy solution is to interject a Chokepoint node onto the important node. You can hold `Shift` while drag-dropping a Chokepoint on to the Erosion node to interject it and have Gaea reroute all connections. See @conveniences for more information.
 
 
 ![](/images/ref/choke_2.png){.w-100}

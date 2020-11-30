@@ -52,6 +52,11 @@ If you hold `Shift` then drag an independent node (not connected to any other no
 
 Right-click any node, select `Replace Node` and type in the name of another node. The selected node will be replaced with that node. If the connections match, they will be kept with the new node. If any port names don't match, a @Chokepoint will be created to temporarily hold the connection so you can reroute them manually.
 
+### Get Name from Parent
+Sometimes you have many outputs and you have to spend time naming them properly. Then you need to add auxiliary outputs for those such as normals or data maps, and it can become a giant chore to name them all.
+
+The new `Get name from parent` command in the node context menu can get the name of the parent and add the node's own name as a suffix. For example, Slope becomes "Erosion_Slope".
+
 ## Connection Management
 
 ### Out-to-out quick connections

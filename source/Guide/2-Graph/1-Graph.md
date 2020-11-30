@@ -7,6 +7,19 @@ title: Infinity Graph
 
 Gaea's advanced graph based workflow is the key to creating sophisticated terrains. This open-ended workflow gives you the flexibility to create almost any kind of results that you want.
 
+
+### What are nodes?
+
+If you have not used node based workflows before, it may look intimidating but Gaea provides a very artist friendly workflow where you are not required to create complex graphs to get good results. 
+
+Each node is a heightfield processor that performs a single task. By connecting several nodes, you can create an elaborate program or "recipe" for creating a complex process. Some nodes provide more than one output and input. These additional "ports" can be used for more sophisticated processing of your terrain.
+
+A typical node graph will start with a Primitive or "create" node, have several modification nodes such as @Erosion or @Fx, and then eventually be saved.
+
+Node graphs can only go from left to right but never the opposite as they represent a one-way flow.
+
+Try following some of the simple exercises in the @tutorials section, and you will see that the graph is quite easy to use. @conveniences further enhance the way you create and manage nodes, making it easy to try different things.
+
 ![](/images/ui/infinity-graph.png)
 
 <div class="embed-responsive embed-responsive-16by9">
@@ -14,7 +27,7 @@ Gaea's advanced graph based workflow is the key to creating sophisticated terrai
 </div>
 
 
-If you have not used node based workflows before, it may look intimidating but Gaea provides a very artist friendly workflow where you are not required to create complex graphs to get good results. Try following some of the simple exercises in the @tutorials section, and you will see that the graph is quite easy to use. @conveniences further enhance the way you create and manage nodes, making it easy to try different things.
+
 
 ## Separating the Graph
 
