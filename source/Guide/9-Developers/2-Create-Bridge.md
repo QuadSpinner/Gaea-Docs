@@ -125,7 +125,7 @@ Sample messages:
 
 When a single node requires a long time to build, the progress of that node will be sent with the `>` prefix. You can use this to either hide such messages from your end users, or use it display a specific progress message.
 
-Each individual message will be delimited by a line break character. In most environments, this will be `\n`.
+Each individual message will be delimited by a line break character. In most environments, this will be `\u005C\u006E`.
 
 ## Maintain Scale
 

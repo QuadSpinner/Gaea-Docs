@@ -26,5 +26,22 @@ $(document).ready(function () {
         if ($(this).val() != '') { window.location.href = $(this).val(); }
     });
     $("video").parent().addClass("video-holder");
+
+    if ($("#main-nav").data("hive") !== "none") {
+        $("#main-nav").load("/navs/" + $("#main-nav").data("hive") + "-n.html", function (responseTxt, statusTxt) {
+            if (statusTxt === "success") {
+                $(".xref").each(function () {
+                    if (window.location.href.indexOf($(this).children("a").attr("href")) > -1) {
+                        $(this).addClass("active");
+                        $(this).parent().addClass("in");
+                        const outer = $(this).parent().parent();
+                        $(outer).addClass("expanded");
+                        $(outer).addClass("active");
+                        $(outer).removeClass("collapsed");
+                    }
+                });
+            }
+        });
+    }
 });
 changeStyle();
