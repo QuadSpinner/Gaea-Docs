@@ -1,0 +1,24 @@
+[
+  {
+    "outputFileName": "assets/fixed/bundle.css",
+    "inputFiles": [
+      "assets/fixed/bootstrap-toc.css",
+      "assets/fixed/bootstrap.css",
+      "assets/fixed/toggle.css",
+      "assets/fixed/vs2015.css"
+    ]
+  },
+  {
+    "outputFileName": "assets/libs/bundle.js",
+    "inputFiles": [
+      "assets/libs/jquery.js",
+      "assets/libs/bootstrap.min.js",
+      "assets/libs/bootstrap-toc.min.js",
+      "assets/libs/cookie.min.js",
+      "assets/libs/highlight.pack.js",
+      "assets/libs/hilitor.js",
+      "assets/libs/lunr.min.js",
+      "assets/libs/medium-zoom.min.js"
+    ]
+  }
+]

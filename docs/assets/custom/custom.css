@@ -387,3 +387,9 @@ footer {
 
 .botbot {
   z-index: 5000; }
+
+.grid {
+  display: block;
+  float: left; }
+  .grid:last-child {
+    clear: right; }
