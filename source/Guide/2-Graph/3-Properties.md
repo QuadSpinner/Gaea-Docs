@@ -85,7 +85,8 @@ The node properties menu provides access to additional functionality.
 
 | Command | Description    |
 | ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Reset node | Reset all properties in the node to their default    |
+| Reset node (`Ctrl + R`) | Reset all properties in the node to their default    |
+| Upgrade node | Upgrade a node that uses an old processing version. See @autosave. |
 | Toggle Auto-Apply | Toggle automatic reprocessing of the node when values are updated. See the Heavy Nodes section above.   |
 | Revert Node | Revert the values back to the state they were when you selected the node. This "state" resets every time you go away from the node. It is helpful to undo any accidental or experimental changes you may have made to the node after coming back to it from another node. |
 | Save/Load State | Save the state of the node to be recalled later using the Load command. This is preserved in the session only and resets when you close Gaea or go to a different file.  |
@@ -95,4 +96,3 @@ The node properties menu provides access to additional functionality.
 | Create Preset | Save current settings as a preset file.    |
 | Import Presets | Import presets for this node from file.    |
 | Presets | Apply any existing presets for this node.    |
-
