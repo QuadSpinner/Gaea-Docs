@@ -1,8 +1,143 @@
-<!DOCTYPE html><html lang="en" class="default-style"><head><meta charset="utf-8"><meta http-equiv="x-ua-compatible" content="IE=edge,chrome=1"><meta name="description" content=""><meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0"><title>Extensibility API - Gaea Documentation - QuadSpinner</title><link rel="shortcut icon" href="/Gaea-32.png" type="image/png"><link rel="stylesheet" href="/assets/fixed/bundle.min.css"><link rel="stylesheet" href="/assets/custom/styles.css"><link rel="stylesheet" href="/assets/custom/custom.css"></head><body data-spy="scroll" data-target="#toc"><!-- Layout wrapper --><div id="main"><div class="navbar-fixed-container hidden-print"><div class="navbar navbar-inverse navbar-fixed-top"><nav role="navigation" aria-label="Top Level"><div class="container"><div class="nav navbar-header"><a class="navbar-brand" href="/"> <span itemprop="name">QuadSpinner Gaea</span> </a> <button type="button" class="navbar-toggle" role="navigation" data-toggle="collapse" data-target=".navbar-collapse" aria-label="Toggle Navigation Menu"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button></div><div class="navbar-collapse collapse" role="navigation"><ul class="nav navbar-nav navbar-left" role="presentation"><li class="active"><a href="/Guide/index.html">User Guide</a></li><li><a href="/Reference/index.html">Node Reference</a></li><li><a href="/Learning/index.html">Tutorials</a></li><li><a href="/KB/index.html">Knowledge Base</a></li><li><a href="/Changelogs/index.html">Version History</a></li></ul><ul class="nav navbar-nav navbar-right" role="presentation"><li style="position: relative"><input id="search-field" type="text" placeholder="Search..."><div class="d-none" id="quicksearch"></div></li><li><a itemprop="downloadUrl" href="https://quadspinner.com/download" id="nav-download"> <span class="hidden-sm">Download Gaea</span> </a></li></ul></div></div></nav></div></div><div role="main" id="main-content"><div class="container body-content docs"><nav id="small-nav" aria-label="Topics" class="docs-nav hidden-md hidden-lg hidden-print"><p class="faux-h4">Topics</p><!--REPLACE--OPT--> </nav><div class="row"><div class="col-md-2 docs-navbar-container hidden-print"><nav id="docs-navbar" aria-label="Topics" class="docs-nav visible-md visible-lg"><ul class="nav" id="main-nav" data-hive="guide"></ul></nav></div><div class="col-sm-9 col-md-8 body"><p class="faux-h1">Extensibility API</p><hr><p class="text-danger"><small>This section concerns a feature that will be available in a future version. The functionality may change in the course of development.</small></p><h1 id="gaea-extensibility-api">Gaea Extensibility API</h1><p>The Gaea API provides a lightweight framework for users and vendors to extend Gaea with new nodes, custom functionality, and automation.</p><h2 id="high-level-components">High Level Components</h2><p>The API is divided into three high level components:</p><ul><li><strong>Nodes</strong>: Create your own nodes using C# and C++.</li><li><strong>Application Plugins</strong>: Subscribe to Gaea events and introduce your own code using callbacks in C#.</li><li><strong>Styles</strong>: Create UI modifications, or your own styles for the interface.</li></ul><p>These components will be available in Gaea 2.0.</p><h3 id="build-requirements">Build Requirements</h3><ul><li>Visual Studio 2019 or later</li><li>Microsoft .NET 5.0 or higher</li></ul><p>Plugins can be written using C# or C++. For C++, you must use C++/CLI for the plugin, but may use pure C++ for internal processing if you want to focus on pure performance.</p></div><div class="col-sm-3 col-md-2 docs-subnavbar-container visible-md visible-lg hidden-print"><nav id="toc" data-toggle="toc" aria-label="On Page" data-spy="affix" class="affix"> </nav><div class="botbot"><div class="mt-square-matcha" style="font-size: 8px; font-weight: bold"><input id="cb1" type="checkbox"> <label for="cb1"></label></div></div></div></div></div></div></div><footer role="contentinfo" class="hidden-print"><div class="container"><div class="row"><div class="col-12 text-center"><p class="copyright monkey-holder"><span>&copy; 2018-2020 QuadSpinner. Released under the <a href="https://github.com/QuadSpinner/Gaea-Docs/blob/master/LICENSE" target="_blank">the MIT License</a></span> &nbsp; | &nbsp; <small class="font-weight-strong"> <img src="/images/monkey.png" class="tiny-monkey"> Generated with AngryMonkey, an opensource tool by QuadSpinner. </small></p><br><ul class="links"><li><a href="https://twitter.com/quadspinner/" target="_blank">Twitter</a></li><li><a href="https://youtube.com/quadspinner/" target="_blank">YouTube</a></li><li><a href="https://instagram.com/quadspinner/" target="_blank">Instagram</a></li><li><a id="footer-support-link" href="https://support.QuadSpinner.com/" target="_blank">Support</a></li><li><a id="footer-privacy-link" href="https://QuadSpinner.com/Legal" target="_blank">Terms of Use</a></li></ul></div></div></div></footer><!-- / Layout wrapper --> <!-- Main script --><script src="/assets/libs/bundle.min.js"></script><script src="/assets/js/main.js"></script><script src="/assets/js/search.js"></script><script>document.addEventListener('DOMContentLoaded', (event) => {
+<!DOCTYPE html>
+<html lang="en" class="default-style">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="IE=edge,chrome=1">
+    <meta name="description" content="Official documentation for QuadSpinner Gaea. Includes tutorials and knowledge base.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="generator" content="AngryMonkey 2.0">
+    <title>Extensibility API - Gaea Documentation - QuadSpinner</title>
+    <link rel="shortcut icon" href="/Gaea-32.png" type="image/png">
+    <link rel="stylesheet" href="/assets/fixed/bundle.min.css">
+    <link rel="stylesheet" href="/assets/custom/styles.css">
+    <link rel="stylesheet" href="/assets/custom/custom.css">
+</head>
+<body data-spy="scroll" data-target="#toc" data-hive="User Guide" data-hivehref="Guide" data-parent="Developers" data-parenthref="Developers">
+    <div id="main">
+        <div class="navbar-fixed-container hidden-print">
+            <div class="navbar navbar-inverse navbar-fixed-top ">
+                <nav role="navigation" aria-label="Top Level">
+                    <div class="container">
+                        <div class="nav navbar-header">
+                            <a class="navbar-brand" href="/">
+                                <span itemprop="name">QuadSpinner Gaea</span>
+                            </a>
+                            <button type="button" class="navbar-toggle" role="navigation" data-toggle="collapse"
+                                    data-target=".navbar-collapse" aria-label="Toggle Navigation Menu">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                        </div>
+                        <div class="navbar-collapse collapse" role="navigation">
+                            <ul class="nav navbar-nav navbar-left" role="presentation">
+                                <li><a class="top-nav" href="/Guide/">User Guide</a></li>
+<li><a class="top-nav" href="/Reference/">Node Reference</a></li>
+<li><a class="top-nav" href="/Learning/">Tutorials</a></li>
+<li><a class="top-nav" href="/KB/">Knowledge Base</a></li>
+<li><a class="top-nav" href="/Changelogs/">Version History</a></li>
+
+                            </ul>
+                            <ul class="nav navbar-nav navbar-right" role="presentation">
+                                <li style="position: relative;">
+                                    <input id="search-field" type="text" placeholder="Search..." />
+                                    <div class="d-none" id="quicksearch"></div>
+                                </li>
+                                <li>
+                                    <a itemprop="downloadUrl"
+                                       href="https://quadspinner.com/download" id="nav-download">
+                                        <span class="hidden-sm">Download Gaea</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <div role="main" id="main-content">
+            <div class="container body-content docs">
+                <div class="row">
+                    <div class="col-md-2 docs-navbar-container hidden-print">
+                        <nav id="docs-navbar" aria-label="Topics" class="docs-nav visible-md visible-lg ">
+                            <ul class="nav" id="main-nav">
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="col-sm-9 col-md-8 body">
+                        <ol class="breadcrumb visible-md visible-lg">
+
+                        </ol>
+
+                        <p class="faux-h1">Extensibility API</p><p class="text-danger"><small>This section concerns a feature that will be available in a future version. The functionality may change in the course of development.</small></p>
+<h1 id="gaea-extensibility-api">Gaea Extensibility API</h1>
+<p>The Gaea API provides a lightweight framework for users and vendors to extend Gaea with new nodes, custom functionality, and automation.</p>
+<h2 id="high-level-components">High Level Components</h2>
+<p>The API is divided into three high level components:</p>
+<ul>
+<li><strong>Nodes</strong>: Create your own nodes using C# and C++.</li>
+<li><strong>Application Plugins</strong>: Subscribe to Gaea events and introduce your own code using callbacks in C#.</li>
+<li><strong>Styles</strong>: Create UI modifications, or your own styles for the interface.</li>
+</ul>
+<p>These components will be available in Gaea 2.0.</p>
+<h3 id="build-requirements">Build Requirements</h3>
+<ul>
+<li>Visual Studio 2019 or later</li>
+<li>Microsoft .NET 5.0 or higher</li>
+</ul>
+<p>Plugins can be written using C# or C++. For C++, you must use C++/CLI for the plugin, but may use pure C++ for internal processing if you want to focus on pure performance.</p>
+
+                    </div>
+                    <div class="col-sm-3 col-md-2 docs-subnavbar-container visible-md visible-lg hidden-print">
+                        <nav id="toc" data-toggle="toc" aria-label="On Page" data-spy="affix" class="affix">
+                        </nav>
+                        <div class="botbot">
+                            <div class="mt-square-matcha" style="font-size: 8px; font-weight: bold;">
+                                <input id="cb1" type="checkbox" />
+                                <label for="cb1"></label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer role="contentinfo" class="hidden-print">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <p class="copyright monkey-holder">
+                        <span>&copy; 2018-2020 QuadSpinner. Released under the <a href="https://github.com/QuadSpinner/Gaea-Docs/blob/master/LICENSE" target="_blank">the MIT License</a></span>
+                        &nbsp; | &nbsp;
+                        <small class="font-weight-strong">
+                            <img src="/images/monkey.png" class="tiny-monkey" /> Generated with AngryMonkey, an opensource tool by QuadSpinner.
+                        </small>
+                    </p>
+                    <br />
+                    <ul class="links">
+                        <li><a href="https://twitter.com/quadspinner/" target="_blank">Twitter</a></li>
+                        <li><a href="https://youtube.com/quadspinner/" target="_blank">YouTube</a></li>
+                        <li><a href="https://instagram.com/quadspinner/" target="_blank">Instagram</a></li>
+                        <li><a id="footer-support-link" href="https://support.QuadSpinner.com/" target="_blank">Support</a></li>
+                        <li><a id="footer-privacy-link" href="https://QuadSpinner.com/Legal" target="_blank">Terms of Use</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/assets/libs/bundle.min.js"></script>
+    <script src="/assets/js/main.js"></script>
+    <script src="/assets/js/search.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', (event) => {
             document.querySelectorAll('pre').forEach((block) => {
                 hljs.highlightBlock(block);
             });
             mediumZoom('.zoom', { margin: 36, background: '#333333' });
             mediumZoom('figure img', { margin: 36, background: '#333333' });
             mediumZoom('.img-fluid', { margin: 36, background: '#333333' });
-        });</script></body></html>
+        });
+    </script>
+</body>
+</html>

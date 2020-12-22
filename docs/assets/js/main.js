@@ -27,8 +27,23 @@ $(document).ready(function () {
     });
     $("video").parent().addClass("video-holder");
 
-    if ($("#main-nav").data("hive") !== "none") {
-        $("#main-nav").load("/navs/" + $("#main-nav").data("hive") + "-n.html", function (responseTxt, statusTxt) {
+    $(".top-nav").each(function () {
+        if (window.location.href.indexOf($(this).attr("href")) > -1) {
+            $(this).parent().addClass("active");
+        }
+    });
+
+    if ($("body").data("hive") !== "") {
+        $(".breadcrumb").append('<li class="breadcrumb-item"><a href="/">Home</a></li>');
+        $(".breadcrumb").append('<li class="breadcrumb-item"><a href="/' + $("body").data("hivehref") + '">' + $("body").data("hive") + '</a></li>');
+        if ($("body").data("parent") !== "") {
+            $(".breadcrumb").append('<li class="breadcrumb-item"><a href="/' + $("body").data("hivehref") + '/' + $("body").data("parenthref") + '">' + $("body").data("parent") + '</a></li>');
+        }
+        $(".breadcrumb").append('<li class="breadcrumb-item active">' + $("p.faux-h1").text() + '</li>');
+    }
+
+    if ($("body").data("hivehref") !== "") {
+        $("#main-nav").load("/navs/" + $("body").data("hivehref") + "-n.html", function (responseTxt, statusTxt) {
             if (statusTxt === "success") {
                 $(".xref").each(function () {
                     if (window.location.href.indexOf($(this).children("a").attr("href")) > -1) {

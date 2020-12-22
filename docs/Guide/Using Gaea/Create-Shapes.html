@@ -1,8 +1,151 @@
-<!DOCTYPE html><html lang="en" class="default-style"><head><meta charset="utf-8"><meta http-equiv="x-ua-compatible" content="IE=edge,chrome=1"><meta name="description" content=""><meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0"><title>Create with Primitives - Gaea Documentation - QuadSpinner</title><link rel="shortcut icon" href="/Gaea-32.png" type="image/png"><link rel="stylesheet" href="/assets/fixed/bundle.min.css"><link rel="stylesheet" href="/assets/custom/styles.css"><link rel="stylesheet" href="/assets/custom/custom.css"></head><body data-spy="scroll" data-target="#toc"><!-- Layout wrapper --><div id="main"><div class="navbar-fixed-container hidden-print"><div class="navbar navbar-inverse navbar-fixed-top"><nav role="navigation" aria-label="Top Level"><div class="container"><div class="nav navbar-header"><a class="navbar-brand" href="/"> <span itemprop="name">QuadSpinner Gaea</span> </a> <button type="button" class="navbar-toggle" role="navigation" data-toggle="collapse" data-target=".navbar-collapse" aria-label="Toggle Navigation Menu"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button></div><div class="navbar-collapse collapse" role="navigation"><ul class="nav navbar-nav navbar-left" role="presentation"><li class="active"><a href="/Guide/index.html">User Guide</a></li><li><a href="/Reference/index.html">Node Reference</a></li><li><a href="/Learning/index.html">Tutorials</a></li><li><a href="/KB/index.html">Knowledge Base</a></li><li><a href="/Changelogs/index.html">Version History</a></li></ul><ul class="nav navbar-nav navbar-right" role="presentation"><li style="position: relative"><input id="search-field" type="text" placeholder="Search..."><div class="d-none" id="quicksearch"></div></li><li><a itemprop="downloadUrl" href="https://quadspinner.com/download" id="nav-download"> <span class="hidden-sm">Download Gaea</span> </a></li></ul></div></div></nav></div></div><div role="main" id="main-content"><div class="container body-content docs"><nav id="small-nav" aria-label="Topics" class="docs-nav hidden-md hidden-lg hidden-print"><p class="faux-h4">Topics</p><!--REPLACE--OPT--> </nav><div class="row"><div class="col-md-2 docs-navbar-container hidden-print"><nav id="docs-navbar" aria-label="Topics" class="docs-nav visible-md visible-lg"><ul class="nav" id="main-nav" data-hive="guide"></ul></nav></div><div class="col-sm-9 col-md-8 body"><p class="faux-h1">Create with Primitives</p><hr><p>CG applications use primitives, such as cubes and spheres, to create basic geometry. Gaea being a terrain software uses geological primitives such as <a href="/Reference/Geo%20Primitives/Mountain.html">Mountain</a>, <a href="/Reference/Geo%20Primitives/Range.html">Range</a>, and <a href="/Reference/Geo%20Primitives/Crater.html">Crater</a>.</p><h2 id="procedural-primitives">Procedural Primitives</h2><p>Most of Gaea's Primitives fall into this category. They generate basic geological shapes that can then be processed and eroded to look like a realistic terrain. Procedural generation allows you to create an infinite number of variations from the same node.</p><p><code>TODO: Image</code></p><p>Primitives expose a property called Seed. Changing this property randomizes the shape. This allows you to create multiple primitives that follow the same general paradigm but are distinctly different shapes.</p><p>Primitives come in two forms: basic Primitives and Geo Primitives.</p><h3 id="primitives">Primitives</h3><p>These nodes provide low-level, direct access to the most rudimentary procedural shapes such as fractal noises and simple geometry. <a href="/Reference/Primitives/Perlin.html">Perlin</a>, <a href="/Reference/Primitives/Voronoi.html">Voronoi</a>, and <a href="/Reference/Primitives/Gradient.html">Gradient</a> are common primitives.</p><p>By themselves, they only create basic shapes, but combined with other Primitives and processed properly with shape modifiers, <a href="/Reference/Erosion/Erosion.html">Erosion</a>, and <a href="/Guide/Using%20Gaea/LookDev.html">Look Dev</a> nodes, they can be transformed into realistic terrains.</p><p>Multiple Primitives can be put together using the <a href="/Reference/Adjustments/Combine.html">Combine</a> node. When multiple Primitives are combined, they can produce sophisticated shapes.</p><h3 id="geo-primitives">Geo Primitives</h3><p>Geological Primitives, or Geo Primitives for short, are a more detailed, spefific type of creator node. One of the key aspects of the Geo Primitives is to provide shapes that require very little erosion.</p><p>While normal primitives create basic shapes, Geo Primitives create complete geological elements such as <a href="/Reference/Geo%20Primitives/Ridge.html">Ridge</a>, <a href="/Reference/Geo%20Primitives/Badlands.html">Badlands</a>, <a href="/Reference/Geo%20Primitives/Dunes.html">Dunes</a>, <a href="/Reference/Geo%20Primitives/Crater.html">Crater</a>, and so on. This can be a very useful timesaver, as you get near-complete shapes with a single node.</p><p>When processed with <a href="/Reference/Erosion/Erosion.html">Erosion</a> or one or more <a href="/Guide/Using%20Gaea/LookDev.html">Look Dev</a> nodes, you can get a complete terrain without having to create elaborate node networks for these tasks.</p><div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/1A1xXfTlKqM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe></div><p>This video continues in <a href="/Learning/Tutorials/Intro-Color.html">Color Production</a>.</p><h3 id="hand-drawn-primitives">Hand Drawn Primitives</h3><p>The <a href="/Reference/Primitives/Draw.html">Draw</a> and <a href="/Reference/Geo%20Primitives/Island.html">Island</a>s nodes allow you to draw shapes which serve as guides upon which further processing is performed. For example, Islands will turn guides into a complex archipelago.</p><p>The <a href="/Reference/Data/Mask.html">Mask</a> node can also act as a Primitive even though it is categorized as a Data Map in the toolbox. However, it will not process the shape you draw.</p><h2 id="file-import">File Import</h2><p>To import a heightfield in any major 32, 16, or 8 bit image format, create a <a href="/Reference/Primitives/File.html">File</a> node and load the desired file. You can simply drag and drop a valid file on the graph and a <a href="/Reference/Primitives/File.html">File</a> node will be created for you.</p><h3 id="importing-meshes-and-geospatial-data">Importing Meshes and Geospatial Data</h3><p>Support for importing meshes as heightmaps, and satellite data such as DEM, SRTM, and other formats will be available soon.</p></div><div class="col-sm-3 col-md-2 docs-subnavbar-container visible-md visible-lg hidden-print"><nav id="toc" data-toggle="toc" aria-label="On Page" data-spy="affix" class="affix"> </nav><div class="botbot"><div class="mt-square-matcha" style="font-size: 8px; font-weight: bold"><input id="cb1" type="checkbox"> <label for="cb1"></label></div></div></div></div></div></div></div><footer role="contentinfo" class="hidden-print"><div class="container"><div class="row"><div class="col-12 text-center"><p class="copyright monkey-holder"><span>&copy; 2018-2020 QuadSpinner. Released under the <a href="https://github.com/QuadSpinner/Gaea-Docs/blob/master/LICENSE" target="_blank">the MIT License</a></span> &nbsp; | &nbsp; <small class="font-weight-strong"> <img src="/images/monkey.png" class="tiny-monkey"> Generated with AngryMonkey, an opensource tool by QuadSpinner. </small></p><br><ul class="links"><li><a href="https://twitter.com/quadspinner/" target="_blank">Twitter</a></li><li><a href="https://youtube.com/quadspinner/" target="_blank">YouTube</a></li><li><a href="https://instagram.com/quadspinner/" target="_blank">Instagram</a></li><li><a id="footer-support-link" href="https://support.QuadSpinner.com/" target="_blank">Support</a></li><li><a id="footer-privacy-link" href="https://QuadSpinner.com/Legal" target="_blank">Terms of Use</a></li></ul></div></div></div></footer><!-- / Layout wrapper --> <!-- Main script --><script src="/assets/libs/bundle.min.js"></script><script src="/assets/js/main.js"></script><script src="/assets/js/search.js"></script><script>document.addEventListener('DOMContentLoaded', (event) => {
+<!DOCTYPE html>
+<html lang="en" class="default-style">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="IE=edge,chrome=1">
+    <meta name="description" content="Official documentation for QuadSpinner Gaea. Includes tutorials and knowledge base.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="generator" content="AngryMonkey 2.0">
+    <title>Create with Primitives - Gaea Documentation - QuadSpinner</title>
+    <link rel="shortcut icon" href="/Gaea-32.png" type="image/png">
+    <link rel="stylesheet" href="/assets/fixed/bundle.min.css">
+    <link rel="stylesheet" href="/assets/custom/styles.css">
+    <link rel="stylesheet" href="/assets/custom/custom.css">
+</head>
+<body data-spy="scroll" data-target="#toc" data-hive="User Guide" data-hivehref="Guide" data-parent="Using Gaea" data-parenthref="Using Gaea">
+    <div id="main">
+        <div class="navbar-fixed-container hidden-print">
+            <div class="navbar navbar-inverse navbar-fixed-top ">
+                <nav role="navigation" aria-label="Top Level">
+                    <div class="container">
+                        <div class="nav navbar-header">
+                            <a class="navbar-brand" href="/">
+                                <span itemprop="name">QuadSpinner Gaea</span>
+                            </a>
+                            <button type="button" class="navbar-toggle" role="navigation" data-toggle="collapse"
+                                    data-target=".navbar-collapse" aria-label="Toggle Navigation Menu">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                        </div>
+                        <div class="navbar-collapse collapse" role="navigation">
+                            <ul class="nav navbar-nav navbar-left" role="presentation">
+                                <li><a class="top-nav" href="/Guide/">User Guide</a></li>
+<li><a class="top-nav" href="/Reference/">Node Reference</a></li>
+<li><a class="top-nav" href="/Learning/">Tutorials</a></li>
+<li><a class="top-nav" href="/KB/">Knowledge Base</a></li>
+<li><a class="top-nav" href="/Changelogs/">Version History</a></li>
+
+                            </ul>
+                            <ul class="nav navbar-nav navbar-right" role="presentation">
+                                <li style="position: relative;">
+                                    <input id="search-field" type="text" placeholder="Search..." />
+                                    <div class="d-none" id="quicksearch"></div>
+                                </li>
+                                <li>
+                                    <a itemprop="downloadUrl"
+                                       href="https://quadspinner.com/download" id="nav-download">
+                                        <span class="hidden-sm">Download Gaea</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <div role="main" id="main-content">
+            <div class="container body-content docs">
+                <div class="row">
+                    <div class="col-md-2 docs-navbar-container hidden-print">
+                        <nav id="docs-navbar" aria-label="Topics" class="docs-nav visible-md visible-lg ">
+                            <ul class="nav" id="main-nav">
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="col-sm-9 col-md-8 body">
+                        <ol class="breadcrumb visible-md visible-lg">
+
+                        </ol>
+
+                        <p class="faux-h1">Create with Primitives</p><p>CG applications use primitives, such as cubes and spheres, to create basic geometry. Gaea being a terrain software uses geological primitives such as <a href="%2fReference%2fGeo+Primitives%2fMountain.html">Mountain</a>, <a href="%2fReference%2fGeo+Primitives%2fRange.html">Range</a>, and <a href="%2fReference%2fGeo+Primitives%2fCrater.html">Crater</a>.</p>
+<h2 id="procedural-primitives">Procedural Primitives</h2>
+<p>Most of Gaea's Primitives fall into this category. They generate basic geological shapes that can then be processed and eroded to look like a realistic terrain. Procedural generation allows you to create an infinite number of variations from the same node.</p>
+<p><code>TODO: Image</code></p>
+<p>Primitives expose a property called Seed. Changing this property randomizes the shape. This allows you to create multiple primitives that follow the same general paradigm but are distinctly different shapes.</p>
+<p>Primitives come in two forms: basic Primitives and Geo Primitives.</p>
+<h3 id="primitives">Primitives</h3>
+<p>These nodes provide low-level, direct access to the most rudimentary procedural shapes such as fractal noises and simple geometry. <a href="%2fReference%2fPrimitives%2fPerlin.html">Perlin</a>, <a href="%2fReference%2fPrimitives%2fVoronoi.html">Voronoi</a>, and <a href="%2fReference%2fPrimitives%2fGradient.html">Gradient</a> are common primitives.</p>
+<p>By themselves, they only create basic shapes, but combined with other Primitives and processed properly with shape modifiers, <a href="%2fReference%2fErosion%2fErosion.html">Erosion</a>, and <a href="%2fGuide%2fUsing+Gaea%2fLookDev.html">Look Dev</a> nodes, they can be transformed into realistic terrains.</p>
+<p>Multiple Primitives can be put together using the <a href="%2fReference%2fAdjustments%2fCombine.html">Combine</a> node. When multiple Primitives are combined, they can produce sophisticated shapes.</p>
+<h3 id="geo-primitives">Geo Primitives</h3>
+<p>Geological Primitives, or Geo Primitives for short, are a more detailed, spefific type of creator node. One of the key aspects of the Geo Primitives is to provide shapes that require very little erosion.</p>
+<p>While normal primitives create basic shapes, Geo Primitives create complete geological elements such as <a href="%2fReference%2fGeo+Primitives%2fRidge.html">Ridge</a>, <a href="%2fReference%2fGeo+Primitives%2fBadlands.html">Badlands</a>, <a href="%2fReference%2fGeo+Primitives%2fDunes.html">Dunes</a>, <a href="%2fReference%2fGeo+Primitives%2fCrater.html">Crater</a>, and so on. This can be a very useful timesaver, as you get near-complete shapes with a single node.</p>
+<p>When processed with <a href="%2fReference%2fErosion%2fErosion.html">Erosion</a> or one or more <a href="%2fGuide%2fUsing+Gaea%2fLookDev.html">Look Dev</a> nodes, you can get a complete terrain without having to create elaborate node networks for these tasks.</p>
+<div class="embed-responsive embed-responsive-16by9">
+<iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/1A1xXfTlKqM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<p>This video continues in <a href="%2fLearning%2fTutorials%2fIntro-Color.html">Color Production</a>.</p>
+<h3 id="hand-drawn-primitives">Hand Drawn Primitives</h3>
+<p>The <a href="%2fReference%2fPrimitives%2fDraw.html">Draw</a> and <a href="%2fReference%2fGeo+Primitives%2fIsland.html">Island</a>s nodes allow you to draw shapes which serve as guides upon which further processing is performed. For example, Islands will turn guides into a complex archipelago.</p>
+<p>The <a href="%2fReference%2fData%2fMask.html">Mask</a> node can also act as a Primitive even though it is categorized as a Data Map in the toolbox. However, it will not process the shape you draw.</p>
+<h2 id="file-import">File Import</h2>
+<p>To import a heightfield in any major 32, 16, or 8 bit image format, create a <a href="%2fReference%2fPrimitives%2fFile.html">File</a> node and load the desired file. You can simply drag and drop a valid file on the graph and a <a href="%2fReference%2fPrimitives%2fFile.html">File</a> node will be created for you.</p>
+<h3 id="importing-meshes-and-geospatial-data">Importing Meshes and Geospatial Data</h3>
+<p>Support for importing meshes as heightmaps, and satellite data such as DEM, SRTM, and other formats will be available soon.</p>
+
+                    </div>
+                    <div class="col-sm-3 col-md-2 docs-subnavbar-container visible-md visible-lg hidden-print">
+                        <nav id="toc" data-toggle="toc" aria-label="On Page" data-spy="affix" class="affix">
+                        </nav>
+                        <div class="botbot">
+                            <div class="mt-square-matcha" style="font-size: 8px; font-weight: bold;">
+                                <input id="cb1" type="checkbox" />
+                                <label for="cb1"></label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer role="contentinfo" class="hidden-print">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <p class="copyright monkey-holder">
+                        <span>&copy; 2018-2020 QuadSpinner. Released under the <a href="https://github.com/QuadSpinner/Gaea-Docs/blob/master/LICENSE" target="_blank">the MIT License</a></span>
+                        &nbsp; | &nbsp;
+                        <small class="font-weight-strong">
+                            <img src="/images/monkey.png" class="tiny-monkey" /> Generated with AngryMonkey, an opensource tool by QuadSpinner.
+                        </small>
+                    </p>
+                    <br />
+                    <ul class="links">
+                        <li><a href="https://twitter.com/quadspinner/" target="_blank">Twitter</a></li>
+                        <li><a href="https://youtube.com/quadspinner/" target="_blank">YouTube</a></li>
+                        <li><a href="https://instagram.com/quadspinner/" target="_blank">Instagram</a></li>
+                        <li><a id="footer-support-link" href="https://support.QuadSpinner.com/" target="_blank">Support</a></li>
+                        <li><a id="footer-privacy-link" href="https://QuadSpinner.com/Legal" target="_blank">Terms of Use</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/assets/libs/bundle.min.js"></script>
+    <script src="/assets/js/main.js"></script>
+    <script src="/assets/js/search.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', (event) => {
             document.querySelectorAll('pre').forEach((block) => {
                 hljs.highlightBlock(block);
             });
             mediumZoom('.zoom', { margin: 36, background: '#333333' });
             mediumZoom('figure img', { margin: 36, background: '#333333' });
             mediumZoom('.img-fluid', { margin: 36, background: '#333333' });
-        });</script></body></html>
+        });
+    </script>
+</body>
+</html>

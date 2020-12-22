@@ -1,8 +1,192 @@
-<!DOCTYPE html><html lang="en" class="default-style"><head><meta charset="utf-8"><meta http-equiv="x-ua-compatible" content="IE=edge,chrome=1"><meta name="description" content=""><meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0"><title>Convenience Features - Gaea Documentation - QuadSpinner</title><link rel="shortcut icon" href="/Gaea-32.png" type="image/png"><link rel="stylesheet" href="/assets/fixed/bundle.min.css"><link rel="stylesheet" href="/assets/custom/styles.css"><link rel="stylesheet" href="/assets/custom/custom.css"></head><body data-spy="scroll" data-target="#toc"><!-- Layout wrapper --><div id="main"><div class="navbar-fixed-container hidden-print"><div class="navbar navbar-inverse navbar-fixed-top"><nav role="navigation" aria-label="Top Level"><div class="container"><div class="nav navbar-header"><a class="navbar-brand" href="/"> <span itemprop="name">QuadSpinner Gaea</span> </a> <button type="button" class="navbar-toggle" role="navigation" data-toggle="collapse" data-target=".navbar-collapse" aria-label="Toggle Navigation Menu"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button></div><div class="navbar-collapse collapse" role="navigation"><ul class="nav navbar-nav navbar-left" role="presentation"><li class="active"><a href="/Guide/index.html">User Guide</a></li><li><a href="/Reference/index.html">Node Reference</a></li><li><a href="/Learning/index.html">Tutorials</a></li><li><a href="/KB/index.html">Knowledge Base</a></li><li><a href="/Changelogs/index.html">Version History</a></li></ul><ul class="nav navbar-nav navbar-right" role="presentation"><li style="position: relative"><input id="search-field" type="text" placeholder="Search..."><div class="d-none" id="quicksearch"></div></li><li><a itemprop="downloadUrl" href="https://quadspinner.com/download" id="nav-download"> <span class="hidden-sm">Download Gaea</span> </a></li></ul></div></div></nav></div></div><div role="main" id="main-content"><div class="container body-content docs"><nav id="small-nav" aria-label="Topics" class="docs-nav hidden-md hidden-lg hidden-print"><p class="faux-h4">Topics</p><!--REPLACE--OPT--> </nav><div class="row"><div class="col-md-2 docs-navbar-container hidden-print"><nav id="docs-navbar" aria-label="Topics" class="docs-nav visible-md visible-lg"><ul class="nav" id="main-nav" data-hive="guide"></ul></nav></div><div class="col-sm-9 col-md-8 body"><p class="faux-h1">Convenience Features</p><hr><p>Quality of life for the user is the baseline for all we do. Gaea features a large array of unobtrusive (and sometimes even hidden) features that can go a long way towards making your workflow more efficient.</p><h2 id="node-management">Node Management</h2><h3 id="quick-create">Quick Create</h3><p>To create your first node, right-click in the graph and type the name of the node you want to create. Then hit <code>Enter</code>. The node will be created at the cursor location. You can also press <code>TAB</code> to search for nodes.</p><p><img src="/images/ui/search-nodes.png" class="w-50 img-fluid" alt=""></p><p>Next, rather than setting up the next node similarly and then connecting it manually, you can drag a connection into empty space and use the quick create menu. You can click on a particular node name from the quick create menu, or you can type in a node name which will show the list of matching nodes. Selecting a node from this list connects to it.</p><p>The Quick Create menu can also show suggestions based on your previous patterns.</p><p>See <a href="/Guide/Graph/Predictive.html">Predictive System</a> for information on how Gaea suggests nodes.</p><h3 id="drop-create">Drop Create</h3><video controls="controls"><source src="/mp4/cnv-drop-connect.mp4" type="video/mp4"></video><p>All graph applications require you to drop the node, connect it manually, and then organize as needed. Gaea does that for you! Just drop the node on another node and they'll be connected and auto-organized.</p><p>Dragging a node from the <a href="/Guide/Graph/Toolbox.html">Toolbox</a> and dropping it on an existing node will automatically connect it to that node's primary output. If another node already exists, the new node will be automatically organized for you.</p><h3 id="interject-node">Interject Node</h3><p><strong>Drop Interject</strong></p><video controls="controls"><source src="/mp4/cnv-interject.mp4" type="video/mp4"></video><p>If you hold <code>Shift</code> and drop a node on an existing node, the new node will interject itself between the node's all outgoing primary output connections.</p><p><strong>Drag Interject</strong></p><video controls="controls"><source src="/mp4/cnv-interject-drag.mp4" type="video/mp4"></video><p>If you hold <code>Shift</code> then drag an independent node (not connected to any other node) over a connection and release the mouse, the node will be interject itself between the two nodes of the existing connections.</p><h3 id="replace-node">Replace Node</h3><p>Right-click any node, select <code>Replace Node</code> and type in the name of another node. The selected node will be replaced with that node. If the connections match, they will be kept with the new node. If any port names don't match, a <a href="/Reference/Utilities/Chokepoint.html">Chokepoint</a> will be created to temporarily hold the connection so you can reroute them manually.</p><h3 id="get-name-from-parent">Get Name from Parent</h3><p>Sometimes you have many outputs and you have to spend time naming them properly. Then you need to add auxiliary outputs for those such as normals or data maps, and it can become a giant chore to name them all.</p><p>The new <code>Get name from parent</code> command in the node context menu can get the name of the parent and add the node's own name as a suffix. For example, Slope becomes &quot;Erosion_Slope&quot;.</p><h2 id="connection-management">Connection Management</h2><h3 id="out-to-out-quick-connections">Out-to-out quick connections</h3><video controls="controls"><source src="/mp4/cnv-out-out.mp4" type="video/mp4"></video><p>When you drag an output connection to another output connection, a <a href="/Reference/Adjustments/Combine.html">Combine</a> node is created with the two ports serving as the inputs for the Combine node.</p><h3 id="multimix">MultiMix</h3><video controls="controls"><source src="/mp4/cnv-multimix.mp4" type="video/mp4"></video><p>Select two or more nodes and click the MultiMix button. Alternatively, you can press <code>F8</code>. This will instantly create a sequence of Combine nodes to mix the selected nodes together. For more detailed control, you can select two at a time and MultiMix the results.</p><h3 id="connect-menu">Connect Menu</h3><p>The Connect menu lets you quickly connect any port to an available portal. Select a node and press <code>C</code> to bring up the menu.</p><p><video controls="controls"><source src="/mp4/cnv-portal-connect.mp4" type="video/mp4"></video></p><h3 id="disconnect-menu">Disconnect Menu</h3><p>The Disconnect menu lets you quickly disconnect any port or even remove a portal. Select a node and press <code>X</code> to bring up the menu.</p><video controls="controls"><source src="/mp4/cnv-portal-disconnect.mp4" type="video/mp4"></video><h2 id="navigation">Navigation</h2><p>Navigating a complex graph can be a tedious process. You can use the following conveniences to make this a lot easier.</p><h3 id="navigate-menu">Navigate Menu</h3><p>The Quick Navigate menu can be brought up by selecting a node and pressing <code>,</code>. You can then navigate to any connected nodes, including portals from other graphs.</p><video controls="controls"><source src="/mp4/cnv-navigate.mp4" type="video/mp4"></video><h3 id="node-bookmarks">Node Bookmarks</h3><p><img src="/images/ui/graph-menu-bookmarks.png" class="w-50 img-fluid" alt=""></p><p>You can bookmark nodes you find yourself going to frequently. Right-click a node and select <code>Mark as Favorite</code>. You can then access all bookmarked nodes from the favorites/bookmarks menu in the graph toolbar. You can also use <a href="/Guide/Interface/Keyboard.html">Keyboard Shortcuts</a> <code>1-9</code> to access the top 9 nodes.</p><h2 id="auto-layout">Auto Layout</h2><p>Even the most complicated graphs can be automatically organized. Just press <code>F4</code> in the graph.</p><p>Pressing <code>F4</code> once will layout the graph in a linear pattern. Pressing <code>F4</code> again lays out the graph in a waterfall pattern. In the waterfall pattern, Gaea will intelligently try to figure out the junctions in the graph and stagger the subsequence nodes accordingly.</p><p>You can layout portions of a graph by selecting the nodes you want to organize. If none are selected, the entire graph will be organized.</p><blockquote class="TIP blockquote"><p>While Gaea will try to organize the graph as efficiently and tightly as possible, it cannot anticipate all patterns. It is recommended that you apply auto-layout to portions of the graph at a time - especially those with separate concerns or plenty of branching - to prevent your entire graph from becoming organized too tightly.</p></blockquote></div><div class="col-sm-3 col-md-2 docs-subnavbar-container visible-md visible-lg hidden-print"><nav id="toc" data-toggle="toc" aria-label="On Page" data-spy="affix" class="affix"> </nav><div class="botbot"><div class="mt-square-matcha" style="font-size: 8px; font-weight: bold"><input id="cb1" type="checkbox"> <label for="cb1"></label></div></div></div></div></div></div></div><footer role="contentinfo" class="hidden-print"><div class="container"><div class="row"><div class="col-12 text-center"><p class="copyright monkey-holder"><span>&copy; 2018-2020 QuadSpinner. Released under the <a href="https://github.com/QuadSpinner/Gaea-Docs/blob/master/LICENSE" target="_blank">the MIT License</a></span> &nbsp; | &nbsp; <small class="font-weight-strong"> <img src="/images/monkey.png" class="tiny-monkey"> Generated with AngryMonkey, an opensource tool by QuadSpinner. </small></p><br><ul class="links"><li><a href="https://twitter.com/quadspinner/" target="_blank">Twitter</a></li><li><a href="https://youtube.com/quadspinner/" target="_blank">YouTube</a></li><li><a href="https://instagram.com/quadspinner/" target="_blank">Instagram</a></li><li><a id="footer-support-link" href="https://support.QuadSpinner.com/" target="_blank">Support</a></li><li><a id="footer-privacy-link" href="https://QuadSpinner.com/Legal" target="_blank">Terms of Use</a></li></ul></div></div></div></footer><!-- / Layout wrapper --> <!-- Main script --><script src="/assets/libs/bundle.min.js"></script><script src="/assets/js/main.js"></script><script src="/assets/js/search.js"></script><script>document.addEventListener('DOMContentLoaded', (event) => {
+<!DOCTYPE html>
+<html lang="en" class="default-style">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="IE=edge,chrome=1">
+    <meta name="description" content="Official documentation for QuadSpinner Gaea. Includes tutorials and knowledge base.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="generator" content="AngryMonkey 2.0">
+    <title>Convenience Features - Gaea Documentation - QuadSpinner</title>
+    <link rel="shortcut icon" href="/Gaea-32.png" type="image/png">
+    <link rel="stylesheet" href="/assets/fixed/bundle.min.css">
+    <link rel="stylesheet" href="/assets/custom/styles.css">
+    <link rel="stylesheet" href="/assets/custom/custom.css">
+</head>
+<body data-spy="scroll" data-target="#toc" data-hive="User Guide" data-hivehref="Guide" data-parent="Graph" data-parenthref="Graph">
+    <div id="main">
+        <div class="navbar-fixed-container hidden-print">
+            <div class="navbar navbar-inverse navbar-fixed-top ">
+                <nav role="navigation" aria-label="Top Level">
+                    <div class="container">
+                        <div class="nav navbar-header">
+                            <a class="navbar-brand" href="/">
+                                <span itemprop="name">QuadSpinner Gaea</span>
+                            </a>
+                            <button type="button" class="navbar-toggle" role="navigation" data-toggle="collapse"
+                                    data-target=".navbar-collapse" aria-label="Toggle Navigation Menu">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                        </div>
+                        <div class="navbar-collapse collapse" role="navigation">
+                            <ul class="nav navbar-nav navbar-left" role="presentation">
+                                <li><a class="top-nav" href="/Guide/">User Guide</a></li>
+<li><a class="top-nav" href="/Reference/">Node Reference</a></li>
+<li><a class="top-nav" href="/Learning/">Tutorials</a></li>
+<li><a class="top-nav" href="/KB/">Knowledge Base</a></li>
+<li><a class="top-nav" href="/Changelogs/">Version History</a></li>
+
+                            </ul>
+                            <ul class="nav navbar-nav navbar-right" role="presentation">
+                                <li style="position: relative;">
+                                    <input id="search-field" type="text" placeholder="Search..." />
+                                    <div class="d-none" id="quicksearch"></div>
+                                </li>
+                                <li>
+                                    <a itemprop="downloadUrl"
+                                       href="https://quadspinner.com/download" id="nav-download">
+                                        <span class="hidden-sm">Download Gaea</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <div role="main" id="main-content">
+            <div class="container body-content docs">
+                <div class="row">
+                    <div class="col-md-2 docs-navbar-container hidden-print">
+                        <nav id="docs-navbar" aria-label="Topics" class="docs-nav visible-md visible-lg ">
+                            <ul class="nav" id="main-nav">
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="col-sm-9 col-md-8 body">
+                        <ol class="breadcrumb visible-md visible-lg">
+
+                        </ol>
+
+                        <p class="faux-h1">Convenience Features</p><p>Quality of life for the user is the baseline for all we do. Gaea features a large array of unobtrusive (and sometimes even hidden) features that can go a long way towards making your workflow more efficient.</p>
+<h2 id="node-management">Node Management</h2>
+<h3 id="quick-create">Quick Create</h3>
+<p>To create your first node, right-click in the graph and type the name of the node you want to create. Then hit <code>Enter</code>. The node will be created at the cursor location. You can also press <code>TAB</code> to search for nodes.</p>
+<p><img src="/images/ui/search-nodes.png" class="w-50 img-fluid" alt="" /></p>
+<p>Next, rather than setting up the next node similarly and then connecting it manually, you can drag a connection into empty space and use the quick create menu. You can click on a particular node name from the quick create menu, or you can type in a node name which will show the list of matching nodes. Selecting a node from this list connects to it.</p>
+<p>The Quick Create menu can also show suggestions based on your previous patterns.</p>
+<p>See <a href="%2fGuide%2fGraph%2fPredictive.html">Predictive System</a> for information on how Gaea suggests nodes.</p>
+<h3 id="drop-create">Drop Create</h3>
+<video controls>
+  <source src="/mp4/cnv-drop-connect.mp4" type="video/mp4">
+</video>
+<p>All graph applications require you to drop the node, connect it manually, and then organize as needed. Gaea does that for you! Just drop the node on another node and they'll be connected and auto-organized.</p>
+<p>Dragging a node from the <a href="%2fGuide%2fGraph%2fToolbox.html">Toolbox</a> and dropping it on an existing node will automatically connect it to that node's primary output. If another node already exists, the new node will be automatically organized for you.</p>
+<h3 id="interject-node">Interject Node</h3>
+<p><strong>Drop Interject</strong></p>
+<video controls>
+  <source src="/mp4/cnv-interject.mp4" type="video/mp4">
+</video>
+<p>If you hold <code>Shift</code> and drop a node on an existing node, the new node will interject itself between the node's all outgoing primary output connections.</p>
+<p><strong>Drag Interject</strong></p>
+<video controls>
+  <source src="/mp4/cnv-interject-drag.mp4" type="video/mp4">
+</video>
+<p>If you hold <code>Shift</code> then drag an independent node (not connected to any other node) over a connection and release the mouse, the node will be interject itself between the two nodes of the existing connections.</p>
+<h3 id="replace-node">Replace Node</h3>
+<p>Right-click any node, select <code>Replace Node</code> and type in the name of another node. The selected node will be replaced with that node. If the connections match, they will be kept with the new node. If any port names don't match, a <a href="%2fReference%2fUtilities%2fChokepoint.html">Chokepoint</a> will be created to temporarily hold the connection so you can reroute them manually.</p>
+<h3 id="get-name-from-parent">Get Name from Parent</h3>
+<p>Sometimes you have many outputs and you have to spend time naming them properly. Then you need to add auxiliary outputs for those such as normals or data maps, and it can become a giant chore to name them all.</p>
+<p>The new <code>Get name from parent</code> command in the node context menu can get the name of the parent and add the node's own name as a suffix. For example, Slope becomes &quot;Erosion_Slope&quot;.</p>
+<h2 id="connection-management">Connection Management</h2>
+<h3 id="out-to-out-quick-connections">Out-to-out quick connections</h3>
+<video controls>
+  <source src="/mp4/cnv-out-out.mp4" type="video/mp4">
+</video>
+<p>When you drag an output connection to another output connection, a <a href="%2fReference%2fAdjustments%2fCombine.html">Combine</a> node is created with the two ports serving as the inputs for the Combine node.</p>
+<h3 id="multimix">MultiMix</h3>
+<video controls>
+  <source src="/mp4/cnv-multimix.mp4" type="video/mp4">
+</video>
+<p>Select two or more nodes and click the MultiMix button. Alternatively, you can press <code>F8</code>. This will instantly create a sequence of Combine nodes to mix the selected nodes together. For more detailed control, you can select two at a time and MultiMix the results.</p>
+<h3 id="connect-menu">Connect Menu</h3>
+<p>The Connect menu lets you quickly connect any port to an available portal. Select a node and press <code>C</code> to bring up the menu.</p>
+<p><video controls> <source src="/mp4/cnv-portal-connect.mp4" type="video/mp4"></video></p>
+<h3 id="disconnect-menu">Disconnect Menu</h3>
+<p>The Disconnect menu lets you quickly disconnect any port or even remove a portal. Select a node and press <code>X</code> to bring up the menu.</p>
+<video controls>
+  <source src="/mp4/cnv-portal-disconnect.mp4" type="video/mp4">
+</video>
+<h2 id="navigation">Navigation</h2>
+<p>Navigating a complex graph can be a tedious process. You can use the following conveniences to make this a lot easier.</p>
+<h3 id="navigate-menu">Navigate Menu</h3>
+<p>The Quick Navigate menu can be brought up by selecting a node and pressing <code>,</code>. You can then navigate to any connected nodes, including portals from other graphs.</p>
+<video controls>
+  <source src="/mp4/cnv-navigate.mp4" type="video/mp4">
+</video>
+<h3 id="node-bookmarks">Node Bookmarks</h3>
+<p><img src="/images/ui/graph-menu-bookmarks.png" class="w-50 img-fluid" alt="" /></p>
+<p>You can bookmark nodes you find yourself going to frequently. Right-click a node and select <code>Mark as Favorite</code>. You can then access all bookmarked nodes from the favorites/bookmarks menu in the graph toolbar. You can also use <a href="%2fGuide%2fInterface%2fKeyboard.html">Keyboard Shortcuts</a> <code>1-9</code> to access the top 9 nodes.</p>
+<h2 id="auto-layout">Auto Layout</h2>
+<p>Even the most complicated graphs can be automatically organized. Just press <code>F4</code> in the graph.</p>
+<p>Pressing <code>F4</code> once will layout the graph in a linear pattern. Pressing <code>F4</code> again lays out the graph in a waterfall pattern. In the waterfall pattern, Gaea will intelligently try to figure out the junctions in the graph and stagger the subsequence nodes accordingly.</p>
+<p>You can layout portions of a graph by selecting the nodes you want to organize. If none are selected, the entire graph will be organized.</p>
+<blockquote class="TIP blockquote">
+<p>While Gaea will try to organize the graph as efficiently and tightly as possible, it cannot anticipate all patterns. It is recommended that you apply auto-layout to portions of the graph at a time - especially those with separate concerns or plenty of branching - to prevent your entire graph from becoming organized too tightly.</p>
+</blockquote>
+
+                    </div>
+                    <div class="col-sm-3 col-md-2 docs-subnavbar-container visible-md visible-lg hidden-print">
+                        <nav id="toc" data-toggle="toc" aria-label="On Page" data-spy="affix" class="affix">
+                        </nav>
+                        <div class="botbot">
+                            <div class="mt-square-matcha" style="font-size: 8px; font-weight: bold;">
+                                <input id="cb1" type="checkbox" />
+                                <label for="cb1"></label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer role="contentinfo" class="hidden-print">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <p class="copyright monkey-holder">
+                        <span>&copy; 2018-2020 QuadSpinner. Released under the <a href="https://github.com/QuadSpinner/Gaea-Docs/blob/master/LICENSE" target="_blank">the MIT License</a></span>
+                        &nbsp; | &nbsp;
+                        <small class="font-weight-strong">
+                            <img src="/images/monkey.png" class="tiny-monkey" /> Generated with AngryMonkey, an opensource tool by QuadSpinner.
+                        </small>
+                    </p>
+                    <br />
+                    <ul class="links">
+                        <li><a href="https://twitter.com/quadspinner/" target="_blank">Twitter</a></li>
+                        <li><a href="https://youtube.com/quadspinner/" target="_blank">YouTube</a></li>
+                        <li><a href="https://instagram.com/quadspinner/" target="_blank">Instagram</a></li>
+                        <li><a id="footer-support-link" href="https://support.QuadSpinner.com/" target="_blank">Support</a></li>
+                        <li><a id="footer-privacy-link" href="https://QuadSpinner.com/Legal" target="_blank">Terms of Use</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/assets/libs/bundle.min.js"></script>
+    <script src="/assets/js/main.js"></script>
+    <script src="/assets/js/search.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', (event) => {
             document.querySelectorAll('pre').forEach((block) => {
                 hljs.highlightBlock(block);
             });
             mediumZoom('.zoom', { margin: 36, background: '#333333' });
             mediumZoom('figure img', { margin: 36, background: '#333333' });
             mediumZoom('.img-fluid', { margin: 36, background: '#333333' });
-        });</script></body></html>
+        });
+    </script>
+</body>
+</html>

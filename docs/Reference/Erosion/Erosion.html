@@ -1,8 +1,297 @@
-<!DOCTYPE html><html lang="en" class="default-style"><head><meta charset="utf-8"><meta http-equiv="x-ua-compatible" content="IE=edge,chrome=1"><meta name="description" content=""><meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0"><title>Erosion - Gaea Documentation - QuadSpinner</title><link rel="shortcut icon" href="/Gaea-32.png" type="image/png"><link rel="stylesheet" href="/assets/fixed/bundle.min.css"><link rel="stylesheet" href="/assets/custom/styles.css"><link rel="stylesheet" href="/assets/custom/custom.css"></head><body data-spy="scroll" data-target="#toc"><!-- Layout wrapper --><div id="main"><div class="navbar-fixed-container hidden-print"><div class="navbar navbar-inverse navbar-fixed-top"><nav role="navigation" aria-label="Top Level"><div class="container"><div class="nav navbar-header"><a class="navbar-brand" href="/"> <span itemprop="name">QuadSpinner Gaea</span> </a> <button type="button" class="navbar-toggle" role="navigation" data-toggle="collapse" data-target=".navbar-collapse" aria-label="Toggle Navigation Menu"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button></div><div class="navbar-collapse collapse" role="navigation"><ul class="nav navbar-nav navbar-left" role="presentation"><li><a href="/Guide/index.html">User Guide</a></li><li class="active"><a href="/Reference/index.html">Node Reference</a></li><li><a href="/Learning/index.html">Tutorials</a></li><li><a href="/KB/index.html">Knowledge Base</a></li><li><a href="/Changelogs/index.html">Version History</a></li></ul><ul class="nav navbar-nav navbar-right" role="presentation"><li style="position: relative"><input id="search-field" type="text" placeholder="Search..."><div class="d-none" id="quicksearch"></div></li><li><a itemprop="downloadUrl" href="https://quadspinner.com/download" id="nav-download"> <span class="hidden-sm">Download Gaea</span> </a></li></ul></div></div></nav></div></div><div role="main" id="main-content"><div class="container body-content docs"><nav id="small-nav" aria-label="Topics" class="docs-nav hidden-md hidden-lg hidden-print"><p class="faux-h4">Topics</p><!--REPLACE--OPT--> </nav><div class="row"><div class="col-md-2 docs-navbar-container hidden-print"><nav id="docs-navbar" aria-label="Topics" class="docs-nav visible-md visible-lg"><ul class="nav" id="main-nav" data-hive="reference"></ul></nav></div><div class="col-sm-9 col-md-8 body"><p class="faux-h1">Erosion</p><hr><p>Erosion is the cornerstone of all terrains. It simulates hydraulic erosion on the terrain to turn any shape into a realistic looking terrain.</p><p><img src="/images/ref/Erosion/Erosion--Default.png" class="img-fluid" alt=""></p><p>It provides sophisticated erosion with a very easy to use interface. The Erosion node provides control over the scale, where you can choose the size of the largest erosion feature, as well as the overall scale of the terrain.</p><p>The Erosion node’s algorithm addresses one of the biggest problems in digital erosion: it preserves features across different resolutions. This means that a 512 x 512 preview build will maintain essential parity for all major erosion features with a high resolution 4K or 8K build. You no longer need to guess the output type.</p><p>The algorithm also creates exquisite flows with naturalistic curves, never before been seen in digital erosion.</p><h3 id="strength-and-rock-softness">Strength and Rock Softness</h3><p>Both Strength and Rock softness parameters affect the aggressiveness of erosion, and effect from increasing of one can be similar to the effect of increasing other, but there is still the difference, derived from the definition of these parameters.</p><p>Lesser strength means dissolved soil will be dropped earlier because of lower water transport capacity, and lesser softness means that the rock will be eroded slower but dissolved sediment will be dropped farther. This results in different distribution of deposits, gullies, and shapes of erosion features.</p><figure><p><img src="/images/ref/Erosion/Erosion--LowStrength-HighSoftness.png" class="img-fluid" alt=""></p><figcaption>Low Strength with very high Rock Softness retains the general shape. Fewer cracks or fluvial grooves are created, while some soft sediment is accumulated on slopes.</figcaption></figure><figure><p><img src="/images/ref/Erosion/Erosion--HighStrength-LowSoftness.png" class="img-fluid" alt=""></p><figcaption>High Strength with very low Rock Softness creates a heavily eroded terrain with plenty of soft sediment.</figcaption></figure><h3 id="downcutting">Downcutting</h3><p>Downcutting effectively transports sediment far away from its origin. If shorter transport distance is desired, for example, for faster alternating between erosion/deposition, set this parameter to 0.0, or set Inhibition to higher values.</p><figure><p><img src="/images/ref/Erosion/Erosion--Downcutting.png" class="img-fluid" alt=""></p><figcaption>High downcutting with medium Inhibition creates lots of deep fluvial grooves, as well as excess sediments that flow downslope.</figcaption></figure><figure><p><img src="/images/ref/Erosion/Erosion--Downcutting-NoInhibition.png" class="img-fluid" alt=""></p><figcaption>High downcutting with very little or no Inhibition will create the same deep fluvial grooves, but no excess sediments.</figcaption></figure><h3 id="scale-and-feature-size">Scale and Feature Size</h3><p>The size of the &quot;features&quot; created during the erosion process - namely the width of largest valleys and ridges between them - is controlled by the <code>Feature Scale</code> option is where you can achieve artistic control over the erosion process.</p><figure><p><img src="/images/ref/Erosion/Erosion--Default.png" class="img-fluid" alt=""></p><figcaption>Default Feature Size of 2000 (meters).</figcaption></figure><figure><p><img src="/images/ref/Erosion/Erosion--SmallFeatures.png" class="img-fluid" alt=""></p><figcaption>Reduced Feature Size of 50 (meters).</figcaption></figure><p>The <em>Real Scale</em> option automatically controls the general scale (the extents of the terrain and the vertical scale), using the scale set in the Terrain Definition. Although it can be turned off to manually change the 'physics' of the erosion system, although it is not recommended for most scenarios.</p><blockquote class="NOTE blockquote"><p>When using Parallel Processing, the erosion algorithm can become non-deterministic. This means while most of the major flows will appear in the same location, smaller features may appear somewhat different every time the node is processed. To ensure fully deterministic processing, disable Parallel Processing. This will sacrifice processing speed to ensure your results are consistent.</p></blockquote><h3 id="selective-processing">Selective Processing</h3><br><h3>Node Properties</h3><div class="params"><table class="table table-borderless"><thead><tr><th style="text-align: left">Setting</th><th style="text-align: left">Description</th></tr></thead><tbody><tr><td style="text-align: left"><strong>Duration</strong></td><td style="text-align: left">Determines the duration of erosion simulation. This parameter can be set to higher value than 1.0, but note that even default 0.04 (4%) is enough for most cases, resulting in prominent erosion effect. Low duration values, such as 0.02 and lesser, can be useful for adding erosion details while keeping the main original landscape features unchanged.</td></tr><tr><td style="text-align: left"><strong>Rock Softness</strong></td><td style="text-align: left">Controls the softness of rock material. The softer rock is, the faster is erosion process.</td></tr><tr><td style="text-align: left"><strong>Strength</strong></td><td style="text-align: left">Sets the strength of fluvial erosion. This parameter controls the sediment transport capacity, that is how much of dissolved minerals water can carry. This parameter can be set to value that is higher than 1.0, this can speed up the erosion process, but also can result in lesser erosion quality, especially if erosion softness value is high too.</td></tr><tr><td style="text-align: left"></td><td style="text-align: left"><hr></td></tr><tr><td style="text-align: left"><strong>Downcutting</strong></td><td style="text-align: left">This parameter controls the amount of downcutting, or vertical erosion. This is additional erosion mechanics, allowing water to transport sediments beyond the fluvial capacity by dragging and moving undissolved materials. This results in deeper gullies, and can be useful for getting mountain ranges.</td></tr><tr><td style="text-align: left"><strong>Inhibition</strong></td><td style="text-align: left">This parameter controls special mechanics, adding additional restraints for downcutting. It determines how undissolved sediments are slowed down by already dropped sediments, causing downcutting to stop and drop its load. This allows to combine both variants of erosion, with and without downcutting, resulting at deep channels at some areas and alluvial fans in other areas.</td></tr><tr><td style="text-align: left"><strong>Base Level</strong></td><td style="text-align: left">Controls the base level for the vertical erosion process, this is the lowest elevation that downcutting process can erode until it stops and begins to drop sediment. This elevation is different across the whole terrain, and depends on the terrain slopes, relative altitudes, stream velocity and other factors. This parameter can be useful for filling the largest valleys with deposit material, forming valley floors.</td></tr><tr><td style="text-align: left"></td><td style="text-align: left"><hr></td></tr><tr><td style="text-align: left"><strong>Real Scale</strong></td><td style="text-align: left">Automatically determine the scale from the Terrain Definition.</td></tr><tr><td style="text-align: left"><strong>Feature Scale</strong></td><td style="text-align: left">Determines the lateral size of the largest erosion features in meters: width of largest valleys and ridges between them.</td></tr><tr><td style="text-align: left"><strong>Terrain Scale</strong></td><td style="text-align: left"><em>Available when Real Scale is turned Off</em> <br>The simulated scale of the entire width of the terrain.</td></tr><tr><td style="text-align: left"><strong>Verticality</strong></td><td style="text-align: left"><em>Available when Real Scale is turned Off</em> <br>The simulated height of the entire terrain.</td></tr><tr><td style="text-align: left"></td><td style="text-align: left"><hr></td></tr><tr><td style="text-align: left"><strong>Volume</strong></td><td style="text-align: left">This is another special parameter, which alters erosion physics, treating water flows as volumetric objects, affecting each other, causing higher water levels during simulation, which results in wider channels, filled with more deposits. This is another way to get valley <em>floor</em>, and it works without downcutting.</td></tr><tr><td style="text-align: left"><strong>Rivers</strong></td><td style="text-align: left">Artificially carve rivers in the strongest flow lines.</td></tr><tr><td style="text-align: left"><strong>Depth</strong></td><td style="text-align: left"><em>Available when Rivers is turned On</em> <br>The depth of the rivers that are carved.</td></tr><tr><td style="text-align: left"></td><td style="text-align: left"><hr></td></tr><tr><td style="text-align: left"><strong>Area Effect</strong></td><td style="text-align: left">This is the effect applied when an Area input is specified, or if Bias is defined in the settings.</td></tr><tr><td style="text-align: left"></td><td style="text-align: left"><em>Erosion Strength</em> <br>The input mask controls the erosion strength.</td></tr><tr><td style="text-align: left"></td><td style="text-align: left"><em>Rock Softness</em> <br>The input mask controls the rock softness.</td></tr><tr><td style="text-align: left"></td><td style="text-align: left"><em>Precipitation Amount</em> <br>In this mode mask controls rained areas, allowing to rainfall to occur in the selected area only. The brighter mask is, the more water is rained. This masking mode allows to avoid boring look of uniformly eroded terrain.</td></tr><tr><td style="text-align: left"></td><td style="text-align: left"><em>None</em> <br>Do not apply selective processing.</td></tr><tr><td style="text-align: left"><strong>Bias Type</strong></td><td style="text-align: left">The type of automatic bias to apply when an Area input is not specified.</td></tr><tr><td style="text-align: left"><strong>Bias</strong></td><td style="text-align: left">The strength of the bias. For Slope, it is the steepness, for Altitude it the position from bottom.</td></tr><tr><td style="text-align: left"><strong>Reverse</strong></td><td style="text-align: left">Reverse the bias direction.</td></tr><tr><td style="text-align: left"><strong>Random Sedimentation</strong></td><td style="text-align: left">This parameter controls randomization of sedimentation process. In the cases of usual, uniform erosion it rarely has effect because multiple flows, dropping sediments randomly, results in uniform deposition field, thus cancelling random sedimentation effect. This parameter is for some non-standard scenarios, for example, masked precipitation, where precipitation occurs at some areas only.</td></tr><tr><td style="text-align: left"></td><td style="text-align: left"><hr></td></tr><tr><td style="text-align: left"><strong>Seed</strong></td><td style="text-align: left">The randomization pattern or seed for the node's process.</td></tr><tr><td style="text-align: left"><strong>Aggressive Mode</strong></td><td style="text-align: left">Process erosion faster at the risk of creating soft erosion artifacts in some minor areas.</td></tr></tbody></table></div></div><div class="col-sm-3 col-md-2 docs-subnavbar-container visible-md visible-lg hidden-print"><nav id="toc" data-toggle="toc" aria-label="On Page" data-spy="affix" class="affix"> </nav><div class="botbot"><div class="mt-square-matcha" style="font-size: 8px; font-weight: bold"><input id="cb1" type="checkbox"> <label for="cb1"></label></div></div></div></div></div></div></div><footer role="contentinfo" class="hidden-print"><div class="container"><div class="row"><div class="col-12 text-center"><p class="copyright monkey-holder"><span>&copy; 2018-2020 QuadSpinner. Released under the <a href="https://github.com/QuadSpinner/Gaea-Docs/blob/master/LICENSE" target="_blank">the MIT License</a></span> &nbsp; | &nbsp; <small class="font-weight-strong"> <img src="/images/monkey.png" class="tiny-monkey"> Generated with AngryMonkey, an opensource tool by QuadSpinner. </small></p><br><ul class="links"><li><a href="https://twitter.com/quadspinner/" target="_blank">Twitter</a></li><li><a href="https://youtube.com/quadspinner/" target="_blank">YouTube</a></li><li><a href="https://instagram.com/quadspinner/" target="_blank">Instagram</a></li><li><a id="footer-support-link" href="https://support.QuadSpinner.com/" target="_blank">Support</a></li><li><a id="footer-privacy-link" href="https://QuadSpinner.com/Legal" target="_blank">Terms of Use</a></li></ul></div></div></div></footer><!-- / Layout wrapper --> <!-- Main script --><script src="/assets/libs/bundle.min.js"></script><script src="/assets/js/main.js"></script><script src="/assets/js/search.js"></script><script>document.addEventListener('DOMContentLoaded', (event) => {
+<!DOCTYPE html>
+<html lang="en" class="default-style">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="IE=edge,chrome=1">
+    <meta name="description" content="Official documentation for QuadSpinner Gaea. Includes tutorials and knowledge base.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="generator" content="AngryMonkey 2.0">
+    <title>Erosion - Gaea Documentation - QuadSpinner</title>
+    <link rel="shortcut icon" href="/Gaea-32.png" type="image/png">
+    <link rel="stylesheet" href="/assets/fixed/bundle.min.css">
+    <link rel="stylesheet" href="/assets/custom/styles.css">
+    <link rel="stylesheet" href="/assets/custom/custom.css">
+</head>
+<body data-spy="scroll" data-target="#toc" data-hive="Node Reference" data-hivehref="Reference" data-parent="Erosion" data-parenthref="Erosion">
+    <div id="main">
+        <div class="navbar-fixed-container hidden-print">
+            <div class="navbar navbar-inverse navbar-fixed-top ">
+                <nav role="navigation" aria-label="Top Level">
+                    <div class="container">
+                        <div class="nav navbar-header">
+                            <a class="navbar-brand" href="/">
+                                <span itemprop="name">QuadSpinner Gaea</span>
+                            </a>
+                            <button type="button" class="navbar-toggle" role="navigation" data-toggle="collapse"
+                                    data-target=".navbar-collapse" aria-label="Toggle Navigation Menu">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                        </div>
+                        <div class="navbar-collapse collapse" role="navigation">
+                            <ul class="nav navbar-nav navbar-left" role="presentation">
+                                <li><a class="top-nav" href="/Guide/">User Guide</a></li>
+<li><a class="top-nav" href="/Reference/">Node Reference</a></li>
+<li><a class="top-nav" href="/Learning/">Tutorials</a></li>
+<li><a class="top-nav" href="/KB/">Knowledge Base</a></li>
+<li><a class="top-nav" href="/Changelogs/">Version History</a></li>
+
+                            </ul>
+                            <ul class="nav navbar-nav navbar-right" role="presentation">
+                                <li style="position: relative;">
+                                    <input id="search-field" type="text" placeholder="Search..." />
+                                    <div class="d-none" id="quicksearch"></div>
+                                </li>
+                                <li>
+                                    <a itemprop="downloadUrl"
+                                       href="https://quadspinner.com/download" id="nav-download">
+                                        <span class="hidden-sm">Download Gaea</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <div role="main" id="main-content">
+            <div class="container body-content docs">
+                <div class="row">
+                    <div class="col-md-2 docs-navbar-container hidden-print">
+                        <nav id="docs-navbar" aria-label="Topics" class="docs-nav visible-md visible-lg ">
+                            <ul class="nav" id="main-nav">
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="col-sm-9 col-md-8 body">
+                        <ol class="breadcrumb visible-md visible-lg">
+
+                        </ol>
+
+                        <p class="faux-h1">Erosion</p><p>Erosion is the cornerstone of all terrains. It simulates hydraulic erosion on the terrain to turn any shape into a realistic looking terrain.</p>
+<p><img src="/images/ref/Erosion/Erosion--Default.png" class="img-fluid" alt="" /></p>
+<p>It provides sophisticated erosion with a very easy to use interface. The Erosion node provides control over the scale, where you can choose the size of the largest erosion feature, as well as the overall scale of the terrain.</p>
+<p>The Erosion node’s algorithm addresses one of the biggest problems in digital erosion: it preserves features across different resolutions. This means that a 512 x 512 preview build will maintain essential parity for all major erosion features with a high resolution 4K or 8K build. You no longer need to guess the output type.</p>
+<p>The algorithm also creates exquisite flows with naturalistic curves, never before been seen in digital erosion.</p>
+<h3 id="strength-and-rock-softness">Strength and Rock Softness</h3>
+<p>Both Strength and Rock softness parameters affect the aggressiveness of erosion, and effect from increasing of one can be similar to the effect of increasing other, but there is still the difference, derived from the definition of these parameters.</p>
+<p>Lesser strength means dissolved soil will be dropped earlier because of lower water transport capacity, and lesser softness means that the rock will be eroded slower but dissolved sediment will be dropped farther. This results in different distribution of deposits, gullies, and shapes of erosion features.</p>
+<figure>
+<p><img src="/images/ref/Erosion/Erosion--LowStrength-HighSoftness.png" class="img-fluid" alt="" /></p>
+<figcaption>Low Strength with very high Rock Softness retains the general shape. Fewer cracks or fluvial grooves are created, while some soft sediment is accumulated on slopes.</figcaption>
+</figure>
+<figure>
+<p><img src="/images/ref/Erosion/Erosion--HighStrength-LowSoftness.png" class="img-fluid" alt="" /></p>
+<figcaption>High Strength with very low Rock Softness creates a heavily eroded terrain with plenty of soft sediment.</figcaption>
+</figure>
+<h3 id="downcutting">Downcutting</h3>
+<p>Downcutting effectively transports sediment far away from its origin. If shorter transport distance is desired, for example, for faster alternating between erosion/deposition, set this parameter to 0.0, or set Inhibition to higher values.</p>
+<figure>
+<p><img src="/images/ref/Erosion/Erosion--Downcutting.png" class="img-fluid" alt="" /></p>
+<figcaption>High downcutting with medium Inhibition creates lots of deep fluvial grooves, as well as excess sediments that flow downslope.</figcaption>
+</figure>
+<figure>
+<p><img src="/images/ref/Erosion/Erosion--Downcutting-NoInhibition.png" class="img-fluid" alt="" /></p>
+<figcaption>High downcutting with very little or no Inhibition will create the same deep fluvial grooves, but no excess sediments.</figcaption>
+</figure>
+<h3 id="scale-and-feature-size">Scale and Feature Size</h3>
+<p>The size of the &quot;features&quot; created during the erosion process - namely the width of largest valleys and ridges between them - is controlled by the <code>Feature Scale</code> option is where you can achieve artistic control over the erosion process.</p>
+<figure>
+<p><img src="/images/ref/Erosion/Erosion--Default.png" class="img-fluid" alt="" /></p>
+<figcaption>Default Feature Size of 2000 (meters).</figcaption>
+</figure>
+<figure>
+<p><img src="/images/ref/Erosion/Erosion--SmallFeatures.png" class="img-fluid" alt="" /></p>
+<figcaption>Reduced Feature Size of 50 (meters).</figcaption>
+</figure>
+<p>The <em>Real Scale</em> option automatically controls the general scale (the extents of the terrain and the vertical scale), using the scale set in the Terrain Definition. Although it can be turned off to manually change the 'physics' of the erosion system, although it is not recommended for most scenarios.</p>
+<blockquote class="NOTE blockquote">
+<p>When using Parallel Processing, the erosion algorithm can become non-deterministic. This means while most of the major flows will appear in the same location, smaller features may appear somewhat different every time the node is processed. To ensure fully deterministic processing, disable Parallel Processing. This will sacrifice processing speed to ensure your results are consistent.</p>
+</blockquote>
+<h3 id="selective-processing">Selective Processing</h3>
+<br>
+<h3>Node Properties</h3>
+<div class="params">
+<table class="table">
+<thead>
+<tr>
+<th style="text-align: left;">Setting</th>
+<th style="text-align: left;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>Duration</strong></td>
+<td style="text-align: left;">Determines the duration of erosion simulation. This parameter can be set to higher value than 1.0, but note that even default 0.04 (4%) is enough for most cases, resulting in prominent erosion effect. Low duration values, such as 0.02 and lesser, can be useful for adding erosion details while keeping the main original landscape features unchanged.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Rock Softness</strong></td>
+<td style="text-align: left;">Controls the softness of rock material. The softer rock is, the faster is erosion process.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Strength</strong></td>
+<td style="text-align: left;">Sets the strength of fluvial erosion. This parameter controls the sediment transport capacity, that is how much of dissolved minerals water can carry. This parameter can be set to value that is higher than 1.0, this can speed up the erosion process, but also can result in lesser erosion quality, especially if erosion softness value is high too.</td>
+</tr>
+<tr>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><hr></td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Downcutting</strong></td>
+<td style="text-align: left;">This parameter controls the amount of downcutting, or vertical erosion. This is additional erosion mechanics, allowing water to transport sediments beyond the fluvial capacity by dragging and moving undissolved materials. This results in deeper gullies, and can be useful for getting mountain ranges.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Inhibition</strong></td>
+<td style="text-align: left;">This parameter controls special mechanics, adding additional restraints for downcutting. It determines how undissolved sediments are slowed down by already dropped sediments, causing downcutting to stop and drop its load. This allows to combine both variants of erosion, with and without downcutting, resulting at deep channels at some areas and alluvial fans in other areas.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Base Level</strong></td>
+<td style="text-align: left;">Controls the base level for the vertical erosion process, this is the lowest elevation that downcutting process can erode until it stops and begins to drop sediment. This elevation is different across the whole terrain, and depends on the terrain slopes, relative altitudes, stream velocity and other factors. This parameter can be useful for filling the largest valleys with deposit material, forming valley floors.</td>
+</tr>
+<tr>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><hr></td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Real Scale</strong></td>
+<td style="text-align: left;">Automatically determine the scale from the Terrain Definition.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Feature Scale</strong></td>
+<td style="text-align: left;">Determines the lateral size of the largest erosion features in meters: width of largest valleys and ridges between them.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Terrain Scale</strong></td>
+<td style="text-align: left;"><em>Available when Real Scale is turned Off</em> <br>The simulated scale of the entire width of the terrain.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Verticality</strong></td>
+<td style="text-align: left;"><em>Available when Real Scale is turned Off</em> <br>The simulated height of the entire terrain.</td>
+</tr>
+<tr>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><hr></td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Volume</strong></td>
+<td style="text-align: left;">This is another special parameter, which alters erosion physics, treating water flows as volumetric objects, affecting each other, causing higher water levels during simulation, which results in wider channels, filled with more deposits. This is another way to get valley <em>floor</em>, and it works without downcutting.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Rivers</strong></td>
+<td style="text-align: left;">Artificially carve rivers in the strongest flow lines.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Depth</strong></td>
+<td style="text-align: left;"><em>Available when Rivers is turned On</em> <br>The depth of the rivers that are carved.</td>
+</tr>
+<tr>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><hr></td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Area Effect</strong></td>
+<td style="text-align: left;">This is the effect applied when an Area input is specified, or if Bias is defined in the settings.</td>
+</tr>
+<tr>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><em>Erosion Strength</em> <br>The input mask controls the erosion strength.</td>
+</tr>
+<tr>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><em>Rock Softness</em> <br>The input mask controls the rock softness.</td>
+</tr>
+<tr>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><em>Precipitation Amount</em> <br>In this mode mask controls rained areas, allowing to rainfall to occur in the selected area only. The brighter mask is, the more water is rained. This masking mode allows to avoid boring look of uniformly eroded terrain.</td>
+</tr>
+<tr>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><em>None</em> <br>Do not apply selective processing.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Bias Type</strong></td>
+<td style="text-align: left;">The type of automatic bias to apply when an Area input is not specified.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Bias</strong></td>
+<td style="text-align: left;">The strength of the bias. For Slope, it is the steepness, for Altitude it the position from bottom.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Reverse</strong></td>
+<td style="text-align: left;">Reverse the bias direction.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Random Sedimentation</strong></td>
+<td style="text-align: left;">This parameter controls randomization of sedimentation process. In the cases of usual, uniform erosion it rarely has effect because multiple flows, dropping sediments randomly, results in uniform deposition field, thus cancelling random sedimentation effect. This parameter is for some non-standard scenarios, for example, masked precipitation, where precipitation occurs at some areas only.</td>
+</tr>
+<tr>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><hr></td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Seed</strong></td>
+<td style="text-align: left;">The randomization pattern or seed for the node's process.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Aggressive Mode</strong></td>
+<td style="text-align: left;">Process erosion faster at the risk of creating soft erosion artifacts in some minor areas.</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+                    </div>
+                    <div class="col-sm-3 col-md-2 docs-subnavbar-container visible-md visible-lg hidden-print">
+                        <nav id="toc" data-toggle="toc" aria-label="On Page" data-spy="affix" class="affix">
+                        </nav>
+                        <div class="botbot">
+                            <div class="mt-square-matcha" style="font-size: 8px; font-weight: bold;">
+                                <input id="cb1" type="checkbox" />
+                                <label for="cb1"></label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer role="contentinfo" class="hidden-print">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <p class="copyright monkey-holder">
+                        <span>&copy; 2018-2020 QuadSpinner. Released under the <a href="https://github.com/QuadSpinner/Gaea-Docs/blob/master/LICENSE" target="_blank">the MIT License</a></span>
+                        &nbsp; | &nbsp;
+                        <small class="font-weight-strong">
+                            <img src="/images/monkey.png" class="tiny-monkey" /> Generated with AngryMonkey, an opensource tool by QuadSpinner.
+                        </small>
+                    </p>
+                    <br />
+                    <ul class="links">
+                        <li><a href="https://twitter.com/quadspinner/" target="_blank">Twitter</a></li>
+                        <li><a href="https://youtube.com/quadspinner/" target="_blank">YouTube</a></li>
+                        <li><a href="https://instagram.com/quadspinner/" target="_blank">Instagram</a></li>
+                        <li><a id="footer-support-link" href="https://support.QuadSpinner.com/" target="_blank">Support</a></li>
+                        <li><a id="footer-privacy-link" href="https://QuadSpinner.com/Legal" target="_blank">Terms of Use</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/assets/libs/bundle.min.js"></script>
+    <script src="/assets/js/main.js"></script>
+    <script src="/assets/js/search.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', (event) => {
             document.querySelectorAll('pre').forEach((block) => {
                 hljs.highlightBlock(block);
             });
             mediumZoom('.zoom', { margin: 36, background: '#333333' });
             mediumZoom('figure img', { margin: 36, background: '#333333' });
             mediumZoom('.img-fluid', { margin: 36, background: '#333333' });
-        });</script></body></html>
+        });
+    </script>
+</body>
+</html>

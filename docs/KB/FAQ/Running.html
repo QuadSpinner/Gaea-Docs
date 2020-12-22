@@ -1,8 +1,152 @@
-<!DOCTYPE html><html lang="en" class="default-style"><head><meta charset="utf-8"><meta http-equiv="x-ua-compatible" content="IE=edge,chrome=1"><meta name="description" content=""><meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0"><title>Requirements - Gaea Documentation - QuadSpinner</title><link rel="shortcut icon" href="/Gaea-32.png" type="image/png"><link rel="stylesheet" href="/assets/fixed/bundle.min.css"><link rel="stylesheet" href="/assets/custom/styles.css"><link rel="stylesheet" href="/assets/custom/custom.css"></head><body data-spy="scroll" data-target="#toc"><!-- Layout wrapper --><div id="main"><div class="navbar-fixed-container hidden-print"><div class="navbar navbar-inverse navbar-fixed-top"><nav role="navigation" aria-label="Top Level"><div class="container"><div class="nav navbar-header"><a class="navbar-brand" href="/"> <span itemprop="name">QuadSpinner Gaea</span> </a> <button type="button" class="navbar-toggle" role="navigation" data-toggle="collapse" data-target=".navbar-collapse" aria-label="Toggle Navigation Menu"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button></div><div class="navbar-collapse collapse" role="navigation"><ul class="nav navbar-nav navbar-left" role="presentation"><li><a href="/Guide/index.html">User Guide</a></li><li><a href="/Reference/index.html">Node Reference</a></li><li><a href="/Learning/index.html">Tutorials</a></li><li class="active"><a href="/KB/index.html">Knowledge Base</a></li><li><a href="/Changelogs/index.html">Version History</a></li></ul><ul class="nav navbar-nav navbar-right" role="presentation"><li style="position: relative"><input id="search-field" type="text" placeholder="Search..."><div class="d-none" id="quicksearch"></div></li><li><a itemprop="downloadUrl" href="https://quadspinner.com/download" id="nav-download"> <span class="hidden-sm">Download Gaea</span> </a></li></ul></div></div></nav></div></div><div role="main" id="main-content"><div class="container body-content docs"><nav id="small-nav" aria-label="Topics" class="docs-nav hidden-md hidden-lg hidden-print"><p class="faux-h4">Topics</p><!--REPLACE--OPT--> </nav><div class="row"><div class="col-md-2 docs-navbar-container hidden-print"><nav id="docs-navbar" aria-label="Topics" class="docs-nav visible-md visible-lg"><ul class="nav" id="main-nav" data-hive="kb"></ul></nav></div><div class="col-sm-9 col-md-8 body"><p class="faux-h1">Requirements</p><hr><h3 id="what-are-the-requirements-for-running-gaea">What are the requirements for running Gaea?</h3><p><strong>Minimum</strong></p><ul><li>Windows 7 - Service Pack 1 (6.1.7601)</li><li>Intel Core i5-2500K / AMD FX-6300</li><li>16GB RAM</li><li>Nvidia GeForce GTX 770 / AMD Radeon R9 280</li><li>10GB HDD space</li></ul><p><strong>Recommended</strong></p><ul><li>Windows 10 - April 2018 (1803)</li><li>Intel Core i7-4770K / AMD Ryzen-5 1500X</li><li>32GB RAM</li><li>Nvidia GeForce GTX 1060 / AMD Radeon RX 480</li><li>50GB HDD space</li></ul><h3 id="do-i-need-an-internet-connection-to-use-gaea">Do I need an internet connection to use Gaea?</h3><p>Yes, for Community, Indie, and Professional editions you need an internet connection to activate the license, and at least once every 30 days to keep the license active.</p><p>The Enterprise edition can be both activated offline and not require an internet connection to stay activated.</p><h3 id="is-gaea-gpu-powered">Is Gaea GPU powered?</h3><p>Gaea uses the GPU primarily for visualizing data rather than processing it. Our algorithms are primed for CPU usage. While it may feel that may be a loss as modern GPUs can process heavy data, our algorithms can create elaborate effects not possible with current methods of GPU processing. Gaea's nodes are heavily multi-threaded and can use your CPU cores to the maximum as needed.</p><h3 id="can-i-use-gaea-on-a-mac-or-linux">Can I use Gaea on a Mac or Linux?</h3><p>Gaea currently runs on Windows 7.1 or higher. Gaea will be available on Linux in the future. We don't have plans for a Mac version at this moment.</p><h3 id="is-gaea-standalone-or-a-plugin">Is Gaea standalone or a plugin?</h3><p>Gaea is a standalone Windows application. It can optionally plug into <a href="/Guide/Bridges/Houdini.html">Houdini</a> and other applications via a bridges.</p></div><div class="col-sm-3 col-md-2 docs-subnavbar-container visible-md visible-lg hidden-print"><nav id="toc" data-toggle="toc" aria-label="On Page" data-spy="affix" class="affix"> </nav><div class="botbot"><div class="mt-square-matcha" style="font-size: 8px; font-weight: bold"><input id="cb1" type="checkbox"> <label for="cb1"></label></div></div></div></div></div></div></div><footer role="contentinfo" class="hidden-print"><div class="container"><div class="row"><div class="col-12 text-center"><p class="copyright monkey-holder"><span>&copy; 2018-2020 QuadSpinner. Released under the <a href="https://github.com/QuadSpinner/Gaea-Docs/blob/master/LICENSE" target="_blank">the MIT License</a></span> &nbsp; | &nbsp; <small class="font-weight-strong"> <img src="/images/monkey.png" class="tiny-monkey"> Generated with AngryMonkey, an opensource tool by QuadSpinner. </small></p><br><ul class="links"><li><a href="https://twitter.com/quadspinner/" target="_blank">Twitter</a></li><li><a href="https://youtube.com/quadspinner/" target="_blank">YouTube</a></li><li><a href="https://instagram.com/quadspinner/" target="_blank">Instagram</a></li><li><a id="footer-support-link" href="https://support.QuadSpinner.com/" target="_blank">Support</a></li><li><a id="footer-privacy-link" href="https://QuadSpinner.com/Legal" target="_blank">Terms of Use</a></li></ul></div></div></div></footer><!-- / Layout wrapper --> <!-- Main script --><script src="/assets/libs/bundle.min.js"></script><script src="/assets/js/main.js"></script><script src="/assets/js/search.js"></script><script>document.addEventListener('DOMContentLoaded', (event) => {
+<!DOCTYPE html>
+<html lang="en" class="default-style">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="IE=edge,chrome=1">
+    <meta name="description" content="Official documentation for QuadSpinner Gaea. Includes tutorials and knowledge base.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="generator" content="AngryMonkey 2.0">
+    <title>Requirements - Gaea Documentation - QuadSpinner</title>
+    <link rel="shortcut icon" href="/Gaea-32.png" type="image/png">
+    <link rel="stylesheet" href="/assets/fixed/bundle.min.css">
+    <link rel="stylesheet" href="/assets/custom/styles.css">
+    <link rel="stylesheet" href="/assets/custom/custom.css">
+</head>
+<body data-spy="scroll" data-target="#toc" data-hive="Knowledge Base" data-hivehref="KB" data-parent="FAQ" data-parenthref="FAQ">
+    <div id="main">
+        <div class="navbar-fixed-container hidden-print">
+            <div class="navbar navbar-inverse navbar-fixed-top ">
+                <nav role="navigation" aria-label="Top Level">
+                    <div class="container">
+                        <div class="nav navbar-header">
+                            <a class="navbar-brand" href="/">
+                                <span itemprop="name">QuadSpinner Gaea</span>
+                            </a>
+                            <button type="button" class="navbar-toggle" role="navigation" data-toggle="collapse"
+                                    data-target=".navbar-collapse" aria-label="Toggle Navigation Menu">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                        </div>
+                        <div class="navbar-collapse collapse" role="navigation">
+                            <ul class="nav navbar-nav navbar-left" role="presentation">
+                                <li><a class="top-nav" href="/Guide/">User Guide</a></li>
+<li><a class="top-nav" href="/Reference/">Node Reference</a></li>
+<li><a class="top-nav" href="/Learning/">Tutorials</a></li>
+<li><a class="top-nav" href="/KB/">Knowledge Base</a></li>
+<li><a class="top-nav" href="/Changelogs/">Version History</a></li>
+
+                            </ul>
+                            <ul class="nav navbar-nav navbar-right" role="presentation">
+                                <li style="position: relative;">
+                                    <input id="search-field" type="text" placeholder="Search..." />
+                                    <div class="d-none" id="quicksearch"></div>
+                                </li>
+                                <li>
+                                    <a itemprop="downloadUrl"
+                                       href="https://quadspinner.com/download" id="nav-download">
+                                        <span class="hidden-sm">Download Gaea</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <div role="main" id="main-content">
+            <div class="container body-content docs">
+                <div class="row">
+                    <div class="col-md-2 docs-navbar-container hidden-print">
+                        <nav id="docs-navbar" aria-label="Topics" class="docs-nav visible-md visible-lg ">
+                            <ul class="nav" id="main-nav">
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="col-sm-9 col-md-8 body">
+                        <ol class="breadcrumb visible-md visible-lg">
+
+                        </ol>
+
+                        <p class="faux-h1">Requirements</p><h3 id="what-are-the-requirements-for-running-gaea">What are the requirements for running Gaea?</h3>
+<p><strong>Minimum</strong></p>
+<ul>
+<li>Windows 7 - Service Pack 1 (6.1.7601)</li>
+<li>Intel Core i5-2500K / AMD FX-6300</li>
+<li>16GB RAM</li>
+<li>Nvidia GeForce GTX 770 / AMD Radeon R9 280</li>
+<li>10GB HDD space</li>
+</ul>
+<p><strong>Recommended</strong></p>
+<ul>
+<li>Windows 10 - April 2018 (1803)</li>
+<li>Intel Core i7-4770K / AMD Ryzen-5 1500X</li>
+<li>32GB RAM</li>
+<li>Nvidia GeForce GTX 1060 / AMD Radeon RX 480</li>
+<li>50GB HDD space</li>
+</ul>
+<h3 id="do-i-need-an-internet-connection-to-use-gaea">Do I need an internet connection to use Gaea?</h3>
+<p>Yes, for Community, Indie, and Professional editions you need an internet connection to activate the license, and at least once every 30 days to keep the license active.</p>
+<p>The Enterprise edition can be both activated offline and not require an internet connection to stay activated.</p>
+<h3 id="is-gaea-gpu-powered">Is Gaea GPU powered?</h3>
+<p>Gaea uses the GPU primarily for visualizing data rather than processing it. Our algorithms are primed for CPU usage. While it may feel that may be a loss as modern GPUs can process heavy data, our algorithms can create elaborate effects not possible with current methods of GPU processing. Gaea's nodes are heavily multi-threaded and can use your CPU cores to the maximum as needed.</p>
+<h3 id="can-i-use-gaea-on-a-mac-or-linux">Can I use Gaea on a Mac or Linux?</h3>
+<p>Gaea currently runs on Windows 7.1 or higher. Gaea will be available on Linux in the future. We don't have plans for a Mac version at this moment.</p>
+<h3 id="is-gaea-standalone-or-a-plugin">Is Gaea standalone or a plugin?</h3>
+<p>Gaea is a standalone Windows application. It can optionally plug into <a href="%2fGuide%2fBridges%2fHoudini.html">Houdini</a> and other applications via a bridges.</p>
+
+                    </div>
+                    <div class="col-sm-3 col-md-2 docs-subnavbar-container visible-md visible-lg hidden-print">
+                        <nav id="toc" data-toggle="toc" aria-label="On Page" data-spy="affix" class="affix">
+                        </nav>
+                        <div class="botbot">
+                            <div class="mt-square-matcha" style="font-size: 8px; font-weight: bold;">
+                                <input id="cb1" type="checkbox" />
+                                <label for="cb1"></label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer role="contentinfo" class="hidden-print">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <p class="copyright monkey-holder">
+                        <span>&copy; 2018-2020 QuadSpinner. Released under the <a href="https://github.com/QuadSpinner/Gaea-Docs/blob/master/LICENSE" target="_blank">the MIT License</a></span>
+                        &nbsp; | &nbsp;
+                        <small class="font-weight-strong">
+                            <img src="/images/monkey.png" class="tiny-monkey" /> Generated with AngryMonkey, an opensource tool by QuadSpinner.
+                        </small>
+                    </p>
+                    <br />
+                    <ul class="links">
+                        <li><a href="https://twitter.com/quadspinner/" target="_blank">Twitter</a></li>
+                        <li><a href="https://youtube.com/quadspinner/" target="_blank">YouTube</a></li>
+                        <li><a href="https://instagram.com/quadspinner/" target="_blank">Instagram</a></li>
+                        <li><a id="footer-support-link" href="https://support.QuadSpinner.com/" target="_blank">Support</a></li>
+                        <li><a id="footer-privacy-link" href="https://QuadSpinner.com/Legal" target="_blank">Terms of Use</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/assets/libs/bundle.min.js"></script>
+    <script src="/assets/js/main.js"></script>
+    <script src="/assets/js/search.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', (event) => {
             document.querySelectorAll('pre').forEach((block) => {
                 hljs.highlightBlock(block);
             });
             mediumZoom('.zoom', { margin: 36, background: '#333333' });
             mediumZoom('figure img', { margin: 36, background: '#333333' });
             mediumZoom('.img-fluid', { margin: 36, background: '#333333' });
-        });</script></body></html>
+        });
+    </script>
+</body>
+</html>

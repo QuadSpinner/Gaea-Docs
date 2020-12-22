@@ -406,3 +406,10 @@ footer {
   float: left; }
   .grid:last-child {
     clear: right; }
+
+a {
+  transition: color linear 0.2s; }
+  a:hover {
+    color: #9800be;
+    transition: color linear 0.2s;
+    text-decoration: none; }

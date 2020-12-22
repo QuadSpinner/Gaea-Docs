@@ -576,3 +576,13 @@ footer {
         clear: right;
     }
 }
+
+a {
+    transition: color linear 0.2s;
+
+    &:hover {
+        color: #9800be;
+        transition: color linear 0.2s;
+        text-decoration: none;
+    }
+}

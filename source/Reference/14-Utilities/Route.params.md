@@ -1,4 +1,4 @@
 | Setting | Description |
 | :------ | :---------- |
-| **In**  | TODO        |
-| **Out** | TODO        |
+| **In**  | The input port to use.        |
+| **Out** | The output port to use.        |

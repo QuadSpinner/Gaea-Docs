@@ -1,8 +1,341 @@
-<!DOCTYPE html><html lang="en" class="default-style"><head><meta charset="utf-8"><meta http-equiv="x-ua-compatible" content="IE=edge,chrome=1"><meta name="description" content=""><meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0"><title>Gaea 1.2.0.1 - Gaea Documentation - QuadSpinner</title><link rel="shortcut icon" href="/Gaea-32.png" type="image/png"><link rel="stylesheet" href="/assets/fixed/bundle.min.css"><link rel="stylesheet" href="/assets/custom/styles.css"><link rel="stylesheet" href="/assets/custom/custom.css"></head><body data-spy="scroll" data-target="#toc"><!-- Layout wrapper --><div id="main"><div class="navbar-fixed-container hidden-print"><div class="navbar navbar-inverse navbar-fixed-top"><nav role="navigation" aria-label="Top Level"><div class="container"><div class="nav navbar-header"><a class="navbar-brand" href="/"> <span itemprop="name">QuadSpinner Gaea</span> </a> <button type="button" class="navbar-toggle" role="navigation" data-toggle="collapse" data-target=".navbar-collapse" aria-label="Toggle Navigation Menu"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button></div><div class="navbar-collapse collapse" role="navigation"><ul class="nav navbar-nav navbar-left" role="presentation"><li><a href="/Guide/index.html">User Guide</a></li><li><a href="/Reference/index.html">Node Reference</a></li><li><a href="/Learning/index.html">Tutorials</a></li><li><a href="/KB/index.html">Knowledge Base</a></li><li class="active"><a href="/Changelogs/index.html">Version History</a></li></ul><ul class="nav navbar-nav navbar-right" role="presentation"><li style="position: relative"><input id="search-field" type="text" placeholder="Search..."><div class="d-none" id="quicksearch"></div></li><li><a itemprop="downloadUrl" href="https://quadspinner.com/download" id="nav-download"> <span class="hidden-sm">Download Gaea</span> </a></li></ul></div></div></nav></div></div><div role="main" id="main-content"><div class="container body-content docs"><nav id="small-nav" aria-label="Topics" class="docs-nav hidden-md hidden-lg hidden-print"><p class="faux-h4">Topics</p><!--REPLACE--OPT--> </nav><div class="row"><div class="col-md-2 docs-navbar-container hidden-print"><nav id="docs-navbar" aria-label="Topics" class="docs-nav visible-md visible-lg"><ul class="nav" id="main-nav" data-hive="changelog"></ul></nav></div><div class="col-sm-9 col-md-8 body"><p class="faux-h1">Gaea 1.2.0.1</p><hr><p><strong>Released on 30 April 2020</strong></p><p><a href="http://viridian.quadspinner.com/gaeab/Gaea-1.2.0.1b.exe?f=1">Download 51.56MB</a> <br></p><div class="release-note"><h4 id="whats-new-in-gaea-1201">What's new in Gaea 1.2.0.1?</h4><h2 id="a-major-leap-forward-for-gaea">A major leap forward for Gaea</h2><p>Gaea 1.2 represents one of the largest sets of features added to Gaea since the original 1.0 release.</p><blockquote class="blockquote"><p>FURTHER DETAILS FORTHCOMING</p></blockquote><p>WARNING: This version is not production ready yet. Please backup any .TOR documents before opening them in this Bleeding Edge build. Gaea 1.2 will alter your files in a way that may make them unusable in previous versions.</p><h2 id="complete-changelog">Complete Changelog</h2><h4 id="new">New</h4><ul><li>Node bookmarks menu</li><li>Highlight node chains with H (all), LCtrl + H (left), and RCtrl + H (right)</li><li>Linchpin based loading for Baked Nodes</li><li>Pin / Underlay buttons added to graph toolbar</li><li>Thumbnails in Recent Files</li><li>Experimental Skybox mode added</li><li>Redesigned Post Process stack</li><li>&quot;Pin for color&quot; renamed to &quot;Underlay&quot;</li><li>Statistics Dialog (Experimental)</li></ul><h4 id="erosion-studio">Erosion Studio</h4><ul><li>Terrain Scale support</li></ul><h4 id="node-updates">Node Updates</h4><ul><li>New Ice Floe node</li><li>New Shatter node</li><li>New Surface node</li><li>Autolevel now has Multiplier mode</li><li>Blur is 10x faster</li><li>Blur minimum value</li><li>Bomber node can force Proportional scaling</li><li>Bomber node now accepts &quot;ground&quot; as primary input</li><li>Combine now has Abs mode</li><li>Crater node Inner Scale minimum reduced</li><li>Displace seed added to all post process stacks</li><li>Dunes minimum reduced (further changes coming)</li><li>Lakes node can force lake/ocean floor level</li><li>Lakes node improved, new surface option (hidden port)</li><li>Light node can render without color map</li><li>Light node now further options</li><li>Light node right-click sun to get sun position from scene</li><li>LookDev category added</li><li>Major speed improvements for several nodes</li><li>Mountain node has new style options</li><li>Noise node iterations were broken</li><li>Output node can receive full filename as variable again</li><li>SaveOutput would break output in automation situations</li><li>Stacks node improved</li><li>Surfacer node renamed to SurfTex to avoid confusion</li><li>Texture node speed improvement</li></ul><h4 id="improved">Improved</h4><ul><li>Hit SPACE to focus on terrain center</li><li>Mask display uses selected gradient in all situations</li><li>Filament node style improved, now default</li><li>Filament node style shows port name on hover</li><li>Ctrl + Tab lets you cycle through tabs</li><li>Ticks for integer sliders</li><li>Post Process stack memory impact reduced</li><li>Search popup honors zoom factor from main window</li><li>Out-to-Out connection now support same node</li><li>Graph grid / snap improved</li><li>Cache cleanup options improved</li><li>Node upgrade message made modal</li><li>Passive memory optimizer now frees up memory more aggressively</li><li>Hit area for Gaea main menu extended</li><li>Right-click on Recent Files to see open options</li><li>Build Output Range options renamed for better understanding</li><li>Unity and Unreal resampling options merged into single dropdown</li><li>Gaea window title now shows current filename</li><li>Right-click New Project in Startup Screen for more templates</li></ul><h4 id="fixed">Fixed</h4><ul><li>GPU usage was too high even when idle</li><li>Build Path was not saved in Build Tab</li><li>Data Map connection color was incorrect</li><li>Cached color maps were saved as grayscale</li><li>Incremental save for TORX would create TOR instead</li><li>Autosave does not save .RESOURCE files</li><li>Font rendering was broken in some situations</li><li>Bleeding Edge does not use its own Docs folder</li><li>Graph options were not saved in some situations</li><li>Port placement optimized</li><li>Mutating did not mark file as dirty</li><li>Build Swarm did not return console colors to normal</li><li>Build Swarm makes too many error sounds while working</li><li>60+ minor bug fixes</li></ul><h4 id="breaking-changes">BREAKING CHANGES</h4><ul><li>Light node will need to be recreated.</li></ul><h3 id="changes-in-1200">Changes in 1.2.0.0</h3><h4 id="new-1">New</h4><ul><li>Gaea 1.2 UI overhaul.</li><li>Erosion Studio 1.2 UI and systemic overhaul.</li><li>Improved startup experience.</li><li>Portals 2.0.</li><li>Infinity Graph: Divide your graph into multiple tabs.</li><li>Infinity Graph: Import and export partial graphs.</li><li>Viewport: Overhauled viewport and render system.</li><li>Viewport: Preview mesh density/LOD.</li><li>Viewport: Alt + MMB zooming option.</li><li>Viewport: Q + E vertical navigation.</li><li>Viewport: Optional grid and compass in viewport.</li><li>Cache session on exit.</li><li>Toolbox: New docking options for toolbox: full height, top only, bottom only, and hidden.</li><li>Toolbox: New expert mode in Toolbox for veteran users.</li><li>Toolbox: Quick switch to shift between Most Used and all nodes.</li><li>Fourth node style: Filament.</li><li>Passive Optimizer for improving memory management.</li><li>Session cache manager.</li><li>RAM and HDD cache indicators.</li><li>Descriptive tooltips for all nodes in the toolbox.</li><li>New Preferences dialog.</li><li>New About dialog.</li><li>Build Manager UI simplified, and merged with main UI.</li></ul><h4 id="erosion-studio-1">Erosion Studio</h4><ul><li>Redesigned system for better performance.</li><li>Undo was broken.</li><li>New Erosion tools.</li><li>New Snow tools.</li><li>Custom brush shapes.</li><li>Faster execution and project loading.</li><li>Reverted the UI back to Erosion Studio's classic layout with fixed sidebar.</li><li>Advanced mode for each brush to configure your own settings.</li></ul><h4 id="node-updates-1">Node Updates</h4><ul><li>New: Rock Maps node.</li><li>New: Cartography node.</li><li>New: Lakes node.</li><li>New: MultiCombine node.</li><li>New: Stacks node.</li><li>New: Draw node 2.0 with new options.</li><li>New: Flow Map 2.0 with flow separation.</li><li>New: Fractal option for Terrace node.</li><li>Dunes: Chaotic mode reworked.</li><li>Light node now out of preview. Quality settings and preset support added.</li><li>Output node can now save entire node, removing the need to have an output node per output.</li><li>Constant node can now produce height or color.</li><li>SatMaps: Improved favorites system.</li><li>SatMaps: Sampling density option.</li><li>Mask node can now be copy-pasted between files.</li><li>Fixed stepping artifacts created in Snowfall node.</li><li>Redesigned editor for Mask node.</li><li>Redesigned editor for Islands node.</li><li>Redesigned editor for Draw node.</li><li>Coast: moved to new Water category.</li><li>Snow: renamed to Snowfall, moved to new Snow category.</li><li>Selectors category merged with Data Maps.</li><li>Erosion: Random Sedimentation setting for Selective Processing.</li><li>Erosion: Obsolete 'Debris' setting removed.</li><li>Erosion: Inverse option added for height and slope biases.</li><li>Erosion: Minimum feature size lowered to 5 meters from 50m.</li><li>Coast: value limits increased.</li><li>Coast: option to get value from viewport.</li><li>Nodes can now have hidden ports.</li><li>Improved naming for ports.</li></ul><h4 id="improved-1">Improved</h4><ul><li>Remember preview resolution for saved files.</li><li>Loading options for files: forcing low resolution, suspending engine.</li><li>Baking resolution limit increased to 8K.</li><li>Faster loading of baked caches.</li><li>Connecting two &quot;out&quot; ports creates a Combine.</li><li>Search for portals in node searches.</li><li>Options: Cache Limit and warning system.</li><li>Options: Sensitivity customization for stylus users.</li><li>Options: Hide node categories in node drag-out menus.</li><li>Progress bars move to bottom right corner for improved visibility</li><li>New colors for progress bars to clearly indicate progress of current task vs all tasks.</li><li>Gaea now correctly recognizes 2D maps in a chain and switches from terrain to mask view as required.</li><li>Viewport lighting presets.</li><li>(Enterprise only) Gaea TORX file format version now synced to actual build used.</li><li>Sliders with unchanged values displayed with slightly muted colors.</li></ul><h4 id="fixed-1">Fixed</h4><ul><li>Nodes created while searching were placed incorrectly.</li><li>Search text would not clear in some situations.</li><li>Forcing refresh/invalidation of nodes should not affect baked nodes.</li><li>Unbaking a node did not refresh the editor.</li><li>Color nodes exported as TIFF would be grayscale.</li><li>Accidental double-clicking of title bar area fixed.</li><li>Progress would not update in some situations.</li><li>Light node preview was not consistent in both viewports.</li><li>MultiMix (F8) would require manual node refresh in many situations.</li><li>Autolevel Mask post process function was broken.</li><li>Setting &quot;Display As&quot; for a node would not refresh preview.</li><li>Post Process stack did not update properly when resetting node.</li><li>20+ other bugs fixed in Erosion Studio.</li><li>20+ other bugs related to lighting and preview caching.</li><li>30+ other bug fixes for baking related issues.</li><li>Addressed 26 bugs that could potentially crash Gaea in some situations.</li><li>Most Used nodes now include favorites regardless of usage stats.</li></ul><h4 id="breaking-changes-1">BREAKING CHANGES</h4><ul><li>All existing Erosion Studio projects will not work because of the complete overhaul.</li><li>&quot;Base&quot; height, part of the terrain definition, has been removed. All terrains now start at 0m for easier consumption.</li><li>Due to unavoidable changes in our randomizer some nodes - namely SlopeNoise, Noise, LineNoise, and Rocks - will no longer be able to create the same shape as in previous Gaea versions. If those shapes are crucial, please see [THIS LINK]. <strong>Article coming soon</strong></li></ul></div></div><div class="col-sm-3 col-md-2 docs-subnavbar-container visible-md visible-lg hidden-print"><nav id="toc" data-toggle="toc" aria-label="On Page" data-spy="affix" class="affix"> </nav><div class="botbot"><div class="mt-square-matcha" style="font-size: 8px; font-weight: bold"><input id="cb1" type="checkbox"> <label for="cb1"></label></div></div></div></div></div></div></div><footer role="contentinfo" class="hidden-print"><div class="container"><div class="row"><div class="col-12 text-center"><p class="copyright monkey-holder"><span>&copy; 2018-2020 QuadSpinner. Released under the <a href="https://github.com/QuadSpinner/Gaea-Docs/blob/master/LICENSE" target="_blank">the MIT License</a></span> &nbsp; | &nbsp; <small class="font-weight-strong"> <img src="/images/monkey.png" class="tiny-monkey"> Generated with AngryMonkey, an opensource tool by QuadSpinner. </small></p><br><ul class="links"><li><a href="https://twitter.com/quadspinner/" target="_blank">Twitter</a></li><li><a href="https://youtube.com/quadspinner/" target="_blank">YouTube</a></li><li><a href="https://instagram.com/quadspinner/" target="_blank">Instagram</a></li><li><a id="footer-support-link" href="https://support.QuadSpinner.com/" target="_blank">Support</a></li><li><a id="footer-privacy-link" href="https://QuadSpinner.com/Legal" target="_blank">Terms of Use</a></li></ul></div></div></div></footer><!-- / Layout wrapper --> <!-- Main script --><script src="/assets/libs/bundle.min.js"></script><script src="/assets/js/main.js"></script><script src="/assets/js/search.js"></script><script>document.addEventListener('DOMContentLoaded', (event) => {
+<!DOCTYPE html>
+<html lang="en" class="default-style">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="IE=edge,chrome=1">
+    <meta name="description" content="Official documentation for QuadSpinner Gaea. Includes tutorials and knowledge base.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="generator" content="AngryMonkey 2.0">
+    <title>Gaea 1.2.0.1 - Gaea Documentation - QuadSpinner</title>
+    <link rel="shortcut icon" href="/Gaea-32.png" type="image/png">
+    <link rel="stylesheet" href="/assets/fixed/bundle.min.css">
+    <link rel="stylesheet" href="/assets/custom/styles.css">
+    <link rel="stylesheet" href="/assets/custom/custom.css">
+</head>
+<body data-spy="scroll" data-target="#toc" data-hive="Version History" data-hivehref="Changelogs" data-parent="Bleeding Edge" data-parenthref="Bleeding Edge">
+    <div id="main">
+        <div class="navbar-fixed-container hidden-print">
+            <div class="navbar navbar-inverse navbar-fixed-top ">
+                <nav role="navigation" aria-label="Top Level">
+                    <div class="container">
+                        <div class="nav navbar-header">
+                            <a class="navbar-brand" href="/">
+                                <span itemprop="name">QuadSpinner Gaea</span>
+                            </a>
+                            <button type="button" class="navbar-toggle" role="navigation" data-toggle="collapse"
+                                    data-target=".navbar-collapse" aria-label="Toggle Navigation Menu">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                        </div>
+                        <div class="navbar-collapse collapse" role="navigation">
+                            <ul class="nav navbar-nav navbar-left" role="presentation">
+                                <li><a class="top-nav" href="/Guide/">User Guide</a></li>
+<li><a class="top-nav" href="/Reference/">Node Reference</a></li>
+<li><a class="top-nav" href="/Learning/">Tutorials</a></li>
+<li><a class="top-nav" href="/KB/">Knowledge Base</a></li>
+<li><a class="top-nav" href="/Changelogs/">Version History</a></li>
+
+                            </ul>
+                            <ul class="nav navbar-nav navbar-right" role="presentation">
+                                <li style="position: relative;">
+                                    <input id="search-field" type="text" placeholder="Search..." />
+                                    <div class="d-none" id="quicksearch"></div>
+                                </li>
+                                <li>
+                                    <a itemprop="downloadUrl"
+                                       href="https://quadspinner.com/download" id="nav-download">
+                                        <span class="hidden-sm">Download Gaea</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <div role="main" id="main-content">
+            <div class="container body-content docs">
+                <div class="row">
+                    <div class="col-md-2 docs-navbar-container hidden-print">
+                        <nav id="docs-navbar" aria-label="Topics" class="docs-nav visible-md visible-lg ">
+                            <ul class="nav" id="main-nav">
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="col-sm-9 col-md-8 body">
+                        <ol class="breadcrumb visible-md visible-lg">
+
+                        </ol>
+
+                        <p class="faux-h1">Gaea 1.2.0.1</p><p><strong>Released on 30 April 2020</strong></p>
+<p><a href="http://viridian.quadspinner.com/gaeab/Gaea-1.2.0.1b.exe?f=1">Download 51.56MB</a> <br></p>
+<div class="release-note">
+<h4 id="whats-new-in-gaea-1201">What's new in Gaea 1.2.0.1?</h4>
+<h2 id="a-major-leap-forward-for-gaea">A major leap forward for Gaea</h2>
+<p>Gaea 1.2 represents one of the largest sets of features added to Gaea since the original 1.0 release.</p>
+<blockquote class="blockquote">
+<p>FURTHER DETAILS FORTHCOMING</p>
+</blockquote>
+<p>WARNING: This version is not production ready yet. Please backup any .TOR documents before opening them in this Bleeding Edge build. Gaea 1.2 will alter your files in a way that may make them unusable in previous versions.</p>
+<h2 id="complete-changelog">Complete Changelog</h2>
+<h4 id="new">New</h4>
+<ul>
+<li>Node bookmarks menu</li>
+<li>Highlight node chains with H (all), LCtrl + H (left), and RCtrl + H (right)</li>
+<li>Linchpin based loading for Baked Nodes</li>
+<li>Pin / Underlay buttons added to graph toolbar</li>
+<li>Thumbnails in Recent Files</li>
+<li>Experimental Skybox mode added</li>
+<li>Redesigned Post Process stack</li>
+<li>&quot;Pin for color&quot; renamed to &quot;Underlay&quot;</li>
+<li>Statistics Dialog (Experimental)</li>
+</ul>
+<h4 id="erosion-studio">Erosion Studio</h4>
+<ul>
+<li>Terrain Scale support</li>
+</ul>
+<h4 id="node-updates">Node Updates</h4>
+<ul>
+<li>New Ice Floe node</li>
+<li>New Shatter node</li>
+<li>New Surface node</li>
+<li>Autolevel now has Multiplier mode</li>
+<li>Blur is 10x faster</li>
+<li>Blur minimum value</li>
+<li>Bomber node can force Proportional scaling</li>
+<li>Bomber node now accepts &quot;ground&quot; as primary input</li>
+<li>Combine now has Abs mode</li>
+<li>Crater node Inner Scale minimum reduced</li>
+<li>Displace seed added to all post process stacks</li>
+<li>Dunes minimum reduced (further changes coming)</li>
+<li>Lakes node can force lake/ocean floor level</li>
+<li>Lakes node improved, new surface option (hidden port)</li>
+<li>Light node can render without color map</li>
+<li>Light node now further options</li>
+<li>Light node right-click sun to get sun position from scene</li>
+<li>LookDev category added</li>
+<li>Major speed improvements for several nodes</li>
+<li>Mountain node has new style options</li>
+<li>Noise node iterations were broken</li>
+<li>Output node can receive full filename as variable again</li>
+<li>SaveOutput would break output in automation situations</li>
+<li>Stacks node improved</li>
+<li>Surfacer node renamed to SurfTex to avoid confusion</li>
+<li>Texture node speed improvement</li>
+</ul>
+<h4 id="improved">Improved</h4>
+<ul>
+<li>Hit SPACE to focus on terrain center</li>
+<li>Mask display uses selected gradient in all situations</li>
+<li>Filament node style improved, now default</li>
+<li>Filament node style shows port name on hover</li>
+<li>Ctrl + Tab lets you cycle through tabs</li>
+<li>Ticks for integer sliders</li>
+<li>Post Process stack memory impact reduced</li>
+<li>Search popup honors zoom factor from main window</li>
+<li>Out-to-Out connection now support same node</li>
+<li>Graph grid / snap improved</li>
+<li>Cache cleanup options improved</li>
+<li>Node upgrade message made modal</li>
+<li>Passive memory optimizer now frees up memory more aggressively</li>
+<li>Hit area for Gaea main menu extended</li>
+<li>Right-click on Recent Files to see open options</li>
+<li>Build Output Range options renamed for better understanding</li>
+<li>Unity and Unreal resampling options merged into single dropdown</li>
+<li>Gaea window title now shows current filename</li>
+<li>Right-click New Project in Startup Screen for more templates</li>
+</ul>
+<h4 id="fixed">Fixed</h4>
+<ul>
+<li>GPU usage was too high even when idle</li>
+<li>Build Path was not saved in Build Tab</li>
+<li>Data Map connection color was incorrect</li>
+<li>Cached color maps were saved as grayscale</li>
+<li>Incremental save for TORX would create TOR instead</li>
+<li>Autosave does not save .RESOURCE files</li>
+<li>Font rendering was broken in some situations</li>
+<li>Bleeding Edge does not use its own Docs folder</li>
+<li>Graph options were not saved in some situations</li>
+<li>Port placement optimized</li>
+<li>Mutating did not mark file as dirty</li>
+<li>Build Swarm did not return console colors to normal</li>
+<li>Build Swarm makes too many error sounds while working</li>
+<li>60+ minor bug fixes</li>
+</ul>
+<h4 id="breaking-changes">BREAKING CHANGES</h4>
+<ul>
+<li>Light node will need to be recreated.</li>
+</ul>
+<h3 id="changes-in-1200">Changes in 1.2.0.0</h3>
+<h4 id="new-1">New</h4>
+<ul>
+<li>Gaea 1.2 UI overhaul.</li>
+<li>Erosion Studio 1.2 UI and systemic overhaul.</li>
+<li>Improved startup experience.</li>
+<li>Portals 2.0.</li>
+<li>Infinity Graph: Divide your graph into multiple tabs.</li>
+<li>Infinity Graph: Import and export partial graphs.</li>
+<li>Viewport: Overhauled viewport and render system.</li>
+<li>Viewport: Preview mesh density/LOD.</li>
+<li>Viewport: Alt + MMB zooming option.</li>
+<li>Viewport: Q + E vertical navigation.</li>
+<li>Viewport: Optional grid and compass in viewport.</li>
+<li>Cache session on exit.</li>
+<li>Toolbox: New docking options for toolbox: full height, top only, bottom only, and hidden.</li>
+<li>Toolbox: New expert mode in Toolbox for veteran users.</li>
+<li>Toolbox: Quick switch to shift between Most Used and all nodes.</li>
+<li>Fourth node style: Filament.</li>
+<li>Passive Optimizer for improving memory management.</li>
+<li>Session cache manager.</li>
+<li>RAM and HDD cache indicators.</li>
+<li>Descriptive tooltips for all nodes in the toolbox.</li>
+<li>New Preferences dialog.</li>
+<li>New About dialog.</li>
+<li>Build Manager UI simplified, and merged with main UI.</li>
+</ul>
+<h4 id="erosion-studio-1">Erosion Studio</h4>
+<ul>
+<li>Redesigned system for better performance.</li>
+<li>Undo was broken.</li>
+<li>New Erosion tools.</li>
+<li>New Snow tools.</li>
+<li>Custom brush shapes.</li>
+<li>Faster execution and project loading.</li>
+<li>Reverted the UI back to Erosion Studio's classic layout with fixed sidebar.</li>
+<li>Advanced mode for each brush to configure your own settings.</li>
+</ul>
+<h4 id="node-updates-1">Node Updates</h4>
+<ul>
+<li>New: Rock Maps node.</li>
+<li>New: Cartography node.</li>
+<li>New: Lakes node.</li>
+<li>New: MultiCombine node.</li>
+<li>New: Stacks node.</li>
+<li>New: Draw node 2.0 with new options.</li>
+<li>New: Flow Map 2.0 with flow separation.</li>
+<li>New: Fractal option for Terrace node.</li>
+<li>Dunes: Chaotic mode reworked.</li>
+<li>Light node now out of preview. Quality settings and preset support added.</li>
+<li>Output node can now save entire node, removing the need to have an output node per output.</li>
+<li>Constant node can now produce height or color.</li>
+<li>SatMaps: Improved favorites system.</li>
+<li>SatMaps: Sampling density option.</li>
+<li>Mask node can now be copy-pasted between files.</li>
+<li>Fixed stepping artifacts created in Snowfall node.</li>
+<li>Redesigned editor for Mask node.</li>
+<li>Redesigned editor for Islands node.</li>
+<li>Redesigned editor for Draw node.</li>
+<li>Coast: moved to new Water category.</li>
+<li>Snow: renamed to Snowfall, moved to new Snow category.</li>
+<li>Selectors category merged with Data Maps.</li>
+<li>Erosion: Random Sedimentation setting for Selective Processing.</li>
+<li>Erosion: Obsolete 'Debris' setting removed.</li>
+<li>Erosion: Inverse option added for height and slope biases.</li>
+<li>Erosion: Minimum feature size lowered to 5 meters from 50m.</li>
+<li>Coast: value limits increased.</li>
+<li>Coast: option to get value from viewport.</li>
+<li>Nodes can now have hidden ports.</li>
+<li>Improved naming for ports.</li>
+</ul>
+<h4 id="improved-1">Improved</h4>
+<ul>
+<li>Remember preview resolution for saved files.</li>
+<li>Loading options for files: forcing low resolution, suspending engine.</li>
+<li>Baking resolution limit increased to 8K.</li>
+<li>Faster loading of baked caches.</li>
+<li>Connecting two &quot;out&quot; ports creates a Combine.</li>
+<li>Search for portals in node searches.</li>
+<li>Options: Cache Limit and warning system.</li>
+<li>Options: Sensitivity customization for stylus users.</li>
+<li>Options: Hide node categories in node drag-out menus.</li>
+<li>Progress bars move to bottom right corner for improved visibility</li>
+<li>New colors for progress bars to clearly indicate progress of current task vs all tasks.</li>
+<li>Gaea now correctly recognizes 2D maps in a chain and switches from terrain to mask view as required.</li>
+<li>Viewport lighting presets.</li>
+<li>(Enterprise only) Gaea TORX file format version now synced to actual build used.</li>
+<li>Sliders with unchanged values displayed with slightly muted colors.</li>
+</ul>
+<h4 id="fixed-1">Fixed</h4>
+<ul>
+<li>Nodes created while searching were placed incorrectly.</li>
+<li>Search text would not clear in some situations.</li>
+<li>Forcing refresh/invalidation of nodes should not affect baked nodes.</li>
+<li>Unbaking a node did not refresh the editor.</li>
+<li>Color nodes exported as TIFF would be grayscale.</li>
+<li>Accidental double-clicking of title bar area fixed.</li>
+<li>Progress would not update in some situations.</li>
+<li>Light node preview was not consistent in both viewports.</li>
+<li>MultiMix (F8) would require manual node refresh in many situations.</li>
+<li>Autolevel Mask post process function was broken.</li>
+<li>Setting &quot;Display As&quot; for a node would not refresh preview.</li>
+<li>Post Process stack did not update properly when resetting node.</li>
+<li>20+ other bugs fixed in Erosion Studio.</li>
+<li>20+ other bugs related to lighting and preview caching.</li>
+<li>30+ other bug fixes for baking related issues.</li>
+<li>Addressed 26 bugs that could potentially crash Gaea in some situations.</li>
+<li>Most Used nodes now include favorites regardless of usage stats.</li>
+</ul>
+<h4 id="breaking-changes-1">BREAKING CHANGES</h4>
+<ul>
+<li>All existing Erosion Studio projects will not work because of the complete overhaul.</li>
+<li>&quot;Base&quot; height, part of the terrain definition, has been removed. All terrains now start at 0m for easier consumption.</li>
+<li>Due to unavoidable changes in our randomizer some nodes - namely SlopeNoise, Noise, LineNoise, and Rocks - will no longer be able to create the same shape as in previous Gaea versions. If those shapes are crucial, please see [THIS LINK]. <strong>Article coming soon</strong></li>
+</ul>
+</div>
+
+                    </div>
+                    <div class="col-sm-3 col-md-2 docs-subnavbar-container visible-md visible-lg hidden-print">
+                        <nav id="toc" data-toggle="toc" aria-label="On Page" data-spy="affix" class="affix">
+                        </nav>
+                        <div class="botbot">
+                            <div class="mt-square-matcha" style="font-size: 8px; font-weight: bold;">
+                                <input id="cb1" type="checkbox" />
+                                <label for="cb1"></label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer role="contentinfo" class="hidden-print">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <p class="copyright monkey-holder">
+                        <span>&copy; 2018-2020 QuadSpinner. Released under the <a href="https://github.com/QuadSpinner/Gaea-Docs/blob/master/LICENSE" target="_blank">the MIT License</a></span>
+                        &nbsp; | &nbsp;
+                        <small class="font-weight-strong">
+                            <img src="/images/monkey.png" class="tiny-monkey" /> Generated with AngryMonkey, an opensource tool by QuadSpinner.
+                        </small>
+                    </p>
+                    <br />
+                    <ul class="links">
+                        <li><a href="https://twitter.com/quadspinner/" target="_blank">Twitter</a></li>
+                        <li><a href="https://youtube.com/quadspinner/" target="_blank">YouTube</a></li>
+                        <li><a href="https://instagram.com/quadspinner/" target="_blank">Instagram</a></li>
+                        <li><a id="footer-support-link" href="https://support.QuadSpinner.com/" target="_blank">Support</a></li>
+                        <li><a id="footer-privacy-link" href="https://QuadSpinner.com/Legal" target="_blank">Terms of Use</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/assets/libs/bundle.min.js"></script>
+    <script src="/assets/js/main.js"></script>
+    <script src="/assets/js/search.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', (event) => {
             document.querySelectorAll('pre').forEach((block) => {
                 hljs.highlightBlock(block);
             });
             mediumZoom('.zoom', { margin: 36, background: '#333333' });
             mediumZoom('figure img', { margin: 36, background: '#333333' });
             mediumZoom('.img-fluid', { margin: 36, background: '#333333' });
-        });</script></body></html>
+        });
+    </script>
+</body>
+</html>

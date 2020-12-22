@@ -1,4 +1,4 @@
 ---
 uid: FractalTerraces
-Title: FractalTerraces
+title: FractalTerraces
 ---
