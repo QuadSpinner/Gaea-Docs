@@ -12,11 +12,5 @@ _site_pdf
 /_template/assets/
 node_modules
 /Gaea-Docs/.vs
-.vs/Gaea-Docs/v16/.suo
-.vs/Supercharger/AngryMonkey/codemap.dat
-.vs/Gaea-Docs/config/applicationhost.config
-.vs/Gaea-Docs/v16/.suo
-.vs/Supercharger/_/DTabsHistory.dat
-.vs/Supercharger/AngryMonkey/codemap.dat
-.vs/Supercharger/AngryMonkey/global_history.dat
+.vs
 source/hash.bin
