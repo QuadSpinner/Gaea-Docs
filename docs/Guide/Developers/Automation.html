@@ -75,24 +75,24 @@
 </blockquote>
 <h2 id="exposing-properties">Exposing Properties</h2>
 <p>The first step to automation is to expose properties that you wish to modify from the command line. To expose a node's properties, use <strong>Node Properties &gt; Expose Properties</strong>.</p>
-<p><img src="/images/ui/automation-expose-menu.png" class="img-fluid" alt="" /></p>
+<p><img src="/images/ui/automation-expose-menu.webp" class="img-fluid" alt="" /></p>
 <p>In the dialog that comes up, you can check the properties you want to expose and rename the variable name if needed.</p>
 <blockquote class="WARNING blockquote">
 <p>If multiple variables share the same name - even across different nodes - their values will be overwritten. In such a situation, you should rename the variable name to avoid value contamination.</p>
 </blockquote>
-<p><img src="/images/ui/automation-expose-dialog.png" class="img-fluid" alt="" /></p>
+<p><img src="/images/ui/automation-expose-dialog.webp" class="img-fluid" alt="" /></p>
 <p>Repeat the process for any other nodes you wish to expose.</p>
 <p>You can access all exposed properties from the <strong>Node Properties Menu &gt; Show Exposed Properties</strong> or press <code>F12</code>.</p>
 <blockquote class="TIP blockquote">
-<p>To process external files and also retrieve the output in an automation scenario, create a <a href="%2fReference%2fPrimitives%2fFile.html">File</a> node for each incoming heightmap, and an <a href="%2fReference%2fOutput%2fOutput.html">Output</a> for each heigthmap or color map to be saved. Remember to ensure a unique name for each node's filename variable to avoid crashes or data loss.</p>
+<p>To process external files and also retrieve the output in an automation scenario, create a <a href="/Reference/Primitives/File.html">File</a> node for each incoming heightmap, and an <a href="/Reference/Output/Output.html">Output</a> for each heigthmap or color map to be saved. Remember to ensure a unique name for each node's filename variable to avoid crashes or data loss.</p>
 </blockquote>
 <h2 id="command-line">Command Line</h2>
-<p>To modify any variables, use the following command line format: <code>variablename:value</code>. All variables must be appended to the command line after any switches such as <code>--open</code> or <code>--savetor</code>. For additional details on command line usage beyond automation, see <a href="%2fGuide%2fBuild%2fSwarm.html">Build Swarm</a>.</p>
+<p>To modify any variables, use the following command line format: <code>variablename:value</code>. All variables must be appended to the command line after any switches such as <code>--open</code> or <code>--savetor</code>. For additional details on command line usage beyond automation, see <a href="/Guide/Build/Swarm.html">Build Swarm</a>.</p>
 <p>Here is a full command line example:</p>
 <pre><code class="language-vb">&quot;C:\Program Files\QuadSpinner\Gaea\Gaea.Build.exe&quot; &quot;C:\Users\Username\Documents\Gaea\erosion_automata.tor&quot; 
  --silent --resolution512 
- filein:&quot;Z:\input.png&quot; 
- fileout:&quot;Z:\output.png&quot; 
+ filein:&quot;Z:\input.webp&quot; 
+ fileout:&quot;Z:\output.webp&quot; 
  duration:0.518 
  rocksoftness:0.271 
  strength:0.184 
@@ -103,13 +103,13 @@
  aggressivemode:true
  seed:0 
 </code></pre>
-<p><img src="/images/ui/automation-buildmanager-commandline.png" class="img-fluid" alt="" /></p>
+<p><img src="/images/ui/automation-buildmanager-commandline.webp" class="img-fluid" alt="" /></p>
 <blockquote class="TIP blockquote">
 <p>Use the command line review button in the Build Manager to copy the command line based on the settings selected in the Build Manager dialog.</p>
 </blockquote>
 <h2 id="xml-variable-map">XML Variable Map</h2>
 <p>Gaea provides the facility to create an XML mapping file containing the details of all the variables exposed, their type, variable name, friendly name, value limits, and default value.</p>
-<p>To produce this XML map, pass the <code>--nodemap</code> switch to the <a href="%2fGuide%2fBuild%2fSwarm.html">Build Swarm</a>.</p>
+<p>To produce this XML map, pass the <code>--nodemap</code> switch to the <a href="/Guide/Build/Swarm.html">Build Swarm</a>.</p>
 <pre><code class="language-vb">Gaea.Build.exe &quot;C:\Gaea\erosion_automata.tor&quot; --nodemap
 </code></pre>
 <p>Here is an example of such a node map.</p>
@@ -166,7 +166,7 @@
 
 </code></pre>
 <p>The Houdini bridge uses the node map to construct the UI for the Gaea node.</p>
-<p><img src="/images/ui/Houdini.jpg" class="img-fluid" alt="" /></p>
+<p><img src="/images/ui/Houdini.webp" class="img-fluid" alt="" /></p>
 
                     </div>
                     <div class="col-sm-3 col-md-2 docs-subnavbar-container visible-md visible-lg hidden-print">

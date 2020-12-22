@@ -3,7 +3,7 @@ uid: properties
 title: Properties
 ---
 
-![](/images/ui/properties.png){.w-50}
+![](/images/ui/properties.webp){.w-50}
 
 Every node exposes a set of properties or settings that you can modify to change the effect that node has on the terrain. When you select a node, the settings become available in the Properties panel in the right side of the interface.
 
@@ -33,7 +33,7 @@ For properties that allow numeric entry (Integer or Decimals), you can right-cli
 
 The Microincrements panel is available when you right-click an Integer or Decimals property. With the Microincrements panel, you can achieve much higher precision in entering values.
 
-![](/images/ui/microincrements.png){.w-75}
+![](/images/ui/microincrements.webp){.w-75}
 
 | Command | Description |
 | -------------- | ------------------------------------------- |
@@ -53,7 +53,7 @@ Seed Reset is a minor enhancement in the Microincrements UI. It sets the “Defa
 
 ### Flux Markers
 
-![](/images/ui/properties-flux.png){.w-75}
+![](/images/ui/properties-flux.webp){.w-75}
 
 Flux markers are small dots that represent previous values. They appear when you hover over the slider.
 
@@ -75,13 +75,13 @@ Alternatively, you can toggle the Auto Apply for any node via the properties men
 
 The Post Process options sits right under the Properties and provides quick access to common functions. See @postprocess.
 
-![](/images/ui/postprocess.png)
+![](/images/ui/postprocess.webp)
 
 ## Properties Menu
 
 The node properties menu provides access to additional functionality.
 
-![](/images/ui/properties-menu.png){.w-75}
+![](/images/ui/properties-menu.webp){.w-75}
 
 | Command | Description    |
 | ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |

@@ -6,13 +6,13 @@
     <meta name="description" content="Official documentation for QuadSpinner Gaea. Includes tutorials and knowledge base.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
     <meta name="generator" content="AngryMonkey 2.0">
-    <title>Your first terrain - Gaea Documentation - QuadSpinner</title>
+    <title>Gaea 1.0.29.4 - Gaea Documentation - QuadSpinner</title>
     <link rel="shortcut icon" href="/Gaea-32.png" type="image/png">
     <link rel="stylesheet" href="/assets/fixed/bundle.min.css">
     <link rel="stylesheet" href="/assets/custom/styles.css">
     <link rel="stylesheet" href="/assets/custom/custom.css">
 </head>
-<body data-spy="scroll" data-target="#toc" data-hive="User Guide" data-hivehref="Guide" data-parent="Getting Started" data-parenthref="Getting Started">
+<body data-spy="scroll" data-target="#toc" data-hive="Version History" data-hivehref="Changelogs" data-parent="Bleeding-Edge" data-parenthref="Bleeding-Edge">
     <div id="main">
         <div class="navbar-fixed-container hidden-print">
             <div class="navbar navbar-inverse navbar-fixed-top ">
@@ -69,8 +69,49 @@
 
                         </ol>
 
-                        <p class="faux-h1">Your first terrain</p><div class="embed-responsive embed-responsive-16by9">
-<iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/1A1xXfTlKqM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <p class="faux-h1">Gaea 1.0.29.4</p><p><strong>Released on 11 February 2020</strong></p>
+<p><a href="http://viridian.quadspinner.com/gaeab/Gaea-1.0.29b.exe">Download 37.71MB</a> <br></p>
+<div class="release-note">
+<h4 id="whats-new-in-gaea-10294">What's new in Gaea 1.0.29.4?</h4>
+<h2 id="stability--fixes">Stability + Fixes</h2>
+<h2 id="complete-changelog">Complete Changelog</h2>
+<h4 id="new">New</h4>
+<ul>
+<li>Builds can now use bake cache when resolution is same or lower.</li>
+</ul>
+<h4 id="node-updates">Node Updates</h4>
+<ul>
+<li>Coast enhanced with larger maximum values.</li>
+<li>Combine can now accept both heightfield and color inputs.</li>
+<li>Mesher now has option to create or skip walls for the side of the meshes.</li>
+</ul>
+<h4 id="improved">Improved</h4>
+<ul>
+<li>3D/2D lighting toggle added to the main toolbar.</li>
+<li>Several minor improvements for new viewport render system.</li>
+</ul>
+<h4 id="fixed">Fixed</h4>
+<ul>
+<li>Gaea.Build.exe would not execute properly when run from command line or scripts.</li>
+<li>RGBMix and RGBSplit were broken.</li>
+<li>Cells now honors minimum values for Size and Chaos.</li>
+<li>Vegetation would throw error on creation.</li>
+<li>Mesher output improved. Excess &quot;wall&quot; artifact removed.</li>
+<li>Mesh Export options in Build Manager have been removed. Use Mesher node instead.</li>
+<li>Output node now behaves properly in Build Manager when 'Save to Build Folder' is enabled.</li>
+<li>Node created from search box would not be placed correctly.</li>
+<li>Installer would not register custom data path.</li>
+<li>Quickstarts would not show with custom data path.</li>
+<li>Presets would not show with custom data path.</li>
+</ul>
+<h4 id="known-issues">Known Issues</h4>
+<ul>
+<li>Hybrid mode in Erosion may cause blank output in higher resolutions. Use Linear mode instead.</li>
+<li>Floating 2D viewport may unduly affect 3D viewport while main 2D viewport is running.</li>
+<li>Light node is in preview. Final version may differ and break compatibility.</li>
+<li>The Water system is not fully compatible with the new render system, and may show artifacts.</li>
+<li>Materials popup is no longer available. A replacement for it will be introduced in Gaea 1.2.</li>
+</ul>
 </div>
 
                     </div>

@@ -15,14 +15,14 @@ For each heightfield or mask you want to send from the target application, creat
 
 To expose a node's properties, use `Node Properties` `>` `Expose Properties`.
 
-![](/images/ui/automation-expose-menu.png)
+![](/images/ui/automation-expose-menu.webp)
 
 In the dialog that comes up, you can check the properties you want to expose and rename the variable name if needed. For example, when using @Erosion, the properties `Duration`, `Strength`, `Downcutting`, and `Inhibition` are useful and can be exposed.
 
 {.WARNING}
 > If multiple variables share the same name - even across different nodes - their values will be overwritten. In such a situation, you should rename the variable name to avoid value contamination.
 
-![](/images/ui/automation-expose-dialog.png)
+![](/images/ui/automation-expose-dialog.webp)
 
 Repeat the process for any other nodes you wish to expose.
 

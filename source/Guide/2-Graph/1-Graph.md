@@ -20,7 +20,7 @@ Node graphs can only go from left to right but never the opposite as they repres
 
 Try following some of the simple exercises in the @tutorials section, and you will see that the graph is quite easy to use. @conveniences further enhance the way you create and manage nodes, making it easy to try different things.
 
-![](/images/ui/infinity-graph.png)
+![](/images/ui/infinity-graph.webp)
 
 <div class="embed-responsive embed-responsive-16by9">
 <iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/1A1xXfTlKqM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -37,7 +37,7 @@ The Infinity Graph allows you to split your terrain graph across multiple tabs u
 
 You can quickly navigate across graph tabs using the `,` shortcut on nodes.
 
-![](/images/ui/graph-menu.png){.w-50}
+![](/images/ui/graph-menu.webp){.w-50}
 
 You can move select nodes to different tabs. Portals will be created as required to ensure your connections stay intact.
 

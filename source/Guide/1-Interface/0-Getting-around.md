@@ -3,13 +3,13 @@ uid: getting-around
 title: Getting around
 ---
 
-![](/images/ui/Intro-All.jpg){.w-100}
+![](/images/ui/Intro-All.webp){.w-100}
 
 The Gaea interface is streamlined and minimal. All essential tools are available right within the main interface.
 
 ## Viewport
 
-![](/images/ui/Intro-Viewports.jpg){.w-100}
+![](/images/ui/Intro-Viewports.webp){.w-100}
 
 The viewports help you visualize your terrain components as you build the graph. There are two viewports, the 3D viewport, and the 2D viewport. The 2D viewport also doubles as an editor surface when using nodes such as @Draw, @Islands, @Mask, etc.
 
@@ -19,7 +19,7 @@ For further details, see @viewport.
 
 ## Graph Surface
 
-![](/images/ui/Intro-Graph.jpg){.w-100}
+![](/images/ui/Intro-Graph.webp){.w-100}
 
 The Graph is the core of Gaea. This is where your take nodes from the Toolbox and implement them on the Graph surface. The toolbox menu allows you change the Toolbox's configuration, such as full size or expert mode.
 
@@ -29,7 +29,7 @@ For further details, see @graph.
 
 ## Properties Panel
 
-![](/images/ui/Intro-Properties.jpg){.w-100}
+![](/images/ui/Intro-Properties.webp){.w-100}
 
 The Properties panel lets you modify the nodes on the Graph surface. When you select a node, the properties for it will be visible here.
 
@@ -41,7 +41,7 @@ For further details, see @properties.
 
 ## Toolbars
 
-![](/images/ui/Intro-Toolbars.jpg){.w-100}
+![](/images/ui/Intro-Toolbars.webp){.w-100}
 
 Beyond the graph and viewport toolbars, there are other toolbars across the interface.
 
@@ -53,7 +53,7 @@ In the bottom right corner of the interface, there are a few advanced options fo
 
 ## Build Tab
 
-![](/images/ui/Intro-Build.jpg){.w-100}
+![](/images/ui/Intro-Build.webp){.w-100}
 
 Gaea needs to build the terrain to get you the final quality version of the terrain you preview while working in the main interface. The Build Manager tab allows you to configure the terrain build and use different options to initiate the build.
 

@@ -15,7 +15,7 @@ When a part of the graph is finalized and you do not anticipate any changes - ev
 
 Once further nodes are finalized, you can bake those too.
 
-![](/images/ui/graph-menu-bake.png){.w-50}
+![](/images/ui/graph-menu-bake.webp){.w-50}
 
 With the Bake Menu in the Graph toolbar you can choose the resolution for baking, bake or unbake nodes, and use the Session Cache.
 
@@ -47,7 +47,7 @@ Nodes can be unbaked through the Baking Menu.
 
 An added bonus of baking is that it can free up a lot of RAM. When loading a baked cache, Gaea will only load "linchpin nodes". A linchpin node is a baked node that is connected to unbaked nodes. Ancestors of linchpin nodes are not loaded, thereby saving processing power and memory.
 
-![](/images/ui/bake-linchpin.png)
+![](/images/ui/bake-linchpin.webp)
 
 Consider this graph. The @Perlin node is connected to 3 different nodes, which eventually come to a single @MultiCombine node. The @Erosion node here relies only on the MultiCombine, so keeping the data for the previous 4 nodes is unnecessary. When you bake the MultiCombine node, Gaea will detect that it is the linchpin and unload the previous nodes. Non-crucial nodes such as these are depicted with a dotted border to show that they're not loaded.
 

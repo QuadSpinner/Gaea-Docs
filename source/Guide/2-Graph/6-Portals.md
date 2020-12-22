@@ -32,11 +32,11 @@ Once a portal is created, a small tab with the port's name will be visible next 
 
 You can connect to a portal in multiple ways:
 
-![](/images/ui/portal-menu.png)
+![](/images/ui/portal-menu.webp)
 
 @dragout a connection and you will be presented with a list of available portals organized by graphs.
 
-![](/images/ui/search-portals.png){.w-50}
+![](/images/ui/search-portals.webp){.w-50}
 
 @dragout a connection and type `\` when the menu shows up. This will present you with a searchable list of all available portals.
 
@@ -72,18 +72,18 @@ Often a graph ends up with natural chokepoints - a single node that is reference
 
 In this example, the second @Erosion node is the chokepoint. It feeds several other nodes, while being a critical junction in the terrain's creation process. It is more or less the "last" node in the terrain creation.
 
-![](/images/ref/choke_1.png){.w-100}
+![](/images/ref/choke_1.webp){.w-100}
 
 The easy solution is to interject a Chokepoint node onto the important node. You can hold `Shift` while drag-dropping a Chokepoint on to the Erosion node to interject it and have Gaea reroute all connections.
 
 
-![](/images/ref/choke_2.png){.w-100}
+![](/images/ref/choke_2.webp){.w-100}
 
 Now everything is routed through the Chokepoint, allowing you to experiment with the Erosion node later, and only reroute a single connection when needed.
 
 The Chokepoint can be further organized by making its output a portal. You can select all the outgoing connections and press `Ctrl + P` to turn them into portal connections. This is especially useful when working with multiple graphs.
 
-![](/images/ref/choke_3.png){.w-100}
+![](/images/ref/choke_3.webp){.w-100}
 
 {.TIP}
 > You can give chokepoints (or any node!) an icon instead of text. Select a node and press `F2` to rename. Inside the rename field, press `Win` + `.` to bring up the Windows emoji picker. You can pick any emoji. This will create an icon for the Chokepoint instead of an abbreviation. 

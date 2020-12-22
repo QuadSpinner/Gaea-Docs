@@ -9,7 +9,7 @@ Gaea supports setting an arbitrary scale for your terrains through the new Terra
 
 The Terrain Definition popup is found in the main toolbar.
 
-![](/images/Philosophy/scale-definition.png)
+![](/images/Philosophy/scale-definition.webp)
 
 You define the Height of your terrain in meters. The Scale determines the extent of the entire terrain. By default, Gaea terrains are set to be 2.6km tall (Height: 2,600m), and 5 x 5 square kilometers wide (Scale: 5,000m).
 
@@ -29,23 +29,23 @@ For example, if your output resolution is 2048 x 2048, then the size of the terr
 {.NOTE}
 > Gaea stores and processes heightfields as "floats" (a high precision number). Heights are stored in a  `~0.0,000,000` - `1.0,000,000` range. For the more technically minded, this is just a simplification. Gaea uses IEEE 754 format 32-bit floats.
 
-![](/images/Philosophy/scale--5000x2600.png)
+![](/images/Philosophy/scale--5000x2600.webp)
 
 This image shows the "cube" of the default terrain size, which is `5000 x 5000` meters wide, and `2600` meters tall. You will notice our cube is not an exact cube; it is shorter than it is wide.
 
 For realistic use, we must visualize the data the way we perceive mountains in the real world. So we force a height-to-width ratio to satisfy the human perception of scale for terrains.
 
-![](/images/Philosophy/scale--5000x5000.png)
+![](/images/Philosophy/scale--5000x5000.webp)
 
 If you want a perfect cube, your height and scale must be the same. In this image, our terrain is a `5000 x 5000` meters and `5000` meters tall.
 
 So why don't we use a perfect cube? Because it distorts our perception of terrains.
 
-![](/images/Philosophy/perlin-5000x5000.png)
+![](/images/Philosophy/perlin-5000x5000.webp)
 
 This is what Perlin noise would look like in the "cube" format.
 
-![](/images/Philosophy/perlin-5000x2600.png)
+![](/images/Philosophy/perlin-5000x2600.webp)
 
 This is what the same noise looks like with height-to-width ratio applied. As you can see, it fits our perception better.
 
@@ -96,7 +96,7 @@ This is a special option reserved for importing and exporting data in very speci
 
 ## Important Readouts for Terrain Scale
 
-![](/images/Philosophy/scale-definition.png)
+![](/images/Philosophy/scale-definition.webp)
 
 In the Terrain Definition, you get two readouts: Real Scale and Height-Scale Ratio.
 

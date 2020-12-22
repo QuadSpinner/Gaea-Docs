@@ -14,15 +14,15 @@ Then we enable the Difference mask in the Combine node. This is the new Lakes ma
 
 Additionally, just to show the effect we're also combining (50% Blend) the Autolevelled Depth output with the Difference mask, and then pass it to a SatMaps node. Now we when we lower the Clamp nodes Max amount, the water level goes down while leaving a "drying shore". 
 
-![](/images/ref/Lakes/tut-control-1.jpg)
+![](/images/ref/Lakes/tut-control-1.webp)
 
 Clamp Max at 100%.
 
-![](/images/ref/Lakes/tut-control-2.jpg)
+![](/images/ref/Lakes/tut-control-2.webp)
 
 Clamp Max at 55%.
 
-![](/images/ref/Lakes/tut-control-3.jpg)
+![](/images/ref/Lakes/tut-control-3.webp)
 
 Clamp Max at 32%.
 

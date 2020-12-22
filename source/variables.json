@@ -1,0 +1,27 @@
+{
+  // Documentation
+  "site-title": "Gaea Documentation - QuadSpinner",
+  "brand-title": "QuadSpinner Gaea",
+  "site-description": "Official documentation for QuadSpinner Gaea. Includes tutorials and knowledge base.",
+
+  // Top menu action
+  "action-link": "https://quadspinner.com/download",
+  "action-text": "Download Gaea", 
+
+  // Social
+  "facebook": "quadspinner",
+  "twitter": "quadspinner",
+  "instagram": "quadspinner",
+  "youtube": "quadspinner",
+
+  // Links
+  "support": "https://QuadSpinner.com/Support",
+  "terms": "https://QuadSpinner.com/Legal",
+
+  // Legal
+  "copyright-owner": "QuadSpinner",
+  "license-text": "MIT License",
+  "license-url": "https://github.com/QuadSpinner/Gaea-Docs/blob/master/LICENSE"
+
+  // 
+}

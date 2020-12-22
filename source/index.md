@@ -1,6 +1,7 @@
 ---
 uid: home
 title: Gaea Documentation
+show: no
 ---
 
 # Welcome to the Gaea Documentation

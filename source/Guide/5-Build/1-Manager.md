@@ -3,7 +3,7 @@ uid: buildmanager
 title: Build Manager
 ---
 
-![Build Manager](/images/ui/Build-Manager.png){.w-100}
+![Build Manager](/images/ui/Build-Manager.webp){.w-100}
 
 
 ## Build Options
@@ -92,7 +92,7 @@ The Location field in the Build Manager provides two built-in options for storin
 
 The first option is the central build repository, which is stored in `Documents\Gaea\Builds\[Filename]` by default, but can be changed to any location — even to a local network or an online shared folder with OneDrive, Dropbox, GDrive, etc. This can be useful in team situations.
 
-![Exported Files](/images/Build-ExportedFiles.png)
+![Exported Files](/images/Build-ExportedFiles.webp)
 
 The second option is to have it stored alongside the file in a Builds folder. So if your file is called MyTerrain.tor, a folder called MyTerrain_Builds will be placed next to it.
 

@@ -6,13 +6,13 @@
     <meta name="description" content="Official documentation for QuadSpinner Gaea. Includes tutorials and knowledge base.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
     <meta name="generator" content="AngryMonkey 2.0">
-    <title>Look Dev - Gaea Documentation - QuadSpinner</title>
+    <title>Your first terrain - Gaea Documentation - QuadSpinner</title>
     <link rel="shortcut icon" href="/Gaea-32.png" type="image/png">
     <link rel="stylesheet" href="/assets/fixed/bundle.min.css">
     <link rel="stylesheet" href="/assets/custom/styles.css">
     <link rel="stylesheet" href="/assets/custom/custom.css">
 </head>
-<body data-spy="scroll" data-target="#toc" data-hive="User Guide" data-hivehref="Guide" data-parent="Using Gaea" data-parenthref="Using Gaea">
+<body data-spy="scroll" data-target="#toc" data-hive="User Guide" data-hivehref="Guide" data-parent="Getting-Started" data-parenthref="Getting-Started">
     <div id="main">
         <div class="navbar-fixed-container hidden-print">
             <div class="navbar navbar-inverse navbar-fixed-top ">
@@ -69,29 +69,9 @@
 
                         </ol>
 
-                        <p class="faux-h1">Look Dev</p><p>LookDev or Look Development nodes are composite nodes that allow you to quickly achieve specific geological formations out of simple shapes with minimum effort. You can even achieve complete, sophisticated environments from simple shapes with these specialized nodes.</p>
-<p>Each LookDev node targets a specific type of &quot;look&quot;, reducing the need for you to custom build a processing network.</p>
-<h2 id="fast-look-development">Fast Look Development</h2>
-<p><img src="/images/lookdev/stacks.jpg" class="img-fluid" alt="" /></p>
-<p>Usually, procedural artists have to use trial and error to come up with specific techniques that can shape terrains for particular &quot;looks&quot;. For example, a realistic stratified mesa formation in Gaea would require anywhere between 12 to 20 nodes. However, the <a href="%2fReference%2fLookDev%2fStacks.html">Stacks</a> LookDev node can create the very look by itself.</p>
-<p>LookDev nodes use composite algorithms that are not directly possible by using a set of nodes, so you get an extra level of quality and detail.</p>
-<p><img src="/images/lookdev/shatter.jpg" class="img-fluid" alt="" /></p>
-<p>The <a href="%2fReference%2fLookDev%2fShatter.html">Shatter</a> node can take any terrain, whether a simple shape or a complex construct, and create surface impacts by breaking down the terrain in various ways.</p>
-<p><img src="/images/lookdev/canyonizer.jpg" class="img-fluid" alt="" /></p>
-<p>The <a href="%2fReference%2fLookDev%2fCanyonizer.html">Canyonizer</a> node can create canyon networks on a terrain. At low-yield, it can be used to add lots of semi-superficial detail to an existing shape. See the <a href="%2fLearning%2fTutorials%2fShattered-Mountain.html">Shattered Mountain Lake</a> tutorial for a full example.</p>
-<p>For more information on the specific LookDev nodes, see the individual node pages in <a href="%2fReference%2findex.html">Node Reference</a>.</p>
-<h2 id="usage-strategies">Usage Strategies</h2>
-<p>In most cases, a single LookDev node is enough to get the desired shape. However, adding the same node afterwards and maintaing low strength in both can create more elaborate effects. For example, two low strength <a href="%2fReference%2fLookDev%2fCanyonizer.html">Canyonizer</a> nodes can create a more complex canyon system than either node can create by themselves.</p>
-<p>It is often useful to add a mild Erosion node after using strong LookDev nodes such as <a href="%2fReference%2fLookDev%2fStacks.html">Stacks</a> to add a bit of residual erosion afterwards. In such a situation, using the Max effect in the <a href="%2fGuide%2fUsing+Gaea%2fPostProcess.html">Post Process Stack</a> is also useful if you want to avoid changing the shape too much.</p>
-<p>LookDev nodes are primarily for creating terrains, however, nodes like <a href="%2fReference%2fLookDev%2fCanyonizer.html">Canyonizer</a>, <a href="%2fReference%2fLookDev%2fAnastomosis.html">Anastomosis</a>, and <a href="%2fReference%2fLookDev%2fShear.html">Shear</a> can also be useful when creating textures masks. For example, adding a <a href="%2fReference%2fLookDev%2fShear.html">Shear</a> node to a <a href="%2fReference%2fData%2fTexture.html">Texture</a> node's output can create distinct variations.</p>
-<p>Most importantly, you can use LookDev nodes to take basic shapes and turn them into elaborate terrains in minutes. A great example of such a process is shown in the <a href="%2fLearning%2fTutorials%2fRugged-Outcrops.html">Rugged Rock Outcrops</a> tutorial.</p>
-<div class="embed-responsive embed-responsive-16by9">
-<iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/c8g4AYPm2XA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <p class="faux-h1">Your first terrain</p><div class="embed-responsive embed-responsive-16by9">
+<iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/1A1xXfTlKqM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
-<blockquote class="NOTE blockquote">
-<p>LookDev nodes are fast for the amount of work they do, but depending on the shape of the incoming terrain and the node in question, it may take a little bit of time to process. These nodes should be used sparingly, otherwise they may become overkill - both for build speed and the unnecessary amounts of detail they can add. The latter can sometimes even create unwanted shapes at very high resolutions.
-If you do end up using several LookDev nodes, <a href="%2fGuide%2fUsing+Gaea%2fCache.html">Baking and Caching</a> are great ways to keep your workflow swift.</p>
-</blockquote>
 
                     </div>
                     <div class="col-sm-3 col-md-2 docs-subnavbar-container visible-md visible-lg hidden-print">

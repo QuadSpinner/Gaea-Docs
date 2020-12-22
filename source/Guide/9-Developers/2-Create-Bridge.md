@@ -18,7 +18,7 @@ The Bridge can be created using any programming language, as long as you meet th
 - Save as PNG (16-bit), raw 32-bit floats, TIFF (32-bit), or OpenEXR (32-bit)
 - Redirect and read StdOut stream (optional)
 
-![](/images/seq/bridge.png){.w-50}
+![](/images/seq/bridge.webp){.w-50}
 
 Gaea must be installed along with prerequisites (see @installing) for the process to work.
 
@@ -106,7 +106,7 @@ Here is a full command line example for the above nodemap:
 
 ```vb
 Gaea.Build.exe "C:\erosion_automata.tor" --automata --resolution0512 
- fileInput:"Z:\input.png" fileOutput:"Z:\output.png" 
+ fileInput:"Z:\input.webp" fileOutput:"Z:\output.webp" 
  duration:0.518 finedetail:true verticality:2000
 ```
 

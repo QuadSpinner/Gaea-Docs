@@ -6,13 +6,13 @@
     <meta name="description" content="Official documentation for QuadSpinner Gaea. Includes tutorials and knowledge base.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
     <meta name="generator" content="AngryMonkey 2.0">
-    <title>Create with Primitives - Gaea Documentation - QuadSpinner</title>
+    <title>Look Dev - Gaea Documentation - QuadSpinner</title>
     <link rel="shortcut icon" href="/Gaea-32.png" type="image/png">
     <link rel="stylesheet" href="/assets/fixed/bundle.min.css">
     <link rel="stylesheet" href="/assets/custom/styles.css">
     <link rel="stylesheet" href="/assets/custom/custom.css">
 </head>
-<body data-spy="scroll" data-target="#toc" data-hive="User Guide" data-hivehref="Guide" data-parent="Using Gaea" data-parenthref="Using Gaea">
+<body data-spy="scroll" data-target="#toc" data-hive="User Guide" data-hivehref="Guide" data-parent="Using-Gaea" data-parenthref="Using-Gaea">
     <div id="main">
         <div class="navbar-fixed-container hidden-print">
             <div class="navbar navbar-inverse navbar-fixed-top ">
@@ -69,31 +69,29 @@
 
                         </ol>
 
-                        <p class="faux-h1">Create with Primitives</p><p>CG applications use primitives, such as cubes and spheres, to create basic geometry. Gaea being a terrain software uses geological primitives such as <a href="%2fReference%2fGeo+Primitives%2fMountain.html">Mountain</a>, <a href="%2fReference%2fGeo+Primitives%2fRange.html">Range</a>, and <a href="%2fReference%2fGeo+Primitives%2fCrater.html">Crater</a>.</p>
-<h2 id="procedural-primitives">Procedural Primitives</h2>
-<p>Most of Gaea's Primitives fall into this category. They generate basic geological shapes that can then be processed and eroded to look like a realistic terrain. Procedural generation allows you to create an infinite number of variations from the same node.</p>
-<p><code>TODO: Image</code></p>
-<p>Primitives expose a property called Seed. Changing this property randomizes the shape. This allows you to create multiple primitives that follow the same general paradigm but are distinctly different shapes.</p>
-<p>Primitives come in two forms: basic Primitives and Geo Primitives.</p>
-<h3 id="primitives">Primitives</h3>
-<p>These nodes provide low-level, direct access to the most rudimentary procedural shapes such as fractal noises and simple geometry. <a href="%2fReference%2fPrimitives%2fPerlin.html">Perlin</a>, <a href="%2fReference%2fPrimitives%2fVoronoi.html">Voronoi</a>, and <a href="%2fReference%2fPrimitives%2fGradient.html">Gradient</a> are common primitives.</p>
-<p>By themselves, they only create basic shapes, but combined with other Primitives and processed properly with shape modifiers, <a href="%2fReference%2fErosion%2fErosion.html">Erosion</a>, and <a href="%2fGuide%2fUsing+Gaea%2fLookDev.html">Look Dev</a> nodes, they can be transformed into realistic terrains.</p>
-<p>Multiple Primitives can be put together using the <a href="%2fReference%2fAdjustments%2fCombine.html">Combine</a> node. When multiple Primitives are combined, they can produce sophisticated shapes.</p>
-<h3 id="geo-primitives">Geo Primitives</h3>
-<p>Geological Primitives, or Geo Primitives for short, are a more detailed, spefific type of creator node. One of the key aspects of the Geo Primitives is to provide shapes that require very little erosion.</p>
-<p>While normal primitives create basic shapes, Geo Primitives create complete geological elements such as <a href="%2fReference%2fGeo+Primitives%2fRidge.html">Ridge</a>, <a href="%2fReference%2fGeo+Primitives%2fBadlands.html">Badlands</a>, <a href="%2fReference%2fGeo+Primitives%2fDunes.html">Dunes</a>, <a href="%2fReference%2fGeo+Primitives%2fCrater.html">Crater</a>, and so on. This can be a very useful timesaver, as you get near-complete shapes with a single node.</p>
-<p>When processed with <a href="%2fReference%2fErosion%2fErosion.html">Erosion</a> or one or more <a href="%2fGuide%2fUsing+Gaea%2fLookDev.html">Look Dev</a> nodes, you can get a complete terrain without having to create elaborate node networks for these tasks.</p>
+                        <p class="faux-h1">Look Dev</p><p>LookDev or Look Development nodes are composite nodes that allow you to quickly achieve specific geological formations out of simple shapes with minimum effort. You can even achieve complete, sophisticated environments from simple shapes with these specialized nodes.</p>
+<p>Each LookDev node targets a specific type of &quot;look&quot;, reducing the need for you to custom build a processing network.</p>
+<h2 id="fast-look-development">Fast Look Development</h2>
+<p><img src="/images/lookdev/stacks.webp" class="img-fluid" alt="" /></p>
+<p>Usually, procedural artists have to use trial and error to come up with specific techniques that can shape terrains for particular &quot;looks&quot;. For example, a realistic stratified mesa formation in Gaea would require anywhere between 12 to 20 nodes. However, the <a href="/Reference/LookDev/Stacks.html">Stacks</a> LookDev node can create the very look by itself.</p>
+<p>LookDev nodes use composite algorithms that are not directly possible by using a set of nodes, so you get an extra level of quality and detail.</p>
+<p><img src="/images/lookdev/shatter.webp" class="img-fluid" alt="" /></p>
+<p>The <a href="/Reference/LookDev/Shatter.html">Shatter</a> node can take any terrain, whether a simple shape or a complex construct, and create surface impacts by breaking down the terrain in various ways.</p>
+<p><img src="/images/lookdev/canyonizer.webp" class="img-fluid" alt="" /></p>
+<p>The <a href="/Reference/LookDev/Canyonizer.html">Canyonizer</a> node can create canyon networks on a terrain. At low-yield, it can be used to add lots of semi-superficial detail to an existing shape. See the <a href="/Learning/Tutorials/Shattered-Mountain.html">Shattered Mountain Lake</a> tutorial for a full example.</p>
+<p>For more information on the specific LookDev nodes, see the individual node pages in <a href="/Reference/index.html">Node Reference</a>.</p>
+<h2 id="usage-strategies">Usage Strategies</h2>
+<p>In most cases, a single LookDev node is enough to get the desired shape. However, adding the same node afterwards and maintaing low strength in both can create more elaborate effects. For example, two low strength <a href="/Reference/LookDev/Canyonizer.html">Canyonizer</a> nodes can create a more complex canyon system than either node can create by themselves.</p>
+<p>It is often useful to add a mild Erosion node after using strong LookDev nodes such as <a href="/Reference/LookDev/Stacks.html">Stacks</a> to add a bit of residual erosion afterwards. In such a situation, using the Max effect in the <a href="/Guide/Using-Gaea/PostProcess.html">Post Process Stack</a> is also useful if you want to avoid changing the shape too much.</p>
+<p>LookDev nodes are primarily for creating terrains, however, nodes like <a href="/Reference/LookDev/Canyonizer.html">Canyonizer</a>, <a href="/Reference/LookDev/Anastomosis.html">Anastomosis</a>, and <a href="/Reference/LookDev/Shear.html">Shear</a> can also be useful when creating textures masks. For example, adding a <a href="/Reference/LookDev/Shear.html">Shear</a> node to a <a href="/Reference/Data/Texture.html">Texture</a> node's output can create distinct variations.</p>
+<p>Most importantly, you can use LookDev nodes to take basic shapes and turn them into elaborate terrains in minutes. A great example of such a process is shown in the <a href="/Learning/Tutorials/Rugged-Outcrops.html">Rugged Rock Outcrops</a> tutorial.</p>
 <div class="embed-responsive embed-responsive-16by9">
-<iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/1A1xXfTlKqM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/c8g4AYPm2XA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
-<p>This video continues in <a href="%2fLearning%2fTutorials%2fIntro-Color.html">Color Production</a>.</p>
-<h3 id="hand-drawn-primitives">Hand Drawn Primitives</h3>
-<p>The <a href="%2fReference%2fPrimitives%2fDraw.html">Draw</a> and <a href="%2fReference%2fGeo+Primitives%2fIsland.html">Island</a>s nodes allow you to draw shapes which serve as guides upon which further processing is performed. For example, Islands will turn guides into a complex archipelago.</p>
-<p>The <a href="%2fReference%2fData%2fMask.html">Mask</a> node can also act as a Primitive even though it is categorized as a Data Map in the toolbox. However, it will not process the shape you draw.</p>
-<h2 id="file-import">File Import</h2>
-<p>To import a heightfield in any major 32, 16, or 8 bit image format, create a <a href="%2fReference%2fPrimitives%2fFile.html">File</a> node and load the desired file. You can simply drag and drop a valid file on the graph and a <a href="%2fReference%2fPrimitives%2fFile.html">File</a> node will be created for you.</p>
-<h3 id="importing-meshes-and-geospatial-data">Importing Meshes and Geospatial Data</h3>
-<p>Support for importing meshes as heightmaps, and satellite data such as DEM, SRTM, and other formats will be available soon.</p>
+<blockquote class="NOTE blockquote">
+<p>LookDev nodes are fast for the amount of work they do, but depending on the shape of the incoming terrain and the node in question, it may take a little bit of time to process. These nodes should be used sparingly, otherwise they may become overkill - both for build speed and the unnecessary amounts of detail they can add. The latter can sometimes even create unwanted shapes at very high resolutions.
+If you do end up using several LookDev nodes, <a href="/Guide/Using-Gaea/Cache.html">Baking and Caching</a> are great ways to keep your workflow swift.</p>
+</blockquote>
 
                     </div>
                     <div class="col-sm-3 col-md-2 docs-subnavbar-container visible-md visible-lg hidden-print">

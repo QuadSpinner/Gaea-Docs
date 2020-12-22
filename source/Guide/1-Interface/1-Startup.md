@@ -7,7 +7,7 @@ The Startup Screen is your main entry point into Gaea.
 
 ## Project Screen
 
-![](/images/ui/start0.png)
+![](/images/ui/start0.webp)
 
 On the right side, you have all the commands you need to get started. On the left side, you can access the most recently opened projects.
 
@@ -53,7 +53,7 @@ The menu in the top right gives you access to additional options.
 
 ## Erosion Studio
 
-![](/images/ui/start1.png)
+![](/images/ui/start1.webp)
 
 | Project Commands | Description                                                                                                         |
 | ---------------- | ------------------------------------------------------------------------------------------------------------------- |
@@ -63,7 +63,7 @@ The menu in the top right gives you access to additional options.
 
 ## Version Updates
 
-![](/images/ui/start2.png)
+![](/images/ui/start2.webp)
 
 Clicking the New Version command lets you see the release notes and changelog for any new versions that are released. You can review the notes and choose to upgrade.
 
@@ -73,6 +73,6 @@ Clicking the New Version command lets you see the release notes and changelog fo
 
 ## Quickstarts
 
-![](/images/ui/start3.png)
+![](/images/ui/start3.webp)
 
 The Quickstarts browser lets you open examples and technique demonstration projects that ship with Gaea.

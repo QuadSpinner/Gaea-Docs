@@ -69,18 +69,18 @@
 
                         </ol>
 
-                        <p class="faux-h1">Controlling Water</p><p>You can use a combination of <a href="%2fReference%2fAdjustments%2fClamp.html">Clamp</a> and <a href="%2fReference%2fAdjustments%2fCombine.html">Combine</a> (Max mode) to control the water level created by the <a href="%2fReference%2fWater%2fLakes.html">Lakes</a> node.</p>
-<p>The core concept here is to use the secondary outputs of the Lakes node instead of the primary output so we can modify them before merging it with our terrain. The <a href="%2fReference%2fErosion%2fErosion.html">Erosion</a> node here is the main terrain upon which Lakes simulates water. We use a <a href="%2fReference%2fAdjustments%2fCombine.html">Combine</a> node in Max mode (100%) and merge the Erosion output with the Surface output. But we interject a <a href="%2fReference%2fAdjustments%2fClamp.html">Clamp</a> node which helps us control the height of the water level.</p>
+                        <p class="faux-h1">Controlling Water</p><p>You can use a combination of <a href="/Reference/Adjustments/Clamp.html">Clamp</a> and <a href="/Reference/Adjustments/Combine.html">Combine</a> (Max mode) to control the water level created by the <a href="/Reference/Water/Lakes.html">Lakes</a> node.</p>
+<p>The core concept here is to use the secondary outputs of the Lakes node instead of the primary output so we can modify them before merging it with our terrain. The <a href="/Reference/Erosion/Erosion.html">Erosion</a> node here is the main terrain upon which Lakes simulates water. We use a <a href="/Reference/Adjustments/Combine.html">Combine</a> node in Max mode (100%) and merge the Erosion output with the Surface output. But we interject a <a href="/Reference/Adjustments/Clamp.html">Clamp</a> node which helps us control the height of the water level.</p>
 <blockquote class="TIP blockquote">
 <p>Surface is a hidden port, and can only be accessed by dropping a connection on the Lakes node and selecting the Surface option from the popup menu.</p>
 </blockquote>
 <p>Then we enable the Difference mask in the Combine node. This is the new Lakes mask that the Lakes node would have normally given us, but with the clamp influence taken into consideration.</p>
 <p>Additionally, just to show the effect we're also combining (50% Blend) the Autolevelled Depth output with the Difference mask, and then pass it to a SatMaps node. Now we when we lower the Clamp nodes Max amount, the water level goes down while leaving a &quot;drying shore&quot;.</p>
-<p><img src="/images/ref/Lakes/tut-control-1.jpg" class="img-fluid" alt="" /></p>
+<p><img src="/images/ref/Lakes/tut-control-1.webp" class="img-fluid" alt="" /></p>
 <p>Clamp Max at 100%.</p>
-<p><img src="/images/ref/Lakes/tut-control-2.jpg" class="img-fluid" alt="" /></p>
+<p><img src="/images/ref/Lakes/tut-control-2.webp" class="img-fluid" alt="" /></p>
 <p>Clamp Max at 55%.</p>
-<p><img src="/images/ref/Lakes/tut-control-3.jpg" class="img-fluid" alt="" /></p>
+<p><img src="/images/ref/Lakes/tut-control-3.webp" class="img-fluid" alt="" /></p>
 <p>Clamp Max at 32%.</p>
 <p>You can create a more elaborate texturing setup to show the drying shoreline and more. For example, if you set up two different clamps, you can get a &quot;wet&quot; area outside the water level. That is how this terrain was created:</p>
 <p><img src="/images/ref/Lakes/lake-clamp.gif" class="img-fluid" alt="" /></p>

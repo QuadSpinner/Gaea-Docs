@@ -11,7 +11,7 @@ Quality of life for the user is the baseline for all we do. Gaea features a larg
 
 To create your first node, right-click in the graph and type the name of the node you want to create. Then hit `Enter`. The node will be created at the cursor location. You can also press `TAB` to search for nodes.
 
-![](/images/ui/search-nodes.png){.w-50}
+![](/images/ui/search-nodes.webp){.w-50}
 
 Next, rather than setting up the next node similarly and then connecting it manually, you can drag a connection into empty space and use the quick create menu. You can click on a particular node name from the quick create menu, or you can type in a node name which will show the list of matching nodes. Selecting a node from this list connects to it.
 
@@ -104,7 +104,7 @@ The Quick Navigate menu can be brought up by selecting a node and pressing `,`. 
 
 ### Node Bookmarks
 
-![](/images/ui/graph-menu-bookmarks.png){.w-50}
+![](/images/ui/graph-menu-bookmarks.webp){.w-50}
 
 You can bookmark nodes you find yourself going to frequently. Right-click a node and select `Mark as Favorite`. You can then access all bookmarked nodes from the favorites/bookmarks menu in the graph toolbar. You can also use @shortcuts `1-9` to access the top 9 nodes.
 

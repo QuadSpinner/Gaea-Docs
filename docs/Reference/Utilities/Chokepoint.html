@@ -71,9 +71,9 @@
 
                         <p class="faux-h1">Chokepoint</p><p>The Chokepoint node is a special node whose sole purpose is to help avoid re-connecting many nodes, while adding no memory overhead.</p>
 <p>Often a graph ends up with natural chokepoints - a single node that is referenced by several other nodes. If at a later point you want to modify that important node, you would need to reconnect all the connections. This can be awkward, time consuming, and dangerous in some situations.</p>
-<p>In this example, the second <a href="%2fReference%2fErosion%2fErosion.html">Erosion</a> node is the chokepoint. It feeds several other nodes, while being a critical junction in the terrain's creation process. It is more or less the &quot;last&quot; node in the terrain creation.</p>
+<p>In this example, the second <a href="/Reference/Erosion/Erosion.html">Erosion</a> node is the chokepoint. It feeds several other nodes, while being a critical junction in the terrain's creation process. It is more or less the &quot;last&quot; node in the terrain creation.</p>
 <p><img src="/images/ref/choke_1.png" class="w-100 img-fluid" alt="" /></p>
-<p>The easy solution is to interject a Chokepoint node onto the important node. You can hold <code>Shift</code> while drag-dropping a Chokepoint on to the Erosion node to interject it and have Gaea reroute all connections. See <a href="%2fGuide%2fGraph%2fConveniences.html">Convenience Features</a> for more information.</p>
+<p>The easy solution is to interject a Chokepoint node onto the important node. You can hold <code>Shift</code> while drag-dropping a Chokepoint on to the Erosion node to interject it and have Gaea reroute all connections. See <a href="/Guide/Graph/Conveniences.html">Convenience Features</a> for more information.</p>
 <p><img src="/images/ref/choke_2.png" class="w-100 img-fluid" alt="" /></p>
 <p>Now everything is routed through the Chokepoint, allowing you to experiment with the Erosion node later, and only reroute a single connection when needed.</p>
 <p>The Chokepoint can be further organized by making its output a portal. You can select all the outgoing connections and press <code>Ctrl + P</code> to turn them into portal connections. This is especially useful when working with multiple graphs.</p>
