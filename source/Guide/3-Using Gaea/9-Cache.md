@@ -47,9 +47,9 @@ Nodes can be unbaked through the Baking Menu.
 
 An added bonus of baking is that it can free up a lot of RAM. When loading a baked cache, Gaea will only load "linchpin nodes". A linchpin node is a baked node that is connected to unbaked nodes. Ancestors of linchpin nodes are not loaded, thereby saving processing power and memory.
 
-`TODO: IMAGE`
+![](/images/ui/bake-linchpin.png)
 
-Consider this graph. Mountain is connected to Displace, and Displace is connected Erosion, which will be baked. Erosion is connected to Texture, which will not be baked, making Erosion a linchpin node.
+Consider this graph. The @Perlin node is connected to 3 different nodes, which eventually come to a single @MultiCombine node. The @Erosion node here relies only on the MultiCombine, so keeping the data for the previous 4 nodes is unnecessary. When you bake the MultiCombine node, Gaea will detect that it is the linchpin and unload the previous nodes. Non-crucial nodes such as these are depicted with a dotted border to show that they're not loaded.
 
 Baked nodes that are not loaded can be loaded through the property editor. However, if you wish to modify anything, it is recommended to unbake and bake portions of the graph.
 

@@ -7,5 +7,5 @@
 | **Seed**          | The randomization pattern or seed for the node's process.                                                      |
 | **Hard Cracks**   | Disables antialiasing and smooth of the crack edges.                                                           |
 | **Mode**          |
-|                   | *Fast* : Processes faster, but may not always result in the same pattern of cracks.                            |
-|                   | *Accurate* : Processes a bit slower, but ensures the pattern remains the same.                                 |
+|                   | *Fast* Processes faster, but may not always result in the same pattern of cracks.                            |
+|                   | *Accurate* Processes a bit slower, but ensures the pattern remains the same.                                 |

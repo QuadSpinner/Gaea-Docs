@@ -1,8 +1,132 @@
-<!DOCTYPE html><html lang="en" class="default-style"><head><meta charset="utf-8"><meta http-equiv="x-ua-compatible" content="IE=edge,chrome=1"><meta name="description" content=""><meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0"><title>Shattered Floor - Gaea Documentation - QuadSpinner</title><link rel="shortcut icon" href="/Gaea-32.png" type="image/png"><link rel="stylesheet" href="/assets/v3/bootstrap.css"><link rel="stylesheet" href="/assets/vendor/fonts/ionicons.css"><link rel="stylesheet" href="/assets/v3/bootstrap-toc.css"><link rel="stylesheet" href="/assets/v3/styles.css"><link rel="stylesheet" href="/assets/custom/custom.css"><link rel="stylesheet" href="/assets/custom/vs2015.css"><link rel="stylesheet" href="/assets/custom/toggle.css"><link rel="stylesheet" href="/assets/custom/jquery.fancybox.min.css"><link rel="stylesheet" id="cssx" type="text/css" href="/"><script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script></head><body data-spy="scroll" data-target="#toc"><!-- Layout wrapper --><div id="main"><div class="navbar-fixed-container hidden-print"><div class="navbar navbar-inverse navbar-fixed-top"><nav role="navigation" aria-label="Top Level"><div class="container"><div class="nav navbar-header"><a class="navbar-brand" href="https://docs.quadspinner.com/"> <span itemprop="name">QuadSpinner Gaea</span> </a> <button type="button" class="navbar-toggle" role="navigation" data-toggle="collapse" data-target=".navbar-collapse" aria-label="Toggle Navigation Menu"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button></div><div class="navbar-collapse collapse" role="navigation"><ul class="nav navbar-nav navbar-left" role="presentation"><li><a href="/Guide/index.html">User Guide</a></li><li><a href="/Reference/index.html">Node Reference</a></li><li class="active"><a href="/Learning/index.html">Tutorials</a></li><li><a href="/KB/index.html">Knowledge Base</a></li><li><a href="/Changelogs/index.html">Version History</a></li></ul><ul class="nav navbar-nav navbar-right" role="presentation"><li style="position: relative"><input id="search-field" type="text" placeholder="Search..."><div class="d-none" id="quicksearch"></div></li><li><a itemprop="downloadUrl" href="https://quadspinner.com/download" id="nav-download"> <span class="hidden-sm">Download Gaea</span> </a></li></ul></div></div></nav></div></div><div role="main" id="main-content"><div class="container body-content docs"><nav id="small-nav" aria-label="Topics" class="docs-nav hidden-md hidden-lg hidden-print"><p class="faux-h4">Topics</p><select id="small-nav-dropdown"><optgroup label="Tutorials"><option value="/Learning/Tutorials/Intro-Create.html">Introduction to Gaea</option><option value="/Learning/Tutorials/Intro-Color.html">Color Production</option><option value="/Learning/Tutorials/Hero-Mountain.html">Hero Mountain</option><option value="/Learning/Tutorials/WarpDunes.html">Warped Dunes</option><option value="/Learning/Tutorials/Merging-Terrains.html">Merging Terrains</option><option value="/Learning/Tutorials/Arctic.html">Arctic Terrain Breakdown</option><option value="/Learning/Tutorials/Rugged-Outcrops.html">Rugged Rock Outcrops</option><option value="/Learning/Tutorials/Shattered-Mountain.html">Shattered Mountain Lake</option></optgroup><optgroup label="Techniques"><option value="/Learning/Techniques/Blending-SatMaps.html">Blending SatMaps</option><option value="/Learning/Techniques/Coloring-Water.html">Coloring Water</option><option value="/Learning/Techniques/Control-Water.html">Controlling Water</option><option value="/Learning/Techniques/Crater-Cave-In.html">Crater Cave-in</option><option value="/Learning/Techniques/Dirty-Snow.html">Dirty Snow</option><option value="/Learning/Techniques/Draw-Modify.html">Draw to Modify</option><option value="/Learning/Techniques/Fake-Water-Flows.html">Fake Water Flows</option><option value="/Learning/Techniques/Multipass-Erosion.html">Multipass Erosion</option><option value="/Learning/Techniques/Selective-Erosion.html">Selective Erosion</option><option selected="selected" value="/Learning/Techniques/Shattered-Floor.html">Shattered Floor</option><option value="/Learning/Techniques/Slanted-Terraces.html">Slanted Terraces</option><option value="/Learning/Techniques/Super-Erosion.html">Super Erosion</option><option value="/Learning/Techniques/Terrain-Folding.html">Terrain Folding without the Fold Node</option></optgroup></select> </nav><div class="row"><div class="col-md-2 docs-navbar-container hidden-print"><nav id="docs-navbar" aria-label="Topics" class="docs-nav visible-md visible-lg"><ul class="nav" id="main-nav"><li class="panel collapsed"><a class="area" href="#Tutorials" data-parent="#main-nav" data-toggle="collapse">Tutorials</a><ul id="Tutorials" class="collapse"><li class=""><a href="/Learning/Tutorials/Intro-Create.html">Introduction to Gaea</a></li><li class=""><a href="/Learning/Tutorials/Intro-Color.html">Color Production</a></li><li class=""><a href="/Learning/Tutorials/Hero-Mountain.html">Hero Mountain</a></li><li class=""><a href="/Learning/Tutorials/WarpDunes.html">Warped Dunes</a></li><li class=""><a href="/Learning/Tutorials/Merging-Terrains.html">Merging Terrains</a></li><li class=""><a href="/Learning/Tutorials/Arctic.html">Arctic Terrain Breakdown</a></li><li class=""><a href="/Learning/Tutorials/Rugged-Outcrops.html">Rugged Rock Outcrops</a></li><li class=""><a href="/Learning/Tutorials/Shattered-Mountain.html">Shattered Mountain Lake</a></li></ul></li><li class="panel expanded active"><a class="area" href="#Techniques" data-parent="#main-nav" data-toggle="collapse">Techniques</a><ul id="Techniques" class="collapse in"><li class=""><a href="/Learning/Techniques/Blending-SatMaps.html">Blending SatMaps</a></li><li class=""><a href="/Learning/Techniques/Coloring-Water.html">Coloring Water</a></li><li class=""><a href="/Learning/Techniques/Control-Water.html">Controlling Water</a></li><li class=""><a href="/Learning/Techniques/Crater-Cave-In.html">Crater Cave-in</a></li><li class=""><a href="/Learning/Techniques/Dirty-Snow.html">Dirty Snow</a></li><li class=""><a href="/Learning/Techniques/Draw-Modify.html">Draw to Modify</a></li><li class=""><a href="/Learning/Techniques/Fake-Water-Flows.html">Fake Water Flows</a></li><li class=""><a href="/Learning/Techniques/Multipass-Erosion.html">Multipass Erosion</a></li><li class=""><a href="/Learning/Techniques/Selective-Erosion.html">Selective Erosion</a></li><li class="active"><a href="/Learning/Techniques/Shattered-Floor.html">Shattered Floor</a></li><li class=""><a href="/Learning/Techniques/Slanted-Terraces.html">Slanted Terraces</a></li><li class=""><a href="/Learning/Techniques/Super-Erosion.html">Super Erosion</a></li><li class=""><a href="/Learning/Techniques/Terrain-Folding.html">Terrain Folding without the Fold Node</a></li></ul></li></ul></nav></div><div class="col-sm-9 col-md-8 body"><ol class="breadcrumb visible-md visible-lg"><li class="breadcrumb-item"><a href="/index.html">Home</a></li><li class="breadcrumb-item"><a href="Learning/index.html">Tutorials</a></li><li class="breadcrumb-item">Techniques</li><li class="breadcrumb-item active">Shattered Floor</li></ol><p class="faux-h1">Shattered Floor</p><hr><p>Sometimes you may require an overall flat terrain but with lots of detail. <a href="/Reference/LookDev/Shatter.html">Shatter</a> can help you create that in just 2 steps.</p><p><img src="/images/tut/shatter-floor-1.jpg" class="img-fluid" alt=""></p><p>Create a <a href="/Reference/Geo%20Primitives/Plates.html">Plates</a> node and use the <a href="/Guide/Using%20Gaea/PostProcess.html">Post Process Stack</a> to Clamp the output to a level of flatness that you like. In this case we have it set to <code>33</code> and <code>24</code>.</p><p><img src="/images/tut/shatter-floor-2.jpg" class="img-fluid" alt=""></p><p>Next add the <a href="/Reference/LookDev/Shatter.html">Shatter</a> node. And that's it - you're done!</p><p>You further improve this with other nodes, or use <a href="/Reference/Data/Texture.html">Texture</a> and <a href="/Reference/Data/RockMap.html">RockMap</a> with <a href="/Reference/Color/SatMaps.html">SatMaps</a> to texture the terrain.</p></div><div class="col-sm-3 col-md-2 docs-subnavbar-container visible-md visible-lg hidden-print"><nav id="toc" data-toggle="toc" aria-label="On Page" data-spy="affix" class="affix"> </nav><div class="botbot"><div class="mt-square-matcha" style="font-size: 8px; font-weight: bold"><input id="cb1" type="checkbox"> <label for="cb1"></label></div></div></div></div></div></div></div><div id="results" style="display: none"></div><footer role="contentinfo" class="hidden-print"><div class="container"><div class="row"><div class="col-12 text-center"><p class="copyright monkey-holder"><span>&copy; 2018-2020 QuadSpinner. Released under the <a href="https://github.com/QuadSpinner/Gaea-Docs/blob/master/LICENSE" target="_blank">the MIT License</a></span> &nbsp; | &nbsp; <small class="font-weight-strong"> <img src="/images/monkey.png" class="tiny-monkey"> Generated with AngryMonkey, an opensource tool by QuadSpinner. </small></p><br><ul class="links"><li><a href="https://twitter.com/quadspinner/" target="_blank">Twitter</a></li><li><a href="https://youtube.com/quadspinner/" target="_blank">YouTube</a></li><li><a href="https://instagram.com/quadspinner/" target="_blank">Instagram</a></li><li><a id="footer-support-link" href="https://support.QuadSpinner.com/" target="_blank">Support</a></li><li><a id="footer-privacy-link" href="https://QuadSpinner.com/Legal" target="_blank">Terms of Use</a></li></ul></div></div></div></footer><!-- / Layout wrapper --> <!-- Core scripts --><script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script><script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script><!-- Main script --><script src="https://cdn.rawgit.com/afeld/bootstrap-toc/v0.4.1/dist/bootstrap-toc.min.js"></script><script src="/assets/js/highlight.pack.js"></script><script src="/assets/js/medium-zoom.min.js"></script><script src="/assets/js/main.js"></script><script src="/assets/js/lunr.min.js"></script><script src="/assets/js/hilitor.js"></script><script src="/assets/js/jquery.fancybox.min.js"></script><script src="/assets/js/search.js"></script><script>document.addEventListener('DOMContentLoaded', (event) => {
+<!DOCTYPE html>
+<html lang="en" class="default-style">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="IE=edge,chrome=1">
+    <meta name="description" content="Official documentation for QuadSpinner Gaea. Includes tutorials and knowledge base.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="generator" content="AngryMonkey 2.0">
+    <title>Shattered Floor - Gaea Documentation - QuadSpinner</title>
+    <link rel="shortcut icon" href="/Gaea-32.png" type="image/png">
+    <link rel="stylesheet" href="/assets/fixed/bundle.min.css">
+    <link rel="stylesheet" href="/assets/custom/styles.css">
+    <link rel="stylesheet" href="/assets/custom/custom.css">
+</head>
+<body data-spy="scroll" data-target="#toc" data-hive="Tutorials" data-hivehref="Learning" data-parent="Techniques" data-parenthref="Techniques">
+    <div id="main">
+        <div class="navbar-fixed-container hidden-print">
+            <div class="navbar navbar-inverse navbar-fixed-top ">
+                <nav role="navigation" aria-label="Top Level">
+                    <div class="container">
+                        <div class="nav navbar-header">
+                            <a class="navbar-brand" href="/">
+                                <span itemprop="name">QuadSpinner Gaea</span>
+                            </a>
+                            <button type="button" class="navbar-toggle" role="navigation" data-toggle="collapse"
+                                    data-target=".navbar-collapse" aria-label="Toggle Navigation Menu">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                        </div>
+                        <div class="navbar-collapse collapse" role="navigation">
+                            <ul class="nav navbar-nav navbar-left" role="presentation">
+                                <li><a class="top-nav" href="/Guide/">User Guide</a></li>
+<li><a class="top-nav" href="/Reference/">Node Reference</a></li>
+<li><a class="top-nav" href="/Learning/">Tutorials</a></li>
+<li><a class="top-nav" href="/KB/">Knowledge Base</a></li>
+<li><a class="top-nav" href="/Changelogs/">Version History</a></li>
+
+                            </ul>
+                            <ul class="nav navbar-nav navbar-right" role="presentation">
+                                <li style="position: relative;">
+                                    <input id="search-field" type="text" placeholder="Search..." />
+                                    <div class="d-none" id="quicksearch"></div>
+                                </li>
+                                <li>
+                                    <a itemprop="downloadUrl"
+                                       href="https://quadspinner.com/download" id="nav-download">
+                                        <span class="hidden-sm">Download Gaea</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <div role="main" id="main-content">
+            <div class="container body-content docs">
+                <div class="row">
+                    <div class="col-md-2 docs-navbar-container hidden-print">
+                        <nav id="docs-navbar" aria-label="Topics" class="docs-nav visible-md visible-lg ">
+                            <ul class="nav" id="main-nav">
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="col-sm-9 col-md-8 body">
+                        <ol class="breadcrumb visible-md visible-lg">
+
+                        </ol>
+
+                        <p class="faux-h1">Shattered Floor</p><p>Sometimes you may require an overall flat terrain but with lots of detail. <a href="%2fReference%2fLookDev%2fShatter.html">Shatter</a> can help you create that in just 2 steps.</p>
+<p><img src="/images/tut/shatter-floor-1.jpg" class="img-fluid" alt="" /></p>
+<p>Create a <a href="%2fReference%2fGeo+Primitives%2fPlates.html">Plates</a> node and use the <a href="%2fGuide%2fUsing+Gaea%2fPostProcess.html">Post Process Stack</a> to Clamp the output to a level of flatness that you like. In this case we have it set to <code>33</code> and <code>24</code>.</p>
+<p><img src="/images/tut/shatter-floor-2.jpg" class="img-fluid" alt="" /></p>
+<p>Next add the <a href="%2fReference%2fLookDev%2fShatter.html">Shatter</a> node. And that's it - you're done!</p>
+<p>You further improve this with other nodes, or use <a href="%2fReference%2fData%2fTexture.html">Texture</a> and <a href="%2fReference%2fData%2fRockMap.html">RockMap</a> with <a href="%2fReference%2fColor%2fSatMaps.html">SatMaps</a> to texture the terrain.</p>
+
+                    </div>
+                    <div class="col-sm-3 col-md-2 docs-subnavbar-container visible-md visible-lg hidden-print">
+                        <nav id="toc" data-toggle="toc" aria-label="On Page" data-spy="affix" class="affix">
+                        </nav>
+                        <div class="botbot">
+                            <div class="mt-square-matcha" style="font-size: 8px; font-weight: bold;">
+                                <input id="cb1" type="checkbox" />
+                                <label for="cb1"></label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer role="contentinfo" class="hidden-print">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <p class="copyright monkey-holder">
+                        <span>&copy; 2018-2020 QuadSpinner. Released under the <a href="https://github.com/QuadSpinner/Gaea-Docs/blob/master/LICENSE" target="_blank">the MIT License</a></span>
+                        &nbsp; | &nbsp;
+                        <small class="font-weight-strong">
+                            <img src="/images/monkey.png" class="tiny-monkey" /> Generated with AngryMonkey, an opensource tool by QuadSpinner.
+                        </small>
+                    </p>
+                    <br />
+                    <ul class="links">
+                        <li><a href="https://twitter.com/quadspinner/" target="_blank">Twitter</a></li>
+                        <li><a href="https://youtube.com/quadspinner/" target="_blank">YouTube</a></li>
+                        <li><a href="https://instagram.com/quadspinner/" target="_blank">Instagram</a></li>
+                        <li><a id="footer-support-link" href="https://support.QuadSpinner.com/" target="_blank">Support</a></li>
+                        <li><a id="footer-privacy-link" href="https://QuadSpinner.com/Legal" target="_blank">Terms of Use</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/assets/libs/bundle.min.js"></script>
+    <script src="/assets/js/main.js"></script>
+    <script src="/assets/js/search.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', (event) => {
             document.querySelectorAll('pre').forEach((block) => {
                 hljs.highlightBlock(block);
             });
             mediumZoom('.zoom', { margin: 36, background: '#333333' });
             mediumZoom('figure img', { margin: 36, background: '#333333' });
             mediumZoom('.img-fluid', { margin: 36, background: '#333333' });
-        });</script></body></html>
+        });
+    </script>
+</body>
+</html>

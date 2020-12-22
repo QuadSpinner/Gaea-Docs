@@ -1,1 +1,1 @@
-<p class="text-danger wip"><small> The documentation is being updated. </small></p>
+<p class="text-danger wip"><small> The documentation is being updated. Some sections may be incomplete. </small></p>

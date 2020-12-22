@@ -1,0 +1,24 @@
+[
+  {
+    "Path": "Guide",
+    "Title": "User Guide"
+  },
+  {
+    "Path": "Reference",
+    "Title": "Node Reference",
+    "ProcessProceduralFiles": true
+  },
+  {
+    "Path": "Learning",
+    "Title": "Tutorials"
+  },
+  {
+    "Path": "KB",
+    "Title": "Knowledge Base"
+  },
+  {
+    "Path": "Changelogs",
+    "Title": "Version History",
+    "ProcessXmlChangelogs": true
+  }
+]
