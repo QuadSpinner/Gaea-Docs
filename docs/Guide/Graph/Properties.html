@@ -69,7 +69,7 @@
 
                         </ol>
 
-                        <p class="faux-h1">Properties</p><p><img src="/images/ui/properties.png" class="w-50 img-fluid" alt="" /></p>
+                        <p class="faux-h1">Properties</p><p><img src="/images/ui/properties.webp" class="w-50 img-fluid" alt="" /></p>
 <p>Every node exposes a set of properties or settings that you can modify to change the effect that node has on the terrain. When you select a node, the settings become available in the Properties panel in the right side of the interface.</p>
 <p>When you change a property, the effect is immediately applied and made visible in the viewport - except when dealing with Heavy Nodes (see below). Most nodes have a limited type of properties:</p>
 <ul>
@@ -80,7 +80,7 @@
 <li><strong>Color</strong>: They allow you to choose a color for the color production nodes.</li>
 <li><strong>File</strong>: They allow you to choose a file from your computer.</li>
 </ul>
-<p>Sliders with unmodified (default) values are shown with slightly muted colors. This can be controlled through <a href="%2fGuide%2fInterface%2fPreferences.html">Preferences</a>.</p>
+<p>Sliders with unmodified (default) values are shown with slightly muted colors. This can be controlled through <a href="/Guide/Interface/Preferences.html">Preferences</a>.</p>
 <p>Some nodes may have special controls specific to them.</p>
 <blockquote class="TIP blockquote">
 <p>One of the easiest ways to learn about a node's properties is to experiment, changing them to different values across the range to see the effect they have.</p>
@@ -89,10 +89,10 @@
 <p>If a setting says something like &quot;Iteration&quot;, &quot;Strength&quot;, &quot;Cycles&quot;, or &quot;Amount&quot;, be cautious. High values may take longer to process.</p>
 </blockquote>
 <h2 id="modifying-values">Modifying Values</h2>
-<p>For properties that allow numeric entry (Integer or Decimals), you can right-click the property and enter a number. For values shown as percentages, you can enter a value in meters and Gaea will convert it to the appropriate percentage or decimal value proportionate to the metric value in relation to the Terrain Definition set in the Build tab. See <a href="%2fGuide%2fConcepts%2fScale.html">Terrain Scale</a> for more information on that topic.</p>
+<p>For properties that allow numeric entry (Integer or Decimals), you can right-click the property and enter a number. For values shown as percentages, you can enter a value in meters and Gaea will convert it to the appropriate percentage or decimal value proportionate to the metric value in relation to the Terrain Definition set in the Build tab. See <a href="/Guide/Concepts/Scale.html">Terrain Scale</a> for more information on that topic.</p>
 <h3 id="microincrements">Microincrements</h3>
 <p>The Microincrements panel is available when you right-click an Integer or Decimals property. With the Microincrements panel, you can achieve much higher precision in entering values.</p>
-<p><img src="/images/ui/microincrements.png" class="w-75 img-fluid" alt="" /></p>
+<p><img src="/images/ui/microincrements.webp" class="w-75 img-fluid" alt="" /></p>
 <table class="table">
 <thead>
 <tr>
@@ -142,21 +142,21 @@
 <h3 id="seed-reset">Seed Reset</h3>
 <p>Seed Reset is a minor enhancement in the Microincrements UI. It sets the “Default” seed value to whatever the random value is when the node is created. So if you play around for a while and want to go back to the original seed, you can simply reset the Seed.</p>
 <h3 id="flux-markers">Flux Markers</h3>
-<p><img src="/images/ui/properties-flux.png" class="w-75 img-fluid" alt="" /></p>
+<p><img src="/images/ui/properties-flux.webp" class="w-75 img-fluid" alt="" /></p>
 <p>Flux markers are small dots that represent previous values. They appear when you hover over the slider.</p>
 <p>When you move the slider, the last 3 positions are marked with little dots in decreasing opacity levels. These handy little guides can be helpful when exploring settings. They reset every time you unselect that node.</p>
 <h2 id="heavy-nodes">Heavy Nodes</h2>
-<p>We have classified some nodes, such as <a href="%2fReference%2fErosion%2fErosion.html">Erosion</a>, <a href="%2fReference%2fErosion%2fFluvial.html">Fluvial</a>, etc., as &quot;Heavy&quot; Nodes — meaning, they can take a long time to process and sometimes cannot be cancelled mid-process. Updating multiple settings on such a node can slow down or even freeze up the application.</p>
+<p>We have classified some nodes, such as <a href="/Reference/Erosion/Erosion.html">Erosion</a>, <a href="/Reference/Erosion/Fluvial.html">Fluvial</a>, etc., as &quot;Heavy&quot; Nodes — meaning, they can take a long time to process and sometimes cannot be cancelled mid-process. Updating multiple settings on such a node can slow down or even freeze up the application.</p>
 <p>When you modify a Heavy Node, it will not update automatically. It will instead show an <strong>Apply</strong> button, which you can click when you have made your changes.
 If you move away from the node, or select another node, changes will be applied automatically, so you won’t lose any modifications.</p>
 <p>The <strong>Apply</strong> button has an <strong>Auto Apply</strong> toggle button next to it. When you turn on <strong>Auto Apply</strong>, that particular node will update automatically.</p>
 <p>Alternatively, you can toggle the Auto Apply for any node via the properties menu. If a node is heavy to process even though it is not marked as such, you can toggle off the Auto Apply. Or if a heavy node is performing quickly for you, then you can toggle on the Auto Apply.</p>
 <h2 id="post-processing">Post Processing</h2>
-<p>The Post Process options sits right under the Properties and provides quick access to common functions. See <a href="%2fGuide%2fUsing+Gaea%2fPostProcess.html">Post Process Stack</a>.</p>
-<p><img src="/images/ui/postprocess.png" class="img-fluid" alt="" /></p>
+<p>The Post Process options sits right under the Properties and provides quick access to common functions. See <a href="/Guide/Using-Gaea/PostProcess.html">Post Process Stack</a>.</p>
+<p><img src="/images/ui/postprocess.webp" class="img-fluid" alt="" /></p>
 <h2 id="properties-menu">Properties Menu</h2>
 <p>The node properties menu provides access to additional functionality.</p>
-<p><img src="/images/ui/properties-menu.png" class="w-75 img-fluid" alt="" /></p>
+<p><img src="/images/ui/properties-menu.webp" class="w-75 img-fluid" alt="" /></p>
 <table class="table">
 <thead>
 <tr>
@@ -171,7 +171,7 @@ If you move away from the node, or select another node, changes will be applied 
 </tr>
 <tr>
 <td>Upgrade node</td>
-<td>Upgrade a node that uses an old processing version. See <a href="%2fGuide%2fConcepts%2fAutosave.html">Autosave and File Recovery</a>.</td>
+<td>Upgrade a node that uses an old processing version. See <a href="/Guide/Concepts/Autosave.html">Autosave and File Recovery</a>.</td>
 </tr>
 <tr>
 <td>Toggle Auto-Apply</td>
@@ -191,11 +191,11 @@ If you move away from the node, or select another node, changes will be applied 
 </tr>
 <tr>
 <td>Expose Node</td>
-<td>Expose properties of the node for automation. See <a href="%2fGuide%2fDevelopers%2fAutomation.html">Automating Gaea</a>.</td>
+<td>Expose properties of the node for automation. See <a href="/Guide/Developers/Automation.html">Automating Gaea</a>.</td>
 </tr>
 <tr>
 <td>Show Exposed Properties</td>
-<td>Show a unified properties panel with exposed properties across all nodes. This is useful while working with exposed properties for <a href="%2fGuide%2fDevelopers%2fAutomation.html">Automating Gaea</a>.</td>
+<td>Show a unified properties panel with exposed properties across all nodes. This is useful while working with exposed properties for <a href="/Guide/Developers/Automation.html">Automating Gaea</a>.</td>
 </tr>
 <tr>
 <td>Create Preset</td>

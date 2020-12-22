@@ -12,7 +12,7 @@ Watson's goal is to identify and collect small bits of information that may not 
 These logs help us understand your Gaea installation, your hardware and relevant drivers, and other similar information. This reduces the need for us to ask you questions and get you solutions to problems at a much quicker pace.
 
 <figure>
-<img src="/images/ui/Watson1.png" />
+<img src="/images/ui/Watson1.webp" />
 <figcaption>
 Before starting, you can enable additional optional diagnostic tests.
 </figcaption>
@@ -24,7 +24,7 @@ When you start Watson, available through the Start Menu in the QuadSpinner Gaea 
 
 
 <figure>
-<img src="/images/ui/Watson2.png" />
+<img src="/images/ui/Watson2.webp" />
 <figcaption>
 It usually takes between a few seconds to a couple of minutes to run the tests.
 </figcaption>
@@ -38,7 +38,7 @@ The diagnostics collection process is fairly quick. Watson will collect the data
 Before running tests, a benchmark build is run using all nodes available in Gaea. This helps diagnose issues in specific nodes. This test can be somewhat slow as 90+ nodes will be built at 1024 resolution.
 
 <figure>
-<img src="/images/ui/Watson3.png" />
+<img src="/images/ui/Watson3.webp" />
 <figcaption>
 Once the diagnostics are collected, you can enter comments and steps to recreate the issue.
 </figcaption>
@@ -54,7 +54,7 @@ Before submitting the ticket, you can enter any comments you might have or expla
 If you wish to examine the contents of the report, or even modify the zip file that is submitted, you can choose to create just the zip file and not file it automatically. The file will then be saved to your desktop, which you can then examine and alter if you wish to remove any specific data. While this is not recommended, we respect your right to privacy and give you the full freedom to control what data is sent to our technical support team.
 
 <figure>
-<img src="/images/ui/Watson4.png" />
+<img src="/images/ui/Watson4.webp" />
 <figcaption>
 After submitting the issue, you will be assigned a ticket number.
 </figcaption>

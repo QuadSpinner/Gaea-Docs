@@ -16,11 +16,11 @@ You can do this in two ways:
 
 ## Using Portals and Chokepoints
 
-![](/images/ui/graph-org-1.jpg)
+![](/images/ui/graph-org-1.webp)
 
 In our example, we're relying on two specific outputs - the @Erosion node's primary output and the flow output. So we convert those two into Portals. Now those outputs can be accessed from any other graph tab.
 
-![](/images/ui/graph-org-2.jpg)
+![](/images/ui/graph-org-2.webp)
 
 In the second graph, the @Texture and @RockMap nodes rely on the primary output, while the second @Combine node relies on the flow output. We can easily connect them with Portals, however in this case we have setup two @Chokepoint nodes. This is not necessary, but it can be helpful for multiple reasons:
 
@@ -34,7 +34,7 @@ Lastly, Chokepoints become "gateways" when you share a graph.
 
 Let's say you like this texturing technique and want to use it in other graphs later. This is very easy to do when you have Chokepoints set up and the part of the graph you want to share is in its own tab. You can export a graph by selecting `Export Graph` in the Graph Menu.
 
-![](/images/ui/graph-menu.png){.w-50}
+![](/images/ui/graph-menu.webp){.w-50}
 
 In the other file, you can use the `Import Graph` command to bring in the export graph. It will get its own tab like the graph from where it was exported.
 

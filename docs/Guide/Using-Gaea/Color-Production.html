@@ -6,13 +6,13 @@
     <meta name="description" content="Official documentation for QuadSpinner Gaea. Includes tutorials and knowledge base.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
     <meta name="generator" content="AngryMonkey 2.0">
-    <title>Masking - Gaea Documentation - QuadSpinner</title>
+    <title>Procedural Textures - Gaea Documentation - QuadSpinner</title>
     <link rel="shortcut icon" href="/Gaea-32.png" type="image/png">
     <link rel="stylesheet" href="/assets/fixed/bundle.min.css">
     <link rel="stylesheet" href="/assets/custom/styles.css">
     <link rel="stylesheet" href="/assets/custom/custom.css">
 </head>
-<body data-spy="scroll" data-target="#toc" data-hive="User Guide" data-hivehref="Guide" data-parent="Using Gaea" data-parenthref="Using Gaea">
+<body data-spy="scroll" data-target="#toc" data-hive="User Guide" data-hivehref="Guide" data-parent="Using-Gaea" data-parenthref="Using-Gaea">
     <div id="main">
         <div class="navbar-fixed-container hidden-print">
             <div class="navbar navbar-inverse navbar-fixed-top ">
@@ -69,21 +69,23 @@
 
                         </ol>
 
-                        <p class="faux-h1">Masking</p><h2 id="masking-nodes">Masking Nodes</h2>
-<p>Masking is a core mechanism you will need to rely on when working with procedural shapes in node graphs. At its most basic, masking works exactly like you would use in a paint program: define an area and only that part is modified. A mask must always be a heightmap, not a color map. Brighter areas get affected more, darker areas affected less.</p>
-<p>In Gaea, you will mostly deal with two types of masking - process mask and blending mask.</p>
-<h3 id="process-mask">Process Mask</h3>
-<p>Almost every node contains a &quot;Mask&quot; input port. If you connect a mask to a node, the processing of that node is applied only within the masked area. For example, if you mask a <a href="%2fReference%2fProfile%2fTerrace.html">Terrace</a> node, the terracing effect is applied to the brighter areas.</p>
-<p>The <a href="%2fReference%2fData%2fMask.html">Mask</a> node is often useful in a situation where you can manually draw a freehand mask.</p>
-<h3 id="blending-mask">Blending Mask</h3>
-<p>Blending Masks are more useful because they provide extra flexibility. To create a blending mask, two different nodes are connected to a <a href="%2fReference%2fAdjustments%2fCombine.html">Combine</a> node. The mask will blend the two terrains as defined by the mask. Brighter areas defined by the mask become terrain A; darker areas become terrain B. The added advantage with the <a href="%2fReference%2fAdjustments%2fCombine.html">Combine</a> node is that, instead of simply blending the two terrains, you can use one of several different blend modes, such as Add, Subtract, Max, etc.</p>
-<p>While the <a href="%2fReference%2fData%2fMask.html">Mask</a> node is useful here too, you will probably use Data Maps, such as <a href="%2fReference%2fData%2fSlope.html">Slope</a> or <a href="%2fReference%2fData%2fHeight.html">Height</a>, more often.</p>
-<blockquote class="NOTE blockquote">
-<p>It is worth noting that, even though a portion of a terrain's surface may be masked, Gaea will process the entire surface and then apply the mask. Internally, the masking is the same as a blending mask, where A is the processed version of the terrain and B is the unprocessed version.</p>
-</blockquote>
-<blockquote class="TIP blockquote">
-<p>A masked Combine node is much faster to reprocess than an effect or erosion node that is masked. If you tend to change your mask frequently, you can achieve Gaea's built-in masking manually. This is done by connecting the processed output to a <a href="%2fReference%2fAdjustments%2fCombine.html">Combine</a> node's <code>Input1</code> and the original, unprocessed output to <code>Input2</code>, and finally setting the Combine node to Blend mode with 100% Ratio.</p>
-</blockquote>
+                        <p class="faux-h1">Procedural Textures</p><p class="text-danger wip"><small> The documentation is being updated. Some sections may be incomplete. </small></p>
+<h2 id="the-core-concept">The core concept</h2>
+<p>All the processes for creating color textures in Gaea are dependent on flowing color ramps/gradients into a black and white mask.</p>
+<p>Let's take a look at a basic example. The lowest part of a gradient corresponds to the lowest part of the terrain. The highest part of the gradient corresponds to the highest part of the terrain. Everything in between is distributed as dictated by the gray intensity.</p>
+<p><code>// TODO: Image</code></p>
+<p>In this example, you can see how the gradient from a <a href="/Reference/Color/CLUTer.html">CLUTer</a> node maps to the heightfield.</p>
+<p><code>// TODO: Image</code></p>
+<p>If, however, you take the same CLUT map and use a <a href="/Reference/Data/Flow.html">Flow</a>Map instead of using the height of the terrain as the input, you get a different type of texture output that follows the flow lines of the FlowMap output.</p>
+<p>To help you create complex procedural masks from which you can create color textures, Gaea provides an array of nodes known as &quot;Data Maps&quot;.</p>
+<h2 id="what-are-data-maps">What are Data Maps?</h2>
+<p>Data Maps are special masks. They let you select basic aspects of the terrain (such as slope, angle, curvature), or synthesize complex data through simulations (such as water flow, soil deposits, etc). Additional quick texturing data maps, such as Texture and SurfTex, help create pseudo-random texture masks through which you can quickly achieve color textures with minimal effort.</p>
+<p>These nodes break the traditional basic data (slope, angle, etc) + chaos (Perlin noise) method, or the heavy reliance on flow output from erosion. In these situations, you need to find a good seed to make it work. With Data Maps, there is visual randomness, but it's created from systematic analysis of the terrain and follows natural principles. The resulting color maps created from this data look more believable.</p>
+<h2 id="a-basic-texture-with-data-maps">A basic texture with Data Maps</h2>
+<p>The following tutorial continues from <a href="/Learning/Tutorials/Intro-Create.html">Introduction to Gaea</a>.</p>
+<div class="embed-responsive embed-responsive-16by9">
+<iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/4AFDXxYlQMg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
                     </div>
                     <div class="col-sm-3 col-md-2 docs-subnavbar-container visible-md visible-lg hidden-print">

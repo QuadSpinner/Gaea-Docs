@@ -29,8 +29,8 @@ Gaea supports all modern (and some legacy) file formats for both flat files and 
 Gaea supports the following formats for importing data:
  - .exr
  - .tif/.tiff
- - .jpg/.jpeg
- - .png
+ - .webp/.jpeg
+ - .webp
  - .psd
  - .hdr
  - .pfm

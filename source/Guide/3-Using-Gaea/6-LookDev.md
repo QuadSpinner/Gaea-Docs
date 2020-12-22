@@ -9,17 +9,17 @@ Each LookDev node targets a specific type of "look", reducing the need for you t
 
 ## Fast Look Development
 
-![](/images/lookdev/stacks.jpg)
+![](/images/lookdev/stacks.webp)
 
 Usually, procedural artists have to use trial and error to come up with specific techniques that can shape terrains for particular "looks". For example, a realistic stratified mesa formation in Gaea would require anywhere between 12 to 20 nodes. However, the @Stacks LookDev node can create the very look by itself.
 
 LookDev nodes use composite algorithms that are not directly possible by using a set of nodes, so you get an extra level of quality and detail.
 
-![](/images/lookdev/shatter.jpg)
+![](/images/lookdev/shatter.webp)
 
 The @Shatter node can take any terrain, whether a simple shape or a complex construct, and create surface impacts by breaking down the terrain in various ways.
 
-![](/images/lookdev/canyonizer.jpg)
+![](/images/lookdev/canyonizer.webp)
 
 The @Canyonizer node can create canyon networks on a terrain. At low-yield, it can be used to add lots of semi-superficial detail to an existing shape. See the @tut-shattered-mountain-lake tutorial for a full example.
 

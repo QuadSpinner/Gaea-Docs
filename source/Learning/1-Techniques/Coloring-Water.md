@@ -9,28 +9,28 @@ Let's first look at our setup. We use the @Lakes node to create the water surfac
 
 The Depth output from the Lakes node goes to a CLUTer node, which is then attached to @Combine with the @SatMaps for the terrain using 100% Blend mode. The Lakes Mask output is used to mask the blending process.
 
-![](/images/ref/Lakes/tut-color-1.jpg)
+![](/images/ref/Lakes/tut-color-1.webp)
 
 Next we edit the @CLUTer node to change the black and white gradient to something more appropriate for water. The bottom of the gradient maps to the darker (closer to the surface) parts of the Depth mask, while the top maps to the lighter (deeper) parts. It is a good idea to keep the color variations closer to the shore and have only subtle color changes in the deeper areas. 
 
-![](/images/ref/Lakes/tut-color-2.jpg)
+![](/images/ref/Lakes/tut-color-2.webp)
 
 And that takes care of the main process.
 
 But if you want to take it further, we can modify the graph a bit by interjecting a @Blur node, and then a @Warp node between the Depth output and the CLUTer. The Blur is set to a very low `0.10` value. Since water refracts light, having sharp features of the depth map visible in the colorization may not look too realistic. The subtle blur helps mimic refraction.
 
-![](/images/ref/Lakes/tut-color-3.jpg)
+![](/images/ref/Lakes/tut-color-3.webp)
 
 The second component of refraction in a water body is the subtle turbulence in the refracted light because of moving volumes. We simulate this with a Warp node set to a low Size and high Strength. You can play with the Roughness and Warp Source options for different variations. But for most purposes, the settings shown here should suffice.
 
 Additionally, if your warp is too powerful, you can turn on `Min` mode in the @postprocess so the warped bits don't spill over too much.
 
-![](/images/ref/Lakes/tut-color-4.jpg)
+![](/images/ref/Lakes/tut-color-4.webp)
 
 And this is how our water looks after that!
 
-![](/images/ref/Lakes/tut-color-5.jpg)
+![](/images/ref/Lakes/tut-color-5.webp)
 
 If we stretch out the colors by moving the gradient stops higher, you can see a more pronounced effect created by the Blur and Warp.
 
-![](/images/ref/Lakes/tut-color-6.jpg)
+![](/images/ref/Lakes/tut-color-6.webp)

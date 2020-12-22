@@ -69,18 +69,18 @@
 
                         </ol>
 
-                        <p class="faux-h1">Dirty Snow</p><p>If you need complex snow distribution, it is recommended to chain multiple <a href="%2fReference%2fSnow%2fSnowfall.html">Snowfall</a> nodes together. Each node contributes a different type of distribution.</p>
+                        <p class="faux-h1">Dirty Snow</p><p>If you need complex snow distribution, it is recommended to chain multiple <a href="/Reference/Snow/Snowfall.html">Snowfall</a> nodes together. Each node contributes a different type of distribution.</p>
 <p>Let's try it out in a practical scenario. For our demo terrain, we want slightly unkempt snow that is uneven and somewhat &quot;dirty&quot;, rather than large pristine mounds.</p>
 <p>In our first Snowfall node, we will target general &quot;dirty&quot; distribution. To do this, we use <code class="val">100%</code> <code>Settle-Thaw</code> and <code class="val">8%</code> <code>Melt</code> with a high <code>Snow Line</code> of <code class="val">48%</code>.</p>
 <p>For ensuring the snow collects in smaller clumps and a bit of rock is exposed in between, we use a somewhat high <code>Slip-off Angle</code> value of <code class="val">60</code>, and a slightly high <code>Adhered Snow Mass</code> value of <code class="val">15</code>.</p>
 <p>This creates a non-flowing distribution, keeping the snow high up in the mountain while still letting its physics simulation work long enough to force the snow into crevices and expose sharp bits of the underlying terrain.</p>
-<p><img src="/images/ref/Snowfall/SnowA.jpg" class="w-100 img-fluid" alt="" /></p>
+<p><img src="/images/ref/Snowfall/SnowA.webp" class="w-100 img-fluid" alt="" /></p>
 <p>For the second pass, we focus on the flowing snow. While overlap between the first and second pass is fine, we want to ensure as little of it as possible otherwise we lose the &quot;dirtiness&quot; of the snow.</p>
 <p>We use a low <code>Intensity</code> of <code class="val">6%</code>, a low <code>Settle-Thaw</code> of <code class="val">2.5%</code>, and a <code>Melt</code> value of <code class="val">5%</code>. The <code>Snow Line</code> is a lot lower than the previous pass at <code class="val">28%</code>. For allowing the snow to flow more effectively, we use a low <code>Slip-off Angle</code> of <code class="val">14%</code>.</p>
 <p>This snow is now forced to the flow areas (often defined by previous erosion passes), whereas the previous pass focused on &quot;resting&quot; snow.</p>
-<p><img src="/images/ref/Snowfall/SnowB.jpg" class="w-100 img-fluid" alt="" /></p>
-<p>Finally, we take the two nodes' secondary Snow output mask and use <a href="%2fReference%2fAdjustments%2fCombine.html">Combine</a> at <code class="val">100%</code> <code>Max</code> mode to merge the masks for use in our texture map creation.</p>
-<p><img src="/images/ref/Snowfall/SnowC.jpg" class="w-100 img-fluid" alt="" /></p>
+<p><img src="/images/ref/Snowfall/SnowB.webp" class="w-100 img-fluid" alt="" /></p>
+<p>Finally, we take the two nodes' secondary Snow output mask and use <a href="/Reference/Adjustments/Combine.html">Combine</a> at <code class="val">100%</code> <code>Max</code> mode to merge the masks for use in our texture map creation.</p>
+<p><img src="/images/ref/Snowfall/SnowC.webp" class="w-100 img-fluid" alt="" /></p>
 
                     </div>
                     <div class="col-sm-3 col-md-2 docs-subnavbar-container visible-md visible-lg hidden-print">

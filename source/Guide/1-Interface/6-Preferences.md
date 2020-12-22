@@ -7,7 +7,7 @@ The Preferences dialog gives you easy access to common preferences. It can be ac
 
 ## Workspace
 
-![](/images/ui/Preferences-1.png)
+![](/images/ui/Preferences-1.webp)
 
 **Toolbox**: 
 This option allows you to set the look of the toolbox buttons. *Icon* option shows the toolbox buttons as icons. *Labels* option shows labels in the toolbox, along with small icons. You can select the *Hide* option to hide the toolbox.
@@ -32,7 +32,7 @@ Checking this option will ask you before deleting each node. Unchecking this opt
 
 ## Viewport
 
-![](/images/ui/Preferences-2.png)
+![](/images/ui/Preferences-2.webp)
 
 **Rotate**: 
 This option lets you select the key combination to use to navigate in the viewport. You can choose from: 
@@ -49,7 +49,7 @@ This option lets you invert the Y-axis of the viewport.
 
 ## Build
 
-![](/images/ui/Preferences-3.png)
+![](/images/ui/Preferences-3.webp)
 
 **Gaea Documents Location**: 
 You can set the location where your Gaea documents are stored.
@@ -63,7 +63,7 @@ You can set the Cache location.
 
 ## Others
 
-![](/images/ui/Preferences-4.png)
+![](/images/ui/Preferences-4.webp)
 
 **Autosave when performing major operations**: 
 This option will autosave your files when performing major operations. You can access your autosave folder at `C:\Users\[YOU]\AppData\Roaming\QuadSpinner\Gaea\Autosave`.

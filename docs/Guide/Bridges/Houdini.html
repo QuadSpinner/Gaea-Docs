@@ -76,17 +76,17 @@
 <h2 id="installing-the-bridge">Installing the Bridge</h2>
 <h2 id="preparing-the-gaea-file">Preparing the Gaea file</h2>
 <p>To use Gaea in Houdini, you must pick from one of the pre-made recipes provided with the Game Dev Tools, the QuadSpinner Automation Recipes repository on GitHub, or create your own.</p>
-<p>Creating your own Gaea recipe is easy. The easiest way is to first create a normal graph in Gaea, using one of the primitives that matches your Houdini terrain. For example, a simple <a href="%2fReference%2fPrimitives%2fPerlin.html">Perlin</a> or <a href="%2fReference%2fGeo+Primitives%2fRange.html">Range</a> node is useful in most cases. Then add the desired nodes to process the terrain. Once the entire graph is complete, create inputs and outputs as defined below, expose properties you need to modify in Houdini, and save the .tor file.</p>
+<p>Creating your own Gaea recipe is easy. The easiest way is to first create a normal graph in Gaea, using one of the primitives that matches your Houdini terrain. For example, a simple <a href="/Reference/Primitives/Perlin.html">Perlin</a> or [Range](/Reference/Geo Primitives/Range.html) node is useful in most cases. Then add the desired nodes to process the terrain. Once the entire graph is complete, create inputs and outputs as defined below, expose properties you need to modify in Houdini, and save the .tor file.</p>
 <h3 id="inputs-and-outputs">Inputs and Outputs</h3>
-<p>For each heightfield or mask you want to send from Houdini, create a <a href="%2fReference%2fPrimitives%2fFile.html">File</a> node. Similarly, set up an <a href="%2fReference%2fOutput%2fOutput.html">Output</a> for each heightmap or color map to be sent back to Houdini. Remember to ensure a unique name for each node's filename variable to avoid crashes or data loss.</p>
+<p>For each heightfield or mask you want to send from Houdini, create a <a href="/Reference/Primitives/File.html">File</a> node. Similarly, set up an <a href="/Reference/Output/Output.html">Output</a> for each heightmap or color map to be sent back to Houdini. Remember to ensure a unique name for each node's filename variable to avoid crashes or data loss.</p>
 <h3 id="exposing-variables">Exposing variables</h3>
 <p>To expose a node's properties, use <code>Node Properties</code> <code>&gt;</code> <code>Expose Properties</code>.</p>
-<p><img src="/images/ui/automation-expose-menu.png" class="img-fluid" alt="" /></p>
-<p>In the dialog that comes up, you can check the properties you want to expose and rename the variable name if needed. For example, when using <a href="%2fReference%2fErosion%2fErosion.html">Erosion</a>, the properties <code>Duration</code>, <code>Strength</code>, <code>Downcutting</code>, and <code>Inhibition</code> are useful and can be exposed.</p>
+<p><img src="/images/ui/automation-expose-menu.webp" class="img-fluid" alt="" /></p>
+<p>In the dialog that comes up, you can check the properties you want to expose and rename the variable name if needed. For example, when using <a href="/Reference/Erosion/Erosion.html">Erosion</a>, the properties <code>Duration</code>, <code>Strength</code>, <code>Downcutting</code>, and <code>Inhibition</code> are useful and can be exposed.</p>
 <blockquote class="WARNING blockquote">
 <p>If multiple variables share the same name - even across different nodes - their values will be overwritten. In such a situation, you should rename the variable name to avoid value contamination.</p>
 </blockquote>
-<p><img src="/images/ui/automation-expose-dialog.png" class="img-fluid" alt="" /></p>
+<p><img src="/images/ui/automation-expose-dialog.webp" class="img-fluid" alt="" /></p>
 <p>Repeat the process for any other nodes you wish to expose.</p>
 <p>You can access all exposed properties from the <code>Node Properties Menu</code> <code>&gt;</code> <code>Show Exposed Properties</code> or press <code>F12</code>.</p>
 <h3 id="testing-the-scene">Testing the scene</h3>

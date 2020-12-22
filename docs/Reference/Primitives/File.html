@@ -71,7 +71,7 @@
 
                         <p class="faux-h1">File</p><p>The File node loads any supported image or data file as a terrain. It supports all major file formats, and you can load either a grayscale image as a heightfield, or a RGB color image as a color map.</p>
 <h2 id="a-note-about-scale">A note about scale</h2>
-<p>In most cases, you can use the <code>Raw</code> Scale setting. This will interpret the data within a normal 8, 16, or 32 bit data range. If your uses excessive scale values that go below zero, you may need to use the <code>Normalized</code> or <code>Mapped</code> mode. If you wish to handle scale manually, you should turn on <code>Clamp</code> in <a href="%2fGuide%2fUsing+Gaea%2fPostProcess.html">Post Process Stack</a> to ensure data does not go beyond anticipated ranges which may cause other nodes to break.</p>
+<p>In most cases, you can use the <code>Raw</code> Scale setting. This will interpret the data within a normal 8, 16, or 32 bit data range. If your uses excessive scale values that go below zero, you may need to use the <code>Normalized</code> or <code>Mapped</code> mode. If you wish to handle scale manually, you should turn on <code>Clamp</code> in <a href="/Guide/Using-Gaea/PostProcess.html">Post Process Stack</a> to ensure data does not go beyond anticipated ranges which may cause other nodes to break.</p>
 <p>The <code>Mapped</code> mode is mainly used for communicating with other applications in automation scenarios where the incoming and outgoing data must retain a specific number range.<br></p>
 <h3>Node Properties</h3>
 <div class="params">

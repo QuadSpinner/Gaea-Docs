@@ -86,7 +86,7 @@ For paths, always encapsulate them in double quotes to avoid path truncation.</p
 <p><code>--silent</code></p>
 <p><strong>Silent Mode</strong> disables all console output. This is useful for batch or unattended builds where you do not need visual readouts for progress or build information.</p>
 <p><code>--automata</code> or <code>--automation</code></p>
-<p><strong>Automation Mode</strong> is used when automating Gaea from another application. The output is limited to simple status messages which can be read by another software and displayed to end users as needed. For more information on how to use Gaea from other applications, see <a href="%2fGuide%2fDevelopers%2fCreate-Bridge.html">Create a Bridge</a>.</p>
+<p><strong>Automation Mode</strong> is used when automating Gaea from another application. The output is limited to simple status messages which can be read by another software and displayed to end users as needed. For more information on how to use Gaea from other applications, see <a href="/Guide/Developers/Create-Bridge.html">Create a Bridge</a>.</p>
 <h3 id="management-switches">Management Switches</h3>
 <table class="table">
 <thead>
@@ -129,15 +129,15 @@ For paths, always encapsulate them in double quotes to avoid path truncation.</p
 <tbody>
 <tr>
 <td style="text-align: left;"><code>--unclamped</code></td>
-<td style="text-align: left;">Forces the build to use Natural Elevation. See <a href="%2fGuide%2fConcepts%2fScale.html">Terrain Scale</a>.</td>
+<td style="text-align: left;">Forces the build to use Natural Elevation. See <a href="/Guide/Concepts/Scale.html">Terrain Scale</a>.</td>
 </tr>
 <tr>
 <td style="text-align: left;"><code>--forcescale</code></td>
-<td style="text-align: left;">Forces the build to use force Full Range scaling. See <a href="%2fGuide%2fConcepts%2fScale.html">Terrain Scale</a>.</td>
+<td style="text-align: left;">Forces the build to use force Full Range scaling. See <a href="/Guide/Concepts/Scale.html">Terrain Scale</a>.</td>
 </tr>
 <tr>
 <td style="text-align: left;"><code>--mutate##</code></td>
-<td style="text-align: left;">Repeats the build and randomizes the seeds of every node to create variations with each build. <br> Valid options for the <code>##</code> portion are numbers from 1 to 99. See <a href="%2fGuide%2fUsing+Gaea%2fBuilding.html">Build and Export</a>.</td>
+<td style="text-align: left;">Repeats the build and randomizes the seeds of every node to create variations with each build. <br> Valid options for the <code>##</code> portion are numbers from 1 to 99. See <a href="/Guide/Using-Gaea/Building.html">Build and Export</a>.</td>
 </tr>
 <tr>
 <td style="text-align: left;"><code>--nodemap</code></td>
@@ -161,12 +161,12 @@ For paths, always encapsulate them in double quotes to avoid path truncation.</p
 </tr>
 <tr>
 <td style="text-align: left;"><code>var:value</code></td>
-<td style="text-align: left;">Sets the 'value' property of the 'var' exposed node property. <br> See <a href="%2fGuide%2fDevelopers%2fAutomation.html">Automating Gaea</a> for details. Any such variable arguments must come after all switches.</td>
+<td style="text-align: left;">Sets the 'value' property of the 'var' exposed node property. <br> See <a href="/Guide/Developers/Automation.html">Automating Gaea</a> for details. Any such variable arguments must come after all switches.</td>
 </tr>
 </tbody>
 </table>
 <blockquote class="NOTE blockquote">
-<p><code>--range-min</code> and <code>--range-max</code> must be supplied together, otherwise the scale will fail. Also, when these arguments are passed, the file will forcibly use Custom scale for output, and all <a href="%2fReference%2fPrimitives%2fFile.html">File</a> nodes will be forced to use the <code>Mapped</code> scale mode with the supplied scales.</p>
+<p><code>--range-min</code> and <code>--range-max</code> must be supplied together, otherwise the scale will fail. Also, when these arguments are passed, the file will forcibly use Custom scale for output, and all <a href="/Reference/Primitives/File.html">File</a> nodes will be forced to use the <code>Mapped</code> scale mode with the supplied scales.</p>
 </blockquote>
 <p>Complex example of a command line build automation:</p>
 <pre><code class="language-vb">Gaea.Build.exe 
@@ -185,7 +185,7 @@ For paths, always encapsulate them in double quotes to avoid path truncation.</p
  seed:0 
  aggressivemode:true
 </code></pre>
-<p>See <a href="%2fGuide%2fDevelopers%2fAutomation.html">Automating Gaea</a> for details.</p>
+<p>See <a href="/Guide/Developers/Automation.html">Automating Gaea</a> for details.</p>
 <h2 id="batch-building">Batch Building</h2>
 <p>You can run a batch build by executing a batch (.bat) file as shown below.</p>
 <pre><code class="language-bat">REM Change drive, just to be sure

@@ -5,7 +5,7 @@ title: Build and Export
 
 The output from your project must be saved to a file in order to use it elsewhere. To do this, you must build the output. When you build the output, Gaea will create it at your target resolution. This may take a while to build depending upon the complexity of your terrain and the effects used.
 
-![](/images/ui/Intro-Build.jpg)
+![](/images/ui/Intro-Build.webp)
 
 Over the course of a complex project, saving and managing the appropriate outputs can become a tedious task. Managing outputs for several different nodes, especially those with multiple outputs like the Erosion node, can make it even worse.
 
@@ -38,19 +38,19 @@ Gaea provides a mutation facility during build to create multiple variations of 
 <div class="row>
 <div class="col-lg-6">
 
-![Build Mutations](/images/ui/mutate1.jpg)
+![Build Mutations](/images/ui/mutate1.webp)
 
 </div><div class="col-lg-6">
 
-![Build Mutations](/images/ui/mutate2.jpg)
+![Build Mutations](/images/ui/mutate2.webp)
 
 </div><div class="col-lg-6">
 
-![Build Mutations](/images/ui/mutate3.jpg)
+![Build Mutations](/images/ui/mutate3.webp)
 
 </div><div class="col-lg-6">
 
-![Build Mutations](/images/ui/mutate4.jpg)
+![Build Mutations](/images/ui/mutate4.webp)
 
 </div>
 

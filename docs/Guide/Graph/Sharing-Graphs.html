@@ -74,20 +74,20 @@
 <p>Let's explore this concept with an example. We have a graph where we first create the terrain then texture it using a specific process. To keep the graph clean, it is a great idea to split the two portions into their own tabs.</p>
 <p>You can do this in two ways:</p>
 <ul>
-<li>Create a new tab and create the texturing graph structure there. You will need to manually set up <a href="%2fGuide%2fGraph%2fPortals.html">Portals and Chokepoints</a> to communicate across the graphs.</li>
+<li>Create a new tab and create the texturing graph structure there. You will need to manually set up <a href="/Guide/Graph/Portals.html">Portals and Chokepoints</a> to communicate across the graphs.</li>
 <li>Create the texturing structure in the first graph, then select the nodes of that portion and use the Graph Menu to move those nodes to a new graph. Gaea will automatically convert any relevant connections into Portals.</li>
 </ul>
 <h2 id="using-portals-and-chokepoints">Using Portals and Chokepoints</h2>
-<p><img src="/images/ui/graph-org-1.jpg" class="img-fluid" alt="" /></p>
-<p>In our example, we're relying on two specific outputs - the <a href="%2fReference%2fErosion%2fErosion.html">Erosion</a> node's primary output and the flow output. So we convert those two into Portals. Now those outputs can be accessed from any other graph tab.</p>
-<p><img src="/images/ui/graph-org-2.jpg" class="img-fluid" alt="" /></p>
-<p>In the second graph, the <a href="%2fReference%2fData%2fTexture.html">Texture</a> and <a href="%2fReference%2fData%2fRockMap.html">RockMap</a> nodes rely on the primary output, while the second <a href="%2fReference%2fAdjustments%2fCombine.html">Combine</a> node relies on the flow output. We can easily connect them with Portals, however in this case we have setup two <a href="%2fReference%2fUtilities%2fChokepoint.html">Chokepoint</a> nodes. This is not necessary, but it can be helpful for multiple reasons:</p>
-<p>Portals can sometimes be visually confusing as we don't get to see a visual flow from the lack of connection lines. By funneling things through Chokepoints, we get to see the flow and multiple nodes can connect to the same <a href="%2fReference%2fUtilities%2fChokepoint.html">Chokepoint</a>. This reduces the clutter that can occur if you have too many connections to the same portal.</p>
+<p><img src="/images/ui/graph-org-1.webp" class="img-fluid" alt="" /></p>
+<p>In our example, we're relying on two specific outputs - the <a href="/Reference/Erosion/Erosion.html">Erosion</a> node's primary output and the flow output. So we convert those two into Portals. Now those outputs can be accessed from any other graph tab.</p>
+<p><img src="/images/ui/graph-org-2.webp" class="img-fluid" alt="" /></p>
+<p>In the second graph, the <a href="/Reference/Data/Texture.html">Texture</a> and <a href="/Reference/Data/RockMap.html">RockMap</a> nodes rely on the primary output, while the second <a href="/Reference/Adjustments/Combine.html">Combine</a> node relies on the flow output. We can easily connect them with Portals, however in this case we have setup two <a href="/Reference/Utilities/Chokepoint.html">Chokepoint</a> nodes. This is not necessary, but it can be helpful for multiple reasons:</p>
+<p>Portals can sometimes be visually confusing as we don't get to see a visual flow from the lack of connection lines. By funneling things through Chokepoints, we get to see the flow and multiple nodes can connect to the same <a href="/Reference/Utilities/Chokepoint.html">Chokepoint</a>. This reduces the clutter that can occur if you have too many connections to the same portal.</p>
 <p>Chokepoints make it a lot easier to reconnect multiple points. For example, if at some point we decide to process the Erosion node further by adding another node, then without Chokepoints you would end up having to reconnect several nodes. Here, you would just reconnect the chokepoint. In fact, for extra clarity and ease of use, you can set up a chokepoint in both graphs and turn the first Chokepoint into a portal instead of doing it directly to the node.</p>
 <p>Lastly, Chokepoints become &quot;gateways&quot; when you share a graph.</p>
 <h2 id="sharing-graphs">Sharing Graphs</h2>
 <p>Let's say you like this texturing technique and want to use it in other graphs later. This is very easy to do when you have Chokepoints set up and the part of the graph you want to share is in its own tab. You can export a graph by selecting <code>Export Graph</code> in the Graph Menu.</p>
-<p><img src="/images/ui/graph-menu.png" class="w-50 img-fluid" alt="" /></p>
+<p><img src="/images/ui/graph-menu.webp" class="w-50 img-fluid" alt="" /></p>
 <p>In the other file, you can use the <code>Import Graph</code> command to bring in the export graph. It will get its own tab like the graph from where it was exported.</p>
 <p>All you need to do next is connect the appropriate nodes from other graphs to the Chokepoints of the freshly imported graph.</p>
 
