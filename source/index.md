@@ -10,7 +10,7 @@ show: no
 
 The documentation is organized to help you get started with Gaea quickly and easily regardless of your skill level.
 
-![](/images/splash-1.jpg)
+![](/images/splash-1.webp)
 
 <br />
 
