@@ -1,16 +1,19 @@
 [
   {
     "Path": "Guide",
-    "Title": "User Guide"
+    "Title": "User Guide",
+    "SearchWeight": 2
   },
   {
     "Path": "Reference",
     "Title": "Node Reference",
-    "ProcessProceduralFiles": true
+    "ProcessProceduralFiles": true,
+    "SearchWeight": 3
   },
   {
     "Path": "Learning",
-    "Title": "Tutorials"
+    "Title": "Tutorials",
+    "SearchWeight": 1
   },
   {
     "Path": "KB",
@@ -19,6 +22,7 @@
   {
     "Path": "Changelogs",
     "Title": "Version History",
-    "ProcessXmlChangelogs": true
+    "ProcessXmlChangelogs": true,
+    "ExcludeFromSearch": true
   }
 ]
