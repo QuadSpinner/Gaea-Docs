@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<ArrayOfFlub xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Flub>
+    <Name>Target Scale</Name>
+    <Description>The target size of the downscaled map.</Description>
+  </Flub>
+</ArrayOfFlub>

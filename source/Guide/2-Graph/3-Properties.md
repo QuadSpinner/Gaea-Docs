@@ -3,7 +3,7 @@ uid: properties
 title: Properties
 ---
 
-![](/images/ui/properties.webp){.w-50}
+![](/images/ui/properties.webp){.ui .img .medium}
 
 Every node exposes a set of properties or settings that you can modify to change the effect that node has on the terrain. When you select a node, the settings become available in the Properties panel in the right side of the interface.
 

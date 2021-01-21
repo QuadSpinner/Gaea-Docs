@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<ArrayOfFlub xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Flub>
+    <Name>Autolevel</Name>
+    <Description>T</Description>
+  </Flub>
+  <Flub>
+    <Name>Apply Autolevel</Name>
+    <Description>Automatically levels the terrain where the heights are proportionately distributed between the highest and lowest points.</Description>
+  </Flub>
+  <Flub>
+    <Name>Strength</Name>
+    <Description>The strength of the applied levels method.</Description>
+  </Flub>
+  <Flub>
+    <Name>Raise</Name>
+    <Description>T</Description>
+  </Flub>
+  <Flub>
+    <Name>Apply Raise</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
+    <Name>Multiplier</Name>
+    <Description>The strength of the applied raise.</Description>
+  </Flub>
+  <Flub>
+    <Name>Logarithmic</Name>
+    <Description>T</Description>
+  </Flub>
+  <Flub>
+    <Name>Apply Log</Name>
+    <Description>Applies logarithmic scaling to the terrain. It works similarly to Autolevel, but uses a logarithmic curve that bulks up the terrain much more.</Description>
+  </Flub>
+  <Flub>
+    <Name>Inverse</Name>
+    <Description>Inverts the log curve.</Description>
+  </Flub>
+  <Flub>
+    <Name>Log</Name>
+    <Description>The strength of the log curve.</Description>
+  </Flub>
+  <Flub>
+    <Name>Equalize</Name>
+    <Description>T</Description>
+  </Flub>
+  <Flub>
+    <Name>Apply Equalize</Name>
+    <Description>Equalizes the terrain where the heights are linearly distributed between the highest and lowest points.</Description>
+  </Flub>
+  <Flub>
+    <Name>Equalize</Name>
+    <Description>The strength of the equalization.</Description>
+  </Flub>
+  <Flub>
+    <Name>Gamma</Name>
+    <Description>T</Description>
+  </Flub>
+  <Flub>
+    <Name>Apply Gamma</Name>
+    <Description>Applies a Gamma-style height adjustment to the terrain.</Description>
+  </Flub>
+  <Flub>
+    <Name>Auto-Gamma</Name>
+    <Description>Applies Auto-Gamma.</Description>
+  </Flub>
+  <Flub>
+    <Name>Gamma</Name>
+    <Description>The Gamma amount to be used. This only works when Auto-Gamma is turned off.</Description>
+  </Flub>
+</ArrayOfFlub>

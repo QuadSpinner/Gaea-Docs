@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<ArrayOfFlub xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Flub>
+    <Name>Duration</Name>
+    <Description>The number of erosion cycles to simulate. Usually 200 is sufficient.</Description>
+  </Flub>
+  <Flub>
+    <Name>Power</Name>
+    <Description>The strength of the erosion.</Description>
+  </Flub>
+  <Flub>
+    <Name>Granularity</Name>
+    <Description>Whether debris should be fine like dust, or coarse like rocks and even boulders.</Description>
+  </Flub>
+  <Flub>
+    <Name>BasLen</Name>
+    <Description>The sub-simulation length of each particle.</Description>
+  </Flub>
+  <Flub>
+    <Name>Radius</Name>
+    <Description>The area affected by each particle.</Description>
+  </Flub>
+  <Flub>
+    <Name>Random</Name>
+    <Description>The randomness of each particle's motion.</Description>
+  </Flub>
+  <Flub>
+    <Name>Seed</Name>
+    <Description>The randomization pattern or seed for the node's process.</Description>
+  </Flub>
+</ArrayOfFlub>

@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<ArrayOfFlub xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Flub>
+    <Name>Frame</Name>
+  </Flub>
+  <Flub>
+    <Name>Octaves</Name>
+  </Flub>
+  <Flub>
+    <Name>Ripples animation speed</Name>
+  </Flub>
+  <Flub>
+    <Name>Size</Name>
+  </Flub>
+  <Flub>
+    <Name>Amplitude</Name>
+  </Flub>
+  <Flub>
+    <Name>MotionX</Name>
+  </Flub>
+  <Flub>
+    <Name>MotionY</Name>
+  </Flub>
+  <Flub>
+    <Name>Wind patch effect</Name>
+  </Flub>
+  <Flub>
+    <Name>Wind patch animation speed</Name>
+  </Flub>
+  <Flub>
+    <Name>Wind patch size</Name>
+  </Flub>
+  <Flub>
+    <Name>Wind patch contrast</Name>
+  </Flub>
+  <Flub>
+    <Name>Brightness</Name>
+  </Flub>
+  <Flub>
+    <Name>Sun azimuth</Name>
+  </Flub>
+  <Flub>
+    <Name>Sun elevation</Name>
+  </Flub>
+  <Flub>
+    <Name>Seed</Name>
+  </Flub>
+</ArrayOfFlub>

@@ -1,3 +1,3 @@
 | Setting       | Description              |
 | :------------ | :----------------------- |
-| **Threshold** | The exact value to keep. |
+| Threshold | The exact value to keep. |

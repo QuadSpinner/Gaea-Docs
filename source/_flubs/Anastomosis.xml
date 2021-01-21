@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<ArrayOfFlub xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Flub>
+    <Name>Structure</Name>
+    <Description>T</Description>
+  </Flub>
+  <Flub>
+    <Name>Impact</Name>
+    <Description>The intensity of the process. Higher values create stronger physical impacts within the erosion process.</Description>
+  </Flub>
+  <Flub>
+    <Name>Impact Area</Name>
+    <Description>The relative width of the areas impacted by the erosion.</Description>
+  </Flub>
+  <Flub>
+    <Name>Influence</Name>
+    <Description>The influence or depth of the downcutting caused by the erosion.</Description>
+  </Flub>
+  <Flub>
+    <Name>Downcutting</Name>
+    <Description>The style of the downcutting in the erosion process.</Description>
+    <Flubs>
+      <Flub>
+        <Name>Destructive</Name>
+        <Description>Tiny, small scale roughening of the entire surface with higher impact on steep slopes.</Description>
+      </Flub>
+      <Flub>
+        <Name>Pits</Name>
+        <Description>Larger pit like impacts that overlap often, biased slightly towards existing flow structures.</Description>
+      </Flub>
+      <Flub>
+        <Name>Flows</Name>
+        <Description>Deepen existing flow structures and create new minor ones.</Description>
+      </Flub>
+      <Flub>
+        <Name>Rivers</Name>
+        <Description>Deepen existing flow structure in major river flow zones only.</Description>
+      </Flub>
+    </Flubs>
+  </Flub>
+</ArrayOfFlub>

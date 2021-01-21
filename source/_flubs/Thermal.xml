@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<ArrayOfFlub xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Flub>
+    <Name>Thermal Erosion</Name>
+    <Description>T</Description>
+  </Flub>
+  <Flub>
+    <Name>Duration</Name>
+    <Description>Duration of the thermal erosion process.</Description>
+  </Flub>
+  <Flub>
+    <Name>Strength</Name>
+    <Description>Strength of the thermal erosion process.</Description>
+  </Flub>
+  <Flub>
+    <Name>Anisotropy</Name>
+    <Description>Thermal erosion's anisotropy that affects how rock is affected, and deposits formed. See the Anisotropy section for details.</Description>
+  </Flub>
+  <Flub>
+    <Name>Talus Angle</Name>
+    <Description>Angle of the talus (deposits).</Description>
+  </Flub>
+  <Flub>
+    <Name>Talus Settling</Name>
+    <Description>Settling of sediments in the talus.</Description>
+  </Flub>
+  <Flub>
+    <Name>Fine Detail</Name>
+    <Description>Enable rocky debris in the talus.</Description>
+  </Flub>
+  <Flub>
+    <Name>Debris Size</Name>
+    <Description>Size of the rocky debris in the talus. Available when Fine Detail is turned On</Description>
+  </Flub>
+  <Flub>
+    <Name>Scale</Name>
+    <Description>T</Description>
+  </Flub>
+  <Flub>
+    <Name>Real Scale</Name>
+    <Description>Use the scale defined in the terrain. Disable to access addtional options and modify erosion's physics.</Description>
+  </Flub>
+  <Flub>
+    <Name>Terrain Scale</Name>
+    <Description>Scale of the terrain. Available when Real Scale is turned Off</Description>
+  </Flub>
+  <Flub>
+    <Name>Feature Scale</Name>
+    <Description>Scale of the largest feature in the terrain.</Description>
+  </Flub>
+  <Flub>
+    <Name>Verticality</Name>
+    <Description>Height of the terrain.Available when Real Scale is turned Off</Description>
+  </Flub>
+</ArrayOfFlub>

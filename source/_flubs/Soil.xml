@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<ArrayOfFlub xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Flub>
+    <Name>Power</Name>
+    <Description>The power of soil deposits. Smaller values create detailed, small deposits. Larger values create less detailed but stronger deposits.</Description>
+  </Flub>
+  <Flub>
+    <Name>Graded</Name>
+    <Description>Creates stacked deposits with geometric progression, which produce softer gradations.</Description>
+  </Flub>
+</ArrayOfFlub>

@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<ArrayOfFlub xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Flub>
+    <Name>Method</Name>
+    <Flubs>
+      <Flub>
+        <Name>Dune Sea</Name>
+        <Description>Creates large dune fields with fewer variations.</Description>
+      </Flub>
+      <Flub>
+        <Name>Chaotic</Name>
+        <Description>Creates smaller dune areas with larger variations.</Description>
+      </Flub>
+    </Flubs>
+  </Flub>
+  <Flub>
+    <Name>Scale</Name>
+    <Description>The size of the dunes.</Description>
+  </Flub>
+  <Flub>
+    <Name>Strength</Name>
+    <Description>The strength of the dunes' undulation.</Description>
+  </Flub>
+  <Flub>
+    <Name>Height</Name>
+    <Description>The height of the tallest dune.</Description>
+  </Flub>
+  <Flub>
+    <Name>Seed</Name>
+    <Description>The randomization pattern or seed for the node's process.</Description>
+  </Flub>
+</ArrayOfFlub>

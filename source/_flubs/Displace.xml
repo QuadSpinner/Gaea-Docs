@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<ArrayOfFlub xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Flub>
+    <Name>Displacement</Name>
+    <Description>T</Description>
+  </Flub>
+  <Flub>
+    <Name>Method</Name>
+    <Flubs>
+      <Flub>
+        <Name>Standard</Name>
+        <Description>Displacement on the horizontal (X) and vertical (Y) axes.</Description>
+      </Flub>
+      <Flub>
+        <Name>Vertical</Name>
+        <Description>Altitude displacement on the height (Z) axis.</Description>
+      </Flub>
+      <Flub>
+        <Name>Rugged</Name>
+        <Description>Strong displacement on the horizontal (X) and vertical (Y) axes.</Description>
+      </Flub>
+    </Flubs>
+  </Flub>
+  <Flub>
+    <Name>Uniform</Name>
+    <Description>When enabled, the Strength slider's value applies to both the horizontal (X) and vertical (Y) axes.</Description>
+  </Flub>
+  <Flub>
+    <Name>Strength</Name>
+    <Description>The strength of the displacement. When Uniform is turned off, this controls the displacement for the horizontal (X) axis.</Description>
+  </Flub>
+  <Flub>
+    <Name>Strength Vertical</Name>
+    <Description>Available when Uniform is turned Off  This controls the displacement for the vertical (Y) axis.</Description>
+  </Flub>
+  <Flub>
+    <Name>Noise</Name>
+    <Description>T</Description>
+  </Flub>
+  <Flub>
+    <Name>Scale</Name>
+    <Description>The scale of the internal noise.</Description>
+  </Flub>
+  <Flub>
+    <Name>Complexity</Name>
+    <Description>The complexity (octaves) of the internal noise.</Description>
+  </Flub>
+  <Flub>
+    <Name>Seed</Name>
+    <Description>The randomization pattern or seed for the node's process.</Description>
+  </Flub>
+  <Flub>
+    <Name>Iterative</Name>
+    <Description>T</Description>
+  </Flub>
+  <Flub>
+    <Name>Iterations</Name>
+    <Description>Number of times the displacement is applied repeatedly. This can help create more elaborate displacement effects.</Description>
+  </Flub>
+  <Flub>
+    <Name>Rotate</Name>
+    <Description>The direction of the displacement.</Description>
+  </Flub>
+  <Flub>
+    <Name>High Quality</Name>
+    <Description>When enabled, higher quality displacement is used to prevent directional stretching. This may take longer to process.</Description>
+  </Flub>
+  <Flub>
+    <Name>Transform</Name>
+    <Description>T</Description>
+  </Flub>
+  <Flub>
+    <Name>X</Name>
+  </Flub>
+  <Flub>
+    <Name>Y</Name>
+  </Flub>
+  <Flub>
+    <Name>Scale X</Name>
+  </Flub>
+  <Flub>
+    <Name>Scale Y</Name>
+  </Flub>
+</ArrayOfFlub>

@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<ArrayOfFlub xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Flub>
+    <Name>Amount</Name>
+    <Description>The amount of re-folding to be applied to the terrain. Low values create large folds; high values create tiny folds.</Description>
+  </Flub>
+</ArrayOfFlub>

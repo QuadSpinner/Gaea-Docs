@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<ArrayOfFlub xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Flub>
+    <Name>Terracing</Name>
+    <Description>T</Description>
+  </Flub>
+  <Flub>
+    <Name>Spacing</Name>
+  </Flub>
+  <Flub>
+    <Name>Octaves</Name>
+  </Flub>
+  <Flub>
+    <Name>Intensity</Name>
+  </Flub>
+  <Flub>
+    <Name>Shape</Name>
+  </Flub>
+  <Flub>
+    <Name>Seed</Name>
+  </Flub>
+  <Flub>
+    <Name>Advanced</Name>
+    <Description>T</Description>
+  </Flub>
+  <Flub>
+    <Name>Shapes separation</Name>
+  </Flub>
+  <Flub>
+    <Name>Macro octaves</Name>
+  </Flub>
+  <Flub>
+    <Name>Micro shape</Name>
+  </Flub>
+  <Flub>
+    <Name>Character</Name>
+  </Flub>
+  <Flub>
+    <Name>Thickness uniformity</Name>
+  </Flub>
+  <Flub>
+    <Name>Hardness uniformity</Name>
+  </Flub>
+</ArrayOfFlub>

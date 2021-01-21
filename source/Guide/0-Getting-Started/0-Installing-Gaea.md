@@ -3,15 +3,15 @@ uid: installing
 title: Installing Gaea
 ---
 
----
+## Installation
 
-## Software Requirements
+#### Software Requirements
 - Microsoft [.NET Framework 4.8](https://dotnet.microsoft.com/download/thank-you/net48) or later.
 - Microsoft [Visual C++ 2017 Runtime](https://aka.ms/vs/16/release/vc_redist.x64.exe).
 
 If either is not detected, the installer will try to download them automatically.
 
-## Typical Install (Recommended)
+#### Typical Install (Recommended)
 Installing Gaea is a simple process. Depending on your installation location, you may need administrative privileges.
 
 1. Download the [latest version](https://quadspinner.com/gaea/download).
@@ -21,39 +21,35 @@ Installing Gaea is a simple process. Depending on your installation location, yo
 5. Follow the on-screen questions to set up your default preferences.
 6. The Gaea central project repository and build stacks are placed in `Documents\Gaea\` by default. However, you can change this folder to any other location through installer, or at any later time via the Preferences.
 
----
-
-## Administrative Install and Mass Deployment
-
-See @article-deployment
-
-
-### Floating Server
-
-This feature is currently in development and may not be available until version 1.4. Please contact technical support for an interim alternative.
-
-## Clean Installation
+#### Clean Installation
 
 If you were using our older EXE installers, or have encountered an issue in a new build, we recommend a clean installation. Download the full installer from the link above, and during installation, check the option for "Clean Installation.
 
----
+#### Administrative Install and Mass Deployment
+
+See @article-deployment
+
+#### Floating Server
+
+This feature is currently in development and may not be available until version 1.4. Please contact technical support for an interim alternative.
+
 
 ## Branches
 
-### Production Ready
+#### Production Ready
 
 Production Ready builds are stable, and thoroughly tested both by the QA team and regular users. They are released once or twice every month.
 
 Bleeding Edge features are rolled into these builds slowly, once they undergo thorough testing.
 
 
-### Bleeding Edge
+#### Bleeding Edge
 
 Bleeding Edge builds are released once or several times per cycle. They are mostly stable, but not fully ready for production.
 
 You get to try new features as they're added, and provide feedback very early so we can modify them to your satisfaction.
 
-### Install Side-by-side
+#### Install Side-by-side
 
 Both install to different locations, and do not share settings or registry entries. This
 gives you the flexibility to try new features without endangering your work projects.

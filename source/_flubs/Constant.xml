@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<ArrayOfFlub xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Flub>
+    <Name>Output</Name>
+    <Description>The type of output to create.</Description>
+    <Flubs>
+      <Flub>
+        <Name>Height</Name>
+        <Description>Create a flat terrain of the specified height.</Description>
+      </Flub>
+      <Flub>
+        <Name>Color</Name>
+        <Description>Create a flat color output of the specified color.</Description>
+      </Flub>
+      <Flub>
+        <Name>Noise</Name>
+        <Description>Create a flat terrain with the specified noise.</Description>
+      </Flub>
+    </Flubs>
+  </Flub>
+  <Flub>
+    <Name>Height</Name>
+    <Description>The height of the blank terrain.</Description>
+  </Flub>
+  <Flub>
+    <Name>Color</Name>
+    <Description>The color to use for creating a flat, color output.</Description>
+  </Flub>
+  <Flub>
+    <Name>Noise</Name>
+    <Flubs>
+      <Flub>
+        <Name>Random</Name>
+        <Description>Random dots.</Description>
+      </Flub>
+      <Flub>
+        <Name>Gaussian</Name>
+        <Description>Softer clustering.</Description>
+      </Flub>
+      <Flub>
+        <Name>Poisson</Name>
+        <Description>Wide, distributed clusters.</Description>
+      </Flub>
+      <Flub>
+        <Name>Impulse</Name>
+        <Description>Sharp, strong spikes.</Description>
+      </Flub>
+      <Flub>
+        <Name>Laplacian</Name>
+        <Description>Sharp, low density clusters.</Description>
+      </Flub>
+    </Flubs>
+  </Flub>
+  <Flub>
+    <Name>Iterations</Name>
+    <Description>The number of noise iterations performed on the terrain.</Description>
+  </Flub>
+  <Flub>
+    <Name>Seed</Name>
+    <Description>The randomization pattern or seed for the node's process.</Description>
+  </Flub>
+</ArrayOfFlub>

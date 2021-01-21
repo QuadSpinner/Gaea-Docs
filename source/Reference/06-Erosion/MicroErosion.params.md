@@ -1,5 +1,5 @@
 | Setting        | Description                        |
 | :------------- | :--------------------------------- |
-| **Iterations** | Iterations of the erosion process. |
-| **Strength**   | Strength of the erosion.           |
+| Iterations | Iterations of the erosion process. |
+| Strength   | Strength of the erosion.           |
 ^parallel

@@ -1,0 +1,130 @@
+<?xml version="1.0"?>
+<ArrayOfFlub xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Flub>
+    <Name>SatMaps</Name>
+    <Description>T</Description>
+  </Flub>
+  <Flub>
+    <Name>Index</Name>
+  </Flub>
+  <Flub>
+    <Name>Min</Name>
+  </Flub>
+  <Flub>
+    <Name>Max</Name>
+  </Flub>
+  <Flub>
+    <Name>Library</Name>
+    <Description>TODO</Description>
+    <Flubs>
+      <Flub>
+        <Name>Rocky</Name>
+      </Flub>
+      <Flub>
+        <Name>Sandy</Name>
+      </Flub>
+      <Flub>
+        <Name>Green</Name>
+      </Flub>
+      <Flub>
+        <Name>Blue</Name>
+      </Flub>
+      <Flub>
+        <Name>Colorful</Name>
+      </Flub>
+      <Flub>
+        <Name>Legacy</Name>
+      </Flub>
+    </Flubs>
+  </Flub>
+  <Flub>
+    <Name>SatMap Editor</Name>
+    <Description>T</Description>
+  </Flub>
+  <Flub>
+    <Name>Bias</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
+    <Name>Samples</Name>
+    <Description>Lorem ipsum</Description>
+    <Flubs>
+      <Flub>
+        <Name>256 (Fast)</Name>
+      </Flub>
+      <Flub>
+        <Name>512 (Slower)</Name>
+      </Flub>
+      <Flub>
+        <Name>1024 (Very Slow)</Name>
+      </Flub>
+      <Flub>
+        <Name>2048 (Overkill)</Name>
+      </Flub>
+    </Flubs>
+  </Flub>
+  <Flub>
+    <Name>Pre Processing</Name>
+    <Description>T</Description>
+  </Flub>
+  <Flub>
+    <Name>Reverse</Name>
+    <Description>TODO</Description>
+  </Flub>
+  <Flub>
+    <Name>Jitter</Name>
+    <Description>TODO</Description>
+  </Flub>
+  <Flub>
+    <Name>Input Clarity</Name>
+    <Description>TODO</Description>
+  </Flub>
+  <Flub>
+    <Name>Input Auto Level</Name>
+    <Description>TODO</Description>
+  </Flub>
+  <Flub>
+    <Name>Post Processing</Name>
+    <Description>T</Description>
+  </Flub>
+  <Flub>
+    <Name>Output Clarity</Name>
+    <Description>TODO</Description>
+  </Flub>
+  <Flub>
+    <Name>Output Auto Level</Name>
+    <Description>TODO</Description>
+  </Flub>
+  <Flub>
+    <Name>Noise</Name>
+    <Description>TODO</Description>
+  </Flub>
+  <Flub>
+    <Name>Apply Brightness + Contrast</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
+    <Name>Brightness</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
+    <Name>Contrast</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
+    <Name>Apply HSL</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
+    <Name>H</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
+    <Name>S</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
+    <Name>L</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+</ArrayOfFlub>

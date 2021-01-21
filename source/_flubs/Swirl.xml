@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<ArrayOfFlub xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Flub>
+    <Name>Degrees</Name>
+    <Description>The strength of the vortex. Negative values move the distortion clockwise; positive values move the distortion counter-clockwise.</Description>
+  </Flub>
+  <Flub>
+    <Name>Scale</Name>
+    <Description>The size of the swirl.</Description>
+  </Flub>
+  <Flub>
+    <Name>X</Name>
+  </Flub>
+  <Flub>
+    <Name>Y</Name>
+  </Flub>
+</ArrayOfFlub>

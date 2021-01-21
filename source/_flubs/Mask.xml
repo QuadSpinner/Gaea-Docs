@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<ArrayOfFlub xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Flub>
+    <Name>Blur</Name>
+    <Description>T</Description>
+  </Flub>
+  <Flub>
+    <Name>Power</Name>
+    <Description>The amount of blurring to apply.</Description>
+  </Flub>
+  <Flub>
+    <Name>Iterations</Name>
+    <Description>The number of times the blur is applied. Higher values give more varied softness at the expense of processing time.</Description>
+  </Flub>
+  <Flub>
+    <Name>Autolevel</Name>
+  </Flub>
+</ArrayOfFlub>

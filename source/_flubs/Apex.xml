@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<ArrayOfFlub xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Flub>
+    <Name>Mode</Name>
+    <Description>Sets the processing method. The result can be dramatically different.</Description>
+    <Flubs>
+      <Flub>
+        <Name>Distance</Name>
+        <Description>Creates an increasing slope from the "outline" of the shape towards its centerline.</Description>
+      </Flub>
+      <Flub>
+        <Name>Slant</Name>
+        <Description>Creates slopes like Distance but creates a steep slant as defined by the parameters.</Description>
+      </Flub>
+    </Flubs>
+  </Flub>
+  <Flub>
+    <Name>Steepness</Name>
+    <Description>Steepness of the slopes. (Distance only)</Description>
+  </Flub>
+  <Flub>
+    <Name>A</Name>
+    <Description>Slant of the left slope. (Slant only)</Description>
+  </Flub>
+  <Flub>
+    <Name>B</Name>
+    <Description>Slant of the right slope. (Slant only)</Description>
+  </Flub>
+  <Flub>
+    <Name>Angle</Name>
+    <Description>Angle of the overall slant. (Slant only)</Description>
+  </Flub>
+  <Flub>
+    <Name>Mirror Edges</Name>
+    <Description>Mirror the edge pixels when there is empty space.</Description>
+  </Flub>
+</ArrayOfFlub>

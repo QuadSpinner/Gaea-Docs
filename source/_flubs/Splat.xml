@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<ArrayOfFlub xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Flub>
+    <Name>Influences</Name>
+    <Description>T</Description>
+  </Flub>
+  <Flub>
+    <Name>R</Name>
+    <Description>TODO</Description>
+  </Flub>
+  <Flub>
+    <Name>G</Name>
+    <Description>TODO</Description>
+  </Flub>
+  <Flub>
+    <Name>B</Name>
+    <Description>TODO</Description>
+  </Flub>
+  <Flub>
+    <Name>A</Name>
+    <Description>TODO</Description>
+  </Flub>
+  <Flub>
+    <Name>Options</Name>
+    <Description>T</Description>
+  </Flub>
+  <Flub>
+    <Name>Post Process</Name>
+    <Flubs>
+      <Flub>
+        <Name>None</Name>
+      </Flub>
+      <Flub>
+        <Name>Autolevel</Name>
+      </Flub>
+      <Flub>
+        <Name>Equalize</Name>
+      </Flub>
+    </Flubs>
+  </Flub>
+  <Flub>
+    <Name>Autolevel Incoming</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
+    <Name>Clamp RGB product to 1.0</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+</ArrayOfFlub>

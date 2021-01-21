@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<ArrayOfFlub xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Flub>
+    <Name>Scale</Name>
+    <Description>The relative size of the cellular subdivision.</Description>
+  </Flub>
+  <Flub>
+    <Name>Chaos</Name>
+    <Description>The general randomness of the subdivision. Low values create systematic cells; high values cause the cells to widely differ both in shape and number of sides.</Description>
+  </Flub>
+  <Flub>
+    <Name>Seed</Name>
+    <Description>The randomization pattern or seed for the node's process.</Description>
+  </Flub>
+  <Flub>
+    <Name>Function</Name>
+    <Description>The distance function used to determine the cell shape.</Description>
+    <Flubs>
+      <Flub>
+        <Name>Euclidean</Name>
+        <Description>Euclidean creates sharp, angular cells.</Description>
+      </Flub>
+      <Flub>
+        <Name>Manhattan</Name>
+        <Description>Manhattan creates slightly unnatural multi-angled shapes, which can be quite useful when processed further.</Description>
+      </Flub>
+      <Flub>
+        <Name>Shepards</Name>
+        <Description>Shepards provides stark peaks and sinkholes.</Description>
+      </Flub>
+      <Flub>
+        <Name>Hybrid</Name>
+        <Description>Euclidean-Manhattan hybrid merges both distancing functions equally.</Description>
+      </Flub>
+    </Flubs>
+  </Flub>
+</ArrayOfFlub>

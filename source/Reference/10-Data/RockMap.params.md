@@ -2,6 +2,6 @@
 
 | Setting      | Description |
 | :----------- | :---------- |
-| **Coverage** | Lorem ipsum |
-| **Density**  | Lorem ipsum |
-| **Invert**   | Lorem ipsum |
+| Coverage | Lorem ipsum |
+| Density  | Lorem ipsum |
+| Invert   | Lorem ipsum |

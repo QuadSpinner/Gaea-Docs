@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<ArrayOfFlub xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Flub>
+    <Name>Guides</Name>
+    <Description>T</Description>
+  </Flub>
+  <Flub>
+    <Name>Height</Name>
+    <Description>The height of the generated mountains. When Multiple Octaves is enabled, this setting determines the height of the tallest peak.</Description>
+  </Flub>
+  <Flub>
+    <Name>Sprawl</Name>
+    <Description>The extent to which the mountains sprawl outwards from the drawing guides.</Description>
+  </Flub>
+  <Flub>
+    <Name>Displacement</Name>
+    <Description>The amount of displacement added to the octave noise.</Description>
+  </Flub>
+  <Flub>
+    <Name>Shape</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
+    <Name>Enforce Peaks</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
+    <Name>Synthesis</Name>
+    <Description>T</Description>
+  </Flub>
+  <Flub>
+    <Name>Style</Name>
+    <Description>Lorem ipsum</Description>
+    <Flubs>
+      <Flub>
+        <Name>Simple</Name>
+      </Flub>
+      <Flub>
+        <Name>Simple Eroded</Name>
+      </Flub>
+      <Flub>
+        <Name>Random Mountain</Name>
+      </Flub>
+      <Flub>
+        <Name>Eroded Mountains</Name>
+      </Flub>
+    </Flubs>
+  </Flub>
+  <Flub>
+    <Name>Scale</Name>
+    <Description>The scale of the octave noise.</Description>
+  </Flub>
+  <Flub>
+    <Name>Erosion</Name>
+    <Description>The amount of pseudo-erosion added to the shape.</Description>
+  </Flub>
+  <Flub>
+    <Name>Seed</Name>
+    <Description>The randomization pattern or seed for the node's process.</Description>
+  </Flub>
+</ArrayOfFlub>

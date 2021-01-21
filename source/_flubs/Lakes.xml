@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<ArrayOfFlub xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Flub>
+    <Name>Lake Formation</Name>
+    <Description>T</Description>
+  </Flub>
+  <Flub>
+    <Name>Precipitation</Name>
+    <Description>The amount of rainfall that should occur in the precipitation simulation.</Description>
+  </Flub>
+  <Flub>
+    <Name>Small Lakes</Name>
+    <Description>Favor or discourage smaller lake bodies. Allowing smaller lakes can be useful for creating swampy environments or puddles.</Description>
+  </Flub>
+  <Flub>
+    <Name>Flood Control</Name>
+    <Description>Flood the terrain with a minimum amount of water, in addition to the Precipitation.</Description>
+  </Flub>
+  <Flub>
+    <Name>Water Floor</Name>
+    <Description>The altitude to which water is flooded with Flood Control. You can enter a precise height such as `500m` by right-clicking.</Description>
+  </Flub>
+  <Flub>
+    <Name>Shore Formation</Name>
+    <Description>T</Description>
+  </Flub>
+  <Flub>
+    <Name>Shore Size</Name>
+    <Description>The size of the shore surrounding all water bodies created by the node.</Description>
+  </Flub>
+  <Flub>
+    <Name>Altitude Bias</Name>
+    <Description>Bias the altitude of the shoreline.</Description>
+  </Flub>
+  <Flub>
+    <Name>Size Bias</Name>
+    <Description>Bias the size of the shoreline.</Description>
+  </Flub>
+</ArrayOfFlub>

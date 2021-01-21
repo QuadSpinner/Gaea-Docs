@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<ArrayOfFlub xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Flub>
+    <Name>Min</Name>
+    <Description>The minimum altitude.</Description>
+  </Flub>
+  <Flub>
+    <Name>Max</Name>
+    <Description>The maximum altitude.</Description>
+  </Flub>
+  <Flub>
+    <Name>Operation</Name>
+    <Flubs>
+      <Flub>
+        <Name>Clamp</Name>
+        <Description>The terrain is proportionally reduced in height.</Description>
+      </Flub>
+      <Flub>
+        <Name>Clip</Name>
+        <Description>The terrain is clipped beyond the extents provided.</Description>
+      </Flub>
+      <Flub>
+        <Name>Extend</Name>
+        <Description>The terrain is sharply extended beyond the extents provided.</Description>
+      </Flub>
+    </Flubs>
+  </Flub>
+  <Flub>
+    <Name>Drop to Floor</Name>
+    <Description>Remove any excess height from the bottom of the terrain droppin the terrain to the floor.</Description>
+  </Flub>
+</ArrayOfFlub>

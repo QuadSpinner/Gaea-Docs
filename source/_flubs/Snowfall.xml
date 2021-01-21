@@ -1,0 +1,92 @@
+<?xml version="1.0"?>
+<ArrayOfFlub xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Flub>
+    <Name>Snowfall</Name>
+    <Description>T</Description>
+  </Flub>
+  <Flub>
+    <Name>Duration</Name>
+    <Description>Duration of snowfall.</Description>
+  </Flub>
+  <Flub>
+    <Name>Intensity</Name>
+    <Description>Intensity of snowfall.</Description>
+  </Flub>
+  <Flub>
+    <Name>Settle-Thaw</Name>
+    <Description>Rate of settling and thawing.</Description>
+  </Flub>
+  <Flub>
+    <Name>Melt</Name>
+    <Description>Rate of melting.</Description>
+  </Flub>
+  <Flub>
+    <Name>Snow line</Name>
+    <Description>Altitude at which snowfall stops.</Description>
+  </Flub>
+  <Flub>
+    <Name>Scale</Name>
+    <Description>T</Description>
+  </Flub>
+  <Flub>
+    <Name>Real Scale</Name>
+    <Description>Use the scale defined in the terrain. Disable to access addtional options and modify the snow's physics.</Description>
+  </Flub>
+  <Flub>
+    <Name>Terrain Scale</Name>
+    <Description>Scale of the terrain.</Description>
+  </Flub>
+  <Flub>
+    <Name>Verticality</Name>
+    <Description>Height of the terrain.</Description>
+  </Flub>
+  <Flub>
+    <Name>Advanced</Name>
+    <Description>T</Description>
+  </Flub>
+  <Flub>
+    <Name>Slip-off angle</Name>
+    <Description>Angle at which snow will stick to the surface.</Description>
+  </Flub>
+  <Flub>
+    <Name>Adhered snow mass</Name>
+    <Description>Mass of snow that sticks to the surface.</Description>
+  </Flub>
+  <Flub>
+    <Name>Model scale</Name>
+    <Description>TODO</Description>
+  </Flub>
+  <Flub>
+    <Name>Snow output</Name>
+    <Flubs>
+      <Flub>
+        <Name>Depth</Name>
+        <Description>Depth of the deposited snow.</Description>
+      </Flub>
+      <Flub>
+        <Name>Soft Mask</Name>
+        <Description>Mask of the snow coverage with soft falloff.</Description>
+      </Flub>
+      <Flub>
+        <Name>Hard Mask</Name>
+        <Description>Mask of the snow coverage with hard, precise edges.</Description>
+      </Flub>
+    </Flubs>
+  </Flub>
+  <Flub>
+    <Name>Use Snowfall mask</Name>
+    <Description>Use incoming snowfall mask, if plugged into the Snowfall port.</Description>
+  </Flub>
+  <Flub>
+    <Name>Use Melt mask</Name>
+    <Description>Use incoming melt mask, if plugged into the Melt port.</Description>
+  </Flub>
+  <Flub>
+    <Name>Prefer old style</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
+    <Name>Seed</Name>
+    <Description>The randomization pattern or seed for the node's process.</Description>
+  </Flub>
+</ArrayOfFlub>

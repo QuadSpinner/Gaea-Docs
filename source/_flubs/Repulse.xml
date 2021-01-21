@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<ArrayOfFlub xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Flub>
+    <Name>Amount</Name>
+    <Description>The amount of repulse. Negative values create an outward push; positive values create an inward pull.</Description>
+  </Flub>
+  <Flub>
+    <Name>Scale</Name>
+    <Description>The size of the effect.</Description>
+  </Flub>
+  <Flub>
+    <Name>X</Name>
+  </Flub>
+  <Flub>
+    <Name>Y</Name>
+  </Flub>
+</ArrayOfFlub>

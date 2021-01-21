@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<ArrayOfFlub xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Flub>
+    <Name>Type</Name>
+    <Flubs>
+      <Flub>
+        <Name>Random</Name>
+        <Description>Creates equal variety of heights.</Description>
+      </Flub>
+      <Flub>
+        <Name>Gaussian</Name>
+        <Description>Creates mostly high noise with fewer dips.</Description>
+      </Flub>
+      <Flub>
+        <Name>Poisson</Name>
+        <Description>Similar to Guassian but with deeper dips.</Description>
+      </Flub>
+      <Flub>
+        <Name>Impulse</Name>
+        <Description>Almost flat with few sharp dips.</Description>
+      </Flub>
+      <Flub>
+        <Name>Uniform</Name>
+        <Description>Very flat with lots of low dips.</Description>
+      </Flub>
+    </Flubs>
+  </Flub>
+  <Flub>
+    <Name>Seed</Name>
+    <Description>The randomization pattern or seed for the node's process.</Description>
+  </Flub>
+</ArrayOfFlub>

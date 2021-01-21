@@ -7,14 +7,14 @@ Anastomosis creates interconnected water flow based downcutting, ranging from sm
 
 Before and after Anastomosis.
 
-![](/images/ref/Anastomosis/Anastomosis--1.png){.w-50}
+![](/images/ref/Anastomosis/Anastomosis--1.png){.ui .img .medium}
 
-![](/images/ref/Anastomosis/Anastomosis--2.png){.w-50}
+![](/images/ref/Anastomosis/Anastomosis--2.png){.ui .img .medium}
 
 Using high Impact and Influence values in Destructive mode.
 
-![](/images/ref/Anastomosis/Anastomosis--HighImpact-Influence.png){.w-50}
+![](/images/ref/Anastomosis/Anastomosis--HighImpact-Influence.png){.ui .img .medium}
 
 Using a high Impact value in Rivers mode.
 
-![](/images/ref/Anastomosis/Anastomosis--RiversImpact.png){.w-50}
+![](/images/ref/Anastomosis/Anastomosis--RiversImpact.png){.ui .img .medium}

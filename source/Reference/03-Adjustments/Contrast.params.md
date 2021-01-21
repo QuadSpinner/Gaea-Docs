@@ -2,7 +2,7 @@
 
 | Setting      | Description           |
 | :----------- | :-------------------- |
-| **Type**     | Lorem ipsum           |
-|              | *Local* Lorem ipsum   |
-|              | *Sigmoid* Lorem ipsum |
-| **Strength** | Lorem ipsum           |
+| Type     | Lorem ipsum           |
+|              | Local Lorem ipsum   |
+|              | Sigmoid Lorem ipsum |
+| Strength | Lorem ipsum           |

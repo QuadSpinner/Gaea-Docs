@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<ArrayOfFlub xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Flub>
+    <Name>Auto-Gamma</Name>
+    <Description>Automatically choose a gamma value based on the input terrain or mask.</Description>
+  </Flub>
+  <Flub>
+    <Name>Gamma</Name>
+    <Description>The Gamma range is 0.0 to 2.5, with 1.0 being neutral or the original incoming gamma.</Description>
+  </Flub>
+  <Flub>
+    <Name>Parallel Processing</Name>
+    <Description>T</Description>
+  </Flub>
+  <Flub>
+    <Name>Enable Parallel Processing</Name>
+  </Flub>
+  <Flub>
+    <Name>Chunk Size</Name>
+    <Flubs>
+      <Flub>
+        <Name>128</Name>
+      </Flub>
+      <Flub>
+        <Name>256</Name>
+      </Flub>
+      <Flub>
+        <Name>512</Name>
+      </Flub>
+      <Flub>
+        <Name>1024</Name>
+      </Flub>
+      <Flub>
+        <Name>2048</Name>
+      </Flub>
+    </Flubs>
+  </Flub>
+  <Flub>
+    <Name>Edge Blending</Name>
+    <Flubs>
+      <Flub>
+        <Name>10%</Name>
+      </Flub>
+      <Flub>
+        <Name>12%</Name>
+      </Flub>
+      <Flub>
+        <Name>25%</Name>
+      </Flub>
+      <Flub>
+        <Name>50%</Name>
+      </Flub>
+      <Flub>
+        <Name>75%</Name>
+      </Flub>
+      <Flub>
+        <Name>100%</Name>
+      </Flub>
+    </Flubs>
+  </Flub>
+</ArrayOfFlub>

@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<ArrayOfFlub xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Flub>
+    <Name>QuickColor</Name>
+    <Description>T</Description>
+  </Flub>
+  <Flub>
+    <Name>Color</Name>
+    <Description>TODO</Description>
+  </Flub>
+  <Flub>
+    <Name>Color2</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
+    <Name>Pre-Process</Name>
+    <Description>T</Description>
+  </Flub>
+  <Flub>
+    <Name>Input Noise</Name>
+    <Description>TODO</Description>
+  </Flub>
+  <Flub>
+    <Name>Input Clarity</Name>
+    <Description>TODO</Description>
+  </Flub>
+  <Flub>
+    <Name>Input Auto Level</Name>
+    <Description>TODO</Description>
+  </Flub>
+  <Flub>
+    <Name>Reverse</Name>
+    <Description>TODO</Description>
+  </Flub>
+  <Flub>
+    <Name>Post-Process</Name>
+    <Description>T</Description>
+  </Flub>
+  <Flub>
+    <Name>Color Noise</Name>
+    <Description>TODO</Description>
+  </Flub>
+  <Flub>
+    <Name>Output Clarity</Name>
+    <Description>TODO</Description>
+  </Flub>
+  <Flub>
+    <Name>Output Auto Level</Name>
+    <Description>TODO</Description>
+  </Flub>
+</ArrayOfFlub>

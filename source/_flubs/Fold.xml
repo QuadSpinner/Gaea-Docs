@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<ArrayOfFlub xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Flub>
+    <Name>Scale</Name>
+    <Description>Scale of the transformation. Smaller scale creates more detail.</Description>
+  </Flub>
+  <Flub>
+    <Name>Rift</Name>
+    <Description>Creates one or more rifts in the main rock body.</Description>
+  </Flub>
+  <Flub>
+    <Name>Folding</Name>
+    <Description>How strongly the terrain should fold upon itself. Use sparingly!</Description>
+  </Flub>
+  <Flub>
+    <Name>Midpoint</Name>
+    <Description>Placement of the folding bias.</Description>
+  </Flub>
+  <Flub>
+    <Name>Range</Name>
+    <Description>Range of the folding bias.</Description>
+  </Flub>
+  <Flub>
+    <Name>Angle</Name>
+    <Description>Direction of the folding forces.</Description>
+  </Flub>
+  <Flub>
+    <Name>Elevate</Name>
+    <Description>Increase vertical folding pressure.</Description>
+  </Flub>
+  <Flub>
+    <Name>Seed</Name>
+    <Description>The randomization pattern or seed for the node's process.</Description>
+  </Flub>
+</ArrayOfFlub>

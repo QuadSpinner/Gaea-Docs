@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<ArrayOfFlub xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Flub>
+    <Name>Direction</Name>
+    <Flubs>
+      <Flub>
+        <Name>Horizontal</Name>
+        <Description>Flips the terrain horizontally.</Description>
+      </Flub>
+      <Flub>
+        <Name>Vertical</Name>
+        <Description>Flips the terrain vertically.</Description>
+      </Flub>
+      <Flub>
+        <Name>Both</Name>
+        <Description>Flips the terrain both horizontally and vertically.</Description>
+      </Flub>
+    </Flubs>
+  </Flub>
+</ArrayOfFlub>

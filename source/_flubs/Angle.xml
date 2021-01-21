@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<ArrayOfFlub xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Flub>
+    <Name>Azimuth</Name>
+    <Description>The direction from which to start the selection.</Description>
+  </Flub>
+  <Flub>
+    <Name>Min</Name>
+    <Description>The minimum angle of the selection.</Description>
+  </Flub>
+  <Flub>
+    <Name>Max</Name>
+    <Description>The maximum angle of the selection.</Description>
+  </Flub>
+  <Flub>
+    <Name>Falloff</Name>
+    <Description>The soft falloff at the maximum angle.</Description>
+  </Flub>
+</ArrayOfFlub>

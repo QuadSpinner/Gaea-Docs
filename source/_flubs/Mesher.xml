@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<ArrayOfFlub xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Flub>
+    <Name>Save to Build Folder</Name>
+    <Description>TODO</Description>
+  </Flub>
+  <Flub>
+    <Name>File</Name>
+    <Description>TODO</Description>
+  </Flub>
+  <Flub>
+    <Name>Format</Name>
+    <Flubs>
+      <Flub>
+        <Name>Wavefront OBJ</Name>
+      </Flub>
+      <Flub>
+        <Name>XYZ Point Cloud</Name>
+      </Flub>
+      <Flub>
+        <Name>Autodesk FBX</Name>
+      </Flub>
+    </Flubs>
+  </Flub>
+  <Flub>
+    <Name>Scale</Name>
+    <Description>TODO</Description>
+    <Flubs>
+      <Flub>
+        <Name>Normalized (0.0 - 1.0)</Name>
+      </Flub>
+      <Flub>
+        <Name>1 Unit = 1 Meter</Name>
+      </Flub>
+      <Flub>
+        <Name>1 Unit = 1 Kilometer</Name>
+      </Flub>
+    </Flubs>
+  </Flub>
+  <Flub>
+    <Name>Vertex Count</Name>
+    <Description>TODO</Description>
+  </Flub>
+  <Flub>
+    <Name>Force Quads</Name>
+    <Description>TODO</Description>
+  </Flub>
+  <Flub>
+    <Name>Create Walls</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
+    <Name>LOD</Name>
+    <Flubs>
+      <Flub>
+        <Name>None</Name>
+      </Flub>
+      <Flub>
+        <Name>LOD 1</Name>
+      </Flub>
+      <Flub>
+        <Name>LOD 2</Name>
+      </Flub>
+      <Flub>
+        <Name>LOD 3</Name>
+      </Flub>
+      <Flub>
+        <Name>LOD 4</Name>
+      </Flub>
+    </Flubs>
+  </Flub>
+</ArrayOfFlub>

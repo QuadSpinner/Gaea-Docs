@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<ArrayOfFlub xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Flub>
+    <Name>Method</Name>
+    <Flubs>
+      <Flub>
+        <Name>Blend</Name>
+        <Description>Blends the values of the two inputs.</Description>
+      </Flub>
+      <Flub>
+        <Name>Add</Name>
+        <Description>Adds Input2 to Input1.</Description>
+      </Flub>
+      <Flub>
+        <Name>Screen</Name>
+        <Description>Adds Input2 to Input1 without overexposing the output.</Description>
+      </Flub>
+      <Flub>
+        <Name>Subtract</Name>
+        <Description>Subtracts Input2 from Input1.</Description>
+      </Flub>
+      <Flub>
+        <Name>Multiply</Name>
+        <Description>Multiplies Input1 by Input2.</Description>
+      </Flub>
+      <Flub>
+        <Name>Divide</Name>
+        <Description>Divides Input1 by Input2.</Description>
+      </Flub>
+      <Flub>
+        <Name>Max</Name>
+        <Description>Selects the higher of the two inputs.</Description>
+      </Flub>
+      <Flub>
+        <Name>Min</Name>
+        <Description>Selects the lower of the two inputs.</Description>
+      </Flub>
+      <Flub>
+        <Name>SqRt</Name>
+        <Description>The square root of the two combined terrains.</Description>
+      </Flub>
+      <Flub>
+        <Name>Power</Name>
+        <Description>Uses Input2 to create exponents of Input1.</Description>
+      </Flub>
+      <Flub>
+        <Name>Difference</Name>
+        <Description>Creates the difference of the two inputs.</Description>
+      </Flub>
+    </Flubs>
+  </Flub>
+  <Flub>
+    <Name>Uniform</Name>
+    <Description>Treat all inputs equally.</Description>
+  </Flub>
+  <Flub>
+    <Name>Ratio</Name>
+  </Flub>
+  <Flub>
+    <Name>Ratio 1</Name>
+  </Flub>
+  <Flub>
+    <Name>Ratio 2</Name>
+  </Flub>
+  <Flub>
+    <Name>Ratio 3</Name>
+  </Flub>
+  <Flub>
+    <Name>Ratio 4</Name>
+  </Flub>
+  <Flub>
+    <Name>Ratio 5</Name>
+  </Flub>
+  <Flub>
+    <Name>Ratio 6</Name>
+  </Flub>
+  <Flub>
+    <Name>Ratio 7</Name>
+  </Flub>
+  <Flub>
+    <Name>Ratio 8</Name>
+  </Flub>
+  <Flub>
+    <Name>Ratio 9</Name>
+  </Flub>
+</ArrayOfFlub>

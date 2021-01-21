@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<ArrayOfFlub xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Flub>
+    <Name>Pre-Process</Name>
+    <Description>T</Description>
+  </Flub>
+  <Flub>
+    <Name>Input Noise</Name>
+    <Description>Introduces noise to the incoming grayscale map.</Description>
+  </Flub>
+  <Flub>
+    <Name>Input Clarity</Name>
+    <Description>Applies localized contrast enhancements to the incoming map.</Description>
+  </Flub>
+  <Flub>
+    <Name>Input Auto Level</Name>
+    <Description>Applies an autolevels filter to the incoming map.</Description>
+  </Flub>
+  <Flub>
+    <Name>Reverse</Name>
+    <Description>Reverses the mapping of the gradient.</Description>
+  </Flub>
+  <Flub>
+    <Name>Sample Density</Name>
+    <Description>The number of samples to use for interpolation between colors. Higher values give smoother gradients (within reason).</Description>
+    <Flubs>
+      <Flub>
+        <Name>256 (Fast)</Name>
+      </Flub>
+      <Flub>
+        <Name>512 (Slower)</Name>
+      </Flub>
+      <Flub>
+        <Name>1024 (Very Slow)</Name>
+      </Flub>
+      <Flub>
+        <Name>2048 (Overkill)</Name>
+      </Flub>
+    </Flubs>
+  </Flub>
+  <Flub>
+    <Name>Post-Process</Name>
+    <Description>T</Description>
+  </Flub>
+  <Flub>
+    <Name>Color Noise</Name>
+    <Description>Introduces minor color distortions to the map.</Description>
+  </Flub>
+  <Flub>
+    <Name>Output Clarity</Name>
+    <Description>Applies localized contrast enhancements to the output texture.</Description>
+  </Flub>
+  <Flub>
+    <Name>Output Auto Level</Name>
+    <Description>Applies an autolevels filter to the output texture.</Description>
+  </Flub>
+  <Flub>
+    <Name>Data</Name>
+  </Flub>
+</ArrayOfFlub>

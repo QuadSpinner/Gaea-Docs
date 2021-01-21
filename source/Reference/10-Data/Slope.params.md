@@ -1,5 +1,5 @@
 | Setting     | Description |
 | :---------- | :---------- |
-| **Min**     | TODO        |
-| **Max**     | TODO        |
-| **Falloff** | TODO        |
+| Min     | TODO        |
+| Max     | TODO        |
+| Falloff | TODO        |

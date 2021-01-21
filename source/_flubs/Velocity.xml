@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<ArrayOfFlub xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Flub>
+    <Name>Duration</Name>
+    <Description>TODO</Description>
+  </Flub>
+  <Flub>
+    <Name>Rain</Name>
+    <Description>TODO</Description>
+  </Flub>
+  <Flub>
+    <Name>Reach Low</Name>
+    <Description>TODO</Description>
+  </Flub>
+  <Flub>
+    <Name>Reach High</Name>
+    <Description>TODO</Description>
+  </Flub>
+  <Flub>
+    <Name>Velocity Low</Name>
+    <Description>TODO</Description>
+  </Flub>
+  <Flub>
+    <Name>Velocity High</Name>
+    <Description>TODO</Description>
+  </Flub>
+  <Flub>
+    <Name>Angle</Name>
+    <Description>TODO</Description>
+  </Flub>
+</ArrayOfFlub>

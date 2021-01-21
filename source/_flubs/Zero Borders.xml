@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<ArrayOfFlub xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Flub>
+    <Name>Zero Borders</Name>
+    <Description>T</Description>
+  </Flub>
+  <Flub>
+    <Name>Mode</Name>
+    <Flubs>
+      <Flub>
+        <Name>Round</Name>
+      </Flub>
+      <Flub>
+        <Name>Square</Name>
+      </Flub>
+      <Flub>
+        <Name>Precise</Name>
+      </Flub>
+    </Flubs>
+  </Flub>
+  <Flub>
+    <Name>Margin</Name>
+    <Description>Available when Square mode is selected</Description>
+  </Flub>
+  <Flub>
+    <Name>Falloff</Name>
+    <Description>Available when Auto is turned Off</Description>
+  </Flub>
+  <Flub>
+    <Name>Auto</Name>
+  </Flub>
+  <Flub>
+    <Name>Blur</Name>
+    <Description>T</Description>
+  </Flub>
+  <Flub>
+    <Name>Power</Name>
+    <Description>The amount of blur to be applied</Description>
+  </Flub>
+  <Flub>
+    <Name>Iterations</Name>
+    <Description>Iterations of blur to be applied</Description>
+  </Flub>
+</ArrayOfFlub>

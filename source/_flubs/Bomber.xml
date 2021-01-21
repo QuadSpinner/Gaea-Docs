@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+<ArrayOfFlub xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Flub>
+    <Name>Bombing</Name>
+    <Description>T</Description>
+  </Flub>
+  <Flub>
+    <Name>Distribution</Name>
+    <Description>The method of distribution</Description>
+    <Flubs>
+      <Flub>
+        <Name>Random</Name>
+        <Description>A randomized distribution that results in pure chaotic patterns.</Description>
+      </Flub>
+      <Flub>
+        <Name>Poisson</Name>
+        <Description>A discrete probability distribution function that results in a natural distribution.</Description>
+      </Flub>
+      <Flub>
+        <Name>Grid</Name>
+        <Description>A normalized grid distribution function that results in a systematic pattern.</Description>
+      </Flub>
+    </Flubs>
+  </Flub>
+  <Flub>
+    <Name>Clusters</Name>
+    <Description>The number of independent distribution clusters.</Description>
+  </Flub>
+  <Flub>
+    <Name>Density</Name>
+    <Description>The density of the independent clusters, and the instances within each cluster.</Description>
+  </Flub>
+  <Flub>
+    <Name>Variations</Name>
+    <Description>The number of variations to create. These variations will then be randomly repeated on the surface. Higher numbers take longer to process but creates more varied results.</Description>
+  </Flub>
+  <Flub>
+    <Name>Jitter</Name>
+    <Description>The random offset applied to each instance while distributing.</Description>
+  </Flub>
+  <Flub>
+    <Name>Blend Mode</Name>
+    <Description>How the base terrain and bombed instances are merged.</Description>
+    <Flubs>
+      <Flub>
+        <Name>Add</Name>
+        <Description>Adds the two values together.</Description>
+      </Flub>
+      <Flub>
+        <Name>Screen</Name>
+        <Description>Adds the two inputs without overexposing the output.</Description>
+      </Flub>
+      <Flub>
+        <Name>Max</Name>
+        <Description>Selects the higher of the two.</Description>
+      </Flub>
+      <Flub>
+        <Name>Difference</Name>
+        <Description> Creates the difference of the two inputs.</Description>
+      </Flub>
+    </Flubs>
+  </Flub>
+  <Flub>
+    <Name>Variations</Name>
+    <Description>T</Description>
+  </Flub>
+  <Flub>
+    <Name>Strength</Name>
+    <Description>The minimum contribution level in overlapping instances.</Description>
+  </Flub>
+  <Flub>
+    <Name>Strength Max</Name>
+    <Description>The maximum contribution level in overlapping instances.</Description>
+  </Flub>
+  <Flub>
+    <Name>Proportional</Name>
+    <Description>Enforce proportional scaling, or allow non-proportional modifications.</Description>
+  </Flub>
+  <Flub>
+    <Name>Minimum Scale</Name>
+    <Description>The smallest randomized instance size.</Description>
+  </Flub>
+  <Flub>
+    <Name>Maximum Scale</Name>
+    <Description>The largest randomized instance size.</Description>
+  </Flub>
+  <Flub>
+    <Name>Minimum Rotation</Name>
+    <Description>The minimum randomized rotation angle.</Description>
+  </Flub>
+  <Flub>
+    <Name>Maximum Rotation</Name>
+    <Description>The maximum randomized rotation angle.</Description>
+  </Flub>
+  <Flub>
+    <Name>Seed</Name>
+    <Description>The randomization pattern or seed for the node's process.</Description>
+  </Flub>
+</ArrayOfFlub>

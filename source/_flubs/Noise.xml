@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<ArrayOfFlub xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Flub>
+    <Name>Strength</Name>
+  </Flub>
+  <Flub>
+    <Name>Iterations</Name>
+  </Flub>
+  <Flub>
+    <Name>Method</Name>
+    <Flubs>
+      <Flub>
+        <Name>Random</Name>
+        <Description>Random dots.</Description>
+      </Flub>
+      <Flub>
+        <Name>Gaussian</Name>
+        <Description>Softer clustering.</Description>
+      </Flub>
+      <Flub>
+        <Name>Poisson</Name>
+        <Description>Wide, distributed clusters.</Description>
+      </Flub>
+      <Flub>
+        <Name>Impulse</Name>
+        <Description>Sharp, strong spikes.</Description>
+      </Flub>
+      <Flub>
+        <Name>Laplacian</Name>
+        <Description>Sharp, low density clusters.</Description>
+      </Flub>
+    </Flubs>
+  </Flub>
+  <Flub>
+    <Name>Seed</Name>
+    <Description>The randomization pattern or seed for the node's process.</Description>
+  </Flub>
+</ArrayOfFlub>

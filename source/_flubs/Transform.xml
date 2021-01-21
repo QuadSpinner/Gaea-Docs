@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<ArrayOfFlub xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Flub>
+    <Name>Scale</Name>
+    <Description>T</Description>
+  </Flub>
+  <Flub>
+    <Name>Uniform</Name>
+    <Description>TODO</Description>
+  </Flub>
+  <Flub>
+    <Name>Scale</Name>
+    <Description>The size of the terrain.</Description>
+  </Flub>
+  <Flub>
+    <Name>Scale X</Name>
+    <Description>TODO</Description>
+  </Flub>
+  <Flub>
+    <Name>Scale Y</Name>
+    <Description>TODO</Description>
+  </Flub>
+  <Flub>
+    <Name>Unfiltered</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
+    <Name>Fill Edges</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
+    <Name>Rotation</Name>
+    <Description>T</Description>
+  </Flub>
+  <Flub>
+    <Name>Angle</Name>
+    <Description>The angle of rotation of the terrain.</Description>
+  </Flub>
+  <Flub>
+    <Name>Mirror Edges</Name>
+    <Description>TODO</Description>
+  </Flub>
+  <Flub>
+    <Name>Position</Name>
+    <Description>T</Description>
+  </Flub>
+  <Flub>
+    <Name>X</Name>
+    <Description>The location of the terrain.</Description>
+  </Flub>
+  <Flub>
+    <Name>Y</Name>
+    <Description>The location of the terrain.</Description>
+  </Flub>
+</ArrayOfFlub>

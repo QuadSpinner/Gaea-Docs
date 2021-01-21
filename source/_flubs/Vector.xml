@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<ArrayOfFlub xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Flub>
+    <Name>Vector</Name>
+  </Flub>
+  <Flub>
+    <Name>Peak</Name>
+  </Flub>
+  <Flub>
+    <Name>Distort</Name>
+  </Flub>
+  <Flub>
+    <Name>Distort Amount</Name>
+  </Flub>
+  <Flub>
+    <Name>Smooth</Name>
+  </Flub>
+  <Flub>
+    <Name>Invert</Name>
+  </Flub>
+</ArrayOfFlub>
