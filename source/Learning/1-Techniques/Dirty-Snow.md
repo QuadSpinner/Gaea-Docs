@@ -13,7 +13,7 @@ For ensuring the snow collects in smaller clumps and a bit of rock is exposed in
 
 This creates a non-flowing distribution, keeping the snow high up in the mountain while still letting its physics simulation work long enough to force the snow into crevices and expose sharp bits of the underlying terrain.
 
-![](/images/ref/Snowfall/SnowA.webp){.w-100}
+![](/images/ref/Snowfall/SnowA.webp)
 
 For the second pass, we focus on the flowing snow. While overlap between the first and second pass is fine, we want to ensure as little of it as possible otherwise we lose the "dirtiness" of the snow.
 
@@ -21,8 +21,8 @@ We use a low `Intensity` of `6%`{.val}, a low `Settle-Thaw` of `2.5%`{.val}, and
 
 This snow is now forced to the flow areas (often defined by previous erosion passes), whereas the previous pass focused on "resting" snow.
 
-![](/images/ref/Snowfall/SnowB.webp){.w-100}
+![](/images/ref/Snowfall/SnowB.webp)
 
 Finally, we take the two nodes' secondary Snow output mask and use @Combine at `100%`{.val} `Max` mode to merge the masks for use in our texture map creation. 
 
-![](/images/ref/Snowfall/SnowC.webp){.w-100}
+![](/images/ref/Snowfall/SnowC.webp)

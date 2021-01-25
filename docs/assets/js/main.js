@@ -21,22 +21,15 @@
 //    changeStyle();
 //}
 $(document).ready(function () {
-    //$('#cb1').on('click', function () { setStyle(); });
-    //$("#small-nav-dropdown").change(function () {
-    //    if ($(this).val() != '') { window.location.href = $(this).val(); }
-    //});
-    // $("video").parent().addClass("video-holder");
-
-    //$(".top-nav").each(function () {
-    //    if (window.location.href.indexOf($(this).attr("href")) > -1) {
-    //        $(this).parent().addClass("active");
-    //    }
-    //});
 
     if ($("body").data("hive") !== "") {
         $(".crumbs").append('<a class="section" href="/">Gaea Docs</a>');
         $(".crumbs").append('<div class="divider"> / </div>');
-        $(".crumbs").append('<a class="section" href="/' + $("body").data("hivehref") + '">' + $("body").data("hive") + '</a>');
+        $(".crumbs").append('<a class="section" href="/' +
+            $("body").data("hivehref") +
+            '">' +
+            $("body").data("hive") +
+            '</a>');
         $(".crumbs").append('<div class="divider"> / </div>');
 
         if ($("body").data("parent") !== "") {
@@ -48,23 +41,23 @@ $(document).ready(function () {
 
     if ($("body").data("hivehref") !== "") {
         var goto;
-        $("#main-nav").load("/navs/" + $("body").data("hivehref") + "-n.html", function (responseTxt, statusTxt) {
-            if (statusTxt === "success") {
+        $("#main-nav").load("/navs/" + $("body").data("hivehref") + "-n.html",
+            function (responseTxt, statusTxt) {
+                if (statusTxt === "success") {
 
-                $("a.item").each(function () {
-                    if (window.location.href.indexOf($(this).attr("href")) > -1) {
+                    $("a.item").each(function () {
+                        if (window.location.href.indexOf($(this).attr("href")) > -1) {
 
-                        goto = $(this);
-                        $(this).addClass("active");
-                        $(this).parent().addClass("active");
-                        $("#main-nav").scrollTop($(this).offset().top - 80);
+                            goto = $(this);
+                            $(this).addClass("active");
+                            $(this).parent().addClass("active");
+                            $("#main-nav").scrollTop($(this).offset().top - 80);
 
-                    }
-                });
-                //$("#main-nav").overlayScrollbars({ className: 'os-theme-light' }).scroll({ y: goto.position().top });
+                        }
+                    });
 
-            }
-        });
+                }
+            });
 
         $("#toc").load("/navs/" + $("body").data("hivehref") + "-n.html");
     }
@@ -72,22 +65,42 @@ $(document).ready(function () {
     $(".article .main h2").addClass("ui dividing header");
     $(".article .main h2").first().removeClass("dividing");
     $(".article .main .example h4").addClass("ui header");
-    // $(".article .main img").addClass("ui fluid image");
+
+    $(".article .main img").each(function() {
+        if (!$(this).hasClass("ui")) {
+            $(this).addClass("ui image fluid");
+        }
+    });
+
     $(".NOTE").each(function () {
         var $html = $(this).html();
-        $(this).replaceWith("<div class='ui message yellow small'><span class='ui label horizontal mini yellow'>NOTE</span>" + $html + "</div>");
+        $(this).replaceWith(
+            "<div class='ui message yellow small'><span class='ui label horizontal mini yellow'>NOTE</span>" +
+            $html +
+            "</div>");
     });
+
     $(".WARNING").each(function () {
         var $html = $(this).html();
-        $(this).replaceWith("<div class='ui message red small'><span class='ui horizontal label mini red'>WARNING</span>" + $html + "</div>");
+        $(this).replaceWith(
+            "<div class='ui message red small'><span class='ui horizontal label mini red'>WARNING</span>" +
+            $html +
+            "</div>");
     });
+
     $(".TIP").each(function () {
         var $html = $(this).html();
-        $(this).replaceWith("<div class='ui message blue small'><span class='ui horizontal label mini blue'>TIP</span>" + $html + "</div>");
+        $(this).replaceWith(
+            "<div class='ui message blue small'><span class='ui horizontal label mini blue'>TIP</span>" +
+            $html +
+            "</div>");
     });
+
     $(".INFO").each(function () {
         var $html = $(this).html();
-        $(this).replaceWith("<div class='ui message teal small'><span class='ui horizontal label mini teal'>INFO</span>" + $html + "</div>");
+        $(this).replaceWith(
+            "<div class='ui message teal small'><span class='ui horizontal label mini teal'>INFO</span>" +
+            $html +
+            "</div>");
     });
 });
-//changeStyle();

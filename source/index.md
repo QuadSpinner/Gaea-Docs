@@ -3,59 +3,63 @@ uid: home
 title: Gaea Documentation
 show: no
 ---
-<br />
+
 
 The documentation is organized to help you get started with Gaea quickly and easily regardless of your skill level.
 
-![](/images/splash-1.webp)
+![](/images/splash-1.webp){.ui .image .fluid}
 
-<br />
+## Organization
 
-{.TIP}
-> Use the Light/Dark switch at the bottom to change the visual style of the documentation. Dark mode may be easier on the eyes at night.
-
-<br />
-
-<div class="home">
-
-![](/images/icon-guide.png){.force-left}
-## [User Guide](/Guide/index.html)
+#### User Guide
 
 Learn about Gaea, its different concepts, getting around the interface, and how to create and export terrains.
 
+Go to the [User Guide](/Guide/index.html).
+
 Frequently visited: 
-  @installing
-| @getting-around | @first-terrain | @graph | @lookdev | @portals | @scale | @watson 
 
-<br />
-<br />
+- @installing
+- @getting-around 
+- @first-terrain 
+- @graph 
+- @lookdev
+- @portals
+- @scale 
+- @watson 
 
-![](/images/icon-help.png){.force-left}
-## [Node Reference](/Reference/index.html)
+#### Node Reference
 
 The Node Reference provides detailed information on each node and sculpting tool.
 
+Go to the [Node Reference](/Reference/index.html).
+
 Frequently visited: 
- @Erosion
-| @Snowfall
-| @Stacks
-| @SatMaps
-| @Mesher
+- @Erosion
+- @Snowfall
+- @Stacks
+- @SatMaps
+- @Mesher
 
-<br />
-<br />
+#### Tutorials
 
-![](/images/icon-kb.png){.force-left}  
-## [Knowledge Base](/KB/index.html)
+Learn the art of procedural terrain creation with these comprehensive techniques and tutorials.
+
+Go to the [Tutorials](/Learning/index.html)
+
+Frequently visited:
+- @tut-create
+- @tut-color
+- @tut-hero-mountain
+- @tut-shattered-mountain-lake
+
+#### Knowledge Base
 
 You can find answers to the most common questions and scenarios.
 
+Go to the [Knowledge Base](/KB/index.html).
+
 Frequently visited: 
- @faq-purchasing
-| @faq-running
-| @faq-licensing
-
-<br />
-<br />
-
-</div>
+- @faq-purchasing
+- @faq-running
+- @faq-licensing

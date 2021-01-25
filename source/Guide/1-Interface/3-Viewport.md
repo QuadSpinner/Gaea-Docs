@@ -9,7 +9,7 @@ Gaea’s viewport harnesses the powerful Unity engine, and has been deeply custo
 
 ## 3D Viewport
 
-![](/images/ui/viewport-3D-settings.webp){.w-100}
+![](/images/ui/viewport-3D-settings.webp)
 
 - `Alt` and `Mouse Left` to drag. Can be customized in @preferences.
 - `W`,`A`,`S`,`D` for directional movement.
@@ -55,13 +55,13 @@ The 2D view is available directly in the main window alongside the 3D view when 
 
 The 2D mode lets you see an orthographic view of the terrain. Additionally, you can right-click the viewport to select secondary outputs if a node provides them. For example, you can see the @Erosion node's wear or flow output without having to plug it into another node.
 
-![](/images/ui/viewport-2D-ports.webp){.w-100}
+![](/images/ui/viewport-2D-ports.webp)
 
 By default, the secondary output will be overlaid on the terrain. You can turn off the 3D Shading in the toolbar to see the mask by itself.
 
 ## Plain / Autolevel View
 
-![](/images/ui/viewport-2D-plain.webp){.w-100}
+![](/images/ui/viewport-2D-plain.webp)
 
 This mode shows a basic heightfield with minimal lighting. 2D maps are shown in grayscale, with black representing lower areas and white representing higher areas. This is a great way to examine your terrain from an unbiased perspective, especially when dealing with 2D data; such as data map outputs, secondary output from erosion, and so on. 
 
@@ -71,7 +71,7 @@ This mode shows a basic heightfield with minimal lighting. 2D maps are shown in 
 
 ## Equalized Mode
 
-![](/images/ui/viewport-2D-eq.webp){.w-100}
+![](/images/ui/viewport-2D-eq.webp)
 
 If the 2D view is too difficult to see, the Equalized mode emphasizes the image to help you see better. This is particularly helpful when working with delicate masks and other 2D maps. The equalization process is superficial and does not affect the actual terrain.
 

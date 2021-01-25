@@ -30,9 +30,57 @@
     }
 }
 
+.hive i {
+    margin-right: 8px;
+}
 
 video {
     width: 80%;
     max-width: 80%;
     height: auto;
+}
+
+
+.x2 {
+    font-size: 16px;
+}
+
+.x3 {
+    font-size: 18px;
+}
+
+.x4 {
+    font-size: 24px;
+}
+
+.x4 {
+    font-size: 36px;
+}
+
+.example .message {
+    max-width: 700px;
+}
+
+
+
+dl {
+    dt {
+        font-weight: bold;
+        margin-top: 1rem;
+    }
+
+    dd {
+        margin-top: 0.35rem;
+        margin-left: 0;
+    }
+}
+
+.article img {
+    border: 1px solid #cbcbcb !important;
+    padding: 2px;
+}
+
+td code {
+    background-color: #ecfffb;
+    border: 1px solid #cbe7e1;
 }

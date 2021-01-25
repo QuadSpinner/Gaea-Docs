@@ -2,27 +2,32 @@
   {
     "Path": "Guide",
     "Title": "User Guide",
-    "SearchWeight": 2
+    "SearchWeight": 2,
+    "Icon": "ti ti-notebook"
   },
   {
     "Path": "Reference",
     "Title": "Node Reference",
     "ProcessProceduralFiles": true,
-    "SearchWeight": 3
+    "SearchWeight": 3,
+    "Icon": "ti ti-notebook"
   },
   {
     "Path": "Learning",
     "Title": "Tutorials",
-    "SearchWeight": 1
+    "SearchWeight": 1,
+    "Icon": "ti ti-school"
   },
   {
     "Path": "KB",
-    "Title": "Knowledge Base"
+    "Title": "Knowledge Base",
+    "Icon": "ti ti-file-check"
   },
   {
     "Path": "Changelogs",
     "Title": "Version History",
     "ProcessXmlChangelogs": true,
-    "ExcludeFromSearch": true
+    "ExcludeFromSearch": true,
+    "Icon": "ti ti-versions"
   }
 ]

@@ -3,7 +3,7 @@ uid: buildmanager
 title: Build Manager
 ---
 
-![Build Manager](/images/ui/Build-Manager.webp){.w-100}
+![Build Manager](/images/ui/Build-Manager.webp)
 
 
 ## Build Options
@@ -107,16 +107,19 @@ Local File:
 `D:\Work\Terrains\EastRiver_Builds\2018–06–22_21–55–31\`
 
 These are not the only options. You can explicitly specify a location instead of choosing a template, or you can create your own combinations using an absolute path and variables such as:
-* `[FileLocation]` Location of the currently open file.
-* `[Builds]` Central build repository.
-* `[Filename]` Name of the current file without extension.
-* `[Resolution]` Current resolution (eg. 8192).
-* `[Timestamp]` Sortable timestamp in `yyyy-MM-dd_HH-mm-ss` format.
-* `[Username]` Your local network identity.
-* `[Machine]` Your local network machine name.
-* `[Date]` Current date in `yyyy-MM-dd` format.
-* `[Time]` Current time in `HH-mm-ss` format.
-* `[+++]` Increments a 3-digit number when an existing path exists.
+
+| Template |  Description |
+| --- | ---- |
+| `[FileLocation]` | Location of the currently open file. | 
+| `[Builds]` |  Central build repository. | 
+| `[Filename]` |  Name of the current file without extension. | 
+| `[Resolution]`  | Current resolution (eg. 8192). | 
+| `[Timestamp]` |  Sortable timestamp in `yyyy-MM-dd_HH-mm-ss` format. | 
+| `[Username]` |  Your local network identity. | 
+| `[Machine]` |  Your local network machine name. | 
+| `[Date]` |  Current date in `yyyy-MM-dd` format. | 
+| `[Time]` |  Current time in `HH-mm-ss` format. | 
+| `[+++]` |  Increments a 3-digit number when an existing path exists. | 
 
 So you could create your own path template; such as:
 
