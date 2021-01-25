@@ -60,3 +60,30 @@ dl dd {
 td code {
   background-color: #ecfffb;
   border: 1px solid #cbe7e1; }
+
+figure {
+  margin: 0.5rem 0 1rem; }
+  figure figcaption {
+    font-size: 12px;
+    font-weight: 600;
+    padding: 6px 3px; }
+
+.val {
+  background-color: #f2ecff;
+  border: 1px solid #d8cbe7; }
+
+p code {
+  background-color: #ecfff4;
+  border: 1px solid #cbe7da; }
+
+.medium-zoom-overlay {
+  z-index: 50000; }
+
+.medium-zoom-image--opened {
+  z-index: 50001;
+  border: 2px solid #1b1c1d !important; }
+
+pre code {
+  padding: 0.5rem 1.2rem;
+  background-color: #ffecf2;
+  border: 1px solid #e7cbdb; }

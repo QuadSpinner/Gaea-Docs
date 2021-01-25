@@ -89,5 +89,15 @@
 
     <script src="/assets/js/main.js"></script>
     <script src="/javascript/docs.js"></script>
+    <script src="/javascript/zoom.js"></script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', (event) => {
+            document.querySelectorAll('pre').forEach((block) => {
+                hljs.highlightBlock(block);
+            });
+            mediumZoom('img', { margin: 36, background: '#1b1c1d' });
+        });
+    </script>
 </body>
 </html>

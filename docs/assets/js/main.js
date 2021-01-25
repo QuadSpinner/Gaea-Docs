@@ -1,26 +1,4 @@
-﻿//if (window.layoutHelpers) {
-//    window.layoutHelpers.setAutoUpdate(true);
-//}
-//function changeStyle() {
-//    if (Cookies.get('style') == "dark") {
-//        $('head').append('<link rel="stylesheet" href="/assets/custom/dark.css" id="cssx" type="text/css" />');
-//        $("#logo").prop("src", "/images/Gaea_Logo_LightAlt.png");
-//        $("#cb1").prop("checked", true);
-//    } else {
-//        $("#cssx").remove();
-//        $("#logo").prop("src", "/images/Gaea_Logo_Dark.png");
-//        $("#cb1").prop("checked", false);
-//    }
-//}
-//function setStyle() {
-//    if (document.getElementById("cb1").checked) {
-//        Cookies.set('style', 'dark');
-//    } else {
-//        Cookies.set('style', 'light');
-//    }
-//    changeStyle();
-//}
-$(document).ready(function () {
+﻿$(document).ready(function () {
 
     if ($("body").data("hive") !== "") {
         $(".crumbs").append('<a class="section" href="/">Gaea Docs</a>');
@@ -44,7 +22,6 @@ $(document).ready(function () {
         $("#main-nav").load("/navs/" + $("body").data("hivehref") + "-n.html",
             function (responseTxt, statusTxt) {
                 if (statusTxt === "success") {
-
                     $("a.item").each(function () {
                         if (window.location.href.indexOf($(this).attr("href")) > -1) {
 
@@ -63,44 +40,32 @@ $(document).ready(function () {
     }
 
     $(".article .main h2").addClass("ui dividing header");
-    $(".article .main h2").first().removeClass("dividing");
     $(".article .main .example h4").addClass("ui header");
 
-    $(".article .main img").each(function() {
+    $(".article .main img").each(function () {
         if (!$(this).hasClass("ui")) {
             $(this).addClass("ui image fluid");
         }
+
+        if ($(this).attr("alt") != null) {
+            $(this).wrap("<figure></figure>");
+            $(this).after("<figcaption>" + $(this).attr("alt") + "</figcaption>");
+        }
     });
 
-    $(".NOTE").each(function () {
-        var $html = $(this).html();
-        $(this).replaceWith(
-            "<div class='ui message yellow small'><span class='ui label horizontal mini yellow'>NOTE</span>" +
-            $html +
-            "</div>");
-    });
 
-    $(".WARNING").each(function () {
-        var $html = $(this).html();
-        $(this).replaceWith(
-            "<div class='ui message red small'><span class='ui horizontal label mini red'>WARNING</span>" +
-            $html +
-            "</div>");
-    });
+    function messageCss(target, msg, lbl, icon, text) {
+        $(target).each(function () {
+            var $html = $(this).html();
+            $(this).replaceWith(
+                "<div class='ui message " + msg + " small'><span class='ui label horizontal mini " + lbl + "'><i class='ti " + icon + "'></i> " + text + "</span>" +
+                $html +
+                "</div>");
+        });
+    }
 
-    $(".TIP").each(function () {
-        var $html = $(this).html();
-        $(this).replaceWith(
-            "<div class='ui message blue small'><span class='ui horizontal label mini blue'>TIP</span>" +
-            $html +
-            "</div>");
-    });
-
-    $(".INFO").each(function () {
-        var $html = $(this).html();
-        $(this).replaceWith(
-            "<div class='ui message teal small'><span class='ui horizontal label mini teal'>INFO</span>" +
-            $html +
-            "</div>");
-    });
+    messageCss(".NOTE", "secondary", "purple", "ti-note", "NOTE");
+    messageCss(".WARNING", "warning", "red", "ti-alert-circle", "WARNING");
+    messageCss(".TIP", "info", "blue", "ti-bulb", "TIP");
+    messageCss(".INFO", "info", "teal", "ti-info-circle", "INFO");
 });

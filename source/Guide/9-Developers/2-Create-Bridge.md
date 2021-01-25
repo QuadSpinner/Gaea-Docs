@@ -3,8 +3,6 @@ uid: create-bridge
 title: Create a Bridge
 ---
 
-## A Bridge between Gaea and your application
-
 Gaea can be used as a silent processor from other applications from the command line.
 
 {.WARNING}
@@ -35,7 +33,9 @@ To create a recipe file, follow the instructions in @preparing-bridge.
 {.NOTE}
 > In the future, file based data transfer will be replaced with shared memory buffers for faster data transmission. At that point, you will be able to send and receive data directly as arrays of 32-bit floats.
 
-## Configuring the Interface
+## The Process
+
+#### Configuring the Interface
 
 Gaea provides the facility to create an XML mapping file containing the details of all the variables exposed, their type, variable name, friendly name, value limits, and default value.
 
@@ -47,40 +47,9 @@ Gaea.Build.exe "C:\Gaea\erosion_automata.tor" --nodemap
 
 Here is an example of such a node map.
 
-```
-<?xml version="1.0"?>
-<Exposed>
-    <Parameter Name="File" 
-               Type="in" 
-               Variable="fileInput" 
-               Default="" />
 
-    <Parameter Name="Output" 
-               Type="out" 
-               Variable="fileOutput" 
-               Default="" />
+<script src="https://gist.github.com/daxpandhi/6b33d2382e762595b2e68650472b7eae.js"></script>
 
-    <Parameter Name="Duration" 
-               Type="double" 
-               Variable="duration" 
-               Min="0.001" 
-               Max="1" 
-               Default="0.15" />
-
-    <Parameter Name="Fine Detail" 
-               Type="bool" 
-               Variable="finedetail" 
-               Default="True" />
-
-    <Parameter Name="Verticality" 
-               Type="int" 
-               Variable="verticality" 
-               Min="50" 
-               Max="20000" 
-               Default="3200" />
-</Exposed>
-
-```
 Your application should use the XML map to configure the UI for the bridge and present those options to the user.
 
 | Property | Description                                                                                                                                                       |
@@ -94,7 +63,7 @@ Your application should use the XML map to configure the UI for the bridge and p
 | Default  | The default value for this setting. Useful for resetting controls.                                                                                                |
 
 
-## Invoking Gaea.Build.exe
+#### Invoking Gaea.Build.exe
 
 When you wish to process the heightfield, save it to one of the formats specified above. Also decide on where you want Gaea to save the output so you can read from those files once finished.
 
@@ -112,7 +81,7 @@ Gaea.Build.exe "C:\erosion_automata.tor" --automata --resolution0512
 
 Unless using specific fixed workflows, it is recommended that the `--resolutionXXXX` argument be passed so Gaea forces the build at the desired resolution. See @build-swarm for the complete list of accepted command line arguments and switches.
 
-## Reading StdOut
+#### Reading StdOut
 
 When Gaea.Build.exe is executed, you can redirect its Standard Output to read status messages during the build process. You can use these messages to display progress or messages to your end-user.
 
@@ -125,7 +94,7 @@ Sample messages:
 
 When a single node requires a long time to build, the progress of that node will be sent with the `>` prefix. You can use this to either hide such messages from your end users, or use it display a specific progress message.
 
-Each individual message will be delimited by a line break character. In most environments, this will be `\u005C\u006E`.
+Each individual message will be delimited by a line break character. In most Windows environments, this will be `\r\n`.
 
 ## Maintain Scale
 
@@ -133,17 +102,17 @@ To ensure both input and output data retains the same level of fidelity, we stro
 
 See @scale for details on how Gaea handles scale.
 
-### Raw Data
+#### Raw Data
 
 In most cases, you will want to use Raw Data which is the default option in the @build-manager. This will bring the data within the `0..1` as exported from your application. The scale will be maintained through Gaea's processing and the output will preserve this range. Any @File nodes used should NOT use the `Use Full Range` option otherwise incoming data would become normalized.
 
-### Normalized Data 
+#### Normalized Data 
 
 If you prefer to receive normalized data, select the Normalized option in the @build-manager. Any @File node should also use the `Use Full Range` option to normalize the incoming data unless the data is already normalized.
 
 When you receive the data in your application after the build, you must process it as appropriate.
 
-### Mapped Data
+#### Mapped Data
 
 If you wish to send and receive data (heightfields and masks only) in a specific range, you can choose to use a Custom Range. This can be specified explicitly in @buildmanager or can be passed on-the-fly via the command line.
 
@@ -151,7 +120,9 @@ To use a range of `-1000..1000`, you would supply the following arguments:
 
 `--range-min:-1000 --range-max:1000`{.val}
 
-## Locating Gaea
+## Additional Information
+
+#### Locating Gaea
 
 To initiate a command line build, you must first find the location of Gaea's installation.
 

@@ -11,7 +11,9 @@ Over the course of a complex project, saving and managing the appropriate output
 
 The @buildmanager simplifies how builds are saved, organized, and managed for future use.
 
-## Quick Export: Marking for Export
+## Export Options
+
+#### Quick Export: Marking for Export
 
 Instead of creating a dedicated Output node and having to specify the file to save, you can mark a node for automatic output.
 
@@ -21,11 +23,11 @@ Once a node is marked for export, it displays this icon underneath the node.
 
 By default, the name of the node will be used as the filename. The filename, format, and the outputs/ports to export are modified in the Build Tab. The files are saved in the path set in the Build tab.
 
-## Output Node
+#### Output Node
 
 If you prefer direct control over where and how the files are saved, you can use an @Output node. It is also useful when you want to save the same output to multiple formats where you can set up an @Output node per format.
 
-## Mesher Node
+#### Mesher Node
 
 If you wish to export your heightfield as a mesh, you can use the @Mesher instead of @Output. Mesher is the only the way to save the output as a mesh.
 

@@ -8,19 +8,19 @@ title: Build Manager
 
 ## Build Options
 
-### Node List
+#### Node List
 
 Any node marked for export shows up in the Build Manager list. You can also add other nodes directly using the **Add Node** button.
 
 Each node will expose its savable filename, the format in which it will export, and the different outputs it exposes.
 
-### Build Destination
+#### Build Destination
 
 This is the path where the built output will be saved. By default, it is saved in a version-controlled path in the Builds repository. You can always enter a normal path directly, or pick from presets in the dropdown.
 
 For additional information see **Organizing Builds** below.
 
-### Build Definition
+#### Build Definition
 
 **Resolution**
 
@@ -50,12 +50,12 @@ For details on the individual formats available, see @save-formats.
 > Custom Range only applies to heightfields and masks. Color data will be forced to standard range.
 
 
-### Tiled Output
+#### Tiled Output
 
 {.WARNING}
 > Tiled output is experimental at this stage. It will be stabilized in future updates.
 
-### Additional Options
+#### Additional Options
 
 **Resample**
 
@@ -73,7 +73,7 @@ Gaea provides a mutation facility during build to create multiple variations of 
 {.TIP}
 > Each mutation’s .tor file is stored with the output, so you can manually tweak a specific mutation if desired.
 
-### Build Options
+#### Build Options
 
 
 | Setting                           | Description                                                                                                                                                                                                                   |
@@ -86,7 +86,7 @@ Gaea provides a mutation facility during build to create multiple variations of 
 
 ## Version Control and Organization
 
-### Organizing Builds
+#### Organizing Builds
 
 The Location field in the Build Manager provides two built-in options for storing your builds.
 
@@ -98,7 +98,7 @@ The second option is to have it stored alongside the file in a Builds folder. So
 
 In both cases, inside the Builds folder, a subfolder with the build timestamp is created. The build output files, a build.info file, and the .tor copy are stored inside this subfolder.
 
-### Example paths
+#### Example paths
 
 Central Repository:
 `C:\Users\Username\Documents\Gaea\Builds\EastRiver\2018–06–22_22–55–31\`
@@ -141,7 +141,7 @@ which would create:
 > If you encounter trouble writing to network shares, we recommend hosting the share as a drive instead.
 
 
-### Version Controlling Terrains
+#### Version Controlling Terrains
 
 Gaea's Build Manager and Build Stack give you low level version control without additional overhead.
 
