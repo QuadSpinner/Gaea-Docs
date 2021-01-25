@@ -5,7 +5,7 @@ title: Erosion
 
 Erosion is the cornerstone of all terrains. It simulates hydraulic erosion on the terrain to turn any shape into a realistic looking terrain.
 
-![](/images/ref/Erosion/Erosion--Default.webp){.ui .img .medium}
+![](/images/ref/Erosion/Erosion--Default.webp){.ui .image .large}
 
 It provides sophisticated erosion with a very easy to use interface. The Erosion node provides control over the scale, where you can choose the size of the largest erosion feature, as well as the overall scale of the terrain.
 
@@ -23,14 +23,14 @@ Lesser strength means dissolved soil will be dropped earlier because of lower wa
 
 <figure>
 
-![](/images/ref/Erosion/Erosion--LowStrength-HighSoftness.webp){.ui .img .medium}
+![](/images/ref/Erosion/Erosion--LowStrength-HighSoftness.webp){.ui .image .large}
 
 <figcaption>Low Strength with very high Rock Softness retains the general shape. Fewer cracks or fluvial grooves are created, while some soft sediment is accumulated on slopes.</figcaption>
 </figure>
 
 <figure>
 
-![](/images/ref/Erosion/Erosion--HighStrength-LowSoftness.webp){.ui .img .medium}
+![](/images/ref/Erosion/Erosion--HighStrength-LowSoftness.webp){.ui .image .large}
 
 <figcaption>High Strength with very low Rock Softness creates a heavily eroded terrain with plenty of soft sediment.</figcaption>
 </figure>
@@ -41,14 +41,14 @@ Downcutting effectively transports sediment far away from its origin. If shorter
 
 <figure>
 
-![](/images/ref/Erosion/Erosion--Downcutting.webp){.ui .img .medium}
+![](/images/ref/Erosion/Erosion--Downcutting.webp){.ui .image .large}
 
 <figcaption>High downcutting with medium Inhibition creates lots of deep fluvial grooves, as well as excess sediments that flow downslope.</figcaption>
 </figure>
 
 <figure>
 
-![](/images/ref/Erosion/Erosion--Downcutting-NoInhibition.webp){.ui .img .medium}
+![](/images/ref/Erosion/Erosion--Downcutting-NoInhibition.webp){.ui .image .large}
 
 <figcaption>High downcutting with very little or no Inhibition will create the same deep fluvial grooves, but no excess sediments.</figcaption>
 </figure>
@@ -59,14 +59,14 @@ The size of the "features" created during the erosion process - namely the width
 
 <figure>
 
-![](/images/ref/Erosion/Erosion--Default.webp){.ui .img .medium}
+![](/images/ref/Erosion/Erosion--Default.webp){.ui .image .large}
 
 <figcaption>Default Feature Size of 2000 (meters).</figcaption>
 </figure>
 
 <figure>
 
-![](/images/ref/Erosion/Erosion--SmallFeatures.webp){.ui .img .medium}
+![](/images/ref/Erosion/Erosion--SmallFeatures.webp){.ui .image .large}
 
 <figcaption>Reduced Feature Size of 50 (meters).</figcaption>
 </figure>

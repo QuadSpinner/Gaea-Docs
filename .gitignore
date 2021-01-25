@@ -14,3 +14,10 @@ node_modules
 /Gaea-Docs/.vs
 .vs
 source/hash.bin
+.vs/Gaea-Docs/config/applicationhost.config
+.vs/Gaea-Docs/DesignTimeBuild/.dtbcache.v2
+.vs/Gaea-Docs/v16/.suo
+.vs/Supercharger/_/DTabsHistory.dat
+.vs/Supercharger/AngryMonkey/codemap.dat
+.vs/Supercharger/AngryMonkey/global_history.dat
+source/hash.bin

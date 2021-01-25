@@ -19,7 +19,7 @@ Modes, Toolbox Placement, and other options are available from the menu in the t
 
 ### Search
 
-![](/images/ui/search-nodes.webp){.ui .img .medium}
+![](/images/ui/search-nodes.webp){.ui .image .medium}
 
 When you press `Tab` when the Graph surface is focused, or if you start typing while the context menu for the Graph is open, the Search feature will present itself. Search also shows up if you drag a connection from a port, but drop it in empty space, and then start typing when the node creation menu appears.
 
@@ -33,7 +33,7 @@ Shortcuts:
 - `ENTER` creates the first (or selected) node.
 - `Ctrl` + `1` through `9` create the subsequent.
 
-![](/images/ui/search-portals.webp){.ui .img .medium}
+![](/images/ui/search-portals.webp){.ui .image .medium}
 
 Entering `\` into the search field will bring up a list of available portals. This is reserved for connecting nodes rather than creating it.
 
@@ -47,11 +47,11 @@ The Recent nodes list is maintained per-session. It will be emptied when you exi
 
 ### Modes
 
-![](/images/ui/toolbox-mostused.webp){.ui .img .medium} 
+![](/images/ui/toolbox-mostused.webp){.ui .image .medium} 
 
 Favorite nodes appear a bit brighter than the other nodes. To add/remove a node, right-click on the node name and check `Show in favorites`. <br> <br> When you toggle the small switch at the top of the toolbox, only your most used nodes are shown. To see how these nodes are chosen, see @learning. <br> <br> This option is meant to be used frequently. |
 
-![](/images/ui/toolbox-expert.webp){.ui .img .medium}
+![](/images/ui/toolbox-expert.webp){.ui .image .medium}
 
 When Expert Mode is turned on, the section dividers are removed allowing you more screen space for nodes. <br> <br> This mode is more useful when used in conjunction with the `Most Used` option.                                                       |
 

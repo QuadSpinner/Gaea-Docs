@@ -15,7 +15,7 @@ When a part of the graph is finalized and you do not anticipate any changes - ev
 
 Once further nodes are finalized, you can bake those too.
 
-![](/images/ui/graph-menu-bake.webp){.ui .img .medium}
+![](/images/ui/graph-menu-bake.webp){.ui .image .medium}
 
 With the Bake Menu in the Graph toolbar you can choose the resolution for baking, bake or unbake nodes, and use the Session Cache.
 

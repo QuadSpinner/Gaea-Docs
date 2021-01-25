@@ -37,7 +37,7 @@ The Infinity Graph allows you to split your terrain graph across multiple tabs u
 
 You can quickly navigate across graph tabs using the `,` shortcut on nodes.
 
-![](/images/ui/graph-menu.webp){.ui .img .medium}
+![](/images/ui/graph-menu.webp){.ui .image .medium}
 
 You can move select nodes to different tabs. Portals will be created as required to ensure your connections stay intact.
 

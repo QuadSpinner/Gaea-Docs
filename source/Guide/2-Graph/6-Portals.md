@@ -36,7 +36,7 @@ You can connect to a portal in multiple ways:
 
 @dragout a connection and you will be presented with a list of available portals organized by graphs.
 
-![](/images/ui/search-portals.webp){.ui .img .medium}
+![](/images/ui/search-portals.webp){.ui .image .medium}
 
 @dragout a connection and type `\` when the menu shows up. This will present you with a searchable list of all available portals.
 
