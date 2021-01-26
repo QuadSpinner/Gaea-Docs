@@ -68,4 +68,18 @@
     messageCss(".WARNING", "warning", "red", "ti-alert-circle", "WARNING");
     messageCss(".TIP", "info", "blue", "ti-bulb", "TIP");
     messageCss(".INFO", "info", "teal", "ti-info-circle", "INFO");
+    
+    if ($("#related").length) {
+        
+        var relhtml = '<div class="ui vertical fluid menu"><div class="item"><div class="header">Related topics</div><div class="menu">';
+
+        $("#related p a").each(function () {
+            relhtml += '<a class="item" href="' + $(this).attr("href") + '"> <i class="ti ti-arrow-narrow-right"></i> ' + $(this).html() + '</a>';
+        });
+
+        relhtml += "</div></div></div></div>";
+
+        $("#related").html(relhtml);
+    }
+
 });

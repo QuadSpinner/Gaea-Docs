@@ -1,6 +1,7 @@
 ---
 uid: building
 title: Build and Export
+related: buildmanager build-swarm scale
 ---
 
 The output from your project must be saved to a file in order to use it elsewhere. To do this, you must build the output. When you build the output, Gaea will create it at your target resolution. This may take a while to build depending upon the complexity of your terrain and the effects used.
@@ -37,24 +38,15 @@ If you wish to export your heightfield as a mesh, you can use the @Mesher instea
 Gaea provides a mutation facility during build to create multiple variations of the same terrain. You can select up to 99 mutations in the Build Manager. This will run the build once per each mutation where seeds of all nodes are randomized. Doing this gives you a unique terrain in every mutation while still following the core recipe of your graph.
 
 
-<div class="row>
-<div class="col-lg-6">
-
 ![Build Mutations](/images/ui/mutate1.webp)
-
-</div><div class="col-lg-6">
 
 ![Build Mutations](/images/ui/mutate2.webp)
 
-</div><div class="col-lg-6">
-
 ![Build Mutations](/images/ui/mutate3.webp)
-
-</div><div class="col-lg-6">
 
 ![Build Mutations](/images/ui/mutate4.webp)
 
-</div>
+
 
 {.TIP}
 > Each mutation’s .tor file is stored with the output, so you can manually tweak a specific mutation if desired.
