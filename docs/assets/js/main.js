@@ -18,7 +18,7 @@
     }
 
     if ($("body").data("hivehref") !== "") {
-        var goto;
+        let goto;
         $("#main-nav").load("/navs/" + $("body").data("hivehref") + "-n.html",
             function (responseTxt, statusTxt) {
                 if (statusTxt === "success") {
@@ -42,6 +42,10 @@
     $(".article .main h2").addClass("ui dividing header");
     $(".article .main .example h4").addClass("ui header");
 
+    if ($("body").data("hivehref") === "Reference") {
+        const h2 = $("div.main.ui.intro.container").prepend("<h2 class='hidden'>" + $("body").data("title") + "</h2>");
+    }
+
     $(".article .main img").each(function () {
         if (!$(this).hasClass("ui")) {
             $(this).addClass("ui image fluid");
@@ -53,10 +57,23 @@
         }
     });
 
+    function isNumeric(str) {
+        if (typeof str != "string") return false // we only process strings!  
+        return !isNaN(str) && // use type coercion to parse the _entirety_ of the string (`parseFloat` alone does not do this)...
+            !isNaN(parseFloat(str)) // ...and ensure strings of whitespace fail
+    }
+    
+    $("code").each(function(){
+        if(isNumeric($(this).text().replace("%",""))){
+            $(this).addClass("val")
+        }
+    });
 
+    
+    
     function messageCss(target, msg, lbl, icon, text) {
         $(target).each(function () {
-            var $html = $(this).html();
+            const $html = $(this).html();
             $(this).replaceWith(
                 "<div class='ui message " + msg + " small'><span class='ui label horizontal mini " + lbl + "'><i class='ti " + icon + "'></i> " + text + "</span>" +
                 $html +
@@ -68,10 +85,10 @@
     messageCss(".WARNING", "warning", "red", "ti-alert-circle", "WARNING");
     messageCss(".TIP", "info", "blue", "ti-bulb", "TIP");
     messageCss(".INFO", "info", "teal", "ti-info-circle", "INFO");
-    
+
     if ($("#related").length) {
-        
-        var relhtml = '<div class="ui vertical fluid menu"><div class="item"><div class="header">Related topics</div><div class="menu">';
+
+        let relhtml = '<div class="ui vertical fluid menu"><div class="item"><div class="header">Related topics</div><div class="menu">';
 
         $("#related p a").each(function () {
             relhtml += '<a class="item" href="' + $(this).attr("href") + '"> <i class="ti ti-arrow-narrow-right"></i> ' + $(this).html() + '</a>';

@@ -30,7 +30,7 @@
   </Flub>
   <Flub>
     <Name>Style</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>The style to synthesize over the shape.</Description>
     <Flubs>
       <Flub>
         <Name>Simple</Name>

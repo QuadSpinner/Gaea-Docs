@@ -2,7 +2,7 @@
 <ArrayOfFlub xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Flub>
     <Name>Type</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>Overall style of the terrain.</Description>
     <Flubs>
       <Flub>
         <Name>Large</Name>
@@ -14,10 +14,10 @@
   </Flub>
   <Flub>
     <Name>Scale</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>The scale of the overall geological features of the terrain.</Description>
   </Flub>
   <Flub>
     <Name>Seed</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>The randomization pattern or seed for the node's process.</Description>
   </Flub>
 </ArrayOfFlub>

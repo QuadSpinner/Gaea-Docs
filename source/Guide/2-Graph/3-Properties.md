@@ -8,8 +8,8 @@ title: Properties
 Every node exposes a set of properties or settings that you can modify to change the effect that node has on the terrain. When you select a node, the settings become available in the Properties panel in the right side of the interface.
 
 When you change a property, the effect is immediately applied and made visible in the viewport - except when dealing with Heavy Nodes (see below). Most nodes have a limited type of properties: 
-- **Integer**: such as `1`{.val}, `2`{.val}, `3`{.val}, `4`{.val}, etc. They usually define quantity or a finite value like angle.
-- **Decimals**: such as `0.1`{.val}, `0.256`{.val}, `0.4885`{.val}, etc. They usually define the strength or amount of a certain setting. In most cases, small changes can be quite powerful.
+- **Integer**: such as `1`, `2`, `3`, `4`, etc. They usually define quantity or a finite value like angle.
+- **Decimals**: such as `0.1`, `0.256`, `0.4885`, etc. They usually define the strength or amount of a certain setting. In most cases, small changes can be quite powerful.
 - **Toggle**: They usually allow you to turn a feature on or off.
 - **Choices**: These take the form of a dropdown where you can select one of many options.
 - **Color**: They allow you to choose a color for the color production nodes.

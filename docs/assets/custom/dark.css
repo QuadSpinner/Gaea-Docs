@@ -1,93 +1,127 @@
-﻿.TIP {
+.TIP {
   border-color: rgba(226, 200, 238, 0.33);
-  background-color: rgba(21, 13, 25, 0.41); }
+  background-color: rgba(21, 13, 25, 0.41);
+}
 
 .WARNING {
   border-color: rgba(236, 189, 113, 0.33);
-  background-color: rgba(42, 32, 6, 0.52); }
+  background-color: rgba(42, 32, 6, 0.52);
+}
 
 .NOTE {
   border-color: rgba(200, 238, 233, 0.33);
-  background-color: rgba(221, 255, 251, 0.07); }
+  background-color: rgba(221, 255, 251, 0.07);
+}
 
 body {
   background-color: #252526 !important;
-  color: #9f9f9f !important; }
+  color: #9f9f9f !important;
+}
 
 .table {
-  color: #9f9f9f !important; }
+  color: #9f9f9f !important;
+}
 
 .navbar {
   background-color: #1e1e1e !important;
-  color: #e0e0e0 !important; }
-  .navbar .navbar-nav .active > .nav-link {
-    color: #fff !important; }
+  color: #e0e0e0 !important;
+}
+
+.navbar .navbar-nav .active > .nav-link {
+  color: #fff !important;
+}
 
 #docs-navbar .nav li a:hover {
-  color: #fff; }
+  color: #fff;
+}
 
 h1,
 h2,
 h3,
 h4 {
-  color: #fff; }
+  color: #fff;
+}
 
 a {
   color: #51aeff;
-  transition: color linear 0.2s; }
-  a:hover {
-    color: #ecbd71;
-    transition: color linear 0.2s;
-    text-decoration: none; }
+  -webkit-transition: color linear 0.2s;
+  transition: color linear 0.2s;
+}
+
+a:hover {
+  color: #ecbd71;
+  -webkit-transition: color linear 0.2s;
+  transition: color linear 0.2s;
+  text-decoration: none;
+}
 
 .nav-tabs .nav-link.active {
   color: #fff;
   position: relative;
-  left: 1px; }
-  .nav-tabs .nav-link.active a {
-    color: #eee; }
+  left: 1px;
+}
+
+.nav-tabs .nav-link.active a {
+  color: #eee;
+}
 
 .card-header {
-  background-color: rgba(20, 21, 23, 0.15) !important; }
+  background-color: rgba(20, 21, 23, 0.15) !important;
+}
 
 h1,
 h2,
 h3 {
-  color: #f0f0f0; }
+  color: #f0f0f0;
+}
 
 h3 {
-  border-bottom: 0; }
+  border-bottom: 0;
+}
 
 hr {
   color: #666;
-  border-color: #666; }
+  border-color: #666;
+}
 
 #docs-navbar .nav li a {
-  border-left-color: transparent; }
-  #docs-navbar .nav li a:hover {
-    border-left-color: #999; }
+  border-left-color: transparent;
+}
+
+#docs-navbar .nav li a:hover {
+  border-left-color: #999;
+}
 
 pre,
 code,
 kbd {
   color: #f4f2f9;
+  background: -webkit-gradient(linear, left top, left bottom, from(#0072be), to(#093c5e));
   background: linear-gradient(#0072be, #093c5e);
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.22), 0 5px 35px rgba(0, 0, 0, 0.1); }
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.22), 0 5px 35px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 1px 3px rgba(0, 0, 0, 0.22), 0 5px 35px rgba(0, 0, 0, 0.1);
+}
 
 .table th {
-  border-color: #6f6f6f !important; }
+  border-color: #6f6f6f !important;
+}
 
 .table tr,
 .table td {
-  border-color: #555 !important; }
+  border-color: #555 !important;
+}
 
 .fancybox-content {
   color: #eee;
-  background-color: #303030; }
+  background-color: #303030;
+}
 
 #results small {
-  background: #333; }
+  background: #333;
+}
 
 #results li {
   border: 1px solid #2f2f2f;
-  background-color: #202020; }
+  background-color: #202020;
+}
+/*# sourceMappingURL=dark.css.map */

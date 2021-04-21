@@ -2,25 +2,32 @@
 <ArrayOfFlub xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Flub>
     <Name>Method</Name>
+    <Description>The method used for calculating normals.</Description>
     <Flubs>
       <Flub>
         <Name>8-point</Name>
+        <Description>Use a 8x8 matrix. Uses more references to calculate normals with higher accuracy.</Description>
       </Flub>
       <Flub>
         <Name>4-point</Name>
+        <Description>Use a 4x4 matrix. Uses fewer references to calculate normals with basic accuracy.</Description>
       </Flub>
     </Flubs>
   </Flub>
   <Flub>
     <Name>Weight</Name>
+    <Description>The weight of the normals. Higher values create more intense normals. (Only available in 8-point Method)</Description>
   </Flub>
   <Flub>
     <Name>Height</Name>
+    <Description>The height of the normals. Higher values create more intense/taller normals. (Only available in the 4-point Method)</Description>
   </Flub>
   <Flub>
     <Name>Flip Y</Name>
+    <Description>Flip the normals on the Y axis.</Description>
   </Flub>
   <Flub>
     <Name>Flip X</Name>
+    <Description>Flip the normals on the X axis.</Description>
   </Flub>
 </ArrayOfFlub>

@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<UpdateManifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="1.2.1.5" Size="67270350" PatchSize="7768715" ReleaseType="EAP" ReleaseDate="2021-01-26T00:00:00" Filename="Gaea-1.2.1.5b.exe" URL="http://viridian.quadspinner.com/gaeab/Gaea-1.2.1.5b.exe" PatchURL="http://viridian.quadspinner.com/gaeab/Gaea-1.2.1.5bP.exe">
+  <FullDescription>#### What's new in Gaea 1.2.1.5?
+
+This key update addresses several user-reported issues for saving files in various formats, and restores the Split-to-tiles functionality which will enable better export to Unity and Unreal engines.
+
+For the major updates in 1.2 itself, see [the Gaea 1.2.1 blog post](https://blog.quadspinner.com/gaea-1-2-1/).
+
+# Complete Changelog
+
+#### Fixed
+
+- Output node overhauled to remove obsolete code.
+- 16-bit PNG were using incorrect gamma.
+- 16-bit TIFF were using incorrect gamma.
+- 16-bit TIFF would be incorrectly saved as 32-bit.
+- Output node would not always honor file format settings.
+- Build tab should not show format dropdown for Output nodes.
+- Several minor bugfixes.
+
+#### Included from previous Bleeding Edge
+
+- Output saving code overhauled for TIF, EXR, RAW, R32, PNG.
+- Tiled Builds (Split to Tiles) restored and overhauled.
+- Added support for small tiles (127px, etc).
+- Fixed issues with loading and saving Workspace customizations.
+- Draw and Island editor drawing experience made smoother.
+- Fixed issues with resampling output for game engines.
+- Fixed viewport breaking when 2D mode and Autolevel were used together.
+- Fixed workspace defaults being saved aggressively. Now you the defaults are modified only when you explicity save them in the main menu.
+- Light node will now override Pinned Underlay.
+- Fixed an issue where opening a file without any nodes would freeze progress.
+- Fixed a few issues in the Community Edition with watermarking so output is cleaner.
+- Fixed an issue where heavier nodes would process twice upon creation.
+- Fixed data maps being treated incorrectly in 2D visualization.
+- Combine will now honor 2D inputs better, and not force 3D visualization.
+- Fixed several internal issues for a smoother experience.
+</FullDescription>
+</UpdateManifest>
