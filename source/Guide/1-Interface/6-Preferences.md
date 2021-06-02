@@ -3,9 +3,11 @@ uid: preferences
 title: Preferences
 ---
 
+## Preferences
+
 The Preferences dialog gives you easy access to common preferences. It can be accessed from the Gaea Main menu. You can also access it from the startup dialog.
 
-## Workspace
+#### Workspace
 
 ![](/images/ui/Preferences-1.webp)
 
@@ -30,7 +32,7 @@ You can check this option to show favorites in Graph.
 **Ask before deleting node**: 
 Checking this option will ask you before deleting each node. Unchecking this option will delete the node without your confirmation.
 
-## Viewport
+#### Viewport
 
 ![](/images/ui/Preferences-2.webp)
 
@@ -47,7 +49,7 @@ Viewport style options affect Graph workflow only. Select *Embedded* to keep the
 **Invert Y-axis**: 
 This option lets you invert the Y-axis of the viewport.
 
-## Build
+#### Build
 
 ![](/images/ui/Preferences-3.webp)
 
@@ -61,7 +63,7 @@ This option lets you set the Gaea Build Folder.
 You can set the Cache location.
 
 
-## Others
+#### Others
 
 ![](/images/ui/Preferences-4.webp)
 

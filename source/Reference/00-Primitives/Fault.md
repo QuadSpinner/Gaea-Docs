@@ -11,4 +11,4 @@ When the Fault node is used by itself, it will create a fault in a flat terrain.
 > To create a "multi-fault": duplicate a Fault node, attach it to the original Fault node, and change a few settings. For example - changing the depth, width, or even the seed can produce interesting results.
 
 
-![](/images/ref/Fault/Fault.png)
+![](/images/ref/Fault/Fault.webp)

@@ -9,14 +9,14 @@ The Dunes node allows you to create a large sea of dunes in systematic undulatio
 
 <figure>
 
-![](/images/ref/Dunes/Dunes--1.png)
+![](/images/ref/Dunes/Dunes--1.webp)
 
 <figcaption>Dune Sea: A uniform set of Dunes covering a large area.</figcaption>
 </figure>
 
 <figure>
 
-![](/images/ref/Dunes/Dunes--2.png)
+![](/images/ref/Dunes/Dunes--2.webp)
 
 <figcaption>Chaotic: A windswept, unruly portion of a sand dune covering a smaller area.</figcaption>
 </figure>

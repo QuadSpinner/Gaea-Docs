@@ -17,7 +17,7 @@ See @conveniences for more details on how to use the toolbox convenience feature
 
 Modes, Toolbox Placement, and other options are available from the menu in the top right corner of the toolbox.
 
-### Search
+#### Search
 
 ![](/images/ui/search-nodes.webp){.ui .image .medium}
 
@@ -37,7 +37,7 @@ Shortcuts:
 
 Entering `\` into the search field will bring up a list of available portals. This is reserved for connecting nodes rather than creating it.
 
-### Recent
+#### Recent
 
 Recently used nodes will show up separately in the Search popup if you clear the search text, giving you quicker access to frequently used nodes without having to explicitly set them as favorites.
 
@@ -45,7 +45,7 @@ The Recent nodes list is maintained per-session. It will be emptied when you exi
 
 ## Customizing the Toolbox
 
-### Modes
+#### Modes
 
 ![](/images/ui/toolbox-mostused.webp){.ui .image .medium} 
 
@@ -55,7 +55,7 @@ Favorite nodes appear a bit brighter than the other nodes. To add/remove a node,
 
 When Expert Mode is turned on, the section dividers are removed allowing you more screen space for nodes. <br> <br> This mode is more useful when used in conjunction with the `Most Used` option.                                                       |
 
-### Toolbox Placement
+#### Toolbox Placement
 
 You can choose to have the toolbox be placed in different positions. You can change this setting as frequently as you like from the toolbox menu.
 

@@ -3,6 +3,7 @@ uid: viewport
 title: Viewport
 ---
 
+
 The viewport is your primary method of examining and exploring terrains. It provides a heavy duty 3D view of your terrain at different resolutions.
 
 Gaea’s viewport harnesses the powerful Unity engine, and has been deeply customized to fit advanced terrain systems. The viewport can process an 8.3 million polygon terrain in milliseconds, allowing you to work at high resolution.
@@ -30,7 +31,7 @@ The toolbar on the side has the following commands:
 - Autolevel / Simple Mode
 - Equalized Mode (only visible with 2D maps)
 
-### Viewport Settings
+#### Viewport Settings
 
 The viewport settings let you modify the look of your viewport. For details of the lighting options, see @Light.
 
@@ -38,7 +39,7 @@ The Colors section lets you modify the color gradients used for rendering the he
 
 The Water section lets you use the optional water surface. This is a superficial element and does not affect the actual terrain or any nodes.
 
-### First Person View
+#### First Person View
 
 The First Person view has been temporarily removed from Gaea. Expect it to come back soon.
 
@@ -51,7 +52,7 @@ The 2D view is available directly in the main window alongside the 3D view when 
 - `Mouse Wheel` for zooming.
 - `Mouse Middle` for panning.
 
-## 2D Mode
+#### 2D Mode
 
 The 2D mode lets you see an orthographic view of the terrain. Additionally, you can right-click the viewport to select secondary outputs if a node provides them. For example, you can see the @Erosion node's wear or flow output without having to plug it into another node.
 
@@ -59,7 +60,7 @@ The 2D mode lets you see an orthographic view of the terrain. Additionally, you 
 
 By default, the secondary output will be overlaid on the terrain. You can turn off the 3D Shading in the toolbar to see the mask by itself.
 
-## Plain / Autolevel View
+#### Plain / Autolevel View
 
 ![](/images/ui/viewport-2D-plain.webp)
 
@@ -69,7 +70,7 @@ This mode shows a basic heightfield with minimal lighting. 2D maps are shown in 
 > You can change the gradient representing the mask color gradient in the viewport settings.
 
 
-## Equalized Mode
+#### Equalized Mode
 
 ![](/images/ui/viewport-2D-eq.webp)
 

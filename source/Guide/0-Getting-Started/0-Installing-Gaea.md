@@ -74,3 +74,13 @@ Revision is incremented also when a Bleeding Edge build is rolled into the Produ
 
 {.NOTE}
 >The *Revision* element was reset with the release of Gaea 1.0.28 to avoid confusion with the frequent Bleeding Edge updates.
+
+## Common Issues
+
+#### If Gaea fails to start
+
+- Ensure `Gaea.exe` and `Archon.exe` have firewall permissions for local TCP/IP communication.
+- Install the latest CPU and GPU drivers.
+- Ensure you have at least 10GB of free space in your Windows' temp directory, as well as the cache folder set in Gaea Preferences.
+
+If none of these work, run @watson and file a ticket. Our support team will help you figure out the problem.

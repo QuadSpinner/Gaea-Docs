@@ -19,7 +19,7 @@
 
     if ($("body").data("hivehref") !== "") {
         let goto;
-        $("#main-nav").load("/navs/" + $("body").data("hivehref") + "-n.html",
+        $("#main-nav").load("/navs/" + $("body").data("hivehref") + "-m.html",
             function (responseTxt, statusTxt) {
                 if (statusTxt === "success") {
                     $("a.item").each(function () {
@@ -33,11 +33,30 @@
                         }
                     });
 
+                    $('.ui.accordion').accordion();
                 }
             });
 
-        $("#toc").load("/navs/" + $("body").data("hivehref") + "-n.html");
+        $("#toc").load("/navs/" + $("body").data("hivehref") + "-m.html");
+
+
+        $("#top-nav .item").each(function () {
+            if ($(this).data("hive") == $("body").data("hivehref")) {
+                $(this).addClass("active");
+            }
+        });
     }
+
+    $(".previewer").click(function () {
+        const labs = $(this).data("labels");
+        $("#modaltitle").text($(this).data("flub"));
+        //$("#modalslider").slider({
+        //    interpretLabel: function (value) {
+        //        return labels[labs];
+        //    }
+        //});
+        $('.ui.basic.modal').modal('show');
+    });
 
     $(".article .main h2").addClass("ui dividing header");
     $(".article .main .example h4").addClass("ui header");
@@ -62,15 +81,13 @@
         return !isNaN(str) && // use type coercion to parse the _entirety_ of the string (`parseFloat` alone does not do this)...
             !isNaN(parseFloat(str)) // ...and ensure strings of whitespace fail
     }
-    
-    $("code").each(function(){
-        if(isNumeric($(this).text().replace("%",""))){
+
+    $("code").each(function () {
+        if (isNumeric($(this).text().replace("%", ""))) {
             $(this).addClass("val")
         }
     });
 
-    
-    
     function messageCss(target, msg, lbl, icon, text) {
         $(target).each(function () {
             const $html = $(this).html();
@@ -81,7 +98,7 @@
         });
     }
 
-    messageCss(".NOTE", "secondary", "purple", "ti-note", "NOTE");
+    messageCss(".NOTE", "purple", "purple", "ti-note", "NOTE");
     messageCss(".WARNING", "warning", "red", "ti-alert-circle", "WARNING");
     messageCss(".TIP", "info", "blue", "ti-bulb", "TIP");
     messageCss(".INFO", "info", "teal", "ti-info-circle", "INFO");
@@ -98,5 +115,5 @@
 
         $("#related").html(relhtml);
     }
-
+    ;
 });

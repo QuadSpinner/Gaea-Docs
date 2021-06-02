@@ -3,11 +3,13 @@ uid: getting-around
 title: Getting around
 ---
 
+## The Gaea Interface
+
 ![](/images/ui/Intro-All.webp)
 
 The Gaea interface is streamlined and minimal. All essential tools are available right within the main interface.
 
-## Viewport
+#### Viewport
 
 ![](/images/ui/Intro-Viewports.webp)
 
@@ -17,7 +19,7 @@ A viewport toolbar gives you access to all the options for both the viewports an
 
 For further details, see @viewport.
 
-## Graph Surface
+#### Graph Surface
 
 ![](/images/ui/Intro-Graph.webp)
 
@@ -27,7 +29,7 @@ The Graph can be split into multiple tabs, which are shown above the nodes. The 
 
 For further details, see @graph.
 
-## Properties Panel
+#### Properties Panel
 
 ![](/images/ui/Intro-Properties.webp)
 
@@ -39,7 +41,7 @@ Between the two is the Apply / Lock button. If a node takes a long time to proce
 
 For further details, see @properties.
 
-## Toolbars
+#### Toolbars
 
 ![](/images/ui/Intro-Toolbars.webp)
 
@@ -51,7 +53,7 @@ On the far right, you can change the scale of the UI. You can also see the versi
 
 In the bottom right corner of the interface, there are a few advanced options for caching, and memory optimization. For further details, see @cache.
 
-## Build Tab
+#### Build Tab
 
 ![](/images/ui/Intro-Build.webp)
 

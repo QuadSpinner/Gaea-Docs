@@ -29,7 +29,7 @@ Some nodes may have special controls specific to them.
 
 For properties that allow numeric entry (Integer or Decimals), you can right-click the property and enter a number. For values shown as percentages, you can enter a value in meters and Gaea will convert it to the appropriate percentage or decimal value proportionate to the metric value in relation to the Terrain Definition set in the Build tab. See @scale for more information on that topic.
 
-### Microincrements
+#### Microincrements
 
 The Microincrements panel is available when you right-click an Integer or Decimals property. With the Microincrements panel, you can achieve much higher precision in entering values.
 
@@ -47,11 +47,11 @@ The Microincrements panel is available when you right-click an Integer or Decima
 | Increase Small | Increase by a small value. (ex: 1 in 100%) |
 | Maximum | Use the highest allowed value. |
 
-### Seed Reset
+#### Seed Reset
 
 Seed Reset is a minor enhancement in the Microincrements UI. It sets the “Default” seed value to whatever the random value is when the node is created. So if you play around for a while and want to go back to the original seed, you can simply reset the Seed.
 
-### Flux Markers
+#### Flux Markers
 
 ![](/images/ui/properties-flux.webp){.w-75}
 
@@ -59,7 +59,8 @@ Flux markers are small dots that represent previous values. They appear when you
 
 When you move the slider, the last 3 positions are marked with little dots in decreasing opacity levels. These handy little guides can be helpful when exploring settings. They reset every time you unselect that node.
 
-## Heavy Nodes
+
+#### Heavy Nodes
 
 We have classified some nodes, such as @Erosion, @Fluvial, etc., as "Heavy" Nodes — meaning, they can take a long time to process and sometimes cannot be cancelled mid-process. Updating multiple settings on such a node can slow down or even freeze up the application.
 
@@ -70,14 +71,15 @@ The **Apply** button has an **Auto Apply** toggle button next to it. When you tu
 
 Alternatively, you can toggle the Auto Apply for any node via the properties menu. If a node is heavy to process even though it is not marked as such, you can toggle off the Auto Apply. Or if a heavy node is performing quickly for you, then you can toggle on the Auto Apply.
 
+## Additional Information
 
-## Post Processing
+#### Post Processing
 
 The Post Process options sits right under the Properties and provides quick access to common functions. See @postprocess.
 
 ![](/images/ui/postprocess.webp)
 
-## Properties Menu
+#### Properties Menu
 
 The node properties menu provides access to additional functionality.
 

@@ -7,4 +7,4 @@ SlopeNoise is a unique primitive specifically for creating expansive sloping ter
 
 SlopeNoise is fantastic for medium range or close-up scenes, where you want to dramatically show the scale and height of the slope.
 
-![](images/ref/SlopeNoise/SlopeNoise.png)
+![](/images/ref/SlopeNoise/SlopeNoise.webp)

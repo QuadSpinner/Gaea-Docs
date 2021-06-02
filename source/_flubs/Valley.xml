@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<ArrayOfFlub xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Flub>
+    <Name>Ridge Style</Name>
+    <Flubs>
+      <Flub>
+        <Name>Rough</Name>
+      </Flub>
+      <Flub>
+        <Name>Smooth</Name>
+      </Flub>
+      <Flub>
+        <Name>Sharp</Name>
+      </Flub>
+    </Flubs>
+  </Flub>
+  <Flub>
+    <Name>Scale</Name>
+  </Flub>
+  <Flub>
+    <Name>Erosive Strength</Name>
+  </Flub>
+  <Flub>
+    <Name>Flow Width</Name>
+  </Flub>
+  <Flub>
+    <Name>Depth</Name>
+  </Flub>
+  <Flub>
+    <Name>Base Level</Name>
+  </Flub>
+  <Flub>
+    <Name>Sediments</Name>
+  </Flub>
+  <Flub>
+    <Name>Deterministic (Slow)</Name>
+  </Flub>
+</ArrayOfFlub>

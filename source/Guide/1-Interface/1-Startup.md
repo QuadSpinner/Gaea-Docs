@@ -3,21 +3,23 @@ title: Startup Screen
 uid: startup
 ---
 
+## Startup Screen
+
 The Startup Screen is your main entry point into Gaea.
 
-## Project Screen
+#### Project Screen
 
 ![](/images/ui/start0.webp)
 
 On the right side, you have all the commands you need to get started. On the left side, you can access the most recently opened projects.
 
-### Load License
+#### Load License
 
 If your installation is not authorized with a license key, you will find a "Enter License Key" button under the Gaea logo. You can also access it from the About menu.
 
 Without a license, Gaea will revert to the Community Edition with resolution restrictions.
 
-### Commands
+#### Commands
 
 | Command                 | Description                                                                            |
 | ----------------------- | -------------------------------------------------------------------------------------- |
@@ -28,7 +30,7 @@ Without a license, Gaea will revert to the Community Edition with resolution res
 | Recent Files            | List of recently opened files. Right-click for additional options.                     |
 | New Version | When a new version is available,  |
 
-### Open Modes
+#### Open Modes
 
 When opening a Gaea file, you can choose one of the following modes either in the file dialog, or by right-clicking the Recent Files list in the Startup Screen.
 
@@ -39,7 +41,7 @@ When opening a Gaea file, you can choose one of the following modes either in th
 | Open and suspend engine | The file is opened at the saved resolution, and session caches are also loaded. However, the Suspend Engine option in the @graph is turned on so the nodes are not processed until the engine is resumed manually. This is useful for making quick adjustments to a file without waiting for previews to be built. |
 
 
-### Menu Commands
+#### Menu Commands
 
 The menu in the top right gives you access to additional options.
 
@@ -51,7 +53,7 @@ The menu in the top right gives you access to additional options.
 | About               | Displays version and other information for the installed version of Gaea.                                                                                                                                                        |
 | Exit                | Exits Gaea.                                                                                                                                                                                                                      |
 
-## Erosion Studio
+#### Erosion Studio
 
 ![](/images/ui/start1.webp)
 
@@ -61,7 +63,7 @@ The menu in the top right gives you access to additional options.
 | Open Project     | Open a previously saved sculpting project to resume work, or reapply the procedural sculpt on an updated heightmap. |
 
 
-## Version Updates
+#### Version Updates
 
 ![](/images/ui/start2.webp)
 
@@ -71,7 +73,7 @@ Clicking the New Version command lets you see the release notes and changelog fo
 > When possible, Gaea will try to use a patch upgrade to reduce the download size to avoid using unnecessary bandwidth on your internet connection.
 
 
-## Quickstarts
+#### Quickstarts
 
 ![](/images/ui/start3.webp)
 

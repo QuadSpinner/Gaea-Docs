@@ -7,6 +7,7 @@ window.semantic = {
 // ready event
 semantic.ready = function () {
 
+
     // selector cache
     var
 
@@ -285,7 +286,6 @@ semantic.ready = function () {
                 .html(html)
                 ;
 
-            
             $sticky = $('<div />')
                 .addClass('ui sticky')
                 .html($followMenu)
@@ -497,6 +497,4 @@ semantic.ready = function () {
 };
 
 // attach ready event
-$(document)
-    .ready(semantic.ready)
-    ;
+$(document).ready(semantic.ready);

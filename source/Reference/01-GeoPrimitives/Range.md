@@ -12,14 +12,14 @@ The *With Base* option may not look much, but it can produce beautiful results w
 
 <figure>
 
-![](/images/ref/Range/Range--1.png)
+![](/images/ref/Range/Range--1.webp)
 
 <figcaption>High Altitude: A closer 'crop' of a mountainous area at higher altitudes. This includes the larger slopes and peaks, but not the base of the mountain.</figcaption>
 </figure>
 
 <figure>
 
-![](/images/ref/Range/Range--2.png)
+![](/images/ref/Range/Range--2.webp)
 
 <figcaption>With Base: A wider 'crop' of a mountain chain showing multiple peaks and the valleys and fields between them.</figcaption>
 </figure>

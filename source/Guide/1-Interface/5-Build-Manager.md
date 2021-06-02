@@ -3,6 +3,8 @@ uid: build-manager
 title: Build Manager
 ---
 
+## The Build Manager
+
 The Build Manager gives you easy access to crucial output preferences. It is accessed by clicking the **Build** button in the top toolbar.
 
 ![Mark for export](/images/ui/Intro-Build.webp)
