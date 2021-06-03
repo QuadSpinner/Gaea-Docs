@@ -21,15 +21,14 @@
     <link rel="stylesheet" type="text/css" href="/stylesheets/iconfont/tabler-icons.min.css">
 
 </head>
-<body id="main" class="started" ontouchstart="" data-hive="{{HIVE}}" data-title="{{TITLE}}"
-      data-hivehref="{{HIVE-HREF}}" data-parent="{{PARENT}}" data-parenthref="{{PARENT-HREF}}">
+<body id="main" class="started" ontouchstart="" data-hive="{{HIVE}}" data-title="{{TITLE}}" data-hivehref="{{HIVE-HREF}}" data-parent="{{PARENT}}" data-parenthref="{{PARENT-HREF}}">
 
     <!-- mobile menu -->
     <div class="ui vertical inverted sidebar menu" id="toc">
 
     </div>
     <div class="ui black big launch right attached fixed button">
-        <i class="content icon"></i>
+        <i class="ti ti-menu-2 icon"></i>
         <span class="text">Menu</span>
     </div>
     <!-- / mobile menu -->
@@ -37,7 +36,7 @@
     <div class="ui fixed inverted main menu">
         <div class="ui container">
             <a class="launch icon item">
-                <i class="content icon"></i>
+                <i class="ti ti-menu-2 icon"></i>
             </a>
             <div class="item">
                 {{TITLE}}
@@ -45,60 +44,50 @@
         </div>
     </div>
     <!-- / mobile breadcrumb title -->
-    <!--<div class="ui container">
-        <div class="ui secondary padded menu">
-            <a href="#" class="header item">Gaea Docs</a>
-            <a href="#" class="item">User Guide</a>
-            <a href="#" class="item">Node Reference</a>
-            <a href="#" class="item">Tutorials</a>
-            <a href="#" class="item">Knowledge Base</a>
-            <a href="#" class="item">Version History</a>
-        </div>
-    </div>-->
     <div class="pusher">
         <div class="full height">
             <div class="toc">
+                <img src="/images/Gaea_Logo_LightAlt.png" alt="Gaea Documentation" class="box" />
                 <div class="ui vertical inverted menu scroll-toc" id="main-nav">
-
                 </div>
             </div>
 
             <div class="article">
-                <div class="ui masthead vertical segment">
+                <div class="ui inverted masthead vertical segment">
                     <div class="ui container">
-                        <div class="ui inverted segment">
-                            <div id="top-nav" class="ui mini inverted secondary pointing menu">
-                                <a class="item" data-hive="Guide">User Guide</a>
-                                <a class="item" data-hive="Reference">Node Reference</a>
-                                <a class="item" data-hive="Learning">Learning</a>
-                                <a class="item" data-hive="KB">Knowledge Base</a>
-                                <a class="item" data-hive="Changelogs">Version History</a>
-                                
+                        <div id="top-nav" class="ui mini inverted secondary pointing menu">
+                            <div class="ui category search item">
+                                <div class="ui inverted transparent icon input">
+                                    <i class="ti ti-search icon"></i>
+                                    <input class="prompt" type="text" placeholder="Search docs...">
+                                </div>
+                                <div class="results"></div>
                             </div>
+                            <div class="item title silent">Books:</div>
+                            <a class="item" href="/Guide/" data-hive="Guide">User Guide</a>
+                            <a class="item" href="/Reference/" data-hive="Reference">Node Reference</a>
+                            <a class="item" href="/Learning/" data-hive="Learning">Learning</a>
+                            <a class="item" href="/KB/" data-hive="KB">Knowledge Base</a>
+                            <a class="item" href="/Changelogs/" data-hive="Changelogs">Version History</a>
+                            <a class="red item" href="https://get.gaea.app" target="_blank">Download Gaea</a>
                         </div>
                         <div class="introduction">
-                            <h1 class="ui header">
-                                {{TITLE}}
-                            </h1>
-                            <div class="ui hidden divider"></div>
-                            <div class="ui breadcrumb crumbs">
-
-                            </div>
-                            <div class="ui right rail">
-
-                            </div>
+                            <br />
+                            <h1 class="ui inverted header"><span class="silent">{{HIVE}}</span><br />{{TITLE}}</h1>
+                            <div class="ui divider"></div>
+                            <a href="{{PREVHREF}}" class="ui mini grey icon tertiary button prev-link"><i class="ti ti-arrow-left"></i> {{PREV}}</a>
+                            <a href="{{NEXTHREF}}" class="ui mini grey right icon tertiary button next-link">{{NEXT}} <i class="ti ti-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
 
-
                 <div class="main ui container" id="main-stuff">
-                    <!--<div class="ui dividing left rail">
-                        <div class="ui sticky">
-                            <div class="ui inverted segment" id="main-nav"></div>
-                        </div>
-                    </div>-->
                     {{BODY}}
+
+                    <div class="ui divider"></div>
+                    <a href="{{PREVHREF}}" class="ui mini icon icon button prev-link"><i class="ti ti-arrow-left"></i> {{PREV}}</a>
+                    <a href="{{NEXTHREF}}" class="ui mini right icon button next-link">{{NEXT}} <i class="ti ti-arrow-right"></i></a>
+
                 </div>
                 <div class="ui inverted vertical footer segment">
                     <div class="ui container">

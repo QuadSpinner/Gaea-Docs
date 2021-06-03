@@ -1,39 +1,41 @@
 ﻿$(document).ready(function () {
 
-    if ($("body").data("hive") !== "") {
-        $(".crumbs").append('<a class="section" href="/">Gaea Docs</a>');
-        $(".crumbs").append('<div class="divider"> / </div>');
-        $(".crumbs").append('<a class="section" href="/' +
-            $("body").data("hivehref") +
-            '">' +
-            $("body").data("hive") +
-            '</a>');
-        $(".crumbs").append('<div class="divider"> / </div>');
+    //if ($("body").data("hive") !== "") {
+    //    $(".crumbs").append('<a class="section" href="/">Gaea Docs</a>');
+    //    $(".crumbs").append('<div class="divider"> / </div>');
+    //    $(".crumbs").append('<a class="section" href="/' +
+    //        $("body").data("hivehref") +
+    //        '">' +
+    //        $("body").data("hive") +
+    //        '</a>');
+    //    $(".crumbs").append('<div class="divider"> / </div>');
 
-        if ($("body").data("parent") !== "") {
-            $(".crumbs").append('<span class="section">' + $("body").data("parent") + '</span>');
-            $(".crumbs").append('<div class="divider"> / </div>');
-        }
-        $(".crumbs").append('<span class="section active">' + $("body").data("title") + '</li>');
-    }
+    //    if ($("body").data("parent") !== "") {
+    //        $(".crumbs").append('<span class="section">' + $("body").data("parent") + '</span>');
+    //        $(".crumbs").append('<div class="divider"> / </div>');
+    //    }
+    //    $(".crumbs").append('<span class="section active">' + $("body").data("title") + '</li>');
+    //}
 
     if ($("body").data("hivehref") !== "") {
         let goto;
-        $("#main-nav").load("/navs/" + $("body").data("hivehref") + "-m.html",
+        $("#main-nav").load("/navs/" + $("body").data("hivehref") + "-n.html",
             function (responseTxt, statusTxt) {
                 if (statusTxt === "success") {
-                    $("a.item").each(function () {
+                    $('.ui.accordion').accordion();
+
+                    $("a.subitem").each(function () {
                         if (window.location.href.indexOf($(this).attr("href")) > -1) {
 
                             goto = $(this);
                             $(this).addClass("active");
-                            $(this).parent().addClass("active");
+                            $(this).parent().parent().addClass("active").children("div").addClass("active");
+                            $(this).parent().parent().parent().addClass("active");
                             $("#main-nav").scrollTop($(this).offset().top - 80);
 
                         }
                     });
 
-                    $('.ui.accordion').accordion();
                 }
             });
 
@@ -60,6 +62,8 @@
 
     $(".article .main h2").addClass("ui dividing header");
     $(".article .main .example h4").addClass("ui header");
+
+    $("hr").replaceWith('<div class="ui divider"></div>');
 
     if ($("body").data("hivehref") === "Reference") {
         const h2 = $("div.main.ui.intro.container").prepend("<h2 class='hidden'>" + $("body").data("title") + "</h2>");

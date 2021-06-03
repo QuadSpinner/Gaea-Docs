@@ -3,6 +3,23 @@
              Global
 *******************************/
 
+/* Thin */
+@font-face {
+    font-family: 'Lato';
+    src: url(/fonts/lato/Lato-Thin.woff2) format('woff2');
+    font-style: normal;
+    font-weight: 100;
+}
+
+/* Light */
+@font-face {
+    font-family: 'Lato';
+    src: url(/fonts/lato/Lato-Light.woff2) format('woff2');
+    font-style: normal;
+    font-weight: 300;
+}
+
+
 /* Regular */
 @font-face {
     font-family: 'Lato';
@@ -2109,6 +2126,8 @@ code .chunk {
     -webkit-flex: 0 0 auto;
     -ms-flex: 0 0 auto;
     flex: 0 0 auto;
+    height: 100%;
+    flex: 1;
 }
 
     #main .full.height > .toc .ui.menu {

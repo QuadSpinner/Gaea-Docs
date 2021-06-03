@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<ArrayOfFlub xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Flub>
+    <Name>Gabor</Name>
+    <Description>T</Description>
+  </Flub>
+  <Flub>
+    <Name>Size</Name>
+  </Flub>
+  <Flub>
+    <Name>Entropy</Name>
+  </Flub>
+  <Flub>
+    <Name>Anisotropy</Name>
+  </Flub>
+  <Flub>
+    <Name>Anisotropy azimuth</Name>
+  </Flub>
+  <Flub>
+    <Name>Poisson lambda</Name>
+    <Flubs>
+      <Flub>
+        <Name>3.0</Name>
+      </Flub>
+      <Flub>
+        <Name>5.0</Name>
+      </Flub>
+    </Flubs>
+  </Flub>
+  <Flub>
+    <Name>Seed</Name>
+  </Flub>
+  <Flub>
+    <Name>Fractal</Name>
+    <Description>T</Description>
+  </Flub>
+  <Flub>
+    <Name>Octaves</Name>
+  </Flub>
+  <Flub>
+    <Name>Roughness</Name>
+  </Flub>
+</ArrayOfFlub>

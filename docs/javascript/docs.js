@@ -13,7 +13,6 @@ semantic.ready = function () {
 
         $swap = $('.theme.menu .item'),
         $menu = $('#toc'),
-
         $container = $('.main.container'),
         $allHeaders = $('.main.container > h2'),
         $sectionHeaders = $container.children('h2'),
@@ -21,16 +20,11 @@ semantic.ready = function () {
         $sectionExample = $container.find('.example'),
         $exampleHeaders = $sectionExample.children('h4'),
         $footer = $('.page > .footer'),
-
         $menuPopup = $('.ui.main.menu .popup.item'),
-
         $pageTabs = $('.masthead.tab.segment .tabs.menu .item'),
-
         $languageDropdown = $('.language.dropdown'),
-
         $example = $('.example'),
         $visibilityExample = $example.filter('.visiblity').find('.overlay, .demo.segment, .items img'),
-
         // alias
         handler
         ;
@@ -301,7 +295,7 @@ semantic.ready = function () {
                 .prependTo($container)
                 ;
 
-            
+
             $sticky.sticky({
                 silent: true,
                 context: $container,
@@ -354,12 +348,7 @@ semantic.ready = function () {
                     : false,
                 indent
                 ;
-            if (!leadingSpaces) {
-                return ($pageTabs.length > 0)
-                    ? 6
-                    : 4
-                    ;
-            }
+            if (!leadingSpaces) { return ($pageTabs.length > 0) ? 6 : 4; }
             if (leadingSpaces !== 0) {
                 indent = leadingSpaces;
             }
@@ -448,9 +437,7 @@ semantic.ready = function () {
         ;
 
     // launch buttons
-    $menu
-        .sidebar('attach events', '.launch.button, .view-ui, .launch.item')
-        ;
+    $menu.sidebar('attach events', '.launch.button, .view-ui, .launch.item');
 
     // handler.createIcon();
 
@@ -469,13 +456,7 @@ semantic.ready = function () {
         })
         ;
 
-    //$.fn.api.settings.base = '//api.semantic-ui.com';
-    $.extend($.fn.api.settings.api, {
-        categorySearch: '//api.semantic-ui.com/search/category/{query}',
-        getOverrides: '/src/themes/{$theme}/{$type}s/{$element}.overrides',
-        getVariables: '/src/themes/{$theme}/{$type}s/{$element}.variables',
-        search: '//api.semantic-ui.com/search/{query}'
-    });
+
 
     if (window.location.hash) {
         var
