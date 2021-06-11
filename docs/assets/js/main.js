@@ -4,7 +4,10 @@
         $("#main-nav").load("/navs/" + $("body").data("hivehref") + "-n.html",
             function (responseTxt, statusTxt) {
                 if (statusTxt === "success") {
-                    $('.ui.accordion').accordion();
+                    $('.ui.accordion').accordion({
+                        animateChildren: false,
+                        exclusive: true
+                    });
 
                     $("a.subitem").each(function () {
                         if (window.location.href.indexOf($(this).attr("href")) > -1) {
@@ -36,8 +39,8 @@
         $("#modaltitle").text(flub);
 
         var slider = $("#modalslider").slider({
-            min: 1, max: labs.length,
-            interpretLabel: function (value) { return labs[value - 1]; },
+            min: 0, max: labs.length - 1,
+            interpretLabel: function (value) { return labs[value]; },
             onMove: changeModal,
         });
 
@@ -47,7 +50,7 @@
         }
 
         changeModal();
-        $('.ui.medium.modal').modal({  }).modal('show');
+        $('.ui.medium.modal').modal({}).modal('show');
     });
 
     $(".prev-link").each(function () { if ($(this).attr("href") === "") { $(this).hide(); } });
@@ -100,15 +103,11 @@
     messageCss(".INFO", "info", "teal", "ti-info-circle", "INFO");
 
     if ($("#related").length) {
-
         let relhtml = '<div class="ui vertical fluid menu"><div class="item"><div class="header">Related topics</div><div class="menu">';
-
         $("#related p a").each(function () {
             relhtml += '<a class="item" href="' + $(this).attr("href") + '"> <i class="ti ti-arrow-narrow-right"></i> ' + $(this).html() + '</a>';
         });
-
         relhtml += "</div></div></div></div>";
-
         $("#related").html(relhtml);
     };
 
@@ -128,4 +127,19 @@
                 });
         }
     });
+
+    $(window).resize(function () {
+        showHide();
+    });
+
+    showHide();
+
+    function showHide() {
+
+        if ($(window).width() > 960) {
+            $(".pc-only").show();
+        } else {
+            $(".pc-only").hide();
+        }
+    }
 });

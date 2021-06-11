@@ -170,7 +170,6 @@ code {
     /*    .hive:first-child {
         margin-top: 2em !important;
     }*/
-
     .top {
         color: #ffd9b2 !important;
         text-transform: uppercase;
@@ -243,7 +242,7 @@ img.box {
     height: auto;
 }
 
-.inverted.masthead {
+.inverted.masthead, .footer {
     background: #2d2e2f !important;
 }
 
@@ -276,16 +275,13 @@ img.box {
     opacity: 0.4 !important;
 }
 
-
 .next-link {
     float: right;
 }
 
-
 h4 {
     padding-bottom: 1em !important;
 }
-
 
 #modalimage {
     margin: auto;
@@ -294,8 +290,18 @@ h4 {
     margin-bottom: 16px;
 }
 
-
-
 td .header {
     padding: 4px 0 0 0 !important;
+}
+
+#main-stuff {
+    min-height: 60vh;
+}
+
+::-moz-selection {
+    background-color: #fff1a5;
+}
+
+::selection {
+    background-color: #fff1a5;
 }

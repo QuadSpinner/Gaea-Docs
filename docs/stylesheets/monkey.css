@@ -179,7 +179,7 @@ img.box {
   width: 180px;
   height: auto; }
 
-.inverted.masthead {
+.inverted.masthead, .footer {
   background: #2d2e2f !important; }
 
 .ui.secondary.inverted.pointing.menu .red {
@@ -214,3 +214,12 @@ h4 {
 
 td .header {
   padding: 4px 0 0 0 !important; }
+
+#main-stuff {
+  min-height: 60vh; }
+
+::-moz-selection {
+  background-color: #fff1a5; }
+
+::selection {
+  background-color: #fff1a5; }
