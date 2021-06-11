@@ -3,6 +3,7 @@ title: Build Swarm
 uid: build-swarm
 ---
 
+
 The Build Swarm is the command line building engine for Gaea. Whenever a large scale build is needed, Gaea launches the Build Swarm to build the terrain. You can also launch it manually if needed. The Build Swarm can be found in the Gaea installation folder as `Gaea.Build.exe`.
 
 The Build Swarm writes status messages to StdOut and can be monitored remotely if needed. You MUST use the `--silent` argument when capturing StdOut data otherwise it may overload your application and slow down the build itself.
@@ -21,7 +22,7 @@ Simple example of a command line build:
 Gaea.Build.exe "C:\Users\Me\Documents\Gaea\MyFile.tor" 
 ```
 
-### Modes
+#### Modes
 
 `--silent` 
 
@@ -33,7 +34,7 @@ Gaea.Build.exe "C:\Users\Me\Documents\Gaea\MyFile.tor"
 **Automation Mode** is used when automating Gaea from another application. The output is limited to simple status messages which can be read by another software and displayed to end users as needed. For more information on how to use Gaea from other applications, see @create-bridge.
 
 
-### Management Switches
+#### Management Switches
 
 | Switch       | Description                                                |
 | :----------- | :--------------------------------------------------------- |
@@ -43,7 +44,7 @@ Gaea.Build.exe "C:\Users\Me\Documents\Gaea\MyFile.tor"
 | `--close`    | Immediately closes the window after build is complete.     |
 | `--beep`     | Plays a short beep at the end of a build.                  |
 
-### Build Modification Switches
+#### Build Modification Switches
 
 | Switch             | Description                                                                                                                                                                     |
 | :----------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -81,7 +82,9 @@ Gaea.Build.exe
 
 See @automation for details.
 
-## Batch Building
+## Additional Information
+
+#### Batch Building
 
 You can run a batch build by executing a batch (.bat) file as shown below.
 
@@ -108,7 +111,7 @@ Gaea.Build.exe "C:\Users\Documents\Gaea\ErosionB-009.tor" vars
 {.TIP} 
 > In the future, you will be able to drag and drop multiple files on Gaea.Build.exe to run a batch build.
 
-## Build Logs
+#### Build Logs
 
 Build Swarm logs are both machine and human readable. All values are tab separated.
 

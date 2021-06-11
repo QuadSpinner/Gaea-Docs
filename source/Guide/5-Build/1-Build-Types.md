@@ -11,7 +11,7 @@ a terrain graph in Gaea, it is a "recipe". When you build that recipe,
 it creates high quality assets using the Gaea Build Engine, which then
 converts the data into files.
 
-### Exporting Assets
+#### Exporting Assets
 
 You will need to export most of your terrain elements as images -
 heightfields for 2.5D displacement, grayscale masks, or color textures.

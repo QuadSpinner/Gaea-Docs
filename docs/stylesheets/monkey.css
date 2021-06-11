@@ -74,15 +74,19 @@ figure {
     font-weight: 600;
     padding: 6px 3px;
     opacity: 0.6;
-    border-bottom: 1px solid #cfcfcf; }
+    /*border-bottom: 1px solid #cfcfcf;*/ }
 
 .val {
-  background-color: #f2ecff;
-  border: 1px solid #d8cbe7; }
+  background-color: #e8e7ea;
+  border: 0;
+  padding-left: 0.3em;
+  padding-right: 0.3em; }
 
 p code {
-  background-color: #ecfff4;
-  border: 1px solid #cbe7da; }
+  background-color: #e3e7e9;
+  border: 0;
+  padding-left: 0.5em;
+  padding-right: 0.5em; }
 
 .medium-zoom-overlay {
   z-index: 50000; }
@@ -92,9 +96,13 @@ p code {
   border: 2px solid #1b1c1d !important; }
 
 pre code {
+  width: 100%;
+  font-family: "Cascadia Code", Consolas, 'Courier New', monospace;
+  font-weight: normal;
+  font-size: 12px;
   padding: 0.5rem 1.2rem;
-  background-color: #ffecf2;
-  border: 1px solid #e7cbdb; }
+  background-color: #dde4e7;
+  border: 1px solid #606267; }
 
 #related {
   margin-top: 5rem; }
@@ -185,11 +193,24 @@ img.box {
 .introduction h1.header {
   font-weight: 100 !important; }
   .introduction h1.header .silent {
+    font-weight: 400 !important;
     letter-spacing: 0;
-    font-size: 18px; }
+    font-size: 14px; }
 
 .silent {
   opacity: 0.4 !important; }
 
 .next-link {
   float: right; }
+
+h4 {
+  padding-bottom: 1em !important; }
+
+#modalimage {
+  margin: auto;
+  height: 45vh !important;
+  width: auto !important;
+  margin-bottom: 16px; }
+
+td .header {
+  padding: 4px 0 0 0 !important; }

@@ -1,22 +1,4 @@
 ﻿$(document).ready(function () {
-
-    //if ($("body").data("hive") !== "") {
-    //    $(".crumbs").append('<a class="section" href="/">Gaea Docs</a>');
-    //    $(".crumbs").append('<div class="divider"> / </div>');
-    //    $(".crumbs").append('<a class="section" href="/' +
-    //        $("body").data("hivehref") +
-    //        '">' +
-    //        $("body").data("hive") +
-    //        '</a>');
-    //    $(".crumbs").append('<div class="divider"> / </div>');
-
-    //    if ($("body").data("parent") !== "") {
-    //        $(".crumbs").append('<span class="section">' + $("body").data("parent") + '</span>');
-    //        $(".crumbs").append('<div class="divider"> / </div>');
-    //    }
-    //    $(".crumbs").append('<span class="section active">' + $("body").data("title") + '</li>');
-    //}
-
     if ($("body").data("hivehref") !== "") {
         let goto;
         $("#main-nav").load("/navs/" + $("body").data("hivehref") + "-n.html",
@@ -26,13 +8,11 @@
 
                     $("a.subitem").each(function () {
                         if (window.location.href.indexOf($(this).attr("href")) > -1) {
-
                             goto = $(this);
                             $(this).addClass("active");
                             $(this).parent().parent().addClass("active").children("div").addClass("active");
                             $(this).parent().parent().parent().addClass("active");
                             $("#main-nav").scrollTop($(this).offset().top - 80);
-
                         }
                     });
 
@@ -51,14 +31,27 @@
 
     $(".previewer").click(function () {
         const labs = $(this).data("labels");
-        $("#modaltitle").text($(this).data("flub"));
-        //$("#modalslider").slider({
-        //    interpretLabel: function (value) {
-        //        return labels[labs];
-        //    }
-        //});
-        $('.ui.basic.modal').modal('show');
+
+        const flub = $(this).data("flub");
+        $("#modaltitle").text(flub);
+
+        var slider = $("#modalslider").slider({
+            min: 1, max: labs.length,
+            interpretLabel: function (value) { return labs[value - 1]; },
+            onMove: changeModal,
+        });
+
+        function changeModal() {
+            const val = slider.slider("get value");
+            $("#modalimage").attr("src", "/images/Paraminator/" + $("body").data("title") + "/" + flub.replace(" ", "-") + "/" + val + ".webp");
+        }
+
+        changeModal();
+        $('.ui.medium.modal').modal({  }).modal('show');
     });
+
+    $(".prev-link").each(function () { if ($(this).attr("href") === "") { $(this).hide(); } });
+    $(".next-link").each(function () { if ($(this).attr("href") === "") { $(this).hide(); } });
 
     $(".article .main h2").addClass("ui dividing header");
     $(".article .main .example h4").addClass("ui header");
@@ -81,9 +74,8 @@
     });
 
     function isNumeric(str) {
-        if (typeof str != "string") return false // we only process strings!  
-        return !isNaN(str) && // use type coercion to parse the _entirety_ of the string (`parseFloat` alone does not do this)...
-            !isNaN(parseFloat(str)) // ...and ensure strings of whitespace fail
+        if (typeof str != "string") return false;
+        return !isNaN(str) && !isNaN(parseFloat(str));
     }
 
     $("code").each(function () {
@@ -96,7 +88,7 @@
         $(target).each(function () {
             const $html = $(this).html();
             $(this).replaceWith(
-                "<div class='ui message " + msg + " small'><span class='ui label horizontal mini " + lbl + "'><i class='ti " + icon + "'></i> " + text + "</span>" +
+                "<div class='ui message small'><span class='ui label horizontal mini " + lbl + "'><i class='ti " + icon + "'></i> " + text + "</span>" +
                 $html +
                 "</div>");
         });
@@ -118,6 +110,22 @@
         relhtml += "</div></div></div></div>";
 
         $("#related").html(relhtml);
-    }
-    ;
+    };
+
+    $("#results").load("/search.json", function (responseTxt, statusTxt) {
+        if (statusTxt == "success") {
+            console.log("search loaded");
+            data = JSON.parse(responseTxt);
+            $('.ui.search')
+                .search({
+                    source: data,
+                    fields: {
+                        description: 'hive',
+                        title: 'title',
+                        url: 'url'
+                    },
+                    minCharacters: 2
+                });
+        }
+    });
 });

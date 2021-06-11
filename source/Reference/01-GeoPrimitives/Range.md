@@ -9,20 +9,10 @@ Range comes in two flavors: *High Altitude*, which generates taller mountains wi
 
 The *With Base* option may not look much, but it can produce beautiful results when processed with @Erosion.
 
+![High Altitude: A closer 'crop' of a mountainous area at higher altitudes. This includes the larger slopes and peaks, but not the base of the mountain.](/images/ref/Range/Range--1.webp)
 
-<figure>
+![With Base: A wider 'crop' of a mountain chain showing multiple peaks and the valleys and fields between them.](/images/ref/Range/Range--2.webp)
 
-![](/images/ref/Range/Range--1.webp)
-
-<figcaption>High Altitude: A closer 'crop' of a mountainous area at higher altitudes. This includes the larger slopes and peaks, but not the base of the mountain.</figcaption>
-</figure>
-
-<figure>
-
-![](/images/ref/Range/Range--2.webp)
-
-<figcaption>With Base: A wider 'crop' of a mountain chain showing multiple peaks and the valleys and fields between them.</figcaption>
-</figure>
 
 {.TIP}
 > Range (in both forms) is best eroded with two @Erosion nodes. One that erodes the entire environment lightly with no downcutting, and another that applies erosion with medium downcutting but is Biased to the top 20-30% of the altitude in the Selective Processing options.

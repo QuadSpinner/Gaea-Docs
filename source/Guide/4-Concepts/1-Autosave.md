@@ -5,7 +5,9 @@ title: Autosave and File Recovery
 
 Gaea has different facilities to protect your work at several junctures.
 
-## Undo/Redo
+## Recovering your work
+
+#### Undo/Redo
 
 Gaea provides basic undo/redo facilities in the main toolbar. You can undo or redo one or more steps. Gaea will list the change in each undo entry when possible.
 
@@ -14,22 +16,24 @@ Please note, while the state of your file is preserved, cache may not be. For ex
 {.TIP}
 > If you don't see a change, try pressing `F5` on the desired node to force a refresh.
 
-## Revert Node
+#### Revert Node
 
 Sometimes you may want to experiment with a node's settings, and after doing so find that the previous settings were preferable. To avoid bloat, Gaea does not create undos for node property changes. Instead, you can use this command from the Properties window menu to revert the values back to the state they were when you selected the node. This "state" resets every time you go away from the node.
 
 {.NOTE}
-> The similar sounding "Reset Node" (Ctrl + R) command will reset the node to factory defaults.
+> The similar sounding "Reset Node" `Ctrl + R`{.cmd} command will reset the node to factory defaults.
 
-## Autosave
+#### Autosave
 
 Gaea will attempt to save a copy of your file before every major action. For example, when you add a new node, an autosave will be created before the node is added. Same for deleting, moving large parts, splitting the graph, etc.
 
-Autosaves can be accessed from the main menu via `Open recent > Open Autosave`{.cmd}. Files are stored with the original filename and a timestamp suffix such as **scene1_2020-08-08_19-05-17.tor**.
+Autosaves can be accessed from the main menu via `Open recent > Open Autosave`{.cmd}. Files are stored with the original filename and a timestamp suffix such as `scene1_2020-08-08_19-05-17.tor`{.val}.
 
 Autosaves are saved to `C:\Users\[You]\AppData\Roaming\QuadSpinner\Gaea\Autosaves\`{.path}.
 
-## Backward Compatibility
+Autosave can be disabled in @preferences.
+
+#### Backward Compatibility
 
 Gaea is backward compatible, meaning it will be able to open older files most of the time.
 

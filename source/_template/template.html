@@ -61,7 +61,7 @@
                                     <i class="ti ti-search icon"></i>
                                     <input class="prompt" type="text" placeholder="Search docs...">
                                 </div>
-                                <div class="results"></div>
+                                <div id="results" class="results"></div>
                             </div>
                             <div class="item title silent">Books:</div>
                             <a class="item" href="/Guide/" data-hive="Guide">User Guide</a>
@@ -93,12 +93,13 @@
                     <div class="ui container">
                         <div class="ui stackable inverted divided equal height stackable grid">
                             <div class="three wide column">
-                                <h4 class="ui inverted header">About</h4>
+                                <h4 class="ui inverted header">Gaea Everywhere</h4>
                                 <div class="ui inverted link list">
-                                    <a href="#" class="item">Sitemap</a>
-                                    <a href="#" class="item">Contact Us</a>
-                                    <a href="#" class="item">Religious Ceremonies</a>
-                                    <a href="#" class="item">Gazebo Plans</a>
+                                    <a href="#" class="item"><i class="ti ti-brand-discord"></i> Discord</a>
+                                    <a href="#" class="item"><i class="ti ti-messages"></i> Forums</a>
+                                    <a href="#" class="item"><i class="ti ti-brand-youtube"></i> YouTube</a>
+                                    <a href="#" class="item"><i class="ti ti-brand-instagram"></i> Instagram</a>
+                                    
                                 </div>
                             </div>
                             <div class="three wide column">
@@ -122,22 +123,22 @@
     </div>
 
 
-    <div class="ui basic modal">
-        <div class="ui icon header" id="modaltitle">
-            Parameter
-        </div>
-        <div class="content" id="modalcontent">
+    <div class="ui medium modal">
+        <h3 class="ui icon header" id="modaltitle"></h3>
+        <div class="very padded content" id="modalcontent">
             <div class="ui image">
-                <img id="modalimage" class="ui image" />
+                <img id="modalimage" />
             </div>
-            <div class="ui labeled ticked slider" id="modalslider"></div>
+
+            <div class="ui very padded">
+                <div class="ui labeled yellow slider" id="modalslider"></div>
+            </div>
         </div>
-        <div class="actions">
+        <!--<div class="actions">
             <div class="ui red basic cancel inverted button">
-                <i class="remove icon"></i>
                 Close
             </div>
-        </div>
+        </div>-->
     </div>
     <script src="/assets/js/main.js"></script>
     <script src="/javascript/docs.js"></script>
