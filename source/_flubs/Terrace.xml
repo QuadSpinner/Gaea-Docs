@@ -1,45 +1,66 @@
 <?xml version="1.0"?>
 <ArrayOfFlub xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Flub>
-    <Name>Terraces</Name>
-    <Description>The number of terraces to create.</Description>
+    <Name>Terracing</Name>
+    <Description>T</Description>
   </Flub>
   <Flub>
-    <Name>Uniformity</Name>
-    <Description>The uniformity of the vertical space between terraces.</Description>
-  </Flub>
-  <Flub>
-    <Name>Steepness</Name>
-    <Description>The steepness of the terrace edge.</Description>
-  </Flub>
-  <Flub>
-    <Name>Intensity</Name>
-    <Description>The strength of terracing applied to the terrace.</Description>
-  </Flub>
-  <Flub>
-    <Name>Soft Falloff</Name>
-    <Description>Softens the blend of the terrace edges with the base terrain.</Description>
-  </Flub>
-  <Flub>
-    <Name>Reprocess</Name>
-    <Description>Applies all processing twice for enhanced effect.</Description>
-  </Flub>
-  <Flub>
-    <Name>Process</Name>
+    <Name>Mode</Name>
     <Flubs>
       <Flub>
-        <Name>Default</Name>
+        <Name>Simple</Name>
       </Flub>
       <Flub>
-        <Name>Residual</Name>
-      </Flub>
-      <Flub>
-        <Name>Gentle</Name>
+        <Name>Advanced</Name>
       </Flub>
     </Flubs>
   </Flub>
   <Flub>
+    <Name>Spacing</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
+    <Name>Octaves</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
+    <Name>Intensity</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
+    <Name>Shape</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
     <Name>Seed</Name>
-    <Description>The randomization pattern or seed for the node's process.</Description>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
+    <Name>Advanced</Name>
+    <Description>T</Description>
+  </Flub>
+  <Flub>
+    <Name>Shapes separation</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
+    <Name>Macro octaves</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
+    <Name>Micro shape</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
+    <Name>Character</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
+    <Name>Thickness uniformity</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
+    <Name>Hardness uniformity</Name>
+    <Description>Lorem ipsum</Description>
   </Flub>
 </ArrayOfFlub>

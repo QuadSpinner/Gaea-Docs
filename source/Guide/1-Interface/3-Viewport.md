@@ -6,7 +6,7 @@ title: Viewport
 
 The viewport is your primary method of examining and exploring terrains. It provides a heavy duty 3D view of your terrain at different resolutions.
 
-Gaea’s viewport harnesses the powerful Unity engine, and has been deeply customized to fit advanced terrain systems. The viewport can process an 8.3 million polygon terrain in milliseconds, allowing you to work at high resolution.
+Gaea's viewport harnesses the powerful Unity engine, and has been deeply customized to fit advanced terrain systems. The viewport can process an 8.3 million polygon terrain in milliseconds, allowing you to work at high resolution.
 
 ## 3D Viewport
 

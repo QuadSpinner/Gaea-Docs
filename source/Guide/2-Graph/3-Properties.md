@@ -65,7 +65,7 @@ When you move the slider, the last 3 positions are marked with little dots in de
 We have classified some nodes, such as @Erosion, @Fluvial, etc., as "Heavy" Nodes — meaning, they can take a long time to process and sometimes cannot be cancelled mid-process. Updating multiple settings on such a node can slow down or even freeze up the application.
 
 When you modify a Heavy Node, it will not update automatically. It will instead show an **Apply** button, which you can click when you have made your changes.
-If you move away from the node, or select another node, changes will be applied automatically, so you won’t lose any modifications.
+If you move away from the node, or select another node, changes will be applied automatically, so you won't lose any modifications.
 
 The **Apply** button has an **Auto Apply** toggle button next to it. When you turn on **Auto Apply**, that particular node will update automatically.
 

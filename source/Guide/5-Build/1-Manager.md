@@ -71,7 +71,7 @@ You can choose to save color maps in RGB, sRGB, or scRGB color spaces. Does not 
 Gaea provides a mutation facility during build to create multiple variations of the same terrain. You can select up to 99 mutations. This will run the build once per each mutation where seeds of all nodes are randomized. This gives you a unique terrain in every mutation while still following the core recipe of your graph.
 
 {.TIP}
-> Each mutation’s .tor file is stored with the output, so you can manually tweak a specific mutation if desired.
+> Each mutation's .tor file is stored with the output, so you can manually tweak a specific mutation if desired.
 
 #### Build Options
 

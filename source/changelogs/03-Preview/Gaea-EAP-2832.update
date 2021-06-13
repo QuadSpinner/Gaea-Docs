@@ -15,7 +15,7 @@ FIX: Mask functionality was not working.
 FIX: Numerous use of uninitialized values, integer overflow, memory exceeded, and timeouts.
 
 Known Issues
-- The Erosion node may crash on certain PCs. We’re investigating this issue.
+- The Erosion node may crash on certain PCs. We're investigating this issue.
 - Some elements in the startup screen are disabled by design. They will become active in the next build.
 - Some users get a crash on adding a node. Please use the drag-drop toolbox in the Graph instead while we investigate and fix this issue.
 - Due to structural changes in the file format, old files may not fully work with this new build.

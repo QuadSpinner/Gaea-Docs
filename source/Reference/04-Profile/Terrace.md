@@ -3,7 +3,6 @@ uid: Terrace
 title: Terrace
 ---
 
-The Terrace node lets you modulate the terracing process by attaching a second, optional input.
+Terrace (formerly called FractalTerraces) creates terraces or stratification of the terrain. The node is fractal in nature, and terracing is performed in multiple octaves giving you a very high level of detail.
 
-{.TIP} 
-> Try using two Terrace nodes: one with fewer terraces and lower uniformity, and another with several terraces and higher uniformity. The combined output can be tweaked using the Soft Falloff and Intensity settings to avoid over processing.
+You get detailed control over the edge shape, uniformity, rock hardness, and overall character of the terracing.

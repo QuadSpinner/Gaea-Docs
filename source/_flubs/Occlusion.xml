@@ -2,22 +2,14 @@
 <ArrayOfFlub xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Flub>
     <Name>Passes</Name>
-    <Description>TODO</Description>
+    <Description>Number of occlusion passes. Higher passes provide more detail while being densely packed. Try using higher Power and Multiplier before increasing number of passes.</Description>
   </Flub>
   <Flub>
     <Name>Power</Name>
-    <Description>TODO</Description>
+    <Description>The strength of the occlusion. Higher values occlude large geological features such as valleys and gullies, while lower values occlude crevices and smaller features.</Description>
   </Flub>
   <Flub>
     <Name>Multiplier</Name>
-    <Description>TODO</Description>
-  </Flub>
-  <Flub>
-    <Name>Invert</Name>
-    <Description>TODO</Description>
-  </Flub>
-  <Flub>
-    <Name>Strong</Name>
-    <Description>TODO</Description>
+    <Description>Multiplies the power. Default value works in most situations, but you can use it to fine tune the power or increase it to immense levels.</Description>
   </Flub>
 </ArrayOfFlub>
