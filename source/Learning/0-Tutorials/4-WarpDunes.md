@@ -11,6 +11,6 @@ The basic idea is to mix two separate terrains (Dunes and Rock formation) with 1
 
 This tutorial will also cover an important concept I like to call "Intentional Orphans". This is where nodes are used for something other than their primary output.
 
-<div class="embed-responsive embed-responsive-16by9">
-<iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/TwAOWEPD_XM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<div class="ui embed" data-source="youtube" data-id="TwAOWEPD_XM">
 </div>

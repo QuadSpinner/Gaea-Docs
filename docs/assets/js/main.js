@@ -32,6 +32,8 @@
         });
     }
 
+    $('.ui.embed').embed();
+
     $(".previewer").click(function () {
         const labs = $(this).data("labels");
 
@@ -47,6 +49,7 @@
         function changeModal() {
             const val = slider.slider("get value");
             $("#modalimage").attr("src", "/images/Paraminator/" + $("body").data("title") + "/" + flub.replace(" ", "-") + "/" + val + ".webp");
+            $("#modaltitle").text(flub + " - " + labs[val]);
         }
 
         changeModal();

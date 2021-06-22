@@ -46,11 +46,11 @@
   </Flub>
   <Flub>
     <Name>Terrain Scale</Name>
-    <Description>Available when Real Scale is turned Off &lt;br&gt;The simulated scale of the entire width of the terrain.</Description>
+    <Description>The simulated scale of the entire width of the terrain. (Available when Rivers is turned On)</Description>
   </Flub>
   <Flub>
     <Name>Verticality</Name>
-    <Description>Available when Real Scale is turned Off &lt;br&gt;The simulated height of the entire terrain.</Description>
+    <Description>The simulated height of the entire terrain. (Available when Rivers is turned On)</Description>
   </Flub>
   <Flub>
     <Name>Flow</Name>
@@ -65,12 +65,8 @@
     <Description>This is another special parameter, which alters erosion physics, treating water flows as volumetric objects, affecting each other, causing higher water levels during simulation, which results in wider channels, filled with more deposits. This is another way to get valley floor, and it works without downcutting.</Description>
   </Flub>
   <Flub>
-    <Name>Rivers</Name>
-    <Description>Artificially carve rivers in the strongest flow lines.</Description>
-  </Flub>
-  <Flub>
-    <Name>Depth</Name>
-    <Description>Available when Rivers is turned On &lt;br&gt;The depth of the rivers that are carved.</Description>
+    <Name>Sediment Removal</Name>
+    <Description>Removes the sediment produced in the erosion process. This can be modulated using the Sedimental Removal mask input.</Description>
   </Flub>
   <Flub>
     <Name>Selective Processing</Name>
@@ -131,6 +127,7 @@
     <Description>Process erosion faster at the risk of creating soft erosion artifacts in some minor areas.</Description>
   </Flub>
   <Flub>
-    <Name>Disable Parallel Processing</Name>
+    <Name>Deterministic (Slow)</Name>
+    <Description>Parallel processing using all CPU cores can create small variations every time the node is built. You can enable Deterministic processing to ensure the exact same shape is produced every time. However, this will force the algorithm to reduce its parallelism and use a single CPU core.</Description>
   </Flub>
 </ArrayOfFlub>

@@ -8,7 +8,7 @@ Gaea can be used as a silent processor from other applications from the command 
 {.WARNING}
 > The end-user must have a Professional or Enterprise edition of Gaea.
 
-### Core Concept
+## Core Concept
 
 The Bridge can be created using any programming language, as long as you meet the following requirements:
 - Invoke command lines and wait for process to exit

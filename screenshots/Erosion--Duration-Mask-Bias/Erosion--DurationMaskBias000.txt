@@ -1,3 +1,0 @@
-Duration = 10.00%
-Mask = Precipitation Amount
-Bias = 80.00%

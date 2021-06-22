@@ -7,8 +7,7 @@ This handy trick can help you emphasize the sharper portions of your terrain to 
 
 <br>
 
-<div class="embed-responsive embed-responsive-16by9">
-<iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/c8g4AYPm2XA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="ui embed" data-source="youtube" data-id="c8g4AYPm2XA">
 </div>
 
 <br>

@@ -7,11 +7,11 @@ Creating your own Gaea recipe is easy. The easiest way is to first create a norm
 
 You can utilize a single Gaea node such as Erosion, Stacks, Texture, etc or entire graph networks inside your target application.
 
-### Inputs and Outputs
+#### Inputs and Outputs
 
 For each heightfield or mask you want to send from the target application, create a @File node. Similarly, set up an @Output for each heightmap or color map to be sent back to target application. Remember to ensure a unique name for each node's filename variable to avoid crashes or data loss.
 
-### Exposing variables
+#### Exposing variables
 
 To expose a node's properties, use `Node Properties` `>` `Expose Properties`.
 
@@ -29,7 +29,7 @@ Repeat the process for any other nodes you wish to expose.
 You can access all exposed properties from the `Node Properties Menu` `>` `Show Exposed Properties` or press `F12`.
 
 
-### Maintain Scale
+#### Maintain Scale
 
 To ensure both input and output data retains the same level of fidelity, we strongly encourage using a 32-bit format for heightmaps.
 

@@ -35,8 +35,7 @@ LookDev nodes are primarily for creating terrains, however, nodes like @Canyoniz
 
 Most importantly, you can use LookDev nodes to take basic shapes and turn them into elaborate terrains in minutes. A great example of such a process is shown in the @tut-rugged-outcrops tutorial.
 
-<div class="embed-responsive embed-responsive-16by9">
-<iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/c8g4AYPm2XA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="ui embed" data-source="youtube" data-id="c8g4AYPm2XA">
 </div>
 
 {.NOTE}
