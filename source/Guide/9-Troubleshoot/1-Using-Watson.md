@@ -1,6 +1,6 @@
 ---
 uid: watson
-title: Using Watson for Troubleshooting
+title: Troubleshooting with Watson
 ---
 
 ## Watson Diagnostics Tool
