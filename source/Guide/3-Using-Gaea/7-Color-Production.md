@@ -1,6 +1,7 @@
 ---
 uid: color-production
 title: Procedural Textures
+section: true
 ---
 ^wip
 

@@ -1,6 +1,6 @@
 ---
 uid: tiled-builds
-title: Tiled Builds
+title: Preparing Terrains for Tiling
 ---
 ^future
 ^wip

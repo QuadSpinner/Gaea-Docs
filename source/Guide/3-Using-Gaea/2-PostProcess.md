@@ -1,6 +1,7 @@
 ---
 uid: postprocess
 title: Post Process Stack
+section: true
 ---
 
 The Post Process options sit right under the Properties and provide quick access to common functions. Using the Post Process Stack allows you to skip having to create common adjustment nodes, which reduces the clutter in your graph and increases efficiency.

@@ -43,6 +43,19 @@
                 }
             }
 
+            .startSection::before {
+                background: white;
+                margin-bottom: 1em !important;
+                height: 4px;
+                width: 90%;
+                content: '';
+                display: block;
+                height: 1px;
+                opacity: 0.1;
+                position: relative;
+                left: -0.25em;
+            }
+
             .subitem {
                 display: block;
                 padding-bottom: 1em !important;

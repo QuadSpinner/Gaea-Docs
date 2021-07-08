@@ -71,3 +71,5 @@ interactions can be limited. The resulting tiles are blended with the
 neighbors to bypass this limitation. In most cases, this is enough to
 create a seamless look, but in certain cases
 
+See @tiled-builds for details on how a terrain must be prepared for bucket processing.
+

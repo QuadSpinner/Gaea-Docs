@@ -17,4 +17,4 @@ What makes Erosion Studio quite unique is that lets you work with very high reso
 
 #### Preparing a Terrain
 
-Erosion Studio requires an existing terrain. You can use any terrain as long as it is a `.r32` (Binary array of 32-bit floats) format heightfield. Gaea can export any heightfield to `.r32`. If you original source is from elsewhere, you can load that file in Gaea using the @File node and export it to `.r32`, then load it in Erosion Studio.
+Erosion Studio requires an existing terrain. You can use any terrain as long as it is a `.r32` (Binary array of 32-bit floats) format heightfield. Gaea can export any heightfield to `.r32`. If your original source is from elsewhere, you can load that file in Gaea using the @File node and export it to `.r32`, then load it in Erosion Studio.

@@ -1,6 +1,7 @@
 ---
 uid: scale
 title: Terrain Scale
+section: true
 ---
 
 Gaea supports setting an arbitrary scale for your terrains through the new Terrain Definition panel. If you're a casual terrain artist, this won't significantly affect your workflow — the defaults will be sufficient. However, if you're creating precisely-scaled terrains, Terrain Definition is your best friend.
@@ -88,7 +89,7 @@ Technically, this is the most accurate representation of the terrain because the
 
 An easy way in most applications is to create a box of the desired size and match the scale of the terrain asset. Or if you use a heightmap as a displacement source, then you can set the displacement in meters (or appropriate units).
 
-If you need to scale it down vertically, use the Height-Scale ratio explained below.
+If you need to scale it down vertically, use the Height-Scale ratio explained in Important Readouts above.
 
 #### Proportional or Baked Scale
 
@@ -98,7 +99,7 @@ When bringing the terrain into your target application, you can optionally treat
 
 #### Normalized Scale
 
-Forced scaling, in many situations, can give you maximum vertical fidelity. Gaea will force the terrain to use the entire `~0.0,000,000 - 1.0,000,000` height range in 32-bit formats. In 16-bit images that would be `0 - 65,534`. In 8-bit, it is `0 - 254`. If you need more vertical fidelity for closeups, this option may help as you get more density in the up-axis than in other methods.
+Forced scaling, in many situations, can give you maximum vertical fidelity. Gaea will force the terrain to use the entire `~0.0000000 - 1.0000000` height range in 32-bit formats (16.7 million levels). In 16-bit images that would be `0 - 65,534`. In 8-bit, it is `0 - 254`. If you need more vertical fidelity for closeups, this option may help as you get more density in the up-axis than in other methods.
 
 When using forced scaling, you must adjust the vertical size of your output manually in the target application. Like with Natural Scale, use the Height-Scale Ratio.
 

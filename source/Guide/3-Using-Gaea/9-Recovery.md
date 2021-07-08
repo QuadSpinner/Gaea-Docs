@@ -25,13 +25,15 @@ Sometimes you may want to experiment with a node's settings, and after doing so 
 
 #### Autosave
 
-Gaea will attempt to save a copy of your file before every major action. For example, when you add a new node, an autosave will be created before the node is added. Same for deleting, moving large parts, splitting the graph, etc.
+Gaea will attempt to save a copy of your `.TOR/.TORX` file before every major action. For example, when you add a new node, an autosave will be created before the node is added. Same for deleting, moving large parts, splitting the graph, etc.
 
 Autosaves can be accessed from the main menu via `Open recent > Open Autosave`{.cmd}. Files are stored with the original filename and a timestamp suffix such as `scene1_2020-08-08_19-05-17.tor`{.val}.
 
 Autosaves are saved to `C:\Users\[You]\AppData\Roaming\QuadSpinner\Gaea\Autosaves\`{.path}.
 
 Autosave can be disabled in @preferences.
+
+Sculpting sessions are not autosaved due to size contraints. We recommend saving often and backing up.
 
 #### Backward Compatibility
 

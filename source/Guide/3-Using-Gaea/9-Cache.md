@@ -4,6 +4,7 @@ title: Baking and Caching
 ---
 
 Gaea uses various forms of baked caches to speed up processing and build times.
+
 ## Baking
 
 #### What is baking?

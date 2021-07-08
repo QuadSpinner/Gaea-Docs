@@ -19,7 +19,7 @@ The algorithm also creates exquisite flows with naturalistic curves, never befor
 
 #### Selective Processing
 
-While the @Erosion node can be masked using the standard @masking process, the Area mask input gives you additional options.
+While the @Erosion node can be masked using the standard masking process (see @modify), the Area mask input gives you additional options.
 
 When an Area mask is connected, you can control the Rock Softness, Precipitation, or Erosion Strength. Unlike the standard mask, this mask allows the processing to be masked but not the shape. For example, you can mask out the top part of a volcano and choose Precipitation as the Area Effect. This forces the erosion-inducing precipitation to occur only within the masked area. But the resulting erosion can flow out and affect the rest of the terrain.
 

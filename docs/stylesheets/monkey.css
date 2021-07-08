@@ -81,6 +81,17 @@ figure {
           transition: all linear 0.2s; }
         #main-nav .item .accordion .title .icon {
           font-size: 11px; }
+      #main-nav .item .accordion .startSection::before {
+        background: white;
+        margin-bottom: 1em !important;
+        height: 4px;
+        width: 90%;
+        content: '';
+        display: block;
+        height: 1px;
+        opacity: 0.1;
+        position: relative;
+        left: -0.25em; }
       #main-nav .item .accordion .subitem {
         display: block;
         padding-bottom: 1em !important;
