@@ -116,7 +116,6 @@
 
     $("#results").load("/search.json", function (responseTxt, statusTxt) {
         if (statusTxt == "success") {
-            console.log("search loaded");
             data = JSON.parse(responseTxt);
             $('.ui.search')
                 .search({

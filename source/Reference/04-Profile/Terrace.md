@@ -1,8 +1,10 @@
----
+﻿---
 uid: Terrace
 title: Terrace
 ---
 
-Terrace (formerly called FractalTerraces) creates terraces or stratification of the terrain. The node is fractal in nature, and terracing is performed in multiple octaves giving you a very high level of detail.
+Terrace adds even stratification to the terrain.
 
-You get detailed control over the edge shape, uniformity, rock hardness, and overall character of the terracing.
+{.NOTE}
+> Take a look at the @FractalTerraces node which provides fractal generation and additional features. The Terrace node is not deprecated or considered obsolete, however in most scenarios @FractalTerraces will provide better results.
+

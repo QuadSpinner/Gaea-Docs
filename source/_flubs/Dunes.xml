@@ -1,32 +1,112 @@
 <?xml version="1.0"?>
 <ArrayOfFlub xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Flub>
+    <Name>Structure</Name>
+    <Description>T</Description>
+  </Flub>
+  <Flub>
     <Name>Method</Name>
     <Flubs>
       <Flub>
         <Name>Dune Sea</Name>
-        <Description>Creates large dune fields with fewer variations.</Description>
       </Flub>
       <Flub>
-        <Name>Chaotic</Name>
-        <Description>Creates smaller dune areas with larger variations.</Description>
+        <Name>Random Dunes</Name>
       </Flub>
     </Flubs>
   </Flub>
   <Flub>
-    <Name>Scale</Name>
-    <Description>The size of the dunes.</Description>
+    <Name>Single Pass</Name>
   </Flub>
   <Flub>
-    <Name>Strength</Name>
-    <Description>The strength of the dunes' undulation.</Description>
+    <Name>Small</Name>
+  </Flub>
+  <Flub>
+    <Name>Large</Name>
+  </Flub>
+  <Flub>
+    <Name>Undulation</Name>
+  </Flub>
+  <Flub>
+    <Name>Wind Channels</Name>
+  </Flub>
+  <Flub>
+    <Name>Direction (Large)</Name>
+  </Flub>
+  <Flub>
+    <Name>Direction (Small)</Name>
+  </Flub>
+  <Flub>
+    <Name>Scale</Name>
+  </Flub>
+  <Flub>
+    <Name>Wind Direction</Name>
+  </Flub>
+  <Flub>
+    <Name>Dune Type</Name>
+    <Flubs>
+      <Flub>
+        <Name>A</Name>
+      </Flub>
+      <Flub>
+        <Name>B</Name>
+      </Flub>
+      <Flub>
+        <Name>C</Name>
+      </Flub>
+      <Flub>
+        <Name>D</Name>
+      </Flub>
+    </Flubs>
+  </Flub>
+  <Flub>
+    <Name>Chaos</Name>
+    <Flubs>
+      <Flub>
+        <Name>None</Name>
+      </Flub>
+      <Flub>
+        <Name>Low</Name>
+      </Flub>
+      <Flub>
+        <Name>Medium</Name>
+      </Flub>
+      <Flub>
+        <Name>High</Name>
+      </Flub>
+    </Flubs>
+  </Flub>
+  <Flub>
+    <Name>Undulation</Name>
+    <Flubs>
+      <Flub>
+        <Name>None</Name>
+      </Flub>
+      <Flub>
+        <Name>Low</Name>
+      </Flub>
+      <Flub>
+        <Name>Medium</Name>
+      </Flub>
+      <Flub>
+        <Name>High</Name>
+      </Flub>
+    </Flubs>
+  </Flub>
+  <Flub>
+    <Name>Shape</Name>
+    <Description>T</Description>
+  </Flub>
+  <Flub>
+    <Name>Softness</Name>
+  </Flub>
+  <Flub>
+    <Name>Sharpness</Name>
   </Flub>
   <Flub>
     <Name>Height</Name>
-    <Description>The height of the tallest dune.</Description>
   </Flub>
   <Flub>
     <Name>Seed</Name>
-    <Description>The randomization pattern or seed for the node's process.</Description>
   </Flub>
 </ArrayOfFlub>

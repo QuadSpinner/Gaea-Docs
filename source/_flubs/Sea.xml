@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<ArrayOfFlub xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Flub>
+    <Name>Sea Arragement</Name>
+    <Flubs>
+      <Flub>
+        <Name>Global</Name>
+      </Flub>
+      <Flub>
+        <Name>Surrounding</Name>
+      </Flub>
+    </Flubs>
+  </Flub>
+  <Flub>
+    <Name>Level</Name>
+  </Flub>
+  <Flub>
+    <Name>Shore Size</Name>
+  </Flub>
+  <Flub>
+    <Name>Shore Height</Name>
+  </Flub>
+  <Flub>
+    <Name>Don't render sea surface</Name>
+  </Flub>
+</ArrayOfFlub>

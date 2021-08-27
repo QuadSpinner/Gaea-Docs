@@ -7,6 +7,11 @@
             vertical-align: top;
             font-weight: 600;
             text-align: right !important;
+
+            @media(max-width: 768px) {
+                text-align: left !important;
+            }
+
             border-right: 1px solid #f4f4f4;
             min-width: 12vw;
             max-width: 33vw;

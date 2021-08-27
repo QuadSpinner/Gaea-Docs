@@ -36,6 +36,26 @@
         <Name>Rivers</Name>
         <Description>Deepen existing flow structure in major river flow zones only.</Description>
       </Flub>
+      <Flub>
+        <Name>Rivers x2</Name>
+        <Description>A powerful version of the Rivers mode.</Description>
+      </Flub>
+      <Flub>
+        <Name>Rivers x4</Name>
+        <Description>An extreme version of the Rivers mode.</Description>
+      </Flub>
+      <Flub>
+        <Name>Flooding</Name>
+        <Description>Intense low-altitude, low-slope, destructive mode. Use sparingly.</Description>
+      </Flub>
+      <Flub>
+        <Name>Flooding x2</Name>
+        <Description>A more powerful version of Flooding. May not work with some terrains.</Description>
+      </Flub>
+      <Flub>
+        <Name>Flooding x4</Name>
+        <Description>An extreme version of Flooding. May not work with some terrains.</Description>
+      </Flub>
     </Flubs>
   </Flub>
 </ArrayOfFlub>

@@ -1,51 +1,66 @@
 <?xml version="1.0"?>
 <ArrayOfFlub xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Flub>
-    <Name>Structure</Name>
+    <Name>Terracing</Name>
     <Description>T</Description>
   </Flub>
   <Flub>
-    <Name>Single Pass</Name>
+    <Name>Mode</Name>
+    <Flubs>
+      <Flub>
+        <Name>Simple</Name>
+      </Flub>
+      <Flub>
+        <Name>Advanced</Name>
+      </Flub>
+    </Flubs>
+  </Flub>
+  <Flub>
+    <Name>Spacing</Name>
     <Description>Lorem ipsum</Description>
   </Flub>
   <Flub>
-    <Name>Small</Name>
+    <Name>Octaves</Name>
     <Description>Lorem ipsum</Description>
   </Flub>
   <Flub>
-    <Name>Large</Name>
-    <Description>Lorem ipsum</Description>
-  </Flub>
-  <Flub>
-    <Name>Undulation</Name>
-    <Description>Lorem ipsum</Description>
-  </Flub>
-  <Flub>
-    <Name>Channels</Name>
-    <Description>Lorem ipsum</Description>
-  </Flub>
-  <Flub>
-    <Name>Wind A</Name>
-    <Description>Lorem ipsum</Description>
-  </Flub>
-  <Flub>
-    <Name>Wind B</Name>
+    <Name>Intensity</Name>
     <Description>Lorem ipsum</Description>
   </Flub>
   <Flub>
     <Name>Shape</Name>
-    <Description>T</Description>
-  </Flub>
-  <Flub>
-    <Name>Softness</Name>
-    <Description>Lorem ipsum</Description>
-  </Flub>
-  <Flub>
-    <Name>Sharpness</Name>
     <Description>Lorem ipsum</Description>
   </Flub>
   <Flub>
     <Name>Seed</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
+    <Name>Advanced</Name>
+    <Description>T</Description>
+  </Flub>
+  <Flub>
+    <Name>Shapes separation</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
+    <Name>Macro octaves</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
+    <Name>Micro shape</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
+    <Name>Character</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
+    <Name>Thickness uniformity</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
+    <Name>Hardness uniformity</Name>
     <Description>Lorem ipsum</Description>
   </Flub>
 </ArrayOfFlub>

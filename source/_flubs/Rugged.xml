@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<ArrayOfFlub xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Flub>
+    <Name>Strength</Name>
+    <Description>The strength of the indentations created by the node.</Description>
+  </Flub>
+  <Flub>
+    <Name>Scale</Name>
+    <Description>The size of the geological features.</Description>
+  </Flub>
+  <Flub>
+    <Name>Octaves</Name>
+    <Description>The number of octaves or iterations of breakage.</Description>
+  </Flub>
+  <Flub>
+    <Name>Sweep</Name>
+    <Description>The number of iterations of for lateral erosion from flowing water. When the Scale value is high, a larger number of Sweep iterations may be required to smooth the rock strata.</Description>
+  </Flub>
+  <Flub>
+    <Name>Depth</Name>
+    <Description>The average depth of the indentations.</Description>
+  </Flub>
+  <Flub>
+    <Name>Density</Name>
+    <Description>The density of the indentation structure. Negative values create deep and wide crevices, while positive values fuse the crevices together, leaving small pockets.</Description>
+  </Flub>
+  <Flub>
+    <Name>Fragmentation</Name>
+    <Description>The amount of breakage of the rock strata in each iteration. High values require fewer octaves, but create more uniformity.</Description>
+  </Flub>
+  <Flub>
+    <Name>Seed</Name>
+    <Description>The randomization pattern or seed for the node's process.</Description>
+  </Flub>
+  <Flub>
+    <Name>Warped</Name>
+    <Description>Add warping to each octaves to create slightly curved shapes.</Description>
+  </Flub>
+  <Flub>
+    <Name>Reverse</Name>
+    <Description>Reverse the structure of the indentations. This creates sharper crevices and edges.</Description>
+  </Flub>
+  <Flub>
+    <Name>Hard Effect</Name>
+    <Description>By default, the indentations are softened based on altitude and slope. For low surfaces or if a deeper effect is required, turn this option on.</Description>
+  </Flub>
+</ArrayOfFlub>

@@ -1,6 +1,6 @@
 ---
 uid: user-guide
-title: Welcome
+title: Introduction
 ---
 
 Welcome to the Gaea User Guide. The documentation is organized to help you get started with Gaea quickly and easily regardless of your skill level.

@@ -5,6 +5,8 @@ title: Lakes
 
 The Lakes node simulates rainfall on the terrain and creates physically accurate lakes. Even when overriding with custom masks for precipitation, the physics simulation ensures your lakes are as physically accurate as possible using Gaea's erosion engine.
 
+^hiddenports
+
 ### Outputs
 
 There are multiple outputs to help you with the post-generation tasks such as colorization, surface separation, and more.
