@@ -1,6 +1,7 @@
 ---
 uid: Buildup
 title: Buildup
+special: parallel
 ---
 
 Buildup is an inverse form of erosion. Instead of taking sediments away, like the drag of Hydraulic erosion, Buildup adds crusting to convex edges of the terrain. 

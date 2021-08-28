@@ -38,6 +38,7 @@
   </Flub>
   <Flub>
     <Name>Autolevel</Name>
+    <Description>T</Description>
   </Flub>
   <Flub>
     <Name>Equalize</Name>
@@ -48,6 +49,7 @@
   </Flub>
   <Flub>
     <Name>Equalize</Name>
+    <Description>T</Description>
   </Flub>
   <Flub>
     <Name>Gamma</Name>
@@ -61,6 +63,7 @@
   </Flub>
   <Flub>
     <Name>Gamma</Name>
+    <Description>T</Description>
   </Flub>
   <Flub>
     <Name>Clarity</Name>
@@ -78,6 +81,7 @@
   </Flub>
   <Flub>
     <Name>Noise</Name>
+    <Description>T</Description>
   </Flub>
   <Flub>
     <Name>Seed</Name>
@@ -89,6 +93,7 @@
   </Flub>
   <Flub>
     <Name>Blur</Name>
+    <Description>T</Description>
   </Flub>
   <Flub>
     <Name>Power</Name>

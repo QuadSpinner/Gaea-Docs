@@ -29,6 +29,10 @@
     <Description>Generate optional masks. Disabling this when not using masks will give you a small performance benefit.</Description>
   </Flub>
   <Flub>
+    <Name>Fast</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
     <Name>Seed</Name>
     <Description>The randomization pattern or seed for the node's process.</Description>
   </Flub>

@@ -31,12 +31,8 @@
     </Flubs>
   </Flub>
   <Flub>
-    <Name>Adaptive Scaling</Name>
-    <Description>Adaptively resize the file. This is very useful for lower resolution images.</Description>
-  </Flub>
-  <Flub>
-    <Name>Invert</Name>
-    <Description>Invert the terrain.</Description>
+    <Name>High Quality Scaling</Name>
+    <Description>Lorem ipsum</Description>
   </Flub>
   <Flub>
     <Name>RGB</Name>

@@ -5,6 +5,25 @@
     <Description>T</Description>
   </Flub>
   <Flub>
+    <Name>Style</Name>
+    <Description>Lorem ipsum</Description>
+    <Flubs>
+      <Flub>
+        <Name>Normal</Name>
+      </Flub>
+      <Flub>
+        <Name>Hard</Name>
+      </Flub>
+      <Flub>
+        <Name>Classic</Name>
+      </Flub>
+    </Flubs>
+  </Flub>
+  <Flub>
+    <Name>Octaves</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
     <Name>Scale</Name>
     <Description>The overall size of the cracked pattern.</Description>
   </Flub>
@@ -13,16 +32,24 @@
     <Description>The depth of the cracks. It also widens the cracks.</Description>
   </Flub>
   <Flub>
+    <Name>Jitter</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
+    <Name>Warp Strength</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
+    <Name>Warp Size</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
     <Name>Seed</Name>
     <Description>The randomization pattern or seed for the node's process.</Description>
   </Flub>
   <Flub>
     <Name>Advanced settings</Name>
     <Description>T</Description>
-  </Flub>
-  <Flub>
-    <Name>Hard Cracks</Name>
-    <Description>When enabled, the edges of the cracks are not refined and may show aliasing. This may be useful if the softer edges create artifacts in other nodes.</Description>
   </Flub>
   <Flub>
     <Name>Scale X</Name>

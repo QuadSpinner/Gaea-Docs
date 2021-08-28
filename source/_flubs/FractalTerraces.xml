@@ -8,10 +8,10 @@
     <Name>Mode</Name>
     <Flubs>
       <Flub>
-        <Name>Simple</Name>
+        <Name>Classic</Name>
       </Flub>
       <Flub>
-        <Name>Advanced</Name>
+        <Name>Improved</Name>
       </Flub>
     </Flubs>
   </Flub>

@@ -9,12 +9,27 @@
     <Description>The different types of crater styles.</Description>
     <Flubs>
       <Flub>
-        <Name>Volcanic</Name>
+        <Name>Craterfield</Name>
       </Flub>
       <Flub>
-        <Name>Impact</Name>
+        <Name>Volcanic Crater</Name>
+      </Flub>
+      <Flub>
+        <Name>Impact Crater</Name>
       </Flub>
     </Flubs>
+  </Flub>
+  <Flub>
+    <Name>Scale</Name>
+    <Description>The scale of the volcano.</Description>
+  </Flub>
+  <Flub>
+    <Name>Depth</Name>
+    <Description>Depth of the impact. Lowering the depth also elevates the surrounding ground level.</Description>
+  </Flub>
+  <Flub>
+    <Name>Density</Name>
+    <Description>Lorem ipsum</Description>
   </Flub>
   <Flub>
     <Name>Scale</Name>
@@ -55,6 +70,14 @@
   <Flub>
     <Name>Global</Name>
     <Description>T</Description>
+  </Flub>
+  <Flub>
+    <Name>X</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
+    <Name>Y</Name>
+    <Description>Lorem ipsum</Description>
   </Flub>
   <Flub>
     <Name>Displacement</Name>

@@ -20,13 +20,12 @@
     <Name>Abs</Name>
   </Flub>
   <Flub>
-    <Name>Bias-Gain</Name>
+    <Name>Blur</Name>
+    <Description>Lorem ipsum</Description>
   </Flub>
   <Flub>
-    <Name>Gain</Name>
-  </Flub>
-  <Flub>
-    <Name>Bias</Name>
+    <Name>Blur</Name>
+    <Description>Lorem ipsum</Description>
   </Flub>
   <Flub>
     <Name>Clamp</Name>

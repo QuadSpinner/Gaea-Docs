@@ -20,11 +20,11 @@ body.pushable .pusher {
   padding-right: 0.3em; }
 
 p code {
-  background-color: #e3e7e9;
-  border: 0;
-  padding-left: 0.5em;
-  padding-right: 0.5em;
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2); }
+  background-color: #e0e1e2;
+  border: 1px solid #c3c7cc;
+  padding-left: 0.25em;
+  padding-right: 0.25em;
+  /*box-shadow: 0 6px 20px rgba(0,0,0,0.2);*/ }
 
 /*
 h2 {
@@ -94,7 +94,8 @@ figure {
         left: -0.25em; }
       #main-nav .item .accordion .subitem {
         display: block;
-        padding-bottom: 1em !important;
+        padding-top: 0.5em !important;
+        padding-bottom: 0.5em !important;
         padding-left: 1.8em;
         font-size: 12px;
         color: #d4d4d4 !important;

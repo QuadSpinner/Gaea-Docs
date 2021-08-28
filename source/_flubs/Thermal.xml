@@ -25,6 +25,10 @@
     <Description>Settling of sediments in the talus.</Description>
   </Flub>
   <Flub>
+    <Name>Sediment Removal</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
     <Name>Fine Detail</Name>
     <Description>Enable rocky debris in the talus.</Description>
   </Flub>

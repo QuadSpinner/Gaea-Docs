@@ -15,12 +15,29 @@
     <Name>Level</Name>
   </Flub>
   <Flub>
+    <Name>Coastal Erosion</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
     <Name>Shore Size</Name>
   </Flub>
   <Flub>
     <Name>Shore Height</Name>
   </Flub>
   <Flub>
-    <Name>Don't render sea surface</Name>
+    <Name>Variation</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
+    <Name>Uniform Variation Morphing</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
+    <Name>Extra Cliff Details</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
+    <Name>Render water surface</Name>
+    <Description>Lorem ipsum</Description>
   </Flub>
 </ArrayOfFlub>
