@@ -125,6 +125,10 @@
                         title: 'title',
                         url: 'url'
                     },
+                    searchFields: [
+                        'title', 'text'
+                    ],
+                    fullTextSearch: 'exact',
                     minCharacters: 2
                 });
         }

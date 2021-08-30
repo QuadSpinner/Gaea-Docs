@@ -13,27 +13,12 @@
     <Description>The faded edge / sprawl of the mountain.</Description>
   </Flub>
   <Flub>
-    <Name>Seed</Name>
-    <Description>The randomization pattern or seed for the node's process.</Description>
-  </Flub>
-  <Flub>
-    <Name>Shape</Name>
-    <Description>T</Description>
-  </Flub>
-  <Flub>
-    <Name>Style</Name>
+    <Name>Bulky</Name>
     <Description>Lorem ipsum</Description>
-    <Flubs>
-      <Flub>
-        <Name>Classic</Name>
-      </Flub>
-      <Flub>
-        <Name>Smooth</Name>
-      </Flub>
-      <Flub>
-        <Name>Displaced</Name>
-      </Flub>
-    </Flubs>
+  </Flub>
+  <Flub>
+    <Name>Height</Name>
+    <Description>Lorem ipsum</Description>
   </Flub>
   <Flub>
     <Name>Type</Name>
@@ -52,5 +37,9 @@
         <Name>D</Name>
       </Flub>
     </Flubs>
+  </Flub>
+  <Flub>
+    <Name>Seed</Name>
+    <Description>The randomization pattern or seed for the node's process.</Description>
   </Flub>
 </ArrayOfFlub>

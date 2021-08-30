@@ -5,11 +5,30 @@
     <Description>Number of occlusion passes. Higher passes provide more detail while being densely packed. Try using higher Power and Multiplier before increasing number of passes.</Description>
   </Flub>
   <Flub>
-    <Name>Power</Name>
-    <Description>The strength of the occlusion. Higher values occlude large geological features such as valleys and gullies, while lower values occlude crevices and smaller features.</Description>
-  </Flub>
-  <Flub>
-    <Name>Multiplier</Name>
-    <Description>Multiplies the power. Default value works in most situations, but you can use it to fine tune the power or increase it to immense levels.</Description>
+    <Name>Mode</Name>
+    <Description>Lorem ipsum</Description>
+    <Flubs>
+      <Flub>
+        <Name>A</Name>
+      </Flub>
+      <Flub>
+        <Name>B</Name>
+      </Flub>
+      <Flub>
+        <Name>C</Name>
+      </Flub>
+      <Flub>
+        <Name>D</Name>
+      </Flub>
+      <Flub>
+        <Name>E</Name>
+      </Flub>
+      <Flub>
+        <Name>F</Name>
+      </Flub>
+      <Flub>
+        <Name>G</Name>
+      </Flub>
+    </Flubs>
   </Flub>
 </ArrayOfFlub>

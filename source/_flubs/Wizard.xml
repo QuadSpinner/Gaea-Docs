@@ -12,8 +12,20 @@
         <Description>Don't apply Phase 1. Phase 2, if selected, will still be applied.</Description>
       </Flub>
       <Flub>
+        <Name>Fast Erosion</Name>
+      </Flub>
+      <Flub>
         <Name>Gaea Classic</Name>
         <Description>Apply the classic Gaea erosion simulation.</Description>
+      </Flub>
+      <Flub>
+        <Name>Craggy</Name>
+      </Flub>
+      <Flub>
+        <Name>Dessicated</Name>
+      </Flub>
+      <Flub>
+        <Name>Swept Away</Name>
       </Flub>
       <Flub>
         <Name>Low Sediments</Name>
@@ -42,6 +54,9 @@
       <Flub>
         <Name>High</Name>
       </Flub>
+      <Flub>
+        <Name>!!</Name>
+      </Flub>
     </Flubs>
   </Flub>
   <Flub>
@@ -57,6 +72,9 @@
       <Flub>
         <Name>Soft</Name>
       </Flub>
+      <Flub>
+        <Name>!!</Name>
+      </Flub>
     </Flubs>
   </Flub>
   <Flub>
@@ -67,10 +85,13 @@
         <Name>Sand</Name>
       </Flub>
       <Flub>
-        <Name>Mixed</Name>
+        <Name>Gravel</Name>
       </Flub>
       <Flub>
         <Name>Rocky</Name>
+      </Flub>
+      <Flub>
+        <Name>!!</Name>
       </Flub>
     </Flubs>
   </Flub>
@@ -87,6 +108,9 @@
       <Flub>
         <Name>Deep</Name>
       </Flub>
+      <Flub>
+        <Name>!!</Name>
+      </Flub>
     </Flubs>
   </Flub>
   <Flub>
@@ -101,6 +125,9 @@
       </Flub>
       <Flub>
         <Name>High</Name>
+      </Flub>
+      <Flub>
+        <Name>!!</Name>
       </Flub>
     </Flubs>
   </Flub>
@@ -117,6 +144,9 @@
       <Flub>
         <Name>High</Name>
       </Flub>
+      <Flub>
+        <Name>!!</Name>
+      </Flub>
     </Flubs>
   </Flub>
   <Flub>
@@ -132,6 +162,9 @@
       <Flub>
         <Name>High</Name>
       </Flub>
+      <Flub>
+        <Name>!!</Name>
+      </Flub>
     </Flubs>
   </Flub>
   <Flub>
@@ -143,6 +176,9 @@
       <Flub>
         <Name>None</Name>
         <Description>Do not apply a Phase 2 recipe.</Description>
+      </Flub>
+      <Flub>
+        <Name>Mild Erosion</Name>
       </Flub>
       <Flub>
         <Name>Rivers</Name>
@@ -186,6 +222,9 @@
       </Flub>
       <Flub>
         <Name>High</Name>
+      </Flub>
+      <Flub>
+        <Name>!!</Name>
       </Flub>
     </Flubs>
   </Flub>

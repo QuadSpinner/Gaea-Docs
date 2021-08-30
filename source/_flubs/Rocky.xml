@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<ArrayOfFlub xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Flub>
+    <Name>Size</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
+    <Name>Mode</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
+    <Name>Style</Name>
+    <Description>Lorem ipsum</Description>
+    <Flubs>
+      <Flub>
+        <Name>A</Name>
+      </Flub>
+      <Flub>
+        <Name>B</Name>
+      </Flub>
+      <Flub>
+        <Name>C</Name>
+      </Flub>
+    </Flubs>
+  </Flub>
+  <Flub>
+    <Name>Size2</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
+    <Name>Blur</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
+    <Name>Warp1</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
+    <Name>Roughness</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
+    <Name>Height</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
+    <Name>Seed</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+</ArrayOfFlub>

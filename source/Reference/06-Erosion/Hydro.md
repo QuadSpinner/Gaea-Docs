@@ -1,6 +1,7 @@
 ---
 uid: Hydro
 title: Hydro
+special: parallel
 ---
 
 Hydro creates waterflow erosion, such as rivers and ancient seabeds. It can be used in two forms: Lateral and Ventral.

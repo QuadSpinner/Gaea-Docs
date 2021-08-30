@@ -1,0 +1,5 @@
+﻿---
+uid: SoftClip
+title: SoftClip
+---
+

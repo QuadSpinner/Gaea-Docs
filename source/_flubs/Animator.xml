@@ -1,0 +1,179 @@
+<?xml version="1.0"?>
+<ArrayOfFlub xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Flub>
+    <Name>Atmosphere</Name>
+    <Description>T</Description>
+  </Flub>
+  <Flub>
+    <Name>Background</Name>
+    <Description>Lorem ipsum</Description>
+    <Flubs>
+      <Flub>
+        <Name>Default Gray</Name>
+      </Flub>
+      <Flub>
+        <Name>Skybox</Name>
+      </Flub>
+      <Flub>
+        <Name>White</Name>
+      </Flub>
+      <Flub>
+        <Name>Black</Name>
+      </Flub>
+      <Flub>
+        <Name>Transparent</Name>
+      </Flub>
+    </Flubs>
+  </Flub>
+  <Flub>
+    <Name>Quality</Name>
+    <Description>Lorem ipsum</Description>
+    <Flubs>
+      <Flub>
+        <Name>Ultra</Name>
+      </Flub>
+      <Flub>
+        <Name>High</Name>
+      </Flub>
+      <Flub>
+        <Name>Medium</Name>
+      </Flub>
+      <Flub>
+        <Name>Low</Name>
+      </Flub>
+    </Flubs>
+  </Flub>
+  <Flub>
+    <Name>Sun azimuth</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
+    <Name>Sun elevation</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
+    <Name>Sun angular diameter</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
+    <Name>Exposure</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
+    <Name>Sun intensity</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
+    <Name>Ambient intensity</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
+    <Name>Air density</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
+    <Name>Haze</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
+    <Name>Ozone layer thickness</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
+    <Name>Animation</Name>
+    <Description>T</Description>
+  </Flub>
+  <Flub>
+    <Name>Motion</Name>
+    <Description>Lorem ipsum</Description>
+    <Flubs>
+      <Flub>
+        <Name>Turntable</Name>
+      </Flub>
+    </Flubs>
+  </Flub>
+  <Flub>
+    <Name>Resolution</Name>
+    <Description>Lorem ipsum</Description>
+    <Flubs>
+      <Flub>
+        <Name>1280 x 720</Name>
+      </Flub>
+      <Flub>
+        <Name>1920 x 1080</Name>
+      </Flub>
+      <Flub>
+        <Name>2560 x 1440</Name>
+      </Flub>
+      <Flub>
+        <Name>3840 x 2160</Name>
+      </Flub>
+    </Flubs>
+  </Flub>
+  <Flub>
+    <Name>Supersample</Name>
+    <Description>Lorem ipsum</Description>
+    <Flubs>
+      <Flub>
+        <Name>1x</Name>
+      </Flub>
+      <Flub>
+        <Name>2x</Name>
+      </Flub>
+      <Flub>
+        <Name>3x</Name>
+      </Flub>
+      <Flub>
+        <Name>4x</Name>
+      </Flub>
+    </Flubs>
+  </Flub>
+  <Flub>
+    <Name>Rotation</Name>
+    <Description>Lorem ipsum</Description>
+    <Flubs>
+      <Flub>
+        <Name>Clockwise</Name>
+      </Flub>
+      <Flub>
+        <Name>Counter-Clockwise</Name>
+      </Flub>
+    </Flubs>
+  </Flub>
+  <Flub>
+    <Name>Lighting</Name>
+    <Description>Lorem ipsum</Description>
+    <Flubs>
+      <Flub>
+        <Name>Attached to terrain</Name>
+      </Flub>
+      <Flub>
+        <Name>Fixed location</Name>
+      </Flub>
+    </Flubs>
+  </Flub>
+  <Flub>
+    <Name>Output</Name>
+    <Description>T</Description>
+  </Flub>
+  <Flub>
+    <Name>Path</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
+    <Name>Frames</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
+    <Name>Mode</Name>
+    <Description>Lorem ipsum</Description>
+    <Flubs>
+      <Flub>
+        <Name>Preview</Name>
+      </Flub>
+      <Flub>
+        <Name>To File</Name>
+      </Flub>
+    </Flubs>
+  </Flub>
+</ArrayOfFlub>

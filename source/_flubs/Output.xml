@@ -17,13 +17,13 @@
     <Description>Format in which the output file should be saved</Description>
     <Flubs>
       <Flub>
+        <Name>OpenEXR (32-bit)</Name>
+      </Flub>
+      <Flub>
         <Name>TIFF (32-bit)</Name>
       </Flub>
       <Flub>
         <Name>TIFF (16-bit)</Name>
-      </Flub>
-      <Flub>
-        <Name>OpenEXR (32-bit)</Name>
       </Flub>
       <Flub>
         <Name>PNG (16-bit)</Name>
@@ -32,16 +32,16 @@
         <Name>PNG (8-bit)</Name>
       </Flub>
       <Flub>
-        <Name>PSD 16-bit</Name>
+        <Name>Photoshop (16-bit)</Name>
       </Flub>
       <Flub>
-        <Name>RAW (16-bit)</Name>
+        <Name>RAW (16-bit ushort)</Name>
       </Flub>
       <Flub>
-        <Name>RAW (32-bit)</Name>
+        <Name>RAW (32-bit float)</Name>
       </Flub>
       <Flub>
-        <Name>PFM (32-bit)</Name>
+        <Name>PFM (32-bit float)</Name>
       </Flub>
     </Flubs>
   </Flub>

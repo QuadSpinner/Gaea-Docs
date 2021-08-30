@@ -22,7 +22,7 @@
   </Flub>
   <Flub>
     <Name>Downcutting</Name>
-    <Description>This parameter controls the amount of downcutting, or vertical erosion. This is additional erosion mechanics, allowing water to transport sediments beyond the fluvial capacity by dragging and moving undissolved materials. This results in deeper gullies, and can be useful for getting mountain ranges.</Description>
+    <Description>T</Description>
   </Flub>
   <Flub>
     <Name>Inhibition</Name>

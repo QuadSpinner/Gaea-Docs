@@ -8,7 +8,8 @@
     <Name>Size</Name>
   </Flub>
   <Flub>
-    <Name>Entropy</Name>
+    <Name>Enthropy</Name>
+    <Description>Lorem ipsum</Description>
   </Flub>
   <Flub>
     <Name>Anisotropy</Name>
@@ -17,27 +18,6 @@
     <Name>Anisotropy azimuth</Name>
   </Flub>
   <Flub>
-    <Name>Poisson lambda</Name>
-    <Flubs>
-      <Flub>
-        <Name>3.0</Name>
-      </Flub>
-      <Flub>
-        <Name>5.0</Name>
-      </Flub>
-    </Flubs>
-  </Flub>
-  <Flub>
     <Name>Seed</Name>
-  </Flub>
-  <Flub>
-    <Name>Fractal</Name>
-    <Description>T</Description>
-  </Flub>
-  <Flub>
-    <Name>Octaves</Name>
-  </Flub>
-  <Flub>
-    <Name>Roughness</Name>
   </Flub>
 </ArrayOfFlub>

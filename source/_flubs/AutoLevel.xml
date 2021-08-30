@@ -50,7 +50,7 @@
   </Flub>
   <Flub>
     <Name>Equalize</Name>
-    <Description>The strength of the equalization.</Description>
+    <Description>T</Description>
   </Flub>
   <Flub>
     <Name>Gamma</Name>
@@ -66,6 +66,6 @@
   </Flub>
   <Flub>
     <Name>Gamma</Name>
-    <Description>The Gamma amount to be used. This only works when Auto-Gamma is turned off.</Description>
+    <Description>T</Description>
   </Flub>
 </ArrayOfFlub>

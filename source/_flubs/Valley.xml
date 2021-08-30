@@ -30,6 +30,14 @@
     <Name>Sediments</Name>
   </Flub>
   <Flub>
+    <Name>Random</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
     <Name>Deterministic (Slow)</Name>
+  </Flub>
+  <Flub>
+    <Name>Seed</Name>
+    <Description>Lorem ipsum</Description>
   </Flub>
 </ArrayOfFlub>

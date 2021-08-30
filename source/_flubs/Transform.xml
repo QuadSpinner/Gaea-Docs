@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <ArrayOfFlub xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Flub>
-    <Name>Scale</Name>
+    <Name>Scale </Name>
     <Description>T</Description>
   </Flub>
   <Flub>
@@ -10,7 +10,7 @@
   </Flub>
   <Flub>
     <Name>Scale</Name>
-    <Description>The size of the terrain.</Description>
+    <Description>T</Description>
   </Flub>
   <Flub>
     <Name>Scale X</Name>

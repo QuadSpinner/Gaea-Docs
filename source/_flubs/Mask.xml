@@ -9,10 +9,6 @@
     <Description>The amount of blurring to apply.</Description>
   </Flub>
   <Flub>
-    <Name>Iterations</Name>
-    <Description>The number of times the blur is applied. Higher values give more varied softness at the expense of processing time.</Description>
-  </Flub>
-  <Flub>
     <Name>Autolevel</Name>
   </Flub>
 </ArrayOfFlub>
