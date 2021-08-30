@@ -1,6 +1,8 @@
 ---
 uid: learning
 title: Predictive System
+altkey: smartsearch
+alttitle: Smart Search
 ---
 
 ## Learning and Predictive System

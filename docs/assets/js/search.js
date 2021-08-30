@@ -41,7 +41,7 @@ $(document).ready(function () {
 
     function quickSearch(q) {
 
-        $("#quicksearch").load("/search.json", function (responseTxt, statusTxt) {
+        $("#data-storage").load("/search.json", function (responseTxt, statusTxt) {
             if (statusTxt == "success") {
                 data = JSON.parse(responseTxt);
                 window.idx = lunr(function () {
