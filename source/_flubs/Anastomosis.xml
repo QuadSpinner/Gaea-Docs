@@ -10,52 +10,57 @@
   </Flub>
   <Flub>
     <Name>Flow Width</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>The relative width of the areas impacted by the erosion.</Description>
   </Flub>
   <Flub>
     <Name>Erosion Depth</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>The influence or depth of the downcutting caused by the erosion.</Description>
   </Flub>
   <Flub>
     <Name>Flow</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>The style of the downcutting in the erosion process.</Description>
     <Flubs>
-      <Flub>
+     <Flub>
         <Name>Destructive</Name>
+        <Description>Tiny, small scale roughening of the entire surface with higher impact on steep slopes.</Description>
       </Flub>
       <Flub>
         <Name>Pits</Name>
+        <Description>Larger pit like impacts that overlap often, biased slightly towards existing flow structures.</Description>
       </Flub>
       <Flub>
         <Name>Flows</Name>
+        <Description>Deepen existing flow structures and create new minor ones.</Description>
       </Flub>
       <Flub>
         <Name>Rivers</Name>
+        <Description>Deepen existing flow structure in major river flow zones only.</Description>
       </Flub>
       <Flub>
         <Name>Rivers x2</Name>
+        <Description>A powerful version of the Rivers mode.</Description>
       </Flub>
       <Flub>
         <Name>Rivers x4</Name>
+        <Description>An extreme version of the Rivers mode.</Description>
       </Flub>
       <Flub>
         <Name>Flooding</Name>
+        <Description>Intense low-altitude, low-slope, destructive mode. Use sparingly.</Description>
       </Flub>
       <Flub>
         <Name>Flooding x2</Name>
+        <Description>A more powerful version of Flooding. May not work with some terrains.</Description>
       </Flub>
       <Flub>
         <Name>Flooding x4</Name>
+        <Description>An extreme version of Flooding. May not work with some terrains.</Description>
       </Flub>
     </Flubs>
   </Flub>
   <Flub>
-    <Name>Oriented</Name>
-    <Description>Lorem ipsum</Description>
-  </Flub>
-  <Flub>
     <Name>Accuracy</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>The accuracy of the simulation. You can speed up the simulation by lowering the accuracy.</Description>
     <Flubs>
       <Flub>
         <Name>1:4</Name>

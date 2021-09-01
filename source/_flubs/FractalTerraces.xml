@@ -9,46 +9,48 @@
     <Flubs>
       <Flub>
         <Name>Classic</Name>
+        <Description>The old method of generating Fractal Terraces. It provides fewer options, and is mainly provided for backward compatibility with older projects.</Description>
       </Flub>
       <Flub>
         <Name>Improved</Name>
+        <Description>The new default method. It provides detailed control over the fractal shape.</Description>
       </Flub>
     </Flubs>
   </Flub>
   <Flub>
     <Name>Spacing</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>The space between two terraces.</Description>
   </Flub>
   <Flub>
     <Name>Octaves</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>The number of terraces to generate, including subtle sub-terraces based on the space value above.</Description>
   </Flub>
   <Flub>
     <Name>Intensity</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>The strength of the terracing process. Higher intensities flatten the terrace.</Description>
   </Flub>
   <Flub>
     <Name>Shape</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>The general shape of the terraces. Lower values create steeper terraces that are closer to the terrain's bulk, while higher create smoother terraces that protrude outward.</Description>
   </Flub>
   <Flub>
     <Name>Seed</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>The randomization pattern or seed for the node's process.</Description>
   </Flub>
   <Flub>
     <Name>Advanced</Name>
     <Description>T</Description>
   </Flub>
   <Flub>
-    <Name>Shapes separation</Name>
+    <Name>Shapes Separation</Name>
     <Description>Lorem ipsum</Description>
   </Flub>
   <Flub>
-    <Name>Macro octaves</Name>
+    <Name>Macro Octaves</Name>
     <Description>Lorem ipsum</Description>
   </Flub>
   <Flub>
-    <Name>Micro shape</Name>
+    <Name>Micro Shape</Name>
     <Description>Lorem ipsum</Description>
   </Flub>
   <Flub>
@@ -56,11 +58,15 @@
     <Description>Lorem ipsum</Description>
   </Flub>
   <Flub>
-    <Name>Thickness uniformity</Name>
+    <Name>Thickness Uniformity</Name>
     <Description>Lorem ipsum</Description>
   </Flub>
   <Flub>
-    <Name>Hardness uniformity</Name>
+    <Name>Hardness Uniformity</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
+    <Name>Strata Details</Name>
     <Description>Lorem ipsum</Description>
   </Flub>
 </ArrayOfFlub>

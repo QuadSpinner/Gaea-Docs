@@ -2,13 +2,15 @@
 <ArrayOfFlub xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Flub>
     <Name>Method</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>The method through which details are extracted from the terrain.</Description>
     <Flubs>
       <Flub>
         <Name>High Frequency</Name>
+        <Description>Separate specific high frequencies, so sharp and smaller protruding shapes are isolated.</Description>
       </Flub>
       <Flub>
         <Name>Synthetic Details</Name>
+        <Description>Extract specific frequencies from the terrain and generate very shape-specific details for each portion of the terrain based on local attributes.</Description>
       </Flub>
     </Flubs>
   </Flub>

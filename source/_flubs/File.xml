@@ -26,13 +26,13 @@
       </Flub>
       <Flub>
         <Name>Mapped</Name>
-        <Description> Interpret the incoming data according to the Custom Range values in the Build Tab. </Description>
+        <Description>Interpret the incoming data according to the Custom Range values in the Build Tab. </Description>
       </Flub>
     </Flubs>
   </Flub>
   <Flub>
     <Name>High Quality Scaling</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>Sacrifice speed to increase the quality of the scaling. This is very useful if you have lots of small details you need to preserve, or if you're upscaling from a much lower resolution.</Description>
   </Flub>
   <Flub>
     <Name>RGB</Name>

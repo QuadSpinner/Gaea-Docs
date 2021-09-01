@@ -8,7 +8,4 @@
     <Name>Power</Name>
     <Description>The amount of blurring to apply.</Description>
   </Flub>
-  <Flub>
-    <Name>Autolevel</Name>
-  </Flub>
 </ArrayOfFlub>

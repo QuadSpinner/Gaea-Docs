@@ -5,17 +5,14 @@
     <Description>T</Description>
   </Flub>
   <Flub>
-    <Name>Index</Name>
-  </Flub>
-  <Flub>
-    <Name>Min</Name>
-  </Flub>
-  <Flub>
-    <Name>Max</Name>
-  </Flub>
-  <Flub>
     <Name>Library</Name>
-    <Description>TODO</Description>
+    <Description>
+      The Gaea SatMap library consists of hundreds of real life color patterns extracted from satellite data. You can choose from these different categories.
+
+      You can use the Random button to select maps randomly within the current library.
+
+      The Favorites button lets you filter the library to see only the ones you have marked as favorites. A map can be marked as a favorite by right-clicking it and select `Favorite`.
+    </Description>
     <Flubs>
       <Flub>
         <Name>Rocky</Name>
@@ -32,9 +29,6 @@
       <Flub>
         <Name>Colorful</Name>
       </Flub>
-      <Flub>
-        <Name>Legacy</Name>
-      </Flub>
     </Flubs>
   </Flub>
   <Flub>
@@ -42,12 +36,16 @@
     <Description>T</Description>
   </Flub>
   <Flub>
+    <Name>Clip Color Map</Name>
+    <Description>You can clip off sides of the color map to remove unwanted portions, or emphasize a specific part of the gradient.</Description>
+  </Flub>
+  <Flub>
     <Name>Bias</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>Bias allows you to emphasize one side of the gradient over the other. This can be very useful when you want to reduce some color values or increase the influence of another.</Description>
   </Flub>
   <Flub>
     <Name>Samples</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>The number of samples control the interpolation between gradient stops. Higher values create smoother output, but slows down the process.</Description>
     <Flubs>
       <Flub>
         <Name>256 (Fast)</Name>
@@ -69,19 +67,19 @@
   </Flub>
   <Flub>
     <Name>Reverse</Name>
-    <Description>TODO</Description>
+    <Description>Reverse the direction of the color map.</Description>
   </Flub>
   <Flub>
     <Name>Jitter</Name>
-    <Description>TODO</Description>
+    <Description>Randomly shift color values inside the color map for subtle randomization.</Description>
   </Flub>
   <Flub>
     <Name>Input Clarity</Name>
-    <Description>TODO</Description>
+    <Description>Emphaize the clarity of the incoming map.</Description>
   </Flub>
   <Flub>
     <Name>Input Auto Level</Name>
-    <Description>TODO</Description>
+    <Description>Apply auto level to the incoming map.</Description>
   </Flub>
   <Flub>
     <Name>Post Processing</Name>
@@ -89,42 +87,42 @@
   </Flub>
   <Flub>
     <Name>Output Clarity</Name>
-    <Description>TODO</Description>
+    <Description>Emphasize the clarity of the colorized map.</Description>
   </Flub>
   <Flub>
     <Name>Output Auto Level</Name>
-    <Description>TODO</Description>
+    <Description>Apply auto level to the colorized map.</Description>
   </Flub>
   <Flub>
     <Name>Noise</Name>
-    <Description>TODO</Description>
+    <Description>The amount of noise to add to the colorized map.</Description>
   </Flub>
   <Flub>
     <Name>Apply Brightness + Contrast</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>Apply a Brightness and Contrast modification.</Description>
   </Flub>
   <Flub>
     <Name>Brightness</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>The Brightness value.</Description>
   </Flub>
   <Flub>
     <Name>Contrast</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>The Contrast value.</Description>
   </Flub>
   <Flub>
     <Name>Apply HSL</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>Apply a Hue Saturation Luminosity modification.</Description>
   </Flub>
   <Flub>
     <Name>H</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>The Hue value.</Description>
   </Flub>
   <Flub>
     <Name>S</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>The Saturation value.</Description>
   </Flub>
   <Flub>
     <Name>L</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>The Luminosity value.</Description>
   </Flub>
 </ArrayOfFlub>
