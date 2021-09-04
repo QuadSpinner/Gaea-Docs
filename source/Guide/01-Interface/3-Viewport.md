@@ -64,7 +64,7 @@ By default, the secondary output will be overlaid on the terrain. You can turn o
 
 ![](/images/ui/viewport-2D-plain.webp)
 
-This mode shows a basic heightfield with minimal lighting. 2D maps are shown in grayscale, with black representing lower areas and white representing higher areas. This is a great way to examine your terrain from an unbiased perspective, especially when dealing with 2D data; such as data map outputs, secondary output from erosion, and so on. 
+This mode shows a basic heightfield with minimal lighting. 2D maps are shown in grayscale, with black representing lower areas and white representing higher areas. This is a great way to examine your terrain from an unbiased perspective, especially when dealing with 2D data, such as data map outputs, secondary output from erosion, and so on. 
 
 {.TIP}
 > You can change the gradient representing the mask color gradient in the viewport settings.
