@@ -26,7 +26,7 @@ In the second graph, the @Texture and @RockMap nodes rely on the primary output,
 
 Portals can sometimes be visually confusing as we don't get to see a visual flow from the lack of connection lines. By funneling things through Chokepoints, we get to see the flow and multiple nodes can connect to the same @Chokepoint. This reduces the clutter that can occur if you have too many connections to the same portal.
 
-Chokepoints make it a lot easier to reconnect multiple points. For example, if at some point we decide to process the Erosion node further by adding another node,  without Chokepoints you would end up having to reconnect several nodes. Here, you would just reconnect the chokepoint. In fact, for extra clarity and ease of use, you can set up a chokepoint in both graphs and turn the first Chokepoint into a portal instead of doing it directly to the node.
+Chokepoints make it a lot easier to reconnect multiple points. For example, if at some point we decide to process the Erosion node further by adding another node,  without Chokepoints you would end up having to reconnect several nodes. Here, you would just reconnect the chokepoint. In fact, for extra clarity and ease of use, you can set up a chokepoint in both graphs and turn the first Chokepoint into a portal instead of turning the node into a portal.
 
 Lastly, Chokepoints become "gateways" when you share a graph.
 
