@@ -45,7 +45,7 @@ If you hold `Shift` and drop a node on an existing node, the new node will inter
   <source src="/mp4/cnv-interject-drag.mp4" type="video/mp4">
 </video>
 
-If you hold `Shift` then drag an independent node (not connected to any other node) over a connection and release the mouse, the node will interject itself between the two nodes of the existing connections.
+If you hold `Shift` then drag an independent node (not connected to any other node) over a connection and release the mouse, the node will interject itself between the 2 nodes of the existing connections.
 
 
 ### Replace Node
@@ -65,7 +65,7 @@ The new `Get name from parent` command in the node context menu can get the name
   <source src="/mp4/cnv-out-out.mp4" type="video/mp4">
 </video>
 
-When you drag an output connection to another output connection, a @Combine node is created with the two ports serving as the inputs for the Combine node.
+When you drag an output connection to another output connection, a @Combine node is created with the 2 ports serving as the inputs for the Combine node.
 
 ### MultiMix
 
@@ -73,7 +73,7 @@ When you drag an output connection to another output connection, a @Combine node
   <source src="/mp4/cnv-multimix.mp4" type="video/mp4">
 </video>
 
-Select two or more nodes and click the MultiMix button. Alternatively, you can press `F8`. This will instantly create a sequence of Combine nodes to mix the selected nodes together. For more detailed control, you can select two at a time and multimix the results.
+Select 2 or more nodes and click the MultiMix button. Alternatively, you can press `F8`. This will instantly create a sequence of Combine nodes to mix the selected nodes together. For more detailed control, you can select 2 at a time and multimix the results.
 
 ### Connect Menu
 
