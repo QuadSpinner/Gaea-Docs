@@ -24,11 +24,11 @@ Without a license, Gaea will revert to the Community Edition with resolution res
 | Command                 | Description                                                                            |
 | ----------------------- | -------------------------------------------------------------------------------------- |
 | New Project             | Creates a new project using the default template. Right-click for alternate templates. |
-| Open Project            | Open an existing TOR project file.                                                     |
+| Open Project            | Opens an existing TOR project file.                                                     |
 | Sculpt Existing Terrain | See Erosion Studio options. Further details below.                                     |
 | Open Quickstart         | Browse through the collection of quickstarts and example files that ships with Gaea.       |
 | Recent Files            | List of recently opened files. Right-click for additional options.                     |
-| New Version | When a new version is available,  |
+| New Version | When a new version is available.  |
 
 #### Open Modes
 
@@ -36,8 +36,8 @@ When opening a Gaea file, you can choose one of the following modes either in th
 
 | Open Mode               | Description                                                                                                                                                                                                                                                                                                        |
 | ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Normal                  | Open the file normally.                                                                                                                                                                                                                                                                                            |
-| Force low resolution    | Force the file to use 512 x 512 preview resolution. This is useful when your file is saved with a high resolution preview setting and you do not want to wait for the high resolution previews to build. Session cache is ignored in this mode.                                                                    |
+| Normal                  | Opens the file normally.                                                                                                                                                                                                                                                                                            |
+| Force low resolution    | Forces the file to use 512 x 512 preview resolution. This is useful when your file is saved with a high resolution preview setting and you do not want to wait for the high resolution previews to build. Session cache is ignored in this mode.                                                                    |
 | Open and suspend engine | The file is opened at the saved resolution, and session caches are also loaded. However, the Suspend Engine option in the @graph is turned on so the nodes are not processed until the engine is resumed manually. This is useful for making quick adjustments to a file without waiting for previews to build. |
 
 
@@ -59,8 +59,8 @@ The menu in the top right gives you access to additional options.
 
 | Project Commands | Description                                                                                                         |
 | ---------------- | ------------------------------------------------------------------------------------------------------------------- |
-| New Sculpt       | Import an existing heightfield into Erosion Studio to begin a new sculpting project.                                |
-| Open Project     | Open a previously saved sculpting project to resume work, or reapply the procedural sculpt on an updated heightmap. |
+| New Sculpt       | Imports an existing heightfield into Erosion Studio to begin a new sculpting project.                                |
+| Open Project     | Opens a previously saved sculpting project to resume work, or reapply the procedural sculpt on an updated heightmap. |
 
 
 #### Version Updates
