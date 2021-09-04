@@ -41,7 +41,7 @@ title: Keyboard Shortcuts
 | MultiMix selected nodes                  |             `F8` |
 | Convert connection to portal             |       `Ctrl + P` |
 | Highlight entire chain from current node |              `H` |
-| Highlight all ancenstors (left side)     |  `Left Ctrl + H` |
+| Highlight all ancestors (left side)     |  `Left Ctrl + H` |
 | Highlight all descendants (right side)   | `Right Ctrl + H` |
 | Select descendants                       |              `E` |
 | Auto layout selected nodes               |             `F4` |
