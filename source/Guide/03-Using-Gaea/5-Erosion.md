@@ -7,7 +7,7 @@ Erosion is the primary process through which we turn abstract and geometric shap
 
 ## Hydraulic Erosion
 
-The @Erosion node is the primary erosion node in Gaea. It provides sophisticated erosion with a very easy to use interface. The Erosion node provides control over the scale, where you can choose the size of the largest erosion feature, as well as the overall scale of the terrain.
+The @Erosion node is the primary erosion node in Gaea. It provides sophisticated erosion with a very easy to use interface. The Erosion node provides control over the scale, where you can choose the size of the largest erosion feature and the overall scale of the terrain.
 
 ![](/images/ref/Erosion/Erosion--Default.webp){.ui .image .large}
 
@@ -21,7 +21,7 @@ The algorithm also creates exquisite flows with naturalistic curves, never befor
 
 While the @Erosion node can be masked using the standard masking process (see @modify), the Area mask input gives you additional options.
 
-When an Area mask is connected, you can control the Rock Softness, Precipitation, or Erosion Strength. Unlike the standard mask, this mask allows the processing to be masked but not the shape. For example, you can mask out the top part of a volcano and choose Precipitation as the Area Effect. This forces the erosion-inducing precipitation to occur only within the masked area. But the resulting erosion can flow out and affect the rest of the terrain.
+When an Area mask is connected, you can control the Rock Softness, Precipitation, or Erosion Strength. Unlike the standard mask, the Area mask allows the processing to be masked but not the shape. For example, you can mask out the top part of a volcano and choose Precipitation as the Area Effect. This forces the erosion-inducing precipitation to occur only within the masked area. But the resulting erosion can flow out and affect the rest of the terrain.
 
 For more information, see Selective Processing in @Erosion.
 
@@ -46,13 +46,13 @@ The third pass is fully default. It takes the general larger variations created 
 
 #### Erosion vs. Wizard
 
-Gaea gives you two ways to use our hydraulic erosion simulation process: the @Erosion node, which gives you absolute control over every aspect, or the @Wizard node which gives you easier access to the major aspects. Both use the same simulation underneath, but provide different interfaces. Both have their pros and cons.
+Gaea gives you 2 ways to use our hydraulic erosion simulation process: the @Erosion node, which provides absolute control over every aspect, or the @Wizard node which offers easier access to the major aspects. Both use the same simulation underneath, but provide different interfaces. Both have pros and cons.
 
-@Erosion provides access to all the simulation controls, however, it can take some time to find the sweet spot for many different settings. @Wizard on the other hand provides fewer, easier choices and various "recipes" for creating different types of results, however, it does not allow you to fine tune your results.
+@Erosion provides access to all the simulation controls, but it can take some time to find the sweet spot for many different settings. @Wizard, on the other hand, offers fewer, easier choices and various "recipes" for creating different types of results, but it does not allow you to fine tune your results.
 
-If you need the erosion effect but do not want to art direct every tiny aspect, then @Wizard is the perfect node. Even for experts, it is a quick and easy way to add erosion in your graph.
+If you need the erosion effect, but don't want to art direct every tiny aspect, then @Wizard is the perfect node. Even for experts, it is a quick and simple way to add erosion in your graph.
 
-If you need precise control over different aspects of erosion, and want to fine tune downcutting or deposits, then @Erosion is the perfect node for your situation.
+If you need precise control over different aspects of erosion and want to fine tune downcutting or deposits, then @Erosion is the perfect node for your situation.
 
 Selective Processing is only available in @Erosion. However, common uses of Selective Erosion, such as eroding just the top to create channels or rivers, are provided as `Phase 2` options in @Wizard.
 
@@ -66,21 +66,21 @@ Selective Processing is only available in @Erosion. However, common uses of Sele
 | Data Map Output                     |   Yes    |   Yes    |
 | Built-in multi-pass erosion         |    No    |   Yes    |
 
-We recommend using both to understand how they will help you best in your personal process.
+We recommend using both to understand how they will benefit your personal process.
 
 
 #### Data Output
 
-The Erosion and Wizard nodes create three key data outputs:
+The Erosion and Wizard nodes create 3 key data outputs:
 
 {.max-70}
 | Data     | Description                                                                           |
 | -------- | ------------------------------------------------------------------------------------- |
 | Wear     | The portions where erosion removes sediments.                                         |
 | Deposits | The resting position of those sediments.                                              |
-| Flow     | The path of the sediments from their original location to the final resting position. |
+| Flow     | The path of the sediments from their original location to their final resting position. |
 
-These maps can be used for texturing, or for driving other nodes.
+These maps can be used for texturing or for driving other nodes.
 
 
 {.TIP}
@@ -91,9 +91,9 @@ These maps can be used for texturing, or for driving other nodes.
 
 #### Determinstic Output
 
-It is worth noting that due to the nature of the algorithm and parallel processing, the erosion flow may differ slightly each time. To ensure 100% exact results every time, you can turn on the `Deterministic` option in the @Erosion node. This will force Gaea to use a single processor core which will result in slower processing, but will ensure your results are completely predictable.
+It is worth noting that, due to the nature of the algorithm and parallel processing, the erosion flow may differ slightly each time. To ensure 100% exact results every time, you can turn on the `Deterministic` option in the @Erosion node. This will force Gaea to use a single processor core which will result in slower processing, but will ensure your results are completely predictable.
 
-This may not always be necessary. There are also workarounds. For example, if you wish to control certain major flow lines, you can create a mask for the starting points of those flows and feed it to Selective Processing. This is usually best done in a second @Erosion node, while the first one provides general erosion across the terrain.
+This may not always be necessary. There are also workarounds. For example, if you wish to control certain major flow lines, you can create a mask for the starting points of those flows and feed it to Selective Processing. This is usually done best in a second @Erosion node, while the first provides general erosion across the terrain.
 
 
 ## Misconceptions
@@ -102,7 +102,7 @@ There are a few misconceptions about erosion in procedural terrains that mainly 
 
 #### Erosion should be the last step
 
-Previously, artists would use Erosion as the very last node in the construction of a terrain, because hydraulic erosion was the only process that could provide flow, deposit, and other data maps that would be used for texture creation. This technique is based on technological limitations from over a decade ago! However, it has trained artists (incorrectly), and this has led to limited creativity in digital terrains. It is also very incorrect to use the flow data from an Erosion node as the primary driving force in a texture. Real terrains rarely have clean flow lines - and that too mostly in the form of rivers. Such textures make digital terrains extremely conspicuous. 
+Previously, artists would use Erosion as the very last node in the construction of a terrain because Hydraulic erosion was the only process that could provide flow, deposit, and other data maps to be used for texture creation. This technique is based on technological limitations from over a decade ago. That former paradigm trained artists (incorrectly) and has led to limited creativity in digital terrains. Further, it is unsuitable to use the flow data from an Erosion node as the primary driving force in a texture. Real terrains rarely have clean flow lines - and those too are mostly in the form of rivers. Such textures make digital terrains extremely conspicuous. 
 
 With a cutting-edge software like Gaea, there are many options for generating data maps at any point in the graph. This removes the need for Erosion data for texturing purposes. You can use @Texture to create the base for any procedural color map. @Flow, @Soil, @RockMap, @Occlusion, and other Data Maps can generate texture-friendly data without actually processing the terrain.
 
@@ -111,16 +111,16 @@ See the @tutorials section for practical examples.
 
 #### Erosion is mandatory
 
-Another outdated idea is that Erosion is required after any sort of processing to make sure the terrain looks believable. While this may be true in some cases, more often than not, if you are using LookDev nodes or other erosion processes, applying hydraulic erosion will create soft soil deposits and erosive flows that may detract from a non-hydraulic-eroded look you may be after.
+Another old belief is that Erosion is required after any processing to ensure the terrain looks believable. While this may be true in some cases, if you are using LookDev nodes or other erosion processes, applying Hydraulic erosion may detract from the non-hydraulic-eroded look you desire because it creates soft soil deposits and erosive flows.
 
-LookDev nodes such as @Canyonizer, @Stacks, @Anastomosis, @Shear, etc. can create effects that don't always need to be reprocessed with @Erosion to become believable.
+LookDev nodes such as @Canyonizer, @Stacks, @Anastomosis, @Shear, etc. can create effects that don't need to be reprocessed with @Erosion to be believable.
 
-See @tut-rugged-outcrops for an example of how LookDev nodes can remove the need for manual erosion.
+See @tut-rugged-outcrops for an example of how LookDev nodes can eliminate the need for manual erosion.
 
 
 ## Thermal Erosion
 
-Thermal erosion is the sister-erosion to Hydraulic erosion. While it is sometimes used less than hydraulic erosion, it is just as important in most environments.
+Thermal erosion is the sister to Hydraulic erosion. While used less frequently, Thermal erosion is equally as important in most environments.
 
 #### Debris from erosion
 
@@ -137,7 +137,7 @@ In the real world, hydraulic and thermal erosion occur together. You can mimic t
 
 #### Understanding Anisotropy
 
-Thermal Stress Anisotropy governs how erosion and the resulting rocks deposits are shaped. It smooths the terrain while eroding. Low values keep the original terrain intact for the most part, while high values create stronger talus at the expense of eroding the original terrain. For example, sharp peaks get eroded heavily with high stress values.
+Thermal Stress Anisotropy governs how erosion and the resulting rock deposits are shaped. It smooths the terrain while eroding. Low values largely keep the original terrain intact. High values create stronger talus while eroding the original terrain. For example, sharp peaks get eroded heavily with high stress values.
 
 The image below shows a simplified version of how Thermal Stress Anisotropy affects a terrain.
 
