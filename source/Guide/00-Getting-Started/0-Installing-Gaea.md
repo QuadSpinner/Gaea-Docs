@@ -23,7 +23,7 @@ Installing Gaea is a simple process. Depending on your installation location, yo
 
 #### Clean Installation
 
-If you were using our older EXE installers or have encountered an issue in a new build, we recommend a clean installation. Download the full installer from the link above and, during installation, check the option for "Clean Installation".
+If you were using our older EXE installers or have encountered an issue in a new build, we recommend a clean installation. Download the full installer from the link above and, during installation, check the option for Clean Installation.
 
 #### Administrative Install and Mass Deployment
 
