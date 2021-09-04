@@ -37,7 +37,7 @@ Dragging a node from the @toolbox and dropping it on an existing node will autom
   <source src="/mp4/cnv-interject.mp4" type="video/mp4">
 </video>
 
-If you hold `Shift` and drop a node on an existing node, the new node will interject itself between the node's all outgoing primary output connections.
+If you hold `Shift` and drop a node on an existing node, the new node will interject itself between all the outgoing primary connections of the node.
 
 **Drag Interject**
 
