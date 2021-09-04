@@ -81,7 +81,7 @@ The Post Process options sit right under the Properties and provide quick access
 
 #### Properties Menu
 
-The node properties menu provides access to additional functionality.
+The node Properties menu provides access to additional functionality.
 
 ![](/images/ui/properties-menu.webp){.w-75}
 
