@@ -37,17 +37,17 @@ The viewport settings let you modify the look of your viewport. For details of t
 
 The Colors section lets you modify the color gradients used for rendering the heightfields/terrain and data/mask outputs. You can optionally autolevel or reverse the terrain gradient.
 
-The Water section lets you use the optional water surface. This is a superficial element and does not affect the actual terrain or any nodes.
+The Water section lets you use the optional water surface. This is a superficial element that does not affect the actual terrain or any nodes.
 
 #### First Person View
 
-The First Person view has been temporarily removed from Gaea. Expect it to come back soon.
+The First Person view has been temporarily removed from Gaea. It will be added again soon.
 
 ## 2D Viewport
 
 The 2D viewport provides flat previews with pixel-to-pixel accuracy. In many situations, especially when dealing with masks, you can see visual data that may not be readily visible in the 3D viewport. 
 
-The 2D view is available directly in the main window alongside the 3D view when activated from the main toolbar in the top left. It can also be opened as a separate window through the Graph Toolbar in the bottom right.
+The 2D view is available directly in the main window, alongside the 3D view, when activated from the main toolbar in the top left. It can also be opened as a separate window through the Graph Toolbar in the bottom right.
 
 - `Mouse Wheel` for zooming.
 - `Mouse Middle` for panning.
