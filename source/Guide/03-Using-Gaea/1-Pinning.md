@@ -25,8 +25,8 @@ The Underlay node can be accessed quickly from the Graph Toolbar. It is shown as
 ![A color map visualized with the Erosion node marked as Overlay.](/images/ui/underlay_1.webp){.ui .image .medium}
 
 
-### Beware of downstream underlays
+#### Beware of downstream underlays
 
 Be mindful when you modify nodes that are before the Underlay. If they are part of the chain that leads up to the Underlay node, modifying them will cause all nodes in between to update as well, much like normal Pinning. This can make Gaea slow when working in 2K or higher preview resolution.
 
-If Gaea detects such an Underlay, it will stop further propagation and the underlay will not be automatically updated. A red exclamation button will flash in the Graph toolbar. You will need to select the Underlay to update it manually.
+If Gaea detects such an Underlay, it will stop further propagation and the underlay will not be automatically updated. A red exclamation button will flash in the Graph Toolbar. You will need to select the Underlay to update it manually.
