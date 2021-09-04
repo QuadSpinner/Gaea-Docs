@@ -21,13 +21,13 @@ Modes, Toolbox Placement, and other options are available from the menu in the t
 
 ![](/images/ui/search-nodes.webp){.ui .image .medium}
 
-When you press `Tab` when the Graph surface is focused, or if you start typing while the context menu for the Graph is open, the Search feature will present itself. Search also shows up if you drag a connection from a port, but drop it in empty space, and then start typing when the node creation menu appears.
+The Search feature will present itself when you press `Tab` when the Graph surface is focused, or if you start typing while the context menu for the Graph is open. Search also shows up when you drag a connection from a port, drop it in empty space, and then start typing when the node creation menu appears.
 
 By default, it shows the last few nodes that were used. If you start typing, it will give you a list of nodes that match your search.
 
 If you click a search result, the node will be created where your cursor is.
 
-If a node is a selected, then you press `Tab`, and then press a shortcut, or click a node, the desired node will be created and connected (Primary Out to Primary In) to the selected node.
+If a node is selected, then you press `Tab`, and then press a shortcut, or click a node, the desired node will be created and connected (Primary Out to Primary In) to the selected node.
 
 Shortcuts:
 - `ENTER` creates the first (or selected) node.
@@ -35,13 +35,13 @@ Shortcuts:
 
 ![](/images/ui/search-portals.webp){.ui .image .medium}
 
-Entering `\` into the search field will bring up a list of available portals. This is reserved for connecting nodes rather than creating it.
+Entering `\` into the search field will bring up a list of available portals. This is reserved for connecting nodes rather than creating a node.
 
 #### Recent
 
 Recently used nodes will show up separately in the Search popup if you clear the search text, giving you quicker access to frequently used nodes without having to explicitly set them as favorites.
 
-The Recent nodes list is maintained per-session. It will be emptied when you exit Gaea.
+The Recent nodes list is maintained per session. It will be emptied when you exit Gaea.
 
 ## Customizing the Toolbox
 
@@ -57,7 +57,7 @@ When Expert Mode is turned on, the section dividers are removed allowing you mor
 
 #### Toolbox Placement
 
-You can choose to have the toolbox be placed in different positions. You can change this setting as frequently as you like from the toolbox menu.
+You can choose to have the toolbox placed in different positions. You can change this setting as frequently as you like from the toolbox menu.
 
 
 ![](/images/ui/toolbox-placement-full.webp)
