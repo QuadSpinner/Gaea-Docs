@@ -13,7 +13,7 @@ The Gaea interface is streamlined and minimal. All essential tools are available
 
 ![](/images/ui/Intro-Viewports.webp)
 
-The viewports help you visualize your terrain components as you build the graph. There are two viewports: the 3D viewport and the 2D viewport. The 2D viewport also doubles as an editor surface when using nodes such as @Draw, @Island, @Mask, etc.
+The viewports help you visualize your terrain components as you build the graph. There are 2 viewports: the 3D viewport and the 2D viewport. The 2D viewport also doubles as an editor surface when using nodes such as @Draw, @Island, @Mask, etc.
 
 A viewport toolbar gives you access to all the options for both the viewports and the lighting for the terrain.
 
@@ -37,7 +37,7 @@ The Properties panel lets you modify the nodes on the Graph surface. When you se
 
 The Post Process Stack is available at the bottom of the Properties panel. These adjustment options can help you skip the need to create additional nodes.
 
-Between the two is the Apply / Lock button. If a node takes a long time to process and has been marked as "Heavy", or you have toggled Auto Apply, changes to the node properties are not applied until you click Apply.
+Between these is the Apply / Lock button. If a node takes a long time to process and has been marked as "Heavy", or you have toggled Auto Apply, changes to the node properties are not applied until you click Apply.
 
 For further details, see @properties.
 
@@ -57,7 +57,7 @@ In the bottom right corner of the interface, there are a few advanced options fo
 
 ![](/images/ui/Intro-Build.webp)
 
-Gaea needs to build the terrain to get you the final quality version of the terrain you preview while working in the main interface. The Build Manager tab allows you to configure the terrain build and use different options to initiate the build.
+Gaea needs to build the terrain to give you the final quality version you are previewing while working in the main interface. The Build Manager tab allows you to configure the terrain build and use different options to initiate the build.
 
 At the bottom, you can select the build destination and fire off the build using the @build-swarm.
 
