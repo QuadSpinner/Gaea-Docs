@@ -31,7 +31,7 @@ The suggestions are color coded to help you quickly identify the type of the nod
 
 ## Showing most-used nodes
 
-In the Toolbox's menu, you can select "Show most-used nodes only". This will hide the nodes you don't use frequently from the toolbox, giving you more screen space and making it easier to find the nodes you do use.
+In the Toolbox's menu, you can select "Show most-used nodes only". This will hide from the toolbox the nodes you don't use frequently, giving you more screen space and making it easier to find the nodes you do use.
 
 {.TIP}
 > The other nodes are still available in the Quick Create menu and Search box.
