@@ -5,10 +5,10 @@ title: Properties
 
 ![](/images/ui/properties.webp){.ui .image .medium}
 
-Every node exposes a set of properties or settings that you can modify to change the effect that node has on the terrain. When you select a node, the settings become available in the Properties panel in the right side of the interface.
+Every node exposes a set of properties or settings that you can modify to influence the effect that node has on the terrain. When you select a node, the settings become available in the Properties panel in the right side of the interface.
 
 When you change a property, the effect is immediately applied and made visible in the viewport - except when dealing with Heavy Nodes (see below). Most nodes have a limited type of properties: 
-- **Integer**: such as `1`, `2`, `3`, `4`, etc. They usually define quantity or a finite value like angle.
+- **Integer**: such as `1`, `2`, `3`, `4`, etc. They usually define quantity or a finite value, like angle.
 - **Decimals**: such as `0.1`, `0.256`, `0.4885`, etc. They usually define the strength or amount of a certain setting. In most cases, small changes can be quite powerful.
 - **Toggle**: They usually allow you to turn a feature on or off.
 - **Choices**: These take the form of a dropdown where you can select one of many options.
@@ -27,7 +27,7 @@ Some nodes may have special controls specific to them.
 
 ## Modifying Values
 
-For properties that allow numeric entry (Integer or Decimals), you can right-click the property and enter a number. For values shown as percentages, you can enter a value in meters and Gaea will convert it to the appropriate percentage or decimal value proportionate to the metric value in relation to the Terrain Definition set in the Build tab. See @scale for more information on that topic.
+For properties that allow numeric entry (Integer or Decimals), you can right-click the property and enter a number. For values shown as percentages, you can enter a value in meters and Gaea will convert it to the appropriate percentage or decimal value proportionate to the metric value in relation to the Terrain Definition set in the Build tab. See @scale for more information on this topic.
 
 #### Microincrements
 
@@ -69,13 +69,13 @@ If you move away from the node, or select another node, changes will be applied 
 
 The **Apply** button has an **Auto Apply** toggle button next to it. When you turn on **Auto Apply**, that particular node will update automatically.
 
-Alternatively, you can toggle the Auto Apply for any node via the properties menu. If a node is heavy to process even though it is not marked as such, you can toggle off the Auto Apply. Or if a heavy node is performing quickly for you, then you can toggle on the Auto Apply.
+Alternatively, you can toggle the Auto Apply for any node via the properties menu. If a node is heavy to process, even though it is not marked as such, you can toggle off the Auto Apply. Or if a Heavy Node is performing quickly for you, then you can toggle on the Auto Apply.
 
 ## Additional Information
 
 #### Post Processing
 
-The Post Process options sits right under the Properties and provides quick access to common functions. See @postprocess.
+The Post Process options sit right under the Properties and provide quick access to common functions. See @postprocess.
 
 ![](/images/ui/postprocess.webp)
 
@@ -87,7 +87,7 @@ The node properties menu provides access to additional functionality.
 
 | Command | Description    |
 | ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Reset node (`Ctrl + R`) | Reset all properties in the node to their default    |
+| Reset node (`Ctrl + R`) | Reset all properties in the node to their default.    |
 | Upgrade node | Upgrade a node that uses an old processing version. See @autosave. |
 | Toggle Auto-Apply | Toggle automatic reprocessing of the node when values are updated. See the Heavy Nodes section above.   |
 | Revert Node | Revert the values back to the state they were when you selected the node. This "state" resets every time you go away from the node. It is helpful to undo any accidental or experimental changes you may have made to the node after coming back to it from another node. |
