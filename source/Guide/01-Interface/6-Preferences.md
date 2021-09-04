@@ -18,7 +18,7 @@ This option allows you to set the look of the toolbox buttons. The *Icon* option
 Lets you select the node size in Graph. Three options are available: *Small*, *Medium*, and *Large*.
 
 **Connections**: 
-You can select from four types of connections: *Efficient*, *Straight*, *Bezier*, and *Circuit*.
+You can select from 4 types of connections: *Efficient*, *Straight*, *Bezier*, and *Circuit*.
 
 **Colors**: 
 This option lets you choose the color scheme for the UI. You can choose between *Normal* and *Bright*.
