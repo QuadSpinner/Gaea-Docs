@@ -5,12 +5,12 @@ title: Infinity Graph
 
 ## The Infinity Graph
 
-Gaea's advanced graph based workflow is the key to creating sophisticated terrains. This open-ended workflow gives you the flexibility to create almost any kind of results that you want.
+Gaea's advanced graph-based workflow is the key to creating sophisticated terrains. This open-ended workflow gives you the flexibility to create almost any kind of results that you want.
 
 
 ### What are nodes?
 
-If you have not used node based workflows before, it may look intimidating, but it isn't. Gaea provides a very artist friendly workflow where you are not required to create complex graphs to get good results. 
+If you have not used node-based workflows before, it may look intimidating, but it isn't. Gaea provides a very artist friendly workflow where you are not required to create complex graphs to get good results. 
 
 Each node is a heightfield processor that performs a single task. By connecting several nodes, you can create an elaborate program or "recipe" for creating a complex process. Some nodes provide more than one output and input. These additional "ports" can be used for more sophisticated processing of your terrain.
 
