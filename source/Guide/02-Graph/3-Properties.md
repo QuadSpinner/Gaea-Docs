@@ -37,15 +37,15 @@ The Microincrements panel is available when you right-click an Integer or Decima
 
 | Command | Description |
 | -------------- | ------------------------------------------- |
-| Halve | Halve the current value. |
-| Double | Double the current value. |
-| Minimum | Use the lowest allowed value. |
-| Decrease Large | Decrease by a large value. (ex: 10 in 100%) |
-| Decrease Small | Decrease by a small value. (ex: 1 in 100%) |
-| Reset | Reset to the original / default value. |
-| Increase Large | Increase by a large value. (ex: 10 in 100%) |
-| Increase Small | Increase by a small value. (ex: 1 in 100%) |
-| Maximum | Use the highest allowed value. |
+| Halve | Halves the current value. |
+| Double | Doubles the current value. |
+| Minimum | Uses the lowest allowed value. |
+| Decrease Large | Decreases by a large value. (ex: 10 in 100%) |
+| Decrease Small | Decreases by a small value. (ex: 1 in 100%) |
+| Reset | Resets to the original / default value. |
+| Increase Large | Increases by a large value. (ex: 10 in 100%) |
+| Increase Small | Increases by a small value. (ex: 1 in 100%) |
+| Maximum | Uses the highest allowed value. |
 
 #### Seed Reset
 
@@ -87,14 +87,14 @@ The node Properties menu provides access to additional functionality.
 
 | Command | Description    |
 | ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Reset node (`Ctrl + R`) | Reset all properties in the node to their default.    |
-| Upgrade node | Upgrade a node that uses an old processing version. See @autosave. |
-| Toggle Auto-Apply | Toggle automatic reprocessing of the node when values are updated. See the Heavy Nodes section above.   |
-| Revert Node | Revert the values back to the state they were when you selected the node. This "state" resets every time you go away from the node. It is helpful to undo any accidental or experimental changes you may have made to the node after coming back to it from another node. |
-| Save/Load State | Save the state of the node to be recalled later using the Load command. This is preserved in the session only and resets when you close Gaea or go to a different file.  |
-| Copy/Paste Settings | Copy and paste settings to and from nodes of the same type.    |
-| Expose Node | Expose properties of the node for automation. See @automation.    |
-| Show Exposed Properties | Show a unified properties panel with exposed properties across all nodes. This is useful while working with exposed properties for @automation.  |
-| Create Preset | Save current settings as a preset file.    |
-| Import Presets | Import presets for this node from file.    |
-| Presets | Apply any existing presets for this node.    |
+| Reset node (`Ctrl + R`) | Resets all properties in the node to their default.    |
+| Upgrade node | Upgrades a node that uses an old processing version. See @autosave. |
+| Toggle Auto-Apply | Toggles automatic reprocessing of the node when values are updated. See the Heavy Nodes section above.   |
+| Revert Node | Reverts the values back to the state they were when you selected the node. This "state" resets every time you go away from the node. It is helpful to undo any accidental or experimental changes you may have made to the node after coming back to it from another node. |
+| Save/Load State | Saves the state of the node to be recalled later using the Load command. This is preserved in the session only and resets when you close Gaea or go to a different file.  |
+| Copy/Paste Settings | Copies and pastes settings to and from nodes of the same type.    |
+| Expose Node | Exposes properties of the node for automation. See @automation.    |
+| Show Exposed Properties | Shows a unified properties panel with exposed properties across all nodes. This is useful while working with exposed properties for @automation.  |
+| Create Preset | Saves current settings as a preset file.    |
+| Import Presets | Imports presets for this node from file.    |
+| Presets | Applies any existing presets for this node.    |
