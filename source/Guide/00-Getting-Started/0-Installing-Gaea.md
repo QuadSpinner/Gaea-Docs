@@ -56,7 +56,7 @@ gives you the flexibility to try new features without endangering your work proj
 
 ## Version Scheme
 
-A version such as `1.0.30.5` is comprised of four elements `Major` `.` `Minor` `.` `Build` `.` `Revision`:
+A version such as `1.0.30.5` is comprised of 4 elements `Major` `.` `Minor` `.` `Build` `.` `Revision`:
 
 **Major**
 Only changed when a new, payable version is released. This happens perhaps once every 2 years.
