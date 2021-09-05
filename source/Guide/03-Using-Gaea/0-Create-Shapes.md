@@ -44,7 +44,7 @@ The @Mask node can also act as a Primitive even though it is categorized as a Da
 
 ## File Import
 
-To import a heightfield in any major 32, 16, or 8 bit image format, create a @File node and load the desired file. You can simply drag and drop a valid file on the graph and a @File node will be created for you.
+To import a heightfield in any major 32, 16, or 8-bit image format, create a @File node and load the desired file. You can simply drag and drop a valid file on the graph and a @File node will be created for you.
 
 #### Importing Meshes and Geospatial Data
 
