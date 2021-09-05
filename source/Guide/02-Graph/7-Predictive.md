@@ -11,7 +11,7 @@ Gaea's internal (and fully local) Predictive System learns your node creation an
 
 Once you get used to the predictive suggestions, you can halve your graph creation times in most instances.
 
-### How does it work?
+#### How does it work?
 
 Gaea keeps track of the nodes you use, and how different nodes are connected to each other. It then predicts the type of node you might want to create and puts that first in the list. 
 
