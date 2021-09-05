@@ -11,6 +11,9 @@ You will also find a Patch download link for more recent versions. To use the Pa
 
 Download links may not be available for older archived versions.
 
+{.NOTE}
+> Only the most recent updates (2019-present) are listed. If you need information for older builds, contact us.
+
 
 ## Branches
 
