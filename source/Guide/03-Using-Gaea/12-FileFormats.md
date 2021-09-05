@@ -10,7 +10,7 @@ Gaea supports all modern (and some legacy) file formats for both flat files and 
 
 #### For Export 
 
-| Format  | 32 bit  | 16 bit  |  8 bit  |
+| Format  | 32-bit  | 16-bit  |  8-bit  |
 | ------- | :-----: | :-----: | :-----: |
 | OpenEXR | &#8226; |         |         |
 | TIFF    | &#8226; | &#8226; |         |
@@ -49,7 +49,7 @@ The `.TORX` format is available in the Enterprise Edition only. When saving in t
 
 #### .RESOURCE file
 
-When using hand drawn nodes such as @Mask, @Draw, or @Islands, the binary data generated will be stored in a `.tor.resource` or `.torx.resource` file. So if you have a file called `BigMountain.tor`, the resource file will be called `BigMountain.tor.resource`.
+When using hand drawn nodes such as @Mask, @Draw, or @Islands, the binary data generated will be stored in a `.tor.resource` or `.torx.resource` file. If you have a file called `BigMountain.tor`, for example, the resource file will be called `BigMountain.tor.resource`.
 
 {.WARNING}
 > If the `.resource` file for a project is missing, all hand drawn nodes will become empty. When running a build on a project with missing resource, the @build-swarm will throw a warning and exit.
@@ -80,7 +80,7 @@ Game engines, such as Unity, can only import RAW 16-bit (ushort) format terrains
 
 #### 8-bit
 
-In some cases, for example: black and white masks, you may not need a high level of precision at all. You can use 8-bit PNG output which can increase performance and save disk space.
+In some cases, for example with black and white masks, you may not need a high level of precision at all. You can use 8-bit PNG output which can increase performance and save disk space.
 
 #### Custom Workflows Precision
 

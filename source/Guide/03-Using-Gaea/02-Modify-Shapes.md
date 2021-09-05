@@ -13,9 +13,9 @@ title: Modify Shapes
 
 ## Masking
 
-Masking is a core mechanism you will need to rely on when working with procedural shapes in node graphs. At its most basic, masking works exactly like you would use in a paint program: define an area and only that part is modified. A mask must always be a heightmap, not a color map. Brighter areas get affected more, darker areas affected less.
+Masking is a core mechanism you will need to rely on when working with procedural shapes in node graphs. At its most basic, masking works exactly as it would in a paint program: define an area and only that part is modified. A mask must always be a heightmap, not a color map. Brighter areas are affected more; darker areas are affected less.
 
-In Gaea, you will mostly deal with two types of masking - process mask and blending mask.
+In Gaea, you will mostly deal with 2 types of masking - process mask and blending mask.
 
 #### Process Mask
 
@@ -25,7 +25,7 @@ The @Mask node is often useful in a situation where you can manually draw a free
 
 #### Blending Mask
 
-Blending Masks are more useful because they provide extra flexibility. To create a blending mask, two different nodes are connected to a @Combine node. The mask will blend the two terrains as defined by the mask. Brighter areas defined by the mask become terrain A; darker areas become terrain B. The added advantage with the @Combine node is that, instead of simply blending the two terrains, you can use one of several different blend modes, such as Add, Subtract, Max, etc.
+Blending Masks are more useful because they provide extra flexibility. To create a blending mask, 2 different nodes are connected to a @Combine node. The mask will blend the 2 terrains as defined by the mask. Brighter areas defined by the mask become terrain A; darker areas become terrain B. The added advantage with the @Combine node is that, instead of simply blending the 2 terrains, you can use one of several different blend modes, such as Add, Subtract, Max, etc.
 
 While the @Mask node is useful here too, you will probably use Data Maps, such as @Slope or @Height, more often.
 

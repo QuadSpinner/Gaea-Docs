@@ -5,20 +5,20 @@ title: Portals and Chokepoints
 
 ## Portals
 
-The portal node is a unique concept in graph-based applications. Like a "wormhole", portals allow you to connect nodes across vast gaps (or short ones) without visible connections. They not only improve your quality of life, but also dramatically change how you think of and use graphs.
+The Portal node is a unique concept in graph-based applications. Like a "wormhole", Portals allow you to connect nodes across vast gaps (or short ones) without visible connections. They not only improve your quality of life, but also dramatically change how you think of and use graphs.
 
 When using the @graph, Portals can be used to connect nodes across different graphs.
 
-### Creating Portals
+#### Creating Portals
 Any output port in a node can be converted to a portal. You can create a portal in many ways:
 
 <video controls><source src="/mp4/cnv-portal-create.mp4" type="video/mp4"></video>
 
-@dragout a connection. In the menu that shows up, select `Make Portal`.
+@dragout a connection. In the menu that appears, select `Make Portal`.
 
 <video controls><source src="/mp4/cnv-portal-create-c.mp4" type="video/mp4"></video>
 
-Select a node and press `C` to bring up the Connect menu. Select the port you wish to convert to a portal. You can also hold down `Ctrl` while selecting the convert menu command, and Gaea will connect a @Chokepoint to the desired port and then convert the Chokepoint into a portal. This is very useful to avoid having to reroute connections if you change the node itself or want to add another node after it.
+Select a node and press `C` to bring up the Connect menu. Select the port you wish to convert to a portal. You can also hold down `Ctrl` while selecting the Convert menu command, and Gaea will connect a @Chokepoint to the desired port and then convert the Chokepoint into a portal. This is very useful to avoid having to reroute connections if you change the node itself or want to add another node after it.
 
 <video controls><source src="/mp4/cnv-portal-convert.mp4" type="video/mp4"></video>
 
@@ -28,7 +28,7 @@ You can also convert existing connections into portals. Select one or more conne
 Once a portal is created, a small tab with the port's name will be visible next to the node.
 
 
-### Connecting to Portals
+#### Connecting to Portals
 
 You can connect to a portal in multiple ways:
 
@@ -42,13 +42,13 @@ You can connect to a portal in multiple ways:
 
 Once a portal is connected, a tab showing the name of the portal will be visible on the target node's input port. The color of the tab represents the node type of the portal.
 
-You can rename the portal node to change the name displayed in the portal tab.
+You can rename the Portal node to change the name displayed in the portal tab.
 
 {.NOTE}
-> You can connect to a portal port like a normal connection. This will create a standard connection. Both type of connections can co-exist, however using just one is recommended to avoid visual confusion.
+> You can connect to a portal port like a normal connection. This will create a standard connection. Both type of connections can co-exist, however, using just one is recommended to avoid visual confusion.
 
 
-### Disconnecting Portals
+#### Disconnecting Portals
 
 To disconnect a portal from a target node:
 
@@ -56,7 +56,7 @@ To disconnect a portal from a target node:
 
 Select the node and press `X`. You can select the port you wish to disconnect from the portal.
 
-### Reverting a Portal
+#### Reverting a Portal
 
 To convert the portal back to a normal node:
 

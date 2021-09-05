@@ -19,11 +19,11 @@ Installing Gaea is a simple process. Depending on your installation location, yo
 3. By default, Gaea installs to `C:\Program Files\QuadSpinner\Gaea` but can be directed to any other folder. For security purposes, we recommend the `C:\Program Files` folder.
 4. Once setup is complete, Gaea will launch.
 5. Follow the on-screen questions to set up your default preferences.
-6. The Gaea central project repository and build stacks are placed in `Documents\Gaea\` by default. However, you can change this folder to any other location through installer, or at any later time via the Preferences.
+6. The Gaea central project repository and build stacks are placed in `Documents\Gaea\` by default. However, you can change this folder to any other location through the  installer, or at any later time via the Preferences.
 
 #### Clean Installation
 
-If you were using our older EXE installers, or have encountered an issue in a new build, we recommend a clean installation. Download the full installer from the link above, and during installation, check the option for "Clean Installation.
+If you were using our older EXE installers or have encountered an issue in a new build, we recommend a clean installation. Download the full installer from the link above and, during installation, check the option for Clean Installation.
 
 #### Administrative Install and Mass Deployment
 
@@ -31,46 +31,46 @@ See @article-deployment
 
 #### Floating Server
 
-This feature is currently in development and may not be available until version 1.4. Please contact technical support for an interim alternative.
+This feature is currently in development and may not be available until version 2.0. Please contact technical support for an interim alternative.
 
 
 ## Branches
 
 #### Production Ready
 
-Production Ready builds are stable, and thoroughly tested both by the QA team and regular users. They are released once or twice every month.
+Production Ready builds are stable and thoroughly tested both by the QA team and regular users. They are released 1-2 times each month.
 
 Bleeding Edge features are rolled into these builds slowly, once they undergo thorough testing.
 
 
 #### Bleeding Edge
 
-Bleeding Edge builds are released once or several times per cycle. They are mostly stable, but not fully ready for production.
+Bleeding Edge builds are released 1 or more times per cycle. They are mostly stable, but not fully ready for production.
 
-You get to try new features as they're added, and provide feedback very early so we can modify them to your satisfaction.
+You get to try new features as they are added and provide early feedback, so we can modify them to your satisfaction.
 
 #### Install Side-by-side
 
-Both install to different locations, and do not share settings or registry entries. This
+Both builds install to different locations and do not share settings or registry entries. This
 gives you the flexibility to try new features without endangering your work projects.
 
 ## Version Scheme
 
-A version such as `1.0.30.5` is comprised of four elements `Major` `.` `Minor` `.` `Build` `.` `Revision`:
+A version such as `1.0.30.5` is comprised of 4 elements `Major` `.` `Minor` `.` `Build` `.` `Revision`:
 
 **Major**
-Only changed when a new, payable version is released. This happens perhaps once every two years.
+Only changed when a new, payable version is released. This happens perhaps once every 2 years.
 
 **Minor**
-Updated when a major set of features are added. This usually happens a few times a year.
+Updated when a major set of features is added. This usually happens a few times per year.
 
 **Build**
-Updated every time there is a new release in the `Production Ready` branch. This happens once or twice a month.
+Updated every time there is a new release in the `Production Ready` branch. This happens 1-2 times each month.
 
 **Revision**
-Updated every time a new build is released in the  `Bleeding Edge` channel. This can happen once, or sometimes several times, in a week.
+Updated every time a new build is released in the  `Bleeding Edge` channel. This can happen 1 or more times each week.
 
-Revision is incremented also when a Bleeding Edge build is rolled into the Production Ready branch.
+Revision is also incremented when a Bleeding Edge build is rolled into the Production Ready branch.
 
 {.NOTE}
 >The *Revision* element was reset with the release of Gaea 1.0.28 to avoid confusion with the frequent Bleeding Edge updates.
@@ -81,6 +81,6 @@ Revision is incremented also when a Bleeding Edge build is rolled into the Produ
 
 - Ensure `Gaea.exe` and `Archon.exe` have firewall permissions for local TCP/IP communication.
 - Install the latest CPU and GPU drivers.
-- Ensure you have at least 10GB of free space in your Windows' temp directory, as well as the cache folder set in Gaea Preferences.
+- Ensure you have at least 10GB of free space in your Windows temp directory and in the cache folder set in Gaea Preferences.
 
 If none of these work, run @watson and file a ticket. Our support team will help you figure out the problem.

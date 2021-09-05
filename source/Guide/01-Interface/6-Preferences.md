@@ -12,13 +12,13 @@ The Preferences dialog gives you easy access to common preferences. It can be ac
 ![](/images/ui/options-1.webp)
 
 **Toolbox**: 
-This option allows you to set the look of the toolbox buttons. *Icon* option shows the toolbox buttons as icons. *Labels* option shows labels in the toolbox, along with small icons. You can select the *Hide* option to hide the toolbox.
+This option allows you to set the look of the toolbox buttons. The *Icon* option shows the toolbox buttons as icons. The *Labels* option shows labels in the toolbox, along with small icons. You can select the *Hide* option to hide the toolbox.
 
 **Nodes**: 
 Lets you select the node size in Graph. Three options are available: *Small*, *Medium*, and *Large*.
 
 **Connections**: 
-You can select from four types of connections: *Efficient*, *Straight*, *Bezier*, and *Circuit*.
+You can select from 4 types of connections: *Efficient*, *Straight*, *Bezier*, and *Circuit*.
 
 **Colors**: 
 This option lets you choose the color scheme for the UI. You can choose between *Normal* and *Bright*.
