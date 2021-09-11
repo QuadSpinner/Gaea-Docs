@@ -6,7 +6,7 @@ title: Troubleshooting with Watson
 ## Watson Diagnostics Tool
 
 Gaea ships with **Watson.exe**, an advanced diagnostics tool that
-examines your Gaea installation as well as your general hardware
+examines your Gaea installation and your general hardware
 configuration, and allows you to create a diagnostics package that you
 can submit to our Technical Support for assistance.
 
@@ -18,11 +18,10 @@ application logs and certain settings, or collect crash logs from recent
 incidents.
 
 These logs help us understand your Gaea installation, your hardware and
-relevant drivers, and other similar information. This reduces the need
-for us to ask you questions and get you solutions to problems at a much
-quicker pace.
+relevant drivers, and other pertinent information. This reduces the questions we need
+to ask you and helps us resolve the issues at a much quicker pace.
 
-### Starting Watson
+#### Starting Watson
 
 ![](/images/ui/Watson1.webp){.ui .image .large}
 
@@ -32,12 +31,12 @@ most situations, these additional tests are not necessary and can be
 safely skipped unless instructed by a support technician.
 
 
-### The Diagnostics Process
+#### The Diagnostics Process
 
 ![](/images/ui/Watson2.webp){.ui .image .large}
 
 The diagnostics collection process is fairly quick. Watson will collect
-the data in plain, human readable formats. If enabled in the previous
+the data in plain, human-readable formats. If enabled in the previous
 step, the optional diagnostics will include a detailed scan of the
 Windows Event Log for any additional data on Gaea and Archon crashes.
 
@@ -46,7 +45,7 @@ in Gaea. This helps diagnose issues in specific nodes. This test can be
 somewhat slow as 90+ nodes will be built at 1024 resolution.
 
 
-### Submitting the Ticket
+#### Submitting the Ticket
 
 ![](/images/ui/Watson3.webp){.ui .image .large}
 
@@ -55,11 +54,11 @@ Once the diagnostics package has been compiled, you can
 package.
 
 
-### Your privacy
+#### Your privacy
 
 Any support logs submitted are usually discarded within 4-6 weeks of
 closing the ticket. We may retain some of the logs for a longer period
-in certain situations. For example, if the issue relates to an on-going
+in certain situations. For example, if the issue relates to an ongoing
 bug hunt or development task.
 
 If you submit a .TOR file, we hold it in utmost confidence and discard
