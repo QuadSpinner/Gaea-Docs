@@ -36,7 +36,7 @@ safely skipped unless instructed by a support technician.
 ![](/images/ui/Watson2.webp){.ui .image .large}
 
 The diagnostics collection process is fairly quick. Watson will collect
-the data in plain, human-readable formats. If enabled in the previous
+the data in plain, human readable formats. If enabled in the previous
 step, the optional diagnostics will include a detailed scan of the
 Windows Event Log for any additional data on Gaea and Archon crashes.
 
