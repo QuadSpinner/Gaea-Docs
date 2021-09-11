@@ -4,9 +4,9 @@ uid: build-swarm
 ---
 
 
-The Build Swarm is the command line building engine for Gaea. Whenever a large scale build is needed, Gaea launches the Build Swarm to build the terrain. You can also launch it manually if needed. The Build Swarm can be found in the Gaea installation folder as `Gaea.Build.exe`.
+The Build Swarm is the command line building engine for Gaea. Whenever a large scale build is needed, Gaea launches the Build Swarm to build the terrain. You can also launch it manually, if needed. The Build Swarm can be found in the Gaea installation folder as `Gaea.Build.exe`.
 
-The Build Swarm writes status messages to StdOut and can be monitored remotely if needed. You MUST use the `--silent` argument when capturing StdOut data otherwise it may overload your application and slow down the build itself.
+The Build Swarm writes status messages to StdOut and can be monitored remotely, if needed. You MUST use the `--silent` argument when capturing StdOut data, otherwise it may overload your application and slow down the build itself.
 
 {.WARNING}
 > Using the Build Swarm manually or through automation is recommended for advanced users only.
@@ -42,7 +42,7 @@ Gaea.Build.exe "C:\Users\Me\Documents\Gaea\MyFile.tor"
 | `--buildlog` | Saves the build log to `buildlog.txt` in the build folder. |
 | `--open`     | Opens the build folder after the build is complete.        |
 | `--close`    | Immediately closes the window after build is complete.     |
-| `--beep`     | Plays a short beep at the end of a build.                  |
+| `--beep`     | Sounds a short beep at the end of a build.                  |
 
 #### Build Modification Switches
 
