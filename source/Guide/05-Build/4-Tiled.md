@@ -11,7 +11,7 @@ Let's differentiate between tiled output and tiled processing:
 
 *"Tiled Output"* is when the build results (regardless of how they were built) are saved in a grid - that is, the overall output is split into even tiles. Tiled Output is used for very large terrains, especially in games, where parts of the terrain are "streamed" into memory for efficiency.
 
-*"Tiled Processing"* or Distributed Processing is when a terrain is divided up into a grid of tiles *before* processing. After processing, the final output may be saved as individual tiles or as a single image. Tiled Processing is used to process very large terrains beyond what may be possible within the limits of your current hardware. By dividing the terrain into smaller tiles and processing them one by one, a remarkably smaller amount of RAM is needed for processing.
+*"Tiled Processing"*, or Distributed Processing, is when a terrain is divided up into a grid of tiles *before* processing. After processing, the final output may be saved as individual tiles or as a single image. Tiled Processing is used to process very large terrains beyond what may be possible within the limits of your current hardware. By dividing the terrain into smaller tiles and processing them one by one, a remarkably smaller amount of RAM is needed for processing.
 
 ## Tiled Output
 
@@ -22,7 +22,7 @@ Let's differentiate between tiled output and tiled processing:
 {.NOTE}
 > Tiled Processing is scheduled for inclusion in the March-April update cycle.
 
-There are natural limitations of Tiled Processing. One is that each tile is processed without any relation to the neighboring tiles. This may result in abrupt differences at the borders. To overcome this, an Edge Blend setting is provided. You can choose Low, Medium, High, or Overkill. Increasing the blending amount will increase the time taken for processing, and the memory required. However, it will still be less than a normal or linear build.
+There are natural limitations of Tiled Processing. One is that each tile is processed without any relation to the neighboring tiles. This may result in abrupt differences at the borders. To overcome this, an Edge Blend setting is provided. You can choose Low, Medium, High, or Overkill. Increasing the blending amount will increase the processing time and the memory required. However, it will still be less than a normal or linear build.
 
 ### Avoid Screenspace Effects
 
