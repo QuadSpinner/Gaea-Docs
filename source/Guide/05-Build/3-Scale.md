@@ -4,7 +4,7 @@ title: Terrain Scale
 section: true
 ---
 
-Gaea supports setting an arbitrary scale for your terrains through the new Terrain Definition panel. If you're a casual terrain artist, this won't significantly affect your workflow — the defaults will be sufficient. However, if you're creating precisely-scaled terrains, Terrain Definition is your best friend.
+Gaea supports setting an arbitrary scale for your terrains through the new Terrain Definition panel. If you're a casual terrain artist, this won't significantly affect your workflow — the defaults will be sufficient. However, if you are creating precisely-scaled terrains, Terrain Definition is your best friend.
 
 ## Terrain Definition
 
@@ -23,7 +23,7 @@ A height of 2.6km is usually more than enough for most terrains. For perspective
 
 #### Important Readouts for Terrain Scale
 
-In the Terrain Definition, you get two readouts: Real Scale and Height-Scale Ratio.
+In the Terrain Definition, you get 2 readouts: Real Scale and Height-Scale Ratio.
 
 **Real Scale**: This is the pixel-to-meters "density" for your output. It is calculated by dividing your final output resolution (selected in the Build Manager) by the scale in meters set in the Terrain Definition.
 
@@ -38,7 +38,7 @@ This information is often used by game designers to ensure scale accuracy betwee
 
 Scale in all CG is an imaginary construct. With Gaea and heightfields, we have pixels when using an image format, or an array of floats when using a raw format. A Gaea terrain in its most basic form is a cube made of infinite numbers, which must be translated to a fixed size as defined by the output resolution and image format.
 
-For example, if your output resolution is 2048 x 2048, then the size of the terrain in pixels is 2048 on either side - this is uniform across all image and raw formats. The "vertical" capacity is defined by the maximum storage capacity of the format. 32-bit TIFF, EXR, RAW and PFM can store approximately one million levels of vertical "heights".
+For example, if your output resolution is 2048 x 2048, then the size of the terrain in pixels is 2048 on either side - this is uniform across all image and raw formats. The "vertical" capacity is defined by the maximum storage capacity of the format. 32-bit TIFF, EXR, RAW, and PFM can store approximately one million levels of vertical "heights".
 
 {.NOTE}
 > Gaea stores and processes heightfields as "floats" (a high precision number). Heights are stored in a  `~0.0,000,000` - `1.0,000,000` range. For the more technically minded, this is just a simplification. Gaea uses IEEE 754 format 32-bit floats.
@@ -80,7 +80,7 @@ When exporting the terrain as an image/heightmap, you must make a fundamental de
 
 These options are known as the **Output Range** options in the Build Manager. See @building for information on setting those options. Below we will discuss the implications of each option.
 
-There is no right or wrong way to scale the output range. It depends on what target application you are using, and how.
+There is no right or wrong way to scale the output range. It depends on what target application you are using and how.
 
 
 #### Raw Scale
@@ -99,10 +99,10 @@ When bringing the terrain into your target application, you can optionally treat
 
 #### Normalized Scale
 
-Forced scaling, in many situations, can give you maximum vertical fidelity. Gaea will force the terrain to use the entire `~0.0000000 - 1.0000000` height range in 32-bit formats (16.7 million levels). In 16-bit images that would be `0 - 65,534`. In 8-bit, it is `0 - 254`. If you need more vertical fidelity for closeups, this option may help as you get more density in the up-axis than in other methods.
+Forced scaling, in many situations, can give you maximum vertical fidelity. Gaea will force the terrain to use the entire `~0.0000000 - 1.0000000` height range in 32-bit formats (16.7 million levels). In 16-bit images, that would be `0 - 65,534`. In 8-bit, it is `0 - 254`. If you need more vertical fidelity for closeups, this option may help because you get more density in the up-axis than in other methods.
 
 When using forced scaling, you must adjust the vertical size of your output manually in the target application. Like with Natural Scale, use the Height-Scale Ratio.
 
 #### Custom Scale
 
-This is a special option reserved for importing and exporting data in very specific ranges. In most normal circumstances, you will not need to use this node. If you wish to use this mode for automation scenarios, see @create-bridge and @buildmanager.
+This is a special option reserved for importing and exporting data in very specific ranges. In most normal circumstances, you will not need to use this mode. If you wish to use this mode for automation scenarios, see @create-bridge and @buildmanager.
