@@ -23,7 +23,7 @@ All nodes that use Parallel Processing will have the following parameters.
 
 #### Deterministic Output
 
-Some like @Wizard and @Erosion will present it in the form a `Deterministic` checkbox, without chunk parameters.
+Some nodes like @Wizard and @Erosion will present Parallel Processing in the form a `Deterministic` checkbox, without chunk parameters.
 
 Due to the nature of these algorithms and parallel processing, the erosion flow may differ slightly each time. To ensure 100% exact results every time, you can turn on the `Deterministic` option. However, this will force Gaea to use a single processor core which will result in slower processing.
 
