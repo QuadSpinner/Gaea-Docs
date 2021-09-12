@@ -49,7 +49,7 @@ Gaea.Build.exe "C:\Users\Me\Documents\Gaea\MyFile.tor"
 | Switch             | Description                                                                                                                                                                     |
 | :----------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | `--unclamped`      | Forces the build to use Natural Elevation. See @scale.                                                                                                                          |
-| `--forcescale`     | Forces the build to use force Full Range scaling. See @scale.                                                                                                                   |
+| `--forcescale`     | Forces the build to use Full Range scaling. See @scale.                                                                                                                   |
 | `--mutate##`       | Repeats the build and randomizes the seeds of every node to create variations with each build. <br> Valid options for the `##` portion are numbers from 1 to 99. See @building. |
 | `--nodemap`        | Creates an XML node map file for any exposed properties.                                                                                                                        |
 | `--resolution####` | Sets the resolution of the build. <br> Valid options for the `####` portion are 512, 1024, 2048, 4096, and 8192.                                                                |
