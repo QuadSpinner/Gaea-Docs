@@ -20,7 +20,7 @@ Let's differentiate between tiled output and tiled processing:
 ## Tiled Processing
 
 {.NOTE}
-> Tiled Processing is scheduled for inclusion in the March-April update cycle.
+> Tiled Processing is scheduled for inclusion in version 1.3.
 
 There are natural limitations of Tiled Processing. One is that each tile is processed without any relation to the neighboring tiles. This may result in abrupt differences at the borders. To overcome this, an Edge Blend setting is provided. You can choose Low, Medium, High, or Overkill. Increasing the blending amount will increase the processing time and the memory required. However, it will still be less than a normal or linear build.
 
