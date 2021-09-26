@@ -129,7 +129,9 @@
                         'title', 'text'
                     ],
                     fullTextSearch: 'exact',
-                    minCharacters: 2
+                    minCharacters: 2,
+                    maxResults: 12,
+                    showNoResults: true
                 });
         }
     });
