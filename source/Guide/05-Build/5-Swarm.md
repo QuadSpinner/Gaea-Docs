@@ -4,9 +4,9 @@ uid: build-swarm
 ---
 
 
-The Build Swarm is the command line building engine for Gaea. Whenever a large scale build is needed, Gaea launches the Build Swarm to build the terrain. You can also launch it manually if needed. The Build Swarm can be found in the Gaea installation folder as `Gaea.Build.exe`.
+The Build Swarm is the command line building engine for Gaea. Whenever a large scale build is needed, Gaea launches the Build Swarm to build the terrain. You can also launch it manually, if needed. The Build Swarm can be found in the Gaea installation folder as `Gaea.Build.exe`.
 
-The Build Swarm writes status messages to StdOut and can be monitored remotely if needed. You MUST use the `--silent` argument when capturing StdOut data otherwise it may overload your application and slow down the build itself.
+The Build Swarm writes status messages to StdOut and can be monitored remotely, if needed. You MUST use the `--silent` argument when capturing StdOut data, otherwise it may overload your application and slow down the build itself.
 
 {.WARNING}
 > Using the Build Swarm manually or through automation is recommended for advanced users only.
@@ -42,14 +42,14 @@ Gaea.Build.exe "C:\Users\Me\Documents\Gaea\MyFile.tor"
 | `--buildlog` | Saves the build log to `buildlog.txt` in the build folder. |
 | `--open`     | Opens the build folder after the build is complete.        |
 | `--close`    | Immediately closes the window after build is complete.     |
-| `--beep`     | Plays a short beep at the end of a build.                  |
+| `--beep`     | Sounds a short beep at the end of a build.                  |
 
 #### Build Modification Switches
 
 | Switch             | Description                                                                                                                                                                     |
 | :----------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | `--unclamped`      | Forces the build to use Natural Elevation. See @scale.                                                                                                                          |
-| `--forcescale`     | Forces the build to use force Full Range scaling. See @scale.                                                                                                                   |
+| `--forcescale`     | Forces the build to use Full Range scaling. See @scale.                                                                                                                   |
 | `--mutate##`       | Repeats the build and randomizes the seeds of every node to create variations with each build. <br> Valid options for the `##` portion are numbers from 1 to 99. See @building. |
 | `--nodemap`        | Creates an XML node map file for any exposed properties.                                                                                                                        |
 | `--resolution####` | Sets the resolution of the build. <br> Valid options for the `####` portion are 512, 1024, 2048, 4096, and 8192.                                                                |
