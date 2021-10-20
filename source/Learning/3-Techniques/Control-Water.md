@@ -12,7 +12,7 @@ The core concept here is to use the secondary outputs of the Lakes node instead 
 
 Then we enable the Difference mask in the Combine node. This is the new Lakes mask that the Lakes node would have normally given us, but with the clamp influence taken into consideration.
 
-Additionally, just to show the effect we're also combining (50% Blend) the Autolevelled Depth output with the Difference mask, and then pass it to a SatMaps node. Now we when we lower the Clamp nodes Max amount, the water level goes down while leaving a "drying shore". 
+Additionally, just to show the effect, we're also combining (50% Blend) the Autolevelled Depth output with the Difference mask, and then passing it to a SatMaps node. Now we when we lower the Clamp nodes Max amount, the water level goes down while leaving a "drying shore". 
 
 ![](/images/ref/Lakes/tut-control-1.webp)
 
@@ -27,6 +27,6 @@ Clamp Max at 55%.
 Clamp Max at 32%.
 
 
-You can create a more elaborate texturing setup to show the drying shoreline and more. For example, if you set up two different clamps, you can get a "wet" area outside the water level. That is how this terrain was created:
+You can create a more elaborate texturing setup to show the drying shoreline and more. For example, if you set up 2 different clamps, you can get a "wet" area outside the water level. That is how this terrain was created:
 
 ![](/images/ref/Lakes/lake-clamp.gif)
