@@ -9,10 +9,10 @@ In this example, we have `Selective Processing` set to `Altitude` with high `Dur
 
 ![](/images/ref/Erosion/Erosion-Pass1.webp)
 
-For the second pass, we have default settings except for `100%`{.val} `Downcutting` and `100%`{.val} `Base Level`. This creates strong flow structures everywhere.
+For the second pass, we have default settings except for `100%`{.val} `Downcutting` and `100%`{.val} `Base Level`. This makes strong flow structures everywhere.
 
 ![](/images/ref/Erosion/Erosion-Pass2.webp)
 
-The third pass is fully default. It takes the general larger variations created in the previous passes and homogenizes the overall "texture" yet keeps the larger features. Optionally, higher Inhibition can be used to create more sediments at the bottom.
+The third pass is fully default. It takes the general larger variations produced in the previous passes and homogenizes the overall "texture" while keeping the larger features. Optionally, higher Inhibition can be used to create more sediments at the bottom.
 
 ![](/images/ref/Erosion/Erosion-Pass3.webp)
