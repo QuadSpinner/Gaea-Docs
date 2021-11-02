@@ -3,13 +3,13 @@ uid: tut-draw-modify
 title: Draw to Modify
 ---
 
-A hidden gem in Gaea is the @Mask node. On the surface it appears to be a simple mask drawing tool, but when used in conjunction with specific node networks, it can give you a powerful creative advantage.
+A hidden gem in Gaea is the @Mask node. On the surface, it appears to be a simple mask drawing tool. When used in conjunction with specific node networks, however, it can give you a powerful creative advantage.
 
 In this example, we will use the Mask node to modify the heights and even draw some detail into an existing terrain.
 
 ![](/images/tut/draw-setup.webp)
 
-To set up our Mask node, we input the terrain for reference so we can see where are drawing. Then a @Combine node is set up after it to take the Mask output and blend it into the main terrain in either `Add` or `Screen` mode. Finally, we Pin the Combine node so we get a live preview of the result from the drawing. (see @pinning).
+To set up our Mask node, we input the terrain for reference so we can see where we are drawing. Then a @Combine node is set up after it to take the Mask output and blend it into the main terrain in either `Add` or `Screen` mode. Finally, we Pin the Combine node to get a live preview of the result from the drawing. (see @pinning).
 
 ![](/images/tut/draw-drawing.webp)
 
@@ -17,7 +17,7 @@ In the @Mask node editor, click Edit Mask to start drawing. Adjust the `Blur` an
 
 ![](/images/tut/draw-up-down.webp)
 
-If you need both raise and lower capability, you can set up two different masks - one that Subtracts while the other Adds. Or you can choose `50%`{.val} `Strength` and paint over the entire mask surface. Switch the @Combine node's mode to `Multiply` and in the @postprocess set the `Multiply` option to `2.0`{.val} to compensate for the 50% multiplication. Then when you use positive or negative strokes, they will raise or lower respectively.
+If you need to both raise and lower capability, you can set up 2 different masks - one that Subtracts and one that Adds. Or you can choose `50%`{.val} `Strength` and paint over the entire mask surface. Switch the @Combine node's mode to `Multiply` and, in the @postprocess, set the `Multiply` option to `2.0`{.val} to compensate for the 50% multiplication. Then when you use positive or negative strokes, they will raise or lower respectively.
 
 ![](/images/tut/draw-warpy.webp)
 

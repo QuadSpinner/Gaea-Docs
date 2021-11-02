@@ -3,7 +3,7 @@ uid: tut-slanted-terraces
 title: Slanted Terraces
 ---
 
-Take any random shape like a @Perlin, and add an @Apex node. 
+Take any random shape, like a @Perlin, and add an @Apex node. 
 
 ![](/images/tut/apex1.webp)
 
