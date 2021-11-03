@@ -3,12 +3,12 @@ uid: tut-fake-flow
 title: Fake Water Flows
 ---
 
-If you want to create water flows, like you might find at the beach, you can fake them using @Erosion.
+If you want to create water flows, similar to what you might find at a beach, you can fake them using @Erosion.
 
 ![](/images/tut/Fake-1.webp)
 ![](/images/tut/Fake-2.webp)
 
-First, we set up a @SlopeNoise and erode it. The Erosion settings of high downcutting values (all 3 sliders) are to promote wider, sandier flows.
+First, we set up a @SlopeNoise and erode it. The Erosion settings of high downcutting values (all 3 sliders) promote wider, sandier flows.
 
 ![](/images/tut/Fake-3.webp)
 
