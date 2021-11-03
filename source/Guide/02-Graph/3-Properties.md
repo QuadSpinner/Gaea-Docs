@@ -33,7 +33,7 @@ For properties that allow numeric entry (Integer or Decimals), you can right-cli
 
 The Microincrements panel is available when you right-click an Integer or Decimals property. With the Microincrements panel, you can achieve much higher precision in entering values.
 
-![](/images/ui/microincrements.webp){.w-75}
+![](/images/ui/microincrements.webp){.ui .image .medium}
 
 | Command | Description |
 | -------------- | ------------------------------------------- |
@@ -53,7 +53,7 @@ Seed Reset is a minor enhancement in the Microincrements UI. It sets the “Defa
 
 #### Flux Markers
 
-![](/images/ui/properties-flux.webp){.w-75}
+![](/images/ui/properties-flux.webp){.ui .image .medium}
 
 Flux markers are small dots that represent previous values. They appear when you hover over the slider.
 
@@ -83,7 +83,7 @@ The Post Process options sit right under the Properties and provide quick access
 
 The node Properties menu provides access to additional functionality.
 
-![](/images/ui/properties-menu.webp){.w-75}
+![](/images/ui/properties-menu.webp){.ui .image .medium}
 
 | Command | Description    |
 | ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |

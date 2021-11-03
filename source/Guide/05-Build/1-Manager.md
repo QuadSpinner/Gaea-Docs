@@ -3,16 +3,48 @@ uid: buildmanager
 title: Build Manager
 ---
 
-![Build Manager](/images/ui/Build-Manager.webp)
 
+## Build Manager
 
-## Build Options
+#### Introduction
+
+The output from your project must be saved to a file in order to use it elsewhere. To do this, you must build the output. When you build the output, Gaea will create it at your target resolution. This may take a while to build depending upon the complexity of your terrain and the effects used.
+
+![Build Manager](/images/ui/build-manager.webp){.ui .image .medium}
+
+Over the course of a complex project, saving and managing the appropriate outputs can become a tedious task. Managing outputs for several different nodes, especially those with multiple outputs (like the Erosion node), can make it even worse.
+
+The Build Manager simplifies how builds are saved, organized, and managed for future use.
+
+## Files to Save
 
 #### Node List
 
 Any node marked for export shows up in the Build Manager list. You can also add other nodes directly using the **Add Node** button.
 
 Each node will expose its savable filename, the format in which it will export, and the different outputs it exposes.
+
+#### Managing Ports
+
+#### Helpful Options
+
+
+## Build Definition
+
+#### Normal Build
+
+#### Split Build
+
+#### Tiled Build
+
+
+
+
+
+
+
+## Build Options
+
 
 #### Build Destination
 
@@ -25,9 +57,6 @@ For additional information, see **Organizing Builds** below.
 **Resolution**
 
 The output resolution of the build. Higher resolutions give you better detail, but longer processing times.
-
-{.WARNING}
-> 16k and 32k builds are experimental at this stage and will be optimized over the next several versions.
 
 **Format**
 

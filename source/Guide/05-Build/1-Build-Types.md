@@ -30,8 +30,8 @@ advantages and disadvantages.
 
 #### Normal Build
 
-![Normal Build: The terrain is built normally as a single process.](/images/diagrams/build-type-normal.png){.ui
-.image .large .no-border}
+![Normal Build: The terrain is built normally as a single process.](/images/diagrams/build-type-single.png){.ui
+.image .medium .no-border}
 
 This is the standard build type and works for most cases. With a Normal
 Build, Gaea will build the entire terrain in a single pass. If you think
@@ -53,12 +53,12 @@ the build, the terrain is split into a grid of tiles as defined in the
 This is useful for taking the tiles into game engines, such as Unity and
 Unreal; however, the build size is still limited to 8192 x 8192.
 
-#### Tiled Builds
+#### Distributed Build
 
-![Tiled Build: The terrain is built as seperated buckets which are then blended together.](/images/diagrams/build-type-tiled.png){.ui
+![Tiled Build: The terrain is built as seperated buckets which are then blended together.](/images/diagrams/build-type-distributed.png){.ui
 .image .large .no-border}
 
-The Tiled Build splits the terrain into tiles or buckets, and builds
+The Distributed Build, also known as a tiled build, splits the terrain into tiles or buckets, and builds
 them individually. The end result can be either a set of tiles or a
 reconstituted single image. The major advantage is that this build
 method does not have the same memory restrictions as the other builds,
@@ -73,3 +73,7 @@ create a seamless look, but in certain cases..?
 
 See @tiled-builds for details on how a terrain must be prepared for bucket processing.
 
+#### Distributed Build + Recombine
+
+![Tiled Build: The terrain is built as seperated buckets which are then blended together.](/images/diagrams/build-type-recombine.png){.ui
+.image .large .no-border}

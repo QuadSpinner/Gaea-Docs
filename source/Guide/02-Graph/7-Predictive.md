@@ -23,8 +23,8 @@ When the Quick Create menu shows up, it will attempt to detect if any patterns e
 
 For example, if you find yourself connecting Autolevel to the Flow output of the Erosion node, dragging out a connection from the Flow port and dropping it into empty space on the Graph surface will bring up the Quick Create menu and Autolevel may be one of the suggested nodes.
 
-![](/images/ui/predictive-port1.webp){.w-75}
-![](/images/ui/predictive-port2.webp){.w-75}
+![](/images/ui/predictive-port1.webp){.ui .image .medium}
+![](/images/ui/predictive-port2.webp){.ui .image .medium}
 
 The suggestions are color coded to help you quickly identify the type of the nodes.
 
@@ -38,20 +38,18 @@ In the Toolbox's menu, you can select "Show most-used nodes only". This will hid
 
 For easier access, you can do this frequently using the small toggle switch next to the menu.
 
-![](/images/ui/predictive-toolbox.webp)
+![](/images/ui/predictive-mostused.webp){.ui .image .medium}
 
 ## Helping Gaea learn
 
 Gaea's predictions are based on its understanding of your usage. You can direct it to learn from existing files or the currently open file from the @toolbox menu.
 
-![](/images/ui/predictive-ui-predictive-learn.webp)
+![](/images/ui/predictive-learn.webp){.ui .image .medium}
 
 You can choose how far to go into your Gaea docs folder. Gaea will then parse every file to learn the connection patterns and preferences. It may take a few moments depending on how many files you have in your Gaea docs.
 
-![](/images/ui/predictive-ui-predictive-learning.webp)
-
 Once finished, Gaea will immediately be able to give you improved predictions.
 
-![](/images/ui/predictive-ui-predictive-learned.webp)
+![](/images/ui/predictive-learned.webp){.ui .image .medium}
 
 This directed learning mechanism can be quite useful when creating a clean installation or installing on a new machine.

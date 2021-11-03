@@ -1,31 +1,38 @@
 ---
 uid: tiled-builds
-title: Preparing Terrains for Tiling
+title: Preparing Terrains for Tiled Build
 ---
-^future
-^wip
 
-# Tiled Output vs. Tiled Processing
+## Preparing your Terrain
 
-Let's differentiate between tiled output and tiled processing:
+#### Split Build
 
-*"Tiled Output"* is when the build results (regardless of how they were built) are saved in a grid - that is, the overall output is split into even tiles. Tiled Output is used for very large terrains, especially in games, where parts of the terrain are "streamed" into memory for efficiency.
+![Split Build: The terrain is built normally, then split into a uniform grid.](/images/diagrams/build-type-split.png){.ui
+.image .large .no-border}
 
-*"Tiled Processing"*, or Distributed Processing, is when a terrain is divided up into a grid of tiles *before* processing. After processing, the final output may be saved as individual tiles or as a single image. Tiled Processing is used to process very large terrains beyond what may be possible within the limits of your current hardware. By dividing the terrain into smaller tiles and processing them one by one, a remarkably smaller amount of RAM is needed for processing.
+Split Builds require very little special consideration. You can change any terrain from a Normal Build to a Split Build without modification. This is because the terrain is built normally, and then split into chunks. This is usually used when your terrain has to be in chunks (aka tiles) for consumption in your game engine or CG app, but it is just 8192 x 8192 or smaller in size.
 
-## Tiled Output
+If your terrain is 8K or smaller, then this is our recommended method for creating game engine compatible chunks. It is usually faster and produces very accurate results.
 
-^wip
 
-## Tiled Processing
+#### Tiled Build
+
+![Tiled Build: The terrain is built as seperated buckets which are then blended together.](/images/diagrams/build-type-distributed.png){.ui
+.image .large .no-border}
+
+To prepare your terrain for a tiled build, you need to bake all non-tile-friendly nodes. Some of Gaea's nodes are "tile friendly" and others are not. For example, all Primitives are not tile friendly, while Erosion and LookDev nodes are tile friendly.
+
+Let's look at a typical example: a terrain with 3 or 4 primitives which are combined and adjusted using @Fx nodes, @Mask and perhaps an imported heightmap/mask in a @File node. Then it is processed with 2 Erosion nodes and a LookDev node. After that, @Texture, @Flow and other Data Maps are used to create a texture base which is then colored with @SatMaps and other color nodes.
+
+The first portion where the overall shape is created, but not detailed with Erosion yet, is the main sequence of nodes that would be not be tile friendly. As such they would be baked at 4096 x 4096 or 8192 x 8192 as you prefer. The remainder of the nodes are tile friendly and do not need to be baked.
+
+By Baking, you tell Gaea that the shapes produces by these nodes need to be preserved exactly. During the Tiled Build, each chunk derived from these primitives is handled with special algorithms to retain the shape across boundaries and resolutions up to 256k x 256k.
 
 {.NOTE}
-> Tiled Processing is scheduled for inclusion in version 1.3.
+> Primitives and adjustments tend to be lighter and faster in terms of processing and memory consumption. They don't gain much from Tiled Processing. Their visual detail is also limited as they are noise based. The real high resolution detail is added through Erosion and LookDev processors which are not baked and therefore provide full quality.
 
-There are natural limitations of Tiled Processing. One is that each tile is processed without any relation to the neighboring tiles. This may result in abrupt differences at the borders. To overcome this, an Edge Blend setting is provided. You can choose Low, Medium, High, or Overkill. Increasing the blending amount will increase the processing time and the memory required. However, it will still be less than a normal or linear build.
+The rest of the nodes such as LookDev, Erosion, Data Maps and Color Production are all specialized to work with separate chunks.
 
-### Avoid Screenspace Effects
+Finally, your terrain is now ready for a Tiled Build. You can choose the number of tiles, and the resolution of each tile in the @buildmanager and fire off a build.
 
-Another natural limitation is the inability to process screenspace effects. Screenspace effects are nodes such as @Swirl, @Whorl, @Transform, etc. Such effects require processing the image as a whole and will not look correct when processed as tiles.
-
-If you have used any such nodes, there will be a small warning icon in the status bar, and a more comprehensive warning in the @build-manager dialog.
+For detailed strategies on how to separate a terrain graph, see @separateprojects.
