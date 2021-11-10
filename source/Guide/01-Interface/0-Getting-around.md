@@ -5,13 +5,13 @@ title: Getting around
 
 ## The Gaea Interface
 
-![](/images/ui/Intro-All.webp)
+![](/images/ui/ui-intro-large.webp)
 
-The Gaea interface is streamlined and minimal. All essential tools are available within the main interface.
+The Gaea interface is sreamlined and minimal. All essential tools are available within the main interface. It is split into 3 main parts: the viewport, the graph, and the properties panel.
 
 #### Viewport
 
-![](/images/ui/Intro-Viewports.webp)
+![](/images/ui/ui-intro-granular-viewport.webp)
 
 The viewports help you visualize your terrain components as you build the graph. There are 2 viewports: the 3D viewport and the 2D viewport. The 2D viewport also doubles as an editor surface when using nodes such as @Draw, @Island, @Mask, etc.
 
@@ -21,7 +21,7 @@ For further details, see @viewport.
 
 #### Graph Surface
 
-![](/images/ui/Intro-Graph.webp)
+![](/images/ui/ui-intro-granular-graph.webp)
 
 The Graph is the core of Gaea. This is where you take nodes from the Toolbox and implement them on the Graph surface. The Toolbox menu allows you to change the Toolbox's configuration, such as full size or expert mode.
 
@@ -31,7 +31,7 @@ For further details, see @graph.
 
 #### Properties Panel
 
-![](/images/ui/Intro-Properties.webp)
+![](/images/ui/ui-intro-granular-properties.webp)
 
 The Properties panel lets you modify the nodes on the Graph surface. When you select a node, the properties for it will be visible here.
 
@@ -41,9 +41,14 @@ Between these is the Apply / Lock button. If a node takes a long time to process
 
 For further details, see @properties.
 
+This are also lets you switch to the Build tab which houses the Build Manager. For further information, see @buildmanager.
+
+Below the Build Manager controls is the Terrain Definition. This is where you can control the arbitrary scale of your terrain. For further information, see @scale.
+
+
 #### Toolbars
 
-![](/images/ui/Intro-Toolbars.webp)
+![](/images/ui/ui-intro-granular-toolbars.webp)
 
 Beyond the graph and viewport toolbars, there are other toolbars across the interface.
 
@@ -52,15 +57,3 @@ At the top, the main toolbar is shared with the title bar to give you maximum wo
 On the far right, you can change the scale of the UI. You can also see the version and edition of Gaea you are using.
 
 In the bottom right corner of the interface, there are a few advanced options for caching and memory optimization. For further details, see @cache.
-
-#### Build Tab
-
-![](/images/ui/Intro-Build.webp)
-
-Gaea needs to build the terrain to give you the final quality version you are previewing while working in the main interface. The Build Manager tab allows you to configure the terrain build and use different options to initiate the build.
-
-At the bottom, you can select the build destination and fire off the build using the @build-swarm.
-
-For further information, see @buildmanager.
-
-Below the Build Manager controls is the Terrain Definition. This is where you can control the arbitrary scale of your terrain. For further information, see @scale.

@@ -1,6 +1,7 @@
 ---
 uid: erosions
 title: Eroding Terrains
+alts: selective-processing, deterministic-output
 ---
 
 Erosion is the primary process through which we turn abstract and geometric shapes into believable terrains. It is one of the most crucial parts of any procedural terrain.
@@ -128,7 +129,7 @@ Thermal erosion is the sister to Hydraulic erosion. While used less frequently, 
 
 #### Combining with Hydraulic Erosion
 
-In the real world, hydraulic and thermal erosion occur together. You can mimic this behavior by chaining @Thermal and @Erosion (or @Wizard) nodes, as shown in the [#layering-erosion](Layering Erosion) section above.
+In the real world, hydraulic and thermal erosion occur together. You can mimic this behavior by chaining @Thermal and @Erosion (or @Wizard) nodes, as shown in the [Layering Erosion](#layering-erosion) section above.
 
 ![Chained sequence of Wizard/Erosion and Thermal nodes](/images/ref/chain-thermal-erosion.webp)
 
