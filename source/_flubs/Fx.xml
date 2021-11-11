@@ -6,6 +6,7 @@
   </Flub>
   <Flub>
     <Name>Autolevel</Name>
+	  <Description>Automatically levels the terrain where the heights are proportionately distributed between the highest and lowest points.</Description>
   </Flub>
   <Flub>
     <Name>Equalize</Name>
@@ -24,35 +25,16 @@
     <Description>Lorem ipsum</Description>
   </Flub>
   <Flub>
-    <Name>Blur</Name>
-    <Description>Lorem ipsum</Description>
-  </Flub>
-  <Flub>
     <Name>Clamp</Name>
   </Flub>
   <Flub>
-    <Name>Min</Name>
-  </Flub>
-  <Flub>
-    <Name>Max</Name>
-  </Flub>
-  <Flub>
     <Name>Clip</Name>
-  </Flub>
-  <Flub>
-    <Name>ClipMin</Name>
-  </Flub>
-  <Flub>
-    <Name>ClipMax</Name>
   </Flub>
   <Flub>
     <Name>Raise</Name>
   </Flub>
   <Flub>
     <Name>Multiplier</Name>
-  </Flub>
-  <Flub>
-    <Name>Shaper</Name>
   </Flub>
   <Flub>
     <Name>Shaper</Name>

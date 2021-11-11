@@ -6,13 +6,34 @@
     <Flubs>
       <Flub>
         <Name>Gentle</Name>
+		<Description>Lorem ipsum</Description>
       </Flub>
       <Flub>
         <Name>Intense</Name>
+		<Description>Lorem ipsum</Description>
       </Flub>
     </Flubs>
   </Flub>
   <Flub>
     <Name>Curve</Name>
+	<Description>Lorem ipsum</Description>
+	  <Flubs>
+		  <Flub>
+			  <Name>Flip</Name>
+			  <Description>Lorem ipsum</Description>
+		  </Flub>
+		  <Flub>
+			  <Name>Random</Name>
+			  <Description>Lorem ipsum</Description>
+		  </Flub>
+		  <Flub>
+			  <Name>Even</Name>
+			  <Description>Lorem ipsum</Description>
+		  </Flub>
+		  <Flub>
+			  <Name>Reset</Name>
+			  <Description>Lorem ipsum</Description>
+		  </Flub>
+	  </Flubs> 
   </Flub>
 </ArrayOfFlub>
