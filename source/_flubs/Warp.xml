@@ -19,24 +19,31 @@
     <Flubs>
       <Flub>
         <Name>Perlin FBM</Name>
+		<Description>Lorem ipsum</Description>
       </Flub>
       <Flub>
         <Name>Voronoi R</Name>
+		<Description>Lorem ipsum</Description>
       </Flub>
       <Flub>
         <Name>Voronoi P</Name>
+		<Description>Lorem ipsum</Description>
       </Flub>
       <Flub>
         <Name>Voronoi A</Name>
+		<Description>Lorem ipsum</Description>
       </Flub>
       <Flub>
         <Name>Voronoi S</Name>
+		<Description>Lorem ipsum</Description>
       </Flub>
       <Flub>
         <Name>Voronoi M</Name>
+		<Description>Lorem ipsum</Description>
       </Flub>
       <Flub>
         <Name>Voronoi D</Name>
+		<Description>Lorem ipsum</Description>
       </Flub>
     </Flubs>
   </Flub>
@@ -58,9 +65,11 @@
     <Flubs>
       <Flub>
         <Name>Edge</Name>
+		<Description>Lorem ipsum</Description>
       </Flub>
       <Flub>
         <Name>Mirror</Name>
+		<Description>Lorem ipsum</Description>
       </Flub>
     </Flubs>
   </Flub>
@@ -85,12 +94,15 @@
     <Flubs>
       <Flub>
         <Name>Bitmap</Name>
+		<Description>Lorem ipsum</Description>
       </Flub>
       <Flub>
         <Name>Vector Field</Name>
+		<Description>Lorem ipsum</Description>
       </Flub>
       <Flub>
         <Name>Vector Field Integral</Name>
+		<Description>Lorem ipsum</Description>
       </Flub>
     </Flubs>
   </Flub>
