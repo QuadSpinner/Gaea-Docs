@@ -10,12 +10,15 @@
     <Flubs>
       <Flub>
         <Name>Canyon</Name>
+		<Description>Lorem ipsum</Description>
       </Flub>
       <Flub>
         <Name>Collapse</Name>
+		<Description>Lorem ipsum</Description>
       </Flub>
       <Flub>
         <Name>Wall</Name>
+		<Description>Lorem ipsum</Description>
       </Flub>
     </Flubs>
   </Flub>
@@ -25,9 +28,11 @@
     <Flubs>
       <Flub>
         <Name>Simple</Name>
+		<Description>Lorem ipsum</Description>
       </Flub>
       <Flub>
         <Name>Granular</Name>
+		<Description>Lorem ipsum</Description>
       </Flub>
     </Flubs>
   </Flub>

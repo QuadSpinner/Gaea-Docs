@@ -10,10 +10,11 @@
     <Flubs>
       <Flub>
         <Name>Craterfield</Name>
-		  <Description>Lorem ipsum</Description>
+		<Description>Lorem ipsum</Description>
       </Flub>
       <Flub>
-        <Name>Impact Crater</Name><Description>Lorem ipsum</Description>
+        <Name>Crater</Name>
+		<Description>Lorem ipsum</Description>
       </Flub>
     </Flubs>
   </Flub>
@@ -28,18 +29,6 @@
   <Flub>
     <Name>Density</Name>
     <Description>Lorem ipsum</Description>
-  </Flub>
-  <Flub>
-    <Name>Scale</Name>
-    <Description>The scale of the volcano.</Description>
-  </Flub>
-  <Flub>
-    <Name>Height</Name>
-    <Description>The height of the volcano.</Description>
-  </Flub>
-  <Flub>
-    <Name>Noise</Name>
-    <Description>The scale of the chaos noise in the basic shape. Low values create more chaos; high values reduce chaos.</Description>
   </Flub>
   <Flub>
     <Name>Floor</Name>
@@ -76,10 +65,6 @@
   <Flub>
     <Name>Y</Name>
     <Description>Lorem ipsum</Description>
-  </Flub>
-  <Flub>
-    <Name>Displacement</Name>
-    <Description>Displacement of the entire crater shape. This can be used to add a bit of variety to the shape. Excess values should be avoided.</Description>
   </Flub>
   <Flub>
     <Name>Seed</Name>

@@ -6,9 +6,11 @@
     <Flubs>
       <Flub>
         <Name>Large</Name>
+		  <Description>Lorem ipsum</Description>
       </Flub>
       <Flub>
         <Name>Small</Name>
+		  <Description>Lorem ipsum</Description>
       </Flub>
     </Flubs>
   </Flub>

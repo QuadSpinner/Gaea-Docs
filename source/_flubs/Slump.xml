@@ -10,12 +10,15 @@
     <Flubs>
       <Flub>
         <Name>A</Name>
+		<Description>Lorem ipsum</Description>
       </Flub>
       <Flub>
         <Name>B</Name>
+		<Description>Lorem ipsum</Description>
       </Flub>
       <Flub>
         <Name>C</Name>
+		<Description>Lorem ipsum</Description>
       </Flub>
     </Flubs>
   </Flub>
@@ -25,12 +28,15 @@
     <Flubs>
       <Flub>
         <Name>A</Name>
+		<Description>Lorem ipsum</Description>
       </Flub>
       <Flub>
         <Name>B</Name>
+		<Description>Lorem ipsum</Description>
       </Flub>
       <Flub>
         <Name>C</Name>
+		<Description>Lorem ipsum</Description>
       </Flub>
     </Flubs>
   </Flub>

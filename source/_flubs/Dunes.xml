@@ -9,9 +9,11 @@
     <Flubs>
       <Flub>
         <Name>Dune Sea</Name>
+		<Description>Lorem ipsum</Description>
       </Flub>
       <Flub>
         <Name>Random Dunes</Name>
+		<Description>Lorem ipsum</Description>
       </Flub>
     </Flubs>
   </Flub>
@@ -47,15 +49,19 @@
     <Flubs>
       <Flub>
         <Name>A</Name>
+		<Description>Lorem ipsum</Description>
       </Flub>
       <Flub>
         <Name>B</Name>
+		<Description>Lorem ipsum</Description>
       </Flub>
       <Flub>
         <Name>C</Name>
+		<Description>Lorem ipsum</Description>
       </Flub>
       <Flub>
         <Name>D</Name>
+		<Description>Lorem ipsum</Description>
       </Flub>
     </Flubs>
   </Flub>
@@ -64,15 +70,19 @@
     <Flubs>
       <Flub>
         <Name>None</Name>
+		<Description>Lorem ipsum</Description>
       </Flub>
       <Flub>
         <Name>Low</Name>
+		<Description>Lorem ipsum</Description>
       </Flub>
       <Flub>
         <Name>Medium</Name>
+		<Description>Lorem ipsum</Description>
       </Flub>
       <Flub>
         <Name>High</Name>
+		<Description>Lorem ipsum</Description>
       </Flub>
     </Flubs>
   </Flub>
@@ -81,15 +91,19 @@
     <Flubs>
       <Flub>
         <Name>None</Name>
+		<Description>Lorem ipsum</Description>
       </Flub>
       <Flub>
         <Name>Low</Name>
+		<Description>Lorem ipsum</Description>
       </Flub>
       <Flub>
         <Name>Medium</Name>
+		<Description>Lorem ipsum</Description>
       </Flub>
       <Flub>
         <Name>High</Name>
+		<Description>Lorem ipsum</Description>
       </Flub>
     </Flubs>
   </Flub>
