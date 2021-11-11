@@ -1,38 +1,29 @@
 <?xml version="1.0"?>
 <ArrayOfFlub xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Flub>
-    <Name>Size</Name>
-    <Description>Lorem ipsum</Description>
-  </Flub>
-  <Flub>
-    <Name>Mode</Name>
-    <Description>Lorem ipsum</Description>
-  </Flub>
-  <Flub>
     <Name>Style</Name>
     <Description>Lorem ipsum</Description>
     <Flubs>
       <Flub>
         <Name>A</Name>
+        <Description>Lorem ipsum</Description>
       </Flub>
       <Flub>
         <Name>B</Name>
-      </Flub>
-      <Flub>
-        <Name>C</Name>
+        <Description>Lorem ipsum</Description>
       </Flub>
     </Flubs>
   </Flub>
   <Flub>
-    <Name>Size2</Name>
+    <Name>Size</Name>
     <Description>Lorem ipsum</Description>
   </Flub>
   <Flub>
-    <Name>Blur</Name>
+    <Name>Small Rocks</Name>
     <Description>Lorem ipsum</Description>
   </Flub>
   <Flub>
-    <Name>Warp1</Name>
+    <Name>Breakage</Name>
     <Description>Lorem ipsum</Description>
   </Flub>
   <Flub>
@@ -40,7 +31,33 @@
     <Description>Lorem ipsum</Description>
   </Flub>
   <Flub>
-    <Name>Height</Name>
+    <Name>Jitter</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
+    <Name>Clusters</Name>
+    <Description>Lorem ipsum</Description>
+    <Flubs>
+      <Flub>
+        <Name>Off</Name>
+		<Description>Lorem ipsum</Description>
+      </Flub>
+      <Flub>
+        <Name>Large</Name>
+        <Description>Lorem ipsum</Description>
+      </Flub>
+      <Flub>
+        <Name>Small</Name>
+        <Description>Lorem ipsum</Description>
+      </Flub>
+      <Flub>
+        <Name>Shattered</Name>
+        <Description>Lorem ipsum</Description>
+      </Flub>
+  </Flubs>
+  </Flub>
+  <Flub>
+    <Name>Erosion</Name>
     <Description>Lorem ipsum</Description>
   </Flub>
   <Flub>

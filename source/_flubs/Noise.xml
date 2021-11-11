@@ -18,10 +18,6 @@
         <Description>Softer clustering.</Description>
       </Flub>
       <Flub>
-        <Name>Poisson</Name>
-        <Description>Wide, distributed clusters.</Description>
-      </Flub>
-      <Flub>
         <Name>Impulse</Name>
         <Description>Sharp, strong spikes.</Description>
       </Flub>

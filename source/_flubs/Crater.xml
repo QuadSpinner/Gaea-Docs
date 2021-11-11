@@ -10,12 +10,10 @@
     <Flubs>
       <Flub>
         <Name>Craterfield</Name>
+		  <Description>Lorem ipsum</Description>
       </Flub>
       <Flub>
-        <Name>Volcanic Crater</Name>
-      </Flub>
-      <Flub>
-        <Name>Impact Crater</Name>
+        <Name>Impact Crater</Name><Description>Lorem ipsum</Description>
       </Flub>
     </Flubs>
   </Flub>

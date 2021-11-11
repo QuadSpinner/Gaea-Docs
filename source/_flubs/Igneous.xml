@@ -9,10 +9,6 @@
     <Description>The power of the inter-plate collisions.</Description>
   </Flub>
   <Flub>
-    <Name>Channels</Name>
-    <Description>ON carves gullies where different plates meet.</Description>
-  </Flub>
-  <Flub>
     <Name>Seed</Name>
     <Description>The randomization pattern or seed for the node's process.</Description>
   </Flub>

@@ -12,10 +12,6 @@
         <Description>Creates mostly high noise with fewer dips.</Description>
       </Flub>
       <Flub>
-        <Name>Poisson</Name>
-        <Description>Similar to Guassian but with deeper dips.</Description>
-      </Flub>
-      <Flub>
         <Name>Impulse</Name>
         <Description>Almost flat with few sharp dips.</Description>
       </Flub>

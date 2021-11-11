@@ -1,33 +1,20 @@
 <?xml version="1.0"?>
 <ArrayOfFlub xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Flub>
-    <Name>Passes</Name>
+    <Name>Occlusion</Name>
     <Description>Number of occlusion passes. Higher passes provide more detail while being densely packed. Try using higher Power and Multiplier before increasing number of passes.</Description>
   </Flub>
   <Flub>
-    <Name>Mode</Name>
+    <Name>Scale</Name>
     <Description>Lorem ipsum</Description>
     <Flubs>
       <Flub>
-        <Name>A</Name>
+        <Name>Linear</Name>
+		<Description>Lorem ipsum</Description>
       </Flub>
       <Flub>
-        <Name>B</Name>
-      </Flub>
-      <Flub>
-        <Name>C</Name>
-      </Flub>
-      <Flub>
-        <Name>D</Name>
-      </Flub>
-      <Flub>
-        <Name>E</Name>
-      </Flub>
-      <Flub>
-        <Name>F</Name>
-      </Flub>
-      <Flub>
-        <Name>G</Name>
+        <Name>Logarithmic</Name>
+		<Description>Lorem ipsum</Description>
       </Flub>
     </Flubs>
   </Flub>

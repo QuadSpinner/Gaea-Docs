@@ -13,12 +13,15 @@
     <Flubs>
       <Flub>
         <Name>Wavefront OBJ</Name>
+		  <Description>Lorem ipsum</Description>
       </Flub>
       <Flub>
         <Name>XYZ Point Cloud</Name>
+		  <Description>Lorem ipsum</Description>
       </Flub>
       <Flub>
         <Name>Autodesk FBX</Name>
+		  <Description>Lorem ipsum</Description>
       </Flub>
     </Flubs>
   </Flub>
@@ -28,12 +31,15 @@
     <Flubs>
       <Flub>
         <Name>Normalized (0.0 - 1.0)</Name>
+		  <Description>Lorem ipsum</Description>
       </Flub>
       <Flub>
         <Name>1 Unit = 1 Meter</Name>
+		  <Description>Lorem ipsum</Description>
       </Flub>
       <Flub>
         <Name>1 Unit = 1 Kilometer</Name>
+		  <Description>Lorem ipsum</Description>
       </Flub>
     </Flubs>
   </Flub>
@@ -47,12 +53,15 @@
     <Flubs>
       <Flub>
         <Name>Tris</Name>
+		  <Description>Lorem ipsum</Description>
       </Flub>
       <Flub>
         <Name>Quads</Name>
+		  <Description>Lorem ipsum</Description>
       </Flub>
       <Flub>
-        <Name>Optimized Tris (Sophia)</Name>
+        <Name>Tris (Adaptive)</Name>
+		  <Description>Lorem ipsum</Description>
       </Flub>
     </Flubs>
   </Flub>
@@ -69,30 +78,39 @@
     <Flubs>
       <Flub>
         <Name>None</Name>
+		  <Description>Lorem ipsum</Description>
       </Flub>
       <Flub>
         <Name>LOD 1</Name>
+		  <Description>Lorem ipsum</Description>
       </Flub>
       <Flub>
         <Name>LOD 2</Name>
+		  <Description>Lorem ipsum</Description>
       </Flub>
       <Flub>
         <Name>LOD 3</Name>
+		  <Description>Lorem ipsum</Description>
       </Flub>
       <Flub>
         <Name>LOD 4</Name>
+		  <Description>Lorem ipsum</Description>
       </Flub>
       <Flub>
         <Name>LOD 5</Name>
+		  <Description>Lorem ipsum</Description>
       </Flub>
       <Flub>
         <Name>LOD 6</Name>
+		  <Description>Lorem ipsum</Description>
       </Flub>
       <Flub>
         <Name>LOD 7</Name>
+		  <Description>Lorem ipsum</Description>
       </Flub>
       <Flub>
         <Name>LOD 8</Name>
+		  <Description>Lorem ipsum</Description>
       </Flub>
     </Flubs>
   </Flub>
