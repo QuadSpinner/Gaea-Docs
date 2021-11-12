@@ -6,11 +6,11 @@
     <Flubs>
       <Flub>
         <Name>Large</Name>
-		  <Description>Lorem ipsum</Description>
+		  <Description>Generates large type formations.</Description>
       </Flub>
       <Flub>
         <Name>Small</Name>
-		  <Description>Lorem ipsum</Description>
+		  <Description>Generates small type formations.</Description>
       </Flub>
     </Flubs>
   </Flub>

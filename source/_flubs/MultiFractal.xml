@@ -6,33 +6,33 @@
   </Flub>
   <Flub>
     <Name>Noise type</Name>
-    <Description>Lorem ipsum</Description>
+    <Description></Description>
     <Flubs>
       <Flub>
         <Name>FBM</Name>
-        <Description>Lorem ipsum</Description>
+        <Description>Use for varied noise.</Description>
       </Flub>
       <Flub>
         <Name>Billowy</Name>
-        <Description>Lorem ipsum</Description>
+        <Description>Use for lower, more bulbous shapes.</Description>
       </Flub>
       <Flub>
         <Name>Ridged</Name>
-        <Description>Lorem ipsum</Description>
+        <Description>Use for sharp shapes.</Description>
       </Flub>
     </Flubs>
   </Flub>
   <Flub>
     <Name>Auto octaves</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>Automatically sets the octaves.</Description>
   </Flub>
   <Flub>
     <Name>Octaves</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>Number of octaves, higher values create more complexity.</Description>
   </Flub>
   <Flub>
     <Name>Largescale size</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>Sets the scale of the shape. Higher value creates larger shapes, lower value creates noisier shapes.</Description>
   </Flub>
   <Flub>
     <Name>Feature size</Name>
@@ -40,15 +40,15 @@
   </Flub>
   <Flub>
     <Name>Roughness</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>Lower value creates smoother shapes, higher value creates rough shapes.</Description>
   </Flub>
   <Flub>
     <Name>Edge smoothing</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>Smoothes the shape of the terrain.</Description>
   </Flub>
   <Flub>
     <Name>Seed</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>The randomization pattern or seed for the node's process.</Description>
   </Flub>
   <Flub>
     <Name>Variation</Name>
@@ -94,19 +94,19 @@
   </Flub>
   <Flub>
     <Name>Perturb</Name>
-    <Description>Lorem ipsum</Description>
+    <Description></Description>
     <Flubs>
       <Flub>
         <Name>None</Name>
-        <Description>Lorem ipsum</Description>
+        <Description>No warping.</Description>
       </Flub>
       <Flub>
         <Name>Simple</Name>
-        <Description>Lorem ipsum</Description>
+        <Description>Simple, soft warping.</Description>
       </Flub>
       <Flub>
         <Name>Complex</Name>
-        <Description>Lorem ipsum</Description>
+        <Description>Complex, turbulence warping.</Description>
       </Flub>
     </Flubs>
   </Flub>

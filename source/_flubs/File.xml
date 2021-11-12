@@ -40,6 +40,6 @@
   </Flub>
   <Flub>
 	<Name>Enforce Linear Gamma</Name>
-	<Description>Lorem ipsum.</Description>
+	<Description>Enforces linear Gamma in the loaded terrain.</Description>
   </Flub>
 </ArrayOfFlub>

@@ -6,15 +6,15 @@
   </Flub>
   <Flub>
     <Name>Width</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>Width of the fault.</Description>
   </Flub>
   <Flub>
     <Name>Depth</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>Depth of the fault.</Description>
   </Flub>
   <Flub>
     <Name>Shrink</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>Shrinks the fault from the edges.</Description>
   </Flub>
   <Flub>
     <Name>Scale</Name>
@@ -22,11 +22,11 @@
   </Flub>
   <Flub>
     <Name>Scale</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>Sets the scale of the fault.</Description>
   </Flub>
   <Flub>
     <Name>Chaos</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>Adds uneveness to the fault shape.</Description>
   </Flub>
   <Flub>
     <Name>Location</Name>
@@ -34,18 +34,18 @@
   </Flub>
   <Flub>
     <Name>X</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>Horizontal placement of the fault.</Description>
   </Flub>
   <Flub>
     <Name>Y</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>Vertical placement of the fault.</Description>
   </Flub>
   <Flub>
     <Name>Angle</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>Places the fault at the selected angle.</Description>
   </Flub>
   <Flub>
     <Name>Seed</Name>
-    <Description>Lorem ipsum</Description>
+	  <Description>The randomization pattern or seed for the node's process.</Description>
   </Flub>
 </ArrayOfFlub>

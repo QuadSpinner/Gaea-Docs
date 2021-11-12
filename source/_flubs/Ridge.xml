@@ -6,19 +6,19 @@
   </Flub>
   <Flub>
     <Name>Scale</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>Scale of the ridgeline.</Description>
   </Flub>
   <Flub>
     <Name>Height</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>Sets the height of the ridge.</Description>
   </Flub>
   <Flub>
     <Name>Definition</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>Adds details on the ridgelines.</Description>
   </Flub>
   <Flub>
     <Name>Seed</Name>
-    <Description>Lorem ipsum</Description>
+	<Description>The randomization pattern or seed for the node's process.</Description>
   </Flub>
   <Flub>
     <Name>Advanced settings</Name>
@@ -26,10 +26,10 @@
   </Flub>
   <Flub>
     <Name>Scale X</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>The non-uniform scale of the X axis.</Description>
   </Flub>
   <Flub>
     <Name>Scale Y</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>The non-uniform scale of the Y axis.</Description>
   </Flub>
 </ArrayOfFlub>

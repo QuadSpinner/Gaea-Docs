@@ -6,15 +6,15 @@
   </Flub>
   <Flub>
     <Name>Scale</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>Size of the larger shelves.</Description>
   </Flub>
   <Flub>
     <Name>Channels</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>Amount of channeling in the shelves.</Description>
   </Flub>
   <Flub>
     <Name>Direction</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>Direction of the larger shelves.</Description>
   </Flub>
   <Flub>
     <Name>Small Structure</Name>
@@ -22,15 +22,15 @@
   </Flub>
   <Flub>
     <Name>Scale</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>Size of the smaller shelves.</Description>
   </Flub>
   <Flub>
     <Name>Undulation</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>Undulation gives the wavy warp motion to shelves.</Description>
   </Flub>
   <Flub>
     <Name>Direction</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>Direction of the smaller shelves.</Description>
   </Flub>
   <Flub>
     <Name>Process</Name>
@@ -38,14 +38,14 @@
   </Flub>
   <Flub>
     <Name>Octaves</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>Complexity of the shelves.</Description>
   </Flub>
   <Flub>
     <Name>Chaos</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>Gives uneveness to the overlapping shelves.</Description>
   </Flub>
   <Flub>
     <Name>Seed</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>The randomization pattern or seed for the node's process.</Description>
   </Flub>
 </ArrayOfFlub>

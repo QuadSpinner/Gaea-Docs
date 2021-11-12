@@ -10,11 +10,11 @@
     <Flubs>
       <Flub>
         <Name>Craterfield</Name>
-		<Description>Lorem ipsum</Description>
+		<Description>Creates a craterfield which has combination of small and large craters.</Description>
       </Flub>
       <Flub>
         <Name>Crater</Name>
-		<Description>Lorem ipsum</Description>
+		<Description>Creates a single crater.</Description>
       </Flub>
     </Flubs>
   </Flub>
@@ -28,7 +28,7 @@
   </Flub>
   <Flub>
     <Name>Density</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>Density of craters in the craterfield.</Description>
   </Flub>
   <Flub>
     <Name>Floor</Name>
@@ -60,11 +60,11 @@
   </Flub>
   <Flub>
     <Name>X</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>Horizontal placement of craterfield.</Description>
   </Flub>
   <Flub>
     <Name>Y</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>Vertical placement of craterfield.</Description>
   </Flub>
   <Flub>
     <Name>Seed</Name>

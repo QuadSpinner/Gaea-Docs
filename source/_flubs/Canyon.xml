@@ -62,6 +62,6 @@
   </Flub>
   <Flub>
     <Name>Seed</Name>
-    <Description>Lorem ipsum</Description>
+	<Description>The randomization pattern or seed for the node's process.</Description>
   </Flub>
 </ArrayOfFlub>
