@@ -29,12 +29,15 @@
     <Flubs>
       <Flub>
         <Name>None</Name>
+		<Description>Lorem ipsum</Description>
       </Flub>
       <Flub>
         <Name>Autolevel</Name>
+		<Description>Lorem ipsum</Description>
       </Flub>
       <Flub>
         <Name>Equalize</Name>
+		<Description>Lorem ipsum</Description>
       </Flub>
     </Flubs>
   </Flub>

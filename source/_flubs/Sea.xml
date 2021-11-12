@@ -5,9 +5,11 @@
     <Flubs>
       <Flub>
         <Name>Global</Name>
+		<Description>Lorem ipsum</Description>
       </Flub>
       <Flub>
         <Name>Surrounding</Name>
+		<Description>Lorem ipsum</Description>
       </Flub>
     </Flubs>
   </Flub>

@@ -1,5 +1,34 @@
 <?xml version="1.0"?>
 <ArrayOfFlub xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+	<Flub>
+		<Name>Synthesis</Name>
+		<Description>T</Description>
+	</Flub>
+	<Flub>
+		<Name>Bitmap</Name>
+		<Description>TODO</Description>
+	</Flub>
+	<Flub>
+		<Name>Stops</Name>
+		<Description>TODO</Description>
+	</Flub>
+	<Flub>
+		<Name>Fuzzy</Name>
+		<Description>TODO</Description>
+	</Flub>
+	<Flub>
+		<Name>Rotate</Name>
+		<Description>TODO</Description>
+	</Flub>
+	<Flub>
+		<Name>Seed</Name>
+		<Description>TODO</Description>
+	</Flub>
+	<Flub>
+	<Name>Synth</Name>
+	<Description>T</Description>
+  </Flub>
   <Flub>
     <Name>Reverse</Name>
     <Description>TODO</Description>
@@ -27,11 +56,5 @@
   <Flub>
     <Name>Output Auto Level</Name>
     <Description>TODO</Description>
-  </Flub>
-  <Flub>
-    <Name>Data</Name>
-  </Flub>
-  <Flub>
-    <Name>Magick</Name>
   </Flub>
 </ArrayOfFlub>

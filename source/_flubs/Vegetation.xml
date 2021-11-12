@@ -1,9 +1,10 @@
 <?xml version="1.0"?>
 <ArrayOfFlub xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <Flub>
-    <Name>Index</Name>
-  </Flub>
-  <Flub>
+	<Flub>
+		<Name>Vegetation Maps</Name>
+		<Description>T</Description>
+	</Flub>
+	<Flub>
     <Name>Use Override Map</Name>
     <Description>TODO</Description>
   </Flub>
