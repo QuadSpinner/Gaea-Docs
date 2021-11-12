@@ -5,12 +5,15 @@
     <Flubs>
       <Flub>
         <Name>Rough</Name>
+		<Description>Lorem ipsum</Description>
       </Flub>
       <Flub>
         <Name>Smooth</Name>
+		<Description>Lorem ipsum</Description>
       </Flub>
       <Flub>
         <Name>Sharp</Name>
+		<Description>Lorem ipsum</Description>
       </Flub>
     </Flubs>
   </Flub>

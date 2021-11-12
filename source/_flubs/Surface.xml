@@ -6,12 +6,11 @@
     <Flubs>
       <Flub>
         <Name>Rough</Name>
+		<Description>Lorem ipsum</Description>
       </Flub>
       <Flub>
         <Name>Rocky</Name>
-      </Flub>
-      <Flub>
-        <Name>Layered</Name>
+		<Description>Lorem ipsum</Description>
       </Flub>
     </Flubs>
   </Flub>
@@ -25,14 +24,6 @@
   </Flub>
   <Flub>
     <Name>Density</Name>
-    <Description>Lorem ipsum</Description>
-  </Flub>
-  <Flub>
-    <Name>Warped</Name>
-    <Description>Lorem ipsum</Description>
-  </Flub>
-  <Flub>
-    <Name>Seed</Name>
     <Description>Lorem ipsum</Description>
   </Flub>
 </ArrayOfFlub>

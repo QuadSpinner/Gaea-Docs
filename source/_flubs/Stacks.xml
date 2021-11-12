@@ -46,15 +46,19 @@
     <Flubs>
       <Flub>
         <Name>Default</Name>
+		<Description>Lorem ipsum</Description>
       </Flub>
       <Flub>
         <Name>Sedimentary</Name>
+		<Description>Lorem ipsum</Description>
       </Flub>
       <Flub>
         <Name>Desiccated</Name>
+		<Description>Lorem ipsum</Description>
       </Flub>
       <Flub>
         <Name>Shattered</Name>
+		<Description>Lorem ipsum</Description>
       </Flub>
     </Flubs>
   </Flub>
