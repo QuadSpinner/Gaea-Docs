@@ -30,15 +30,15 @@
     <Flubs>
       <Flub>
         <Name>Default</Name>
-        <Description />
+		  <Description>Lorem ipsum</Description>
       </Flub>
       <Flub>
         <Name>Residual</Name>
-        <Description />
+		  <Description>Lorem ipsum</Description>
       </Flub>
       <Flub>
         <Name>Gentle</Name>
-        <Description />
+		  <Description>Lorem ipsum</Description>
       </Flub>
     </Flubs>
   </Flub>

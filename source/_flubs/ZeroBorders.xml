@@ -10,12 +10,15 @@
     <Flubs>
       <Flub>
         <Name>Round</Name>
+	    <Description>Lorem ipsum</Description>
       </Flub>
       <Flub>
         <Name>Square</Name>
+	    <Description>Lorem ipsum</Description>
       </Flub>
       <Flub>
         <Name>Precise</Name>
+	    <Description>Lorem ipsum</Description>
       </Flub>
     </Flubs>
   </Flub>
