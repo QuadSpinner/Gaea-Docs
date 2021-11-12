@@ -1,6 +1,18 @@
 <?xml version="1.0"?>
 <ArrayOfFlub xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <Flub>
+	<Flub>
+		<Name>Light</Name>
+		<Description>T</Description>
+	</Flub>
+	<Flub>
+		<Name>Sun azimuth</Name>
+		<Description>Lorem ipsum</Description>
+	</Flub>
+	<Flub>
+		<Name>Sun elevation</Name>
+		<Description>Lorem ipsum</Description>
+	</Flub>
+	<Flub>
     <Name>Global</Name>
     <Description>T</Description>
   </Flub>
@@ -10,15 +22,19 @@
     <Flubs>
       <Flub>
         <Name>Ultra</Name>
+		<Description>Lorem ipsum</Description>
       </Flub>
       <Flub>
         <Name>High</Name>
+		<Description>Lorem ipsum</Description>
       </Flub>
       <Flub>
         <Name>Medium</Name>
+		<Description>Lorem ipsum</Description>
       </Flub>
       <Flub>
         <Name>Low</Name>
+		<Description>Lorem ipsum</Description>
       </Flub>
     </Flubs>
   </Flub>
@@ -28,14 +44,6 @@
   </Flub>
   <Flub>
     <Name>Direct light</Name>
-    <Description>T</Description>
-  </Flub>
-  <Flub>
-    <Name>Sun azimuth</Name>
-    <Description>Lorem ipsum</Description>
-  </Flub>
-  <Flub>
-    <Name>Sun elevation</Name>
     <Description>Lorem ipsum</Description>
   </Flub>
   <Flub>
@@ -52,7 +60,7 @@
   </Flub>
   <Flub>
     <Name>Ambient light</Name>
-    <Description>T</Description>
+    <Description>Lorem ipsum</Description>
   </Flub>
   <Flub>
     <Name>Ambient occlusion</Name>
