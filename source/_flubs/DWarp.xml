@@ -2,23 +2,23 @@
 <ArrayOfFlub xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Flub>
     <Name>Strength</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>The strength of the warp.</Description>
   </Flub>
   <Flub>
     <Name>Direction</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>The direction of the warp.</Description>
   </Flub>
   <Flub>
     <Name>Edge behaviour</Name>
-    <Description>Lorem ipsum</Description>
+    <Description></Description>
     <Flubs>
       <Flub>
         <Name>Edge</Name>
-		<Description>Lorem ipsum</Description>
+		<Description></Description>
       </Flub>
       <Flub>
         <Name>Mirror</Name>
-		<Description>Lorem ipsum</Description>
+		<Description>Edge pixels are mirrored.</Description>
       </Flub>
     </Flubs>
   </Flub>

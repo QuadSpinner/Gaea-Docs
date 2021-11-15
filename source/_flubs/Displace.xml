@@ -71,14 +71,18 @@
   </Flub>
   <Flub>
     <Name>X</Name>
+	<Description>Displacement on the X axis.</Description>
   </Flub>
   <Flub>
     <Name>Y</Name>
+	<Description>Displacement on the Y axis.</Description>
   </Flub>
   <Flub>
     <Name>Scale X</Name>
+	<Description>The non-uniform scale on the X axis.</Description>
   </Flub>
   <Flub>
     <Name>Scale Y</Name>
+	<Description>The non-uniform scale on the Y axis.</Description>
   </Flub>
 </ArrayOfFlub>

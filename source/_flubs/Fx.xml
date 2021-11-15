@@ -6,37 +6,46 @@
   </Flub>
   <Flub>
     <Name>Autolevel</Name>
-	  <Description>Automatically levels the terrain where the heights are proportionately distributed between the highest and lowest points.</Description>
+	<Description>Automatically levels the terrain where the heights are proportionately distributed between the highest and lowest points.</Description>
   </Flub>
   <Flub>
     <Name>Equalize</Name>
+	<Description>Equalizes the terrain where the heights are linearly distributed between the highest and lowest.</Description>
   </Flub>
   <Flub>
     <Name>Log</Name>
+	<Description>Applies logarithmic scaling that bulks up the terrain.</Description>
   </Flub>
   <Flub>
     <Name>Invert</Name>
+	<Description>Inverts the terrain.</Description>
   </Flub>
   <Flub>
     <Name>Abs</Name>
+	<Description>Abs node modifies the terrain by eliminating values that are either higher or lower than the value.</Description>
   </Flub>
   <Flub>
     <Name>Blur</Name>
-    <Description>Lorem ipsum</Description>
+	<Description>Applies Blur to the terrain.</Description>
   </Flub>
   <Flub>
     <Name>Clamp</Name>
+	<Description>The terrain is proportionally reduced in height.</Description>
   </Flub>
   <Flub>
     <Name>Clip</Name>
+	<Description>The terrain is clipped beyond the extents provided.</Description>
   </Flub>
   <Flub>
     <Name>Raise</Name>
+	<Description>Raises the terrain by the specified amount.</Description>
   </Flub>
   <Flub>
     <Name>Multiplier</Name>
+	<Description>Multiplier is the amount by which terrain is raised.</Description>
   </Flub>
   <Flub>
     <Name>Shaper</Name>
+	<Description>Bulks up or bulks down the output.</Description>
   </Flub>
 </ArrayOfFlub>

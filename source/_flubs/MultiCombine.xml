@@ -55,32 +55,42 @@
   </Flub>
   <Flub>
     <Name>Ratio</Name>
+	<Description>The ratio to be applied for all inputs if Uniform option is checked.</Description>
   </Flub>
   <Flub>
     <Name>Ratio 1</Name>
+	<Description>The ratio between input port and layer1 port</Description>
   </Flub>
   <Flub>
     <Name>Ratio 2</Name>
+	<Description>The ratio between input port and layer2 port</Description>
   </Flub>
   <Flub>
     <Name>Ratio 3</Name>
+	<Description>The ratio between input port and layer3 port</Description>
   </Flub>
   <Flub>
     <Name>Ratio 4</Name>
+	<Description>The ratio between input port and layer4 port</Description>
   </Flub>
   <Flub>
     <Name>Ratio 5</Name>
+	<Description>The ratio between input port and layer5 port</Description>
   </Flub>
   <Flub>
     <Name>Ratio 6</Name>
+	<Description>The ratio between input port and layer6 port</Description>
   </Flub>
   <Flub>
     <Name>Ratio 7</Name>
+	<Description>The ratio between input port and layer7 port</Description>
   </Flub>
   <Flub>
     <Name>Ratio 8</Name>
+	<Description>The ratio between input port and layer8 port</Description>
   </Flub>
   <Flub>
     <Name>Ratio 9</Name>
+	<Description>The ratio between input port and layer9 port</Description>
   </Flub>
 </ArrayOfFlub>
