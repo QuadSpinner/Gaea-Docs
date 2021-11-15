@@ -6,15 +6,15 @@
   </Flub>
   <Flub>
     <Name>Scale</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>The scale of rock shearing.</Description>
   </Flub>
   <Flub>
     <Name>Folding</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>The amount of folding to be applied.</Description>
   </Flub>
   <Flub>
     <Name>Direction</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>The angle of rock shearing.</Description>
   </Flub>
   <Flub>
     <Name>Self Modulated</Name>
@@ -22,6 +22,6 @@
   </Flub>
   <Flub>
     <Name>Seed</Name>
-    <Description>Lorem ipsum</Description>
+	<Description>The randomization pattern or seed for the node's process.</Description>
   </Flub>
 </ArrayOfFlub>

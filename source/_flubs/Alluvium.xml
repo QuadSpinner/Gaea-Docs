@@ -23,6 +23,7 @@
   </Flub>
   <Flub>
     <Name>Amount</Name>
+	<Description>Amount of soil deposits.</Description>
   </Flub>
   <Flub>
     <Name>Settling</Name>

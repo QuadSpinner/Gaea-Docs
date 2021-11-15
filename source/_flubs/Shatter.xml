@@ -18,10 +18,10 @@
   </Flub>
   <Flub>
     <Name>Seed</Name>
-    <Description>Lorem ipsum</Description>
+	<Description>The randomization pattern or seed for the node's process.</Description>
   </Flub>
   <Flub>
     <Name>Disable Parallel Processing</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>This option disables parallel processing.</Description>
   </Flub>
 </ArrayOfFlub>

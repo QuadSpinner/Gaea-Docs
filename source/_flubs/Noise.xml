@@ -2,9 +2,11 @@
 <ArrayOfFlub xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Flub>
     <Name>Strength</Name>
+	<Description>Amount of noise to be added.</Description>
   </Flub>
   <Flub>
     <Name>Iterations</Name>
+	<Description>Number of iterations of the noise to be applied.</Description>
   </Flub>
   <Flub>
     <Name>Method</Name>

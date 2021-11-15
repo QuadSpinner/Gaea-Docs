@@ -2,15 +2,15 @@
 <ArrayOfFlub xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Flub>
     <Name>Terraces</Name>
-    <Description />
+	  <Description>Number of terraces to be added.</Description>
   </Flub>
   <Flub>
     <Name>Uniformity</Name>
-    <Description />
+	  <Description>Makes the terrace uniform.</Description>
   </Flub>
   <Flub>
     <Name>Steepness</Name>
-    <Description />
+	  <Description>Amount of steepness to be added to the terraces.</Description>
   </Flub>
   <Flub>
     <Name>Intensity</Name>

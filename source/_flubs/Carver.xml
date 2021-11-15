@@ -2,22 +2,22 @@
 <ArrayOfFlub xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Flub>
     <Name>Iterations</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>Iterations of carver to be applied</Description>
   </Flub>
   <Flub>
     <Name>Erosion Power</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>Amount of erosion.</Description>
   </Flub>
   <Flub>
     <Name>Displacement</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>Amount of distortion.</Description>
   </Flub>
   <Flub>
     <Name>Degrees</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>Angle of distortion.</Description>
   </Flub>
   <Flub>
     <Name>Seed</Name>
-    <Description>Lorem ipsum</Description>
+	<Description>The randomization pattern or seed for the node's process.</Description>
   </Flub>
 </ArrayOfFlub>
