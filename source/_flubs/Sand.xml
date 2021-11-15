@@ -6,19 +6,19 @@
   </Flub>
   <Flub>
     <Name>Scale</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>The scale of the sand pattern.</Description>
   </Flub>
   <Flub>
     <Name>Uniformity</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>Gives uniformity to sand.</Description>
   </Flub>
   <Flub>
     <Name>Wind Direction</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>The direction of the sand pattern.</Description>
   </Flub>
   <Flub>
     <Name>Height</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>The height of the sand pattern.</Description>
   </Flub>
   <Flub>
     <Name>Shape</Name>
@@ -26,11 +26,11 @@
   </Flub>
   <Flub>
     <Name>Softness</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>Softness of the sand pattern.</Description>
   </Flub>
   <Flub>
     <Name>Sharpness</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>Changes the sharpness of the sand.</Description>
   </Flub>
   <Flub>
     <Name>Seed</Name>

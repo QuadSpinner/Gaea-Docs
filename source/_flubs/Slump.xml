@@ -2,41 +2,41 @@
 <ArrayOfFlub xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Flub>
     <Name>Scale</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>The scale of the slump.</Description>
   </Flub>
   <Flub>
     <Name>Noise Style</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>The type of noise style applied to the hill.</Description>
     <Flubs>
       <Flub>
         <Name>A</Name>
-		<Description>Lorem ipsum</Description>
+		<Description></Description>
       </Flub>
       <Flub>
         <Name>B</Name>
-		<Description>Lorem ipsum</Description>
+		<Description></Description>
       </Flub>
       <Flub>
         <Name>C</Name>
-		<Description>Lorem ipsum</Description>
+		<Description></Description>
       </Flub>
     </Flubs>
   </Flub>
   <Flub>
     <Name>Slump Style</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>Different type of slump styles.</Description>
     <Flubs>
       <Flub>
         <Name>A</Name>
-		<Description>Lorem ipsum</Description>
+		<Description></Description>
       </Flub>
       <Flub>
         <Name>B</Name>
-		<Description>Lorem ipsum</Description>
+		<Description></Description>
       </Flub>
       <Flub>
         <Name>C</Name>
-		<Description>Lorem ipsum</Description>
+		<Description></Description>
       </Flub>
     </Flubs>
   </Flub>
