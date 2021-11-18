@@ -36,29 +36,29 @@
   </Flub>
   <Flub>
     <Name>Clusters</Name>
-    <Description>Lorem ipsum</Description>
+    <Description></Description>
     <Flubs>
       <Flub>
         <Name>Off</Name>
-		<Description>Lorem ipsum</Description>
+		<Description>No clusters</Description>
       </Flub>
       <Flub>
         <Name>Large</Name>
-        <Description>Lorem ipsum</Description>
+        <Description>Create large clusters</Description>
       </Flub>
       <Flub>
         <Name>Small</Name>
-        <Description>Lorem ipsum</Description>
+        <Description>Create small clusters</Description>
       </Flub>
       <Flub>
         <Name>Shattered</Name>
-        <Description>Lorem ipsum</Description>
+        <Description>Create shattered clusters.</Description>
       </Flub>
   </Flubs>
   </Flub>
   <Flub>
     <Name>Erosion</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>If checked, it would run erosion pass on the rocky surface.</Description>
   </Flub>
   <Flub>
     <Name>Seed</Name>

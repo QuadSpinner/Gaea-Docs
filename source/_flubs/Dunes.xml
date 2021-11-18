@@ -113,12 +113,15 @@
   </Flub>
   <Flub>
     <Name>Softness</Name>
+	  <Description>Softness of the dunes.</Description>
   </Flub>
   <Flub>
     <Name>Sharpness</Name>
+	<Description>Sharpness of the dune edges.</Description>
   </Flub>
   <Flub>
     <Name>Height</Name>
+	<Description>The height of the dune.</Description>
   </Flub>
   <Flub>
     <Name>Seed</Name>

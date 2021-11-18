@@ -6,22 +6,22 @@
 	</Flub>
 	<Flub>
     <Name>Use Override Map</Name>
-    <Description>TODO</Description>
+    <Description>Overrides the input map with the one supplied through override port.</Description>
   </Flub>
   <Flub>
     <Name>Scale</Name>
-    <Description>TODO</Description>
+    <Description>The scale of the vegetation.</Description>
   </Flub>
   <Flub>
     <Name>Occurence</Name>
   </Flub>
   <Flub>
     <Name>Density</Name>
-    <Description>TODO</Description>
+    <Description>The density of the vegetation.</Description>
   </Flub>
   <Flub>
     <Name>Seed</Name>
-    <Description>TODO</Description>
+    <Description>The randomization pattern or seed for the node's process.</Description>
   </Flub>
   <Flub>
     <Name>Influences</Name>
@@ -29,22 +29,22 @@
   </Flub>
   <Flub>
     <Name>Chaos</Name>
-    <Description>TODO</Description>
+    <Description></Description>
   </Flub>
   <Flub>
     <Name>Slope Bottom</Name>
-    <Description>TODO</Description>
+    <Description></Description>
   </Flub>
   <Flub>
     <Name>Slope Top</Name>
-    <Description>TODO</Description>
+    <Description></Description>
   </Flub>
   <Flub>
     <Name>Avoid Extremes</Name>
-    <Description>TODO</Description>
+    <Description></Description>
   </Flub>
   <Flub>
     <Name>Jitter</Name>
-    <Description>Lorem ipsum</Description>
+    <Description></Description>
   </Flub>
 </ArrayOfFlub>

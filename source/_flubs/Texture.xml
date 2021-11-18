@@ -6,7 +6,7 @@
   </Flub>
   <Flub>
     <Name>Scale</Name>
-    <Description>TODO</Description>
+    <Description>The scale of the texture.</Description>
   </Flub>
   <Flub>
     <Name>Mode</Name>
@@ -25,7 +25,7 @@
   </Flub>
   <Flub>
     <Name>Patches</Name>
-    <Description>TODO</Description>
+    <Description>The amount of patches on the texture.</Description>
   </Flub>
   <Flub>
     <Name>Seed</Name>

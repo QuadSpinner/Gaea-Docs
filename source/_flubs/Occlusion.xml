@@ -6,15 +6,15 @@
   </Flub>
   <Flub>
     <Name>Scale</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>The scale of the occlusion paases.</Description>
     <Flubs>
       <Flub>
         <Name>Linear</Name>
-		<Description>Lorem ipsum</Description>
+		<Description>The occlusion scale is linear.</Description>
       </Flub>
       <Flub>
         <Name>Logarithmic</Name>
-		<Description>Lorem ipsum</Description>
+		<Description>The occlusion scale is logarithmic.</Description>
       </Flub>
     </Flubs>
   </Flub>

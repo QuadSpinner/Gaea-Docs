@@ -15,31 +15,34 @@
   </Flub>
   <Flub>
     <Name>Level</Name>
+	<Description>The water level in the sea.</Description>
   </Flub>
   <Flub>
     <Name>Coastal Erosion</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>Perform erosion on the coastal areas.</Description>
   </Flub>
   <Flub>
     <Name>Shore Size</Name>
+	<Description>The size of the shore created with coastal erosion.</Description>
   </Flub>
   <Flub>
     <Name>Shore Height</Name>
+	<Description>The height of the shore created with coastal erosion.</Description>
   </Flub>
   <Flub>
     <Name>Variation</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>The amount of variation on the coast.</Description>
   </Flub>
   <Flub>
     <Name>Uniform Variation Morphing</Name>
-    <Description>Lorem ipsum</Description>
+    <Description></Description>
   </Flub>
   <Flub>
     <Name>Extra Cliff Details</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>Add extra details to the cliff on the terrain.</Description>
   </Flub>
   <Flub>
     <Name>Render water surface</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>Renders the water surface in the sea area.</Description>
   </Flub>
 </ArrayOfFlub>

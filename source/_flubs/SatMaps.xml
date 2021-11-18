@@ -16,27 +16,27 @@
     <Flubs>
       <Flub>
         <Name>Rocky</Name>
-		<Description>Lorem ipsum</Description>
+		<Description>This consists of rocky color patterns.</Description>
       </Flub>
       <Flub>
         <Name>Sandy</Name>
-	    <Description>Lorem ipsum</Description>
+	    <Description>This consists of sandy color patterns.</Description>
       </Flub>
       <Flub>
         <Name>Green</Name>
-		<Description>Lorem ipsum</Description>
+		<Description>This consists of green color patterns.</Description>
       </Flub>
       <Flub>
         <Name>Blue</Name>
-		<Description>Lorem ipsum</Description>
+		<Description>This consists of blue color patterns.</Description>
       </Flub>
       <Flub>
         <Name>Colorful</Name>
-	    <Description>Lorem ipsum</Description>
+	    <Description>This consists of colorful color patterns.</Description>
       </Flub>
 	  <Flub>
         <Name>Legacy</Name>
-	    <Description>Lorem ipsum</Description>
+	    <Description></Description>
       </Flub>
     </Flubs>
   </Flub>
@@ -58,19 +58,19 @@
     <Flubs>
       <Flub>
         <Name>256 (Fast)</Name>
-	    <Description>Lorem ipsum</Description>
+	    <Description>256 samples </Description>
       </Flub>
       <Flub>
         <Name>512 (Slower)</Name>
-	    <Description>Lorem ipsum</Description>
+	    <Description>512 samples </Description>
       </Flub>
       <Flub>
         <Name>1024 (Very Slow)</Name>
-	    <Description>Lorem ipsum</Description>
+	    <Description>1024 samples </Description>
       </Flub>
       <Flub>
         <Name>2048 (Overkill)</Name>
-	    <Description>Lorem ipsum</Description>
+	    <Description>2048 samples </Description>
       </Flub>
     </Flubs>
   </Flub>

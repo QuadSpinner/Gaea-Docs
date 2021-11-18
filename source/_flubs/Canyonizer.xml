@@ -6,11 +6,11 @@
   </Flub>
   <Flub>
     <Name>Formation</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>Amount of canyon formations in the terrain.</Description>
   </Flub>
   <Flub>
     <Name>Streamline</Name>
-    <Description>Lorem ipsum</Description>
+    <Description></Description>
   </Flub>
   <Flub>
     <Name>Octaves</Name>
@@ -18,11 +18,11 @@
   </Flub>
   <Flub>
     <Name>Maximum Depth</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>Maximum depth of the canyons created.</Description>
   </Flub>
   <Flub>
     <Name>Narrow</Name>
-    <Description>Lorem ipsum</Description>
+    <Description></Description>
   </Flub>
   <Flub>
     <Name>Generate Masks</Name>

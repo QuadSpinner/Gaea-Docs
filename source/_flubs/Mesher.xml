@@ -2,26 +2,26 @@
 <ArrayOfFlub xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Flub>
     <Name>Save to Build Folder</Name>
-    <Description>TODO</Description>
+    <Description>Saves the output to build folder. Will igonore the above path if this option is checked.</Description>
   </Flub>
   <Flub>
     <Name>File</Name>
-    <Description>TODO</Description>
+    <Description>Path where the output files should be saved</Description>
   </Flub>
   <Flub>
     <Name>Format</Name>
     <Flubs>
       <Flub>
         <Name>Wavefront OBJ</Name>
-		  <Description>Lorem ipsum</Description>
+		  <Description>Wavefront OBJ output</Description>
       </Flub>
       <Flub>
         <Name>XYZ Point Cloud</Name>
-		  <Description>Lorem ipsum</Description>
+		  <Description>XYZ Point Cloud output</Description>
       </Flub>
       <Flub>
         <Name>Autodesk FBX</Name>
-		  <Description>Lorem ipsum</Description>
+		  <Description>Autodesk FBX output</Description>
       </Flub>
     </Flubs>
   </Flub>
@@ -67,50 +67,51 @@
   </Flub>
   <Flub>
     <Name>Create Texture Coords</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>Creates texture coordinates in the output mesh.</Description>
   </Flub>
   <Flub>
     <Name>Create Walls</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>Creates wall in the output mesh.</Description>
   </Flub>
   <Flub>
     <Name>LOD</Name>
+	  <Description>Number of LODs to be generated along with main mesh.</Description>
     <Flubs>
       <Flub>
         <Name>None</Name>
-		  <Description>Lorem ipsum</Description>
+		  <Description>No LODs</Description>
       </Flub>
       <Flub>
         <Name>LOD 1</Name>
-		  <Description>Lorem ipsum</Description>
+		  <Description>One LOD</Description>
       </Flub>
       <Flub>
         <Name>LOD 2</Name>
-		  <Description>Lorem ipsum</Description>
+		  <Description>Two LODs</Description>
       </Flub>
       <Flub>
         <Name>LOD 3</Name>
-		  <Description>Lorem ipsum</Description>
+		  <Description>Three LODs</Description>
       </Flub>
       <Flub>
         <Name>LOD 4</Name>
-		  <Description>Lorem ipsum</Description>
+		  <Description>Four LODs</Description>
       </Flub>
       <Flub>
         <Name>LOD 5</Name>
-		  <Description>Lorem ipsum</Description>
+		  <Description>Five LODs</Description>
       </Flub>
       <Flub>
         <Name>LOD 6</Name>
-		  <Description>Lorem ipsum</Description>
+		  <Description>Six LODs</Description>
       </Flub>
       <Flub>
         <Name>LOD 7</Name>
-		  <Description>Lorem ipsum</Description>
+		  <Description>7 LODs</Description>
       </Flub>
       <Flub>
         <Name>LOD 8</Name>
-		  <Description>Lorem ipsum</Description>
+		  <Description>8 LODs</Description>
       </Flub>
     </Flubs>
   </Flub>
