@@ -6,11 +6,11 @@
   </Flub>
   <Flub>
     <Name>Color</Name>
-    <Description>TODO</Description>
+    <Description>First color for the gradient.</Description>
   </Flub>
   <Flub>
     <Name>Color2</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>Second color for the gradient.</Description>
   </Flub>
   <Flub>
     <Name>Pre-Process</Name>
@@ -18,19 +18,19 @@
   </Flub>
   <Flub>
     <Name>Input Noise</Name>
-    <Description>TODO</Description>
+    <Description>Introduces noise to the incoming grayscale map.</Description>
   </Flub>
   <Flub>
     <Name>Input Clarity</Name>
-    <Description>TODO</Description>
+    <Description>Applies localized contrast enhancements to the incoming map.</Description>
   </Flub>
   <Flub>
     <Name>Input Auto Level</Name>
-    <Description>TODO</Description>
+    <Description>Applies an autolevels filter to the incoming map.</Description>
   </Flub>
   <Flub>
     <Name>Reverse</Name>
-    <Description>TODO</Description>
+    <Description>Reverses the mapping of the gradient.</Description>
   </Flub>
   <Flub>
     <Name>Post-Process</Name>
@@ -38,14 +38,14 @@
   </Flub>
   <Flub>
     <Name>Color Noise</Name>
-    <Description>TODO</Description>
+    <Description>Introduces minor color distortions to the map.</Description>
   </Flub>
   <Flub>
     <Name>Output Clarity</Name>
-    <Description>TODO</Description>
+    <Description>Applies localized contrast enhancements to the output texture.</Description>
   </Flub>
   <Flub>
     <Name>Output Auto Level</Name>
-    <Description>TODO</Description>
+    <Description>Applies an autolevels filter to the output texture.</Description>
   </Flub>
 </ArrayOfFlub>

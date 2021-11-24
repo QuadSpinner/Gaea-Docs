@@ -15,7 +15,7 @@
 	</Flub>
 	<Flub>
 		<Name>Fuzzy</Name>
-		<Description></Description>
+		<Description>The amount of fuzziness on bitmap image.</Description>
 	</Flub>
 	<Flub>
 		<Name>Rotate</Name>
