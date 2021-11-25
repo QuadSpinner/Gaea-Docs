@@ -10,6 +10,6 @@
   </Flub>
   <Flub>
     <Name>Preserve Indentations</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>Preserves the indentation detail.</Description>
   </Flub>
 </ArrayOfFlub>

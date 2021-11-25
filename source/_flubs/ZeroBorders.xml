@@ -6,37 +6,33 @@
   </Flub>
   <Flub>
     <Name>Mode</Name>
-    <Description>Lorem ipsum</Description>
+    <Description></Description>
     <Flubs>
       <Flub>
         <Name>Round</Name>
-	    <Description>Lorem ipsum</Description>
+	    <Description>Create round shaped borders.</Description>
       </Flub>
       <Flub>
         <Name>Square</Name>
-	    <Description>Lorem ipsum</Description>
+	    <Description>Creates square shaped borders.</Description>
       </Flub>
       <Flub>
         <Name>Precise</Name>
-	    <Description>Lorem ipsum</Description>
+	    <Description>Creates borders as per the terrain.</Description>
       </Flub>
     </Flubs>
   </Flub>
   <Flub>
     <Name>Margin</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>The amount of margin for borders.</Description>
   </Flub>
   <Flub>
     <Name>Falloff</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>The soft falloff at the edge.</Description>
   </Flub>
   <Flub>
     <Name>Auto</Name>
-    <Description>Lorem ipsum</Description>
-  </Flub>
-  <Flub>
-    <Name>Falloff</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>When auto is checked falloff amount is auto applied.</Description>
   </Flub>
   <Flub>
     <Name>Blur</Name>
@@ -44,10 +40,10 @@
   </Flub>
   <Flub>
     <Name>Power</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>The amount of blur applied at the edges.</Description>
   </Flub>
   <Flub>
     <Name>Iterations</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>The iterations of blur to be processed.</Description>
   </Flub>
 </ArrayOfFlub>
