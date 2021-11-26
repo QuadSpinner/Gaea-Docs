@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<ArrayOfFlub xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Flub>
+    <Name>Strength</Name>
+    <Description>The amount of stratification to be applied. Low values produce more strata, with fractured, delicate substrata; high values produce stronger, larger strata.</Description>
+  </Flub>
+  <Flub>
+    <Name>Substrata</Name>
+    <Description>At non-zero values, this setting creates a secondary level of stratification between the first level of stratification for added detail.</Description>
+  </Flub>
+  <Flub>
+    <Name>Filtered</Name>
+    <Description>When ON, creates smoother curvature for the plates.</Description>
+  </Flub>
+</ArrayOfFlub>

@@ -1,9 +1,0 @@
-<?xml version="1.0"?>
-<UpdateManifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="1.0.14.8002" ShortDescription="" Size="47435776" ReleaseType="RTM" ReleaseDate="2019-02-25T00:00:00.0+05:30" Filename="Gaea-1.0.14.8002.msi" URL="http://viridian.quadspinner.com/gaea/Gaea-1.0.14.8002.msi"><FullDescription>This is a stability update that fixes several key issues reported by users.
-
-[Fixed] Build Swarm would not save all outputs in some cases.
-[Fixed] Blur is now fast and responsive.
-[Fixed] Transform can now move terrains without scale restriction.
-[Fixed] Installer could force a reboot without prompting in rare cases.
-</FullDescription>
-</UpdateManifest>

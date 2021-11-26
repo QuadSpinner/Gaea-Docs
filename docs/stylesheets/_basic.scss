@@ -1,0 +1,70 @@
+﻿
+#main-stuff {
+    min-height: 60vh;
+}
+
+::-moz-selection {
+    background-color: #fff1a5;
+}
+
+::selection {
+    background-color: #fff1a5;
+}
+
+body.pushable .pusher {
+    background: #eee;
+}
+
+.no.example {
+    p {
+        text-align: justify;
+    }
+}
+
+.val {
+    background-color: #e8e7ea;
+    border: 0;
+    padding-left: 0.3em;
+    padding-right: 0.3em;
+}
+
+p code {
+    background-color: #e0e1e2;
+    border: 1px solid #c3c7cc;
+    padding-left: 0.25em;
+    padding-right: 0.25em;
+    /*box-shadow: 0 6px 20px rgba(0,0,0,0.2);*/
+}
+/*
+h2 {
+    text-shadow: 0 3px 4px rgba(0,0,0,0.2), 0 9px 9px rgba(0,0,0,0.2);
+}
+
+h4 {
+    text-shadow: 0 3px 4px rgba(0,0,0,0.2), 0 9px 9px rgba(0,0,0,0.2);
+}*/
+
+
+dl {
+    dt {
+        font-weight: bold;
+        margin-top: 1rem;
+    }
+
+    dd {
+        margin-top: 0.35rem;
+        margin-left: 0;
+    }
+}
+
+figure {
+    margin: 0.5rem 0 1rem;
+
+    figcaption {
+        font-size: 12px;
+        font-weight: 600;
+        padding: 6px 3px;
+        opacity: 0.6;
+        /*border-bottom: 1px solid #cfcfcf;*/
+    }
+}

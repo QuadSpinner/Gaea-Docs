@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<ArrayOfFlub xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Flub>
+    <Name>Whorls</Name>
+    <Description>The number of whorls to add to the terrain.</Description>
+  </Flub>
+  <Flub>
+    <Name>Power</Name>
+    <Description>The strength of the distortion applied with each whorl.</Description>
+  </Flub>
+  <Flub>
+    <Name>Type</Name>
+    <Flubs>
+      <Flub>
+        <Name>Spin</Name>
+        <Description>Whorls appear as round, independent formations.</Description>
+      </Flub>
+      <Flub>
+        <Name>Stretch</Name>
+        <Description>Whorls appear as stretched, interconnected formations.</Description>
+      </Flub>
+    </Flubs>
+  </Flub>
+  <Flub>
+    <Name>Seed</Name>
+    <Description>The randomization pattern or seed for the node's process.</Description>
+  </Flub>
+</ArrayOfFlub>

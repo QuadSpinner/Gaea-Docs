@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<ArrayOfFlub xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Flub>
+    <Name>Scale</Name>
+    <Description>The scale of shapes on the slope.</Description>
+  </Flub>
+  <Flub>
+    <Name>Displacement</Name>
+    <Description>The amount of displacement to perform on the slope shapes.</Description>
+  </Flub>
+  <Flub>
+    <Name>Direction</Name>
+    <Description>The direction of the slope gradient.</Description>
+  </Flub>
+  <Flub>
+    <Name>Stratified</Name>
+    <Description>When enabled, creates long, stratified protrusions on the slope.</Description>
+  </Flub>
+  <Flub>
+    <Name>Seed</Name>
+    <Description>The randomization pattern or seed for the node's process.</Description>
+  </Flub>
+</ArrayOfFlub>

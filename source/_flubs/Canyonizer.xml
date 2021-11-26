@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<ArrayOfFlub xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Flub>
+    <Name>Canyons</Name>
+    <Description>T</Description>
+  </Flub>
+  <Flub>
+    <Name>Formation</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
+    <Name>Streamline</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
+    <Name>Octaves</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
+    <Name>Maximum Depth</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
+    <Name>Narrow</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
+    <Name>Generate Masks</Name>
+    <Description>Generate optional masks. Disabling this when not using masks will give you a small performance benefit.</Description>
+  </Flub>
+  <Flub>
+    <Name>Fast</Name>
+    <Description>Use the Fast Mode to to sacrifice shape quality for speed.</Description>
+  </Flub>
+  <Flub>
+    <Name>Seed</Name>
+    <Description>The randomization pattern or seed for the node's process.</Description>
+  </Flub>
+</ArrayOfFlub>

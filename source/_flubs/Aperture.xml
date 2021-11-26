@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<ArrayOfFlub xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Flub>
+    <Name>Method</Name>
+    <Description>Choose whether to expand or compact the visuals on the terrain.</Description>
+    <Flubs>
+      <Flub>
+        <Name>Expand</Name>
+        <Description>Expands the pixels.</Description>
+      </Flub>
+      <Flub>
+        <Name>Contract</Name>
+        <Description>Contracts the pixels.</Description>
+      </Flub>
+      <Flub>
+        <Name>Spread</Name>
+      </Flub>
+      <Flub>
+        <Name>Reduce</Name>
+      </Flub>
+    </Flubs>
+  </Flub>
+  <Flub>
+    <Name>Iterations</Name>
+    <Description>Number of aperture passes to perform on the terrain. Higher number of passes creates a pronounced effect at the expense of speed.</Description>
+  </Flub>
+  <Flub>
+    <Name>Kernel</Name>
+    <Description>Kernel is the shape of the aperture. Changing the kernel can change how the features on the terrain are modified.</Description>
+    <Flubs>
+      <Flub>
+        <Name>Disk</Name>
+        <Description>Large, circular formation.</Description>
+      </Flub>
+      <Flub>
+        <Name>Diamond</Name>
+        <Description>Small, diagonal squares.</Description>
+      </Flub>
+      <Flub>
+        <Name>Cross</Name>
+        <Description>Small cross pattern. Can create predictable shape. For best results, use with masking.</Description>
+      </Flub>
+      <Flub>
+        <Name>Oct</Name>
+        <Description>Large, octagonal formation.</Description>
+      </Flub>
+      <Flub>
+        <Name>Corner</Name>
+        <Description>Large, diagonal squares.</Description>
+      </Flub>
+      <Flub>
+        <Name>Ring</Name>
+        <Description>Small, circular formation with steps/terraces.</Description>
+      </Flub>
+      <Flub>
+        <Name>Sobel</Name>
+        <Description>Rectangular stretches which retain corner shapes.</Description>
+      </Flub>
+    </Flubs>
+  </Flub>
+  <Flub>
+    <Name>Random</Name>
+    <Description>When on, each iteration uses a randomly selected kernel.</Description>
+  </Flub>
+  <Flub>
+    <Name>Seed</Name>
+    <Description>The randomization pattern or seed for the node's process.</Description>
+  </Flub>
+</ArrayOfFlub>

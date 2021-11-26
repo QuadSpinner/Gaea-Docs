@@ -1,0 +1,2 @@
+﻿{.NOTE}
+> This node has hidden ports. You can access the hidden ports through the connect menus or by dropping a connection in the middle of the node to trigger the auto-connect menu. See @conveniences.

@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<ArrayOfFlub xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Flub>
+    <Name>Terracing</Name>
+    <Description>T</Description>
+  </Flub>
+  <Flub>
+    <Name>Mode</Name>
+    <Flubs>
+      <Flub>
+        <Name>Classic</Name>
+        <Description>The old method of generating Fractal Terraces. It provides fewer options, and is mainly provided for backward compatibility with older projects.</Description>
+      </Flub>
+      <Flub>
+        <Name>Improved</Name>
+        <Description>The new default method. It provides detailed control over the fractal shape.</Description>
+      </Flub>
+    </Flubs>
+  </Flub>
+  <Flub>
+    <Name>Spacing</Name>
+    <Description>The space between two terraces.</Description>
+  </Flub>
+  <Flub>
+    <Name>Octaves</Name>
+    <Description>The number of terraces to generate, including subtle sub-terraces based on the space value above.</Description>
+  </Flub>
+  <Flub>
+    <Name>Intensity</Name>
+    <Description>The strength of the terracing process. Higher intensities flatten the terrace.</Description>
+  </Flub>
+  <Flub>
+    <Name>Shape</Name>
+    <Description>The general shape of the terraces. Lower values create steeper terraces that are closer to the terrain's bulk, while higher create smoother terraces that protrude outward.</Description>
+  </Flub>
+  <Flub>
+    <Name>Seed</Name>
+    <Description>The randomization pattern or seed for the node's process.</Description>
+  </Flub>
+  <Flub>
+    <Name>Advanced</Name>
+    <Description>T</Description>
+  </Flub>
+  <Flub>
+    <Name>Shapes Separation</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
+    <Name>Macro Octaves</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
+    <Name>Micro Shape</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
+    <Name>Character</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
+    <Name>Thickness Uniformity</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
+    <Name>Hardness Uniformity</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
+    <Name>Strata Details</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+</ArrayOfFlub>

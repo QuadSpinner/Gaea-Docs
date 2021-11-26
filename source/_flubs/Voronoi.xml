@@ -1,0 +1,121 @@
+<?xml version="1.0"?>
+<ArrayOfFlub xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Flub>
+    <Name>Voronoi</Name>
+    <Description>T</Description>
+  </Flub>
+  <Flub>
+    <Name>Scale</Name>
+    <Description>The perceptual scale of the Voronoi shapes. Higher values create more shapes.</Description>
+  </Flub>
+  <Flub>
+    <Name>Jitter</Name>
+    <Description>Control the offset of the Voronoi points between symmetrical and chaotic.</Description>
+  </Flub>
+  <Flub>
+    <Name>Seed</Name>
+    <Description>The randomization pattern or seed for the node's process.</Description>
+  </Flub>
+  <Flub>
+    <Name>Dual</Name>
+    <Description>Creates two overlapping Voronoi patterns.</Description>
+  </Flub>
+  <Flub>
+    <Name>Warp</Name>
+    <Description>T</Description>
+  </Flub>
+  <Flub>
+    <Name>Perturb</Name>
+    <Flubs>
+      <Flub>
+        <Name>None</Name>
+        <Description>No warping.</Description>
+      </Flub>
+      <Flub>
+        <Name>Simple</Name>
+        <Description>Simple, soft warping.</Description>
+      </Flub>
+      <Flub>
+        <Name>Complex</Name>
+        <Description>Complex, turbulence warping.</Description>
+      </Flub>
+    </Flubs>
+  </Flub>
+  <Flub>
+    <Name>Warp Frequency</Name>
+    <Description>Frequency of the warp. Higher numbers create stronger warping.</Description>
+  </Flub>
+  <Flub>
+    <Name>Warp Amplitude</Name>
+    <Description>The strength of the warping applied to the base noise.</Description>
+  </Flub>
+  <Flub>
+    <Name>Warp Octaves</Name>
+    <Description>The complexity of the warping shape.</Description>
+  </Flub>
+  <Flub>
+    <Name>Advanced settings</Name>
+    <Description>T</Description>
+  </Flub>
+  <Flub>
+    <Name>Scale X</Name>
+    <Description>The non-uniform scale of the X axis.</Description>
+  </Flub>
+  <Flub>
+    <Name>Scale Y</Name>
+    <Description>The non-uniform scale of the Y axis.</Description>
+  </Flub>
+  <Flub>
+    <Name>Function</Name>
+    <Flubs>
+      <Flub>
+        <Name>Euclidean</Name>
+        <Description>Euclidean function.</Description>
+      </Flub>
+      <Flub>
+        <Name>Manhattan</Name>
+        <Description>Manhattan function.</Description>
+      </Flub>
+      <Flub>
+        <Name>Natural</Name>
+        <Description>Natural, geology-friendly version of Euclidean.</Description>
+      </Flub>
+    </Flubs>
+  </Flub>
+  <Flub>
+    <Name>Form</Name>
+    <Flubs>
+      <Flub>
+        <Name>C</Name>
+        <Description>Voronoi cells with height decided by the cells themselves.</Description>
+      </Flub>
+      <Flub>
+        <Name>N</Name>
+        <Description>Voronoi cells with height decided by the nearest neighbor.</Description>
+      </Flub>
+      <Flub>
+        <Name>R</Name>
+      </Flub>
+      <Flub>
+        <Name>P</Name>
+        <Description>The default look for this geo-variant, suitable for creating mountains.</Description>
+      </Flub>
+      <Flub>
+        <Name>A</Name>
+        <Description>A mix between P and M.</Description>
+      </Flub>
+      <Flub>
+        <Name>S</Name>
+        <Description>Individual mountains with fully separated boundaries.</Description>
+      </Flub>
+      <Flub>
+        <Name>M</Name>
+        <Description>Favors the strongest cell; good for creating a big mountain slope.</Description>
+      </Flub>
+      <Flub>
+        <Name>D</Name>
+        <Description>Favors ridges over cell centers.</Description>
+      </Flub>
+    </Flubs>
+  </Flub>
+</ArrayOfFlub>

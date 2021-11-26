@@ -1,1 +1,0 @@
-Rock Softness = 60.00%

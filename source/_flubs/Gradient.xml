@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<ArrayOfFlub xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Flub>
+    <Name>Type</Name>
+    <Flubs>
+      <Flub>
+        <Name>Linear</Name>
+        <Description>A ramp going from lowest to highest.</Description>
+      </Flub>
+      <Flub>
+        <Name>Radial</Name>
+        <Description>A soft, radial "bump".</Description>
+      </Flub>
+      <Flub>
+        <Name>Helix</Name>
+        <Description>A climbing spiral or Helix gradient.</Description>
+      </Flub>
+    </Flubs>
+  </Flub>
+  <Flub>
+    <Name>Scale</Name>
+    <Description>The scale of the gradient.</Description>
+  </Flub>
+  <Flub>
+    <Name>Direction</Name>
+    <Description>The angle of the Linear gradient.</Description>
+  </Flub>
+  <Flub>
+    <Name>Edge Behavior</Name>
+    <Flubs>
+      <Flub>
+        <Name>None</Name>
+        <Description>Edge pixels are left blank.</Description>
+      </Flub>
+      <Flub>
+        <Name>Mirror</Name>
+        <Description>Edge pixels are mirrored.</Description>
+      </Flub>
+      <Flub>
+        <Name>Repeat</Name>
+        <Description>Edge pixels are repeated.</Description>
+      </Flub>
+      <Flub>
+        <Name>Edge</Name>
+      </Flub>
+    </Flubs>
+  </Flub>
+  <Flub>
+    <Name>X</Name>
+  </Flub>
+  <Flub>
+    <Name>Y</Name>
+  </Flub>
+  <Flub>
+    <Name>Start</Name>
+    <Description>Where the Helix will start.</Description>
+  </Flub>
+  <Flub>
+    <Name>End</Name>
+    <Description>Where the Helix will end.</Description>
+  </Flub>
+</ArrayOfFlub>

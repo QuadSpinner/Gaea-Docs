@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<ArrayOfFlub xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Flub>
+    <Name>Size</Name>
+  </Flub>
+  <Flub>
+    <Name>Iterations</Name>
+  </Flub>
+  <Flub>
+    <Name>Kernel</Name>
+    <Flubs>
+      <Flub>
+        <Name>Cross</Name>
+      </Flub>
+      <Flub>
+        <Name>Rectangle</Name>
+      </Flub>
+      <Flub>
+        <Name>Line</Name>
+      </Flub>
+    </Flubs>
+  </Flub>
+</ArrayOfFlub>

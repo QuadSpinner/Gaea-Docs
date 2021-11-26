@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<ArrayOfFlub xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Flub>
+    <Name>Min</Name>
+    <Description>TODO</Description>
+  </Flub>
+  <Flub>
+    <Name>Max</Name>
+    <Description>TODO</Description>
+  </Flub>
+  <Flub>
+    <Name>Falloff</Name>
+    <Description>TODO</Description>
+  </Flub>
+</ArrayOfFlub>

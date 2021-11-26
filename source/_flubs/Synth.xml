@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<ArrayOfFlub xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Flub>
+    <Name>Reverse</Name>
+    <Description>TODO</Description>
+  </Flub>
+  <Flub>
+    <Name>Input Noise</Name>
+    <Description>TODO</Description>
+  </Flub>
+  <Flub>
+    <Name>Color Noise</Name>
+    <Description>TODO</Description>
+  </Flub>
+  <Flub>
+    <Name>Input Clarity</Name>
+    <Description>TODO</Description>
+  </Flub>
+  <Flub>
+    <Name>Input Auto Level</Name>
+    <Description>TODO</Description>
+  </Flub>
+  <Flub>
+    <Name>Output Clarity</Name>
+    <Description>TODO</Description>
+  </Flub>
+  <Flub>
+    <Name>Output Auto Level</Name>
+    <Description>TODO</Description>
+  </Flub>
+  <Flub>
+    <Name>Data</Name>
+  </Flub>
+  <Flub>
+    <Name>Magick</Name>
+  </Flub>
+</ArrayOfFlub>

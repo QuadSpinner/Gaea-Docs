@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<ArrayOfFlub xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Flub>
+    <Name>Min</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
+    <Name>Max</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
+    <Name>Falloff</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
+    <Name>Curvature Type</Name>
+    <Description>Lorem ipsum</Description>
+    <Flubs>
+      <Flub>
+        <Name>PLAN</Name>
+      </Flub>
+      <Flub>
+        <Name>HORIZONTAL</Name>
+      </Flub>
+      <Flub>
+        <Name>VERTICAL</Name>
+      </Flub>
+      <Flub>
+        <Name>MEAN</Name>
+      </Flub>
+      <Flub>
+        <Name>GAUSSIAN</Name>
+      </Flub>
+      <Flub>
+        <Name>MINIMAL</Name>
+      </Flub>
+      <Flub>
+        <Name>MAXIMAL</Name>
+      </Flub>
+      <Flub>
+        <Name>UNSPHERICITY</Name>
+      </Flub>
+      <Flub>
+        <Name>ROTOR</Name>
+      </Flub>
+      <Flub>
+        <Name>DIFFERENCE</Name>
+      </Flub>
+      <Flub>
+        <Name>HORIZONTAL_EXCESS</Name>
+      </Flub>
+      <Flub>
+        <Name>VERTICAL_EXCESS</Name>
+      </Flub>
+      <Flub>
+        <Name>RING</Name>
+      </Flub>
+      <Flub>
+        <Name>ACCUMULATION</Name>
+      </Flub>
+    </Flubs>
+  </Flub>
+  <Flub>
+    <Name>Invert</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+</ArrayOfFlub>

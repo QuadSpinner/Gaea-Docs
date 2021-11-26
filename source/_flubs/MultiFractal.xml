@@ -1,0 +1,137 @@
+<?xml version="1.0"?>
+<ArrayOfFlub xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Flub>
+    <Name>Fractal</Name>
+    <Description>T</Description>
+  </Flub>
+  <Flub>
+    <Name>Noise type</Name>
+    <Description>Lorem ipsum</Description>
+    <Flubs>
+      <Flub>
+        <Name>FBM</Name>
+        <Description>Lorem ipsum</Description>
+      </Flub>
+      <Flub>
+        <Name>Billowy</Name>
+        <Description>Lorem ipsum</Description>
+      </Flub>
+      <Flub>
+        <Name>Ridged</Name>
+        <Description>Lorem ipsum</Description>
+      </Flub>
+    </Flubs>
+  </Flub>
+  <Flub>
+    <Name>Auto octaves</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
+    <Name>Octaves</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
+    <Name>Largescale size</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
+    <Name>Feature size</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
+    <Name>Roughness</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
+    <Name>Edge smoothing</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
+    <Name>Seed</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
+    <Name>Variation</Name>
+    <Description>T</Description>
+  </Flub>
+  <Flub>
+    <Name>Variation type</Name>
+    <Description>Lorem ipsum</Description>
+    <Flubs>
+      <Flub>
+        <Name>Secondary fractal</Name>
+        <Description>Lorem ipsum</Description>
+      </Flub>
+      <Flub>
+        <Name>Self-modulation</Name>
+        <Description>Lorem ipsum</Description>
+      </Flub>
+    </Flubs>
+  </Flub>
+  <Flub>
+    <Name>Variation</Name>
+    <Description>T</Description>
+  </Flub>
+  <Flub>
+    <Name>Smoothness</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
+    <Name>Variation contrast</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
+    <Name>Damping</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
+    <Name>Bias</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
+    <Name>Warp</Name>
+    <Description>T</Description>
+  </Flub>
+  <Flub>
+    <Name>Perturb</Name>
+    <Description>Lorem ipsum</Description>
+    <Flubs>
+      <Flub>
+        <Name>None</Name>
+        <Description>Lorem ipsum</Description>
+      </Flub>
+      <Flub>
+        <Name>Simple</Name>
+        <Description>Lorem ipsum</Description>
+      </Flub>
+      <Flub>
+        <Name>Complex</Name>
+        <Description>Lorem ipsum</Description>
+      </Flub>
+    </Flubs>
+  </Flub>
+  <Flub>
+    <Name>Relative warp size</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
+    <Name>Warp strength</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
+    <Name>Warp complexity</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
+    <Name>Warp roughness</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
+    <Name>Warp attenuation</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
+    <Name>Warp iterations</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+</ArrayOfFlub>

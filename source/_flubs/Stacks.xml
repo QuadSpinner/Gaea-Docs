@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<ArrayOfFlub xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Flub>
+    <Name>Stacking</Name>
+    <Description>T</Description>
+  </Flub>
+  <Flub>
+    <Name>Cascades</Name>
+    <Description>The number of erosion passes.</Description>
+  </Flub>
+  <Flub>
+    <Name>Stacks</Name>
+    <Description>The number of stratification passes.</Description>
+  </Flub>
+  <Flub>
+    <Name>Exposed Strata</Name>
+    <Description>The amount of stratified plates to expose from sediments.</Description>
+  </Flub>
+  <Flub>
+    <Name>Folding</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
+    <Name>Steepness</Name>
+    <Description>The steepness of the stratified areas.</Description>
+  </Flub>
+  <Flub>
+    <Name>Talus Pass</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
+    <Name>Power</Name>
+    <Description>The power of the talus.</Description>
+  </Flub>
+  <Flub>
+    <Name>Height</Name>
+    <Description>The height of the talus from the bottom.</Description>
+  </Flub>
+  <Flub>
+    <Name>Encourage Strong Flows</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
+    <Name>Style</Name>
+    <Description>Lorem ipsum</Description>
+    <Flubs>
+      <Flub>
+        <Name>Default</Name>
+      </Flub>
+      <Flub>
+        <Name>Sedimentary</Name>
+      </Flub>
+      <Flub>
+        <Name>Desiccated</Name>
+      </Flub>
+      <Flub>
+        <Name>Shattered</Name>
+      </Flub>
+    </Flubs>
+  </Flub>
+  <Flub>
+    <Name>Cascades</Name>
+    <Description>T</Description>
+  </Flub>
+  <Flub>
+    <Name>Duration</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
+    <Name>Rock Softness</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
+    <Name>Strength</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
+    <Name>Other Settings</Name>
+    <Description>T</Description>
+  </Flub>
+  <Flub>
+    <Name>Seed</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
+    <Name>Disable Parallel Processing</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+</ArrayOfFlub>

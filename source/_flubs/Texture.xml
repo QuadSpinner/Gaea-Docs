@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<ArrayOfFlub xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Flub>
+    <Name>Construction</Name>
+    <Description>T</Description>
+  </Flub>
+  <Flub>
+    <Name>Scale</Name>
+    <Description>TODO</Description>
+  </Flub>
+  <Flub>
+    <Name>Mode</Name>
+    <Description>Mode of the texture</Description>
+    <Flubs>
+      <Flub>
+        <Name>A</Name>
+      </Flub>
+      <Flub>
+        <Name>B</Name>
+      </Flub>
+      <Flub>
+        <Name>C</Name>
+      </Flub>
+    </Flubs>
+  </Flub>
+  <Flub>
+    <Name>Patches</Name>
+    <Description>TODO</Description>
+  </Flub>
+  <Flub>
+    <Name>Seed</Name>
+    <Description>The randomization pattern or seed for the node's process.</Description>
+  </Flub>
+  <Flub>
+    <Name>Influences</Name>
+    <Description>T</Description>
+  </Flub>
+  <Flub>
+    <Name>Slope</Name>
+    <Description>TODO</Description>
+  </Flub>
+  <Flub>
+    <Name>Soil</Name>
+    <Description>TODO</Description>
+  </Flub>
+  <Flub>
+    <Name>Chaos</Name>
+    <Description>TODO</Description>
+  </Flub>
+  <Flub>
+    <Name>Graded</Name>
+    <Description>TODO</Description>
+  </Flub>
+  <Flub>
+    <Name>Classic Version</Name>
+    <Description>Use the classic version of texture</Description>
+  </Flub>
+</ArrayOfFlub>

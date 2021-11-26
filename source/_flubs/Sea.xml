@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<ArrayOfFlub xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Flub>
+    <Name>Sea Arragement</Name>
+    <Flubs>
+      <Flub>
+        <Name>Global</Name>
+      </Flub>
+      <Flub>
+        <Name>Surrounding</Name>
+      </Flub>
+    </Flubs>
+  </Flub>
+  <Flub>
+    <Name>Level</Name>
+  </Flub>
+  <Flub>
+    <Name>Coastal Erosion</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
+    <Name>Shore Size</Name>
+  </Flub>
+  <Flub>
+    <Name>Shore Height</Name>
+  </Flub>
+  <Flub>
+    <Name>Variation</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
+    <Name>Uniform Variation Morphing</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
+    <Name>Extra Cliff Details</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
+    <Name>Render water surface</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+</ArrayOfFlub>

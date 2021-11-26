@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<ArrayOfFlub xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Flub>
+    <Name>Power</Name>
+    <Description>Higher values cause larger, smoother shapes and decay fine details. Lower values preserve details but create slightly rougher curves.</Description>
+  </Flub>
+  <Flub>
+    <Name>Multiplier</Name>
+    <Description>Higher values cause the erosion to erase smaller features in the terrain by producing stronger flows.</Description>
+  </Flub>
+  <Flub>
+    <Name>Preserve Indentations</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+</ArrayOfFlub>

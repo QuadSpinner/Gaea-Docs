@@ -1,0 +1,97 @@
+<?xml version="1.0"?>
+<ArrayOfFlub xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Flub>
+    <Name>Noise</Name>
+    <Description>T</Description>
+  </Flub>
+  <Flub>
+    <Name>Size</Name>
+  </Flub>
+  <Flub>
+    <Name>Strength</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
+    <Name>Z-scale</Name>
+  </Flub>
+  <Flub>
+    <Name>Warp Source</Name>
+    <Flubs>
+      <Flub>
+        <Name>Perlin FBM</Name>
+      </Flub>
+      <Flub>
+        <Name>Voronoi R</Name>
+      </Flub>
+      <Flub>
+        <Name>Voronoi P</Name>
+      </Flub>
+      <Flub>
+        <Name>Voronoi A</Name>
+      </Flub>
+      <Flub>
+        <Name>Voronoi S</Name>
+      </Flub>
+      <Flub>
+        <Name>Voronoi M</Name>
+      </Flub>
+      <Flub>
+        <Name>Voronoi D</Name>
+      </Flub>
+    </Flubs>
+  </Flub>
+  <Flub>
+    <Name>Perturbation</Name>
+  </Flub>
+  <Flub>
+    <Name>Complexity</Name>
+  </Flub>
+  <Flub>
+    <Name>Roughness</Name>
+  </Flub>
+  <Flub>
+    <Name>Normalized</Name>
+  </Flub>
+  <Flub>
+    <Name>Edge behaviour</Name>
+    <Description>Lorem ipsum</Description>
+    <Flubs>
+      <Flub>
+        <Name>Edge</Name>
+      </Flub>
+      <Flub>
+        <Name>Mirror</Name>
+      </Flub>
+    </Flubs>
+  </Flub>
+  <Flub>
+    <Name>Modulation</Name>
+  </Flub>
+  <Flub>
+    <Name>Modulation direction</Name>
+  </Flub>
+  <Flub>
+    <Name>Seed</Name>
+  </Flub>
+  <Flub>
+    <Name>Iterative</Name>
+    <Description>T</Description>
+  </Flub>
+  <Flub>
+    <Name>Iterations</Name>
+  </Flub>
+  <Flub>
+    <Name>Mode</Name>
+    <Flubs>
+      <Flub>
+        <Name>Bitmap</Name>
+      </Flub>
+      <Flub>
+        <Name>Vector Field</Name>
+      </Flub>
+      <Flub>
+        <Name>Vector Field Integral</Name>
+      </Flub>
+    </Flubs>
+  </Flub>
+</ArrayOfFlub>

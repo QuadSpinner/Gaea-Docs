@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<ArrayOfFlub xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Flub>
+    <Name>In</Name>
+    <Description>The input port to use.</Description>
+    <Flubs>
+      <Flub>
+        <Name>Input 0</Name>
+      </Flub>
+      <Flub>
+        <Name>Input 1</Name>
+      </Flub>
+      <Flub>
+        <Name>Input 2</Name>
+      </Flub>
+      <Flub>
+        <Name>Input 3</Name>
+      </Flub>
+      <Flub>
+        <Name>Input 4</Name>
+      </Flub>
+      <Flub>
+        <Name>Input 5</Name>
+      </Flub>
+      <Flub>
+        <Name>Input 6</Name>
+      </Flub>
+      <Flub>
+        <Name>Input 7</Name>
+      </Flub>
+      <Flub>
+        <Name>Input 8</Name>
+      </Flub>
+      <Flub>
+        <Name>Input 9</Name>
+      </Flub>
+    </Flubs>
+  </Flub>
+  <Flub>
+    <Name>Out</Name>
+    <Description>The output port to use.</Description>
+    <Flubs>
+      <Flub>
+        <Name>Output 0</Name>
+      </Flub>
+      <Flub>
+        <Name>Output 1</Name>
+      </Flub>
+      <Flub>
+        <Name>Output 2</Name>
+      </Flub>
+      <Flub>
+        <Name>Output 3</Name>
+      </Flub>
+      <Flub>
+        <Name>Output 4</Name>
+      </Flub>
+      <Flub>
+        <Name>Output 5</Name>
+      </Flub>
+      <Flub>
+        <Name>Output 6</Name>
+      </Flub>
+      <Flub>
+        <Name>Output 7</Name>
+      </Flub>
+      <Flub>
+        <Name>Output 8</Name>
+      </Flub>
+      <Flub>
+        <Name>Output 9</Name>
+      </Flub>
+    </Flubs>
+  </Flub>
+</ArrayOfFlub>

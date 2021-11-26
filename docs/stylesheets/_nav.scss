@@ -1,0 +1,132 @@
+﻿
+#main-nav {
+    border: 0;
+    /*    .hive:first-child {
+        margin-top: 2em !important;
+    }*/
+    .top {
+        color: #ffd9b2 !important;
+        text-transform: uppercase;
+    }
+
+    .hive {
+        color: #f8f0d2;
+        padding: 1.5em 2em !important;
+    }
+
+    .item {
+        padding: .5em 1em;
+
+        &.active {
+            background: #2d2e2f !important;
+            border: 1px solid #4d5053;
+            border-top: 0;
+            border-left: 0;
+        }
+
+        .accordion {
+            padding-left: 1em !important;
+
+            .title {
+                color: #dfdfdf !important;
+                font-size: 13px;
+                font-weight: bold;
+                transition: all linear 0.2s;
+
+                &:hover {
+                    color: #d5bf69 !important;
+                    transition: all linear 0.2s;
+                }
+
+                .icon {
+                    font-size: 11px;
+                }
+            }
+
+            .startSection::before {
+                background: white;
+                margin-bottom: 1em !important;
+                height: 4px;
+                width: 90%;
+                content: '';
+                display: block;
+                height: 1px;
+                opacity: 0.1;
+                position: relative;
+                left: -0.25em;
+            }
+
+            .subitem {
+                display: block;
+                padding-top: 0.5em !important;
+                padding-bottom: 0.5em !important;
+                padding-left: 1.8em;
+                font-size: 12px;
+                color: #d4d4d4 !important;
+                transition: all linear 0.2s;
+
+                &:hover {
+                    color: #d5bf69 !important;
+                    transition: all linear 0.2s;
+                }
+
+                &.active {
+                    color: #ffcc00 !important;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+
+    .active.item:first-child {
+        border-radius: 0;
+        margin-top: 7em;
+    }
+}
+
+#toc {
+    .startSection::before {
+        background: white;
+        margin-bottom: 1em !important;
+        height: 4px;
+        width: 90%;
+        content: '';
+        display: block;
+        height: 1px;
+        opacity: 0.1;
+        position: relative;
+        left: -0.25em;
+    }
+}
+
+.ui.secondary.inverted.pointing.menu {
+    .red {
+        color: #ffcc00 !important;
+        transition: all linear 0.2s;
+
+        &:hover {
+            color: #f0f0f0 !important;
+            border-color: rgba(251, 86, 33, 0.8);
+            transition: all linear 0.2s;
+        }
+    }
+}
+
+#main .following.menu .menu {
+    .item {
+        transition: all linear 0.2s;
+        border-left: 1px solid transparent;
+
+
+        &.active {
+            padding-left: 0.75em;
+            transition: all linear 0.2s;
+            border-left: 2px solid #000;
+        }
+    }
+}
+
+
+.ui.vertical.menu > .active.item {
+    border-radius: 0 !important;
+}

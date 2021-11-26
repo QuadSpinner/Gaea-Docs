@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<ArrayOfFlub xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Flub>
+    <Name>Scale</Name>
+  </Flub>
+  <Flub>
+    <Name>Height</Name>
+  </Flub>
+  <Flub>
+    <Name>Erosion</Name>
+  </Flub>
+  <Flub>
+    <Name>Shape</Name>
+  </Flub>
+  <Flub>
+    <Name>Craggy</Name>
+  </Flub>
+  <Flub>
+    <Name>Rocky</Name>
+  </Flub>
+  <Flub>
+    <Name>Alternate</Name>
+  </Flub>
+  <Flub>
+    <Name>Deterministic (Slow)</Name>
+  </Flub>
+  <Flub>
+    <Name>Seed</Name>
+  </Flub>
+</ArrayOfFlub>

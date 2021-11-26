@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<ArrayOfFlub xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Flub>
+    <Name>Scale</Name>
+    <Description>The scale of the overall field of shapes.</Description>
+  </Flub>
+  <Flub>
+    <Name>Steepness</Name>
+    <Description>The steepness of the slopes.</Description>
+  </Flub>
+  <Flub>
+    <Name>Collision</Name>
+    <Description>Amount of collision between plates. Higher values create chaotic shapes.</Description>
+  </Flub>
+  <Flub>
+    <Name>Slant</Name>
+    <Description>When enabled, adds a second slope to the edges.</Description>
+  </Flub>
+  <Flub>
+    <Name>Inverse</Name>
+    <Description>Inverts all sloping operations to 180 degrees.</Description>
+  </Flub>
+  <Flub>
+    <Name>Seed</Name>
+    <Description>The randomization pattern or seed for the node's process.</Description>
+  </Flub>
+</ArrayOfFlub>

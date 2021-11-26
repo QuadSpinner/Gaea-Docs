@@ -1,0 +1,125 @@
+<?xml version="1.0"?>
+<ArrayOfFlub xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Flub>
+    <Name>Brightness + Contrast</Name>
+    <Description>T</Description>
+  </Flub>
+  <Flub>
+    <Name>Apply Brightness + Contrast</Name>
+  </Flub>
+  <Flub>
+    <Name>Brightness</Name>
+  </Flub>
+  <Flub>
+    <Name>Contrast</Name>
+  </Flub>
+  <Flub>
+    <Name>Hue + Saturation + Lightness</Name>
+    <Description>T</Description>
+  </Flub>
+  <Flub>
+    <Name>Apply HSL</Name>
+  </Flub>
+  <Flub>
+    <Name>H</Name>
+  </Flub>
+  <Flub>
+    <Name>S</Name>
+  </Flub>
+  <Flub>
+    <Name>L</Name>
+  </Flub>
+  <Flub>
+    <Name>Autolevel</Name>
+    <Description>T</Description>
+  </Flub>
+  <Flub>
+    <Name>Apply Autolevel</Name>
+  </Flub>
+  <Flub>
+    <Name>Autolevel</Name>
+    <Description>T</Description>
+  </Flub>
+  <Flub>
+    <Name>Equalize</Name>
+    <Description>T</Description>
+  </Flub>
+  <Flub>
+    <Name>Apply Equalize</Name>
+  </Flub>
+  <Flub>
+    <Name>Equalize</Name>
+    <Description>T</Description>
+  </Flub>
+  <Flub>
+    <Name>Gamma</Name>
+    <Description>T</Description>
+  </Flub>
+  <Flub>
+    <Name>Apply Gamma</Name>
+  </Flub>
+  <Flub>
+    <Name>Auto Gamma</Name>
+  </Flub>
+  <Flub>
+    <Name>Gamma</Name>
+    <Description>T</Description>
+  </Flub>
+  <Flub>
+    <Name>Clarity</Name>
+    <Description>T</Description>
+  </Flub>
+  <Flub>
+    <Name>Apply Clarity</Name>
+  </Flub>
+  <Flub>
+    <Name>Noise</Name>
+    <Description>T</Description>
+  </Flub>
+  <Flub>
+    <Name>Apply Noise</Name>
+  </Flub>
+  <Flub>
+    <Name>Noise</Name>
+    <Description>T</Description>
+  </Flub>
+  <Flub>
+    <Name>Seed</Name>
+    <Description>The randomization pattern or seed for the node's process.</Description>
+  </Flub>
+  <Flub>
+    <Name>Blur</Name>
+    <Description>T</Description>
+  </Flub>
+  <Flub>
+    <Name>Blur</Name>
+    <Description>T</Description>
+  </Flub>
+  <Flub>
+    <Name>Power</Name>
+  </Flub>
+  <Flub>
+    <Name>Iterations</Name>
+  </Flub>
+  <Flub>
+    <Name>Flip</Name>
+    <Description>T</Description>
+  </Flub>
+  <Flub>
+    <Name>Direction</Name>
+    <Flubs>
+      <Flub>
+        <Name>None</Name>
+      </Flub>
+      <Flub>
+        <Name>Horizontal</Name>
+      </Flub>
+      <Flub>
+        <Name>Vertical</Name>
+      </Flub>
+      <Flub>
+        <Name>Both</Name>
+      </Flub>
+    </Flubs>
+  </Flub>
+</ArrayOfFlub>

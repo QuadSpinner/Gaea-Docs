@@ -1,11 +1,47 @@
 $(document).ready(function () {
 
+
+    function getUrlVars() {
+        var vars = [], hash;
+        var hashes = window.location.href.slice(window.location.href.indexOf('?') + 1).split('&');
+        for (var i = 0; i < hashes.length; i++) {
+            hash = hashes[i].split('=');
+            vars.push(hash[0]);
+            vars[hash[0]] = hash[1];
+        }
+        return vars;
+    }
+
     var data;
-    var critfield = "title:";
 
-    function initSearchObjects() {
+    function showInstructions() {
+        var $search_results = $("#quicksearch");
+        $search_results.empty();
+        $search_results.append("<ul>");
+        $search_results.append("<li><a href='#'>No results found!<br><span>If your word is incomplete, try typing the whole word, or add a * to the end of the search term.</span></a></li>");
+        $search_results.append("</ul>");
+    }
 
-        $("#quicksearch").load("/search.json", function (responseTxt, statusTxt) {
+    function display_search_results(results) {
+
+        var $search_results = $("#quicksearch");
+
+        if (results.length) {
+            $search_results.empty();
+            results.forEach(function (result) {
+                var rdata = data[result.ref];
+                $search_results.append('<div class="srx"><a class="font-weight-bold" data-w="' + rdata.w + '" href="' + rdata.url + '">' + rdata.title + '<small>' + rdata.hive + '</small></a></div>');
+            });
+
+        } else {
+            showInstructions();
+        }
+
+    }
+
+    function quickSearch(q) {
+
+        $("#data-storage").load("/search.json", function (responseTxt, statusTxt) {
             if (statusTxt == "success") {
                 data = JSON.parse(responseTxt);
                 window.idx = lunr(function () {
@@ -19,126 +55,22 @@ $(document).ready(function () {
                         this.add($.extend({ "id": i }, data[i]));
                     }
                 });
+
+                console.log(q);
+                var results = window.idx.search(q);
+                display_search_results(results);
+
             }
         });
+
     }
 
-    $("#search-field").keyup(function (e) {
-        if (e.which == 27) {
-            hideSearch();
-        } else {
-            quickSearch();
-        }
+    var queries = {};
+    $.each(document.location.search.substr(1).split('&'), function (c, q) {
+        var i = q.split('=');
+        queries[i[0].toString()] = i[1].toString();
     });
 
-    function showSearch() {
-        $("#quicksearch").removeClass("d-none").addClass("d-block");
-        $("#main").addClass("has-search");
-    }
-
-    function hideSearch() {
-        $("#quicksearch").addClass("d-none").removeClass("d-block");
-        $("#main").removeClass("has-search");
-    }
-
-    $("#main-content").click(function () {
-        if ($("#main").hasClass("has-search"))
-            hideSearch();
-    });
-
-    $("#search-field").focus(function () {
-        if (data == null) {
-            initSearchObjects();
-        } else {
-            quickSearch();
-        }
-    })
-
-
-
-    $(this).keyup(function (e) {
-        if (e.which === 8) {
-            $("#search-field").focus();
-        }
-    })
-
-    function showInstructions() {
-        var $search_results = $("#quicksearch");
-        $search_results.empty();
-        $search_results.append("<ul>");
-        $search_results.append("<li><a href='#'>No results found!<br><span>If your word is incomplete, try typing the whole word, or add a * to the end of the search term.</span></a></li>");
-        $search_results.append("</ul>");
-        $search_results.append('<li><a class="font-weight-bold" id="stxt" href="#">Full text search <small>&darr;</small></a></li>');
-        $("#stxt").click(function() {
-            quickSearch(true);
-        });
-    }
-
-    function display_search_results(results, text) {
-
-        var $search_results = $("#quicksearch");
-
-        if (results.length) {
-            $search_results.empty();
-            $search_results.append("<ul>");
-            results.forEach(function (result) {
-                var rdata = data[result.ref];
-                $search_results.append('<li class="srx"><a class="font-weight-bold" data-w="' + rdata.w + '" href="' + rdata.url + '">' + rdata.title + '<small>' + rdata.hive + '</small></a></li>');
-            });
-
-            $search_results.append("</ul>");
-            if (!text) {
-                $('.srx').sort(function (a, b) {
-                    return $(b).find('.font-weight-bold').data('w') - $(a).find('.font-weight-bold').data('w');
-                }).each(function (_, container) {
-                    $(container).parent().append(container);
-                });
-
-                $search_results.append('<li><a class="font-weight-bold" id="stxt" href="#"> &#x2794; Full text search <small></small></a></li>');
-                $("#stxt").click(function () {
-                    quickSearch(true);
-                });
-            }
-        } else {
-            showInstructions();
-        }
-
-        showSearch();
-    }
-
-    function quickSearch(b) {
-        event.preventDefault();
-        if (data == null)
-            return;
-
-        if (b) {
-            critfield = "text:";
-        } else {
-            critfield = "title:";
-        }
-
-        var q = $("#search-field").val();
-
-        if (q.length > 3) {
-            var results = window.idx.search(critfield + q);
-            if (results.length) {
-                display_search_results(results, b);
-            } else {
-                if (q.indexOf("*") == -1) {
-                    var results = window.idx.search(q + "*");
-
-                    if (results.length) {
-                        display_search_results(results);
-                    } else {
-                        quickSearch(true);
-                    }
-                }
-            }
-        } else if (q.length == 0) {
-            hideSearch();
-        } else {
-            showSearch();
-            showInstructions();
-        }
-    }
+    console.log(document.location.search);
+    quickSearch(document.location.search.replace("?q=",""));
 });

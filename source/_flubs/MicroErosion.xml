@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<ArrayOfFlub xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Flub>
+    <Name>Iterations</Name>
+    <Description>Iterations of the erosion process.</Description>
+  </Flub>
+  <Flub>
+    <Name>Strength</Name>
+    <Description>Strength of the erosion.</Description>
+  </Flub>
+</ArrayOfFlub>

@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<ArrayOfFlub xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Flub>
+    <Name>Iterations</Name>
+    <Description>Number of iterations of deposits.</Description>
+  </Flub>
+  <Flub>
+    <Name>Sediments</Name>
+    <Description>Amount of sediments to be deposited.</Description>
+  </Flub>
+  <Flub>
+    <Name>Flow</Name>
+    <Description>Settling of sediments.</Description>
+  </Flub>
+  <Flub>
+    <Name>Chaos</Name>
+    <Description>General randomness in sediments.</Description>
+  </Flub>
+  <Flub>
+    <Name>Seed</Name>
+    <Description>The randomization pattern or seed for the node's process.</Description>
+  </Flub>
+</ArrayOfFlub>

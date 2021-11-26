@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<ArrayOfFlub xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Flub>
+    <Name>Buildup</Name>
+    <Description>T</Description>
+  </Flub>
+  <Flub>
+    <Name>Amount</Name>
+    <Description>The amount of sediment buildup to add to the terrain.</Description>
+  </Flub>
+  <Flub>
+    <Name>Dispersion</Name>
+    <Description>The distance up to which the sediment buildup should expand.</Description>
+  </Flub>
+  <Flub>
+    <Name>Inversion</Name>
+    <Description>Invert the process of dispersion on slopes.</Description>
+  </Flub>
+</ArrayOfFlub>

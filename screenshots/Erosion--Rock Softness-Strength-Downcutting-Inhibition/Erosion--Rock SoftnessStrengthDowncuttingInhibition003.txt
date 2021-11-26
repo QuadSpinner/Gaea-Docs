@@ -1,4 +1,0 @@
-Rock Softness = 100.00%
-Strength = 30.00%
-Downcutting = 100.00%
-Inhibition = 0.00%

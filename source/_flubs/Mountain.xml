@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<ArrayOfFlub xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Flub>
+    <Name>Mountain</Name>
+    <Description>T</Description>
+  </Flub>
+  <Flub>
+    <Name>Scale</Name>
+    <Description>The perceptual scale of the mountain.</Description>
+  </Flub>
+  <Flub>
+    <Name>Edge</Name>
+    <Description>The faded edge / sprawl of the mountain.</Description>
+  </Flub>
+  <Flub>
+    <Name>Bulky</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
+    <Name>Height</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
+    <Name>Type</Name>
+    <Description>Four different generative algorithms for the shape.</Description>
+    <Flubs>
+      <Flub>
+        <Name>A</Name>
+      </Flub>
+      <Flub>
+        <Name>B</Name>
+      </Flub>
+      <Flub>
+        <Name>C</Name>
+      </Flub>
+      <Flub>
+        <Name>D</Name>
+      </Flub>
+    </Flubs>
+  </Flub>
+  <Flub>
+    <Name>Seed</Name>
+    <Description>The randomization pattern or seed for the node's process.</Description>
+  </Flub>
+</ArrayOfFlub>

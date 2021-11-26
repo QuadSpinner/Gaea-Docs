@@ -1,1 +1,0 @@
-Downcutting = 60.00%

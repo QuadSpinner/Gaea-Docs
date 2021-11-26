@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<ArrayOfFlub xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Flub>
+    <Name>Min</Name>
+    <Description>The minimum range of the curvature.</Description>
+  </Flub>
+  <Flub>
+    <Name>Max</Name>
+    <Description>The maximum range of the curvature.</Description>
+  </Flub>
+  <Flub>
+    <Name>Falloff</Name>
+    <Description>The soft falloff at the maximum edge.</Description>
+  </Flub>
+  <Flub>
+    <Name>Curvature Type</Name>
+    <Flubs>
+      <Flub>
+        <Name>Horizontal</Name>
+        <Description>Favor horizontal curvature.</Description>
+      </Flub>
+      <Flub>
+        <Name>Vertical</Name>
+        <Description>Favor vertical curvature.</Description>
+      </Flub>
+      <Flub>
+        <Name>Average</Name>
+        <Description>Blend both horizontal and vertical curvatures evenly.</Description>
+      </Flub>
+    </Flubs>
+  </Flub>
+  <Flub>
+    <Name>Invert</Name>
+    <Description>Invert the map.</Description>
+  </Flub>
+</ArrayOfFlub>

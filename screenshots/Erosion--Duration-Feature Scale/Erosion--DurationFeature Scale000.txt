@@ -1,2 +1,0 @@
-Duration = 20.00%
-Feature Scale = 2000

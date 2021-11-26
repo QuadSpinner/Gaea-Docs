@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<ArrayOfFlub xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Flub>
+    <Name>Shape</Name>
+    <Description>Negative values will bulk down the shape, while positive values will bulk up the shape.</Description>
+  </Flub>
+  <Flub>
+    <Name>Local effect</Name>
+  </Flub>
+  <Flub>
+    <Name>Local area</Name>
+  </Flub>
+  <Flub>
+    <Name>Maintain fine details</Name>
+    <Description>When enabled, finer detail is preserved regardless of shape changes.</Description>
+  </Flub>
+  <Flub>
+    <Name>Detail size</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+</ArrayOfFlub>

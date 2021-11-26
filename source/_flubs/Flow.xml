@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<ArrayOfFlub xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Flub>
+    <Name>Flows</Name>
+    <Description>T</Description>
+  </Flub>
+  <Flub>
+    <Name>Rainfall</Name>
+    <Description>The number of rain cycles to calculate. Smaller values create small, detailed flows. Larger values create stronger, wider flows.</Description>
+  </Flub>
+  <Flub>
+    <Name>Primary</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
+    <Name>Secondary</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
+    <Name>Tertiary</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
+    <Name>Quaternary</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
+    <Name>2x Simulation</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
+    <Name>Enhancements</Name>
+    <Description>T</Description>
+  </Flub>
+  <Flub>
+    <Name>Uniform</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
+    <Name>Primary</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
+    <Name>Secondary</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
+    <Name>Tertiary</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
+    <Name>Quaternary</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
+    <Name>All</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
+    <Name>Quality</Name>
+    <Description>Lorem ipsum</Description>
+    <Flubs>
+      <Flub>
+        <Name>1:4</Name>
+      </Flub>
+      <Flub>
+        <Name>1:3</Name>
+      </Flub>
+      <Flub>
+        <Name>1:2</Name>
+      </Flub>
+      <Flub>
+        <Name>1:1</Name>
+      </Flub>
+    </Flubs>
+  </Flub>
+</ArrayOfFlub>

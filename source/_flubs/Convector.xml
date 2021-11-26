@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<ArrayOfFlub xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Flub>
+    <Name>Convection</Name>
+    <Description>T</Description>
+  </Flub>
+  <Flub>
+    <Name>Iterations</Name>
+    <Description>Number of iterations of the convection process.</Description>
+  </Flub>
+  <Flub>
+    <Name>Steepness</Name>
+    <Description>How much steepness to eradicate. Low values create sharper drops. High values create smooth flows.</Description>
+  </Flub>
+  <Flub>
+    <Name>Strength</Name>
+    <Description>Strength of convection where sediments are bound together.</Description>
+  </Flub>
+  <Flub>
+    <Name>Cutoff</Name>
+    <Description>Altitude at which the effect is cut off.</Description>
+  </Flub>
+  <Flub>
+    <Name>Options</Name>
+    <Description>T</Description>
+  </Flub>
+  <Flub>
+    <Name>Invert</Name>
+    <Description>Invert slope angles.</Description>
+  </Flub>
+  <Flub>
+    <Name>Add</Name>
+    <Description>Add mass to rocks.</Description>
+  </Flub>
+  <Flub>
+    <Name>Remove</Name>
+    <Description>Remove mass from rocks.</Description>
+  </Flub>
+</ArrayOfFlub>

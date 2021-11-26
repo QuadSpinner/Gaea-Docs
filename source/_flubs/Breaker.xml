@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<ArrayOfFlub xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Flub>
+    <Name>Breaker</Name>
+    <Description>T</Description>
+  </Flub>
+  <Flub>
+    <Name>Duration</Name>
+    <Description>The number of breakage iterations to perform on the terrain. The default value should work in most situations.</Description>
+  </Flub>
+  <Flub>
+    <Name>River Length</Name>
+    <Description>The maximum length of each break or river.</Description>
+  </Flub>
+  <Flub>
+    <Name>Erosion Power</Name>
+    <Description>The strength of the breakage process. High values may cause sharp drops and spikes depending on the terrain.</Description>
+  </Flub>
+  <Flub>
+    <Name>Depth</Name>
+    <Description>Depth of the cracks.</Description>
+  </Flub>
+  <Flub>
+    <Name>Advanced</Name>
+    <Description>T</Description>
+  </Flub>
+  <Flub>
+    <Name>Seed</Name>
+    <Description>The randomization pattern or seed for the node's process.</Description>
+  </Flub>
+  <Flub>
+    <Name>Hard Cracks</Name>
+    <Description>Disables antialiasing and smooth of the crack edges.</Description>
+  </Flub>
+  <Flub>
+    <Name>Mode</Name>
+    <Flubs>
+      <Flub>
+        <Name>Fast</Name>
+        <Description>Processes faster, but may not always result in the same pattern of cracks.</Description>
+      </Flub>
+      <Flub>
+        <Name>Accurate</Name>
+        <Description>Processes a bit slower, but ensures the pattern remains the same.</Description>
+      </Flub>
+    </Flubs>
+  </Flub>
+</ArrayOfFlub>

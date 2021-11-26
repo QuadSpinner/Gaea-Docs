@@ -9,14 +9,14 @@ Craters can be either *volcanic*, which start at the base and go up in a conical
 
 <figure>
 
-![](/images/ref/Crater/Crater--Impact.png)
+![](/images/ref/Crater/Crater--Impact.webp)
 
 <figcaption>Impact Crater: The base is higher than the "ground" as the impact crater goes below the surface.</figcaption>
 </figure>
 
 <figure>
 
-![](/images/ref/Crater/Crater--Volcanic.png)
+![](/images/ref/Crater/Crater--Volcanic.webp)
 
 <figcaption>Volcanic Crater: The base is a flat area and easier to combine with existing terrains.</figcaption>
 </figure>

@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<ArrayOfFlub xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Flub>
+    <Name>Method</Name>
+    <Flubs>
+      <Flub>
+        <Name>Blend</Name>
+        <Description>Blends the values of the two inputs.</Description>
+      </Flub>
+      <Flub>
+        <Name>Add</Name>
+        <Description>Adds Input2 to Input1.</Description>
+      </Flub>
+      <Flub>
+        <Name>Screen</Name>
+        <Description>Adds Input2 to Input1 without overexposing the output.</Description>
+      </Flub>
+      <Flub>
+        <Name>Subtract</Name>
+        <Description>Subtracts Input2 from Input1.</Description>
+      </Flub>
+      <Flub>
+        <Name>Multiply</Name>
+        <Description>Multiplies Input1 by Input2.</Description>
+      </Flub>
+      <Flub>
+        <Name>Divide</Name>
+        <Description>Divides Input1 by Input2.</Description>
+      </Flub>
+      <Flub>
+        <Name>Max</Name>
+        <Description>Selects the higher of the two inputs.</Description>
+      </Flub>
+      <Flub>
+        <Name>Min</Name>
+        <Description>Selects the lower of the two inputs.</Description>
+      </Flub>
+      <Flub>
+        <Name>SqRt</Name>
+        <Description>The square root of the two combined terrains.</Description>
+      </Flub>
+      <Flub>
+        <Name>Power</Name>
+        <Description>Uses Input2 to create exponents of Input1.</Description>
+      </Flub>
+      <Flub>
+        <Name>Difference</Name>
+        <Description>Creates the difference of the two inputs.</Description>
+      </Flub>
+    </Flubs>
+  </Flub>
+  <Flub>
+    <Name>Ratio</Name>
+    <Description>The ratio applied to the selected method.</Description>
+  </Flub>
+  <Flub>
+    <Name>Swap Inputs</Name>
+    <Description>Switches the two inputs.</Description>
+  </Flub>
+  <Flub>
+    <Name>Separation Mask</Name>
+    <Description>When enabled, creates a separation mask that separates the original elements from the combined output.</Description>
+  </Flub>
+  <Flub>
+    <Name>Clamp Output</Name>
+    <Description>Clamp the output between 0..1 values, removing any excess spikes or out-of-bound values.</Description>
+  </Flub>
+  <Flub>
+    <Name>Abs</Name>
+    <Description>When enabled, any value above 0.0 is forced to become 1.0. This is useful for creating hard boundaries out of masks.</Description>
+  </Flub>
+  <Flub>
+    <Name>Threshold</Name>
+  </Flub>
+</ArrayOfFlub>

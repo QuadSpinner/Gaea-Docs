@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<ArrayOfFlub xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Flub>
+    <Name>Strength</Name>
+    <Description>The strength of the Denoise operation. Higher values can take a very long time. Use cautiously.</Description>
+  </Flub>
+  <Flub>
+    <Name>Despeckle</Name>
+    <Description>Despeckle cleans areas in which noise is noticeable, while leaving complex areas untouched. The noise is reduced without severely affecting contours.</Description>
+  </Flub>
+  <Flub>
+    <Name>Apply Enhancement</Name>
+    <Description>When enabled, more aggressive denoising is applied.</Description>
+  </Flub>
+  <Flub>
+    <Name>Target Stray Pixels Only</Name>
+    <Description>When enabled, it will only affect single pixel noise or residual artifacts from previous processes.</Description>
+  </Flub>
+</ArrayOfFlub>

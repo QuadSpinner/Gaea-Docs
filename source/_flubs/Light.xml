@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+<ArrayOfFlub xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Flub>
+    <Name>Global</Name>
+    <Description>T</Description>
+  </Flub>
+  <Flub>
+    <Name>Quality</Name>
+    <Description>Lorem ipsum</Description>
+    <Flubs>
+      <Flub>
+        <Name>Ultra</Name>
+      </Flub>
+      <Flub>
+        <Name>High</Name>
+      </Flub>
+      <Flub>
+        <Name>Medium</Name>
+      </Flub>
+      <Flub>
+        <Name>Low</Name>
+      </Flub>
+    </Flubs>
+  </Flub>
+  <Flub>
+    <Name>Direct light</Name>
+    <Description>T</Description>
+  </Flub>
+  <Flub>
+    <Name>Direct light</Name>
+    <Description>T</Description>
+  </Flub>
+  <Flub>
+    <Name>Sun azimuth</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
+    <Name>Sun elevation</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
+    <Name>Shadows</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
+    <Name>Sun angular diameter</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
+    <Name>Ambient light</Name>
+    <Description>T</Description>
+  </Flub>
+  <Flub>
+    <Name>Ambient light</Name>
+    <Description>T</Description>
+  </Flub>
+  <Flub>
+    <Name>Ambient occlusion</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
+    <Name>Advanced</Name>
+    <Description>T</Description>
+  </Flub>
+  <Flub>
+    <Name>Exposure</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
+    <Name>Sun intensity</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
+    <Name>Ambient intensity</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
+    <Name>Air density</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
+    <Name>Haze</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
+    <Name>Ozone layer thickness</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
+    <Name>Automatic colors</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
+    <Name>Sun color</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
+    <Name>Ambient color</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
+    <Name>Ground brightness</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
+    <Name>Soft clip</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+</ArrayOfFlub>

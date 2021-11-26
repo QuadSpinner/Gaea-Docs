@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<ArrayOfFlub xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Flub>
+    <Name>Power</Name>
+    <Description>The power of sedimentation layers.</Description>
+  </Flub>
+  <Flub>
+    <Name>Amount</Name>
+    <Description>The amount of sedimentation on each layer.</Description>
+  </Flub>
+  <Flub>
+    <Name>Drift</Name>
+    <Description>Add a superficial multi-directional drift or buildup to the sedimentation.</Description>
+  </Flub>
+  <Flub>
+    <Name>Strength</Name>
+    <Description>The strength or offset of the drift.</Description>
+  </Flub>
+  <Flub>
+    <Name>Seed</Name>
+    <Description>The randomization pattern or seed for the node's process.</Description>
+  </Flub>
+</ArrayOfFlub>

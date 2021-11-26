@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<ArrayOfFlub xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Flub>
+    <Name>Terraces</Name>
+    <Description />
+  </Flub>
+  <Flub>
+    <Name>Uniformity</Name>
+    <Description />
+  </Flub>
+  <Flub>
+    <Name>Steepness</Name>
+    <Description />
+  </Flub>
+  <Flub>
+    <Name>Intensity</Name>
+    <Description />
+  </Flub>
+  <Flub>
+    <Name>Soft Falloff</Name>
+    <Description />
+  </Flub>
+  <Flub>
+    <Name>Reprocess</Name>
+    <Description />
+  </Flub>
+  <Flub>
+    <Name>Process</Name>
+    <Description />
+    <Flubs>
+      <Flub>
+        <Name>Default</Name>
+        <Description />
+      </Flub>
+      <Flub>
+        <Name>Residual</Name>
+        <Description />
+      </Flub>
+      <Flub>
+        <Name>Gentle</Name>
+        <Description />
+      </Flub>
+    </Flubs>
+  </Flub>
+  <Flub>
+    <Name>Seed</Name>
+    <Description />
+  </Flub>
+</ArrayOfFlub>

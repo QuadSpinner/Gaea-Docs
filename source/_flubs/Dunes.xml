@@ -1,0 +1,112 @@
+<?xml version="1.0"?>
+<ArrayOfFlub xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Flub>
+    <Name>Structure</Name>
+    <Description>T</Description>
+  </Flub>
+  <Flub>
+    <Name>Method</Name>
+    <Flubs>
+      <Flub>
+        <Name>Dune Sea</Name>
+      </Flub>
+      <Flub>
+        <Name>Random Dunes</Name>
+      </Flub>
+    </Flubs>
+  </Flub>
+  <Flub>
+    <Name>Single Pass</Name>
+  </Flub>
+  <Flub>
+    <Name>Small</Name>
+  </Flub>
+  <Flub>
+    <Name>Large</Name>
+  </Flub>
+  <Flub>
+    <Name>Undulation</Name>
+  </Flub>
+  <Flub>
+    <Name>Wind Channels</Name>
+  </Flub>
+  <Flub>
+    <Name>Direction (Large)</Name>
+  </Flub>
+  <Flub>
+    <Name>Direction (Small)</Name>
+  </Flub>
+  <Flub>
+    <Name>Scale</Name>
+  </Flub>
+  <Flub>
+    <Name>Wind Direction</Name>
+  </Flub>
+  <Flub>
+    <Name>Dune Type</Name>
+    <Flubs>
+      <Flub>
+        <Name>A</Name>
+      </Flub>
+      <Flub>
+        <Name>B</Name>
+      </Flub>
+      <Flub>
+        <Name>C</Name>
+      </Flub>
+      <Flub>
+        <Name>D</Name>
+      </Flub>
+    </Flubs>
+  </Flub>
+  <Flub>
+    <Name>Chaos</Name>
+    <Flubs>
+      <Flub>
+        <Name>None</Name>
+      </Flub>
+      <Flub>
+        <Name>Low</Name>
+      </Flub>
+      <Flub>
+        <Name>Medium</Name>
+      </Flub>
+      <Flub>
+        <Name>High</Name>
+      </Flub>
+    </Flubs>
+  </Flub>
+  <Flub>
+    <Name>Undulation</Name>
+    <Flubs>
+      <Flub>
+        <Name>None</Name>
+      </Flub>
+      <Flub>
+        <Name>Low</Name>
+      </Flub>
+      <Flub>
+        <Name>Medium</Name>
+      </Flub>
+      <Flub>
+        <Name>High</Name>
+      </Flub>
+    </Flubs>
+  </Flub>
+  <Flub>
+    <Name>Shape</Name>
+    <Description>T</Description>
+  </Flub>
+  <Flub>
+    <Name>Softness</Name>
+  </Flub>
+  <Flub>
+    <Name>Sharpness</Name>
+  </Flub>
+  <Flub>
+    <Name>Height</Name>
+  </Flub>
+  <Flub>
+    <Name>Seed</Name>
+  </Flub>
+</ArrayOfFlub>

@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<ArrayOfFlub xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Flub>
+    <Name>Mode</Name>
+    <Flubs>
+      <Flub>
+        <Name>Sprinkling</Name>
+        <Description>Noisy convexity mask.</Description>
+      </Flub>
+      <Flub>
+        <Name>Peaks</Name>
+        <Description>Slope deposits mask.</Description>
+      </Flub>
+      <Flub>
+        <Name>Sliders</Name>
+      </Flub>
+      <Flub>
+        <Name>Splotches</Name>
+        <Description>Random splotches on the terrain based on neighboring terrain structures.</Description>
+      </Flub>
+      <Flub>
+        <Name>Trace</Name>
+        <Description>Traces the most prominent shapes on the terrain.</Description>
+      </Flub>
+      <Flub>
+        <Name>Wind Streaks</Name>
+        <Description>Masks areas where winds would swipe across structures. Useful for weathering.</Description>
+      </Flub>
+    </Flubs>
+  </Flub>
+  <Flub>
+    <Name>Strength</Name>
+    <Description>The strength of the mask.</Description>
+  </Flub>
+</ArrayOfFlub>

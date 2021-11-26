@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<ArrayOfFlub xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Flub>
+    <Name>Mode</Name>
+    <Description>Lorem ipsum</Description>
+    <Flubs>
+      <Flub>
+        <Name>Mono</Name>
+      </Flub>
+      <Flub>
+        <Name>Duo</Name>
+      </Flub>
+      <Flub>
+        <Name>Omni</Name>
+      </Flub>
+    </Flubs>
+  </Flub>
+  <Flub>
+    <Name>Power</Name>
+    <Description>The strength of the inflate/deflate operation. Higher values cause drastic shifts in shape formation.</Description>
+  </Flub>
+  <Flub>
+    <Name>Scale</Name>
+    <Description>The amount of details to preserve. Higher values cause more prominent shapes to form.</Description>
+  </Flub>
+  <Flub>
+    <Name>Duration</Name>
+    <Description>Number of operations to repeat.</Description>
+  </Flub>
+  <Flub>
+    <Name>Degrees</Name>
+    <Description>The angle of the recurve.</Description>
+  </Flub>
+  <Flub>
+    <Name>Inflate</Name>
+    <Description>Whether to inflate the terrain. Off deflates the terrain.</Description>
+  </Flub>
+  <Flub>
+    <Name>Preserve Fidelity</Name>
+    <Description>This creates a fixed recurve shape at any resolution.</Description>
+  </Flub>
+</ArrayOfFlub>

@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<ArrayOfFlub xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Flub>
+    <Name>Blur</Name>
+    <Description>T</Description>
+  </Flub>
+  <Flub>
+    <Name>Power</Name>
+    <Description>The strength of the blur. For optimal speed, use high power and low iterations. Although you may see square artifacts with too high values.</Description>
+  </Flub>
+  <Flub>
+    <Name>Iterations</Name>
+    <Description>The number of blur iterations to be repeated. For best quality, use low power and at least 4 iterations.</Description>
+  </Flub>
+  <Flub>
+    <Name>Sigma</Name>
+    <Description>The sigma or radius of the Gaussian blur. (Only available for Gaussian Blur)</Description>
+  </Flub>
+  <Flub>
+    <Name>Direction</Name>
+    <Description>The direction of the motion blur. (Only available for Motion Blur)</Description>
+  </Flub>
+  <Flub>
+    <Name>Type</Name>
+    <Flubs>
+      <Flub>
+        <Name>Fast</Name>
+      </Flub>
+      <Flub>
+        <Name>Gaussian</Name>
+      </Flub>
+      <Flub>
+        <Name>Radial</Name>
+      </Flub>
+      <Flub>
+        <Name>Motion</Name>
+      </Flub>
+      <Flub>
+        <Name>Smooth</Name>
+      </Flub>
+    </Flubs>
+  </Flub>
+</ArrayOfFlub>

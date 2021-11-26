@@ -1,0 +1,90 @@
+<?xml version="1.0"?>
+<ArrayOfFlub xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Flub>
+    <Name>Crater</Name>
+    <Description>T</Description>
+  </Flub>
+  <Flub>
+    <Name>Profile</Name>
+    <Description>The different types of crater styles.</Description>
+    <Flubs>
+      <Flub>
+        <Name>Craterfield</Name>
+      </Flub>
+      <Flub>
+        <Name>Volcanic Crater</Name>
+      </Flub>
+      <Flub>
+        <Name>Impact Crater</Name>
+      </Flub>
+    </Flubs>
+  </Flub>
+  <Flub>
+    <Name>Scale</Name>
+    <Description>The scale of the volcano.</Description>
+  </Flub>
+  <Flub>
+    <Name>Depth</Name>
+    <Description>Depth of the impact. Lowering the depth also elevates the surrounding ground level.</Description>
+  </Flub>
+  <Flub>
+    <Name>Density</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
+    <Name>Scale</Name>
+    <Description>The scale of the volcano.</Description>
+  </Flub>
+  <Flub>
+    <Name>Height</Name>
+    <Description>The height of the volcano.</Description>
+  </Flub>
+  <Flub>
+    <Name>Noise</Name>
+    <Description>The scale of the chaos noise in the basic shape. Low values create more chaos; high values reduce chaos.</Description>
+  </Flub>
+  <Flub>
+    <Name>Floor</Name>
+    <Description>The altitude of the crater floor.</Description>
+  </Flub>
+  <Flub>
+    <Name>Depth</Name>
+    <Description>Depth of the impact. Lowering the depth also elevates the surrounding ground level.</Description>
+  </Flub>
+  <Flub>
+    <Name>Outer Scale</Name>
+    <Description>The scale of the outer elevated wall of the impact zone.</Description>
+  </Flub>
+  <Flub>
+    <Name>Inner Scale</Name>
+    <Description>The scale of the inside of the impact zone.</Description>
+  </Flub>
+  <Flub>
+    <Name>Modulate</Name>
+    <Description>Modulate the distribution between the ground, walls, and floor of the crater zone.</Description>
+  </Flub>
+  <Flub>
+    <Name>Lip</Name>
+    <Description>Creates a transition wall or "lip" between the inside and outside of the impact zone.</Description>
+  </Flub>
+  <Flub>
+    <Name>Global</Name>
+    <Description>T</Description>
+  </Flub>
+  <Flub>
+    <Name>X</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
+    <Name>Y</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
+    <Name>Displacement</Name>
+    <Description>Displacement of the entire crater shape. This can be used to add a bit of variety to the shape. Excess values should be avoided.</Description>
+  </Flub>
+  <Flub>
+    <Name>Seed</Name>
+    <Description>The randomization pattern or seed for the node's process.</Description>
+  </Flub>
+</ArrayOfFlub>

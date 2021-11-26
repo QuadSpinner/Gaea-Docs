@@ -6,5 +6,9 @@
   {
     "outputFile": "assets/custom/custom.css",
     "inputFile": "assets/custom/custom.scss"
+  },
+  {
+    "outputFile": "stylesheets/monkey.css",
+    "inputFile": "stylesheets/monkey.scss"
   }
 ]

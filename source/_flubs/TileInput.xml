@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<ArrayOfFlub xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Flub>
+    <Name>Tile Processing</Name>
+    <Description>T</Description>
+  </Flub>
+  <Flub>
+    <Name>File</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
+    <Name>Save as relative path</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
+    <Name>Scale</Name>
+    <Description>Lorem ipsum</Description>
+    <Flubs>
+      <Flub>
+        <Name>Raw</Name>
+      </Flub>
+      <Flub>
+        <Name>Normalized</Name>
+      </Flub>
+      <Flub>
+        <Name>Mapped</Name>
+      </Flub>
+    </Flubs>
+  </Flub>
+  <Flub>
+    <Name>FlipY</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+</ArrayOfFlub>

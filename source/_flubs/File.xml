@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<ArrayOfFlub xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Flub>
+    <Name>File Processing</Name>
+    <Description>T</Description>
+  </Flub>
+  <Flub>
+    <Name>File</Name>
+    <Description>The file to load.</Description>
+  </Flub>
+  <Flub>
+    <Name>Save as relative path</Name>
+    <Description>Store the file path relative to the .TOR file rather than the full file path. This is useful when you need to share or transport the file.</Description>
+  </Flub>
+  <Flub>
+    <Name>Scale</Name>
+    <Description>The scaling method to use.</Description>
+    <Flubs>
+      <Flub>
+        <Name>Raw</Name>
+        <Description>Use the height values that the file provides.</Description>
+      </Flub>
+      <Flub>
+        <Name>Normalized</Name>
+        <Description>Normalize the height values to Gaea's scale.</Description>
+      </Flub>
+      <Flub>
+        <Name>Mapped</Name>
+        <Description>Interpret the incoming data according to the Custom Range values in the Build Tab. </Description>
+      </Flub>
+    </Flubs>
+  </Flub>
+  <Flub>
+    <Name>High Quality Scaling</Name>
+    <Description>Sacrifice speed to increase the quality of the scaling. This is very useful if you have lots of small details you need to preserve, or if you're upscaling from a much lower resolution.</Description>
+  </Flub>
+  <Flub>
+    <Name>RGB</Name>
+    <Description>Treat the incoming file as a color image instead of a grayscale heightfield.</Description>
+  </Flub>
+</ArrayOfFlub>

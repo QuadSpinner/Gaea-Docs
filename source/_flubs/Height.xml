@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<ArrayOfFlub xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Flub>
+    <Name>Min</Name>
+    <Description>The minimum altitude to select.</Description>
+  </Flub>
+  <Flub>
+    <Name>Max</Name>
+    <Description>The maximum altitude to select.</Description>
+  </Flub>
+  <Flub>
+    <Name>Falloff</Name>
+    <Description>The soft falloff at the maximum edge.</Description>
+  </Flub>
+  <Flub>
+    <Name>Normalized</Name>
+    <Description>By default, the height selection happens between the base and maximum height set in the Terrain Definition. This may sometimes make it harder to select the exact height visually. When Normalized is enabled, the maximum height is the maximum height of the tallest peak in the current heightfield.</Description>
+  </Flub>
+</ArrayOfFlub>

@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<ArrayOfFlub xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Flub>
+    <Name>Degrees</Name>
+    <Description>The amount of polar distortion to apply to the terrain. ??? is a full, single distortion. Low values produce more repetitions; high values produce fewer repetitions.</Description>
+  </Flub>
+</ArrayOfFlub>

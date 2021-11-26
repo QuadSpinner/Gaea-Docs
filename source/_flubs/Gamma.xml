@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<ArrayOfFlub xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Flub>
+    <Name>Auto-Gamma</Name>
+    <Description>Automatically choose a gamma value based on the input terrain or mask.</Description>
+  </Flub>
+  <Flub>
+    <Name>Gamma</Name>
+    <Description>The Gamma range is 0.0 to 2.5, with 1.0 being neutral or the original incoming gamma.</Description>
+  </Flub>
+</ArrayOfFlub>
