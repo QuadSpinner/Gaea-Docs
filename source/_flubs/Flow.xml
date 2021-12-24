@@ -10,23 +10,23 @@
   </Flub>
   <Flub>
     <Name>Primary</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>Adds primary flow to the output.</Description>
   </Flub>
   <Flub>
     <Name>Secondary</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>Adds secondary flow to the output.</Description>
   </Flub>
   <Flub>
     <Name>Tertiary</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>Adds tertiary flow to the output.</Description>
   </Flub>
   <Flub>
     <Name>Quaternary</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>Adds quaternary flow to the output.</Description>
   </Flub>
   <Flub>
     <Name>2x Simulation</Name>
-    <Description>Lorem ipsum</Description>
+    <Description></Description>
   </Flub>
   <Flub>
     <Name>Enhancements</Name>
@@ -34,31 +34,31 @@
   </Flub>
   <Flub>
     <Name>Uniform</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>Applies uniform enhancement to all the flows.</Description>
+  </Flub>
+  <Flub>
+	<Name>All</Name>
+	<Description>The enhancement value for all the flows.</Description>
   </Flub>
   <Flub>
     <Name>Primary</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>The enhancement value for the primary flow.</Description>
   </Flub>
   <Flub>
     <Name>Secondary</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>The enhancement value for the secondary flow.</Description>
   </Flub>
   <Flub>
     <Name>Tertiary</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>The enhancement value for the tertiary flow.</Description>
   </Flub>
   <Flub>
     <Name>Quaternary</Name>
-    <Description>Lorem ipsum</Description>
-  </Flub>
-  <Flub>
-    <Name>All</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>The enhancment value for the quaternary flow.</Description>
   </Flub>
   <Flub>
     <Name>Quality</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>The quality of the flow.</Description>
     <Flubs>
       <Flub>
         <Name>1:4</Name>

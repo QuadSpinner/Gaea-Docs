@@ -6,11 +6,11 @@
   </Flub>
   <Flub>
     <Name>Scale</Name>
-    <Description>TODO</Description>
+    <Description>The scale of the texture.</Description>
   </Flub>
   <Flub>
     <Name>Mode</Name>
-    <Description>Mode of the texture</Description>
+    <Description>Select from three modes of the texture.</Description>
     <Flubs>
       <Flub>
         <Name>A</Name>
@@ -25,7 +25,7 @@
   </Flub>
   <Flub>
     <Name>Patches</Name>
-    <Description>TODO</Description>
+    <Description>The amount of patches on the texture.</Description>
   </Flub>
   <Flub>
     <Name>Seed</Name>
@@ -37,19 +37,19 @@
   </Flub>
   <Flub>
     <Name>Slope</Name>
-    <Description>TODO</Description>
+    <Description>The amount of slope influence in the texture.</Description>
   </Flub>
   <Flub>
     <Name>Soil</Name>
-    <Description>TODO</Description>
+    <Description>The amount of soil influence in the texture.</Description>
   </Flub>
   <Flub>
     <Name>Chaos</Name>
-    <Description>TODO</Description>
+    <Description>The amount of chaos in the output.</Description>
   </Flub>
   <Flub>
     <Name>Graded</Name>
-    <Description>TODO</Description>
+    <Description>Applies gradation to the output.</Description>
   </Flub>
   <Flub>
     <Name>Classic Version</Name>

@@ -6,7 +6,7 @@
   </Flub>
   <Flub>
     <Name>Uniform</Name>
-    <Description>TODO</Description>
+    <Description>This applies uniform scale.</Description>
   </Flub>
   <Flub>
     <Name>Scale</Name>
@@ -14,11 +14,11 @@
   </Flub>
   <Flub>
     <Name>Scale X</Name>
-    <Description>TODO</Description>
+    <Description>The non-uniform scale on the X axis.</Description>
   </Flub>
   <Flub>
     <Name>Scale Y</Name>
-    <Description>TODO</Description>
+    <Description>The non-uniform scale on the Y axis.</Description>
   </Flub>
   <Flub>
     <Name>Unfiltered</Name>
@@ -38,7 +38,7 @@
   </Flub>
   <Flub>
     <Name>Mirror Edges</Name>
-    <Description>TODO</Description>
+    <Description>Edge pixels are mirrored.</Description>
   </Flub>
   <Flub>
     <Name>Position</Name>

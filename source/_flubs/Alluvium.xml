@@ -9,9 +9,11 @@
     <Flubs>
       <Flub>
         <Name>Residual</Name>
+		<Description>Lorem ipsum</Description>
       </Flub>
       <Flub>
         <Name>Deposits</Name>
+		<Description>Lorem ipsum</Description>
       </Flub>
     </Flubs>
   </Flub>
@@ -21,6 +23,7 @@
   </Flub>
   <Flub>
     <Name>Amount</Name>
+	<Description>Amount of soil deposits.</Description>
   </Flub>
   <Flub>
     <Name>Settling</Name>

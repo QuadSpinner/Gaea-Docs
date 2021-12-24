@@ -2,14 +2,14 @@
 <ArrayOfFlub xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Flub>
     <Name>Autolevel R</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>Heightfield input R.</Description>
   </Flub>
   <Flub>
     <Name>Autolevel G</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>Heightfield input G.</Description>
   </Flub>
   <Flub>
     <Name>Autolevel B</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>Heightfield input B.</Description>
   </Flub>
 </ArrayOfFlub>

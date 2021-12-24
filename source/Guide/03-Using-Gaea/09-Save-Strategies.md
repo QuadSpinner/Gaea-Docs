@@ -7,6 +7,10 @@ title: Build Strategies
 
 #### Disable Extra Outputs
 
+Several nodes such as @Erosion, @Snowfall, and @FractalTerraces provide secondary output. When you mark these nodes for export, by default all ports are set to export. In the @buildmanager node list, you can open the dropdown next to the node's name to select which ports are exported.
+
+By excluding ports that are not required, you can speed up the build process and reduce the amount of data each build generates.
+
 
 #### Use Chokepoint or Fx instead of Output
 

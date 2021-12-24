@@ -52,8 +52,4 @@
     <Name>Adhered snow mass</Name>
     <Description>Mass of snow that sticks to the surface.</Description>
   </Flub>
-  <Flub>
-    <Name>Model scale</Name>
-    <Description>TODO</Description>
-  </Flub>
 </ArrayOfFlub>

@@ -10,8 +10,10 @@
   </Flub>
   <Flub>
     <Name>X</Name>
+	<Description>Horizontal placement of distortion.</Description>
   </Flub>
   <Flub>
     <Name>Y</Name>
+	  <Description>Vertical placement of distortion.</Description>
   </Flub>
 </ArrayOfFlub>

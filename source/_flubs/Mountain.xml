@@ -14,11 +14,11 @@
   </Flub>
   <Flub>
     <Name>Bulky</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>This bulks up the mountain shape.</Description>
   </Flub>
   <Flub>
     <Name>Height</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>Changes the height of the mountain.</Description>
   </Flub>
   <Flub>
     <Name>Type</Name>
@@ -26,15 +26,19 @@
     <Flubs>
       <Flub>
         <Name>A</Name>
+		<Description></Description>
       </Flub>
       <Flub>
         <Name>B</Name>
+		<Description></Description>
       </Flub>
       <Flub>
         <Name>C</Name>
+		<Description></Description>
       </Flub>
       <Flub>
         <Name>D</Name>
+		<Description></Description>
       </Flub>
     </Flubs>
   </Flub>

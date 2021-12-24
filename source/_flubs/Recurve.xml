@@ -6,12 +6,15 @@
     <Flubs>
       <Flub>
         <Name>Mono</Name>
+		<Description>Lorem ipsum</Description>
       </Flub>
       <Flub>
         <Name>Duo</Name>
+		<Description>Lorem ipsum</Description>
       </Flub>
       <Flub>
         <Name>Omni</Name>
+		<Description>Lorem ipsum</Description>
       </Flub>
     </Flubs>
   </Flub>

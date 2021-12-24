@@ -5,39 +5,46 @@
     <Flubs>
       <Flub>
         <Name>Rough</Name>
+		<Description>The ridges are rough.</Description>
       </Flub>
       <Flub>
         <Name>Smooth</Name>
+		<Description>The ridges have smooth slopes.</Description>
       </Flub>
       <Flub>
         <Name>Sharp</Name>
+		<Description>The ridges have smooth slope with sharp edges.</Description>
       </Flub>
     </Flubs>
   </Flub>
   <Flub>
     <Name>Erosive Strength</Name>
+	  <Description>The amount of erosion in the valley structure.</Description>
   </Flub>
   <Flub>
     <Name>Flow Width</Name>
+	  <Description>The width of flow in the valley</Description>
   </Flub>
   <Flub>
     <Name>Depth</Name>
+	  <Description>The depth of the valley.</Description>
   </Flub>
   <Flub>
     <Name>Base Level</Name>
   </Flub>
   <Flub>
     <Name>Sediments</Name>
+	  <Description>Amount of sediment deposited in the valley.</Description>
   </Flub>
   <Flub>
     <Name>Random</Name>
-    <Description>Lorem ipsum</Description>
+    <Description></Description>
   </Flub>
   <Flub>
     <Name>Deterministic (Slow)</Name>
   </Flub>
   <Flub>
     <Name>Seed</Name>
-    <Description>Lorem ipsum</Description>
+	<Description>The randomization pattern or seed for the node's process.</Description>
   </Flub>
 </ArrayOfFlub>

@@ -6,19 +6,19 @@
   </Flub>
   <Flub>
     <Name>R</Name>
-    <Description>TODO</Description>
+    <Description>Amount of R input channel.</Description>
   </Flub>
   <Flub>
     <Name>G</Name>
-    <Description>TODO</Description>
+    <Description>Amount of G input channel.</Description>
   </Flub>
   <Flub>
     <Name>B</Name>
-    <Description>TODO</Description>
+    <Description>Amount of B input channel.</Description>
   </Flub>
   <Flub>
     <Name>A</Name>
-    <Description>TODO</Description>
+    <Description>Amount of alpha input channel.</Description>
   </Flub>
   <Flub>
     <Name>Options</Name>
@@ -29,21 +29,24 @@
     <Flubs>
       <Flub>
         <Name>None</Name>
+		<Description>No post process to be applied.</Description>
       </Flub>
       <Flub>
         <Name>Autolevel</Name>
+		<Description>Autolevel the output.</Description>
       </Flub>
       <Flub>
         <Name>Equalize</Name>
+		<Description>Equalize the output.</Description>
       </Flub>
     </Flubs>
   </Flub>
   <Flub>
     <Name>Autolevel Incoming</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>Autolevel the incoming data.</Description>
   </Flub>
   <Flub>
     <Name>Clamp RGB product to 1.0</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>This clamps the RGB product to 1.0</Description>
   </Flub>
 </ArrayOfFlub>

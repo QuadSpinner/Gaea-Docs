@@ -2,15 +2,19 @@
 <ArrayOfFlub xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Flub>
     <Name>Scale</Name>
+	<Description>Scale of the Hill.</Description>
   </Flub>
   <Flub>
     <Name>Height</Name>
+	<Description>Height of the Hill.</Description>
   </Flub>
   <Flub>
     <Name>Erosion</Name>
+	<Description>Amount of erosion to be applied on hill.</Description>
   </Flub>
   <Flub>
     <Name>Shape</Name>
+	<Description>Defines the shape of the hill.</Description>
   </Flub>
   <Flub>
     <Name>Craggy</Name>
@@ -26,5 +30,6 @@
   </Flub>
   <Flub>
     <Name>Seed</Name>
+	<Description>The randomization pattern or seed for the node's process.</Description>
   </Flub>
 </ArrayOfFlub>

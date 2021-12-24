@@ -6,28 +6,35 @@
   </Flub>
   <Flub>
     <Name>Apply Brightness + Contrast</Name>
+	<Description>Applies Brightness + contrast to the incoming color map.</Description>
   </Flub>
   <Flub>
     <Name>Brightness</Name>
+	<Description>The Brightness value.</Description>
   </Flub>
   <Flub>
     <Name>Contrast</Name>
+	<Description>The contrast value.</Description>
   </Flub>
   <Flub>
-    <Name>Hue + Saturation + Lightness</Name>
+    <Name>Hue + Saturation + Lightness.</Name>
     <Description>T</Description>
   </Flub>
   <Flub>
     <Name>Apply HSL</Name>
+	<Description>Applies HSL to the incoming color map.</Description>
   </Flub>
   <Flub>
     <Name>H</Name>
+	<Description>The Hue value.</Description>
   </Flub>
   <Flub>
     <Name>S</Name>
+	<Description>The Saturation value.</Description>
   </Flub>
   <Flub>
     <Name>L</Name>
+	<Description>The Lightness value.</Description>
   </Flub>
   <Flub>
     <Name>Autolevel</Name>
@@ -35,10 +42,11 @@
   </Flub>
   <Flub>
     <Name>Apply Autolevel</Name>
+	<Description>Applies Autolevel to the incoming color map.</Description>
   </Flub>
   <Flub>
     <Name>Autolevel</Name>
-    <Description>T</Description>
+    <Description>The Autolevel value.</Description>
   </Flub>
   <Flub>
     <Name>Equalize</Name>
@@ -46,10 +54,11 @@
   </Flub>
   <Flub>
     <Name>Apply Equalize</Name>
+	  <Description>Applies Equalize to the incoming color map.</Description>
   </Flub>
   <Flub>
     <Name>Equalize</Name>
-    <Description>T</Description>
+    <Description>The Equalize value.</Description>
   </Flub>
   <Flub>
     <Name>Gamma</Name>
@@ -57,13 +66,15 @@
   </Flub>
   <Flub>
     <Name>Apply Gamma</Name>
+	<Description>Applies Gamma to the incoming color map.</Description>
   </Flub>
   <Flub>
     <Name>Auto Gamma</Name>
+	<Description>Automatically choose a gamma value based on the input.</Description>
   </Flub>
   <Flub>
     <Name>Gamma</Name>
-    <Description>T</Description>
+    <Description>The Gamma Value.</Description>
   </Flub>
   <Flub>
     <Name>Clarity</Name>
@@ -71,6 +82,7 @@
   </Flub>
   <Flub>
     <Name>Apply Clarity</Name>
+	<Description>Applies localized contrast enhancements to the incoming map.</Description>
   </Flub>
   <Flub>
     <Name>Noise</Name>
@@ -78,14 +90,15 @@
   </Flub>
   <Flub>
     <Name>Apply Noise</Name>
+	<Description>Applies noise to the incoming map.</Description>
   </Flub>
   <Flub>
     <Name>Noise</Name>
-    <Description>T</Description>
+    <Description>The amount of noise to be applied.</Description>
   </Flub>
   <Flub>
     <Name>Seed</Name>
-    <Description>The randomization pattern or seed for the node's process.</Description>
+    <Description>The randomization pattern or seed for the process.</Description>
   </Flub>
   <Flub>
     <Name>Blur</Name>
@@ -93,13 +106,15 @@
   </Flub>
   <Flub>
     <Name>Blur</Name>
-    <Description>T</Description>
+    <Description>Applies Blur to the incoming map.</Description>
   </Flub>
   <Flub>
     <Name>Power</Name>
+	<Description>Amount of Blur to be applied.</Description>
   </Flub>
   <Flub>
     <Name>Iterations</Name>
+	<Description>Number of iterations of Blur.</Description>
   </Flub>
   <Flub>
     <Name>Flip</Name>
@@ -107,18 +122,23 @@
   </Flub>
   <Flub>
     <Name>Direction</Name>
+	  <Description>Direction of the flip.</Description>
     <Flubs>
       <Flub>
         <Name>None</Name>
+		<Description>Does not flip the incoming map.</Description>
       </Flub>
       <Flub>
         <Name>Horizontal</Name>
+		<Description>Flips the incoming map horizontally.</Description>
       </Flub>
       <Flub>
         <Name>Vertical</Name>
+		<Description>Flips the incoming map vertically.</Description>
       </Flub>
       <Flub>
         <Name>Both</Name>
+		<Description>Flips the incoming map both horizonally and vertically.</Description>
       </Flub>
     </Flubs>
   </Flub>

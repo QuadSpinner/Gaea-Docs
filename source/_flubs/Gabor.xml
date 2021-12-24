@@ -8,7 +8,7 @@
     <Name>Size</Name>
   </Flub>
   <Flub>
-    <Name>Enthropy</Name>
+    <Name>Entropy</Name>
     <Description>Lorem ipsum</Description>
   </Flub>
   <Flub>
@@ -19,5 +19,6 @@
   </Flub>
   <Flub>
     <Name>Seed</Name>
+	<Description>The randomization pattern or seed for the node's process.</Description>
   </Flub>
 </ArrayOfFlub>

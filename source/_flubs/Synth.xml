@@ -1,37 +1,60 @@
 <?xml version="1.0"?>
 <ArrayOfFlub xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+	<Flub>
+		<Name>Synthesis</Name>
+		<Description>T</Description>
+	</Flub>
+	<Flub>
+		<Name>Bitmap</Name>
+		<Description>The input bitmap image.</Description>
+	</Flub>
+	<Flub>
+		<Name>Stops</Name>
+		<Description>The number of gradient stops to be generated.</Description>
+	</Flub>
+	<Flub>
+		<Name>Fuzzy</Name>
+		<Description>The amount of fuzziness on bitmap image.</Description>
+	</Flub>
+	<Flub>
+		<Name>Rotate</Name>
+		<Description>The amount of rotation on bitmap image.</Description>
+	</Flub>
+	<Flub>
+		<Name>Seed</Name>
+		<Description>The randomization pattern or seed for the node's process.</Description>
+	</Flub>
+	<Flub>
+	<Name>Synth</Name>
+	<Description>T</Description>
+  </Flub>
   <Flub>
     <Name>Reverse</Name>
-    <Description>TODO</Description>
+    <Description>Reverses the gradient.</Description>
   </Flub>
   <Flub>
     <Name>Input Noise</Name>
-    <Description>TODO</Description>
+    <Description>The amount of input noise to be added.</Description>
   </Flub>
   <Flub>
     <Name>Color Noise</Name>
-    <Description>TODO</Description>
+    <Description>The amount of color noise to be added.</Description>
   </Flub>
   <Flub>
     <Name>Input Clarity</Name>
-    <Description>TODO</Description>
+    <Description>Applies clarity to the input.</Description>
   </Flub>
   <Flub>
     <Name>Input Auto Level</Name>
-    <Description>TODO</Description>
+    <Description>Applies autolevel to the input.</Description>
   </Flub>
   <Flub>
     <Name>Output Clarity</Name>
-    <Description>TODO</Description>
+    <Description>Applies clarity to the output.</Description>
   </Flub>
   <Flub>
     <Name>Output Auto Level</Name>
-    <Description>TODO</Description>
-  </Flub>
-  <Flub>
-    <Name>Data</Name>
-  </Flub>
-  <Flub>
-    <Name>Magick</Name>
+    <Description>Applies autolevel to the output.</Description>
   </Flub>
 </ArrayOfFlub>

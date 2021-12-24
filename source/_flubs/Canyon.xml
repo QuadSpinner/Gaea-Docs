@@ -6,57 +6,62 @@
   </Flub>
   <Flub>
     <Name>Structure</Name>
-    <Description>Lorem ipsum</Description>
+    <Description></Description>
     <Flubs>
       <Flub>
         <Name>Canyon</Name>
+		<Description>Creates a canyon.</Description>
       </Flub>
       <Flub>
         <Name>Collapse</Name>
+		<Description>Creates a collapsed canyon.</Description>
       </Flub>
       <Flub>
         <Name>Wall</Name>
+		<Description>Creates wall of a canyon.</Description>
       </Flub>
     </Flubs>
   </Flub>
   <Flub>
     <Name>Type</Name>
-    <Description>Lorem ipsum</Description>
+    <Description></Description>
     <Flubs>
       <Flub>
         <Name>Simple</Name>
+		<Description>Creates a simple canyon.</Description>
       </Flub>
       <Flub>
         <Name>Granular</Name>
+		<Description>Creates a detailed canyon.</Description>
       </Flub>
     </Flubs>
   </Flub>
   <Flub>
     <Name>Scale</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>The scale of the canyon.</Description>
   </Flub>
   <Flub>
     <Name>Width</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>The width of the canyon.</Description>
   </Flub>
   <Flub>
     <Name>Slot</Name>
-    <Description>Lorem ipsum</Description>
+    <Description></Description>
   </Flub>
   <Flub>
     <Name>Valley</Name>
-    <Description>Lorem ipsum</Description>
+    <Description></Description>
   </Flub>
   <Flub>
     <Name>Surrounding</Name>
-    <Description>Lorem ipsum</Description>
+    <Description></Description>
   </Flub>
   <Flub>
     <Name>Depth</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>The depth of the canyon.</Description>
   </Flub>
   <Flub>
     <Name>Seed</Name>
-    <Description>Lorem ipsum</Description>
+	<Description>The randomization pattern or seed for the node's process.</Description>
   </Flub>
 </ArrayOfFlub>

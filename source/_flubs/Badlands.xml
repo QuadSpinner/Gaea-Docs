@@ -6,9 +6,11 @@
     <Flubs>
       <Flub>
         <Name>Large</Name>
+		  <Description>Generates large type formations.</Description>
       </Flub>
       <Flub>
         <Name>Small</Name>
+		  <Description>Generates small type formations.</Description>
       </Flub>
     </Flubs>
   </Flub>

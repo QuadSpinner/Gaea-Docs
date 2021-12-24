@@ -10,8 +10,10 @@
   </Flub>
   <Flub>
     <Name>X</Name>
+	<Description>Horizontal placement of swirl.</Description>
   </Flub>
   <Flub>
     <Name>Y</Name>
+	<Description>Vertical placement of swirl.</Description>
   </Flub>
 </ArrayOfFlub>

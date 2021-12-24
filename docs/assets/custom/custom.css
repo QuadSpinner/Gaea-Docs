@@ -1,4 +1,4 @@
-::-moz-selection {
+﻿::-moz-selection {
   /* Code for Firefox */
   color: black;
   background: #ffe308;
@@ -29,14 +29,12 @@
   font-weight: 600;
   border-left-width: 6px;
 }
-
 .TIP p,
 .WARNING p,
 .NOTE p {
   margin-bottom: 0;
   line-height: normal;
 }
-
 .TIP p:first-child:before,
 .WARNING p:first-child:before,
 .NOTE p:first-child:before {
@@ -52,7 +50,6 @@ p.title {
   border-color: rgba(85, 68, 94, 0.459);
   background-color: rgba(121, 90, 138, 0.14);
 }
-
 .TIP p:first-child:before {
   content: "TIP";
 }
@@ -61,7 +58,6 @@ p.title {
   border-color: rgba(135, 211, 201, 0.705);
   background-color: rgba(221, 255, 251, 0.41);
 }
-
 .NOTE p:first-child:before {
   content: "NOTE";
 }
@@ -70,7 +66,6 @@ p.title {
   border-color: rgba(236, 189, 113, 0.33);
   background-color: rgba(255, 247, 228, 0.54);
 }
-
 .WARNING p:first-child:before {
   content: "WARNING";
 }
@@ -82,7 +77,6 @@ p.title {
 .examples ul {
   padding-left: 0;
 }
-
 .examples ul li {
   list-style: none;
 }
@@ -96,7 +90,6 @@ p.title {
   position: relative;
   top: 3px;
 }
-
 .card-header ol {
   margin-bottom: 0 !important;
 }
@@ -131,7 +124,6 @@ p.title {
   list-style: none;
   margin-bottom: 8px;
 }
-
 .params td:nth-child(1) {
   width: 20% !important;
   max-width: 20% !important;
@@ -140,11 +132,9 @@ p.title {
 .tutorial {
   margin-top: 24px;
 }
-
 .tutorial .card {
   margin-bottom: 24px;
 }
-
 .tutorial .checklist {
   display: inline-block;
   background: #f0f0f0;
@@ -155,17 +145,14 @@ p.title {
   margin: 0;
   margin-bottom: 24px;
 }
-
 .tutorial .checklist li {
   display: inline-block;
   margin-right: 16px;
 }
-
 .tutorial .checklist li .property {
   min-width: 36px;
   margin-right: 6px;
 }
-
 .tutorial .checklist li code {
   position: relative;
   top: -1px;
@@ -208,12 +195,10 @@ figure {
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
-
 figure p {
   margin: 0 !important;
   padding: 0 !important;
 }
-
 figure figcaption {
   font-size: 13px;
   margin: 0;
@@ -247,14 +232,11 @@ kbd {
   background-color: #f4f2f9;
   border: 0;
   border-radius: 3px;
-  background: -webkit-gradient(linear, left top, left bottom, from(#0072be), to(#00406a));
   background: linear-gradient(#0072be, #00406a);
-  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.22), 0 5px 35px rgba(0, 0, 0, 0.1);
-          box-shadow: 0 1px 3px rgba(0, 0, 0, 0.22), 0 5px 35px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.22), 0 5px 35px rgba(0, 0, 0, 0.1);
 }
 
 .val {
-  background: -webkit-gradient(linear, left top, left bottom, from(#9800be), to(#6b0085));
   background: linear-gradient(#9800be, #6b0085);
   color: #fff;
 }
@@ -263,17 +245,14 @@ kbd {
   width: 100% !important;
   max-width: 100% !important;
 }
-
 .docs .w-75 {
   width: 75% !important;
   max-width: 75% !important;
 }
-
 .docs .w-50 {
   width: 50% !important;
   max-width: 50% !important;
 }
-
 .docs .w-25 {
   width: 25% !important;
   max-width: 25% !important;
@@ -290,20 +269,14 @@ kbd {
 
 .medium-zoom-image {
   border: 2px solid transparent;
-  -webkit-transition: all linear 0.2s !important;
   transition: all linear 0.2s !important;
-  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.33);
-          box-shadow: 0 5px 10px rgba(0, 0, 0, 0.33);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.33);
 }
-
 .medium-zoom-image:hover {
   border: 2px solid #0072be;
-  -webkit-transform: translateY(-10px);
-          transform: translateY(-10px);
-  -webkit-transition: all linear 0.2s !important;
+  transform: translateY(-10px);
   transition: all linear 0.2s !important;
-  -webkit-box-shadow: 0 8px 10px rgba(0, 0, 0, 0.267), 0 40px 25px rgba(0, 0, 0, 0.15);
-          box-shadow: 0 8px 10px rgba(0, 0, 0, 0.267), 0 40px 25px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 8px 10px rgba(0, 0, 0, 0.267), 0 40px 25px rgba(0, 0, 0, 0.15);
 }
 
 .shortcuts .table {
@@ -315,8 +288,7 @@ pre code {
 }
 
 .embed-responsive {
-  -webkit-box-shadow: 0 8px 10px rgba(0, 0, 0, 0.267), 0 40px 25px rgba(0, 0, 0, 0.15);
-          box-shadow: 0 8px 10px rgba(0, 0, 0, 0.267), 0 40px 25px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 8px 10px rgba(0, 0, 0, 0.267), 0 40px 25px rgba(0, 0, 0, 0.15);
   margin-bottom: 24px;
 }
 
@@ -325,22 +297,19 @@ pre code {
   clear: both;
   font-style: normal;
   font-weight: 600;
-  -webkit-text-emphasis: none;
-          text-emphasis: none;
+  text-emphasis: none;
 }
 
 #results {
   width: 60vw;
   max-width: 60vw;
 }
-
 #results small {
   background: #f0f0f0;
   border-radius: 3px;
   padding: 2px 6px;
   margin-bottom: 6px;
 }
-
 #results li {
   border: 1px solid #e0e0e0;
   background-color: #f5f9fa50;
@@ -368,13 +337,10 @@ pre code {
   background: #0072be;
   margin-top: 11px;
   padding: 3px 16px;
-  -webkit-transition: linear background-color 0.2s;
   transition: linear background-color 0.2s;
 }
-
 #nav-download:hover {
   background: #2d92d5;
-  -webkit-transition: linear background-color 0.2s;
   transition: linear background-color 0.2s;
 }
 
@@ -398,14 +364,12 @@ pre code {
 
 .home img {
   border: 0 !important;
-  -webkit-box-shadow: none !important;
-          box-shadow: none !important;
+  box-shadow: none !important;
   cursor: pointer;
   margin-right: 8px;
   padding-top: 36px;
   padding-bottom: 24px;
 }
-
 .home h2 {
   margin-top: 0px !important;
   padding-top: 0px !important;
@@ -425,20 +389,17 @@ pre code {
 
 .d-none {
   display: none;
-  -webkit-transition: all linear 0.3s;
   transition: all linear 0.3s;
   opacity: 0;
 }
 
 .d-block {
   display: block;
-  -webkit-transition: all linear 0.3s;
   transition: all linear 0.3s;
   opacity: 1;
 }
 
 #quicksearch {
-  -webkit-transition: all linear 0.3s;
   transition: all linear 0.3s;
   position: absolute;
   top: 42px;
@@ -451,42 +412,34 @@ pre code {
   border: 1px solid #888;
   background: #fff;
 }
-
 #quicksearch .instruction {
   font-size: 12px;
   font-weight: bold;
   text-transform: uppercase;
 }
-
 #quicksearch li {
   margin: 0;
   font-size: 12px;
   font-weight: bold;
   text-transform: uppercase;
-  -webkit-transition: all linear 0.2s;
   transition: all linear 0.2s;
   cursor: pointer;
   padding: 6px 4px !important;
   list-style: none;
 }
-
 #quicksearch li:hover {
   background: rgba(255, 227, 8, 0.28);
-  -webkit-transition: all linear 0.2s;
   transition: all linear 0.2s;
 }
-
 #quicksearch li a {
   color: #333;
   padding: 6px 9px;
   display: block;
   text-decoration: none !important;
 }
-
 #quicksearch li a small {
   float: right;
 }
-
 #quicksearch li span {
   opacity: 0.6;
 }
@@ -495,18 +448,13 @@ pre code {
   margin: 0 !important;
   padding: 0 !important;
 }
-
 .video-holder video {
-  -webkit-box-shadow: 0 8px 10px rgba(0, 0, 0, 0.267), 0 40px 25px rgba(0, 0, 0, 0.15);
-          box-shadow: 0 8px 10px rgba(0, 0, 0, 0.267), 0 40px 25px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 8px 10px rgba(0, 0, 0, 0.267), 0 40px 25px rgba(0, 0, 0, 0.15);
   border: 2px solid transparent;
-  -webkit-transition: all linear 0.2s !important;
   transition: all linear 0.2s !important;
 }
-
 .video-holder video:hover {
   border: 2px solid #0072be;
-  -webkit-transition: all linear 0.2s !important;
   transition: all linear 0.2s !important;
 }
 
@@ -514,7 +462,6 @@ pre code {
   margin: 0;
   padding: 0;
 }
-
 .monkey-holder .tiny-monkey {
   height: 28px;
   width: auto;
@@ -539,20 +486,15 @@ footer {
   display: block;
   float: left;
 }
-
 .grid:last-child {
   clear: right;
 }
 
 a {
-  -webkit-transition: color linear 0.2s;
   transition: color linear 0.2s;
 }
-
 a:hover {
   color: #9800be;
-  -webkit-transition: color linear 0.2s;
   transition: color linear 0.2s;
   text-decoration: none;
 }
-/*# sourceMappingURL=custom.css.map */

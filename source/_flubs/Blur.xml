@@ -25,18 +25,23 @@
     <Flubs>
       <Flub>
         <Name>Fast</Name>
+		<Description>Applies Fast blur.</Description>
       </Flub>
       <Flub>
         <Name>Gaussian</Name>
+		<Description>Applies Gaussian blur.</Description>
       </Flub>
       <Flub>
         <Name>Radial</Name>
+		<Description>Applies radial blur.</Description>
       </Flub>
       <Flub>
         <Name>Motion</Name>
+		<Description>Applies motion blur.</Description>
       </Flub>
       <Flub>
         <Name>Smooth</Name>
+		<Description>Applies smooth blur.</Description>
       </Flub>
     </Flubs>
   </Flub>

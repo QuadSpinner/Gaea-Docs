@@ -2,14 +2,14 @@
 <ArrayOfFlub xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Flub>
     <Name>Min</Name>
-    <Description>TODO</Description>
+    <Description>The minimum range of the slope.</Description>
   </Flub>
   <Flub>
     <Name>Max</Name>
-    <Description>TODO</Description>
+    <Description>The maximum range of the slope.</Description>
   </Flub>
   <Flub>
     <Name>Falloff</Name>
-    <Description>TODO</Description>
+    <Description>The soft falloff at the maximum edge.</Description>
   </Flub>
 </ArrayOfFlub>

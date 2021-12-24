@@ -2,17 +2,38 @@
 <ArrayOfFlub xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Flub>
     <Name>Mode</Name>
-    <Description>Lorem ipsum</Description>
+    <Description></Description>
     <Flubs>
       <Flub>
         <Name>Gentle</Name>
+		<Description>Applies simple curve.</Description>
       </Flub>
       <Flub>
         <Name>Intense</Name>
+		<Description>Applies complex curve.</Description>
       </Flub>
     </Flubs>
   </Flub>
   <Flub>
     <Name>Curve</Name>
+	<Description></Description>
+	  <Flubs>
+		  <Flub>
+			  <Name>Flip</Name>
+			  <Description>Flips the curve.</Description>
+		  </Flub>
+		  <Flub>
+			  <Name>Random</Name>
+			  <Description>Randomizes the curve point values.</Description>
+		  </Flub>
+		  <Flub>
+			  <Name>Even</Name>
+			  <Description>Evenly distributes the curve point values.</Description>
+		  </Flub>
+		  <Flub>
+			  <Name>Reset</Name>
+			  <Description>Resets the curve points.</Description>
+		  </Flub>
+	  </Flubs> 
   </Flub>
 </ArrayOfFlub>

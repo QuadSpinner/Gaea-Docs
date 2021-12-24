@@ -2,23 +2,26 @@
 <ArrayOfFlub xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Flub>
     <Name>Save to Build Folder</Name>
-    <Description>TODO</Description>
+    <Description>Saves the output to build folder. Will igonore the above path if this option is checked.</Description>
   </Flub>
   <Flub>
     <Name>File</Name>
-    <Description>TODO</Description>
+    <Description>Path where the output files should be saved</Description>
   </Flub>
   <Flub>
     <Name>Format</Name>
     <Flubs>
       <Flub>
         <Name>Wavefront OBJ</Name>
+		  <Description>Wavefront OBJ output</Description>
       </Flub>
       <Flub>
         <Name>XYZ Point Cloud</Name>
+		  <Description>XYZ Point Cloud output</Description>
       </Flub>
       <Flub>
         <Name>Autodesk FBX</Name>
+		  <Description>Autodesk FBX output</Description>
       </Flub>
     </Flubs>
   </Flub>
@@ -28,12 +31,15 @@
     <Flubs>
       <Flub>
         <Name>Normalized (0.0 - 1.0)</Name>
+		  <Description>Lorem ipsum</Description>
       </Flub>
       <Flub>
         <Name>1 Unit = 1 Meter</Name>
+		  <Description>Lorem ipsum</Description>
       </Flub>
       <Flub>
         <Name>1 Unit = 1 Kilometer</Name>
+		  <Description>Lorem ipsum</Description>
       </Flub>
     </Flubs>
   </Flub>
@@ -47,52 +53,65 @@
     <Flubs>
       <Flub>
         <Name>Tris</Name>
+		  <Description>Lorem ipsum</Description>
       </Flub>
       <Flub>
         <Name>Quads</Name>
+		  <Description>Lorem ipsum</Description>
       </Flub>
       <Flub>
-        <Name>Optimized Tris (Sophia)</Name>
+        <Name>Tris (Adaptive)</Name>
+		  <Description>Lorem ipsum</Description>
       </Flub>
     </Flubs>
   </Flub>
   <Flub>
     <Name>Create Texture Coords</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>Creates texture coordinates in the output mesh.</Description>
   </Flub>
   <Flub>
     <Name>Create Walls</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>Creates wall in the output mesh.</Description>
   </Flub>
   <Flub>
     <Name>LOD</Name>
+	  <Description>Number of LODs to be generated along with main mesh.</Description>
     <Flubs>
       <Flub>
         <Name>None</Name>
+		  <Description>No LODs</Description>
       </Flub>
       <Flub>
         <Name>LOD 1</Name>
+		  <Description>One LOD</Description>
       </Flub>
       <Flub>
         <Name>LOD 2</Name>
+		  <Description>Two LODs</Description>
       </Flub>
       <Flub>
         <Name>LOD 3</Name>
+		  <Description>Three LODs</Description>
       </Flub>
       <Flub>
         <Name>LOD 4</Name>
+		  <Description>Four LODs</Description>
       </Flub>
       <Flub>
         <Name>LOD 5</Name>
+		  <Description>Five LODs</Description>
       </Flub>
       <Flub>
         <Name>LOD 6</Name>
+		  <Description>Six LODs</Description>
       </Flub>
       <Flub>
         <Name>LOD 7</Name>
+		  <Description>7 LODs</Description>
       </Flub>
       <Flub>
         <Name>LOD 8</Name>
+		  <Description>8 LODs</Description>
       </Flub>
     </Flubs>
   </Flub>

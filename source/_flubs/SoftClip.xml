@@ -6,9 +6,11 @@
     <Flubs>
       <Flub>
         <Name>Above threshold</Name>
+		<Description>Lorem ipsum</Description>
       </Flub>
       <Flub>
         <Name>Below threshold</Name>
+		<Description>Lorem ipsum</Description>
       </Flub>
     </Flubs>
   </Flub>

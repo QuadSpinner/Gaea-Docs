@@ -35,7 +35,11 @@
     <Description>Sacrifice speed to increase the quality of the scaling. This is very useful if you have lots of small details you need to preserve, or if you're upscaling from a much lower resolution.</Description>
   </Flub>
   <Flub>
-    <Name>RGB</Name>
+    <Name>Treat as RGB</Name>
     <Description>Treat the incoming file as a color image instead of a grayscale heightfield.</Description>
+  </Flub>
+  <Flub>
+	<Name>Enforce Linear Gamma</Name>
+	<Description>Enforces linear Gamma in the loaded terrain.</Description>
   </Flub>
 </ArrayOfFlub>

@@ -2,14 +2,14 @@
 <ArrayOfFlub xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Flub>
     <Name>Coverage</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>The amount of rock-like formations on the terrain.</Description>
   </Flub>
   <Flub>
     <Name>Density</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>The density of the rock-like formations.</Description>
   </Flub>
   <Flub>
     <Name>Invert</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>Inverts the rockmap.</Description>
   </Flub>
 </ArrayOfFlub>

@@ -9,7 +9,7 @@
   </Flub>
   <Flub>
     <Name>Strength</Name>
-    <Description>Lorem ipsum</Description>
+    <Description></Description>
   </Flub>
   <Flub>
     <Name>Z-scale</Name>
@@ -19,24 +19,31 @@
     <Flubs>
       <Flub>
         <Name>Perlin FBM</Name>
+		<Description>Used for varied noise.</Description>
       </Flub>
       <Flub>
         <Name>Voronoi R</Name>
+		<Description></Description>
       </Flub>
       <Flub>
         <Name>Voronoi P</Name>
+		<Description>The default look for this geo-variant, suitable for creating mountains.</Description>
       </Flub>
       <Flub>
         <Name>Voronoi A</Name>
+		<Description>A mix between P and M.</Description>
       </Flub>
       <Flub>
         <Name>Voronoi S</Name>
+		<Description>Individual mountains with fully separated boundaries.</Description>
       </Flub>
       <Flub>
         <Name>Voronoi M</Name>
+		<Description>Favors the strongest cell; good for creating a big mountain slope.</Description>
       </Flub>
       <Flub>
         <Name>Voronoi D</Name>
+		<Description>Favors ridges over cell centers.</Description>
       </Flub>
     </Flubs>
   </Flub>
@@ -54,13 +61,15 @@
   </Flub>
   <Flub>
     <Name>Edge behaviour</Name>
-    <Description>Lorem ipsum</Description>
+    <Description></Description>
     <Flubs>
       <Flub>
         <Name>Edge</Name>
+		<Description></Description>
       </Flub>
       <Flub>
         <Name>Mirror</Name>
+		<Description>Edge pixels are mirrored.</Description>
       </Flub>
     </Flubs>
   </Flub>
@@ -72,6 +81,7 @@
   </Flub>
   <Flub>
     <Name>Seed</Name>
+	<Description>The randomization pattern or seed for the node's process.</Description>
   </Flub>
   <Flub>
     <Name>Iterative</Name>
@@ -85,12 +95,15 @@
     <Flubs>
       <Flub>
         <Name>Bitmap</Name>
+		<Description>Lorem ipsum</Description>
       </Flub>
       <Flub>
         <Name>Vector Field</Name>
+		<Description>Lorem ipsum</Description>
       </Flub>
       <Flub>
         <Name>Vector Field Integral</Name>
+		<Description>Lorem ipsum</Description>
       </Flub>
     </Flubs>
   </Flub>
