@@ -13,7 +13,7 @@ The Gaea interface is sreamlined and minimal. All essential tools are available 
 
 ![](/images/ui/ui-intro-granular-viewport.webp)
 
-The viewports help you visualize your terrain components as you build the graph. There are 2 viewports: the 3D viewport and the 2D viewport. The 2D viewport also doubles as an editor surface when using nodes such as @Draw, @Island, @Mask, etc.
+The viewports help you visualize your terrain components as you build the graph. There are 2 viewports: the 3D viewport and the 2D viewport. The 2D viewport also doubles as an editor surface when using nodes such as @Island or @Mask.
 
 A viewport toolbar gives you access to all the options for both the viewports and the lighting for the terrain.
 

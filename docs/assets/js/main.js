@@ -104,6 +104,7 @@
     messageCss(".WARNING", "warning", "red", "ti-alert-circle", "WARNING");
     messageCss(".TIP", "info", "blue", "ti-bulb", "TIP");
     messageCss(".INFO", "info", "teal", "ti-info-circle", "INFO");
+    messageCss(".IMPORTANT", "info", "red", "ti-info-circle", "IMPORTANT");
 
     if ($("#related").length) {
         let relhtml = '<div class="ui vertical fluid menu"><div class="item"><div class="header">Related topics</div><div class="menu">';

@@ -1,0 +1,276 @@
+<?xml version="1.0"?>
+<UpdateManifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="1.3.0.6" Size="49417082" PatchSize="14981727" ReleaseType="EAP" ReleaseDate="2021-11-30T00:00:00" Filename="Gaea-1.3.0.6b.exe" URL="http://viridian.quadspinner.com/gaeab/Gaea-1.3.0.6b.exe" PatchURL="https://get.gaea.app/EAP/Gaea-1.3.0.6bP.exe">
+  <FullDescription>#### What's new in Gaea 1.3 Bleeding Edge?
+
+This our largest update to date. This will also become our Long Term Support (LTS) release when released under the Production Ready channel.
+
+For the major updates in 1.3 itself, see [the Gaea 1.3 Bleeding Edge blog post](https://blog.quadspinner.com/gaea-1-3-bleeding-edge/). Please read the Breaking Changes section in the blog post before trying this build with any existing projects. Some features mentioned in the changelog below may not be available in the initial Bleeding Edge build. See the blog post for details.
+
+# Complete Changelog
+
+#### CHANGES in 1.3.0.6
+- New: Repeat node.
+- Fixed: Breaker node would not return accurate results.
+- Fixed: Displace node's Vertical mode would not return any results.
+- Fixed: Gaea could crash when saving a file.
+- Fixed: Gaea could corrupt a file in some rare situations.
+- Fixed: Logarithmic scaling and/or gamma curve was unnecessarily applied to some nodes.
+- Fixed: Replaced experimental code (for future features) that was causing instabilities.
+- Fixed: Baked nodes would be reloaded incorrectly.
+- Fixed: Several minor bugs and user reported issues.
+- Fixed: Improved UX for renaming nodes' export filename.
+
+#### KNOWN ISSUES in 1.3.0.6
+
+- TIFF and EXR will not export color. Use PNG or TIF16 instead.
+- Synth node is broken. Expect it to be fixed in 1.3.0.7.
+
+#### CHANGES in 1.3.0.3-5
+
+- Gaea could corrupt files if certain nodes were used.
+- Quick help for nodes added in the Property tab and Help menu
+- Gaea could not build or export in some cases.
+- Mesh export UV and scale were incorrect.
+- New Repeat node.
+- Apex could incorrectly inflate shape.
+- Copy/Paste could freeze Gaea.
+- Baking now shows granular progress.
+- Watson redesigned.
+- Watson: Clean installation option.
+- Watson: Run stress tests.
+- Watson: Additional cleanup options.
+- Watson: Force a diagnostic dump via Help menu in Gaea.
+- Non-standard resolutions were incorrect.
+- Minor UI bug fixes.
+- Unnecessary curve was applied in Autolevel, Cells, Displace, Fold, Growth, Origami, Protrusion, Repulse, Sediment, Sharpen, Soil, Stratify, Swirl, Threshold nodes.
+- New Help menu in top right corner.
+- Shortcut Map in new Help menu.
+- Clearing viewport cache would clear all cache instead.
+- Attaching a node via Tab search would not update the new node.
+- Mesher now defaults to Adaptive Tris output.
+- Mesher output fixes for flipped meshes, UVs, and vertical scaling.
+- 32-bit EXR Export and Import revised (Scanline only).
+- 32-bit TIFF Export and Import revised.
+- Colorspace and Gamma issues in 32-bit files fixed.
+- File node: Enforce Linear Gamma option added.
+- Enhanced View has been reintroduced for Raw view.
+- Build Manager's resolution dropdown reorganized.
+- Sample Height no longer affects selected node.
+- Output node now defaults to "Save to Build Folder".
+- Typing mixer in search will return Combine node for convenience.
+- Invert node has been reintroduced.
+- Duplicating a Mesher would not add it to the build list.
+- Baking did not show progress.
+- Cache on Save did not work as expected.
+- Adding a SatMap favorite could crash Gaea.
+- Standard builds did not show granular progress.
+- Dropped images in graph will show extension in node name.
+- Search dropdown height improved for different resolutions.
+- Deleting a Mask node could create a false warning for missing resource.
+- Several internal enhancements and fixes.
+
+Further fixes forthcoming.
+
+The following changes are from 1.3.0.x
+
+#### NEW
+
+- Build: Distributed (Tiled) Builds
+- Node: Rocky node
+- Node: Seamless node
+- Node: Wizard node
+- Node: Rugged node
+- Build: Seamless Tiling
+- Workflow: 1:1 Tile Previews
+- Feature: Turntable Animator
+- Build: Optimized meshes with Sophia algorithm
+- Help: 50+ new Quickstarts with tutorial notes
+- Node: Craterfield in Crater
+- Node: Canyon node
+- Build: Build Swarm rewritten from the ground up for efficiency and stability.
+- Help: Directly access node documentation from properties panel.
+- Viewport: Orbit and First Person cameras
+- Viewport: Overlay system for 3D and 2D views
+- Viewport: Pick height and position visually
+- UI: New Startup Experience
+- Node: Sea node
+- Node: DriftNoise node
+- Node: Gabor node
+- Node: Slump node
+- Node: Hill node
+- Node: Sunlight node
+- Workflow: Preview Seamless Tiling
+- Viewport: Atmospheric Perspective
+- Viewport: Save/Load Camera angles
+- Node: Distance node
+- Node: SoftClip node
+- Node: LoopBegin node
+- Node: LoopEnd node
+- Build: Filename Format Mask for Tiled Builds
+- Node: TileInput node
+- Viewport: New viewport compass and grid
+- Node: Insert node.
+ 
+#### Breaking
+ 
+- Node: Sand reworked to create better, realistic shapes.
+- Viewport: 2D view autolevel removed
+- Workflow: Force Low Resolution and Suspend Engine options moved to File Filter in the Open Dialog.
+- Node: Dunes v3 reworked for better shapes
+- Node: Details node reworked
+- Node: Channels mode in Igneous has been retired.
+- Node: Poisson noise removed across all nodes.
+- Node: Invert node retired.
+- Node: HSL node retired.
+- Node: BiasGain node retired.
+- Node: Contrast node retired
+- Node: Mixer node retired.
+- Node: Subterrace node retired.
+- Node: Biome node retired.
+- Node: Volcano mode retired in Crater. Use Impact crater (see Quickstart) instead.
+- Node: Draw node retired. Use Mask instead.
+- Node: SatMaps legacy color library removed
+- Node: Rocks node has been retired.
+- Node: RockSlide node has been retired.
+- Node: Some older Primitives may not work exactly.
+
+#### Improvement
+
+- Build: Build-and-split output
+- Node: Sediment Removal feature in Thermal node
+- Viewport: Tablet support
+- Viewport: Customizable navigation with support for Maya-like and other popular controls
+- Node: Sediment Removal feature in Erosion
+- Overall: Overall efficiency and responsiveness improved.
+- Overall: Overall stability improved across all scenarios.
+- Viewport: High resolution previews are now more efficient.
+- Cache: Baking is now more efficient by using Build Swarm.
+- Viewport: Preview render cache requires 80% less memory.
+- Overall: Memory consumption improved.
+- Viewport: Higher efficiency for older graphics cards.
+- Viewport: Smaller file size and memory footprint of 3D engine.
+- Cache: Baking made more accessible, use to speed up your workflow and get higher resolution previews.
+- UI: Build Manager simplified
+- Node: Mountain has new mode
+- Workflow: Improved handling of large graphs.
+- Cache: Switching from higher to lower preview size is more efficient
+- Cache: Baked cache now shows higher resolution previews up to 4K
+- File: 3 Raw 32-bit (.r32) now default format for working with Erosion Studio.
+- UI: Randomize button added to all Seed sliders.
+- Cache: Unbake is now faster and more responsive.
+- Viewport: Improved handling of non-Wacom tablets.
+- Erosion: 3 Full support for R32 format for both input and output.
+- UI: Quickly access recent projects from Open dropdown in title bar
+- Viewport: Ultra Tessellation option for 4K terrains in viewport
+- Workflow: Load custom overlay images
+- Workflow: Reference overlays in tiled zoom for precision
+- Overall: Startup made 90% more efficient
+- Build: Expanded resolution options
+- Workflow: Replace node
+- Node: Sample Resolution control in Anastamosis
+- Node: Cracks node has more features
+- Node: MultiFractal node has new features.
+- Node: Canyonizer is now uses all CPU cores.
+- Node: FractalTerraces has new features.
+- Node: Canyonizer now has a Fast mode.
+- Overall: Startup time reduced by up to 80%.
+- Viewport: Raw data view replaces the old 2D view modes
+- UI: Passive messages replaced with modal dialogs.
+- Viewport: Improved color handling for water, snow, and other multi-material nodes
+- Erosion: 2 Visual markers for stroke processing in Erosion Studio
+- Erosion: 2 Import/Reimport menu items moved to toolbar to avoid confusion.
+- Erosion: 2 Build Tab added for easier access to output mechanisms.
+- Workflow: Improved warning for 4K previews, with option to never show again
+- UI: Right-click node in Build list to go to node.
+- UI: Workspace defaults saving/loading simplified.
+- Node: Light node reprocessing is now faster.
+- Node: Occlusion node reworked
+- Cache: Smart reminder to use persistent cache for faster startup
+- Node: Mountain 60% faster
+- Node: Erosion 20% faster
+- UI: Move to Tab command now accessible from the New Tab dropdown
+- UI: SatMap now visually reversed when Reverse option is enabled
+- Workflow: Warning when current node is not in the Pinned node chain.
+- Node: Recurve 50% faster
+- Viewport: Select viewport quality presets by right-clicking Viewport Settings button.
+- Viewport: Detach or dock viewport quickly by right-clicking the Orbit camera button.
+- Node: Texture 40% faster
+- Node: Anastamosis up to 80% faster
+- Node: Noise nodes 20% faster
+- Node: Heal performance improved
+- Node: Mask is now classified as a Primitive.
+- Node: Hydro updated.
+- Viewport: Terrain direction would be inverted by 180 degrees on some hardware.
+- Erosion: 1 Revised Toolbar for easier access to common commands
+- Node: Minor speed improvements across all common nodes
+
+#### Fix
+
+- Node: Erosion would freeze Gaea in some situations.
+- Build: EXR output was incorrect
+- Node: Island was broken
+- UI: Nodes would process twice upon creation, often creating a lock
+- UI: Mesher would incorrectly be labelled as "Off"
+- Workflow: Nodes would not invalidate in certain situations if non-primary port was connected.
+- Workflow: Underlay would force processing of downstream nodes.
+- Workflow: Improved handling of nodes when they are updated while still being processed.
+- Node: Rotating Synth would create grayscale map
+- Node: Masks could be ignored in Erosion node in some scenarios.
+- Workflow: Clamp would be ignored in Post Process in rare situations.
+- Workflow: SatMaps favorites would be repeated recursively in settings file.
+- Cache: Post Process could conflict with Persistent Cache
+- Workflow: Cancelling a connection drag would cause instability.
+- Overall: Garbage Collection would interrupt too frequently during design time.
+- Node: Canyonizer would not report progress.
+- Node: MultiCombine would show incorrect value for Uniform mode
+- Node: Island would not update if Seed was changed.
+- Workflow: Deleting multiple nodes could cause instability.
+- Cache: Improved handling of baked nodes when previewing and connecting nodes.
+- Workflow: Deleting a chokepoint would leave ghost connections.
+- Workflow: Vegetation will no longer auto-connect.
+- UI: 3D button would disable viewport navigation
+- Workflow: Some commands would not mark the file as having unsaved changes.
+- UI: Changing Toolbox Positions would sometimes incorrectly layout the UI.
+- Build: Specify CPU limit in command line builds
+- Viewport: Toggling 3D twice would flatten terrain.
+- Workflow: Searching for nodes with an empty string would be handled incorrectly.
+- Workflow: Exposed parameters would be lost when modifying the graph.
+- Workflow: Duplicating a baked node should not mark the duplicate as baked.
+- Cache: Baking would incorrectly classify some nodes in a chain.
+- UI: File Browser should show extension when opening image files.
+- Node: Combine node would not change color when working with color maps.
+- Node: ZeroBorders would work incorrectly
+- Node: Angle node defaults improved.
+- Node: FractalTerraces reclassified as Profile node.
+- Node: Seed removed from Snow node
+- UI: SatMaps would not show correct map in editor when first created
+- UI: Reset Layout would work incorrectly sometimes
+- UI: Build Node List would show incorrect colors.
+- Workflow: Improved handling of Underlay to prevent errors
+- Workflow: Improved handling when user incorrectly connects or pins nodes.
+- UI: Constant node would show Seed setting incorrectly
+- Workflow: Post Process would be ignored when changing preview resolution.
+- Workflow: Post Process could trigger incorrect rendering of Heavy nodes.
+- Workflow: Blank project could crash Gaea.
+- UI: Node progress counter would show incorrect data.
+- UI: Resetting a node would randomize slider colors.
+- UI: Utility nodes would not show a color glow.
+- UI: Cursor would not scale with DPI
+- Workflow: Some Post Process would not show Post Process icon on node.
+- UI: File browser would behave incorrectly in some scenarios.
+- UI: Light editor would not update correctly.
+- UI: Minor cleanup across the entire UI for aesthetics and cleanliness.
+- Workflow: Improved handling of node Preset files
+- UI: Sliders would show incorrect capitalization.
+- UI: File Browser should show full path as tooltip.
+- Overall: 50+ internal issues resolved for greater stability
+- Overall: ForceOpenCL no longer crashes on Nvidia hardware.
+- Workflow: 20 various bugs related to rendering and lighting.
+- Build Swarm would ignore license.
+- Cancel would not be honored when closing Gaea.
+- Build Swarm would show incorrect resolution during build.
+- Added option to invert zoom for tablet or mouse button drag.
+- Build Mutations would not work.
+- Auto updates renabled in Start screen.
+</FullDescription>
+</UpdateManifest>

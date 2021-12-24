@@ -38,9 +38,10 @@ This video continues in @tut-color.
 
 #### Hand Drawn Primitives
 
-The @Draw and @Islands nodes allow you to draw shapes which serve as guides upon which further processing is performed. For example, Islands will turn guides into a complex archipelago.
+The @Mask node can double as a shape. Simply press `T` to display the mask as 
 
-The @Mask node can also act as a Primitive even though it is categorized as a Data Map in the toolbox. However, it will not process the shape you draw.
+While the @Island node allow you to draw shapes which serve as guides that will be turned into a complex archipelago.
+
 
 ## File Import
 

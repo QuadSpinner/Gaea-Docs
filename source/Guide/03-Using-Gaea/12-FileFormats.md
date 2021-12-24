@@ -49,7 +49,7 @@ The `.TORX` format is available in the Enterprise Edition only. When saving in t
 
 #### .RESOURCE file
 
-When using hand drawn nodes such as @Mask, @Draw, or @Islands, the binary data generated will be stored in a `.tor.resource` or `.torx.resource` file. If you have a file called `BigMountain.tor`, for example, the resource file will be called `BigMountain.tor.resource`.
+When using hand drawn nodes such as @Mask or @Islands, the binary data generated will be stored in a `.tor.resource` or `.torx.resource` file. If you have a file called `BigMountain.tor`, for example, the resource file will be called `BigMountain.tor.resource`.
 
 {.WARNING}
 > If the `.resource` file for a project is missing, all hand drawn nodes will become empty. When running a build on a project with missing resource, the @build-swarm will throw a warning and exit.
