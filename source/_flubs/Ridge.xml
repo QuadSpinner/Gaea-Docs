@@ -18,7 +18,7 @@
   </Flub>
   <Flub>
     <Name>Seed</Name>
-	<Description>The randomization pattern or seed for the node's process.</Description>
+    <Description>The randomization pattern or seed for the node's process.</Description>
   </Flub>
   <Flub>
     <Name>Advanced settings</Name>

@@ -1,48 +1,79 @@
 <?xml version="1.0"?>
 <ArrayOfFlub xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Flub>
+    <Name>Global</Name>
+    <Description>T</Description>
+  </Flub>
+  <Flub>
     <Name>Frame</Name>
+    <Description>The frame to render. Useful for animation.</Description>
   </Flub>
   <Flub>
     <Name>Octaves</Name>
-  </Flub>
-  <Flub>
-    <Name>Ripples animation speed</Name>
-  </Flub>
-  <Flub>
-    <Name>Size</Name>
-  </Flub>
-  <Flub>
-    <Name>Amplitude</Name>
-  </Flub>
-  <Flub>
-    <Name>MotionX</Name>
-  </Flub>
-  <Flub>
-    <Name>MotionY</Name>
-  </Flub>
-  <Flub>
-    <Name>Wind patch effect</Name>
-  </Flub>
-  <Flub>
-    <Name>Wind patch animation speed</Name>
-  </Flub>
-  <Flub>
-    <Name>Wind patch size</Name>
-  </Flub>
-  <Flub>
-    <Name>Wind patch contrast</Name>
-  </Flub>
-  <Flub>
-    <Name>Brightness</Name>
-  </Flub>
-  <Flub>
-    <Name>Sun azimuth</Name>
-  </Flub>
-  <Flub>
-    <Name>Sun elevation</Name>
+    <Description></Description>
   </Flub>
   <Flub>
     <Name>Seed</Name>
+    <Description></Description>
+  </Flub>
+  <Flub>
+    <Name>Ripples</Name>
+    <Description>T</Description>
+  </Flub>
+  <Flub>
+    <Name>Animation Speed</Name>
+    <Description>Speed of the animation</Description>
+  </Flub>
+  <Flub>
+    <Name>Size</Name>
+    <Description>Size of the individual waves.</Description>
+  </Flub>
+  <Flub>
+    <Name>Amplitude</Name>
+    <Description>Amplitude of the wave noise.</Description>
+  </Flub>
+  <Flub>
+    <Name>Direction</Name>
+    <Description>Flow direction of the waves.</Description>
+  </Flub>
+  <Flub>
+    <Name>Speed</Name>
+    <Description>Speed of the waves.</Description>
+  </Flub>
+  <Flub>
+    <Name>Wind Patch</Name>
+    <Description>T</Description>
+  </Flub>
+  <Flub>
+    <Name>Intensity</Name>
+    <Description>Intensity of the wind patches.</Description>
+  </Flub>
+  <Flub>
+    <Name>Animation Speed</Name>
+    <Description>Wind speed for animation.</Description>
+  </Flub>
+  <Flub>
+    <Name>Size</Name>
+    <Description>Size of the wind patches.</Description>
+  </Flub>
+  <Flub>
+    <Name>Contrast</Name>
+    <Description>Contrast between the calm and perturbed water.</Description>
+  </Flub>
+  <Flub>
+    <Name>Lighting</Name>
+    <Description>T</Description>
+  </Flub>
+  <Flub>
+    <Name>Brightness</Name>
+    <Description></Description>
+  </Flub>
+  <Flub>
+    <Name>Sun azimuth</Name>
+    <Description></Description>
+  </Flub>
+  <Flub>
+    <Name>Sun elevation</Name>
+    <Description></Description>
   </Flub>
 </ArrayOfFlub>

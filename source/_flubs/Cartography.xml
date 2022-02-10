@@ -6,15 +6,15 @@
   </Flub>
   <Flub>
     <Name>Simplify</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>Simplify the terrain contours. Use this when the terrain has a lot of small detail and the contours start looking too complex and chaotic.</Description>
   </Flub>
   <Flub>
     <Name>Smooth Land Gradient</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>Smooth the land colors across contour levels.</Description>
   </Flub>
   <Flub>
     <Name>Smooth Water Gradient</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>Smooth the water colors across contour levels.</Description>
   </Flub>
   <Flub>
     <Name>Land</Name>
@@ -22,19 +22,19 @@
   </Flub>
   <Flub>
     <Name>Contours</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>Number of contours for dividing the terrain. Secondary contours will be generated between these contours.</Description>
   </Flub>
   <Flub>
     <Name>Primary Contours</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>Intensity of the primary contours. Use 0 to hide.</Description>
   </Flub>
   <Flub>
     <Name>Secondary Contours</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>Intensity of the secondary contours. Use 0 to hide.</Description>
   </Flub>
   <Flub>
     <Name>Contour Color</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>Color of the contour lines.</Description>
   </Flub>
   <Flub>
     <Name>Water</Name>
@@ -42,23 +42,23 @@
   </Flub>
   <Flub>
     <Name>Process Water</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>When enabled, the water gradient is processed. Otherwise water is left as a flat shape.</Description>
   </Flub>
   <Flub>
     <Name>Contours</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>Number of contours for dividing the water. Secondary contours will be generated between these contours.</Description>
   </Flub>
   <Flub>
     <Name>Primary Contours</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>Intensity of the primary contours in the water. Use 0 to hide.</Description>
   </Flub>
   <Flub>
     <Name>Secondary Contours</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>Intensity of the secondary contours in the water. Use 0 to hide.</Description>
   </Flub>
   <Flub>
     <Name>Water Contour Color</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>Color of the contour lines in the water.</Description>
   </Flub>
   <Flub>
     <Name>Grid</Name>
@@ -66,19 +66,19 @@
   </Flub>
   <Flub>
     <Name>Grid Lines</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>Number of grid lines on either axis. Further subdivisions would be created within those grid lines.</Description>
   </Flub>
   <Flub>
     <Name>Primary Grid Intensity</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>Intensity of primary grid lines. Use 0 to hide.</Description>
   </Flub>
   <Flub>
     <Name>Secondary Grid Intensity</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>Intensity of the secondary grid lines. Use 0 to hide.</Description>
   </Flub>
   <Flub>
     <Name>Grid Color</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>Color of the grid lines.</Description>
   </Flub>
   <Flub>
     <Name>Pixels</Name>
@@ -86,15 +86,15 @@
   </Flub>
   <Flub>
     <Name>Contour Pixel Size</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>Size of contour lines in pixels.</Description>
   </Flub>
   <Flub>
     <Name>Boundary Pixel Size</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>Size of the contour dividing water and land in pixels.</Description>
   </Flub>
   <Flub>
     <Name>Grid Pixel Size</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>Size of the grid lines in pixels.</Description>
   </Flub>
   <Flub>
     <Name>Colors</Name>
