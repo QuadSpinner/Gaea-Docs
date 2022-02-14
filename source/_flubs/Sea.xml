@@ -5,17 +5,17 @@
     <Flubs>
       <Flub>
         <Name>Global</Name>
-		<Description>Lorem ipsum</Description>
+        <Description>Creates a sea even inside the terrain.</Description>
       </Flub>
       <Flub>
         <Name>Surrounding</Name>
-		<Description>Lorem ipsum</Description>
+        <Description>Create a sea surface from the edges of the terrain, but not inside the terrain.</Description>
       </Flub>
     </Flubs>
   </Flub>
   <Flub>
     <Name>Level</Name>
-	<Description>The water level in the sea.</Description>
+    <Description>The water level in the sea.</Description>
   </Flub>
   <Flub>
     <Name>Coastal Erosion</Name>
@@ -23,11 +23,11 @@
   </Flub>
   <Flub>
     <Name>Shore Size</Name>
-	<Description>The size of the shore created with coastal erosion.</Description>
+    <Description>The size of the shore created with coastal erosion.</Description>
   </Flub>
   <Flub>
     <Name>Shore Height</Name>
-	<Description>The height of the shore created with coastal erosion.</Description>
+    <Description>The height of the shore created with coastal erosion.</Description>
   </Flub>
   <Flub>
     <Name>Variation</Name>

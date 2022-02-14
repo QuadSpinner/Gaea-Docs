@@ -2,28 +2,28 @@
 <ArrayOfFlub xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Flub>
     <Name>Style</Name>
-    <Description>Lorem ipsum</Description>
+    <Description></Description>
     <Flubs>
       <Flub>
         <Name>Rough</Name>
-		<Description>Lorem ipsum</Description>
+        <Description>Adds localized sharpness and protrusions based on the local shape of the terrain.</Description>
       </Flub>
       <Flub>
         <Name>Rocky</Name>
-		<Description>Lorem ipsum</Description>
+        <Description>Creates lots of tiny rocks based on the local shape of the terrain.</Description>
       </Flub>
     </Flubs>
   </Flub>
   <Flub>
     <Name>Strength</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>The strength of the effect.</Description>
   </Flub>
   <Flub>
     <Name>Coverage</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>Coverage across larger features. Low values localize the effect, while high values let it spread across larger shapes.</Description>
   </Flub>
   <Flub>
     <Name>Density</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>Density of rock protrusions created on the surface.</Description>
   </Flub>
 </ArrayOfFlub>

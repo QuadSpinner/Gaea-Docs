@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<ArrayOfFlub xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Flub>
+    <Name>Influence</Name>
+    <Description>The influence of the shaping on the input terrain. Mid-values can give you good balance between the stark shape and the original terrain.</Description>
+  </Flub>
+  <Flub>
+    <Name>Shape</Name>
+    <Description>Negative values will condense the terrain into concise, sharp ridges, while positive values will bulk up the terrain by adding bulge.</Description>
+  </Flub>
+</ArrayOfFlub>

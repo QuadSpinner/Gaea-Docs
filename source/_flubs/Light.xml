@@ -1,40 +1,40 @@
 <?xml version="1.0"?>
 <ArrayOfFlub xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<Flub>
-		<Name>Light</Name>
-		<Description>T</Description>
-	</Flub>
-	<Flub>
-		<Name>Sun azimuth</Name>
-		<Description>Lorem ipsum</Description>
-	</Flub>
-	<Flub>
-		<Name>Sun elevation</Name>
-		<Description>Lorem ipsum</Description>
-	</Flub>
-	<Flub>
+  <Flub>
+    <Name>Light</Name>
+    <Description>T</Description>
+  </Flub>
+  <Flub>
+    <Name>Sun azimuth</Name>
+    <Description>The direction of the sun.</Description>
+  </Flub>
+  <Flub>
+    <Name>Sun elevation</Name>
+    <Description>The elevation of the sun.</Description>
+  </Flub>
+  <Flub>
     <Name>Global</Name>
     <Description>T</Description>
   </Flub>
   <Flub>
     <Name>Quality</Name>
-    <Description>Lorem ipsum</Description>
+    <Description></Description>
     <Flubs>
       <Flub>
         <Name>Ultra</Name>
-		<Description>Lorem ipsum</Description>
+        <Description>The highest quality AO. It takes quite a long time to calculate but produces very good results. This is the recommended quality when baking Lighting for high resolution assets with small details.</Description>
       </Flub>
       <Flub>
         <Name>High</Name>
-		<Description>Lorem ipsum</Description>
+        <Description>Higher quality AO that is slower to calculate. It is useful when you have small, intricate shapes.</Description>
       </Flub>
       <Flub>
         <Name>Medium</Name>
-		<Description>Lorem ipsum</Description>
+        <Description>The default value. A good balance between quality and speed.</Description>
       </Flub>
       <Flub>
         <Name>Low</Name>
-		<Description>Lorem ipsum</Description>
+        <Description>Low quality Ambient Occlusion. This is quite sufficient in many situations.</Description>
       </Flub>
     </Flubs>
   </Flub>
@@ -44,15 +44,15 @@
   </Flub>
   <Flub>
     <Name>Direct light</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>Enable the Direct Light pass.</Description>
   </Flub>
   <Flub>
     <Name>Shadows</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>Enable the Shadows pass.</Description>
   </Flub>
   <Flub>
     <Name>Sun angular diameter</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>This property controls the softness of the shadows.</Description>
   </Flub>
   <Flub>
     <Name>Ambient light</Name>
@@ -60,11 +60,12 @@
   </Flub>
   <Flub>
     <Name>Ambient light</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>Enable indirect, ambient lighting.</Description>
   </Flub>
+
   <Flub>
     <Name>Ambient occlusion</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>Enable the Ambient Occlusion pass.</Description>
   </Flub>
   <Flub>
     <Name>Advanced</Name>
@@ -72,46 +73,46 @@
   </Flub>
   <Flub>
     <Name>Exposure</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>The exposure for the render. Use this just like the exposure value in a camera.</Description>
   </Flub>
   <Flub>
     <Name>Sun intensity</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>Intensity of direct sunlight.</Description>
   </Flub>
   <Flub>
     <Name>Ambient intensity</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>Intensity of ambient light.</Description>
   </Flub>
   <Flub>
     <Name>Air density</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>Density of the atmosphere.</Description>
   </Flub>
   <Flub>
     <Name>Haze</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>The amount of haze in the atmosphere. This can make the sunlight whiter and less saturated.</Description>
   </Flub>
   <Flub>
     <Name>Ozone layer thickness</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>Thickness of the ozone in the atmosphere. This adds a slight blue tinge to the ambient light.</Description>
   </Flub>
   <Flub>
     <Name>Automatic colors</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>Generate colors automatically based on sun angle and other conditions.</Description>
   </Flub>
   <Flub>
     <Name>Sun color</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>The color of the direct sunlight. Only available when Automatic Colors is disabled.</Description>
   </Flub>
   <Flub>
     <Name>Ambient color</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>The color of the ambient light. Only available when Automatic Colors is disabled.</Description>
   </Flub>
   <Flub>
     <Name>Ground brightness</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>Brightness of the ground. This controls the color of the terrain when no color map is provided.</Description>
   </Flub>
   <Flub>
     <Name>Soft clip</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>Convert HDR color values to LDR values by soft clipping. This prevents over and under-exposure.</Description>
   </Flub>
 </ArrayOfFlub>

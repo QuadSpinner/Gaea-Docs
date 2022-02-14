@@ -2,45 +2,45 @@
 <ArrayOfFlub xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Flub>
     <Name>Style</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>Choose from different rock styles</Description>
     <Flubs>
       <Flub>
         <Name>A</Name>
-        <Description>Lorem ipsum</Description>
+        <Description>A surface with strong protrusions and more chaos.</Description>
       </Flub>
       <Flub>
         <Name>B</Name>
-        <Description>Lorem ipsum</Description>
+        <Description>A surface with fewer protrusions and mild chaos.</Description>
       </Flub>
     </Flubs>
   </Flub>
   <Flub>
     <Name>Size</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>Size of the cracks within the rock.</Description>
   </Flub>
   <Flub>
     <Name>Small Rocks</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>The amount of smaller rocks or debris that should be exposed.</Description>
   </Flub>
   <Flub>
     <Name>Breakage</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>The granularity of the debris in the broken portions of the rock surface.</Description>
   </Flub>
   <Flub>
     <Name>Roughness</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>Warping of the smoother surface shapes.</Description>
   </Flub>
   <Flub>
     <Name>Jitter</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>A useful utility for shifting shapes for artistic decision making.</Description>
   </Flub>
   <Flub>
     <Name>Clusters</Name>
-    <Description></Description>
+    <Description>The shape of rock clusters.</Description>
     <Flubs>
       <Flub>
         <Name>Off</Name>
-		<Description>No clusters</Description>
+        <Description>No clusters</Description>
       </Flub>
       <Flub>
         <Name>Large</Name>
@@ -54,7 +54,7 @@
         <Name>Shattered</Name>
         <Description>Create shattered clusters.</Description>
       </Flub>
-  </Flubs>
+    </Flubs>
   </Flub>
   <Flub>
     <Name>Erosion</Name>
@@ -62,6 +62,6 @@
   </Flub>
   <Flub>
     <Name>Seed</Name>
-	<Description>The randomization pattern or seed for the node's process.</Description>
+    <Description>The randomization pattern or seed for the node's process.</Description>
   </Flub>
 </ArrayOfFlub>

@@ -29,15 +29,15 @@
     <Flubs>
       <Flub>
         <Name>None</Name>
-		<Description>No post process to be applied.</Description>
+        <Description>No post process to be applied.</Description>
       </Flub>
       <Flub>
         <Name>Autolevel</Name>
-		<Description>Autolevel the output.</Description>
+        <Description>Autolevel the output.</Description>
       </Flub>
       <Flub>
         <Name>Equalize</Name>
-		<Description>Equalize the output.</Description>
+        <Description>Equalize the output.</Description>
       </Flub>
     </Flubs>
   </Flub>

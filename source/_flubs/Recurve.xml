@@ -2,19 +2,19 @@
 <ArrayOfFlub xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Flub>
     <Name>Mode</Name>
-    <Description>Lorem ipsum</Description>
+    <Description></Description>
     <Flubs>
       <Flub>
         <Name>Mono</Name>
-		<Description>Lorem ipsum</Description>
+		<Description></Description>
       </Flub>
       <Flub>
         <Name>Duo</Name>
-		<Description>Lorem ipsum</Description>
+		<Description></Description>
       </Flub>
       <Flub>
         <Name>Omni</Name>
-		<Description>Lorem ipsum</Description>
+		<Description></Description>
       </Flub>
     </Flubs>
   </Flub>

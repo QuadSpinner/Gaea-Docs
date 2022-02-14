@@ -95,15 +95,15 @@
     <Flubs>
       <Flub>
         <Name>Bitmap</Name>
-		<Description>Lorem ipsum</Description>
+		<Description></Description>
       </Flub>
       <Flub>
         <Name>Vector Field</Name>
-		<Description>Lorem ipsum</Description>
+		<Description></Description>
       </Flub>
       <Flub>
         <Name>Vector Field Integral</Name>
-		<Description>Lorem ipsum</Description>
+		<Description></Description>
       </Flub>
     </Flubs>
   </Flub>
