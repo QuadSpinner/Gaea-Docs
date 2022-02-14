@@ -6,23 +6,23 @@
   </Flub>
   <Flub>
     <Name>Scale</Name>
-    <Description>Lorem ipsum</Description>
+    <Description></Description>
   </Flub>
   <Flub>
     <Name>Coverage</Name>
-    <Description>Lorem ipsum</Description>
+    <Description></Description>
   </Flub>
   <Flub>
     <Name>Cracks</Name>
-    <Description>Lorem ipsum</Description>
+    <Description></Description>
   </Flub>
   <Flub>
     <Name>Gap</Name>
-    <Description>Lorem ipsum</Description>
+    <Description></Description>
   </Flub>
   <Flub>
     <Name>Churn</Name>
-    <Description>Lorem ipsum</Description>
+    <Description></Description>
   </Flub>
   <Flub>
     <Name>Seed</Name>
@@ -34,15 +34,15 @@
   </Flub>
   <Flub>
     <Name>Smaller Chunks</Name>
-    <Description>Lorem ipsum</Description>
+    <Description></Description>
   </Flub>
   <Flub>
     <Name>Smaller Coverage</Name>
-    <Description>Lorem ipsum</Description>
+    <Description></Description>
   </Flub>
   <Flub>
     <Name>Breakage</Name>
-    <Description>Lorem ipsum</Description>
+    <Description></Description>
   </Flub>
   <Flub>
     <Name>Surface</Name>
@@ -50,10 +50,10 @@
   </Flub>
   <Flub>
     <Name>Scale</Name>
-    <Description>Lorem ipsum</Description>
+    <Description></Description>
   </Flub>
   <Flub>
     <Name>Height</Name>
-    <Description>Lorem ipsum</Description>
+    <Description></Description>
   </Flub>
 </ArrayOfFlub>

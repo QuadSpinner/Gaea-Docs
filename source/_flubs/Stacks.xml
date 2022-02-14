@@ -18,7 +18,7 @@
   </Flub>
   <Flub>
     <Name>Folding</Name>
-    <Description>Lorem ipsum</Description>
+    <Description></Description>
   </Flub>
   <Flub>
     <Name>Steepness</Name>
@@ -26,7 +26,7 @@
   </Flub>
   <Flub>
     <Name>Talus Pass</Name>
-    <Description>Lorem ipsum</Description>
+    <Description></Description>
   </Flub>
   <Flub>
     <Name>Power</Name>
@@ -38,27 +38,27 @@
   </Flub>
   <Flub>
     <Name>Encourage Strong Flows</Name>
-    <Description>Lorem ipsum</Description>
+    <Description></Description>
   </Flub>
   <Flub>
     <Name>Style</Name>
-    <Description>Lorem ipsum</Description>
+    <Description></Description>
     <Flubs>
       <Flub>
         <Name>Default</Name>
-		<Description>Lorem ipsum</Description>
+		<Description></Description>
       </Flub>
       <Flub>
         <Name>Sedimentary</Name>
-		<Description>Lorem ipsum</Description>
+		<Description></Description>
       </Flub>
       <Flub>
         <Name>Desiccated</Name>
-		<Description>Lorem ipsum</Description>
+		<Description></Description>
       </Flub>
       <Flub>
         <Name>Shattered</Name>
-		<Description>Lorem ipsum</Description>
+		<Description></Description>
       </Flub>
     </Flubs>
   </Flub>
@@ -68,15 +68,15 @@
   </Flub>
   <Flub>
     <Name>Duration</Name>
-    <Description>Lorem ipsum</Description>
+    <Description></Description>
   </Flub>
   <Flub>
     <Name>Rock Softness</Name>
-    <Description>Lorem ipsum</Description>
+    <Description></Description>
   </Flub>
   <Flub>
     <Name>Strength</Name>
-    <Description>Lorem ipsum</Description>
+    <Description></Description>
   </Flub>
   <Flub>
     <Name>Other Settings</Name>
@@ -84,10 +84,10 @@
   </Flub>
   <Flub>
     <Name>Seed</Name>
-    <Description>Lorem ipsum</Description>
+    <Description></Description>
   </Flub>
   <Flub>
     <Name>Disable Parallel Processing</Name>
-    <Description>Lorem ipsum</Description>
+    <Description></Description>
   </Flub>
 </ArrayOfFlub>

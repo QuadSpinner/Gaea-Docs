@@ -2,14 +2,14 @@
 <ArrayOfFlub xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Flub>
     <Name>Loops</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>Number of loops to perform</Description>
   </Flub>
   <Flub>
     <Name>Mutate Seeds</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>When enabled, the seeds of all nodes within the loop are mutated.</Description>
   </Flub>
   <Flub>
     <Name>Seed</Name>
-    <Description>Lorem ipsum</Description>
+    <Description>The seed for mutation if enabled above.</Description>
   </Flub>
 </ArrayOfFlub>
