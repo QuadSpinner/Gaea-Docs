@@ -7,7 +7,7 @@ title: Installing Gaea
 
 #### Software Requirements
 - Microsoft [.NET Framework 4.8](https://dotnet.microsoft.com/download/thank-you/net48) or later.
-- Microsoft [Visual C++ 2017 Runtime](https://aka.ms/vs/16/release/vc_redist.x64.exe).
+- Microsoft [Visual C++ Runtime](https://aka.ms/vs/17/release/vc_redist.x64.exe).
 
 If either is not detected, the installer will try to download them automatically.
 
@@ -23,7 +23,17 @@ Installing Gaea is a simple process. Depending on your installation location, yo
 
 #### Clean Installation
 
-If you were using our older EXE installers or have encountered an issue in a new build, we recommend a clean installation. Download the full installer from the link above and, during installation, check the option for Clean Installation.
+If you were using our older EXE installers or have encountered an issue in a new build, we recommend a clean installation. Download the full installer from the link above and after installation, run @watson. You can choose the "Clean install" option.
+
+#### Creating a Portable Installation
+
+By default, Gaea stores its user data in `C:\Users\[username]\AppData\Roaming\QuadSpinner\Gaea\` (or `Gaea Bleeding Edge` for Bleeding Edge version.). You can force Gaea to use the installation folder itself. 
+
+Go to the folder where Gaea is installed and create a new subfolder called `UserData`. Now when you start Gaea, it will use this folder for all user data and settings.
+
+{.NOTE}
+> You MUST have write privileges for this folder. Additionally, the existing AppData folder will be ignored. If you want to transfer the same settings, copy the contents of the `C:\Users\[username]\AppData\Roaming\QuadSpinner\Gaea\` folder into the `UserData` subfolder.
+
 
 #### Administrative Install and Mass Deployment
 
