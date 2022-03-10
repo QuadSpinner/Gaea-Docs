@@ -47,6 +47,14 @@
         <Name>Difference</Name>
         <Description>Creates the difference of the two inputs.</Description>
       </Flub>
+      <Flub>
+        <Name>Insert</Name>
+        <Description>Insert relatively flat and isolated shapes into an uneven surface, such as sand dunes, while retaining the flatness of the rocks..</Description>
+      </Flub>
+      <Flub>
+        <Name>Embed</Name>
+        <Description>Embed any shape into any other terrain.</Description>
+      </Flub>
     </Flubs>
   </Flub>
   <Flub>
@@ -71,5 +79,14 @@
   </Flub>
   <Flub>
     <Name>Threshold</Name>
+    <Description>When abs is enabled, it is the threshold for the Abs operation. When Insert mode is active, it responds to the threshold to which insertion should take place.</Description>
   </Flub>
+  <Flub>
+    <Name>Flatten</Name>
+    <Description>The amount of flattening the local terrain must go through to insert an uneven shape. Only available in Insert mode.</Description>
+  </Flub>
+  <Flub>
+    <Name>Threshold</Name>
+    <Description>The extent of insertion or embedding. Use it to multiply the Ratio value. Only available in Insert or  mode.</Description>
+  </Flub> 
 </ArrayOfFlub>
