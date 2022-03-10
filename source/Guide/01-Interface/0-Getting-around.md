@@ -27,6 +27,10 @@ The Graph is the core of Gaea. This is where you take nodes from the Toolbox and
 
 The Graph can be split into multiple tabs, which are shown above the nodes. The tabs also share space with key graph tools on the far right such as Pinned nodes, the Baking menu, and more.
 
+![](/images/ui/graph-menu.webp){.ui .image .medium}
+
+The corner menu in the graph gives you additional options to move nodes between graphs, 
+
 For further details, see @graph.
 
 #### Properties Panel

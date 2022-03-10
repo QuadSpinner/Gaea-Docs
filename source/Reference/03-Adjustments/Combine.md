@@ -3,9 +3,24 @@ uid: Combine
 title: Combine
 ---
 
-The Combine node is one of the most important nodes in Gaea. It allows you to take two terrains (or any node output) and combine them using various mathematical operations, often known as 'Blend Modes'.
+The Combine node is one of the most important nodes in Gaea. It allows you to take two outputs (terrains, masks, or color maps) and combine them using various mathematical operations, often known as 'Blend Modes'.
 
-In addition, the Combine node also gives you a separation mask for texturing purposes.
+In addition, the Combine node also gives you a separation mask for texturing purposes when working with terrains and masks.
+
+
+## Using Combine
+
+
+#### Color Mixing
+
+With Gaea 1.2, Combine has replaced the @Mixer node. Combine can now handle color map blending to give you additional flexibility.
+
+Combine will switch to color blending mode when the first input is a color map. The second should be a color map too. If the second input is a mask or heightfield it will be converted into an RGB color map.
+
+Inversely, if the first input is a heightmap or mask and the second is a color map, the second map will be converted into a grayscale mask.
+
+
+#### Example
 
 This is an example of equally blending (Mode: Blend, Ratio: 50%) @Perlin and @Mountain nodes.
 ![](/images/ref/Combine/combine--blend.webp)
