@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<ArrayOfFlub xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Flub>
+    <Name>Coverage</Name>
+    <Description>Lorem ipsum</Description>
+    <Flubs>
+      <Flub>
+        <Name>Entire Surface</Name>
+      </Flub>
+      <Flub>
+        <Name>Large Clusters</Name>
+      </Flub>
+      <Flub>
+        <Name>Small Clusters</Name>
+      </Flub>
+      <Flub>
+        <Name>Random</Name>
+      </Flub>
+    </Flubs>
+  </Flub>
+  <Flub>
+    <Name>Breakage</Name>
+    <Description>Lorem ipsum</Description>
+    <Flubs>
+      <Flub>
+        <Name>Off</Name>
+      </Flub>
+      <Flub>
+        <Name>Low</Name>
+      </Flub>
+      <Flub>
+        <Name>Medium</Name>
+      </Flub>
+      <Flub>
+        <Name>High</Name>
+      </Flub>
+    </Flubs>
+  </Flub>
+  <Flub>
+    <Name>Detail</Name>
+    <Description>Lorem ipsum</Description>
+    <Flubs>
+      <Flub>
+        <Name>Off</Name>
+      </Flub>
+      <Flub>
+        <Name>Low</Name>
+      </Flub>
+      <Flub>
+        <Name>Medium</Name>
+      </Flub>
+      <Flub>
+        <Name>High</Name>
+      </Flub>
+    </Flubs>
+  </Flub>
+  <Flub>
+    <Name>Protrusion</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
+    <Name>Blending</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
+    <Name>Rugged</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
+    <Name>Seed</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+</ArrayOfFlub>
