@@ -1,0 +1,115 @@
+<?xml version="1.0"?>
+<ArrayOfFlub xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Flub>
+    <Name>Growth Areas</Name>
+    <Description>T</Description>
+  </Flub>
+  <Flub>
+    <Name>Type</Name>
+    <Description>The shape of the generic trees to grow.</Description>
+    <Flubs>
+      <Flub>
+        <Name>Conifers</Name>
+        <Description>Sharp, tall spikes that look like coniferous trees.</Description>
+      </Flub>
+      <Flub>
+        <Name>Broadleaf</Name>
+        <Description>A highly generic shape that looks like a wide coverage of broadleaf plants like forests and jungles.</Description>
+      </Flub>
+      <Flub>
+        <Name>Shrubs</Name>
+        <Description>A simple, sparse growth that looks like shrubs</Description>
+      </Flub>
+    </Flubs>
+  </Flub>
+
+  <Flub>
+    <Name>Health</Name>
+    <Description>The overall health of the ecosystem. Degrading health will create sparser populations, tree stump-like formations, and general dead patches. When Health goes below 0%, growths will be forced into small groves or sparse populations in only a few random places on the terrain.</Description>
+  </Flub>
+  <Flub>
+    <Name>Height</Name>
+    <Description>The arbitrary height of the individual plants.</Description>
+  </Flub>
+  <Flub>
+    <Name>Style</Name>
+    <Description>The style of the generated tree shape.</Description>
+    <Flubs>
+      <Flub>
+        <Name>Small</Name>
+      </Flub>
+      <Flub>
+        <Name>Large</Name>
+      </Flub>
+      <Flub>
+        <Name>Large + Fuzzy</Name>
+      </Flub>
+    </Flubs>
+  </Flub>
+  <Flub>
+    <Name>Seed</Name>
+    <Description>The randomization pattern or seed for the node's process.</Description>
+  </Flub>
+  <Flub>
+    <Name>Inhibitors</Name>
+    <Description>T</Description>
+  </Flub>
+  <Flub>
+    <Name>Growth</Name>
+    <Description>The fertility of the ecosystem.</Description>
+    <Flubs>
+      <Flub>
+        <Name>Normal</Name>
+      </Flub>
+      <Flub>
+        <Name></Name>
+      </Flub>
+    </Flubs>
+  </Flub>
+  <Flub>
+    <Name>Flowing Water</Name>
+    <Description>Growth bias towards freshwater flows.</Description>
+    <Flubs>
+      <Flub>
+        <Name>Avoid</Name>
+        <Description>Trees will grow away from flowing water or snow accumulation. Useful for places with rivers, snow accumulation, etc.</Description>
+      </Flub>
+      <Flub>
+        <Name>Seek</Name>
+        <Description>Trees will grow closer to where water flows, often in shadowed places. Useful for arid environments, canyons, etc.</Description>
+      </Flub>
+    </Flubs>
+  </Flub>
+  <Flub>
+    <Name>Flows</Name>
+    <Description>The amount of flow to simulate.</Description>
+  </Flub>
+  <Flub>
+    <Name>Consolidate Flows</Name>
+    <Description>Consolidation of smaller flows. Higher values merge smaller flows into larger ones.</Description>
+  </Flub>
+  <Flub>
+    <Name>Simulation Bias</Name>
+    <Description>Artificially bias the growth to lower or higher areas. Useful for artistic tweaking.</Description>
+  </Flub>
+  <Flub>
+    <Name>Altitude Min/Max</Name>
+    <Description>The altitude range within which plants can grow.</Description>
+  </Flub>
+  <Flub>
+    <Name>Slope Min/Max</Name>
+    <Description>The slope range within which plants can grow.</Description>
+  </Flub>
+  <Flub>
+    <Name>Patches</Name>
+    <Description>The amount of empty patches in the vegetation growth areas.</Description>
+  </Flub>
+  <Flub>
+    <Name>Chaos</Name>
+    <Description>The distortion of the vegetation grove/clump edges.</Description>
+  </Flub>
+  <Flub>
+    <Name>Smooth</Name>
+    <Description>The amount of edge smoothing where vegetation becomes sparse.</Description>
+  </Flub>
+</ArrayOfFlub>

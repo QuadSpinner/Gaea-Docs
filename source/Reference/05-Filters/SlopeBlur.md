@@ -1,0 +1,4 @@
+﻿---
+title: SlopeBlur
+uid: SlopeBlur
+---

@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<ArrayOfFlub xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Flub>
+    <Name>SlopeBlur</Name>
+    <Description>T</Description>
+  </Flub>
+  <Flub>
+    <Name>Intensity</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
+    <Name>Iterations</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
+    <Name>Direction</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
+    <Name>Asymmetry</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
+    <Name>Normalized</Name>
+    <Description>Lorem ipsum</Description>
+  </Flub>
+  <Flub>
+    <Name>Window</Name>
+    <Description>Lorem ipsum</Description>
+    <Flubs>
+      <Flub>
+        <Name>Bell</Name>
+      </Flub>
+      <Flub>
+        <Name>Box</Name>
+      </Flub>
+    </Flubs>
+  </Flub>
+  <Flub>
+    <Name>Quality</Name>
+    <Description>T</Description>
+  </Flub>
+  <Flub>
+    <Name>Quality</Name>
+    <Description>Lorem ipsum</Description>
+    <Flubs>
+      <Flub>
+        <Name>Low</Name>
+      </Flub>
+      <Flub>
+        <Name>Medium</Name>
+      </Flub>
+      <Flub>
+        <Name>High</Name>
+      </Flub>
+      <Flub>
+        <Name>Ultra</Name>
+      </Flub>
+    </Flubs>
+  </Flub>
+  <Flub>
+    <Name>Antialiasing</Name>
+    <Description>Lorem ipsum</Description>
+    <Flubs>
+      <Flub>
+        <Name>None</Name>
+      </Flub>
+      <Flub>
+        <Name>4x</Name>
+      </Flub>
+      <Flub>
+        <Name>16x</Name>
+      </Flub>
+    </Flubs>
+  </Flub>
+</ArrayOfFlub>
