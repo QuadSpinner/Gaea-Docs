@@ -255,6 +255,7 @@ blockquote {
     margin: 0em;
     min-height: 185px;
     padding: 3em 0em;
+    padding-bottom: 1em;
     /*background-color: #FFFFFF;*/
     border-bottom: 1px solid #DDDDDD;
     box-shadow: none;

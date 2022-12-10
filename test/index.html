@@ -1,0 +1,354 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <title>OpenAI API</title>
+    <link href="/css/oai.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="root">
+        <div class="route-container">
+            <div class="page-wrapper app-wrapper">
+                <div class="app-header">
+                    <div class="left-menu">
+                        <div class="branding"><a class="logo-link" href="/overview">
+                                <div style="width: 24px; height: 24px;">
+
+
+
+                                </div>
+                            </a></div>
+                        <div class="menu-container"><a class="nav-item" href="/">Overview</a><a aria-current="page"
+                                class="nav-item active" href="/docs">Documentation</a><a class="nav-item"
+                                href="/examples">Examples</a><a class="nav-item" href="/playground">Playground</a></div>
+                    </div>
+                    <div class="right-menu">
+                        <div class="header-upgrade-container"><a role="button" class="header-upgrade-btn"
+                                href="/account/billing"><svg stroke="currentColor" fill="currentColor" stroke-width="0"
+                                    viewBox="0 0 20 20" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd"
+                                        d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z"
+                                        clip-rule="evenodd"></path>
+                                </svg>&nbsp;Upgrade</a></div>
+                        <div class="header-support"><button tabindex="0"
+                                class="btn btn-md btn-minimal btn-neutral header-support-btn" type="button"><span
+                                    class="btn-label-wrap"><span class="btn-node"><svg stroke="currentColor"
+                                            fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" height="1em"
+                                            width="1em" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M512 64C264.6 64 64 264.6 64 512s200.6 448 448 448 448-200.6 448-448S759.4 64 512 64zm0 820c-205.4 0-372-166.6-372-372s166.6-372 372-372 372 166.6 372 372-166.6 372-372 372z">
+                                            </path>
+                                            <path
+                                                d="M623.6 316.7C593.6 290.4 554 276 512 276s-81.6 14.5-111.6 40.7C369.2 344 352 380.7 352 420v7.6c0 4.4 3.6 8 8 8h48c4.4 0 8-3.6 8-8V420c0-44.1 43.1-80 96-80s96 35.9 96 80c0 31.1-22 59.6-56.1 72.7-21.2 8.1-39.2 22.3-52.1 40.9-13.1 19-19.9 41.8-19.9 64.9V620c0 4.4 3.6 8 8 8h48c4.4 0 8-3.6 8-8v-22.7a48.3 48.3 0 0 1 30.9-44.8c59-22.7 97.1-74.7 97.1-132.5.1-39.3-17.1-76-48.3-103.3zM472 732a40 40 0 1 0 80 0 40 40 0 1 0-80 0z">
+                                            </path>
+                                        </svg></span><span class="btn-label-inner">Help‍</span></span></button></div>
+                        <div class="user-section" aria-haspopup="true" aria-expanded="false">
+                            <div class="avatar mr-2">
+                                <div>D</div>
+                            </div>
+                            <div class="user-details">
+                                <div class="user-details-org">QuadSpinner</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mobile-menu-toggle" role="button"><svg stroke="currentColor" fill="none"
+                            stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"
+                            height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                            <line x1="3" y1="12" x2="21" y2="12"></line>
+                            <line x1="3" y1="6" x2="21" y2="6"></line>
+                            <line x1="3" y1="18" x2="21" y2="18"></line>
+                        </svg></div>
+                </div>
+                <div class="page-body full-width flush docs-page">
+                    <div class="docs-nav">
+                        <div class="side-nav side-nav-padded">
+                            <div class="side-nav-section">
+                                <div class="side-nav-header subheading">Get started</div><a
+                                    class="scroll-link side-nav-item" href="/docs/introduction">Introduction</a><a
+                                    class="scroll-link side-nav-item side-nav-child active"
+                                    href="/docs/introduction/overview" aria-current="page">Overview</a><a
+                                    class="scroll-link side-nav-item side-nav-child"
+                                    href="/docs/introduction/key-concepts">Key concepts</a><a
+                                    class="scroll-link side-nav-item side-nav-child"
+                                    href="/docs/introduction/next-steps">Next steps</a><a
+                                    class="scroll-link side-nav-item" href="/docs/quickstart">Quickstart tutorial</a><a
+                                    class="scroll-link side-nav-item" href="/docs/libraries">Libraries</a><a
+                                    class="scroll-link side-nav-item" href="/docs/models">Models</a><a
+                                    class="scroll-link side-nav-item" href="/docs/usage-policies">Usage policies</a>
+                            </div>
+                            <div class="side-nav-section">
+                                <div class="side-nav-header subheading">Guides</div><a class="scroll-link side-nav-item"
+                                    href="/docs/guides/completion">Text completion</a><a
+                                    class="scroll-link side-nav-item" href="/docs/guides/code">Code completion</a><a
+                                    class="scroll-link side-nav-item" href="/docs/guides/images">Image generation</a><a
+                                    class="scroll-link side-nav-item" href="/docs/guides/fine-tuning">Fine-tuning</a><a
+                                    class="scroll-link side-nav-item" href="/docs/guides/embeddings">Embeddings</a><a
+                                    class="scroll-link side-nav-item" href="/docs/guides/moderation">Moderation</a><a
+                                    class="scroll-link side-nav-item" href="/docs/guides/safety-best-practices">Safety
+                                    best practices</a><a class="scroll-link side-nav-item"
+                                    href="/docs/guides/production-best-practices">Production best practices</a>
+                            </div>
+                            <div class="side-nav-section">
+                                <div class="side-nav-header subheading">API Reference</div><a
+                                    class="scroll-link side-nav-item"
+                                    href="/docs/api-reference/introduction">Introduction</a><a
+                                    class="scroll-link side-nav-item"
+                                    href="/docs/api-reference/authentication">Authentication</a><a
+                                    class="scroll-link side-nav-item" href="/docs/api-reference/making-requests">Making
+                                    requests</a><a class="scroll-link side-nav-item"
+                                    href="/docs/api-reference/models">Models</a><a class="scroll-link side-nav-item"
+                                    href="/docs/api-reference/completions">Completions</a><a
+                                    class="scroll-link side-nav-item" href="/docs/api-reference/edits">Edits</a><a
+                                    class="scroll-link side-nav-item" href="/docs/api-reference/images">Images</a><a
+                                    class="scroll-link side-nav-item"
+                                    href="/docs/api-reference/embeddings">Embeddings</a><a
+                                    class="scroll-link side-nav-item" href="/docs/api-reference/files">Files</a><a
+                                    class="scroll-link side-nav-item"
+                                    href="/docs/api-reference/fine-tunes">Fine-tunes</a><a
+                                    class="scroll-link side-nav-item"
+                                    href="/docs/api-reference/moderations">Moderations</a>
+                                    <a
+                                    class="scroll-link side-nav-item" href="/docs/api-reference/engines">Engines</a><a
+                                    class="scroll-link side-nav-item"
+                                    href="/docs/api-reference/parameter-details">Parameter details</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="docs-body">
+                        <div class="markdown-page markdown-content docs-introduction-page markdown-prompt-blockquote">
+                            <div class="anchor-heading-root"><a class="anchor-heading-link"
+                                    href="/docs/introduction/introduction">
+                                    <h1 class="anchor-heading" name="introduction">Introduction<svg
+                                            stroke="currentColor" fill="currentColor" stroke-width="0"
+                                            viewBox="0 0 20 20" class="anchor-heading-icon" height="15px" width="15px"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd"
+                                                d="M12.586 4.586a2 2 0 112.828 2.828l-3 3a2 2 0 01-2.828 0 1 1 0 00-1.414 1.414 4 4 0 005.656 0l3-3a4 4 0 00-5.656-5.656l-1.5 1.5a1 1 0 101.414 1.414l1.5-1.5zm-5 5a2 2 0 012.828 0 1 1 0 101.414-1.414 4 4 0 00-5.656 0l-3 3a4 4 0 105.656 5.656l1.5-1.5a1 1 0 10-1.414-1.414l-1.5 1.5a2 2 0 11-2.828-2.828l3-3z"
+                                                clip-rule="evenodd"></path>
+                                        </svg></h1>
+                                </a></div>
+                            <div class="anchor-heading-root"><a class="anchor-heading-link"
+                                    href="/docs/introduction/overview">
+                                    <h3 class="anchor-heading" name="overview">Overview<svg stroke="currentColor"
+                                            fill="currentColor" stroke-width="0" viewBox="0 0 20 20"
+                                            class="anchor-heading-icon" height="15px" width="15px"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd"
+                                                d="M12.586 4.586a2 2 0 112.828 2.828l-3 3a2 2 0 01-2.828 0 1 1 0 00-1.414 1.414 4 4 0 005.656 0l3-3a4 4 0 00-5.656-5.656l-1.5 1.5a1 1 0 101.414 1.414l1.5-1.5zm-5 5a2 2 0 012.828 0 1 1 0 101.414-1.414 4 4 0 00-5.656 0l-3 3a4 4 0 105.656 5.656l1.5-1.5a1 1 0 10-1.414-1.414l-1.5 1.5a2 2 0 11-2.828-2.828l3-3z"
+                                                clip-rule="evenodd"></path>
+                                        </svg></h3>
+                                </a></div>
+                            <p>The OpenAI API can be applied to virtually any task that involves understanding or
+                                generating natural language or code. We offer a spectrum of <a
+                                    href="/docs/models">models</a> with different levels of power suitable for different
+                                tasks, as well as the ability to <a href="/docs/guides/fine-tuning">fine-tune</a> your
+                                own custom models. These models can be used for everything from content generation to
+                                semantic search and classification.</p>
+                            <hr>
+                            <div class="anchor-heading-root"><a class="anchor-heading-link"
+                                    href="/docs/introduction/key-concepts">
+                                    <h2 class="anchor-heading" name="key-concepts">Key concepts<svg
+                                            stroke="currentColor" fill="currentColor" stroke-width="0"
+                                            viewBox="0 0 20 20" class="anchor-heading-icon" height="15px" width="15px"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd"
+                                                d="M12.586 4.586a2 2 0 112.828 2.828l-3 3a2 2 0 01-2.828 0 1 1 0 00-1.414 1.414 4 4 0 005.656 0l3-3a4 4 0 00-5.656-5.656l-1.5 1.5a1 1 0 101.414 1.414l1.5-1.5zm-5 5a2 2 0 012.828 0 1 1 0 101.414-1.414 4 4 0 00-5.656 0l-3 3a4 4 0 105.656 5.656l1.5-1.5a1 1 0 10-1.414-1.414l-1.5 1.5a2 2 0 11-2.828-2.828l3-3z"
+                                                clip-rule="evenodd"></path>
+                                        </svg></h2>
+                                </a></div>
+                            <p>We recommend completing our quickstart tutorial to get acquainted with key concepts
+                                through a hands-on, interactive example.</p><a href="/docs/quickstart">
+                                <div class="icon-item mt-6 mb-10">
+                                    <div class="icon-item-icon purple-gradient-bg"><svg stroke="currentColor"
+                                            fill="currentColor" stroke-width="0" viewBox="0 0 20 20" height="1em"
+                                            width="1em" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M4.555 5.168A1 1 0 003 6v8a1 1 0 001.555.832L10 11.202V14a1 1 0 001.555.832l6-4a1 1 0 000-1.664l-6-4A1 1 0 0010 6v2.798l-5.445-3.63z">
+                                            </path>
+                                        </svg></div>
+                                    <div class="icon-item-right">
+                                        <div class="icon-item-title body-large bold">Quickstart tutorial</div>
+                                        <div class="icon-item-desc body-small">Learn by building a quick sample
+                                            application</div>
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="anchor-heading-root"><a class="anchor-heading-link"
+                                    href="/docs/introduction/prompts-and-completions">
+                                    <h3 class="anchor-heading" name="prompts-and-completions">Prompts and
+                                        completions<svg stroke="currentColor" fill="currentColor" stroke-width="0"
+                                            viewBox="0 0 20 20" class="anchor-heading-icon" height="15px" width="15px"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd"
+                                                d="M12.586 4.586a2 2 0 112.828 2.828l-3 3a2 2 0 01-2.828 0 1 1 0 00-1.414 1.414 4 4 0 005.656 0l3-3a4 4 0 00-5.656-5.656l-1.5 1.5a1 1 0 101.414 1.414l1.5-1.5zm-5 5a2 2 0 012.828 0 1 1 0 101.414-1.414 4 4 0 00-5.656 0l-3 3a4 4 0 105.656 5.656l1.5-1.5a1 1 0 10-1.414-1.414l-1.5 1.5a2 2 0 11-2.828-2.828l3-3z"
+                                                clip-rule="evenodd"></path>
+                                        </svg></h3>
+                                </a></div>
+                            <p>The <a href="/docs/api-reference/completions">completions</a> endpoint is at the center
+                                of our API. It provides a simple interface to our models that is extremely flexible and
+                                powerful. You input some text as a <strong>prompt</strong>, and the model will generate
+                                a text <strong>completion</strong> that attempts to match whatever context or pattern
+                                you gave it. For example, if you give the API the prompt, “Write a tagline for an ice
+                                cream shop”, it will return a completion like “We serve up smiles with every scoop!”</p>
+                            <p><a href="/docs/guides/completion/prompt-design">Designing your prompt</a> is essentially
+                                how you “program” the model, usually by providing some instructions or a few examples.
+                                This is different from most other NLP services which are designed for a single task,
+                                such as sentiment classification or named entity recognition. Instead, the completions
+                                endpoint can be used for virtually any task including content or code generation,
+                                summarization, expansion, conversation, creative writing, style transfer, and more.</p>
+                            <div class="anchor-heading-root"><a class="anchor-heading-link"
+                                    href="/docs/introduction/tokens">
+                                    <h3 class="anchor-heading" name="tokens">Tokens<svg stroke="currentColor"
+                                            fill="currentColor" stroke-width="0" viewBox="0 0 20 20"
+                                            class="anchor-heading-icon" height="15px" width="15px"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd"
+                                                d="M12.586 4.586a2 2 0 112.828 2.828l-3 3a2 2 0 01-2.828 0 1 1 0 00-1.414 1.414 4 4 0 005.656 0l3-3a4 4 0 00-5.656-5.656l-1.5 1.5a1 1 0 101.414 1.414l1.5-1.5zm-5 5a2 2 0 012.828 0 1 1 0 101.414-1.414 4 4 0 00-5.656 0l-3 3a4 4 0 105.656 5.656l1.5-1.5a1 1 0 10-1.414-1.414l-1.5 1.5a2 2 0 11-2.828-2.828l3-3z"
+                                                clip-rule="evenodd"></path>
+                                        </svg></h3>
+                                </a></div>
+                            <p>Our models understand and process text by breaking it down into tokens. Tokens can be
+                                words or just chunks of characters. For example, the word “hamburger” gets broken up
+                                into the tokens “ham”, “bur” and “ger”, while a short and common word like “pear” is a
+                                single token. Many tokens start with a whitespace, for example “ hello” and “ bye”.</p>
+                            <p>The number of tokens processed in a given API request depends on the length of both your
+                                inputs and outputs. As a rough rule of thumb, 1 token is approximately 4 characters or
+                                0.75 words for English text. One limitation to keep in mind is that your text prompt and
+                                generated completion combined must be no more than the model's maximum context length
+                                (for most models this is 2048 tokens, or about 1500 words). Check out our <a
+                                    href="/tokenizer">tokenizer tool</a> to learn more about how text translates to
+                                tokens.</p>
+                            <div class="anchor-heading-root"><a class="anchor-heading-link"
+                                    href="/docs/introduction/models">
+                                    <h3 class="anchor-heading" name="models">Models<svg stroke="currentColor"
+                                            fill="currentColor" stroke-width="0" viewBox="0 0 20 20"
+                                            class="anchor-heading-icon" height="15px" width="15px"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd"
+                                                d="M12.586 4.586a2 2 0 112.828 2.828l-3 3a2 2 0 01-2.828 0 1 1 0 00-1.414 1.414 4 4 0 005.656 0l3-3a4 4 0 00-5.656-5.656l-1.5 1.5a1 1 0 101.414 1.414l1.5-1.5zm-5 5a2 2 0 012.828 0 1 1 0 101.414-1.414 4 4 0 00-5.656 0l-3 3a4 4 0 105.656 5.656l1.5-1.5a1 1 0 10-1.414-1.414l-1.5 1.5a2 2 0 11-2.828-2.828l3-3z"
+                                                clip-rule="evenodd"></path>
+                                        </svg></h3>
+                                </a></div>
+                            <p>The API is powered by a set of models with different capabilities and price points. Our
+                                base GPT-3 models are called Davinci, Curie, Babbage and Ada. Our Codex series is a
+                                descendant of GPT-3 that’s been trained on both natural language and code. To learn
+                                more, visit our <a href="/docs/models">models documentation</a>.</p>
+                            <hr>
+                            <div class="anchor-heading-root"><a class="anchor-heading-link"
+                                    href="/docs/introduction/next-steps">
+                                    <h2 class="anchor-heading" name="next-steps">Next steps<svg stroke="currentColor"
+                                            fill="currentColor" stroke-width="0" viewBox="0 0 20 20"
+                                            class="anchor-heading-icon" height="15px" width="15px"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd"
+                                                d="M12.586 4.586a2 2 0 112.828 2.828l-3 3a2 2 0 01-2.828 0 1 1 0 00-1.414 1.414 4 4 0 005.656 0l3-3a4 4 0 00-5.656-5.656l-1.5 1.5a1 1 0 101.414 1.414l1.5-1.5zm-5 5a2 2 0 012.828 0 1 1 0 101.414-1.414 4 4 0 00-5.656 0l-3 3a4 4 0 105.656 5.656l1.5-1.5a1 1 0 10-1.414-1.414l-1.5 1.5a2 2 0 11-2.828-2.828l3-3z"
+                                                clip-rule="evenodd"></path>
+                                        </svg></h2>
+                                </a></div>
+                            <ul>
+                                <li>Keep our <a href="/docs/usage-policies">usage policies</a> in mind as you start
+                                    building your application.</li>
+                                <li>Explore our <a href="/examples">examples library</a> for inspiration.</li>
+                                <li>Jump into one of our guides to start building.</li>
+                            </ul>
+                            <div class="anchor-heading-root"><a class="anchor-heading-link"
+                                    href="/docs/introduction/guides">
+                                    <h3 class="anchor-heading" name="guides">Guides<svg stroke="currentColor"
+                                            fill="currentColor" stroke-width="0" viewBox="0 0 20 20"
+                                            class="anchor-heading-icon" height="15px" width="15px"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd"
+                                                d="M12.586 4.586a2 2 0 112.828 2.828l-3 3a2 2 0 01-2.828 0 1 1 0 00-1.414 1.414 4 4 0 005.656 0l3-3a4 4 0 00-5.656-5.656l-1.5 1.5a1 1 0 101.414 1.414l1.5-1.5zm-5 5a2 2 0 012.828 0 1 1 0 101.414-1.414 4 4 0 00-5.656 0l-3 3a4 4 0 105.656 5.656l1.5-1.5a1 1 0 10-1.414-1.414l-1.5 1.5a2 2 0 11-2.828-2.828l3-3z"
+                                                clip-rule="evenodd"></path>
+                                        </svg></h3>
+                                </a></div><a href="/docs/guides/completion">
+                                <div class="icon-item mt-6">
+                                    <div class="icon-item-icon green-gradient-bg"><svg stroke="currentColor"
+                                            fill="currentColor" stroke-width="0" viewBox="0 0 20 20" height="1em"
+                                            width="1em" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M13.586 3.586a2 2 0 112.828 2.828l-.793.793-2.828-2.828.793-.793zM11.379 5.793L3 14.172V17h2.828l8.38-8.379-2.83-2.828z">
+                                            </path>
+                                        </svg></div>
+                                    <div class="icon-item-right">
+                                        <div class="icon-item-title body-large bold">Text completion</div>
+                                        <div class="icon-item-desc body-small">Learn how to generate or edit text using
+                                            our models</div>
+                                    </div>
+                                </div>
+                            </a><a href="/docs/guides/code">
+                                <div class="icon-item mt-6">
+                                    <div class="icon-item-icon pink-gradient-bg"><svg stroke="currentColor"
+                                            fill="currentColor" stroke-width="0" viewBox="0 0 20 20" height="1em"
+                                            width="1em" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd"
+                                                d="M2 5a2 2 0 012-2h12a2 2 0 012 2v10a2 2 0 01-2 2H4a2 2 0 01-2-2V5zm3.293 1.293a1 1 0 011.414 0l3 3a1 1 0 010 1.414l-3 3a1 1 0 01-1.414-1.414L7.586 10 5.293 7.707a1 1 0 010-1.414zM11 12a1 1 0 100 2h3a1 1 0 100-2h-3z"
+                                                clip-rule="evenodd"></path>
+                                        </svg></div>
+                                    <div class="icon-item-right">
+                                        <div class="icon-item-title body-large bold">Code completion</div>
+                                        <div class="icon-item-tag icon-item-tag-gray">Limited beta</div>
+                                        <div class="icon-item-desc body-small">Learn how to generate, edit, or explain
+                                            code</div>
+                                    </div>
+                                </div>
+                            </a><a href="/docs/guides/images">
+                                <div class="icon-item mt-6">
+                                    <div class="icon-item-icon purple-gradient-bg"><svg stroke="currentColor"
+                                            fill="currentColor" stroke-width="0" viewBox="0 0 20 20" height="1em"
+                                            width="1em" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd"
+                                                d="M4 3a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V5a2 2 0 00-2-2H4zm12 12H4l4-8 3 6 2-4 3 6z"
+                                                clip-rule="evenodd"></path>
+                                        </svg></div>
+                                    <div class="icon-item-right">
+                                        <div class="icon-item-title body-large bold">Image generation</div>
+                                        <div class="icon-item-tag icon-item-tag-gray">Beta</div>
+                                        <div class="icon-item-desc body-small">Learn how to generate or edit images
+                                        </div>
+                                    </div>
+                                </div>
+                            </a><a href="/docs/guides/fine-tuning">
+                                <div class="icon-item mt-6">
+                                    <div class="icon-item-icon red-gradient-bg"><svg stroke="currentColor"
+                                            fill="currentColor" stroke-width="0" viewBox="0 0 20 20" height="1em"
+                                            width="1em" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M11 17a1 1 0 001.447.894l4-2A1 1 0 0017 15V9.236a1 1 0 00-1.447-.894l-4 2a1 1 0 00-.553.894V17zM15.211 6.276a1 1 0 000-1.788l-4.764-2.382a1 1 0 00-.894 0L4.789 4.488a1 1 0 000 1.788l4.764 2.382a1 1 0 00.894 0l4.764-2.382zM4.447 8.342A1 1 0 003 9.236V15a1 1 0 00.553.894l4 2A1 1 0 009 17v-5.764a1 1 0 00-.553-.894l-4-2z">
+                                            </path>
+                                        </svg></div>
+                                    <div class="icon-item-right">
+                                        <div class="icon-item-title body-large bold">Fine-tuning</div>
+                                        <div class="icon-item-desc body-small">Learn how to train a model for your use
+                                            case</div>
+                                    </div>
+                                </div>
+                            </a><a href="/docs/guides/embeddings">
+                                <div class="icon-item mt-6">
+                                    <div class="icon-item-icon orange-gradient-bg"><svg stroke="currentColor"
+                                            fill="currentColor" stroke-width="0" viewBox="0 0 20 20" height="1em"
+                                            width="1em" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd"
+                                                d="M12 1.586l-4 4v12.828l4-4V1.586zM3.707 3.293A1 1 0 002 4v10a1 1 0 00.293.707L6 18.414V5.586L3.707 3.293zM17.707 5.293L14 1.586v12.828l2.293 2.293A1 1 0 0018 16V6a1 1 0 00-.293-.707z"
+                                                clip-rule="evenodd"></path>
+                                        </svg></div>
+                                    <div class="icon-item-right">
+                                        <div class="icon-item-title body-large bold">Embeddings</div>
+                                        <div class="icon-item-desc body-small">Learn how to search, classify, and
+                                            compare text</div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="layers-root"></div>
+    </div>
+</body>
+
+</html>

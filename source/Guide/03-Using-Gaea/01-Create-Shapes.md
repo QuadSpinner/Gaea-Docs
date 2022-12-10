@@ -3,7 +3,12 @@ uid: primitives
 title: Create with Primitives
 ---
 
-CG applications use primitives, such as cubes and spheres, to create basic geometry. Gaea being a terrain software uses geological primitives such as @Mountain, @Range, and @Crater.
+Gaea is a terrain software that utilizes geological primitives, such as @Mountain, @Ridge, and
+@Crater, to create basic geometry. Unlike traditional CG applications that rely on geometric
+primitives like cubes and spheres, Gaea allows users to generate more natural, realistic
+landscapes through the use of geological primitives. This unique approach to terrain
+creation allows users to easily create stunning, complex environments that are full of detail
+and variation.
 
 ## Procedural Primitives
 
@@ -11,7 +16,7 @@ Most of Gaea's Primitives fall into this category. They generate basic geologica
 
 `TODO: Image`
 
-Primitives expose a property called Seed. Changing this property randomizes the shape. This allows you to create multiple primitives that follow the same general paradigm but are distinctly different shapes.
+Primitives often have a property called a "seed" that can be used to randomize their shape. By changing the seed value, you can create multiple primitives that are based on the same general concept but have distinct and unique shapes. This can be useful for creating a variety of objects that share similar characteristics but are not identical, such as a field of different-shaped rock formations or a mountain with differently shaped ridges. The seed property allows you to easily create variations of a primitive without having to manually adjust its shape each time.
 
 Primitives come in 2 forms: basic Primitives and Geo Primitives.
 

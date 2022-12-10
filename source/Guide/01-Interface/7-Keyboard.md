@@ -6,6 +6,8 @@ title: Keyboard Shortcuts
 
 ## Interface Shortcuts 
 
+You can also access a handy reference sheet in Gaea from the Help Menu in the top right corner of the main window.
+
 #### General Commands
 
 
@@ -41,9 +43,10 @@ title: Keyboard Shortcuts
 | MultiMix selected nodes                  |             `F8` |
 | Convert connection to portal             |       `Ctrl + P` |
 | Highlight entire chain from current node |              `H` |
-| Highlight all ancestors (left side)     |  `Left Ctrl + H` |
+| Highlight all ancestors (left side)      |  `Left Ctrl + H` |
 | Highlight all descendants (right side)   | `Right Ctrl + H` |
 | Select descendants                       |              `E` |
+| Select ancestors                         |    `Shift` + `E` |
 | Auto layout selected nodes               |             `F4` |
 | Switch to desired tab                    |       `Ctrl 1-9` |
 | Go to and select favorite node           |            `1-9` |

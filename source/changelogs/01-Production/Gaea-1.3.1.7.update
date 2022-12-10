@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<UpdateManifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="1.3.1.7" Size="54604191" PatchSize="7706369" ReleaseType="RTM" ReleaseDate="2022-09-02T00:00:00" Filename="Gaea-1.3.1.7.exe" URL="https://get.gaea.app/Release/Gaea-1.3.1.7.exe" PatchURL="https://get.gaea.app/Release/Gaea-1.3.1.7P.exe">
+  <FullDescription>#### What's new in Gaea 1.3.1.7?
+
+The Production Ready build for the 1.3.1 version is now available. This build provides several critical bug fixes and improvements. It is a highly recommended update.
+
+See these blog posts for more details: [Gaea 1.3.1.0](https://blog.quadspinner.com/gaea-1-3-1-0-bleeding-edge/), [Gaea 1.3.1.1](https://blog.quadspinner.com/gaea-1-3-1-1-bleeding-edge/), [Gaea 1.3.1.2](https://blog.quadspinner.com/gaea-1-3-1-2-bleeding-edge/), [Gaea 1.3.1.3](https://blog.quadspinner.com/gaea-1-3-1-3-bleeding-edge/)
+
+## Changelog
+- Fixed a few regressions that crept up in 1.3.1.6.
+- Build Swarm UI simplified to make it compatible with automation.
+- Build Swarm UI now works with Windows Terminal.
+- Build Swarm automation was being ignored in some cases.
+- Build Swarm Output path override would create incorrect file path.
+- Build Swarm has new command line options.
+- Build Swarm command line help overhauled and made more detailed.
+- Build Swarm would ignore scale override.
+- Build Swarm failed to generate XML map in Houdini Bridge.
+- Gaea update UI was broken.
+- Lakes Shore output was broken.
+- Crater Lip parameter was broken.
+- Moving node to a new graph would behave incorrectly when cancelled.
+- Gaussian noise option would break on multiple iterations.
+- Auto placement of node after collapsed nodes was incorrect.
+- Easy search to access long named nodes (TS for ThermalShaper, for example).
+- LoopEnd node would compound changes when parameter was modified.
+- Several internal fixes and optimizations.</FullDescription>
+</UpdateManifest>

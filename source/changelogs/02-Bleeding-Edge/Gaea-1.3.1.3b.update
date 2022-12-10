@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<UpdateManifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="1.3.1.3" Size="55012702" PatchSize="7879211" ReleaseType="EAP" ReleaseDate="2022-05-27T00:00:00" Filename="Gaea-1.3.1.3b.exe" URL="https://get.gaea.app/EAP/Gaea-1.3.1.3b.exe" PatchURL="https://get.gaea.app/EAP/Gaea-1.3.1.3bP.exe">
+  <FullDescription>#### What's new in Gaea 1.3.1?
+
+The fourth Bleeding Edge build for the 1.3.1 version is now available. This build provides a large stability update for the Undo system, and provides new undo tooling as well as disaster recovery tools. Arboreal has been tweaked, and there are several useful fixes and enhancements.
+
+See this [blog post](https://blog.quadspinner.com/gaea-1-3-1-3-bleeding-edge/) for full details.
+</FullDescription>
+</UpdateManifest>

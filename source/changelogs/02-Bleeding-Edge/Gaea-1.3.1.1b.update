@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<UpdateManifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="1.3.1.1" Size="54965894" PatchSize="7676391" ReleaseType="EAP" ReleaseDate="2022-04-29T00:00:00" Filename="Gaea-1.3.1.1b.exe" URL="https://get.gaea.app/EAP/Gaea-1.3.1.1b.exe" PatchURL="https://get.gaea.app/EAP/Gaea-1.3.1.1bP.exe">
+  <FullDescription>#### What's new in Gaea 1.3.1?
+
+The second Bleeding Edge build for the 1.3.1 version is now available. It features the very powerful Arboreal and Crumble nodes as well as some important performance boosts.
+
+See this [blog post](https://blog.quadspinner.com/gaea-1-3-1-1-bleeding-edge/) for all the details.</FullDescription>
+</UpdateManifest>
