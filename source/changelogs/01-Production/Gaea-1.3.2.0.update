@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<UpdateManifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="1.3.2.0" Size="47916934" PatchSize="47916934" ReleaseType="RTM" ReleaseDate="2022-11-17T00:00:00" Filename="Gaea-1.3.2.0.exe" URL="https://get.gaea.app/Release/Gaea-1.3.2.0.exe" PatchURL="https://get.gaea.app/Release/Gaea-1.3.2.0.exe">
+  <FullDescription>#### What's new in Gaea 1.3.2.0?
+
+NOTE: We have re-released this version with an updated installer. If you faced a crash while using Gaea, please re-download this version and install it over the previous one.
+
+For more details see the blog post [Gaea 1.3.2](https://blog.quadspinner.com/gaea-1-3-2/).
+
+## Changelog
+- RockNoise: a new tool for making rocks.
+- Obj2Heightfield: Import OBJ files and capture them as heightfields.
+- Screenshots: transparent backgrounds, 4x supersampling.
+- Screenshots: save quickly to Screenshots folder with automatic filenames.
+- Screenshots: new dedicated button in Status Bar.
+- Rocky: new mode to make stratified rocks.
+- TOR File thumbnails now smaller JPEGs instead of uncompressed PNGs.
+- Route node revised.
+- More detailed build logs when using automation or Houdini Bridge.
+- Outcrops: defaults tweaked.
+- Show cumulative build time of select nodes in Status Bar.
+- New license management UI in main menu.
+- File node: Gaea EXR checkbox renamed to 32-bit EXR to better describe the function.
+- Added safety warning to Mesher when using Optimized structure.
+- FIX: Optimized mesh output could fail in rare scenarios.
+- FIX: Optimized mesh output could crash in Build Swarm.
+- FIX: Mesh could incorrectly save during design-time.
+- FIX: Mountain could crash if scale was set to 0.
+- FIX: Crumble would cause errors when some values were too low.
+- FIX: Thumbnail files accessed in Start screen would remain locked during session.
+- FIX: Auto Apply in blank file could crash Gaea.
+- FIX: Statistics dialog could display cache size incorrectly.
+- FIX: Several internal bug fixes and memory improvements.</FullDescription>
+</UpdateManifest>

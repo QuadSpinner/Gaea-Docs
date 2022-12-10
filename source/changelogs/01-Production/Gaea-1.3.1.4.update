@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<UpdateManifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="1.3.1.4" Size="55040748" PatchSize="55040748" ReleaseType="RTM" ReleaseDate="2022-07-12T00:00:00" Filename="Gaea-1.3.1.4.exe" URL="https://get.gaea.app/Release/Gaea-1.3.1.4.exe" PatchURL="https://get.gaea.app/Release/Gaea-1.3.1.4.exe">
+  <FullDescription>#### What's new in Gaea 1.3.1?
+
+The Production Ready build for the 1.3.1 version is now available. This build provides expanded support for tiled builds, improved rivers, new LookDev nodes, and several stability improvements, a large stability update for the Undo system, and provides new undo tooling as well as disaster recovery tools. Arboreal has been tweaked, and there are several useful fixes and enhancements.
+
+See these blog posts for more details: [Gaea 1.3.1.0](https://blog.quadspinner.com/gaea-1-3-1-0-bleeding-edge/), [Gaea 1.3.1.1](https://blog.quadspinner.com/gaea-1-3-1-1-bleeding-edge/), [Gaea 1.3.1.2](https://blog.quadspinner.com/gaea-1-3-1-2-bleeding-edge/), [Gaea 1.3.1.3](https://blog.quadspinner.com/gaea-1-3-1-3-bleeding-edge/)
+
+</FullDescription>
+</UpdateManifest>

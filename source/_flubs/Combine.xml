@@ -53,7 +53,7 @@
       </Flub>
       <Flub>
         <Name>Embed</Name>
-        <Description>Embed any shape into any other terrain.</Description>
+        <Description>Embed any shape into any other terrain by performing a height-preserving add function.</Description>
       </Flub>
     </Flubs>
   </Flub>
@@ -71,7 +71,7 @@
   </Flub>
   <Flub>
     <Name>Clamp Output</Name>
-    <Description>Clamp the output between 0..1 values, removing any excess spikes or out-of-bound values.</Description>
+    <Description>Clamp the output between 0..1 values, removing any excess spikes or out-of-bound values. You can turn this off if you are sure your values are already within the 0..1 range as this can result in a minor speed increase.</Description>
   </Flub>
   <Flub>
     <Name>Abs</Name>

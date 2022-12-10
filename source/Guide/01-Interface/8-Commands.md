@@ -75,12 +75,6 @@ Gaea has commands spread through several menus and toolbars. Below you can find 
 | Snap                 |                                                                                                             |          |
 | Grid                 | Snap nodes to the grid                                                                                      |          |
 | Items                | Snap nodes to relative nodes nearby for easier organization                                                 |          |
-| Screenshot           |                                                                                                             |          |
-| Viewport             | Takes a screenshot of just the viewport                                                                     |          |
-| Graph                | Takes a screenshot of just the graph                                                                        |          |
-| Both                 | Takes screenshots of both the viewport and graph                                                            |          |
-
-
 
 
 #### Node Properties Menu
@@ -111,10 +105,19 @@ These commands require a node to be selected. They will only work with one node,
 
 | Command | Description | Shortcut |
 | ------- | ----------- | -------- |
+| Learn from Gaea Docs | Teach the Predictive System from your Gaea Docs folder. See @learning. | |
+| Learn from this terrain | Teach the Predictive System from the current terrain. See @learning. | | 
+| List Style| | | 
+| Standard | Show all nodes and highlight the ones that are most used. | | 
+| Expert | Show only most-used nodes. The rest can be accessed from the Tab search in the graph. | |
+| Toolbox Position | | |
+| Full | Dock to the left of both Viewport and Graph. | |
+| Top | Dock to the left side of the Viewport. | |
+| Bottom | Dock to the left side of the Graph. | | 
 
 
 
-#### Toolbox Menu
+#### Screenshots Menu
 
 | Command | Description | Shortcut |
 | ------- | ----------- | -------- |
