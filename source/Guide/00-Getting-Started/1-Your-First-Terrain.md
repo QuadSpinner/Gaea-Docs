@@ -87,8 +87,17 @@ Now that your terrain is ready, you need to "build" the terrain to convert the g
 
 ## Next Steps
 
+#### Learn More
+
 - Read how Primitives work in the @primitives section.
 - Erosion has many intricacies which are crucial to learn. You can read more about it in @erosions.
 - Try the @lookdev nodes. They can create entire "looks" for a terrain in a single pass. They can replace or augment erosion nodes.
 - @color-production goes into more detail about how to create color maps.
 - Read the other pages of the **Using Gaea** section.
+
+#### Tutorials
+
+Try the following tutorials for a more advanced workflow.
+
+- @tut-hero-mountain
+- @tut-shattered-mountain-lake
