@@ -17,7 +17,7 @@ Gaea keeps track of the nodes you use, and how different nodes are connected to 
 
 The predictions are just a suggestion. They show up separately from the main Create menu and are completely optional.
 
-## Predicting connections
+#### Predicting connections
 
 When the Quick Create menu shows up, it will attempt to detect if any patterns exist and try to suggest nodes that you are likely to use.
 
@@ -29,7 +29,7 @@ For example, if you find yourself connecting Autolevel to the Flow output of the
 The suggestions are color coded to help you quickly identify the type of the nodes.
 
 
-## Showing most-used nodes
+#### Showing most-used nodes
 
 In the Toolbox's menu, you can select "Show most-used nodes only". This will hide from the toolbox the nodes you don't use frequently, giving you more screen space and making it easier to find the nodes you do use.
 
@@ -40,7 +40,7 @@ For easier access, you can do this frequently using the small toggle switch next
 
 ![](/images/ui/predictive-mostused.webp){.ui .image .medium}
 
-## Helping Gaea learn
+#### Helping Gaea learn
 
 Gaea's predictions are based on its understanding of your usage. You can direct it to learn from existing files or the currently open file from the @toolbox menu.
 
