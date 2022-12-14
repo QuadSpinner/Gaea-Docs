@@ -15,7 +15,11 @@
                             $(this).addClass("active");
                             $(this).parent().parent().addClass("active").children("div").addClass("active");
                             $(this).parent().parent().parent().addClass("active");
-                            $("#main-nav").scrollTop($(this).offset().top - 80);
+
+                            var whereto = $(goto).offset().top;
+                            if (whereto > window.innerHeight - 80) {
+                                $("#main-nav").scrollTop(whereto - 80);
+                            }
                         }
                     });
 
@@ -23,7 +27,6 @@
             });
 
         $("#toc").load("/navs/" + $("body").data("hivehref") + "-m.html");
-
 
         $("#top-nav .item").each(function () {
             if ($(this).data("hive") == $("body").data("hivehref")) {
